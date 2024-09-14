@@ -81,12 +81,12 @@ class ListScreen(Screens):
 
                 if "#show_dead_button" in event.ui_element.get_object_ids():
                     element.change_object_id("#show_living_button")
-                    element.tool_tip_text = "view cats in the living world"
+                    element.tool_tip_text = "view scugs in the living world"
                     self.death_status = "dead"
                     self.get_sc_cats()
                 else:
                     element.change_object_id("#show_dead_button")
-                    element.tool_tip_text = "view cats in the afterlife"
+                    element.tool_tip_text = "view scugs in the afterlife"
                     self.death_status = "living"
                     if (
                         "#filter_by_death_button"
@@ -251,9 +251,9 @@ class ListScreen(Screens):
             if game.clan.clan_settings["show fav"]
             else "#fav_cat_toggle_off",
             container=self.cat_list_bar,
-            tool_tip_text="hide favorite cat indicators"
+            tool_tip_text="hide favorite scug indicators"
             if game.clan.clan_settings["show fav"]
-            else "show favorite cat indicators",
+            else "show favorite scug indicators",
             starting_height=1,
         )
 
@@ -285,9 +285,9 @@ class ListScreen(Screens):
             if self.death_status != "dead"
             else "#show_living_button",
             container=self.cat_list_bar,
-            tool_tip_text="view cats in the afterlife"
+            tool_tip_text="view scugs in the afterlife"
             if self.death_status != "dead"
-            else "view cats in the living world",
+            else "view scugs in the living world",
             manager=MANAGER,
             starting_height=1,
         )
@@ -663,12 +663,12 @@ class ListScreen(Screens):
             self.df_bg.hide()
             self.ur_bg.hide()
             self.sc_bg.hide()
-            self.update_heading_text("Cats Outside the Clan")
+            self.update_heading_text("Scugs Outside the Clan")
         elif self.current_group == "sc":
             self.df_bg.hide()
             self.ur_bg.hide()
             self.sc_bg.show()
-            self.update_heading_text("StarClan")
+            self.update_heading_text("The Ascended")
         elif self.current_group == "ur":
             self.df_bg.hide()
             self.ur_bg.show()
@@ -678,7 +678,7 @@ class ListScreen(Screens):
             self.df_bg.show()
             self.ur_bg.hide()
             self.sc_bg.hide()
-            self.update_heading_text("Dark Forest")
+            self.update_heading_text("The Rotwound")
 
     def get_cat_list(self):
         """

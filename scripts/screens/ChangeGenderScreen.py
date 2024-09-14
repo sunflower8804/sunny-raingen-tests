@@ -162,7 +162,7 @@ class ChangeGenderScreen(Screens):
         poss = f"{pronouns['poss']} paw slipped.<br>"
         text += poss.capitalize()
         text += f"That den is {pronouns['inposs']}. <br>"
-        text += f"This cat hunts by {pronouns['self']}."
+        text += f"This scug hunts by {pronouns['self']}."
         return text
 
     def update_selected_cat(self):

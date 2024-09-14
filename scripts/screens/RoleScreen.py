@@ -421,15 +421,15 @@ class RoleScreen(Screens):
 
     def get_role_blurb(self):
         if self.the_cat.status == "warrior":
-            output = f"{self.the_cat.name} is a <b>warrior</b>. Warriors are adult cats who feed and protect their " \
+            output = f"{self.the_cat.name} is a <b>warrior</b>. Warriors are adult scugs who feed and protect their " \
                      f"Clan. They are trained to hunt and fight in addition to the ways of the Warrior Code. " \
                      f"Warriors are essential to the survival of a Clan, and usually make up the bulk of it's members. "
         elif self.the_cat.status == "leader":
             output = f"{self.the_cat.name} is the <b>leader</b> of {game.clan.name}Clan. The guardianship of all " \
-                     f"Clan cats has been entrusted to them by StarClan. The leader is the highest " \
+                     f"Clan scugs has been entrusted to them by the Ascended. The leader is the highest " \
                      f"authority in the Clan. The leader holds Clan meetings, determines mentors for " \
                      f"new apprentices, and names new warriors. To help them protect the Clan, " \
-                     f"StarClan has given them nine lives. They typically take the suffix \"star\"."
+                     f"the Ascended has given them nine lives. They typically take the name of \"The Leader\"."
         elif self.the_cat.status == "deputy":
             output = f"{self.the_cat.name} is {game.clan.name}Clan's <b>deputy</b>. " \
                      f"The deputy is the second in command, " \
@@ -439,12 +439,12 @@ class RoleScreen(Screens):
                      f"before appointment.  " \
                      f"The deputy succeeds the leader if they die or retire. "
         elif self.the_cat.status == "medicine cat":
-            output = f"{self.the_cat.name} is a <b>medicine cat</b>. Medicine cats are the healers of the Clan. " \
+            output = f"{self.the_cat.name} is a <b>cleric</b>. Clerics are the healers of the Clan. " \
                      f"They treat " \
-                     f"injuries and illnesses with herbal remedies. Unlike warriors, medicine cats are not expected " \
-                     f"to hunt and fight for the Clan. In addition to their healing duties, medicine cats also have " \
-                     f"a special connection to StarClan. Every half-moon, they travel to their Clan's holy place " \
-                     f"to commune with StarClan. "
+                     f"injuries and illnesses with herbal remedies. Unlike warriors, clerics are not expected " \
+                     f"to hunt and fight for the Clan. In addition to their healing duties, clerics also have " \
+                     f"a special connection to the Ascended. Every half-moon, they travel to their Clan's holy place " \
+                     f"to commune with the Ascended. "
         elif self.the_cat.status == "mediator":
             output = f"{self.the_cat.name} is a <b>mediator</b>. Mediators are not typically required " \
                      f"to hunt or fight for " \
@@ -455,42 +455,42 @@ class RoleScreen(Screens):
             output = f"{self.the_cat.name} is an <b>elder</b>. They have spent many moons serving their Clan, " \
                      f"and have earned " \
                      f"many moons of rest. Elders are essential to passing down the oral tradition of the Clan. " \
-                     f"Sometimes, cats may retire due to disability or injury. Whatever the " \
+                     f"Sometimes, scugs may retire due to disability or injury. Whatever the " \
                      f"circumstance of their retirement, elders are held in high esteem in the Clan, and always eat " \
-                     f"before Warriors and Medicine Cats. "
+                     f"before Warriors and Clerics. "
         elif self.the_cat.status == "apprentice":
             output = f"{self.the_cat.name} is an <b>apprentice</b>, in training to become a warrior. " \
-                     f"Kits can be made warrior apprentices at six moons of age, where they will learn how " \
+                     f"Pups can be made warrior apprentices at six moons of age, where they will learn how " \
                      f"to hunt and fight for their Clan. Typically, the training of an apprentice is entrusted " \
                      f"to an single warrior - their mentor. To build character, apprentices are often assigned " \
-                     f"the unpleasant and grunt tasks of Clan life. Apprentices take the suffix \"paw\", " \
-                     f"to represent the path their paws take towards adulthood. "
+                     f"the unpleasant and grunt tasks of Clan life. Apprentices take the name \"the Apprentice\", " \
+                     f"to represent the path they take towards adulthood. "
         elif self.the_cat.status == "medicine cat apprentice":
-            output = f"{self.the_cat.name} is a <b>medicine cat apprentice</b>, training to become a full medicine cat. " \
-                     f"Kits can be made medicine cat apprentices at six moons of age, where they will learn how to " \
-                     f"heal their Clanmates and commune with StarClan. Medicine cat apprentices are typically chosen " \
-                     f"for their interest in healing and/or their connecting to StarClan. Apprentices take the suffix " \
-                     f"-paw, to represent the path their paws take towards adulthood."
+            output = f"{self.the_cat.name} is a <b>cleric apprentice</b>, training to become a full cleric. " \
+                     f"Pups can be made cleric apprentices at six moons of age, where they will learn how to " \
+                     f"heal their Clanmates and commune with the Ascended. Cleric apprentices are typically chosen " \
+                     f"for their interest in healing and/or their connection to the Ascended. Apprentices take the name " \
+                     f"the Apprentice\", to represent the path they take towards adulthood."
         elif self.the_cat.status == "mediator apprentice":
             output = f"{self.the_cat.name} is a <b>mediator apprentice</b>, training to become a full mediator. " \
                      f"Mediators are in charge of handling disagreements both within the Clan and between Clans. " \
                      f"Mediator apprentices are often chosen for their quick thinking and steady personality. " \
-                     f"Apprentices take the suffix \"paw\", " \
-                     f"to represent the path their paws take towards adulthood. "
+                     f"Apprentices take the suffix \"the Apprentice\", " \
+                     f"to represent the path they take towards adulthood. "
         elif self.the_cat.status == "kitten":
-            output = f"{self.the_cat.name} is a <b>kitten</b>. All cats below the age of six moons are " \
-                     f"considered kits. Kits " \
+            output = f"{self.the_cat.name} is a <b>slugpup</b>. All scugs below the age of six moons are " \
+                     f"considered pups. Pups " \
                      f"are prohibited from leaving camp in order to protect them from the dangers of the wild. " \
                      f"Although they don't have any official duties in the Clan, they are expected to learn the " \
-                     f"legends and traditions of their Clan. They are protected by every cat in the Clan and always " \
-                     f"eat first. Kit take the suffix \"kit\"."
+                     f"legends and traditions of their Clan. They are protected by every scug in the Clan and always " \
+                     f"eat first. Pups take the name \"the Slugpup\"."
         elif self.the_cat.status == "newborn":
-            output = f"{self.the_cat.name} is a <b>newborn kitten</b>. All cats below the age of six moons are " \
-                     f"considered kits. Kits " \
+            output = f"{self.the_cat.name} is a <b>newborn slugpup</b>. All scugs below the age of six moons are " \
+                     f"considered pups. Pups " \
                      f"are prohibited from leaving camp in order to protect them from the dangers of the wild. " \
                      f"Although they don't have any official duties in the Clan, they are expected to learn the " \
-                     f"legends and traditions of their Clan. They are protected by every cat in the Clan and always " \
-                     f"eat first. Kit take the suffix \"kit\"."
+                     f"legends and traditions of their Clan. They are protected by every scug in the Clan and always " \
+                     f"eat first. Pups take the suffix \"the Slugpup\"."
         else:
             output = f"{self.the_cat.name} has an unknown rank. I guess they want to make their own way in life! "
 

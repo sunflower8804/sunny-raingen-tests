@@ -173,9 +173,9 @@ class AllegiancesScreen(Screens):
         if living_meds:
             _box = ["", ""]
             if len(living_meds) == 1:
-                _box[0] = "<b><u>MEDICINE CAT</u></b>"
+                _box[0] = "<b><u>CLERIC</u></b>"
             else:
-                _box[0] = "<b><u>MEDICINE CATS</u></b>"
+                _box[0] = "<b><u>CLERICS</u></b>"
 
             _box[1] = "\n".join([self.generate_one_entry(i) for i in living_meds])
             outputs.append(_box)
@@ -218,7 +218,7 @@ class AllegiancesScreen(Screens):
         # Queens and Kits Box:
         if queen_dict or living_kits:
             _box = ["", ""]
-            _box[0] = "<b><u>QUEENS AND KITS</u></b>"
+            _box[0] = "<b><u>QUEENS AND PUPS</u></b>"
 
             # This one is a bit different.  First all the queens, and the kits they are caring for.
             all_entries = []

@@ -79,7 +79,7 @@ def bs_blurb_text(cat):
     backstory_text = BACKSTORIES["backstories"][backstory]
 
     if cat.status in ["kittypet", "loner", "rogue", "former Clancat"]:
-        return f"This cat is a {cat.status} and currently resides outside of the Clans."
+        return f"This scug is a {cat.status} and currently resides outside of the Clans."
 
     return backstory_text
 
@@ -357,14 +357,14 @@ class ProfileScreen(Screens):
                         self.the_cat.df = False
                         game.clan.add_to_starclan(self.the_cat)
                         self.the_cat.thought = (
-                            "Is relieved to once again hunt in StarClan"
+                            "Is relieved to once again hunt in the Void"
                         )
                     else:
                         self.the_cat.outside, self.the_cat.exiled = False, False
                         self.the_cat.df = True
                         game.clan.add_to_darkforest(self.the_cat)
                         self.the_cat.thought = (
-                            "Is distraught after being sent to the Place of No Stars"
+                            "Is distraught after being sent to the Rotwound"
                         )
 
                 self.clear_profile()
@@ -526,7 +526,7 @@ class ProfileScreen(Screens):
         self.profile_elements = {}
 
         if self.user_notes:
-            self.user_notes = "Click the check mark to enter notes about your cat!"
+            self.user_notes = "Click the check mark to enter notes about your scug!"
 
         for box in self.checkboxes:
             self.checkboxes[box].kill()
@@ -580,15 +580,15 @@ class ProfileScreen(Screens):
             )
         if is_sc_instructor:
             self.the_cat.thought = (
-                "Hello. I am here to guide the dead cats of "
+                "Hello. I am here to guide the dead scugs of "
                 + game.clan.name
-                + "Clan into StarClan."
+                + "Clan into the Void."
             )
         if is_df_instructor:
             self.the_cat.thought = (
-                "Hello. I am here to drag the dead cats of "
+                "Hello. I am here to drag the dead scugs of "
                 + game.clan.name
-                + "Clan into the Dark Forest."
+                + "Clan into the Rotwound."
             )
 
         self.profile_elements["cat_name"] = pygame_gui.elements.UITextBox(
@@ -875,21 +875,21 @@ class ProfileScreen(Screens):
         if the_cat.dead:
             output += str(the_cat.moons)
             if the_cat.moons == 1:
-                output += " moon (in life)\n"
+                output += " cycle (in life)\n"
             elif the_cat.moons != 1:
-                output += " moons (in life)\n"
+                output += " cycles (in life)\n"
 
             output += str(the_cat.dead_for)
             if the_cat.dead_for == 1:
-                output += " moon (in death)"
+                output += " cycle (in death)"
             elif the_cat.dead_for != 1:
-                output += " moons (in death)"
+                output += " cycles (in death)"
         else:
             output += str(the_cat.moons)
             if the_cat.moons == 1:
-                output += " moon"
+                output += " cycle"
             elif the_cat.moons != 1:
-                output += " moons"
+                output += " cycles"
 
         # MATE
         if len(the_cat.mate) > 0:
@@ -1102,8 +1102,8 @@ class ProfileScreen(Screens):
         elif the_cat.is_ill():
             if "grief stricken" in the_cat.illnesses:
                 output += "grieving!"
-            elif "fleas" in the_cat.illnesses:
-                output += "flea-ridden!"
+            elif "leeches" in the_cat.illnesses:
+                output += "leech-ridden!"
             else:
                 output += "sick!"
 
@@ -1182,14 +1182,14 @@ class ProfileScreen(Screens):
                     scale(pygame.Rect((104, 1028), (68, 68))),
                     "",
                     object_id="#unchecked_checkbox",
-                    tool_tip_text="Show the Moon that certain history events occurred on",
+                    tool_tip_text="Show the cycle that certain history events occurred on",
                     manager=MANAGER,
                 )
                 self.show_moons = UIImageButton(
                     scale(pygame.Rect((104, 1028), (68, 68))),
                     "",
                     object_id="#checked_checkbox",
-                    tool_tip_text="Stop showing the Moon that certain history events occurred on",
+                    tool_tip_text="Stop showing the cycle that certain history events occurred on",
                     manager=MANAGER,
                 )
 
@@ -1199,7 +1199,7 @@ class ProfileScreen(Screens):
         """Opens the User Notes portion of the History Tab"""
         self.load_user_notes()
         if self.user_notes is None:
-            self.user_notes = "Click the check mark to enter notes about your cat!"
+            self.user_notes = "Click the check mark to enter notes about your scug!"
 
         self.notes_entry = pygame_gui.elements.UITextEntryBox(
             scale(pygame.Rect((200, 946), (1200, 298))),
@@ -1232,7 +1232,7 @@ class ProfileScreen(Screens):
 
         if (
             notes is None
-            or notes == "Click the check mark to enter notes about your cat!"
+            or notes == "Click the check mark to enter notes about your scug!"
         ):
             return
 
@@ -1253,7 +1253,7 @@ class ProfileScreen(Screens):
         try:
             with open(notes_file_path, "r") as read_file:
                 rel_data = ujson.loads(read_file.read())
-                self.user_notes = "Click the check mark to enter notes about your cat!"
+                self.user_notes = "Click the check mark to enter notes about your scug!"
                 if str(self.the_cat.ID) in rel_data:
                     self.user_notes = rel_data.get(str(self.the_cat.ID))
         except Exception as e:
@@ -1320,9 +1320,9 @@ class ProfileScreen(Screens):
             self.the_cat.status in ["kittypet", "loner", "rogue", "former Clancat"]
             and self.the_cat.dead
         ):
-            bs_blurb = f"This cat was a {self.the_cat.status} in life."
+            bs_blurb = f"This scug was a {self.the_cat.status} in life."
         elif self.the_cat.status in ["kittypet", "loner", "rogue", "former Clancat"]:
-            bs_blurb = f"This cat is a {self.the_cat.status} and currently resides outside of the Clans."
+            bs_blurb = f"This scug is a {self.the_cat.status} and currently resides outside of the Clans."
 
         if bs_blurb is not None:
             adjust_text = str(bs_blurb).replace("This cat", str(self.the_cat.name))
@@ -1389,7 +1389,7 @@ class ProfileScreen(Screens):
                 # the first event keeps the cat's name, consecutive events get to switch it up a bit
                 if i != 0:
                     sentence_beginners = [
-                        "This cat",
+                        "This scug",
                         "Then {PRONOUN/m_c/subject} {VERB/m_c/were/was}",
                         "{PRONOUN/m_c/subject/CAP} {VERB/m_c/were/was} also",
                         "Also, {PRONOUN/m_c/subject} {VERB/m_c/were/was}",
@@ -1397,7 +1397,7 @@ class ProfileScreen(Screens):
                         "{PRONOUN/m_c/subject/CAP} {VERB/m_c/were/was} then",
                     ]
                     chosen = choice(sentence_beginners)
-                    if chosen == "This cat":
+                    if chosen == "This scug":
                         new_text = new_text.replace(str(self.the_cat.name), chosen, 1)
                     else:
                         new_text = new_text.replace(
@@ -1426,13 +1426,13 @@ class ProfileScreen(Screens):
 
         # First, just list the mentors:
         if self.the_cat.status in ["kitten", "newborn"]:
-            influence_history = "This cat has not begun training."
+            influence_history = "This scug has not begun training."
         elif self.the_cat.status in [
             "apprentice",
             "medicine cat apprentice",
             "mediator apprentice",
         ]:
-            influence_history = "This cat has not finished training."
+            influence_history = "This scug has not finished training."
         else:
             valid_formor_mentors = [
                 Cat.fetch_cat(i)
@@ -1453,7 +1453,7 @@ class ProfileScreen(Screens):
                 else:
                     influence_history += str(valid_formor_mentors[0].name) + ". "
             else:
-                influence_history += "This cat either did not have a mentor, or {PRONOUN/m_c/poss} mentor is unknown. "
+                influence_history += "This scug either did not have a mentor, or {PRONOUN/m_c/poss} mentor is unknown. "
             
             # Second, do the facet/personality effect
             trait_influence = []
@@ -1696,8 +1696,8 @@ class ProfileScreen(Screens):
                     if index == death_number - 1 and self.the_cat.dead:
                         life_text = "lost {PRONOUN/m_c/poss} last remaining life"
                         # added code
-                        if "This cat was" in text:
-                            text = text.replace("This cat was", "{VERB/m_c/were/was}")
+                        if "This scug was" in text:
+                            text = text.replace("This scug was", "{VERB/m_c/were/was}")
                         else:
                             text = text[0].lower() + text[1:]
                     else:
@@ -1932,9 +1932,9 @@ class ProfileScreen(Screens):
                     game.clan.age - self.the_cat.permanent_condition[name]["moon_start"]
                 )
                 if moons_with != 1:
-                    text_list.append(f"has had this condition for {moons_with} moons")
+                    text_list.append(f"has had this condition for {moons_with} cycles")
                 else:
-                    text_list.append(f"has had this condition for 1 moon")
+                    text_list.append(f"has had this condition for 1 cycle")
 
             # is permanent
             text_list.append("permanent condition")
@@ -1961,9 +1961,9 @@ class ProfileScreen(Screens):
                 insert = "has been pregnant for"
 
             if moons_with != 1:
-                text_list.append(f"{insert} {moons_with} moons")
+                text_list.append(f"{insert} {moons_with} cycles")
             else:
-                text_list.append(f"{insert} 1 moon")
+                text_list.append(f"{insert} 1 cycle")
             
             # infected or festering
             if "complication" in keys:
@@ -1987,9 +1987,9 @@ class ProfileScreen(Screens):
                 insert = "has been grieving for"
 
             if moons_with != 1:
-                text_list.append(f"{insert} {moons_with} moons")
+                text_list.append(f"{insert} {moons_with} cycles")
             else:
-                text_list.append(f"{insert} 1 moon")
+                text_list.append(f"{insert} 1 cycle")
 
             if self.the_cat.illnesses[name]["infectiousness"] != 0:
                 text_list.append("infectious!")
@@ -2137,7 +2137,7 @@ class ProfileScreen(Screens):
                 scale(pygame.Rect((1156, 1044), (344, 72))),
                 "",
                 object_id="#destroy_accessory_button",
-                tool_tip_text="This will permanently remove this cat's current accessory",
+                tool_tip_text="This will permanently remove this scug's current accessory",
                 starting_height=2,
                 manager=MANAGER,
             )
@@ -2290,7 +2290,7 @@ class ProfileScreen(Screens):
                         scale(pygame.Rect((1156, 900), (344, 92))),
                         "",
                         object_id=object_id,
-                        tool_tip_text="Changing where this cat resides will change "
+                        tool_tip_text="Changing where this scug resides will change "
                         "where your Clan goes after death. ",
                         starting_height=2,
                         manager=MANAGER,
@@ -2351,14 +2351,14 @@ class ProfileScreen(Screens):
                     scale(pygame.Rect((104, 1028), (68, 68))),
                     "",
                     object_id="#unchecked_checkbox",
-                    tool_tip_text="Show the Moon that certain history events occurred on",
+                    tool_tip_text="Show the Cycle that certain history events occurred on",
                     manager=MANAGER,
                 )
                 self.show_moons = UIImageButton(
                     scale(pygame.Rect((104, 1028), (68, 68))),
                     "",
                     object_id="#checked_checkbox",
-                    tool_tip_text="Stop showing the Moon that certain history events occurred on",
+                    tool_tip_text="Stop showing the Cycle that certain history events occurred on",
                     manager=MANAGER,
                 )
                 if game.switches["show_history_moons"]:

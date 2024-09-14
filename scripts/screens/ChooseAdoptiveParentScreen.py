@@ -157,7 +157,7 @@ class ChooseAdoptiveParentScreen(Screens):
         """Sets up the elements that are always on the page"""
 
         self.info = pygame_gui.elements.UITextBox(
-            "If a cat is added as an adoptive parent, they will be displayed on the family page and considered a full relative. "
+            "If a scug is added as an adoptive parent, they will be displayed on the family page and considered a full relative. "
             "Adoptive and blood parents will be treated the same; this also applies to siblings. ",
             scale(pygame.Rect((400, 120), (800, 200))),
             object_id=get_text_box_theme("#text_box_22_horizcenter_spacing_95"),
@@ -168,10 +168,10 @@ class ChooseAdoptiveParentScreen(Screens):
             "",
             object_id="#help_button",
             manager=MANAGER,
-            tool_tip_text="A cat's adoptive parents are set automatically when the cat is born. "
+            tool_tip_text="A scug's adoptive parents are set automatically when the scug is born. "
             "Any cats that are mates with the parents at the time of birth are considered adoptive parents."
             "<br><br>"
-            "To be a possible adoptive parent, the cat has to be 14 moons older than the child.",
+            "To be a possible adoptive parent, the scug has to be 14 moons older than the child.",
         )
 
         self.the_cat_frame = pygame_gui.elements.UIImage(
