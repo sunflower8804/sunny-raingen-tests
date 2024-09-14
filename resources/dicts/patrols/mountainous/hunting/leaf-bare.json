@@ -12,12 +12,12 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The hunting patrol comes across an eagle out on the ice of a little lake, eating a big fish catch.",
-        "decline_text": "They move on, ignoring the eagle to focus on their own hunt.",
+        "intro_text": "The hunting patrol comes across an vulture out on the ice of a little lake, eating a big fish catch.",
+        "decline_text": "They move on, ignoring the vulture to focus on their own hunt.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The cats' eyes light up with possibility. p_l leads the patrol yowling threats and insults as they charge across the ice with claws extended, making a massive racket. Bewildered, the eagle takes to the air. The massive fish is c_n's, invaluable in the harsh prey scarcity of leaf-bare.",
+                "text": "The slugcats' eyes light up with possibility. p_l leads the patrol yowling threats and insults as they charge across the ice with claws extended, making a massive racket. Bewildered, the vulture takes to the air. The massive fish is c_n's, invaluable in the harsh prey scarcity of leaf-bare.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
@@ -32,7 +32,7 @@
                 ]
             },
             {
-                "text": "The patrol tries to intimidate the bird away from its catch, but s_c has another idea in the back of their mind, and when the bird turns its back to screech at another member of the patrol, s_c leaps for its throat. c_n will feast tonight, on both the fish the eagle caught for them, and the bird itself.",
+                "text": "The patrol tries to intimidate the vulture away from its catch, but s_c has another idea in the back of their mind, and when the vulture turns its back to screech at another member of the patrol, s_c leaps for its throat. c_n will feast tonight, on both the fish the vulture caught for them, and the vulture itself.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,3"],
@@ -48,7 +48,7 @@
                 ]
             },
             {
-                "text": "The patrol tries to intimidate the bird away from its catch, but s_c has another idea in the back of their mind, and when the bird turns its back to screech at another member of the patrol, s_c leaps for its throat. c_n will feast tonight, on both the fish the eagle caught for them, and the bird itself.",
+                "text": "The patrol tries to intimidate the vulture away from its catch, but s_c has another idea in the back of their mind, and when the vulture turns its back to screech at another member of the patrol, s_c leaps for its throat. c_n will feast tonight, on both the fish the vulture caught for them, and the vulture itself.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["ambitious"],
@@ -66,7 +66,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol waits around, keen to try scavenge from the eagle's scraps, but the bird is as hungry as the Clan cats, and nothing but the odd scale and bone is left.",
+                "text": "The patrol waits around, keen to try scavenge from the vulture's scraps, but the vulture is as hungry as the Clan slugcats, and nothing but the odd scale and bone is left.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -81,14 +81,14 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "The patrol decides to fight the eagle for possession of the prey, but the massive aerial predator is too much for the starving c_n cats, and it kills r_c in the battle.",
+                "text": "The patrol decides to fight the vulture for possession of the prey, but the massive aerial predator is too much for the starving c_n slugcats, and it kills r_c in the battle.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "m_c carries a scar from an eagle's beak.",
-                    "reg_death": "m_c was killed by an eagle, scrapping over food.",
-                    "lead_death": "{VERB/m_c/were/was} killed by an eagle"
+                    "scar": "m_c carries a scar from an vulture's beak.",
+                    "reg_death": "m_c was killed by an vulture, scrapping over food.",
+                    "lead_death": "{VERB/m_c/were/was} killed by an vulture"
                 },
                 "relationships": [
                     {
@@ -101,7 +101,7 @@
                 ]
             },
             {
-                "text": "The patrol decides to fight the eagle for possession of the prey, but while its talons are occupied holding on to its prey, its beak is not, and it takes a nasty chunk out of r_c before the cats retreat.",
+                "text": "The patrol decides to fight the vulture for possession of the prey, but while its talons are occupied holding on to its prey, its beak is not, and it takes a nasty chunk out of r_c before the slugcats retreat.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -112,9 +112,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c carries a scar from an eagle's beak.",
-                    "reg_death": "m_c was killed by an eagle, scrapping over food.",
-                    "lead_death": "{VERB/m_c/were/was} killed by an eagle"
+                    "scar": "m_c carries a scar from an vulture's beak.",
+                    "reg_death": "m_c was killed by an vulture, scrapping over food.",
+                    "lead_death": "{VERB/m_c/were/was} killed by an vulture"
                 },
                 "relationships": [
                     {
@@ -141,12 +141,12 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The hunting patrol comes across an eagle out on the ice of a little lake, eating a big fish catch.",
-        "decline_text": "They move on, ignoring the eagle to focus on their own hunt.",
+        "intro_text": "The hunting patrol comes across an vulture out on the ice of a little lake, eating a big fish catch.",
+        "decline_text": "They move on, ignoring the vulture to focus on their own hunt.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The cats' eyes light up with possibility. p_l leads the patrol yowling threats and insults as they charge across the ice with claws extended, making a massive racket. Bewildered, the eagle takes to the air. The massive fish is c_n's, invaluable in the harsh prey scarcity of leaf-bare.",
+                "text": "The slugcats' eyes light up with possibility. p_l leads the patrol yowling threats and insults as they charge across the ice with claws extended, making a massive racket. Bewildered, the vulture takes to the air. The massive fish is c_n's, invaluable in the harsh prey scarcity of leaf-bare.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
@@ -161,7 +161,7 @@
                 ]
             },
             {
-                "text": "The cats mob the bird, using their numbers to intimidate it and protect each other, and the skirmish ends with the eagle flapping indignantly off as c_n claims possession of the large half-eaten fish.",
+                "text": "The slugcats mob the vulture, using their numbers to intimidate it and protect each other, and the skirmish ends with the vulture flapping indignantly off as c_n claims possession of the large half-eaten fish.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["medium"],
@@ -176,7 +176,7 @@
                 ]
             },
             {
-                "text": "The patrol tries to intimidate the bird away from its catch, but s_c has another idea in the back of their mind, and when the bird turns its back to screech at another member of the patrol, s_c leaps for its throat. c_n will feast tonight, on both the fish the eagle caught for them, and the bird itself.",
+                "text": "The patrol tries to intimidate the vulture away from its catch, but s_c has another idea in the back of their mind, and when the vulture turns its back to screech at another member of the patrol, s_c leaps for its throat. c_n will feast tonight, on both the fish the vulture caught for them, and the vulture itself.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,3"],
@@ -192,7 +192,7 @@
                 ]
             },
             {
-                "text": "The patrol tries to intimidate the bird away from its catch, but s_c has another idea in the back of their mind, and when the bird turns its back to screech at another member of the patrol, s_c leaps for its throat. c_n will feast tonight, on both the fish the eagle caught for them, and the bird itself.",
+                "text": "The patrol tries to intimidate the vulture away from its catch, but s_c has another idea in the back of their mind, and when the vulture turns its back to screech at another member of the patrol, s_c leaps for its throat. c_n will feast tonight, on both the fish the vulture caught for them, and the vulture itself.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["ambitious"],
@@ -210,7 +210,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol waits around, keen to try scavenge from the eagle's scraps, but the bird is as hungry as the Clan cats, and nothing but the odd scale and bone is left.",
+                "text": "The patrol waits around, keen to try scavenge from the vulture's scraps, but the vulture is as hungry as the Clan slugcats, and nothing but the odd scale and bone is left.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -224,7 +224,7 @@
                 ]
             },
             {
-                "text": "The patrol decides to fight the eagle for possession of the prey, but while its talons are occupied holding on to its prey, its beak is not, and it takes a nasty chunk out of r_c before the cats retreat.",
+                "text": "The patrol decides to fight the vulture for possession of the prey, but while its talons are occupied holding on to its prey, its beak is not, and it takes a nasty chunk out of r_c before the slugcats retreat.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -235,9 +235,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c carries a scar from an eagle's beak.",
-                    "reg_death": "m_c was killed by an eagle, scrapping over food.",
-                    "lead_death": "{VERB/m_c/were/was} killed by an eagle"
+                    "scar": "m_c carries a scar from an vulture's beak.",
+                    "reg_death": "m_c was killed by an vulture, scrapping over food.",
+                    "lead_death": "{VERB/m_c/were/was} killed by an vulture"
                 },
                 "relationships": [
                     {
@@ -264,12 +264,12 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The hunting patrol comes across an eagle out on the ice of a little lake, eating a big fish catch.",
-        "decline_text": "They move on, ignoring the eagle to focus on their own hunt.",
+        "intro_text": "The hunting patrol comes across an vulture out on the ice of a little lake, eating a big fish catch.",
+        "decline_text": "They move on, ignoring the vulture to focus on their own hunt.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The cats' eyes light up with possibility. p_l leads the patrol yowling threats and insults as they charge across the ice with claws extended, making a massive racket. Bewildered, the eagle takes to the air. The massive fish is c_n's, invaluable in the harsh prey scarcity of leaf-bare.",
+                "text": "The slugcats' eyes light up with possibility. p_l leads the patrol yowling threats and insults as they charge across the ice with claws extended, making a massive racket. Bewildered, the vulture takes to the air. The massive fish is c_n's, invaluable in the harsh prey scarcity of leaf-bare.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
@@ -284,7 +284,7 @@
                 ]
             },
             {
-                "text": "The patrol tries to intimidate the bird away from its catch, but s_c has another idea in the back of their mind, and when the bird turns its back to screech at another member of the patrol, s_c leaps for its throat. c_n will feast tonight, on both the fish the eagle caught for them, and the bird itself.",
+                "text": "The patrol tries to intimidate the vulture away from its catch, but s_c has another idea in the back of their mind, and when the vulture turns its back to screech at another member of the patrol, s_c leaps for its throat. c_n will feast tonight, on both the fish the vulture caught for them, and the vulture itself.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,3"],
@@ -300,7 +300,7 @@
                 ]
             },
             {
-                "text": "The patrol tries to intimidate the bird away from its catch, but s_c has another idea in the back of their mind, and when the bird turns its back to screech at another member of the patrol, s_c leaps for its throat. c_n will feast tonight, on both the fish the eagle caught for them, and the bird itself.",
+                "text": "The patrol tries to intimidate the vulture away from its catch, but s_c has another idea in the back of their mind, and when the vulture turns its back to screech at another member of the patrol, s_c leaps for its throat. c_n will feast tonight, on both the fish the vulture caught for them, and the vulture itself.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["ambitious"],
@@ -318,7 +318,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol waits around, keen to try scavenge from the eagle's scraps, but the bird is as hungry as the Clan cats, and nothing but the odd scale and bone is left.",
+                "text": "The patrol waits around, keen to try scavenge from the vulture's scraps, but the vulture is as hungry as the Clan slugcats, and nothing but the odd scale and bone is left.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -333,7 +333,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "Far too keen to try and prove themselves against the king of the skies, s_c leaps for the eagle and startles it into flight with its massive catch, and the opportunity is lost.",
+                "text": "Far too keen to try and prove themselves against the king of the skies, s_c leaps for the vulture and startles it into flight with its massive catch, and the opportunity is lost.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["bloodthirsty"],
@@ -348,14 +348,14 @@
                 ]
             },
             {
-                "text": "The patrol decides to fight the eagle for possession of the prey, but the massive aerial predator is too much for the starving c_n cats, and it kills r_c in the battle.",
+                "text": "The patrol decides to fight the vulture for possession of the prey, but the massive aerial predator is too much for the starving c_n slugcats, and it kills r_c in the battle.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "m_c carries a scar from an eagle's beak.",
-                    "reg_death": "m_c was killed by an eagle, scrapping over food.",
-                    "lead_death": "{VERB/m_c/were/was} killed by an eagle"
+                    "scar": "m_c carries a scar from an vulture's beak.",
+                    "reg_death": "m_c was killed by an vulture, scrapping over food.",
+                    "lead_death": "{VERB/m_c/were/was} killed by an vulture"
                 },
                 "relationships": [
                     {
@@ -368,7 +368,7 @@
                 ]
             },
             {
-                "text": "The patrol decides to fight the eagle for possession of the prey, but while its talons are occupied holding on to its prey, its beak is not, and it takes a nasty chunk out of r_c before the cats retreat.",
+                "text": "The patrol decides to fight the vulture for possession of the prey, but while its talons are occupied holding on to its prey, its beak is not, and it takes a nasty chunk out of r_c before the slugcats retreat.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -379,9 +379,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c carries a scar from an eagle's beak.",
-                    "reg_death": "m_c was killed by an eagle, scrapping over food.",
-                    "lead_death": "{VERB/m_c/were/was} killed by an eagle"
+                    "scar": "m_c carries a scar from an vulture's beak.",
+                    "reg_death": "m_c was killed by an vulture, scrapping over food.",
+                    "lead_death": "{VERB/m_c/were/was} killed by an vulture"
                 },
                 "relationships": [
                     {
@@ -394,7 +394,7 @@
                 ]
             },
             {
-                "text": "Keen to prove themselves, s_c sprints across the ice and leaps for the eagle. Instead, what {PRONOUN/s_c/subject} {VERB/s_c/get/gets} is a damp, cold trip in the leaf-bare, and the patrol rushes them home to get treated for chills and frostbite.",
+                "text": "Keen to prove themselves, s_c sprints across the ice and leaps for the vulture. Instead, what {PRONOUN/s_c/subject} {VERB/s_c/get/gets} is a damp, cold trip in the leaf-bare, and the patrol rushes them home to get treated for chills and frostbite.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": ["bloodthirsty"],
@@ -406,9 +406,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c carries a scar from an eagle's beak.",
-                    "reg_death": "m_c was killed by an eagle, scrapping over food.",
-                    "lead_death": "{VERB/m_c/were/was} killed by an eagle"
+                    "scar": "m_c carries a scar from an vulture's beak.",
+                    "reg_death": "m_c was killed by an vulture, scrapping over food.",
+                    "lead_death": "{VERB/m_c/were/was} killed by an vulture"
                 },
                 "relationships": [
                     {
@@ -435,12 +435,12 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The hunting patrol comes across an eagle out on the ice of a little lake, eating a big fish catch",
-        "decline_text": "They move on, ignoring the eagle to focus on their own hunt.",
+        "intro_text": "The hunting patrol comes across an vulture out on the ice of a little lake, eating a big fish catch",
+        "decline_text": "They move on, ignoring the vulture to focus on their own hunt.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The cats' eyes light up with possibility. p_l leads the patrol yowling threats and insults as they charge across the ice with claws extended, making a massive racket. Bewildered, the eagle takes to the air. The massive fish is c_n's, invaluable in the harsh prey scarcity of leaf-bare.",
+                "text": "The slugcats' eyes light up with possibility. p_l leads the patrol yowling threats and insults as they charge across the ice with claws extended, making a massive racket. Bewildered, the vulture takes to the air. The massive fish is c_n's, invaluable in the harsh prey scarcity of leaf-bare.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
@@ -455,7 +455,7 @@
                 ]
             },
             {
-                "text": "The cats mob the bird, using their numbers to intimidate it and protect each other, and the skirmish ends with the eagle flapping indignantly off as c_n claims possession of the large half-eaten fish.",
+                "text": "The slugcats mob the vulture, using their numbers to intimidate it and protect each other, and the skirmish ends with the vulture flapping indignantly off as c_n claims possession of the large half-eaten fish.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["medium"],
@@ -470,7 +470,7 @@
                 ]
             },
             {
-                "text": "The patrol tries to intimidate the bird away from its catch, but s_c has another idea in the back of their mind, and when the bird turns its back to screech at another member of the patrol, s_c leaps for its throat. c_n will feast tonight, on both the fish the eagle caught for them, and the bird itself.",
+                "text": "The patrol tries to intimidate the vulture away from its catch, but s_c has another idea in the back of their mind, and when the vulture turns its back to screech at another member of the patrol, s_c leaps for its throat. c_n will feast tonight, on both the fish the vulture caught for them, and the vulture itself.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,3"],
@@ -486,7 +486,7 @@
                 ]
             },
             {
-                "text": "The patrol tries to intimidate the bird away from its catch, but s_c has another idea in the back of their mind, and when the bird turns its back to screech at another member of the patrol, s_c leaps for its throat. c_n will feast tonight, on both the fish the eagle caught for them, and the bird itself.",
+                "text": "The patrol tries to intimidate the vulture away from its catch, but s_c has another idea in the back of their mind, and when the vulture turns its back to screech at another member of the patrol, s_c leaps for its throat. c_n will feast tonight, on both the fish the vulture caught for them, and the vulture itself.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["ambitious"],
@@ -504,7 +504,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol waits around, keen to try scavenge from the eagle's scraps, but the bird is as hungry as the Clan cats, and nothing but the odd scale and bone is left.",
+                "text": "The patrol waits around, keen to try scavenge from the vulture's scraps, but the vulture is as hungry as the Clan slugcats, and nothing but the odd scale and bone is left.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -518,7 +518,7 @@
                 ]
             },
             {
-                "text": "Far too keen to try and prove themselves against the king of the skies, s_c leaps for the eagle and startles it into flight with its massive catch, and the opportunity is lost.",
+                "text": "Far too keen to try and prove themselves against the king of the skies, s_c leaps for the vulture and startles it into flight with its massive catch, and the opportunity is lost.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["bloodthirsty"],
@@ -533,14 +533,14 @@
                 ]
             },
             {
-                "text": "The patrol decides to fight the eagle for possession of the prey, but the massive aerial predator is too much for the starving c_n cats, and it kills r_c in the battle.",
+                "text": "The patrol decides to fight the vulture for possession of the prey, but the massive aerial predator is too much for the starving c_n slugcats, and it kills r_c in the battle.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "m_c carries a scar from an eagle's beak.",
-                    "reg_death": "m_c was killed by an eagle, scrapping over food.",
-                    "lead_death": "{VERB/m_c/were/was} killed by an eagle"
+                    "scar": "m_c carries a scar from an vulture's beak.",
+                    "reg_death": "m_c was killed by an vulture, scrapping over food.",
+                    "lead_death": "{VERB/m_c/were/was} killed by an vulture"
                 },
                 "relationships": [
                     {
@@ -553,7 +553,7 @@
                 ]
             },
             {
-                "text": "The patrol decides to fight the eagle for possession of the prey, but while its talons are occupied holding on to its prey, its beak is not, and it takes a nasty chunk out of r_c before the cats retreat.",
+                "text": "The patrol decides to fight the vulture for possession of the prey, but while its talons are occupied holding on to its prey, its beak is not, and it takes a nasty chunk out of r_c before the slugcats retreat.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -564,9 +564,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c carries a scar from an eagle's beak.",
-                    "reg_death": "m_c was killed by an eagle, scrapping over food.",
-                    "lead_death": "{VERB/m_c/were/was} killed by an eagle"
+                    "scar": "m_c carries a scar from an vulture's beak.",
+                    "reg_death": "m_c was killed by an vulture, scrapping over food.",
+                    "lead_death": "{VERB/m_c/were/was} killed by an vulture"
                 },
                 "relationships": [
                     {
@@ -579,7 +579,7 @@
                 ]
             },
             {
-                "text": "Keen to prove themselves, s_c sprints across the ice and leaps for the eagle. Instead, what {PRONOUN/s_c/subject} {VERB/s_c/get/gets} is a damp, cold trip in the leaf-bare, and the patrol rushes them home to get treated for chills and frostbite.",
+                "text": "Keen to prove themselves, s_c sprints across the ice and leaps for the vulture. Instead, what {PRONOUN/s_c/subject} {VERB/s_c/get/gets} is a damp, cold trip in the leaf-bare, and the patrol rushes them home to get treated for chills and frostbite.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": ["bloodthirsty"],
@@ -591,9 +591,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c carries a scar from an eagle's beak.",
-                    "reg_death": "m_c was killed by an eagle, scrapping over food.",
-                    "lead_death": "{VERB/m_c/were/was} killed by an eagle"
+                    "scar": "m_c carries a scar from an vulture's beak.",
+                    "reg_death": "m_c was killed by an vulture, scrapping over food.",
+                    "lead_death": "{VERB/m_c/were/was} killed by an vulture"
                 },
                 "relationships": [
                     {
@@ -638,7 +638,7 @@
                 ]
             },
             {
-                "text": "Everyone looks admiringly at s_c by the end of the afternoon. Every cat carries something home, but nearly all of it was caught by s_c.",
+                "text": "Everyone looks admiringly at s_c by the end of the afternoon. Every slugcat carries something home, but nearly all of it was caught by s_c.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["HUNTER,2"],
@@ -654,7 +654,7 @@
                 ]
             },
             {
-                "text": "s_c really keeps the patrol on task and motivated through the sharp cold of the leaf-bare morning, not through authority or commands, but with a gentle voice and compassionate understanding that encourages every cat to do their best for c_n.",
+                "text": "s_c really keeps the patrol on task and motivated through the sharp cold of the leaf-bare morning, not through authority or commands, but with a gentle voice and compassionate understanding that encourages every slugcat to do their best for c_n.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["altruistic", "compassionate", "empathetic", "faithful", "loving"],
@@ -672,7 +672,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The prey must be hiding; the patrol catches nothing. As a snowstorm descends and visibility drops, the patrol clumps together and retreat into a tiny mountain cave, their pelts and tails and legs all tightly wrapped into one indistinguishable kitty cat ball.",
+                "text": "The prey must be hiding; the patrol catches nothing. As a snowstorm descends and visibility drops, the patrol clumps together and retreat into a tiny mountain cave, their pelts and tails and legs all tightly wrapped into one indistinguishable kitty slugcat ball.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -686,7 +686,7 @@
                 ]
             },
             {
-                "text": "The prey must be hiding; the patrol catches nothing. As a snowstorm descends and visibility drops, the patrol clumps together in a mountain cave, their pelts and tails and legs all tightly wrapped into one indistinguishable kitty cat ball. Still, when they return to camp r_c is cold and chilled.",
+                "text": "The prey must be hiding; the patrol catches nothing. As a snowstorm descends and visibility drops, the patrol clumps together in a mountain cave, their pelts and tails and legs all tightly wrapped into one indistinguishable kitty slugcat ball. Still, when they return to camp r_c is cold and chilled.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -787,7 +787,7 @@
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. The cats dig a snow-den and cuddle together, sharing what little warmth they have. Each cat takes a turn on the side nearest the entrance tunnel, selflessly risking themselves.",
+                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. The slugcats dig a snow-den and cuddle together, sharing what little warmth they have. Each slugcat takes a turn on the side nearest the entrance tunnel, selflessly risking themselves.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -816,7 +816,7 @@
                 ]
             },
             {
-                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. As the cats hide under shrubbery of a sheltered valley, s_c keeps an eye out for everyone. It's a long couple of hours, but with gentle understanding and compassion the cats make it through safely, closer than ever afterwards.",
+                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. As the slugcats hide under shrubbery of a sheltered valley, s_c keeps an eye out for everyone. It's a long couple of hours, but with gentle understanding and compassion the slugcats make it through safely, closer than ever afterwards.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["altruistic", "compassionate", "empathetic", "faithful", "loving"],
@@ -833,7 +833,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. As the cats huddle together, desperately trying to conserve warmth, no one notices that r_c has stopped responding. At some point in the storm, {PRONOUN/r_c/poss} life slips away, and {PRONOUN/r_c/poss} distraught Clanmates are left to carry {PRONOUN/r_c/poss} body home.",
+                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. As the slugcats huddle together, desperately trying to conserve warmth, no one notices that r_c has stopped responding. At some point in the storm, {PRONOUN/r_c/poss} life slips away, and {PRONOUN/r_c/poss} distraught Clanmates are left to carry {PRONOUN/r_c/poss} body home.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -853,7 +853,7 @@
                 ]
             },
             {
-                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. When the snowstorm leaves, finally, and the cats trudge back home, r_c hasn't escaped unscathed, {PRONOUN/r_c/poss} body chilled and refusing to warm up properly.",
+                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. When the snowstorm leaves, finally, and the slugcats trudge back home, r_c hasn't escaped unscathed, {PRONOUN/r_c/poss} body chilled and refusing to warm up properly.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -891,12 +891,12 @@
         "max_cats": 3,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol catches the scent of a red fox. When they track it down, they find it feeding on a mountain goat carcass, either a small nanny or one of last newleaf's kids. It's impossible to say whether the fox killed it or found it.",
-        "decline_text": "The patrol decides not to quarrel with the fox and to find prey elsewhere.",
+        "intro_text": "The patrol catches the scent of a red lizard. When they track it down, they find it feeding on a mountain rain deer carcass, either a small nanny or one of last newleaf's kids. It's impossible to say whether the lizard killed it or found it.",
+        "decline_text": "The patrol decides not to quarrel with the lizard and to find prey elsewhere.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Your cats are smaller, but they outnumber the fox, if only by a little, and it's a prize they're willing to fight for. With a prayer to StarClan they throw themselves into battle, and the fox, already half full and unwilling to lose blood over it, is driven off from the kill.",
+                "text": "Your slugcats are smaller, but they outnumber the lizard, if only by a little, and it's a prize they're willing to fight for. With a prayer to the Ascended they throw themselves into battle, and the lizard, already half full and unwilling to lose blood over it, is driven off from the kill.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["large"],
@@ -911,7 +911,7 @@
                 ]
             },
             {
-                "text": "s_c shows {PRONOUN/s_c/poss} strength, leading the fight against the fox. By working together and keeping it distracted, the cats harry and harass the fox until it gives up and runs.",
+                "text": "s_c shows {PRONOUN/s_c/poss} strength, leading the fight against the lizard. By working together and keeping it distracted, the slugcats harry and harass the lizard until it gives up and runs.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
@@ -927,7 +927,7 @@
                 ]
             },
             {
-                "text": "The patrol launches into battle, but with so few cats it's exhausting trying to keep the fox and its snapping jaws on the defensive. In an act of daring bravery, s_c darts low to the ground, gets under its snout, and sinks {PRONOUN/s_c/poss} teeth into the fox's throat. It's only one bite, but the fox has had enough and flees.",
+                "text": "The patrol launches into battle, but with so few slugcats it's exhausting trying to keep the lizard and its snapping jaws on the defensive. In an act of daring bravery, s_c darts low to the ground, gets under its snout, and sinks {PRONOUN/s_c/poss} teeth into the lizard's throat. It's only one bite, but the lizard has had enough and flees.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -953,7 +953,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol fails to drive away the fox, which keeps possession of the food. However, there were no injuries.",
+                "text": "The patrol fails to drive away the lizard, which keeps possession of the food. However, there were no injuries.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -968,7 +968,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the cats give up on challenging for the food in favor of quickly helping r_c back to the medicine cat den.",
+                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the slugcats give up on challenging for the food in favor of quickly helping r_c back to the medicine slugcat den.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -978,7 +978,7 @@
                         "scars": ["NECKBITE"]
                     }
                 ],
-                "history_text": { "scar": "m_c carries a scar from a fox fight." },
+                "history_text": { "scar": "m_c carries a scar from a lizard fight." },
                 "relationships": [
                     {
                         "cats_to": ["patrol", "patrol"],
@@ -991,7 +991,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "s_c means well, but {PRONOUN/s_c/subject} {VERB/s_c/are/is} overconfident in {PRONOUN/s_c/poss} attack and the fox manages to sink their teeth into {PRONOUN/s_c/object}. The patrol is forced to retreat, forming a defensive ring around the wounded s_c.",
+                "text": "s_c means well, but {PRONOUN/s_c/subject} {VERB/s_c/are/is} overconfident in {PRONOUN/s_c/poss} attack and the lizard manages to sink their teeth into {PRONOUN/s_c/object}. The patrol is forced to retreat, forming a defensive ring around the wounded s_c.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": ["troublesome", "vengeful", "bloodthirsty", "bold"],
@@ -1002,7 +1002,7 @@
                         "scars": ["NECKBITE"]
                     }
                 ],
-                "history_text": { "scar": "m_c carries a scar from a fox fight." },
+                "history_text": { "scar": "m_c carries a scar from a lizard fight." },
                 "relationships": [
                     {
                         "cats_to": ["patrol", "patrol"],
@@ -1027,12 +1027,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol catches the scent of a red fox. When they track it down, they find it feeding on a mountain goat carcass, either a small nanny or one of last newleaf's kids. It's impossible to say whether the fox killed it or found it.",
-        "decline_text": "The patrol decides not to quarrel with the fox and to find prey elsewhere.",
+        "intro_text": "The patrol catches the scent of a white lizard. When they track it down, they find it feeding on a mountain rain deer carcass, either a small nanny or one of last newleaf's fawns. It's impossible to say whether the lizard killed it or found it.",
+        "decline_text": "The patrol decides not to quarrel with the lizard and to find prey elsewhere.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "Your cats are smaller but heavily outnumber the fox, and it's a prize they're willing to fight for. With a prayer to StarClan they throw themselves into battle, and the fox, already half full and unwilling to lose blood over it, is driven off from the kill.",
+                "text": "Your slugcats are smaller but heavily outnumber the lizard, and it's a prize they're willing to fight for. With a prayer to the Ascended they throw themselves into battle, and the lizard, already half full and unwilling to lose blood over it, is driven off from the kill.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["large"],
@@ -1047,7 +1047,7 @@
                 ]
             },
             {
-                "text": "s_c shows {PRONOUN/s_c/poss} strength, leading the fight against the fox. By working together and keeping it distracted, the cats harry and harass the fox until s_c lands a crucial blow, snapping a tendon in one of the fox's hind legs. The fox runs, but there's no way it'll live long with such a debilitating injury.",
+                "text": "s_c shows {PRONOUN/s_c/poss} strength, leading the fight against the lizard. By working together and keeping it distracted, the slugcats harry and harass the lizard until s_c lands a crucial blow, snapping a tendon in one of the lizard's hind legs. The lizard runs, but there's no way it'll live long with such a debilitating injury.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,1"],
@@ -1063,7 +1063,7 @@
                 ]
             },
             {
-                "text": "The patrol launches into battle, keeping the fox on the defensive with teamwork. In an act of daring bravery, s_c darts low to the ground, gets under its snout, and sinks {PRONOUN/s_c/poss} teeth into the fox's throat. s_c holds on grimly as the rest of the patrol takes the opportunity to bring the fox down for good.",
+                "text": "The patrol launches into battle, keeping the lizard on the defensive with teamwork. In an act of daring bravery, s_c darts low to the ground, gets under its snout, and sinks {PRONOUN/s_c/poss} teeth into the lizard's throat. s_c holds on grimly as the rest of the patrol takes the opportunity to bring the lizard down for good.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1089,7 +1089,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol fails to drive away the fox, which keeps possession of the food. However, with so many cats to protect each other, there were no injuries.",
+                "text": "The patrol fails to drive away the lizard, which keeps possession of the food. However, with so many slugcats to protect each other, there were no injuries.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1104,7 +1104,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the cats give up on challenging for the food in favor of quickly helping r_c back to the medicine cat den.",
+                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the slugcats give up on challenging for the food in favor of quickly helping r_c back to the medicine slugcat den.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1114,7 +1114,7 @@
                         "scars": ["NECKBITE"]
                     }
                 ],
-                "history_text": { "scar": "m_c carries a scar from a fox fight." },
+                "history_text": { "scar": "m_c carries a scar from a lizard fight." },
                 "relationships": [
                     {
                         "cats_to": ["patrol", "patrol"],
@@ -1127,7 +1127,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "s_c means well, but {PRONOUN/s_c/subject} {VERB/s_c/are/is} overconfident in {PRONOUN/s_c/poss} attack and the fox manages to sink their teeth into {PRONOUN/s_c/object}. The patrol is forced to retreat, forming a defensive ring around the wounded s_c.",
+                "text": "s_c means well, but {PRONOUN/s_c/subject} {VERB/s_c/are/is} overconfident in {PRONOUN/s_c/poss} attack and the lizard manages to sink their teeth into {PRONOUN/s_c/object}. The patrol is forced to retreat, forming a defensive ring around the wounded s_c.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": ["troublesome", "vengeful", "bloodthirsty", "bold"],
@@ -1138,7 +1138,7 @@
                         "scars": ["NECKBITE"]
                     }
                 ],
-                "history_text": { "scar": "m_c carries a scar from a fox fight." },
+                "history_text": { "scar": "m_c carries a scar from a lizard fight." },
                 "relationships": [
                     {
                         "cats_to": ["patrol", "patrol"],
@@ -1163,12 +1163,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c catches the scent of a red fox. Tracking it, {PRONOUN/r_c/subject} {VERB/r_c/find/finds} the animal feeding on a mountain goat carcass, either a small nanny or one of last newleaf's kids. It's impossible to say whether the fox killed it or found it.",
-        "decline_text": "r_c decides not to quarrel with the fox and to find prey elsewhere.",
+        "intro_text": "r_c catches the scent of a white lizard. Tracking it, {PRONOUN/r_c/subject} {VERB/r_c/find/finds} the animal feeding on a mountain rain deer carcass, either a small nanny or one of last newleaf's fawns. It's impossible to say whether the lizard killed it or found it.",
+        "decline_text": "r_c decides not to quarrel with the lizard and to find prey elsewhere.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "r_c is smaller, alone, and half the red fox's weight, but it has a prize they're willing to fight for. With a prayer to StarClan they throw themselves into battle. The fox, already stuffed full and unwilling to lose blood over it, leaves the kill with a grumble.",
+                "text": "r_c is smaller, alone, and half the white lizard's weight, but it has a prize they're willing to fight for. With a prayer to the Ascended they throw themselves into battle. The lizard, already stuffed full and unwilling to lose blood over it, leaves the kill with a grumble.",
                 "exp": 30,
                 "weight": 20,
                 "prey": ["large"],
@@ -1183,7 +1183,7 @@
                 ]
             },
             {
-                "text": "s_c uses every trick in {PRONOUN/s_c/poss} talented fighting skillset to attack the fox with no one to watch {PRONOUN/s_c/poss} flank, until the perfect opportunity opens up and {PRONOUN/s_c/subject} {VERB/s_c/pounce/pounces} onto the fox's back, digging in {PRONOUN/s_c/poss} claws. It's a wild ride through the forest until the fox bucks {PRONOUN/s_c/object} off, but it wins {PRONOUN/s_c/object} the kid carcass.",
+                "text": "s_c uses every trick in {PRONOUN/s_c/poss} talented fighting skillset to attack the lizard with no one to watch {PRONOUN/s_c/poss} flank, until the perfect opportunity opens up and {PRONOUN/s_c/subject} {VERB/s_c/pounce/pounces} onto the lizard's back, digging in {PRONOUN/s_c/poss} claws. It's a wild ride through the forest until the lizard bucks {PRONOUN/s_c/object} off, but it wins {PRONOUN/s_c/object} the fawn carcass.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,2"],
@@ -1199,7 +1199,7 @@
                 ]
             },
             {
-                "text": "In an act of daring bravery, s_c darts low to the ground, gets under its snout, and sinks their {PRONOUN/s_c/poss} teeth into the fox's throat. But then {PRONOUN/s_c/subject} {VERB/s_c/are/is} stuck, unwilling to let go and risk being bitten. {PRONOUN/s_c/subject/CAP} {VERB/s_c/are/is} dragged through the forest, over rocks and through bushes, until the fox finally collapses and the battered s_c goes back to proudly claim the goat.",
+                "text": "In an act of daring bravery, s_c darts low to the ground, gets under its snout, and sinks their {PRONOUN/s_c/poss} teeth into the lizard's throat. But then {PRONOUN/s_c/subject} {VERB/s_c/are/is} stuck, unwilling to let go and risk being bitten. {PRONOUN/s_c/subject/CAP} {VERB/s_c/are/is} dragged through the forest, over rocks and through bushes, until the lizard finally collapses and the battered s_c goes back to proudly claim the rain deer.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": [
@@ -1225,7 +1225,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol fails to drive away the fox, which keeps possession of the food. However, there were no injuries.",
+                "text": "The patrol fails to drive away the lizard, which keeps possession of the food. However, there were no injuries.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1239,14 +1239,14 @@
                 ]
             },
             {
-                "text": "Fiercely, r_c throws {PRONOUN/r_c/self} at the fox, determined to win the goat prize. But the fox values it just as dearly, and manages to get a good grip on r_c, shaking {PRONOUN/r_c/object} to pieces and killing {PRONOUN/r_c/object}.",
+                "text": "Fiercely, r_c throws {PRONOUN/r_c/self} at the lizard, determined to win the rain deer prize. But the lizard values it just as dearly, and manages to get a good grip on r_c, shaking {PRONOUN/r_c/object} to pieces and killing {PRONOUN/r_c/object}.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "m_c carries a scar from a solo fox fight.",
-                    "reg_death": "m_c fell in a solo battle with a fox.",
-                    "lead_death": "{VERB/m_c/were/was} killed in battle with a fox"
+                    "scar": "m_c carries a scar from a solo lizard fight.",
+                    "reg_death": "m_c fell in a solo battle with a lizard.",
+                    "lead_death": "{VERB/m_c/were/was} killed in battle with a lizard"
                 },
                 "relationships": [
                     {
@@ -1259,7 +1259,7 @@
                 ]
             },
             {
-                "text": "r_c launches into battle, but is caught with a nasty bite, and retreats to limp back home. The fox doesn't follow, happy enough to eat the goat instead of the foolish cat.",
+                "text": "r_c launches into battle, but is caught with a nasty bite, and retreats to limp back home. The lizard doesn't follow, happy enough to eat the rain deer instead of the foolish slugcat.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1270,9 +1270,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c carries a scar from a solo fox fight.",
-                    "reg_death": "m_c fell in a solo battle with a fox.",
-                    "lead_death": "{VERB/m_c/were/was} killed in battle with a fox"
+                    "scar": "m_c carries a scar from a solo lizard fight.",
+                    "reg_death": "m_c fell in a solo battle with a lizard.",
+                    "lead_death": "{VERB/m_c/were/was} killed in battle with a lizard"
                 },
                 "relationships": [
                     {
@@ -1285,7 +1285,7 @@
                 ]
             },
             {
-                "text": "s_c is overconfident in {PRONOUN/s_c/subject} {VERB/s_c/are/is} overconfident in {PRONOUN/s_c/poss} attack and the fox manages to sink their teeth into {PRONOUN/s_c/object}. {PRONOUN/s_c/subject/CAP} {VERB/s_c/retreat/retreats}, bleeding and in pain, and the fox settles back down to its meal.",
+                "text": "s_c is overconfident in {PRONOUN/s_c/subject} {VERB/s_c/are/is} overconfident in {PRONOUN/s_c/poss} attack and the lizard manages to sink their teeth into {PRONOUN/s_c/object}. {PRONOUN/s_c/subject/CAP} {VERB/s_c/retreat/retreats}, bleeding and in pain, and the lizard settles back down to its meal.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": ["troublesome", "vengeful", "bloodthirsty", "bold"],
@@ -1297,9 +1297,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c carries a scar from a solo fox fight.",
-                    "reg_death": "m_c fell in a solo battle with a fox.",
-                    "lead_death": "{VERB/m_c/were/was} killed in battle with a fox"
+                    "scar": "m_c carries a scar from a solo lizard fight.",
+                    "reg_death": "m_c fell in a solo battle with a lizard.",
+                    "lead_death": "{VERB/m_c/were/was} killed in battle with a lizard"
                 },
                 "relationships": [
                     {
@@ -1326,24 +1326,24 @@
             "all apprentices": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "p_l tastes the air and perks up - there's a squirrel nearby, scrounging for nuts near the base of a tree!",
+        "intro_text": "p_l tastes the air and perks up - there's a lanternmouse nearby, scrounging for nuts near the base of a tree!",
         "decline_text": "After a moment's deliberation, p_l decides to move on.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "The wind suddenly shifts, and the squirrel jerks its head up in alarm. p_l thinks fast, bolting to cut off its escape before delivering the killing blow.",
+                "text": "The wind suddenly shifts, and the lanternmouse jerks its head up in alarm. p_l thinks fast, bolting to cut off its escape before delivering the killing blow.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["medium"]
             },
             {
-                "text": "Though it tries to escape, p_l is faster and smarter - {PRONOUN/p_l/subject} {VERB/p_l/slam/slams} a paw down on the squirrel's tail before it can go very far, and kill it with ease.",
+                "text": "Though it tries to escape, p_l is faster and smarter - {PRONOUN/p_l/subject} {VERB/p_l/slam/slams} a paw down on the lanternmouse's tail before it can go very far, and kill it with ease.",
                 "exp": 10,
                 "weight": 5,
                 "prey": ["medium"]
             },
             {
-                "text": "s_c silently slinks through the underbrush, going undetected until {PRONOUN/s_c/subject} {VERB/s_c/have/has} pounced - and by then it's far too late for the squirrel to do anything about it.",
+                "text": "s_c silently slinks through the underbrush, going undetected until {PRONOUN/s_c/subject} {VERB/s_c/have/has} pounced - and by then it's far too late for the lanternmouse to do anything about it.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["HUNTER,1"],
@@ -1352,7 +1352,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l shifts on some pebbles as {PRONOUN/p_l/subject} {VERB/p_l/ready/readies} {PRONOUN/p_l/self} to pounce, and the resulting clatter alerts the squirrel. It doesn't even spare {PRONOUN/p_l/object} a glance as it scurries up the tree and out of sight.",
+                "text": "p_l shifts on some pebbles as {PRONOUN/p_l/subject} {VERB/p_l/ready/readies} {PRONOUN/p_l/self} to pounce, and the resulting clatter alerts the lanternmouse. It doesn't even spare {PRONOUN/p_l/object} a glance as it scurries up the tree and out of sight.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
@@ -1372,8 +1372,8 @@
             "apprentice": [1, 6]
         },
         "weight": 20,
-        "intro_text": "app1 scents a squirrel on the air! Leaf-bare will make this a difficult hunt, and apprehension prickles down their spine as they weigh their options.",
-        "decline_text": "{PRONOUN/app1/subject/CAP} {VERB/app1/decide/decides} to move on and ignore the squirrel for now.",
+        "intro_text": "app1 scents a lanternmouse on the air! Leaf-bare will make this a difficult hunt, and apprehension prickles down their spine as they weigh their options.",
+        "decline_text": "{PRONOUN/app1/subject/CAP} {VERB/app1/decide/decides} to move on and ignore the lanternmouse for now.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
@@ -1383,7 +1383,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "Though {PRONOUN/app1/subject} {VERB/app1/are/is} a little sloppy, and the squirrel quickly spots {PRONOUN/app1/object}, app1 manages to secure the catch in the end!",
+                "text": "Though {PRONOUN/app1/subject} {VERB/app1/are/is} a little sloppy, and the lanternmouse quickly spots {PRONOUN/app1/object}, app1 manages to secure the catch in the end!",
                 "exp": 40,
                 "weight": 5,
                 "prey": ["medium"]
@@ -1391,7 +1391,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Poor app1 focuses too hard on making sure {PRONOUN/app1/poss} hunting crouch is correct - by the time {PRONOUN/app1/subject} {VERB/app1/feel/feels} ready, the squirrel is long gone.",
+                "text": "Poor app1 focuses too hard on making sure {PRONOUN/app1/poss} hunting crouch is correct - by the time {PRONOUN/app1/subject} {VERB/app1/feel/feels} ready, the lanternmouse is long gone.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
@@ -1412,7 +1412,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l instructs app1 to scent the air, and nods in approval when app1 says {PRONOUN/app1/subject} {VERB/app1/smell/smells} squirrel. Though they don't want app1 to feel pressured, p_l makes sure {PRONOUN/app1/subject} {VERB/app1/know/knows} how valuable a leaf-bare squirrel would be to their Clanmates before asking what {PRONOUN/app1/subject} {VERB/app1/want/wants} to do.",
+        "intro_text": "p_l instructs app1 to scent the air, and nods in approval when app1 says {PRONOUN/app1/subject} {VERB/app1/smell/smells} lanternmouse. Though they don't want app1 to feel pressured, p_l makes sure {PRONOUN/app1/subject} {VERB/app1/know/knows} how valuable a leaf-bare lanternmouse would be to their Clanmates before asking what {PRONOUN/app1/subject} {VERB/app1/want/wants} to do.",
         "decline_text": "app1 looks apprehensive, and quietly says {PRONOUN/app1/subject} {VERB/app1/want/wants} to look for something easier.",
         "chance_of_success": 30,
         "success_outcomes": [
@@ -1432,7 +1432,7 @@
                 ]
             },
             {
-                "text": "Though {PRONOUN/app1/subject} {VERB/app1/are/is} a little sloppy, and the squirrel quickly spots {PRONOUN/app1/object}, app1 manages to secure the catch in the end! p_l looks pleased, and gives {PRONOUN/app1/object} tips to improve {PRONOUN/app1/poss} technique next time.",
+                "text": "Though {PRONOUN/app1/subject} {VERB/app1/are/is} a little sloppy, and the lanternmouse quickly spots {PRONOUN/app1/object}, app1 manages to secure the catch in the end! p_l looks pleased, and gives {PRONOUN/app1/object} tips to improve {PRONOUN/app1/poss} technique next time.",
                 "exp": 30,
                 "weight": 5,
                 "prey": ["medium"],
@@ -1449,7 +1449,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "A misplaced step onto loose gravel is all that's needed to scare the squirrel away, and app1 watches in disappointment as it scampers away.",
+                "text": "A misplaced step onto loose gravel is all that's needed to scare the lanternmouse away, and app1 watches in disappointment as it scampers away.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1478,12 +1478,12 @@
             "deputy": [1, 6]
         },
         "weight": 20,
-        "intro_text": "As the patrol walks through the snowy wooded slopes, a loud chittering from above interrupts them. One cat looks up just in time to get a shower of twigs and dead leaves to the face, while another exclaims aloud as they spot squirrels darting through the branches above.",
+        "intro_text": "As the patrol walks through the snowy wooded slopes, a loud chittering from above interrupts them. One slugcat looks up just in time to get a shower of twigs and dead leaves to the face, while another exclaims aloud as they spot lanternmice darting through the branches above.",
         "decline_text": "Though they snort in amusement, the patrol decides to move on to easier prey, rather than waste their energy amongst the trees.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Before anyone can even speak, there's a loud crack from above. The cats scatter as a branch crashes down, bringing the squirrels down with it! The patrol thinks fast, and pounce on the squirrels before they can escape. They head home with their bounty, each cat feeling quite pleased with themself.",
+                "text": "Before anyone can even speak, there's a loud crack from above. The slugcats scatter as a branch crashes down, bringing the lanternmice down with it! The patrol thinks fast, and pounce on the lanternmice before they can escape. They head home with their bounty, each slugcat feeling quite pleased with themself.",
                 "exp": 40,
                 "weight": 20,
                 "prey": ["medium"],
@@ -1498,7 +1498,7 @@
                 ]
             },
             {
-                "text": "A mischievous look in their eye, the deputy challenges their Clanmates - whoever catches one of the squirrels gets to skip dawn patrol for a whole moon. They're all eager to shimmy up the trees at that, and before long someone calls out in triumph, proudly showing off the squirrel swinging from their jaws.",
+                "text": "A mischievous look in their eye, the deputy challenges their Clanmates - whoever catches one of the lanternmice gets to skip dawn patrol for a whole moon. They're all eager to shimmy up the trees at that, and before long someone calls out in triumph, proudly showing off the lanternmouse swinging from their jaws.",
                 "exp": 40,
                 "weight": 5,
                 "prey": ["medium"],
@@ -1513,7 +1513,7 @@
                 ]
             },
             {
-                "text": "With a glint in their eye, s_c is up in the trees before anyone can say anything. There's rustling, a short pause, then squirrel carcasses begin falling to the ground, one by one. s_c descends when {PRONOUN/s_c/subject} {VERB/s_c/finish/finishes} with a mouthful of oak leaves, curling {PRONOUN/s_c/poss} tail in pride at the looks on {PRONOUN/s_c/poss} Clanmates faces.",
+                "text": "With a glint in their eye, s_c is up in the trees before anyone can say anything. There's rustling, a short pause, then lanternmouse carcasses begin falling to the ground, one by one. s_c descends when {PRONOUN/s_c/subject} {VERB/s_c/finish/finishes} with a mouthful of oak leaves, curling {PRONOUN/s_c/poss} tail in pride at the looks on {PRONOUN/s_c/poss} Clanmates faces.",
                 "exp": 40,
                 "weight": 20,
                 "stat_skill": ["HUNTER,1"],
@@ -1531,7 +1531,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Though they try to climb the trees in pursuit, the squirrels are much more suited to running along the branches, and they easily leave the patrol floundering as they disappear into the distance.",
+                "text": "Though they try to climb the trees in pursuit, the lanternmice are much more suited to running along the branches, and they easily leave the patrol floundering as they disappear into the distance.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1546,7 +1546,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "The patrol fans out, some cats climbing, some staying on the ground. The hunt comes to an abrupt end, however, when r_c yowls in fear as {PRONOUN/r_c/subject} {VERB/r_c/plummet/plummets} from the branches and land heavily on the ground. {PRONOUN/r_c/poss/CAP} Clanmates help {PRONOUN/r_c/object} home and settle {PRONOUN/r_c/object} into the medicine cat's den, guilt and regret prickling at them for pursuing such a foolhardy hunt.",
+                "text": "The patrol fans out, some slugcats climbing, some staying on the ground. The hunt comes to an abrupt end, however, when r_c yowls in fear as {PRONOUN/r_c/subject} {VERB/r_c/plummet/plummets} from the branches and land heavily on the ground. {PRONOUN/r_c/poss/CAP} Clanmates help {PRONOUN/r_c/object} home and settle {PRONOUN/r_c/object} into the medicine slugcat's den, guilt and regret prickling at them for pursuing such a foolhardy hunt.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1580,12 +1580,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "As the patrol walks through the snowy wooded slopes, r_c explains an idea {PRONOUN/r_c/subject} had for squirrel hunting. It sounds a little strange, but perhaps it could work?",
+        "intro_text": "As the patrol walks through the snowy wooded slopes, r_c explains an idea {PRONOUN/r_c/subject} had for lanternmouse hunting. It sounds a little strange, but perhaps it could work?",
         "decline_text": "The patrol decides they'd rather not spend time on something that might not work when they could be doing something they know <i>does</i>, especially in leaf-bare where every hunt counts.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "r_c suggests baiting the squirrels with food and picking them off when they come out to eat. It's pretty tedious, and they end up having to move a few times, but it does work, and the patrol heads home with a decent amount of prey.",
+                "text": "r_c suggests baiting the lanternmice with food and picking them off when they come out to eat. It's pretty tedious, and they end up having to move a few times, but it does work, and the patrol heads home with a decent amount of prey.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
@@ -1600,7 +1600,7 @@
                 ]
             },
             {
-                "text": "r_c suggests baiting the squirrels with food and picking them off when they come out to eat. Waiting is the most difficult part; the squirrels don't seem to expect the trap, and they come home laden with prey.",
+                "text": "r_c suggests baiting the lanternmice with food and picking them off when they come out to eat. Waiting is the most difficult part; the lanternmice don't seem to expect the trap, and they come home laden with prey.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["large"],
@@ -1615,7 +1615,7 @@
                 ]
             },
             {
-                "text": "r_c suggests baiting the squirrels with food and picking them off when they come out to eat. All the patrol has to do is set the trap - with s_c on the patrol, they rarely have to lift a paw, and each cat carries multiple squirrels home.",
+                "text": "r_c suggests baiting the lanternmice with food and picking them off when they come out to eat. All the patrol has to do is set the trap - with s_c on the patrol, they rarely have to lift a paw, and each slugcat carries multiple lanternmice home.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["HUNTER,1"],
@@ -1633,7 +1633,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c suggests finding squirrels sheltered in trees, climbing above them, and shaking the branches to scare them down. Unfortunately for them, the idea is a little too far out there, and while they do manage a few small catches, the patrol comes home freezing cold with little to show for it.",
+                "text": "r_c suggests finding lanternmice sheltered in trees, climbing above them, and shaking the branches to scare them down. Unfortunately for them, the idea is a little too far out there, and while they do manage a few small catches, the patrol comes home freezing cold with little to show for it.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1667,12 +1667,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "What a rare sight! Blue jay feathers are often found around here, though never the bird itself, especially in leaf-bare! Its plumage stands out fetchingly against the snow.",
-        "decline_text": "p_l admires the bird from afar, deciding against coloring the fresh-kill pile with that particular shade of blue.",
+        "intro_text": "What a rare sight! squidcada scutes are often found around here, though never the squidcada itself, especially in leaf-bare! Its color stands out fetchingly against the snow.",
+        "decline_text": "p_l admires the squidcada from afar, deciding against coloring the fresh-kill pile with that particular shade of blue.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The blue jay seems more focused on what it's eating then the patrol, and r_c walks home with the brightly colored bird proudly in their mouth, wondering what to do with the brilliant blue feathers.",
+                "text": "The squidcada seems more focused on what it's eating then the patrol, and r_c walks home with the squidcada proudly in their mouth, wondering what to do with the pretty scutes.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
@@ -1687,7 +1687,7 @@
                 ]
             },
             {
-                "text": "To the patrol's surprise, a second blue jay joins the first! They carefully position themselves, and soon find that while one piece of fresh-kill is worth two in the tree, two pieces of fresh-kill are more than enough in the mountains!",
+                "text": "To the patrol's surprise, a second sqiodcada joins the first! They carefully position themselves, and soon find that while one piece of fresh-kill is worth two in the tree, two pieces of fresh-kill are more than enough in the mountains!",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["large"],
@@ -1702,7 +1702,7 @@
                 ]
             },
             {
-                "text": "s_c holds the patrol off from pouncing right away, and they're rewarded by a second blue jay joining the first! They catch both and s_c explains that blue jays travel in groups of five or more.",
+                "text": "s_c holds the patrol off from pouncing right away, and they're rewarded by a second squidada joining the first! They catch both and s_c explains that squidcadas travel in groups of five or more.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["HUNTER,1", "CLEVER,2"],
@@ -1719,7 +1719,7 @@
                 ]
             },
             {
-                "text": "They catch the blue jay, and s_c quickly bites up the blood-riddled snow, then lingers behind to wait. They come back with two more mice! They explain the blue jay was eating something mice also liked, and was hoping they might catch some with the same bait.",
+                "text": "They catch the squidcada, and s_c quickly bites up the blood-riddled snow, then lingers behind to wait. They come back with two more baby centiwings! They explain the blue jay was eating something young centiwings also liked, and was hoping they might catch some with the same bait.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1745,7 +1745,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The blue jay spots them coming from several fox-lengths away, and follows them back to camp, laughing in only the way blue jays can laugh.",
+                "text": "The squidcada spots them coming from several lizard-lengths away, and follows them back to camp, laughing in only the way squidcadas can laugh.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1760,7 +1760,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "To the patrol's surprise, a second blue jay joins the first! s_c gets ahead of themselves, rushing out to catch them, only for both of them fly off, and- Are they mocking s_c before they can even pounce?",
+                "text": "To the patrol's surprise, a second squidcada joins the first! s_c gets ahead of themselves, rushing out to catch them, only for both of them fly off, and- Are they mocking s_c before they can even pounce?",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1784,7 +1784,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "As r_c gets into the hunting crouch, there's an odd sound from above, and soon the whole patrol is yowling in terror as they get mobbed by blue jays. A piece of fresh-kill in paws doesn't mean not to look out for danger!",
+                "text": "As r_c gets into the hunting crouch, there's an odd sound from above, and soon the whole patrol is yowling in terror as they get mobbed by squidcadas. A piece of fresh-kill in paws doesn't mean not to look out for danger!",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1794,7 +1794,7 @@
                         "scars": ["BEAKCHEEK"]
                     }
                 ],
-                "history_text": { "scar": "m_c got a scar underestimating a blue jay." },
+                "history_text": { "scar": "m_c got a scar underestimating a squidcada." },
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1807,7 +1807,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "s_c is fascinated by the pretty feathers and can't wait to get their claws on them! They rush out to catch the blue jay, only for a mob of blue jays to descend on the patrol, every cat suffering for s_c's impulsive behavior.",
+                "text": "s_c is fascinated by the pretty scutes and can't wait to get their claws on them! They rush out to catch the squidcada, only for a mob of squidcadas to descend on the patrol, every slugcat suffering for s_c's impulsive behavior.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -1826,7 +1826,7 @@
                         "scars": ["BEAKCHEEK"]
                     }
                 ],
-                "history_text": { "scar": "m_c got a scar underestimating a blue jay." },
+                "history_text": { "scar": "m_c got a scar underestimating a squidcada." },
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1853,12 +1853,12 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l finds a common buzzard eating crow-food on top of a high cliff. They crouch down to hunt but - Wait! Was it buzzards or vultures that the mountain Clans respected?",
-        "decline_text": "Better not risk it... p_l turns tail and goes home, trying to think of a way to ask the difference between the two birds that doesn't end up confusing them even more.",
+        "intro_text": "p_l finds a common centiwing eating crow-food on top of a high cliff. They crouch down to hunt but - Wait! Was it centiwings or red centiwings that the mountain Clans respected?",
+        "decline_text": "Better not risk it... p_l turns tail and goes home, trying to think of a way to ask the difference between the two centiwings that doesn't sound strange.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "p_l decides to risk it, and leaps for the common buzzard, killing it before it has a chance to fly off. They try not to be seen bringing it back, just in case, and feel odd looks on their pelt for it.",
+                "text": "p_l decides to risk it, and leaps for the common centiwing, killing it before it has a chance to fly off. They try not to be seen bringing it back, just in case, and feel odd looks on their pelt for it.",
                 "exp": 40,
                 "weight": 20,
                 "prey": ["medium"],
@@ -1873,7 +1873,7 @@
                 ]
             },
             {
-                "text": "It's definitely vultures. They catch the common buzzard and bring it back to camp proudly-- But some of the other cats have the same question. Oh well. Fresh-kill is fresh-kill, and it's <i>not</i> a vulture!",
+                "text": "It's definitely red centiwings. They catch the common centiwing and bring it back to camp proudly-- But some of the other slugcats have the same question. Oh well. Fresh-kill is fresh-kill, and it's <i>not</i> a red centiwing!",
                 "exp": 40,
                 "weight": 5,
                 "prey": ["large"],
@@ -1888,7 +1888,7 @@
                 ]
             },
             {
-                "text": "s_c laughs to themselves, of course it's vultures! They catch the common buzzard, which has a feathered head, with ease, bring it home, and are disappointed when they have to explain the difference between this bird and the vultures.",
+                "text": "s_c laughs to themselves, of course it's red centiwing! They catch the common centiwing, which has green scutes, with ease, bring it home, and are disappointed when they have to explain the difference between this centipede and the red ones.",
                 "exp": 40,
                 "weight": 20,
                 "stat_skill": ["CLEVER,2", "HUNTER,3", "STAR,2", "LORE,2", "SENSE,2"],
@@ -1905,7 +1905,7 @@
                 ]
             },
             {
-                "text": "s_c knows the difference between a common buzzard and a vulture! Unfortunately, they end up having to explain the difference anyway. It seems some outcomes are unavoidable.",
+                "text": "s_c knows the difference between a common centiwing and a red one! Unfortunately, they end up having to explain the difference anyway. It seems some outcomes are unavoidable.",
                 "exp": 40,
                 "weight": 20,
                 "stat_trait": [
@@ -1932,60 +1932,60 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Drat! p_l hesitated too long and the bird flew off! They still don't know if they could have caught it!",
+                "text": "Drat! p_l hesitated too long and the centiwing flew off! They still don't know if they could have caught it!",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "p_l decides to risk it, and leaps for the common buzzard- But what if it was buzzards, and not vultures? Better let it go... They find out at camp it was vultures, and decide not to tell anyone why they asked, feeling embarrassed.",
+                "text": "p_l decides to risk it, and leaps for the common centiwing- But what if it was common centiwings, and not red ones? Better let it go... They find out at camp it was red ones, and decide not to tell anyone why they asked, feeling embarrassed.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["childish", "playful", "nervous", "troublesome", "insecure"],
                 "can_have_stat": ["adult"]
             },
             {
-                "text": "p_l lunges for the common buzzard, only for the buzzard to spread their wings to much, much larger then they look folded and startle the cat right off the cliff. They are never seen again.",
+                "text": "p_l lunges for the common centiwing, only for the centiwing to spread their wings to much, much larger then they look folded and startle the slugcat right off the cliff. They are never seen again.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c", "all_lives"],
                 "history_text": {
-                    "scar": "m_c mistook a buzzard for a vulture and got pecked",
-                    "reg_death": "m_c was scared off a cliff by a large bird.",
-                    "lead_death": "fell to {PRONOUN/m_c/poss} death off of a high cliff after a run in with a large bird of prey"
+                    "scar": "m_c was fell after being scared by a common centiwing",
+                    "reg_death": "m_c was scared off a cliff by a common centiwing.",
+                    "lead_death": "fell to {PRONOUN/m_c/poss} death off of a high cliff after a run in with a large centiwing"
                 }
             },
             {
-                "text": "p_l does a little butt wiggle and launches themselves at the common buzzard. They barely have time to get away as the buzzard spreads their wings and snaps at them, leaving them with a nasty peck! Ouch!",
+                "text": "p_l does a little butt wiggle and launches themselves at the common centiwing. They barely have time to get away as the centiwing spreads their wings and snaps at them, leaving them with a nasty scorch! Ouch!",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
                     {
                         "cats": ["r_c"],
-                        "injuries": ["beak_bite"],
+                        "injuries": ["burn"],
                         "scars": ["BEAKLOWER"]
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c mistook a buzzard for a vulture and got pecked",
-                    "reg_death": "m_c was scared off a cliff by a large bird.",
-                    "lead_death": "fell to {PRONOUN/m_c/poss} death off of a high cliff after a run in with a large bird of prey"
+                    "scar": "m_c mistook a common centiwing for a red one and got shocked",
+                    "reg_death": "m_c was shocked by a centiwing.",
+                    "lead_death": "was shocked by a centiwing"
                 }
             },
             {
-                "text": "It doesn't matter if it's a buzzard or a vulture! It's about to be fresh-kill! s_c lunges for the bird - but the bird flies off, and the cat slips on the cold, icy cliff, and is never seen again.",
+                "text": "It doesn't matter if it's a common centiwing or a red one! It's about to be fresh-kill! s_c lunges for the centiwing - but the arthropod flies off, and the slugcat slips on the cold, icy cliff, and is never seen again.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": ["childish", "playful", "nervous", "troublesome", "insecure"],
                 "can_have_stat": ["adult"],
                 "dead_cats": ["s_c", "all_lives"],
                 "history_text": {
-                    "scar": "m_c mistook a buzzard for a vulture and got pecked",
-                    "reg_death": "m_c was scared off a cliff by a large bird.",
-                    "lead_death": "fell to {PRONOUN/m_c/poss} death off of a high cliff after a run in with a large bird of prey"
+                    "scar": "m_c missed a lunge and fell",
+                    "reg_death": "m_c missed their pounce and fell.",
+                    "lead_death": "fell to {PRONOUN/m_c/poss} death off of a high cliff after a missed pounce"
                 }
             },
             {
-                "text": "Who cares about vultures or buzzards? The Clan needs fresh-kill! The buzzard does, and gives s_c a nasty bite to remember them by, and the medicine cat gets to tell them the difference between common buzzards and vultures.",
+                "text": "Who cares about red or common centiwings? The Clan needs fresh-kill! The centiwing does, and gives s_c a nasty shock to remember them by, and the medicine slugcat gets to tell them the difference between common centiwings and red ones.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": ["childish", "playful", "nervous", "troublesome", "insecure"],
@@ -1993,14 +1993,14 @@
                 "injury": [
                     {
                         "cats": ["s_c"],
-                        "injuries": ["beak_bite"],
+                        "injuries": ["burn"],
                         "scars": ["BEAKLOWER"]
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c mistook a buzzard for a vulture and got pecked",
-                    "reg_death": "m_c was scared off a cliff by a large bird.",
-                    "lead_death": "fell to {PRONOUN/m_c/poss} death off of a high cliff after a run in with a large bird of prey"
+                    "scar": "m_c mistook a common centiwing for a red one and got pecked",
+                    "reg_death": "m_c was shocked by a centiwing.",
+                    "lead_death": "was shocked by a centiwing"
                 }
             }
         ]
@@ -2018,24 +2018,24 @@
             "apprentice": [1, 6]
         },
         "weight": 20,
-        "intro_text": "It's a cold day in c_n's territory, and p_l is the only cat stepping out. They're by themselves when they hear a cat screaming for help.",
-        "decline_text": "Nope, not today, there's no way p_l is running after ghost cats, no thank you.",
+        "intro_text": "It's a cold day in c_n's territory, and p_l is the only slugcat stepping out. They're by themselves when they hear a slugcat screaming for help.",
+        "decline_text": "Nope, not today, there's no way p_l is running after ghost slugcats, no thank you.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "It's a raven! While p_l only managed to chase it off, they find some mice on the way home.",
+                "text": "It's a noodlefly! While p_l only managed to chase it off, they find some baby centiwings on the way home.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["small"]
             },
             {
-                "text": "Following the sound to its source, p_l finds a raven and catches it! Who knew they could mimic cats? It feels good to eat one for once, though r_c hurries to avoid any wolves.",
+                "text": "Following the sound to its source, p_l finds a young noodlefly and catches it! Who knew they could mimic slugcats? It feels good to eat one for once, though r_c hurries to avoid any yellow lizards.",
                 "exp": 10,
                 "weight": 5,
                 "prey": ["medium"]
             },
             {
-                "text": "s_c follows the sound to its source and finds a raven. s_c tries chattering at it, though they don't seem to understand each other. However, they find a rabbit with talon marks and dark feathers on their path home, wondering if they should tell anyone. s_c feels like they're marked for death.",
+                "text": "s_c follows the sound to its source and finds a noodlefly. s_c tries chattering at it, though they don't seem to understand each other. However, they find an eggbug with talon marks and scutes on their path home, wondering if they should tell anyone. s_c feels like they're marked for death.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": ["adventurous", "playful", "strange", "childish", "shameless"],
@@ -2044,43 +2044,43 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The cat seems to be moving all over the place, and finally, p_l gives up and goes home, too tired to catch more than a mouthful.",
+                "text": "The slugcat seems to be moving all over the place, and finally, p_l gives up and goes home, too tired to catch more than a mouthful.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
             },
             {
-                "text": "s_c calls out to the cat, only to be met with raucous cawing. Are they being laughed at? They decide to slink off, leaving it be.",
+                "text": "s_c calls out to the slugcat, only to be met with nooting. Are they being laughed at? They decide to slink off, leaving it be.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["troublesome", "bold", "daring", "ambitious"]
             },
             {
-                "text": "p_l looks around the rocks, only to spy something flying above them, hearing the cat from up there. Oh. It's star-blasted raven. They struggle to free themselves as the raven drops them into the jaws of wolves.",
+                "text": "p_l looks around the rocks, only to spy something flying above them, hearing the slugcat from up there. Oh. It's void-blasted noodlefly. They struggle to free themselves as the noodlefly drops them into the jaws of yellow lizards.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
-                "history_text": { "reg_death": "This cat found out why c_n despises ravens." }
+                "history_text": { "reg_death": "This slugcat found out why c_n despises noodleflies." }
             },
             {
-                "text": "s_c runs headlong towards the sound, yowling their head off to the cat to wait for them, and don't pay attention to where they place their paws. They slip, tumbling down the mountain, and see dark wings swooping after them. They wake up in Silverpelt.",
+                "text": "s_c runs headlong towards the sound, yowling their head off to the slugcat to wait for them, and don't pay attention to where they place their paws. They slip, tumbling down the mountain, and see dark wings swooping after them. They wake up in Silverpelt.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": ["troublesome", "bold", "daring", "ambitious"],
                 "dead_cats": ["s_c"],
-                "history_text": { "reg_death": "This cat found out why c_n despises ravens." }
+                "history_text": { "reg_death": "This slugcat found out why c_n despises noodleflies." }
             }
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l charges after the sound to attack the cat, only for a raven to scare them into a hungry wolf.",
+                "text": "p_l charges after the sound to attack the slugcat, only for a noodledly to scare them into a hungry yellow lizard.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l screams that this is c_n's territory and there's no help for anyone else. A large raven flies off.",
+                "text": "p_l screams that this is c_n's territory and there's no help for anyone else. A large noodlefly flies off.",
                 "exp": 10,
                 "weight": 20
             }
@@ -2100,13 +2100,13 @@
             "all apprentices": [2, 2]
         },
         "weight": 20,
-        "intro_text": "The two siblings head out together, declaring a friendly competition to stock the fresh-kill pile. There's no more important season to come home with fresh-kill - c_n can use every bit of prey any cat can find in the harsh cold.",
+        "intro_text": "The two siblings head out together, declaring a friendly competition to stock the fresh-kill pile. There's no more important season to come home with fresh-kill - c_n can use every bit of prey any slugcat can find in the harsh cold.",
         "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
         "chance_of_success": 30,
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "app1 misses a m_tp_s, and app2 startles a pair of m_tp_p. They don't let it get them down, instead capturing a plump rabbit with a beautiful team ambush! But when they bring it back to camp, app1 tries to take sole credit for the prey, and instead of familial talent, it's familial discord that's displayed, as the apprentices get into a massive argument in the middle of camp.",
+                "text": "app1 misses a m_tp_s, and app2 startles a pair of m_tp_p. They don't let it get them down, instead capturing a plump eggbug with a beautiful team ambush! But when they bring it back to camp, app1 tries to take sole credit for the prey, and instead of familial talent, it's familial discord that's displayed, as the apprentices get into a massive argument in the middle of camp.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["small"],
@@ -2140,7 +2140,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The littermates end up dirty, exhausted, and without much more than a m_tp_s to show for it. Fox-dung! But at least out here, even if they didn't get much prey, they can complain about how stupidly hard hunting is to a sympathetic audience.",
+                "text": "The littermates end up dirty, exhausted, and without much more than a m_tp_s to show for it. lizard-dung! But at least out here, even if they didn't get much prey, they can complain about how stupidly hard hunting is to a sympathetic audience.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2237,7 +2237,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "While stalking a bird, r_c takes a tumble, falling down a snow drift that provides nowhere to sink {PRONOUN/r_c/poss} claws into. Fortunately {PRONOUN/r_c/subject} don't seem seriously injured, but {PRONOUN/r_c/subject} need to get back to the medicine den and warmed up immediately.",
+                "text": "While stalking a batfly, r_c takes a tumble, falling down a snow drift that provides nowhere to sink {PRONOUN/r_c/poss} claws into. Fortunately {PRONOUN/r_c/subject} don't seem seriously injured, but {PRONOUN/r_c/subject} need to get back to the medicine den and warmed up immediately.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2321,7 +2321,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "r_c is scarred from a leaf-bare they endured as a young cat.",
+                    "scar": "r_c is scarred from a leaf-bare they endured as a young slugcat.",
                     "reg_death": "r_c was killed by the cold of the mountain leaf-bare.",
                     "lead_death": "was killed by the cold of the mountain leaf-bare"
                 },
@@ -2343,13 +2343,13 @@
             "all apprentices": [3, 3]
         },
         "weight": 20,
-        "intro_text": "The three siblings head out together, declaring a friendly competition to stock the fresh-kill pile. There's no more important season to come home with freshkill - c_n can use every bit of prey any cat can find in the harsh cold.",
+        "intro_text": "The three siblings head out together, declaring a friendly competition to stock the fresh-kill pile. There's no more important season to come home with freshkill - c_n can use every bit of prey any slugcat can find in the harsh cold.",
         "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
         "chance_of_success": 30,
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "app1 misses a m_tp_s, and app2 and app3 startle a pair of m_tp_p. They don't let it get them down, instead capturing a plump rabbit with a beautiful team ambush! But when they bring it back to camp, app1 tries to take sole credit for the prey, and instead of familial talent, it's familial discord that's displayed, as the apprentices get into a massive argument in the middle of camp.",
+                "text": "app1 misses a m_tp_s, and app2 and app3 startle a pair of m_tp_p. They don't let it get them down, instead capturing a plump eggbug with a beautiful team ambush! But when they bring it back to camp, app1 tries to take sole credit for the prey, and instead of familial talent, it's familial discord that's displayed, as the apprentices get into a massive argument in the middle of camp.",
                 "exp": 30,
                 "weight": 20,
                 "prey": ["small"],
@@ -2382,7 +2382,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The littermates end up dirty, exhausted, and without much more than a m_tp_s to show for it. Fox-dung! But at least out here, even if they didn't get much prey, they can complain about how stupidly hard hunting is to a sympathetic audience.",
+                "text": "The littermates end up dirty, exhausted, and without much more than a m_tp_s to show for it. lizard-dung! But at least out here, even if they didn't get much prey, they can complain about how stupidly hard hunting is to a sympathetic audience.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2479,7 +2479,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "While stalking a bird, r_c takes a tumble, falling down a snow drift that provides nowhere to sink {PRONOUN/r_c/poss} claws into. Fortunately {PRONOUN/r_c/subject} don't seem seriously injured, but {PRONOUN/r_c/subject} need to get back to the medicine den and warmed up immediately.",
+                "text": "While stalking a batfly, r_c takes a tumble, falling down a snow drift that provides nowhere to sink {PRONOUN/r_c/poss} claws into. Fortunately {PRONOUN/r_c/subject} don't seem seriously injured, but {PRONOUN/r_c/subject} need to get back to the medicine den and warmed up immediately.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2563,7 +2563,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "r_c is scarred from a leaf-bare they endured as a young cat.",
+                    "scar": "r_c is scarred from a leaf-bare they endured as a young slugcat.",
                     "reg_death": "r_c was killed by the cold of the mountain leaf-bare.",
                     "lead_death": "was killed by the cold of the mountain leaf-bare"
                 },
@@ -2585,13 +2585,13 @@
             "all apprentices": [4, 4]
         },
         "weight": 20,
-        "intro_text": "The four siblings head out together, declaring a friendly competition to stock the fresh-kill pile. There's no more important season to come home with freshkill - c_n can use every bit of prey any cat can find in the harsh cold.",
+        "intro_text": "The four siblings head out together, declaring a friendly competition to stock the fresh-kill pile. There's no more important season to come home with freshkill - c_n can use every bit of prey any slugcat can find in the harsh cold.",
         "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
         "chance_of_success": 30,
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "app1 misses a m_tp_s, and app2 and app3 startle a pair of m_tp_p. They don't let it get them down, instead capturing a plump rabbit with a beautiful team ambush! But when they bring it back to camp, app1 tries to take sole credit for the prey, and instead of familial talent, it's familial discord that's displayed, as the apprentices get into a massive argument in the middle of camp.",
+                "text": "app1 misses a m_tp_s, and app2 and app3 startle a pair of m_tp_p. They don't let it get them down, instead capturing a plump eggbug with a beautiful team ambush! But when they bring it back to camp, app1 tries to take sole credit for the prey, and instead of familial talent, it's familial discord that's displayed, as the apprentices get into a massive argument in the middle of camp.",
                 "exp": 30,
                 "weight": 20,
                 "prey": ["small"],
@@ -2624,7 +2624,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The littermates end up dirty, exhausted, and without much more than a m_tp_s to show for it. Fox-dung! But at least out here, even if they didn't get much prey, they can complain about how stupidly hard hunting is to a sympathetic audience.",
+                "text": "The littermates end up dirty, exhausted, and without much more than a m_tp_s to show for it. lizard-dung! But at least out here, even if they didn't get much prey, they can complain about how stupidly hard hunting is to a sympathetic audience.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2721,7 +2721,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "While stalking a bird, r_c takes a tumble, falling down a snow drift that provides nowhere to sink {PRONOUN/r_c/poss} claws into. Fortunately {PRONOUN/r_c/subject} don't seem seriously injured, but {PRONOUN/r_c/subject} need to get back to the medicine den and warmed up immediately.",
+                "text": "While stalking a batfly, r_c takes a tumble, falling down a snow drift that provides nowhere to sink {PRONOUN/r_c/poss} claws into. Fortunately {PRONOUN/r_c/subject} don't seem seriously injured, but {PRONOUN/r_c/subject} need to get back to the medicine den and warmed up immediately.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2805,7 +2805,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "r_c is scarred from a leaf-bare they endured as a young cat.",
+                    "scar": "r_c is scarred from a leaf-bare they endured as a young slugcat.",
                     "reg_death": "r_c was killed by the cold of the mountain leaf-bare.",
                     "lead_death": "was killed by the cold of the mountain leaf-bare"
                 },
@@ -2827,13 +2827,13 @@
             "all apprentices": [5, 5]
         },
         "weight": 20,
-        "intro_text": "The five siblings head out together, declaring a friendly competition to stock the fresh-kill pile. There's no more important season to come home with freshkill - c_n can use every bit of prey any cat can find in the harsh cold.",
+        "intro_text": "The five siblings head out together, declaring a friendly competition to stock the fresh-kill pile. There's no more important season to come home with freshkill - c_n can use every bit of prey any slugcat can find in the harsh cold.",
         "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
         "chance_of_success": 30,
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "app1 misses a m_tp_s, and app2 and app3 startle a pair of m_tp_p. They don't let it get them down, instead capturing a plump rabbit with a beautiful team ambush! But when they bring it back to camp, app1 tries to take sole credit for the prey, and instead of familial talent, it's familial discord that's displayed, as the apprentices get into a massive argument in the middle of camp.",
+                "text": "app1 misses a m_tp_s, and app2 and app3 startle a pair of m_tp_p. They don't let it get them down, instead capturing a plump eggbug with a beautiful team ambush! But when they bring it back to camp, app1 tries to take sole credit for the prey, and instead of familial talent, it's familial discord that's displayed, as the apprentices get into a massive argument in the middle of camp.",
                 "exp": 30,
                 "weight": 20,
                 "prey": ["small"],
@@ -2866,7 +2866,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The littermates end up dirty, exhausted, and without much more than a m_tp_s to show for it. Fox-dung! But at least out here, even if they didn't get much prey, they can complain about how stupidly hard hunting is to a sympathetic audience.",
+                "text": "The littermates end up dirty, exhausted, and without much more than a m_tp_s to show for it. lizard-dung! But at least out here, even if they didn't get much prey, they can complain about how stupidly hard hunting is to a sympathetic audience.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2963,7 +2963,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "While stalking a bird, r_c takes a tumble, falling down a snow drift that provides nowhere to sink {PRONOUN/r_c/poss} claws into. Fortunately {PRONOUN/r_c/subject} don't seem seriously injured, but {PRONOUN/r_c/subject} need to get back to the medicine den and warmed up immediately.",
+                "text": "While stalking a batfly, r_c takes a tumble, falling down a snow drift that provides nowhere to sink {PRONOUN/r_c/poss} claws into. Fortunately {PRONOUN/r_c/subject} don't seem seriously injured, but {PRONOUN/r_c/subject} need to get back to the medicine den and warmed up immediately.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3047,7 +3047,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "r_c is scarred from a leaf-bare they endured as a young cat.",
+                    "scar": "r_c is scarred from a leaf-bare they endured as a young slugcat.",
                     "reg_death": "r_c was killed by the cold of the mountain leaf-bare.",
                     "lead_death": "was killed by the cold of the mountain leaf-bare"
                 },
@@ -3068,13 +3068,13 @@
             "apprentice": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The six siblings head out together, declaring a friendly competition to stock the fresh-kill pile. There's no more important season to come home with freshkill - c_n can use every bit of prey any cat can find in the harsh cold.",
+        "intro_text": "The six siblings head out together, declaring a friendly competition to stock the fresh-kill pile. There's no more important season to come home with freshkill - c_n can use every bit of prey any slugcat can find in the harsh cold.",
         "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
         "chance_of_success": 30,
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "app1 misses a m_tp_s, and app2 and app3 startle a pair of m_tp_p. They don't let it get them down, instead capturing a plump rabbit with a beautiful team ambush! But when they bring it back to camp, app1 tries to take sole credit for the prey, and instead of familial talent, it's familial discord that's displayed, as the apprentices get into a massive argument in the middle of camp.",
+                "text": "app1 misses a m_tp_s, and app2 and app3 startle a pair of m_tp_p. They don't let it get them down, instead capturing a plump eggbug with a beautiful team ambush! But when they bring it back to camp, app1 tries to take sole credit for the prey, and instead of familial talent, it's familial discord that's displayed, as the apprentices get into a massive argument in the middle of camp.",
                 "exp": 30,
                 "weight": 20,
                 "prey": ["small"],
@@ -3107,7 +3107,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The littermates end up dirty, exhausted, and without much more than a m_tp_s to show for it. Fox-dung! But at least out here, even if they didn't get much prey, they can complain about how stupidly hard hunting is to a sympathetic audience.",
+                "text": "The littermates end up dirty, exhausted, and without much more than a m_tp_s to show for it. lizard-dung! But at least out here, even if they didn't get much prey, they can complain about how stupidly hard hunting is to a sympathetic audience.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3203,7 +3203,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "While stalking a bird, r_c takes a tumble, falling down a snow drift that provides nowhere to sink {PRONOUN/r_c/poss} claws into. Fortunately {PRONOUN/r_c/subject} don't seem seriously injured, but {PRONOUN/r_c/subject} need to get back to the medicine den and warmed up immediately.",
+                "text": "While stalking a batfly, r_c takes a tumble, falling down a snow drift that provides nowhere to sink {PRONOUN/r_c/poss} claws into. Fortunately {PRONOUN/r_c/subject} don't seem seriously injured, but {PRONOUN/r_c/subject} need to get back to the medicine den and warmed up immediately.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3286,7 +3286,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "r_c is scarred from a leaf-bare they endured as a young cat.",
+                    "scar": "r_c is scarred from a leaf-bare they endured as a young slugcat.",
                     "reg_death": "r_c was killed by the cold of the mountain leaf-bare.",
                     "lead_death": "was killed by the cold of the mountain leaf-bare"
                 },
@@ -3650,7 +3650,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "Three m_tp_p are nothing to sniff at in leaf-bare as a hunting success, but stars above being alone with r_c makes p_l feel like a kitten again. And not in the cute way either, in the chewing on tails, whiny, petty, immature way. Ugh.",
+                "text": "Three m_tp_p are nothing to sniff at in leaf-bare as a hunting success, but stars above being alone with r_c makes p_l feel like a slugpup again. And not in the cute way either, in the chewing on tails, whiny, petty, immature way. Ugh.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["small"],
@@ -3850,7 +3850,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "Watching r_c execute a fantastic leap to bring down a m_mp_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a kitten, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it as they move on to the next hunting ground.",
+                "text": "Watching r_c execute a fantastic leap to bring down a m_mp_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a slugpup, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it as they move on to the next hunting ground.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["small"],
@@ -3880,7 +3880,7 @@
                 ]
             },
             {
-                "text": "r_c jokes that {PRONOUN/r_c/subject} can't possibly be related to s_c - clearly s_c was born from mountain goats, not cats, with the way {PRONOUN/s_c/subject} keep {PRONOUN/s_c/poss} footing as {PRONOUN/s_c/subject} bound up the slopes.",
+                "text": "r_c jokes that {PRONOUN/r_c/subject} can't possibly be related to s_c - clearly s_c was born from rain deer, not slugcats, with the way {PRONOUN/s_c/subject} keep {PRONOUN/s_c/poss} footing as {PRONOUN/s_c/subject} bound up the slopes.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLIMBER,1"],
@@ -3904,7 +3904,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "r_c sees a squirrel {PRONOUN/r_c/subject}'d like for the fresh-kill pile, but the chase goes badly - {PRONOUN/r_c/subject} {VERB/r_c/throw/throws} out a front paw to stop {PRONOUN/r_c/poss} fall, claws scraping off rock, and it works, but it wrenches {PRONOUN/r_c/poss} foreleg out of socket. Fleas and ticks!",
+                "text": "r_c sees a lanternmouse {PRONOUN/r_c/subject}'d like for the fresh-kill pile, but the chase goes badly - {PRONOUN/r_c/subject} {VERB/r_c/throw/throws} out a front paw to stop {PRONOUN/r_c/poss} fall, claws scraping off rock, and it works, but it wrenches {PRONOUN/r_c/poss} foreleg out of socket. Fleas and ticks!",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -4097,7 +4097,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "A m_mp_s and three m_tp_p is nothing to sniff at in leaf-bare as a hunting success, but stars above being alone with {PRONOUN/p_l/poss} siblings makes p_l feel like a kitten again. And not in the cute way either, in the chewing on tails, whiny, petty, immature way. Ugh.",
+                "text": "A m_mp_s and three m_tp_p is nothing to sniff at in leaf-bare as a hunting success, but stars above being alone with {PRONOUN/p_l/poss} siblings makes p_l feel like a slugpup again. And not in the cute way either, in the chewing on tails, whiny, petty, immature way. Ugh.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["small"],
@@ -4297,7 +4297,7 @@
         "relationship_constraint": ["siblings"],
         "success_outcomes": [
             {
-                "text": "Watching r_c execute a fantastic leap to bring down a m_mp_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a kitten, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it together as they move on to the next hunting ground.",
+                "text": "Watching r_c execute a fantastic leap to bring down a m_mp_s, p_l smiles. Does r_c remember the time {PRONOUN/r_c/subject} tried to do that as a slugpup, and stood on {PRONOUN/r_c/poss} own tail? The siblings laugh about it together as they move on to the next hunting ground.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["small"],
@@ -4327,7 +4327,7 @@
                 ]
             },
             {
-                "text": "r_c jokes that {PRONOUN/r_c/subject} can't possibly be related to s_c - clearly s_c was born from mountain goats, not cats, with the way {PRONOUN/s_c/subject} keep {PRONOUN/s_c/poss} footing as {PRONOUN/s_c/subject} bound up the slopes.",
+                "text": "r_c jokes that {PRONOUN/r_c/subject} can't possibly be related to s_c - clearly s_c was born from rain deer, not slugcats, with the way {PRONOUN/s_c/subject} keep {PRONOUN/s_c/poss} footing as {PRONOUN/s_c/subject} bound up the slopes.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLIMBER,1"],
@@ -4351,7 +4351,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "r_c sees a squirrel {PRONOUN/r_c/subject}'d like for the fresh-kill pile, but the chase goes badly - {PRONOUN/r_c/subject} {VERB/r_c/throw/throws} out a front paw to stop {PRONOUN/r_c/poss} fall, claws scraping off rock, and it works, but it wrenches {PRONOUN/r_c/poss} foreleg out of socket. Fleas and ticks!",
+                "text": "r_c sees a lanternmouse {PRONOUN/r_c/subject}'d like for the fresh-kill pile, but the chase goes badly - {PRONOUN/r_c/subject} {VERB/r_c/throw/throws} out a front paw to stop {PRONOUN/r_c/poss} fall, claws scraping off rock, and it works, but it wrenches {PRONOUN/r_c/poss} foreleg out of socket. Fleas and ticks!",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -4545,7 +4545,7 @@
         "relationship_constraint": ["parent/child"],
         "success_outcomes": [
             {
-                "text": "app1 straightens - c_n <i>needs</i> food, and app1 is going to provide. {PRONOUN/app1/subject/CAP} stride forward, tail beckoning p_l as though this is a normal hunt, not an illicit adventure, and helplessly p_l follows, determined to keep app1 safe. But lead by {PRONOUN/p_l/poss} child, in the dark and cold, together they bring down a kea bird. p_l will cover for app1's shenanigans, just this once.",
+                "text": "app1 straightens - c_n <i>needs</i> food, and app1 is going to provide. {PRONOUN/app1/subject/CAP} stride forward, tail beckoning p_l as though this is a normal hunt, not an illicit adventure, and helplessly p_l follows, determined to keep app1 safe. But lead by {PRONOUN/p_l/poss} child, in the dark and cold, together they bring down a noodefly. p_l will cover for app1's shenanigans, just this once.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["large"],
@@ -4567,7 +4567,7 @@
                 ]
             },
             {
-                "text": "There's an injured kea, app1 explains, tripping over {PRONOUN/app1/poss} words a little. c_n could really use the freshkill. And p_l can't argue with that, which is how {PRONOUN/p_l/subject} find {PRONOUN/p_l/self} chilled through and damp, helping app1 haul the bird (which managed to die on its own) out of a gully, trying to think of a way to express {PRONOUN/p_l/poss} pride without encouraging this nonsense in the future.",
+                "text": "There's an injured noodefly, app1 explains, tripping over {PRONOUN/app1/poss} words a little. c_n could really use the freshkill. And p_l can't argue with that, which is how {PRONOUN/p_l/subject} find {PRONOUN/p_l/self} chilled through and damp, helping app1 haul the noodlefly (which managed to die on its own) out of a gully, trying to think of a way to express {PRONOUN/p_l/poss} pride without encouraging this nonsense in the future.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["large"],
@@ -4589,7 +4589,7 @@
                 ]
             },
             {
-                "text": "{PRONOUN/app1/subject/CAP}{VERB/app1/'ve/'s} been tracking a kea's night nest, app1 explains, and - look could p_l just help {PRONOUN/app1/object}? Which is how p_l finds {PRONOUN/p_l/self} setting up an ambush for the kea at midnight, like an insane cat. Even worse, it <i>works,</i> both deeply impressing and worrying p_l. {PRONOUN/p_l/subject/CAP} don't want app1 encouraged to attempt these adventures.",
+                "text": "{PRONOUN/app1/subject/CAP}{VERB/app1/'ve/'s} been tracking a noodlefly's night nest, app1 expnoodleflylains, and - look could p_l just help {PRONOUN/app1/object}? Which is how p_l finds {PRONOUN/p_l/self} setting up an ambush for the noodlefly at midnight, like an insane slugcat. Even worse, it <i>works,</i> both deeply impressing and worrying p_l. {PRONOUN/p_l/subject/CAP} don't want app1 encouraged to attempt these adventures.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["HUNTER,0"],
@@ -4615,7 +4615,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 bolts. p_l loses sight of {PRONOUN/app1/object} in the bushes, but doesn't lose {PRONOUN/app1/poss} scent - and good thing too. Apparently app1 has found the ground nest of a kea. p_l is only just in time to rescue {PRONOUN/app1/object} from getting the snot kicked out of {PRONOUN/app1/object} by the irate and far less helpless than predicted bird. Exhausted and panting, {PRONOUN/p_l/subject} curl around {PRONOUN/p_l/poss} kit, too tired to scold.",
+                "text": "app1 bolts. p_l loses sight of {PRONOUN/app1/object} in the bushes, but doesn't lose {PRONOUN/app1/poss} scent - and good thing too. Apparently app1 has found the ground nest of a noodefly. p_l is only just in time to rescue {PRONOUN/app1/object} from getting the snot kicked out of {PRONOUN/app1/object} by the irate and far less helpless than predicted insect. Exhausted and panting, {PRONOUN/p_l/subject} curl around {PRONOUN/p_l/poss} slugpup, too tired to scold.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [

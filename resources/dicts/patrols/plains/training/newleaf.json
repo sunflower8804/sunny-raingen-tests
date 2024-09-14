@@ -40,7 +40,7 @@
                 "weight": 20
             },
             {
-                "text": "Slimy, yet satisfying! Curiosity completed, app1 wanders off - but has to report to the medicine den later, when {PRONOUN/app1/poss} stomach reminds {PRONOUN/app1/object} why cats don't eat random bugs.",
+                "text": "Slimy, yet satisfying! Curiosity completed, app1 wanders off - but has to report to the medicine den later, when {PRONOUN/app1/poss} stomach reminds {PRONOUN/app1/object} why slugcats don't eat random bugs.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -72,7 +72,7 @@
         "relationship_constraint": ["mates_with_pl"],
         "success_outcomes": [
             {
-                "text": "As they emerge into the vast clover fields, p_l gathers both of {PRONOUN/p_l/poss} mates close, putting weight into every meow. Holding a four-leaf clover out between {PRONOUN/p_l/poss} toe beans, p_l declares that for {PRONOUN/p_l/object}, these cats, this bond - they are both p_l's luck. And p_l's heart is theirs.",
+                "text": "As they emerge into the vast clover fields, p_l gathers both of {PRONOUN/p_l/poss} mates close, putting weight into every meow. Holding a four-leaf clover out between {PRONOUN/p_l/poss} toe beans, p_l declares that for {PRONOUN/p_l/object}, these slugcats, this bond - they are both p_l's luck. And p_l's heart is theirs.",
                 "exp": 30,
                 "weight": 20,
                 "relationships": [
@@ -114,7 +114,7 @@
                 ]
             },
             {
-                "text": "They emerge into the vast clover fields, a known romantic spot, and p_l bounces with anticipation. {PRONOUN/p_l/subject/CAP} just {VERB/p_l/love/loves} {PRONOUN/p_l/poss} mates so much, {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} so <i>ducky</i> to have them! No, no, wait, let {PRONOUN/p_l/object} try that again - {PRONOUN/p_l/subject} hope {PRONOUN/p_l/poss} mates never <i>leaf</i> {PRONOUN/p_l/object}!",
+                "text": "They emerge into the vast clover fields, a known romantic spot, and p_l bounces with anticipation. {PRONOUN/p_l/subject/CAP} just {VERB/p_l/love/loves} {PRONOUN/p_l/poss} mates so much, {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} so <i>lucky</i> to have them! No, no, wait, let {PRONOUN/p_l/object} try that again - {PRONOUN/p_l/subject} hope {PRONOUN/p_l/poss} mates never <i>leaf</i> {PRONOUN/p_l/object}!",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": ["childish", "playful", "charismatic", "flamboyant", "bold"],
@@ -193,7 +193,7 @@
                     ]
                 },
                 {
-                    "text": "Everything the patrol sees exists together in a delicate balance, s_c explains. A warrior must respect all life, from the crawling ant to the leaping rabbit. Yes, even though warriors hunt and eat them. One day, as each memeber of c_n dies, their bodies will become the grass, and the rabbits eat the grass. Every creature is connected in the great cycle.",
+                    "text": "Everything the patrol sees exists together in a delicate balance, s_c explains. A warrior must respect all life, from the crawling ant to the leaping yeek. Yes, even though warriors hunt and eat them. One day, as each memeber of c_n dies, their bodies will become the grass, and the yeeks eat the grass. Every creature is connected in the great cycle.",
                     "exp": 30,
                     "weight": 20,
                     "art": "gen_bord_story",
