@@ -14,12 +14,12 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "As the sun creeps over the horizon, p_l leads the patrol carefully towards a familiar beach, stopping the cats on the clifftop. Below them, the sand is hidden under a mass of boulders, as long as twenty cats and as wide as ten.",
+        "intro_text": "As the sun creeps over the horizon, p_l leads the patrol carefully towards a familiar beach, stopping the slugcats on the clifftop. Below them, the sand is hidden under a mass of boulders, as long as twenty slugcats and as wide as ten.",
         "decline_text": "They return to camp to report the new beach layout.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "As the cats watch, the silence is broken when one of the massive boulders rears up and snorts. app1's fur stands on end and app2 looks seconds away from fleeing, but p_l flicks {PRONOUN/p_l/poss} tail encouragingly. These are nosy-seals, {PRONOUN/p_l/subject} {VERB/p_l/explain/explains}, and the beach full of 'boulders' suddenly seems far more intimidating, but less disturbing.",
+                "text": "As the slugcats watch, the silence is broken when one of the massive boulders rears up and snorts. app1's fur stands on end and app2 looks seconds away from fleeing, but p_l flicks {PRONOUN/p_l/poss} tail encouragingly. These are baby leviathans, {PRONOUN/p_l/subject} {VERB/p_l/explain/explains}, and the beach full of 'boulders' suddenly seems far more intimidating, but less disturbing.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -33,7 +33,7 @@
                 ]
             },
             {
-                "text": "app1 and app2's jaws drop in disbelief when p_l explains these are animals, not a rockslide. They stare as a nosy-seal wakes from his slumber and bellows a challenge to his neighbor, flinching as the monolithic animals crash towards each other. Each drips enough blood to fill the veins of an entire cat, crashing and careening off each other.",
+                "text": "app1 and app2's jaws drop in disbelief when p_l explains these are animals, not a rockslide. They stare as a young leviathan wakes from his slumber and bellows a challenge to his neighbor, flinching as the monolithic animals crash towards each other. Each drips enough blood to fill the veins of an entire slugcat, crashing and careening off each other.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -47,7 +47,7 @@
                 ]
             },
             {
-                "text": "As the 'rocks' wake and reveal themselves to be the most massive animals app1 and app2 have ever seen, s_c reassures them - they may never have seen these frightening seals before, but c_n has. s_c spends the morning quizzing the apprentices until each is able to identify a male nosy-seal with his trunk versus the comparatively smaller females.",
+                "text": "As the 'rocks' wake and reveal themselves to be the most massive animals app1 and app2 have ever seen, s_c reassures them - they may never have seen these frightening young leviathans before, but c_n has. s_c spends the morning quizzing the apprentices until each is able to identify a male leviathan with his brighter colors versus the comparatively duller females.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["TEACHER,1"],
@@ -63,7 +63,7 @@
                 ]
             },
             {
-                "text": "As the sun hits them and the massive boulders wake with grumbling snorts, app1 and app2 both look about to run. s_c quickly calms them, explaining that these massive yearly visitors to c_n are nosy-seals and that if the cats don't bother them, they won't bother the cats.",
+                "text": "As the sun hits them and the massive boulders wake with grumbling snorts, app1 and app2 both look about to run. s_c quickly calms them, explaining that these massive yearly visitors to c_n are baby leviathans and that if the cats don't bother them, they won't bother the slugcats.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -90,7 +90,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "When one of the boulders abruptly starts roaring, app1 shrieks and bolts. It takes the rest of the patrol to find {PRONOUN/app1/object}, and the teaching moment is forgotten as the cats gather to comfort {PRONOUN/app1/object}.",
+                "text": "When one of the boulders abruptly starts roaring, app1 shrieks and bolts. It takes the rest of the patrol to find {PRONOUN/app1/object}, and the teaching moment is forgotten as the slugcats gather to comfort {PRONOUN/app1/object}.",
                 "exp": 0,
                 "weight": 20
             }
@@ -195,7 +195,7 @@
         "decline_text": "Unable to convince app1 of the importance of training to keep {PRONOUN/app1/poss} footing, p_l gives up and takes the patrol home.",
         "success_outcomes": [
                 {
-                    "text": "s_c rolls {PRONOUN/s_c/poss} eyes. Yes, they <i>are</i> really here to walk and run and jump around the rockpools. It rained last night, and the rock is slippery, so these are perfect conditions. s_c tells the tale of a kit once saved by a warrior sprinting along the rocks in a storm, as app1 falls over and skids harmlessly into a pool.",
+                    "text": "s_c rolls {PRONOUN/s_c/poss} eyes. Yes, they <i>are</i> really here to walk and run and jump around the rockpools. It rained last night, and the rock is slippery, so these are perfect conditions. s_c tells the tale of a pup once saved by a warrior sprinting along the rocks in a storm, as app1 falls over and skids harmlessly into a pool.",
                     "exp": 30,
                     "weight": 20,
                     "art": "gen_train_soggykitty_happy_app",
@@ -274,7 +274,7 @@
                         ]
                 },
                 {
-                    "text": "If app1 thinks {PRONOUN/app1/subject} {VERB/app1/know/knows} how to walk on the rocks, {PRONOUN/app1/subject}'ll} have to prove it - and catch s_c. app1 scrambles after {PRONOUN/s_c/object}, around and around the slick rocks. But s_c is always a fox-length away, taunting and encouraging by turns, and app1 is left panting, exhausted, and admiring.",
+                    "text": "If app1 thinks {PRONOUN/app1/subject} {VERB/app1/know/knows} how to walk on the rocks, {PRONOUN/app1/subject}'ll} have to prove it - and catch s_c. app1 scrambles after {PRONOUN/s_c/object}, around and around the slick rocks. But s_c is always a salamnder-length away, taunting and encouraging by turns, and app1 is left panting, exhausted, and admiring.",
                     "exp": 30,
                     "weight": 20,
                     "art": "fst_hunt_fun1",

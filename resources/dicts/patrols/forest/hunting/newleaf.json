@@ -723,7 +723,7 @@
                 "injury": [
                     {
                         "cats": ["r_c"],
-                        "injuries": ["rat_bite"],
+                        "injuries": ["spider bite"],
                         "scars": []
                     }
                 ],
@@ -826,7 +826,7 @@
                 "injury": [
                     {
                         "cats": ["patrol"],
-                        "injuries": ["rat_bite"],
+                        "injuries": ["spider bite"],
                         "scars": []
                     }
                 ],
@@ -850,7 +850,7 @@
                 "injury": [
                     {
                         "cats": ["patrol"],
-                        "injuries": ["rat_bite"],
+                        "injuries": ["spider bite"],
                         "scars": []
                     }
                 ],

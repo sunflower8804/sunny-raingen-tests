@@ -92,12 +92,12 @@
             "all apprentices": [2, 2]
         },
         "weight": 20,
-        "intro_text": "app1 notices app2's absence and follows {PRONOUN/app2/poss} unobscured trail to the cliff's edge. What in the seven seas is app2 doing out here? There's an eagle nest, app2 explains, {PRONOUN/app2/poss} tail swooping up over {PRONOUN/app2/poss} back to point - look, the chicks are trying to fly!",
+        "intro_text": "app1 notices app2's absence and follows {PRONOUN/app2/poss} unobscured trail to the cliff's edge. What in the seven seas is app2 doing out here? There's an vulture nest, app2 explains, {PRONOUN/app2/poss} tail swooping up over {PRONOUN/app2/poss} back to point - look, the chicks are trying to fly!",
         "decline_text": "That's lovely, but, like, can app2 watch from a place that isn't a damned cliff edge?",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Wait, like, eagle apprentices? Intrigued, app1 sticks {PRONOUN/app1/poss} head out. Down below, two dappled feathered juveniles squabble, beating their wings frantically, clearly gearing up for something. app2 bets on the lighter colored one, but app1 thinks that the smaller dark patterned one has the heart for it, and {PRONOUN/app1/subject} {VERB/app1/leap/leaps} to {PRONOUN/app1/poss} paws when the darker chick takes to the wing first, throwing {PRONOUN/app1/poss} head back and yowling cheers to the sky as the little eagle makes it to the next tree over.",
+                "text": "Wait, like, vulture apprentices? Intrigued, app1 sticks {PRONOUN/app1/poss} head out. Down below, two dappled feathered juveniles squabble, beating their wings frantically, clearly gearing up for something. app2 bets on the lighter colored one, but app1 thinks that the smaller dark patterned one has the heart for it, and {PRONOUN/app1/subject} {VERB/app1/leap/leaps} to {PRONOUN/app1/poss} paws when the darker chick takes to the wing first, throwing {PRONOUN/app1/poss} head back and yowling cheers to the sky as the little vulture makes it to the next tree over.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -118,7 +118,7 @@
                 ]
             },
             {
-                "text": "app1 has never seen those before! {PRONOUN/app1/subject/CAP} {VERB/app1/edge/edges} over beside app2, both apprentices staring down at the eagle nest in the tree below them, calling down advice. No, beat their wings harder! Harder! They can do it!",
+                "text": "app1 has never seen those before! {PRONOUN/app1/subject/CAP} {VERB/app1/edge/edges} over beside app2, both apprentices staring down at the vulture nest in the tree below them, calling down advice. No, beat their wings harder! Harder! They can do it!",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -141,7 +141,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It's not app1's thing, but {PRONOUN/app1/subject}{VERB/app1/'re/'s} happy to bask a couple tail-lengths away until app2 is done eagle watching.",
+                "text": "It's not app1's thing, but {PRONOUN/app1/subject}{VERB/app1/'re/'s} happy to bask a couple tail-lengths away until app2 is done vulture watching.",
                 "exp": 0,
                 "weight": 20
             },
@@ -185,12 +185,12 @@
             "all apprentices": [2, 2]
         },
         "weight": 20,
-        "intro_text": "app1 notices app2's absence and follows {PRONOUN/app2/poss} unobscured trail to the cliff's edge. What in the seven seas is app2 doing out here? There's an eagle nest, app2 explains, {PRONOUN/app2/poss} tail swooping up over {PRONOUN/app2/poss} back to point - look, the chicks are trying to fly!",
+        "intro_text": "app1 notices app2's absence and follows {PRONOUN/app2/poss} unobscured trail to the cliff's edge. What in the seven seas is app2 doing out here? There's an vulture nest, app2 explains, {PRONOUN/app2/poss} tail swooping up over {PRONOUN/app2/poss} back to point - look, the chicks are trying to fly!",
         "decline_text": "That's lovely, but, like, can app2 watch from a place that isn't a damned cliff edge?",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Wait, like, eagle apprentices? Intrigued, app1 sticks {PRONOUN/app1/poss} head out. Down below, two dappled feathered juveniles squabble, beating their wings frantically, clearly gearing up for something. app2 bets on the lighter colored one, but app1 thinks that the smaller dark patterned one has the heart for it, and {PRONOUN/app1/subject} {VERB/app1/leap/leaps} to {PRONOUN/app1/poss} paws when the darker chick takes to the wing first, throwing {PRONOUN/app1/poss} head back and yowling cheers to the sky as the little eagle makes it to the next tree over.",
+                "text": "Wait, like, vulture apprentices? Intrigued, app1 sticks {PRONOUN/app1/poss} head out. Down below, two dappled feathered juveniles squabble, beating their wings frantically, clearly gearing up for something. app2 bets on the lighter colored one, but app1 thinks that the smaller dark patterned one has the heart for it, and {PRONOUN/app1/subject} {VERB/app1/leap/leaps} to {PRONOUN/app1/poss} paws when the darker chick takes to the wing first, throwing {PRONOUN/app1/poss} head back and yowling cheers to the sky as the little vulture makes it to the next tree over.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -211,7 +211,7 @@
                 ]
             },
             {
-                "text": "app1 has never seen those before! {PRONOUN/app1/subject/CAP} edge over beside app2, both apprentices staring down at the eagle nest in the tree below them, calling down advice. No, beat their wings harder! Harder! They can do it!",
+                "text": "app1 has never seen those before! {PRONOUN/app1/subject/CAP} edge over beside app2, both apprentices staring down at the vulture nest in the tree below them, calling down advice. No, beat their wings harder! Harder! They can do it!",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -234,7 +234,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It's not app1's thing, but {PRONOUN/app1/subject}{VERB/app1/'re/'s} happy to bask a couple tail-lengths away until app2 is done eagle watching.",
+                "text": "It's not app1's thing, but {PRONOUN/app1/subject}{VERB/app1/'re/'s} happy to bask a couple tail-lengths away until app2 is done vulture watching.",
                 "exp": 0,
                 "weight": 20
             },
@@ -299,11 +299,11 @@
         "weight": 40,
         "chance_of_success": 60,
         "pl_skill_constraint": ["LORE,1"],
-        "intro_text": "p_l leads the patrol out to a promontory of rock, pointing out the Twoleg monsters crowding the sandy shoreline below as they twinkle in the sunlight.",
+        "intro_text": "p_l leads the patrol out to a promontory of rock, pointing out the scavenger markers crowding the sandy shoreline below as they twinkle in the sunlight.",
         "decline_text": "Clearly there'll be no using this part of their territory today then. The patrol goes to report this back to camp.",
         "success_outcomes": [
                 {
-                    "text": "This is the history p_l is here to teach - every greenleaf, the Twolegs come to this beach, a great migration in their monsters. They swim in this bay, and occasionally the bays to either side, but no more than that, a constrained invasion. Leave them to their rituals. c_n will return to this beach when the seasons change.",
+                    "text": "This is the history p_l is here to teach - every greenleaf, the scavengers come to this beach, a great migration . They swim in this bay, and occasionally the bays to either side, but no more than that, a constrained invasion. Leave them to their rituals. c_n will return to this beach when the seasons change.",
                     "exp": 30,
                     "weight": 20,
                     "art": "bch_hunt_twolegsobject",
@@ -327,7 +327,7 @@
             ],
             "fail_outcomes": [
                 {
-                    "text": "The monsters unnerve the patrol, who don't want to stick around to hear p_l's lesson. p_l disapproves, but lets the patrol end early.",
+                    "text": "The markers unnerve the patrol, who don't want to stick around to hear p_l's lesson. p_l disapproves, but lets the patrol end early.",
                     "exp": 0,
                     "weight": 20,
                     "relationships": [

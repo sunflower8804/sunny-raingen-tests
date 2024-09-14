@@ -60,7 +60,7 @@
                 ]
             },
             {
-                "text": "s_c has always had a skilled tongue, but it's rarely ever felt this important to choose {PRONOUN/s_c/poss} words carefully. It's all worth it to hear r_c's 'yes.' Their stroll together is awkward with the new tension of acknowledged romance, but neither cat would change it for the world.",
+                "text": "s_c has always had a skilled tongue, but it's rarely ever felt this important to choose {PRONOUN/s_c/poss} words carefully. It's all worth it to hear r_c's 'yes.' Their stroll together is awkward with the new tension of acknowledged romance, but neither slugcat would change it for the world.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1", "MEDIATOR,1", "INSIGHTFUL,1"],
@@ -147,7 +147,7 @@
                 "weight": 20
             },
             {
-                "text": "Slimy, yet satisfying! Curiosity completed, app1 wanders off - but has to report to the medicine den later, when {PRONOUN/app1/poss} stomach reminds {PRONOUN/app1/object} why cats don't eat random bugs.",
+                "text": "Slimy, yet satisfying! Curiosity completed, app1 wanders off - but has to report to the medicine den later, when {PRONOUN/app1/poss} stomach reminds {PRONOUN/app1/object} why slugcats don't eat random bugs.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [

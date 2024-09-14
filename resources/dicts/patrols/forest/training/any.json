@@ -28,7 +28,7 @@
                 "weight": 5
             },
             {
-                "text": "By the end of the patrol s_c is leaping from branch to branch, as nimble as a squirrel.",
+                "text": "By the end of the patrol s_c is leaping from branch to branch, as nimble as a lanternmouse.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": ["confident", "daring", "bold"],
@@ -74,12 +74,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c wanders past an old badger sett in the roots of a hazelnut tree, only to freeze. There's new scent here, acrid and sour.",
+        "intro_text": "r_c wanders past an old green lizard sett in the roots of a hazelnut tree, only to freeze. There's new scent here, acrid and sour.",
         "decline_text": "Surely it must be nothing... uneasily, r_c continues on.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Feeling ever so alone on their solo patrol, r_c carefully sniffs around the mouth of the burrow, but the scent change is unmistakable - a new badger occupant has moved in. Creeping forward, belly flat in the dirt, they manage just enough of a glimpse to confirm the badger's presence. Heart pounding, r_c sprints back to camp to warn everyone.",
+                "text": "Feeling ever so alone on their solo patrol, r_c carefully sniffs around the mouth of the burrow, but the scent change is unmistakable - a new green lizard occupant has moved in. Creeping forward, belly flat in the dirt, they manage just enough of a glimpse to confirm the green lizard's presence. Heart pounding, r_c sprints back to camp to warn everyone.",
                 "exp": 40,
                 "weight": 20,
                 "relationships": [
@@ -93,7 +93,7 @@
                 ]
             },
             {
-                "text": "Feeling ever so alone on their solo patrol, r_c carefully sniffs around the mouth of the burrow, but after a few moments, realizes that the scent is relatively weak. A badger was here, no doubt about it, but it doesn't seem to have taken up residence. This will be important information to report back at camp.",
+                "text": "Feeling ever so alone on their solo patrol, r_c carefully sniffs around the mouth of the burrow, but after a few moments, realizes that the scent is relatively weak. A green lizard was here, no doubt about it, but it doesn't seem to have taken up residence. This will be important information to report back at camp.",
                 "exp": 40,
                 "weight": 5,
                 "relationships": [
@@ -107,7 +107,7 @@
                 ]
             },
             {
-                "text": "s_c decides there has to be a smarter way of figuring out if a badger has moved in, one that doesn't involve sticking their head in front of a predator. They search the clearing around the sett thoroughly until they come upon some fresh badger scat - stinky, horrible, and perfect proof of the new occupant of the sett.",
+                "text": "s_c decides there has to be a smarter way of figuring out if a green lizard has moved in, one that doesn't involve sticking their head in front of a predator. They search the clearing around the sett thoroughly until they come upon some fresh green lizard scat - stinky, horrible, and perfect proof of the new occupant of the sett.",
                 "exp": 40,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
@@ -122,7 +122,7 @@
                 ]
             },
             {
-                "text": "Carefully considering their options, r_c decides to set up a stakeout. When the badger pokes its head above ground at dusk, they're prepared, and dart off back to camp to warn everyone before the predator has blinked the sleep out of its eyes.",
+                "text": "Carefully considering their options, r_c decides to set up a stakeout. When the green lizard pokes its head above ground at dusk, they're prepared, and dart off back to camp to warn everyone before the predator has blinked the sleep out of its eyes.",
                 "exp": 40,
                 "weight": 20,
                 "stat_trait": [
@@ -149,7 +149,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Well, the only way to know is to check! s_c scrambles into the den for a look and comes nose to nose with its occupant. It's only by the grace of StarClan that they're able to redirect that speed and twist around just as fast, shedding fur in clumps as the badger's furious snarling and fizzing follows them up the burrow tunnel.",
+                "text": "Well, the only way to know is to check! s_c scrambles into the den for a look and comes nose to nose with its occupant. It's only by the grace of the Ascended that they're able to redirect that speed and twist around just as fast, shedding fur in clumps as the green lizard's furious snarling and fizzing follows them up the burrow tunnel.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -177,14 +177,14 @@
                 ]
             },
             {
-                "text": "r_c carefully approaches the burrow to figure out if there's anything new inside. It's so dark, and it all smells the same... They try to creep just a little closer - but the ground drops away steeply beneath their paws and they lose their footing, skidding right into the disturbed badger's lethal jaws.",
+                "text": "r_c carefully approaches the burrow to figure out if there's anything new inside. It's so dark, and it all smells the same... They try to creep just a little closer - but the ground drops away steeply beneath their paws and they lose their footing, skidding right into the disturbed green lizard's lethal jaws.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "m_c was scarred by a badger.",
-                    "reg_death": "m_c lost their life to a badger.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a badger"
+                    "scar": "m_c was scarred by a green lizard.",
+                    "reg_death": "m_c lost their life to a green lizard.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a green lizard"
                 },
                 "relationships": [
                     {
@@ -197,7 +197,7 @@
                 ]
             },
             {
-                "text": "While r_c is carefully sniffing at the burrow entrance, there's a rustle from the woods behind them. It's difficult to say who's more surprised - r_c or the badger. It charges for the sett and r_c leaps out of the way, but its claws catch their pelt, and it's a bloodied cat that limps back into camp to report the whole sorry adventure.",
+                "text": "While r_c is carefully sniffing at the burrow entrance, there's a rustle from the woods behind them. It's difficult to say who's more surprised - r_c or the green lizard. It charges for the sett and r_c leaps out of the way, but its claws catch their pelt, and it's a bloodied slugcat that limps back into camp to report the whole sorry adventure.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -208,9 +208,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred by a badger.",
-                    "reg_death": "m_c lost their life to a badger.",
-                    "lead_death": "{VERB/m_c/were/was} killed by a badger"
+                    "scar": "m_c was scarred by a green lizard.",
+                    "reg_death": "m_c lost their life to a green lizard.",
+                    "lead_death": "{VERB/m_c/were/was} killed by a green lizard"
                 },
                 "relationships": [
                     {
@@ -235,12 +235,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "p_l wanders past an old badger sett in the roots of a hazelnut tree, only to freeze. There's new scent here, acrid and sour.",
+        "intro_text": "p_l wanders past an old green lizard sett in the roots of a hazelnut tree, only to freeze. There's new scent here, acrid and sour.",
         "decline_text": "Surely it must be nothing... uneasily, the patrol continues on.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Calling the rest of the patrol over, the cats discuss their next move. If a badger has moved in, they need to confirm it, but how? p_l comes up with a plan - stuffing bushes into the mouth of the sett. The cats will be able to come back tomorrow to see if anything has shoved them out of the way.",
+                "text": "Calling the rest of the patrol over, the slugcats discuss their next move. If a green lizard has moved in, they need to confirm it, but how? p_l comes up with a plan - stuffing bushes into the mouth of the sett. The slugcats will be able to come back tomorrow to see if anything has shoved them out of the way.",
                 "exp": 40,
                 "weight": 20,
                 "relationships": [
@@ -268,7 +268,7 @@
                 ]
             },
             {
-                "text": "s_c decides there has to be a smarter way of figuring out if a badger has moved in, one that doesn't involve sticking their head in front of a predator. They lead the patrol on a search of the clearing around the sett until they come upon some fresh badger scat - stinky, horrible, and perfect proof of the new occupant of the sett.",
+                "text": "s_c decides there has to be a smarter way of figuring out if a green lizard has moved in, one that doesn't involve sticking their head in front of a predator. They lead the patrol on a search of the clearing around the sett until they come upon some fresh green lizard scat - stinky, horrible, and perfect proof of the new occupant of the sett.",
                 "exp": 40,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
@@ -283,7 +283,7 @@
                 ]
             },
             {
-                "text": "Carefully considering their options, s_c decides to set up a stakeout with the patrol. When the badger pokes its head above the ground at dusk, they're prepared, and in unison everyone turns for home. The cats fade into the underbrush before the predator has even blinked the sleep out of its eyes.",
+                "text": "Carefully considering their options, s_c decides to set up a stakeout with the patrol. When the green lizard pokes its head above the ground at dusk, they're prepared, and in unison everyone turns for home. The slugcats fade into the underbrush before the predator has even blinked the sleep out of its eyes.",
                 "exp": 40,
                 "weight": 20,
                 "stat_trait": [
@@ -310,7 +310,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The cats try to find enough bits of undergrowth in the nearby forest to block the opening to the sett, but the area is pretty bare. Before they know it, they're tired, thirsty, and forced to return home with nothing to show for it.",
+                "text": "The slugcats try to find enough bits of undergrowth in the nearby forest to block the opening to the sett, but the area is pretty bare. Before they know it, they're tired, thirsty, and forced to return home with nothing to show for it.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -324,7 +324,7 @@
                 ]
             },
             {
-                "text": "Well, the only way to know is to check! s_c scrambles into the den for a look and comes nose to nose with its occupant. It's only by the grace of StarClan that they're able to redirect that speed and twist around just as fast, shedding fur in clumps as the badger's furious snarling and fizzing follows them up the burrow tunnel.",
+                "text": "Well, the only way to know is to check! s_c scrambles into the den for a look and comes nose to nose with its occupant. It's only by the grace of the Ascended that they're able to redirect that speed and twist around just as fast, shedding fur in clumps as the green lizard's furious snarling and fizzing follows them up the burrow tunnel.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -352,7 +352,7 @@
                 ]
             },
             {
-                "text": "As the patrol is sniffing around the burrow entrance, they hear a rustle from the woods. It's difficult to say who's more surprised - the cats or the badger. There's a confused rush of paws and flying fur as the patrol scatters and the beast charges for the sett. r_c is battered in the process but everyone gets home safe in the end... including the badger.",
+                "text": "As the patrol is sniffing around the burrow entrance, they hear a rustle from the woods. It's difficult to say who's more surprised - the slugcats or the green lizard. There's a confused rush of paws and flying fur as the patrol scatters and the beast charges for the sett. r_c is battered in the process but everyone gets home safe in the end... including the green lizard.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -362,7 +362,7 @@
                         "scars": ["THROAT"]
                     }
                 ],
-                "history_text": { "scar": "This cat was scarred by a badger." },
+                "history_text": { "scar": "This slugcat was scarred by a green lizard." },
                 "relationships": [
                     {
                         "cats_to": ["r_c", "p_l"],
@@ -406,7 +406,7 @@
                 "art": "fst_train_stuck_outcome"
             },
             {
-                "text": "p_l tugs on just the right branch, lifting the pile off of r_c for long enough for the other cat to scramble free.",
+                "text": "p_l tugs on just the right branch, lifting the pile off of r_c for long enough for the other slugcat to scramble free.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -479,7 +479,7 @@
                 "art": "fst_train_stuck_outcome"
             },
             {
-                "text": "As s_c rarely has patience for other cats, s_c tells them harshly that they don't have time for some mouse-brain who got stuck, making r_c resentful as they pull themselves out from under the branches.",
+                "text": "As s_c rarely has patience for other slugcats, s_c tells them harshly that they don't have time for some yeek-brain who got stuck, making r_c resentful as they pull themselves out from under the branches.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -504,7 +504,7 @@
                 "art": "fst_train_stuck_outcome"
             },
             {
-                "text": "Hurt and wheezing, r_c hears the patrol panicking as they drift to StarClan.",
+                "text": "Hurt and wheezing, r_c hears the patrol panicking as they drift to the Void.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -552,7 +552,7 @@
                 "art": "fst_train_stuck_outcome"
             },
             {
-                "text": "The patrol can't help r_c in time, and as r_c starts to drift off to StarClan, the eyes of s_c glint malevolently. Was this...? r_c doesn't have a chance to finish their last thought.",
+                "text": "The patrol can't help r_c in time, and as r_c starts to drift off to the Void, the eyes of s_c glint malevolently. Was this...? r_c doesn't have a chance to finish their last thought.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -637,7 +637,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "Their Clanmate comes running at their yowls, and r_c is soon freed, shaken but unharmed. The cats settle down as they comfort each other.",
+                "text": "Their Clanmate comes running at their yowls, and r_c is soon freed, shaken but unharmed. The slugcats settle down as they comfort each other.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -652,7 +652,7 @@
                 "art": "fst_train_stuck_outcome"
             },
             {
-                "text": "p_l tugs on just the right branch, lifting the pile off of r_c for long enough for the other cat to scramble free.",
+                "text": "p_l tugs on just the right branch, lifting the pile off of r_c for long enough for the other slugcat to scramble free.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -726,7 +726,7 @@
                 "art": "fst_train_stuck_outcome"
             },
             {
-                "text": "As s_c rarely has patience for other cats, s_c tells them harshly that they don't have time for some mouse-brain who got stuck, making r_c resentful as they pull themselves out from under the branches.",
+                "text": "As s_c rarely has patience for other slugcats, s_c tells them harshly that they don't have time for some yeek-brain who got stuck, making r_c resentful as they pull themselves out from under the branches.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -752,7 +752,7 @@
                 "art": "fst_train_stuck_outcome"
             },
             {
-                "text": "Hurt and wheezing, r_c hears p_l panicking as they drift to StarClan.",
+                "text": "Hurt and wheezing, r_c hears p_l panicking as they drift to the Void.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -832,7 +832,7 @@
                 "art": "fst_train_stuck_outcome"
             },
             {
-                "text": "p_l tugs on just the right branch, lifting the pile off of r_c for long enough for the other cat to scramble free. r_c admires how smart p_l is.",
+                "text": "p_l tugs on just the right branch, lifting the pile off of r_c for long enough for the other slugcat to scramble free. r_c admires how smart p_l is.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -906,7 +906,7 @@
                 "art": "fst_train_stuck_outcome"
             },
             {
-                "text": "As s_c rarely has patience for other cats, s_c tells them harshly that they don't have time for some mouse-brain who got stuck, making r_c resentful as they pull themselves out from under the branches.",
+                "text": "As s_c rarely has patience for other slugcats, s_c tells them harshly that they don't have time for some yeek-brain who got stuck, making r_c resentful as they pull themselves out from under the branches.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -932,7 +932,7 @@
                 "art": "fst_train_stuck_outcome"
             },
             {
-                "text": "Hurt and wheezing, r_c hears p_l panicking as they drift to StarClan.",
+                "text": "Hurt and wheezing, r_c hears p_l panicking as they drift to the Void.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -1018,7 +1018,7 @@
                 "art": "fst_train_stuck_outcome"
             },
             {
-                "text": "Hurt and wheezing, r_c does their best to hang on and wait for a patrol, but they succumb to their injuries and drift to StarClan alone.",
+                "text": "Hurt and wheezing, r_c does their best to hang on and wait for a patrol, but they succumb to their injuries and drift to the Void alone.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -1107,7 +1107,7 @@
                 "can_have_stat": ["app"]
             },
             {
-                "text": "The apprentice wanders along obliviously and slips, tumbling right down a well-hidden gully. Bruised and sore, r_c has to report to the medicine cat den when they return to camp.",
+                "text": "The apprentice wanders along obliviously and slips, tumbling right down a well-hidden gully. Bruised and sore, r_c has to report to the medicine slugcat den when they return to camp.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1350,7 +1350,7 @@
                 ]
             },
             {
-                "text": "p_l points out the cascade of spines lying flat on its hairy back as the porcupine snuffles happily around the forest floor, sounding like a happy newborn kit in the nursery. app1 looks a bit disbelieving, so p_l darts towards the porcupine, making it throw its back up at the cats in a full threat display, spines just as fluffed up as app1's pelt.",
+                "text": "p_l points out the cascade of spines lying flat on its hairy back as the porcupine snuffles happily around the forest floor, sounding like a happy newborn kit in the nursery. app1 looks a bit disbelieving, so p_l darts towards the porcupine, making it throw its back up at the slugcats in a full threat display, spines just as fluffed up as app1's pelt.",
                 "exp": 15,
                 "weight": 5,
                 "relationships": [
@@ -1371,7 +1371,7 @@
                 ]
             },
             {
-                "text": "s_c points out the dangers of the creature, explaining how some c_n stories tell of a warrior who, in an impossible battle defending a nursery full of kits, sacrificed his body and let StarClan transform his back into an impenetrable wall of thorns to protect his Clan.",
+                "text": "s_c points out the dangers of the creature, explaining how some c_n stories tell of a warrior who, in an impossible battle defending a nursery full of kits, sacrificed his body and let the Ascended transform his back into an impenetrable wall of thorns to protect his Clan.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -1396,7 +1396,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 maintains that porcupines are prey, not weird transformed dead cats or anything like that, just prey, and p_l can't get them to take the training session seriously.",
+                "text": "app1 maintains that porcupines are prey, not weird transformed dead slugcats or anything like that, just prey, and p_l can't get them to take the training session seriously.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1458,7 +1458,7 @@
                 ]
             },
             {
-                "text": "p_l points out the cascade of spines lying flat on its hairy back as the porcupine snuffles happily around the forest floor, sounding like a happy newborn kit in the nursery. app1 looks a bit disbelieving, so p_l darts towards the porcupine, making it throw its back up at the cats in a full threat display, spines just as fluffed up as app1's pelt.",
+                "text": "p_l points out the cascade of spines lying flat on its hairy back as the porcupine snuffles happily around the forest floor, sounding like a happy newborn kit in the nursery. app1 looks a bit disbelieving, so p_l darts towards the porcupine, making it throw its back up at the slugcats in a full threat display, spines just as fluffed up as app1's pelt.",
                 "exp": 15,
                 "weight": 5,
                 "relationships": [
@@ -1567,7 +1567,7 @@
                 ]
             },
             {
-                "text": "p_l points out the cascade of spines lying flat on its hairy back as the porcupine snuffles happily around the forest floor, sounding like a happy newborn kit in the nursery. app1 looks a bit disbelieving, so p_l darts towards the porcupine, making it throw its back up at the cats in a full threat display, spines just as fluffed up as app2's pelt.",
+                "text": "p_l points out the cascade of spines lying flat on its hairy back as the porcupine snuffles happily around the forest floor, sounding like a happy newborn kit in the nursery. app1 looks a bit disbelieving, so p_l darts towards the porcupine, making it throw its back up at the slugcats in a full threat display, spines just as fluffed up as app2's pelt.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -1588,7 +1588,7 @@
                 ]
             },
             {
-                "text": "s_c points out the dangers of the creature, explaining how some c_n stories tell of a warrior who, in an impossible battle defending a nursery full of kits, sacrificed his body and let StarClan transform his back into an impenetrable wall of thorns to protect his Clan. app1 and app2 spend the walk back to c_n wondering what this ancient warrior was like.",
+                "text": "s_c points out the dangers of the creature, explaining how some c_n stories tell of a warrior who, in an impossible battle defending a nursery full of kits, sacrificed his body and let the Ascended transform his back into an impenetrable wall of thorns to protect his Clan. app1 and app2 spend the walk back to c_n wondering what this ancient warrior was like.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -1613,7 +1613,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 maintains that porcupines are prey, not weird transformed dead cats or anything like that, just prey, and p_l can't get them to take the training session seriously. They distract app2 as well, and eventually p_l has to give up on teaching.",
+                "text": "app1 maintains that porcupines are prey, not weird transformed dead slugcats or anything like that, just prey, and p_l can't get them to take the training session seriously. They distract app2 as well, and eventually p_l has to give up on teaching.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1676,7 +1676,7 @@
                 ]
             },
             {
-                "text": "p_l points out the cascade of spines lying flat on its hairy back as the porcupine snuffles happily around the forest floor, sounding like a happy newborn kit in the nursery. app1 looks a bit disbelieving, so p_l darts towards the porcupine, making it throw its back up at the cats in a full threat display, spines just as fluffed up as app2's pelt.",
+                "text": "p_l points out the cascade of spines lying flat on its hairy back as the porcupine snuffles happily around the forest floor, sounding like a happy newborn kit in the nursery. app1 looks a bit disbelieving, so p_l darts towards the porcupine, making it throw its back up at the slugcats in a full threat display, spines just as fluffed up as app2's pelt.",
                 "exp": 15,
                 "weight": 5,
                 "relationships": [
@@ -1867,7 +1867,7 @@
         "relationship_constraint": ["not_mates"],
         "success_outcomes": [
             {
-                "text": "The cats go out together late in the day, as the shadows stretch long under the trees. p_l goes through {PRONOUN/p_l/poss} tricks, showing r_c how {PRONOUN/p_l/subject} {VERB/p_l/shift/shifts} {PRONOUN/p_l/poss} balance to make less noise on leaf litter. r_c watches with eyes that p_l notices are a bit too admiring for what's just a little trick. {PRONOUN/r_c/subject/CAP} {VERB/r_c/smirk/smirks}, showing off a little.",
+                "text": "The slugcats go out together late in the day, as the shadows stretch long under the trees. p_l goes through {PRONOUN/p_l/poss} tricks, showing r_c how {PRONOUN/p_l/subject} {VERB/p_l/shift/shifts} {PRONOUN/p_l/poss} balance to make less noise on leaf litter. r_c watches with eyes that p_l notices are a bit too admiring for what's just a little trick. {PRONOUN/r_c/subject/CAP} {VERB/r_c/smirk/smirks}, showing off a little.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -1881,7 +1881,7 @@
                 ]
             },
             {
-                "text": "It's a long but satisfying training session, and both cats get the chance to test themselves and work on their skills. It ends with them both sitting on a little outlook, watching the sun go down and catching the last of its rays on their pelts. r_c sees p_l watching {PRONOUN/r_c/object} instead of the sunset and smiles.",
+                "text": "It's a long but satisfying training session, and both slugcats get the chance to test themselves and work on their skills. It ends with them both sitting on a little outlook, watching the sun go down and catching the last of its rays on their pelts. r_c sees p_l watching {PRONOUN/r_c/object} instead of the sunset and smiles.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -1910,7 +1910,7 @@
                 ]
             },
             {
-                "text": "r_c marvels at the opportunity to have s_c's time to {PRONOUN/r_c/self}. s_c is such a popular cat, so friendly and fun to be around, and yet when the training session draws to a close under the setting sun, s_c looks surprised to be told so.",
+                "text": "r_c marvels at the opportunity to have s_c's time to {PRONOUN/r_c/self}. s_c is such a popular slugcat, so friendly and fun to be around, and yet when the training session draws to a close under the setting sun, s_c looks surprised to be told so.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -1936,7 +1936,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l tries, but both the cats are too tired after a long day's work and end up snapping at each other. It's nothing serious, but both agree to take some time to cool off.",
+                "text": "p_l tries, but both the slugcats are too tired after a long day's work and end up snapping at each other. It's nothing serious, but both agree to take some time to cool off.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2048,7 +2048,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Their ancestors lived in a sheltered redwood grove, and it protected them from the elements and fed their prey and kept their kits dry, p_l explains. But one day, Twolegs destroyed their home with fire and monsters, and the cats of that Clan scattered. Some, after many trials, founded c_n and chose a place that seemed familiar and safe.",
+                "text": "Their ancestors lived in a sheltered redwood grove, and it protected them from the elements and fed their prey and kept their kits dry, p_l explains. But one day, Twolegs destroyed their home with fire and monsters, and the slugcats of that Clan scattered. Some, after many trials, founded c_n and chose a place that seemed familiar and safe.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -2178,11 +2178,11 @@
         "chance_of_success": 50,
         "relationship_constraint": [],
         "pl_skill_constraint": [],
-        "intro_text": "Padding through the forest at night on a dare, the apprentices gasp as light streaks across the sky. A StarClan cat has fallen!",
-        "decline_text": "Before the apprentices can pursue the fallen StarClan cat, the worst of all possibilities happens - a warrior discovers them, sending them back to camp with a loud scolding.",
+        "intro_text": "Padding through the forest at night on a dare, the apprentices gasp as light streaks across the sky. An Ascended slugcat has fallen!",
+        "decline_text": "Before the apprentices can pursue the fallen Ascended slugcat, the worst of all possibilities happens - a warrior discovers them, sending them back to camp with a loud scolding.",
         "success_outcomes": [
             {
-                "text": "Scrambling up the hill, app1 shoves app2 up a slightly too big step, both of them panting as they run. Strange-smelling mist swirls around them as they search for the StarClan cat, until app2 bumps into a huge, tall pillar - one that blinks down with slow, glowing red eyes.",
+                "text": "Scrambling up the hill, app1 shoves app2 up a slightly too big step, both of them panting as they run. Strange-smelling mist swirls around them as they search for the Ascended slugcat, until app2 bumps into a huge, tall pillar - one that blinks down with slow, glowing red eyes.",
                 "exp": 0,
                 "weight": 20
             }
@@ -2251,7 +2251,7 @@
         "relationship_constraint": [],
         "pl_skill_constraint": [],
         "intro_text": "app1 gathers {PRONOUN/app1/poss} strength, butt wiggling with excitement, legs tense, and throws {PRONOUN/app1/self} upward, twisting in the air in a massive pounce that surely would bring down the mightiest prey! <i>OoOooo,</i> a voice says mockingly.",
-        "decline_text": "What was that?! StarClan?! app1 is going home, {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} like this!",
+        "decline_text": "What was that?! the Ascended?! app1 is going home, {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} like this!",
         "success_outcomes": [
             {
                 "text": "Well it's not like they can do better, app1 shouts back at the crows! Humph. Birdbrains.",

@@ -60,7 +60,7 @@
                 ]
             },
             {
-                "text": "s_c has always had a skilled tongue, but it's rarely ever felt this important to choose {PRONOUN/s_c/poss} words carefully. It's all worth it to hear r_c's 'yes.' Their stroll together is awkward with the new tension of acknowledged romance, but neither cat would change it for the world.",
+                "text": "s_c has always had a skilled tongue, but it's rarely ever felt this important to choose {PRONOUN/s_c/poss} words carefully. It's all worth it to hear r_c's 'yes.' Their stroll together is awkward with the new tension of acknowledged romance, but neither slugcat would change it for the world.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1", "MEDIATOR,1", "INSIGHTFUL,1"],
@@ -120,7 +120,7 @@
         },
         "weight": 20,
         "intro_text": "p_l trots up, full of a disproportionate amount of excitement for the bland, overcast afternoon, tail tip twitching. Does r_c want to come out with {PRONOUN/p_l/object}? {PRONOUN/p_l/subject/cap} lean in close - there's a special spot {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} been meaning to show {PRONOUN/r_c/subject}.",
-        "decline_text": "Unfortunately, r_c is sent on an afternoon border patrol before either cat can head out of camp.",
+        "decline_text": "Unfortunately, r_c is sent on an afternoon border patrol before either slugcat can head out of camp.",
         "chance_of_success": 80,
         "relationship_constraint": ["romantic_70", "mates"],
         "success_outcomes": [
@@ -211,7 +211,7 @@
                 "weight": 20
             },
             {
-                "text": "Slimy, yet satisfying! Curiosity completed, app1 wanders off - but has to report to the medicine den later, when {PRONOUN/app1/poss} stomach reminds {PRONOUN/app1/object} why cats don't eat random bugs.",
+                "text": "Slimy, yet satisfying! Curiosity completed, app1 wanders off - but has to report to the medicine den later, when {PRONOUN/app1/poss} stomach reminds {PRONOUN/app1/object} why slugcats don't eat random bugs.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -244,7 +244,7 @@
         "decline_text": "Oh, the rain let up - back to training!",
         "success_outcomes": [
                 {
-                    "text": "Once upon a time lived a calico cat with entitlement and lust living in her heart. She had an affair with a cat from another Clan, and when both she and her lover's mate bore him kits, she exploded into rage, dragging her litter into the river where they drowned. She still roams the riverbank, looking for young cats to kit-nap...",
+                    "text": "Once upon a time lived a calico slugcat with entitlement and lust living in her heart. She had an affair with a slugcat from another Clan, and when both she and her lover's mate bore him slugpups, she exploded into rage, dragging her litter into the river where they drowned. She still roams the riverbank, looking for young slugcats to pup-nap...",
                     "exp": 30,
                     "weight": 20,
                     "relationships": [
@@ -296,11 +296,11 @@
         "weight": 20,
         "chance_of_success": 60,
         "pl_skill_constraint": ["STORY,1"],
-        "intro_text": "There's a saying, about crows in newleaf...",
-        "decline_text": "Cats say many things. Doesn't mean it's worth listening to.",
+        "intro_text": "There's a saying, about Scavengers in newleaf...",
+        "decline_text": "Slugcats say many things. Doesn't mean it's worth listening to.",
         "success_outcomes": [
                 {
-                    "text": "It's said, p_l whispers, that if you leave a shiny, beautiful rock out under a crow's nest, they will leave you a beautiful thing in return...",
+                    "text": "It's said, p_l whispers, that if you leave a shiny, beautiful rock out under a Scavenger's nest, they will leave you a beautiful thing in return...",
                     "exp": 30,
                     "weight": 20,
                     "relationships": [
@@ -323,7 +323,7 @@
             ],
             "fail_outcomes": [
                 {
-                    "text": "No one is interested in hearing superstitions about crows - surely it's better to hunt them instead?",
+                    "text": "No one is interested in hearing superstitions about Scavengers - surely it's better to hunt them instead?",
                     "exp": 0,
                     "weight": 20,
                     "relationships": [
