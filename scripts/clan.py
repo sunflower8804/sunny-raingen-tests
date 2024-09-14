@@ -911,6 +911,8 @@ class Clan:
         if game.clan.game_mode != "classic":
             self.load_freshkill_pile(game.clan)
 
+        game.switches["error_message"] = ""
+
         # Return Version Info.
         return {
             "version_name": clan_data.get("version_name"),
