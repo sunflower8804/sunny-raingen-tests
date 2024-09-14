@@ -126,12 +126,12 @@ class Sprites:
             'eyes', 'eyes2', 'skin',
             'scars', 'missingscars',
             'medcatherbs',
-            'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards',
+            'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards', 'drones',
             'singlecolours', 'speckledcolours', 'tabbycolours', 'bengalcolours', 'marbledcolours',
             'rosettecolours', 'smokecolours', 'tickedcolours', 'mackerelcolours', 'classiccolours',
             'sokokecolours', 'agouticolours', 'singlestripecolours', 'maskedcolours', 'bananacolours',
             'centipedecolours', 'collaredcolours', 'concolours', 'gravelcolours', 'cyanlizardcolours',
-            'slimemoldcolours', 'lanterncolours', 'vulturecolours', 'lizardcolours',
+            'slimemoldcolours', 'lanterncolours', 'vulturecolours', 'lizardcolours', 'leviathancolours',
             'shadersnewwhite', 'lightingnew',
             'whitepatches', 'tortiepatchesmasks',
             'fademask', 'fadestarclan', 'fadedarkforest',
@@ -207,8 +207,8 @@ class Sprites:
             'smokecolours', 'tickedcolours', 'speckledcolours', 'bengalcolours',
             'mackerelcolours', 'classiccolours', 'sokokecolours', 'agouticolours',
             'singlestripecolours', 'maskedcolours', 'centipedecolours',
-            'collaredcolours', 'concolours', 'gravelcolours', 'cyanlizardcolours',
-            'slimemoldcolours', 'lanterncolours', 'bananacolours', 'vulturecolours', 'lizardcolours',
+            'collaredcolours', 'concolours', 'gravelcolours', 'cyanlizardcolours', 'slimemoldcolours', 
+            'lanterncolours', 'bananacolours', 'vulturecolours', 'lizardcolours', 'leviathancolours',
         ]
 
         for row, colors in enumerate(color_categories):
@@ -310,6 +310,11 @@ class Sprites:
             ["GREENNYLON", "RAINBOWNYLON", "BLACKNYLON", "SPIKESNYLON", "WHITENYLON"],
             ["PINKNYLON", "PURPLENYLON", "MULTINYLON", "INDIGONYLON"]
         ]
+        drones_data = [
+            ["CRIMSONDRONE", "BLUEDRONE", "YELLOWDRONE", "CYANDRONE", "REDDRONE", "LIMEDRONE"],
+            ["GREENDRONE", "RAINBOWDRONE", "BLACKDRONE", "SPIKESDRONE", "WHITEDRONE"],
+            ["PINKDRONE", "PURPLEDRONE", "MULTIDRONE", "INDIGODRONE"]
+        ]
         rwlizards_data = [
             ["BLUESKY", "BLUESEA", "PINKMAGENTA", "PINKPURPLE", "GREENEMERALD", "GREENLIME", "WHITEHIDDEN", "WHITEREVEALED"], 
             ["BLACKNEUTRAL", "BLACKALERT", "YELLOWORANGE", "YELLOWLEMON", "REDTOMATO", "CYANBLUE", "CYANGREEN"],
@@ -352,6 +357,10 @@ class Sprites:
             self.make_group('rwlizards', (a, 0), f'lizards{i}')
         for a, i in enumerate(["YELLOWORANGE", "YELLOWLEMON", "REDTOMATO", "CYANBLUE", "CYANGREEN", "ALBISALAFUSHIA", "ALBISALARED", "MELASALARED", "MELASALAFUSHIA", "MELASALAPURPLE"]):
             self.make_group('rwlizards', (a, 1), f'lizards{i}')
+        # drones
+        for row, drones in enumerate(drones_data):
+            for col, drone in enumerate(drones):
+                self.make_group('drones', (col, row), f'collars{drone}')
 
     def load_symbols(self):
         """

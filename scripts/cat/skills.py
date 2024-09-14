@@ -4,8 +4,18 @@ from typing import Union
 
 
 class SkillPath(Enum):
-    TEACHER = ("quick to help", "good teacher", "great teacher", "excellent teacher")
-    HUNTER = ("moss-ball hunter", "good hunter", "great hunter", "renowned hunter")
+    TEACHER = (
+        "quick to help", 
+        "good teacher", 
+        "great teacher", 
+        "excellent teacher"
+    )
+    HUNTER = (
+        "moss-ball hunter", 
+        "good hunter", 
+        "great hunter", 
+        "renowned hunter"
+    )
     FIGHTER = (
         "avid play-fighter",
         "good fighter",
@@ -42,19 +52,29 @@ class SkillPath(Enum):
         "great mediator",
         "skilled mediator",
     )
-    CLEVER = ("quick witted", "clever", "very clever", "incredibly clever")
+    CLEVER = (
+        "quick witted",
+        "clever", 
+        "very clever", 
+        "incredibly clever"
+    )
     INSIGHTFUL = (
         "careful listener",
         "helpful insight",
         "valuable insight",
         "trusted advisor",
     )
-    SENSE = ("oddly observant", "natural intuition", "keen eye", "unnatural senses")
+    SENSE = (
+        "oddly observant", 
+        "natural intuition", 
+        "keen eye", 
+        "unnatural senses"
+    )
     KIT = (
         "active imagination",
-        "good kitsitter",
-        "great kitsitter",
-        "beloved kitsitter",
+        "good pupsitter",
+        "great pupsitter",
+        "beloved pupsitter",
     )
     STORY = (
         "lover of stories",
@@ -68,22 +88,42 @@ class SkillPath(Enum):
         "lore keeper",
         "lore master",
     )
-    CAMP = ("picky nest builder", "steady paws", "den builder", "camp keeper")
-    HEALER = ("interested in herbs", "good healer", "great healer", "fantastic healer")
+    CAMP = (
+        "picky nest builder", 
+        "steady paws", 
+        "den builder", 
+        "camp keeper"
+    )
+    HEALER = (
+        "interested in herbs", 
+        "good healer", 
+        "great healer", 
+        "fantastic healer"
+    )
     STAR = (
-        "curious about StarClan",
-        "connection to StarClan",
-        "deep StarClan bond",
-        "unshakable StarClan link",
+        "curious about the Ascended",
+        "connection to the Ascended",
+        "deep Ascended bond",
+        "unshakable Ascended link",
     )
     DARK = (
-        "interested in the Dark Forest",
-        "Dark Forest affinity",
-        "deep Dark Forest bond",
-        "unshakable Dark Forest link",
+        "interested in the Rotwound",
+        "Rotwound affinity",
+        "deep Rotwound bond",
+        "unshakable Rotwound link",
     )
-    OMEN = ("interested in oddities", "omen seeker", "omen sense", "omen sight")
-    DREAM = ("restless sleeper", "strange dreamer", "dream walker", "dream shaper")
+    OMEN = (
+        "interested in oddities", 
+        "omen seeker", 
+        "omen sense", 
+        "omen sight"
+    )
+    DREAM = (
+        "restless sleeper", 
+        "strange dreamer", 
+        "dream walker", 
+        "dream shaper"
+    )
     CLAIRVOYANT = (
         "oddly insightful",
         "somewhat clairvoyant",
@@ -96,7 +136,12 @@ class SkillPath(Enum):
         "prophecy interpreter",
         "prophet",
     )
-    GHOST = ("morbid curiosity", "ghost sense", "ghost sight", "ghost speaker")
+    GHOST = (
+        "morbid curiosity", 
+        "ghost sense", 
+        "ghost sight", 
+        "ghost speaker"
+    )
 
     @staticmethod
     def get_random(exclude: list = ()):
@@ -668,7 +713,7 @@ class CatSkills:
         """Generates a CatSkill object"""
         new_skill = CatSkills()
         conversion = {
-            "strong connection to StarClan": (SkillPath.STAR, 2),
+            "strong connection to the Ascended": (SkillPath.STAR, 2),
             "good healer": (SkillPath.HEALER, 1),
             "great healer": (SkillPath.HEALER, 2),
             "fantastic healer": (SkillPath.HEALER, 3),
@@ -696,9 +741,9 @@ class CatSkills:
             "smart tactician": (SkillPath.INSIGHTFUL, 1),
             "valuable tactician": (SkillPath.INSIGHTFUL, 2),
             "valuable insight": (SkillPath.INSIGHTFUL, 3),
-            "good kitsitter": (SkillPath.KIT, 1),
-            "great kitsitter": (SkillPath.KIT, 2),
-            "beloved kitsitter": (SkillPath.KIT, 3),
+            "good pupsitter": (SkillPath.KIT, 1),
+            "great pupsitter": (SkillPath.KIT, 2),
+            "beloved pupsitter": (SkillPath.KIT, 3),
             "camp keeper": (SkillPath.CAMP, 3),
             "den builder": (SkillPath.CAMP, 2),
             "omen sight": (SkillPath.OMEN, 3),

@@ -32,6 +32,7 @@ class Pelt:
         'Slime': 'slimemold',
         'Banana': 'banana',
         'Lantern': 'lantern',
+        'Leviathan': 'leviathan',
         'Vult': 'vulture',
         'Tortie': None,
         'Calico': None,
@@ -63,7 +64,7 @@ class Pelt:
                       'BRIE', 'BELOVED', 'BODY', 'SHILOH', 'FRECKLED', 'HEARTBEAT']
     tortiebases = ['single', 'tabby', 'bengal', 'marbled', 'ticked', 'smoke', 'rosette', 'speckled', 'mackerel',
                    'classic', 'sokoke', 'agouti', 'singlestripe', 'masked', 'centipede', 'collared', 'con',
-                   'gravel', 'cyanlizard', 'lizard', 'banana', 'lantern', 'slimemold', 'vulture',]
+                   'gravel', 'cyanlizard', 'lizard', 'banana', 'lantern', 'slimemold', 'vulture', 'leviathan',]
     
     pelt_length = ["short", "medium", "long"]
     eye_colours = ['YELLOW', 'AMBER', 'HAZEL', 'PALEGREEN', 'GREEN', 'BLUE', 'DARKBLUE', 'GREY', 'CYAN', 'EMERALD',
