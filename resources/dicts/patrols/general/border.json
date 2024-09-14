@@ -1,6 +1,6 @@
 [
     {
-        "patrol_id": "gen_bord_dog1",
+        "patrol_id": "gen_bord_redliz1",
         "biome": ["any"],
         "season": ["any"],
         "types": ["border"],
@@ -44,18 +44,51 @@
                 ]
             },
 			{
-                "text": "r_c spots the huge red lizard first, and pauses in {PRONOUN/s_c/poss} fright. However, instead of brandishing a spear, they use kindness as their weapon... And it somehow works! r_c now has a story to tell about {PRONOUN/s_c/poss} new friend!",
+                "text": "s_c spots the huge red lizard first, and pauses in {PRONOUN/s_c/poss} fright. However, instead of brandishing a spear, they use kindness as their weapon... And it somehow works! s_c now has a story to tell about {PRONOUN/s_c/poss} new friend!",
                 "exp": 40,
-                "weight": 99,
+                "weight": 5,
+				"art": "gen_liztame_red",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
 				"accessory": [
                     {
-                        "cats": ["p_l"],
+                        "cats": ["s_c"],
                         "accessory": ["REDTOMATO"]
                     }
                 ],
                 "relationships": [
                     {
                         "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c spots the huge red lizard first, and pauses in {PRONOUN/s_c/poss} fright. However, instead of brandishing a spear, they use kindness as their weapon... And it somehow works! r_c now has a story to tell about {PRONOUN/s_c/poss} new friend!",
+                "exp": 40,
+                "weight": 1,
+				"art": "gen_liztame_red",
+
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["REDTOMATO"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
                         "cats_from": ["clan"],
                         "mutual": false,
                         "values": ["trust", "respect"],
@@ -139,7 +172,7 @@
         ]
     },
     {
-        "patrol_id": "gen_bord_dog2",
+        "patrol_id": "gen_bord_redliz2",
         "biome": ["any"],
         "season": ["any"],
         "types": ["border"],
@@ -221,9 +254,41 @@
                 ]
             },
 			{
+                "text": "s_c spots the huge red lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The red lizard follows s_c home, happily sticking close to their new friend.",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_red",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["REDTOMATO"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{ 
                 "text": "r_c spots the huge red lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The red lizard follows r_c home, happily sticking close to their new friend.",
-                "exp": 40,
-                "weight": 99,
+                "exp": 30,
+                "weight": 1,
+				"art": "gen_liztame_red",
 				"accessory": [
                     {
                         "cats": ["r_c"],
@@ -291,6 +356,26 @@
                     }
                 ]
             },
+			{
+                "text": "The red lizard was too experienced, too aggressive! It didn't stop at killing one, it's deadly jaws closed around any scug in it's reach. The rest of the patrol flees, yowling their heartbreak and warnings to the clan.",
+                "exp": 0,
+                "weight": 1,
+                "dead_cats": ["multi"],
+                "history_text": {
+                    "scar": "This slugcat was scarred from bravely defending the Clan from a red lizard",
+                    "reg_death": "This slugcat died to keep c_n safe from a red lizard.",
+                    "lead_death": "died to keep c_n safe from a red lizard"
+                },
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": -10
+                    }
+                ]
+            },
             {
                 "text": "The patrol tries bravely to lead the red lizard away from c_n borders, but with so few slugcats it's impossible to cover each other's backs. r_c gets caught while running, and it's all the rest of the patrol can do to distract the lizard long enough to get {PRONOUN/r_c/object} to safety.",
                 "exp": 0,
@@ -320,7 +405,7 @@
         ]
     },
     {
-        "patrol_id": "gen_bord_dog3",
+        "patrol_id": "gen_bord_redliz3",
         "biome": ["any"],
         "season": ["any"],
         "types": ["border"],
@@ -402,9 +487,41 @@
                 ]
             },
 			{
+                "text": "s_c spots the huge red lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The red lizard follows s_c home, happily sticking close to their new friend.",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_red",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["REDTOMATO"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
                 "text": "r_c spots the huge red lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The red lizard follows r_c home, happily sticking close to their new friend.",
-                "exp": 40,
-                "weight": 99,
+                "exp": 30,
+                "weight": 1,
+				"art": "gen_liztame_red",
 				"accessory": [
                     {
                         "cats": ["r_c"],
@@ -472,6 +589,26 @@
                     }
                 ]
             },
+			{
+                "text": "The red lizard was too experienced, too aggressive! It didn't stop at killing one, it's deadly jaws closed around any scug in it's reach. The rest of the patrol flees, yowling their heartbreak and warnings to the clan.",
+                "exp": 0,
+                "weight": 1,
+                "dead_cats": ["multi"],
+                "history_text": {
+                    "scar": "This slugcat was scarred from bravely defending the Clan from a red lizard",
+                    "reg_death": "This slugcat died to keep c_n safe from a red lizard.",
+                    "lead_death": "died to keep c_n safe from a red lizard"
+                },
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": -10
+                    }
+                ]
+            },
             {
                 "text": "The patrol fights bravely, but you only need to be unlucky once. r_c gets taken out of the fight with one snap of the beast's huge jaws. The rest of the patrol rallies to defend {PRONOUN/r_c/object}, and r_c is safely helped back to camp, where the medicine den awaits.",
                 "exp": 0,
@@ -500,8 +637,1387 @@
             }
         ]
     },
+	{
+        "patrol_id": "gen_bord_cyanliz1",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": [],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 1,
+        "max_cats": 1,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "r_c tracks the scent of a cyan lizard along the edge of the Clan's territory.",
+        "decline_text": "r_c decides not to pursue such a dangerous creature, especially seeing as it hasn't crossed the border.",
+        "chance_of_success": 20,
+        "success_outcomes": [
+            {
+                "text": "r_c bolts back to camp, yowling a warning!",
+                "exp": 40,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+            {
+                "text": "s_c sets up an ambush for the wandering lizard. When the lizard nears {PRONOUN/s_c/poss} hiding spot, s_c leaps out with spear in hand, bloodies its hide, and leads it on a wild chasing dance across the border and out of c_n territory.",
+                "exp": 40,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,3"],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c spots the nimble cyan lizard first, and pauses in {PRONOUN/s_c/poss} fright. However, instead of brandishing a spear, they use kindness as their weapon... And it somehow works! r_c now has a story to tell about {PRONOUN/s_c/poss} new friend!",
+                "exp": 40,
+                "weight": 1,
+				"art": "gen_liztame_cyan",
+
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["CYANBLUE", "CYANGREEN"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "s_c spots the nimble cyan lizard first, and pauses in {PRONOUN/s_c/poss} fright. However, instead of brandishing a spear, they use kindness as their weapon... And it somehow works! s_c now has a story to tell about {PRONOUN/s_c/poss} new friend!",
+                "exp": 40,
+                "weight": 5,
+				"art": "gen_liztame_cyan",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["CYANBLUE", "CYANGREEN"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+            {
+                "text": "{PRONOUN/s_c/subject} {VERB/s_c/do/does}n't feel like {PRONOUN/s_c/subject} {VERB/s_c/have/has} the skill or power to take on a cyan lizard single-pawed, but s_c would give {PRONOUN/s_c/poss} life for c_n. {PRONOUN/s_c/subject/CAP} {VERB/s_c/charge/charges} in courageously to lead the lizard away from c_n territory. Each burst from it's tail could be the herald of their doom, each jump the last thing {PRONOUN/s_c/subject} might ever feel, but somehow, limbs and lungs burning, {PRONOUN/s_c/subject} eventually {VERB/s_c/leap/leaps} to refuge.",
+                "exp": 40,
+                "weight": 20,
+                "stat_trait": [
+                    "ambitious",
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "loyal",
+                    "responsible",
+                    "righteous"
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "r_c would give {PRONOUN/r_c/poss} life to protect c_n, and as {PRONOUN/r_c/subject} {VERB/r_c/lead/leads} the cyan lizard away from the Clan, in {PRONOUN/r_c/poss} heart, {PRONOUN/r_c/subject} {VERB/r_c/accept/accepts} that's what {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} doing. As darkness closes in around {PRONOUN/r_c/object} and the lizard's jaws descend again, r_c tries to sink {PRONOUN/r_c/poss} spear into its hide, and hopes desperately that {PRONOUN/r_c/subject} led it far enough.",
+                "exp": 0,
+                "weight": 10,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "This slugcat was scarred from bravely defending the Clan from a cyan lizard",
+                    "reg_death": "This slugcat died to keep c_n safe from a cyan lizard.",
+                    "lead_death": "died to keep c_n safe from a cyan lizard"
+                },
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+            {
+                "text": "r_c would give their life to protect c_n, and as {PRONOUN/r_c/subject} {VERB/r_c/charge/charges} past the cyan lizard to lead it far, far from c_n, {PRONOUN/r_c/subject} {VERB/r_c/accept/accepts} it. Fear gives {PRONOUN/r_c/object} speed, but it only takes one successful hit. Miraculously {PRONOUN/r_c/subject} {VERB/r_c/fly/flies} out of the lizard's jaws while it shakes {PRONOUN/r_c/object}, landing safely. r_c is injured, desperate, and terrified - but {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} alive.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["big_bite_injury"],
+                        "scars": ["BRIGHTHEART"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This cat is scarred from bravely defending the Clan from a cyan lizard.",
+                    "reg_death": "This slugcat died to keep c_n safe from a cyan lizard.",
+                    "lead_death": "died to keep c_n safe from a cyan lizard"
+                },
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            }
+        ]
+    },
     {
-        "patrol_id": "gen_bord_smalldog1",
+        "patrol_id": "gen_bord_cyanliz2",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": ["patrol_rel", "pos_fail"],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 2,
+        "max_cats": 3,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol tracks the scent of a cyan lizard along the edge of the Clan's territory.",
+        "decline_text": "The patrol decides not to pursue such a dangerous creature, especially seeing as it hasn't crossed the border.",
+        "chance_of_success": 30,
+        "success_outcomes": [
+            {
+                "text": "The patrol shadows the cyan lizard, sending a message back to warn camp. It's an exhausting and stressful day, but by the time night falls, they've confirmed that the lizard is leaving the local area, and the patrol has assured c_n's safety.",
+                "exp": 20,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "The patrol gathers their courage and valiantly tries to lead away the cyan lizard. With such a small group of slugcats, they can only lead it a short distance, but it's better than nothing.",
+                "exp": 20,
+                "weight": 5,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c sets up a careful ambush ahead of the cyan lizard, and {PRONOUN/s_c/poss} surprising, darting attack bloodies the lizard's flank, dissuading it from heading further into c_n territory.",
+                "exp": 20,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,3"],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c selflessly takes the scavenger's share of the run as the patrol leads the cyan lizard on, exhausting {PRONOUN/s_c/self} almost to the point of danger but leading the lizard far away from c_n borders. {PRONOUN/s_c/poss/CAP} Clanmates support {PRONOUN/s_c/object} on the long walk home once it's all over, their purrs mixing with s_c's exhausted pants.",
+                "exp": 20,
+                "weight": 20,
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "loyal",
+                    "responsible",
+                    "righteous"
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+			{
+                "text": "s_c spots the nimble cyan lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The cyan lizard follows s_c home, happily sticking close to their new friend.",
+                "exp": 40,
+                "weight": 5,
+				"art": "gen_liztame_cyan",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["CYANBLUE", "CYANGREEN"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c spots the nimble cyan lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The cyan lizard follows r_c home, happily sticking close to their new friend.",
+                "exp": 30,
+                "weight": 1,
+				"art": "gen_liztame_cyan",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["CYANBLUE", "CYANGREEN"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "The patrol tries to keep watch over the lizard from a distance, but it spots the slugcats and forces them to scatter. Everyone escapes just fine, but they lose track of the lizard. It could be anywhere - still out there, lurking, waiting to attack.",
+                "exp": 0,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": -5
+                    }
+                ]
+            },
+            {
+                "text": "s_c tries to take the scavenger's share of the effort to lead the cyan lizard away, but {PRONOUN/s_c/poss} strength fails {PRONOUN/s_c/object} and the rest of the patrol needs to rescue {PRONOUN/s_c/object}, which cuts the patrol short. Everyone knows the lizard could still be lurking on their borders.",
+                "exp": 0,
+                "weight": 20,
+                "stat_trait": ["ambitious", "bloodthirsty", "troublesome", "vengeful"],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": -5
+                    }
+                ]
+            },
+            {
+                "text": "The patrol tries to lead the cyan lizard away from the Clan's borders, but with so few slugcats it's impossible to cover each other's backs. r_c falls to the lizard as the rest of the patrol runs for their lives back to camp, terrified out of their pelts and mourning their Clanmate.",
+                "exp": 0,
+                "weight": 10,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "This cat is scarred from bravely defending the Clan against a cyan lizard.",
+                    "reg_death": "This cat died to keep the Clan safe from a cyan lizard.",
+                    "lead_death": "died to keep c_n safe from a cyan lizard"
+                },
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": -5
+                    }
+                ]
+            },
+			{
+                "text": "The cyan lizard was too quick, too aggressive! It didn't stop at killing one, it's deadly jaws closed around any scug in it's reach. The rest of the patrol flees, yowling their heartbreak and warnings to the clan.",
+                "exp": 0,
+                "weight": 1,
+                "dead_cats": ["multi"],
+                "history_text": {
+                    "scar": "This slugcat was scarred from bravely defending the Clan from a cyan lizard",
+                    "reg_death": "This slugcat died to keep c_n safe from a cyan lizard.",
+                    "lead_death": "died to keep c_n safe from a cyan lizard"
+                },
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": -10
+                    }
+                ]
+            },
+            {
+                "text": "The patrol tries bravely to lead the cyan lizard away from c_n borders, but with so few slugcats it's impossible to cover each other's backs. r_c gets caught while running, and it's all the rest of the patrol can do to distract the lizard long enough to get {PRONOUN/r_c/object} to safety.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["big_bite_injury"],
+                        "scars": ["BRIGHTHEART"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This cat is scarred from bravely defending the Clan against a cyan lizard.",
+                    "reg_death": "This cat died to keep the Clan safe from a cyan lizard.",
+                    "lead_death": "died to keep c_n safe from a cyan lizard"
+                },
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": -5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_bord_cyanliz3",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": ["patrol_rel", "pos_fail"],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 4,
+        "max_cats": 6,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol stumbles across a cyan lizard wandering through the middle of the Clan's territory.",
+        "decline_text": "The patrol decides not to pursue such a dangerous creature. c_n will just have to hope it doesn't come any nearer to camp.",
+        "chance_of_success": 10,
+        "success_outcomes": [
+            {
+                "text": "They decide that no slugcat is going to be surprised by this predator again, and the patrol shadows the lizard, sending a message to warn camp. With enough slugcats to keep watch, rest, track, and send messages back and forth, c_n is kept safe from the wandering lizard.",
+                "exp": 20,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "The patrol gathers their courage and valiantly drives away the cyan lizard. Together, working as one, and with all the strength of the Ascended behind them, the patrol harries the lizard. By keeping up a series of small skirmishes through the entire day, they drive it all the way off c_n territory.",
+                "exp": 20,
+                "weight": 5,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c has just enough time to yowl out a plan, leading the whole large patrol in a skillful battle maneuver against the cyan lizard that protects the slugcats from the chance of injury. The lizard tucks tail and runs for more friendly lands.",
+                "exp": 20,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,3"],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c selflessly throws {PRONOUN/s_c/self} into the fight, and every time the cyan lizard tries to grab at {PRONOUN/s_c/poss} Clanmates, {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} there with claws, fur puffed out to twice {PRONOUN/s_c/poss} normal size. With s_c defending them, the patrol drives the lizard off, yowling triumphantly.",
+                "exp": 20,
+                "weight": 20,
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "loyal",
+                    "responsible",
+                    "righteous"
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+			{
+                "text": "s_c spots the nimble cyan lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The cyan lizard follows s_c home, happily sticking close to their new friend.",
+                "exp": 40,
+                "weight": 5,
+				"art": "gen_liztame_cyan",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["CYANBLUE", "CYANGREEN"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c spots the nimble cyan lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The cyan lizard follows r_c home, happily sticking close to their new friend.",
+                "exp": 30,
+                "weight": 1,
+				"art": "gen_liztame_cyan",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["CYANBLUE", "CYANGREEN"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "The patrol tries to keep watch on the cyan lizard from a distance, but it spots the slugcats and they have to scatter. It's not as bad as it could've been though; r_c manages to keep track of the lizard's position, and it doesn't come any further into c_n territory.",
+                "exp": 0,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": -5
+                    }
+                ]
+            },
+            {
+                "text": "s_c tries to protect {PRONOUN/s_c/poss} Clanmates, but it gets in the way of the attack. Without everyone committed to driving the cyan lizard off, the patrol has to fall back, but they do so in good order.",
+                "exp": 0,
+                "weight": 20,
+                "stat_trait": ["ambitious", "bloodthirsty", "troublesome", "vengeful"],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": -5
+                    }
+                ]
+            },
+            {
+                "text": "With so many slugcats all working as one, the cyan lizard started to get beaten back. But just as the tide of the fight seems about to turn, one lucky strike hits r_c, and those vicious jaws take {PRONOUN/r_c/object} to the Void.",
+                "exp": 0,
+                "weight": 10,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "This slugcat is scarred from bravely defending the Clan against a cyan lizard.",
+                    "reg_death": "This slugcat died to keep the Clan safe from a cyan lizard.",
+                    "lead_death": "died to keep c_n safe from a cyan lizard"
+                },
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": -5
+                    }
+                ]
+            },
+			{
+                "text": "The cyan lizard was too quick, too aggressive! It didn't stop at killing one, it's deadly jaws closed around any scug in it's reach. The rest of the patrol flees, yowling their heartbreak and warnings to the clan.",
+                "exp": 0,
+                "weight": 1,
+                "dead_cats": ["multi"],
+                "history_text": {
+                    "scar": "This slugcat was scarred from bravely defending the Clan from a cyan lizard",
+                    "reg_death": "This slugcat died to keep c_n safe from a cyan lizard.",
+                    "lead_death": "died to keep c_n safe from a cyan lizard"
+                },
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": -10
+                    }
+                ]
+            },
+            {
+                "text": "The patrol fights bravely, but you only need to be unlucky once. r_c gets taken out of the fight with one snap of the beast's jaws. The rest of the patrol rallies to defend {PRONOUN/r_c/object}, and r_c is safely helped back to camp, where the cleric den awaits.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["big_bite_injury"],
+                        "scars": ["BRIGHTHEART"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This cat is scarred from bravely defending the Clan against a cyan lizard.",
+                    "reg_death": "This slugcat died to keep the Clan safe from a large cyan lizard.",
+                    "lead_death": "died to keep c_n safe from a large cyan lizard"
+                },
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": -5
+                    }
+                ]
+            }
+        ]
+    },
+	{
+        "patrol_id": "gen_bord_yellowliz1",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": [],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 1,
+        "max_cats": 1,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "r_c tracks the scent of a yellow lizard pack along the edge of the Clan's territory.",
+        "decline_text": "r_c decides not to pursue such a dangerous group, especially seeing as it hasn't crossed the border.",
+        "chance_of_success": 20,
+        "success_outcomes": [
+            {
+                "text": "r_c bolts back to camp, yowling a warning!",
+                "exp": 40,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+            {
+                "text": "s_c sets up an ambush for the wandering lizard pack. When the lizard nears {PRONOUN/s_c/poss} hiding spot, s_c leaps out with spear in hand, bloodies its hide, and leads it on a wild chasing dance across the border and out of c_n territory.",
+                "exp": 40,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,3"],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c spots the pack of yellow lizards first. One of the beasts, lingering further away from the pack, is approached with kindness... After a little persuation, it follows r_c home, leaving it's pack behind.",
+                "exp": 30,
+                "weight": 1,
+				"art": "gen_liztame_yellow",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["YELLOWORANGE", "YELLOWLEMON"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "s_c spots the pack of yellow lizards first. One of the beasts, lingering further away from the pack, is approached with kindness... After a little persuation, it follows s_c home, leaving it's pack behind.",
+                "exp": 40,
+                "weight": 10,
+				"art": "gen_liztame_yellow",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["YELLOWORANGE", "YELLOWLEMON"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+            {
+                "text": "{PRONOUN/s_c/subject} {VERB/s_c/do/does}n't feel like {PRONOUN/s_c/subject} {VERB/s_c/have/has} the skill or power to take on a whole yellow lizard pack single-pawed, but s_c would give {PRONOUN/s_c/poss} life for c_n. {PRONOUN/s_c/subject/CAP} {VERB/s_c/charge/charges} in courageously to lead the lizards away from c_n territory. Each snapping of jaws could be the herald of their doom, each hot breath the last thing {PRONOUN/s_c/subject} might ever feel, but somehow, limbs and lungs burning, {PRONOUN/s_c/subject} eventually {VERB/s_c/leap/leaps} to refuge.",
+                "exp": 40,
+                "weight": 20,
+                "stat_trait": [
+                    "ambitious",
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "loyal",
+                    "responsible",
+                    "righteous"
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "r_c would give {PRONOUN/r_c/poss} life to protect c_n, and as {PRONOUN/r_c/subject} {VERB/r_c/lead/leads} the yellow lizard pack away from the Clan, in {PRONOUN/r_c/poss} heart, {PRONOUN/r_c/subject} {VERB/r_c/accept/accepts} that's what {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} doing. As darkness closes in around {PRONOUN/r_c/object} and the lizard's jaws descend again, r_c tries to sink {PRONOUN/r_c/poss} spear into the hide of one, and hopes desperately that {PRONOUN/r_c/subject} led it far enough.",
+                "exp": 0,
+                "weight": 10,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "This slugcat was scarred from bravely defending the Clan from a yellow lizard pack",
+                    "reg_death": "This slugcat died to keep c_n safe from a yellow lizard pack.",
+                    "lead_death": "died to keep c_n safe from a yellow lizard pack"
+                },
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+            {
+                "text": "r_c would give their life to protect c_n, and as {PRONOUN/r_c/subject} {VERB/r_c/charge/charges} past the yellow lizard pack to lead them far, far from c_n, {PRONOUN/r_c/subject} {VERB/r_c/accept/accepts} it. Fear gives {PRONOUN/r_c/object} speed, but it only takes one successful hit. Miraculously {PRONOUN/r_c/subject} {VERB/r_c/fly/flies} out of the lizard's jaws while the pack argues over {PRONOUN/r_c/object}, landing safely. r_c is injured, desperate, and terrified - but {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} alive.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["big_bite_injury"],
+                        "scars": ["BRIGHTHEART"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This cat is scarred from bravely defending the Clan from a yellow lizard pack.",
+                    "reg_death": "This slugcat died to keep c_n safe from a yellow lizard pack.",
+                    "lead_death": "died to keep c_n safe from a yellow lizard pack"
+                },
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_bord_yellowliz2",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": ["patrol_rel", "pos_fail"],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 2,
+        "max_cats": 3,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol tracks the scent of a yellow lizard pack along the edge of the Clan's territory.",
+        "decline_text": "The patrol decides not to pursue such a dangerous group, especially seeing as it hasn't crossed the border.",
+        "chance_of_success": 30,
+        "success_outcomes": [
+            {
+                "text": "The patrol shadows the yellow lizard pack, sending a message back to warn camp. It's an exhausting and stressful day, but by the time night falls, they've confirmed that the lizards are leaving the local area, and the patrol has assured c_n's safety.",
+                "exp": 20,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "The patrol gathers their courage and valiantly tries to lead away the yellow lizard pack. With such a small group of slugcats, they can only lead it a short distance, but it's better than nothing.",
+                "exp": 20,
+                "weight": 5,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c sets up a careful ambush ahead of the yellow lizard, and {PRONOUN/s_c/poss} surprising, darting attack bloodies the packs's flanks, dissuading them from heading further into c_n territory.",
+                "exp": 20,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,3"],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c selflessly takes the scavenger's share of the run as the patrol leads the yellow lizard pack on, exhausting {PRONOUN/s_c/self} almost to the point of danger but leading the lizard far away from c_n borders. {PRONOUN/s_c/poss/CAP} Clanmates support {PRONOUN/s_c/object} on the long walk home once it's all over, their purrs mixing with s_c's exhausted pants.",
+                "exp": 20,
+                "weight": 20,
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "loyal",
+                    "responsible",
+                    "righteous"
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+			{
+                "text": "r_c spots the pack of yellow lizards first, and stops the rest of the patrol. One of the beasts, lingering further away from the pack, is approached with kindness... After a little persuation, it follows r_c home, leaving it's pack behind.",
+                "exp": 30,
+                "weight": 1,
+				"art": "gen_liztame_yellow",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["YELLOWORANGE", "YELLOWLEMON"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "s_c spots the pack of yellow lizards first. One of the beasts, lingering further away from the pack, is approached with kindness... After a little persuation, it follows s_c home, leaving it's pack behind.",
+                "exp": 40,
+                "weight": 10,
+				"art": "gen_liztame_yellow",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["YELLOWORANGE", "YELLOWLEMON"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "s_c spots the pack of yellow lizards first, and stops the rest of the patrol. Carefully, prey is offered to the pack... The gift is accepted! Soon, the lizards choose their favorite scugs and follow them home.",
+                "exp": 40,
+                "weight": 10,
+				"art": "gen_liztame_yellow",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["multi"],
+                        "accessory": ["YELLOWORANGE", "YELLOWLEMON"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c spots the pack of yellow lizards first, and stops the rest of the patrol. Carefully, prey is offered to the pack... The gift is accepted! Soon, the lizards choose their favorite scugs and follow them home.",
+                "exp": 30,
+                "weight": 1,
+				"art": "gen_liztame_yellow",
+				"accessory": [
+                    {
+                        "cats": ["multi"],
+                        "accessory": ["YELLOWORANGE", "YELLOWLEMON"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "The patrol tries to keep watch over the lizard pack from a distance, but it spots the slugcats and forces them to scatter. Everyone escapes just fine, but they lose track of the lizard. It could be anywhere - still out there, lurking, waiting to attack.",
+                "exp": 0,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": -5
+                    }
+                ]
+            },
+            {
+                "text": "s_c tries to take the scavenger's share of the effort to lead the lizard pack away, but {PRONOUN/s_c/poss} strength fails {PRONOUN/s_c/object} and the rest of the patrol needs to rescue {PRONOUN/s_c/object}, which cuts the patrol short. Everyone knows the lizard could still be lurking on their borders.",
+                "exp": 0,
+                "weight": 20,
+                "stat_trait": ["ambitious", "bloodthirsty", "troublesome", "vengeful"],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": -5
+                    }
+                ]
+            },
+            {
+                "text": "The patrol tries to lead the yellow lizard pack away from the Clan's borders, but with so few slugcats it's impossible to cover each other's backs. r_c falls to the lizard as the rest of the patrol runs for their lives back to camp, terrified out of their pelts and mourning their Clanmate.",
+                "exp": 0,
+                "weight": 10,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "This cat is scarred from bravely defending the Clan against a yellow lizard pack.",
+                    "reg_death": "This cat died to keep the Clan safe from a yellow lizard pack.",
+                    "lead_death": "died to keep c_n safe from a yellow lizard pack"
+                },
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": -5
+                    }
+                ]
+            },
+			{
+                "text": "Of course, with more than one yellow lizard, they aren't satisfied taking only one scug... They hunt down as much of the patrol as they can, leaving the survivors howling their grief and loss as they flee.",
+                "exp": 0,
+                "weight": 5,
+                "dead_cats": ["multi"],
+                "history_text": {
+                    "scar": "This slugcat was scarred from bravely defending the Clan from a yellow lizard pack",
+                    "reg_death": "This slugcat died to keep c_n safe from a yellow lizard pack.",
+                    "lead_death": "died to keep c_n safe from a yellow lizard pack"
+                },
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": -10
+                    }
+                ]
+            },
+            {
+                "text": "The patrol tries bravely to lead the yellow lizard pack away from c_n borders, but with so few slugcats it's impossible to cover each other's backs. r_c gets caught while running, and it's all the rest of the patrol can do to distract the pack long enough to get {PRONOUN/r_c/object} to safety.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["big_bite_injury"],
+                        "scars": ["BRIGHTHEART"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This slugcat was scarred from bravely defending the Clan from a yellow lizard pack",
+                    "reg_death": "This slugcat died to keep c_n safe from a yellow lizard pack.",
+                    "lead_death": "died to keep c_n safe from a yellow lizard pack"
+                },
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": -5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_bord_yellowliz3",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": ["patrol_rel", "pos_fail"],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 4,
+        "max_cats": 6,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol stumbles across a cyan lizard wandering through the middle of the Clan's territory.",
+        "decline_text": "The patrol decides not to pursue such a dangerous creature. c_n will just have to hope it doesn't come any nearer to camp.",
+        "chance_of_success": 10,
+        "success_outcomes": [
+            {
+                "text": "They decide that no slugcat is going to be surprised by this predator again, and the patrol shadows the lizard, sending a message to warn camp. With enough slugcats to keep watch, rest, track, and send messages back and forth, c_n is kept safe from the wandering lizard.",
+                "exp": 20,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "The patrol gathers their courage and valiantly drives away the cyan lizard. Together, working as one, and with all the strength of the Ascended behind them, the patrol harries the lizard. By keeping up a series of small skirmishes through the entire day, they drive it all the way off c_n territory.",
+                "exp": 20,
+                "weight": 5,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c has just enough time to yowl out a plan, leading the whole large patrol in a skillful battle maneuver against the cyan lizard that protects the slugcats from the chance of injury. The lizard tucks tail and runs for more friendly lands.",
+                "exp": 20,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,3"],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c selflessly throws {PRONOUN/s_c/self} into the fight, and every time the cyan lizard tries to grab at {PRONOUN/s_c/poss} Clanmates, {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} there with claws, fur puffed out to twice {PRONOUN/s_c/poss} normal size. With s_c defending them, the patrol drives the lizard off, yowling triumphantly.",
+                "exp": 20,
+                "weight": 20,
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "loyal",
+                    "responsible",
+                    "righteous"
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+			{
+                "text": "r_c spots the pack of yellow lizards first, and stops the rest of the patrol. One of the beasts, lingering further away from the pack, is approached with kindness... After a little persuation, it follows r_c home, leaving it's pack behind.",
+                "exp": 30,
+                "weight": 1,
+				"art": "gen_liztame_yellow",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["YELLOWORANGE", "YELLOWLEMON"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "s_c spots the pack of yellow lizards first. One of the beasts, lingering further away from the pack, is approached with kindness... After a little persuation, it follows s_c home, leaving it's pack behind.",
+                "exp": 40,
+                "weight": 10,
+				"art": "gen_liztame_yellow",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["YELLOWORANGE", "YELLOWLEMON"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "s_c spots the pack of yellow lizards first, and stops the rest of the patrol. Carefully, prey is offered to the pack... The gift is accepted! Soon, the lizards choose their favorite scugs and follow them home.",
+                "exp": 40,
+                "weight": 10,
+				"art": "gen_liztame_yellow",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["multi"],
+                        "accessory": ["YELLOWORANGE", "YELLOWLEMON"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c spots the pack of yellow lizards first, and stops the rest of the patrol. Carefully, prey is offered to the pack... The gift is accepted! Soon, the lizards choose their favorite scugs and follow them home.",
+                "exp": 30,
+                "weight": 1,
+				"art": "gen_liztame_yellow",
+				"accessory": [
+                    {
+                        "cats": ["multi"],
+                        "accessory": ["YELLOWORANGE", "YELLOWLEMON"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "The patrol tries to keep watch on the yellow lizard pack from a distance, but they spots the slugcats and they have to scatter. It's not as bad as it could've been though; r_c manages to keep track of the pack's position, and it doesn't come any further into c_n territory.",
+                "exp": 0,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": -5
+                    }
+                ]
+            },
+            {
+                "text": "s_c tries to protect {PRONOUN/s_c/poss} Clanmates, but it gets in the way of the attack. Without everyone committed to driving the lizard pack off, the patrol has to fall back, but they do so in good order.",
+                "exp": 0,
+                "weight": 20,
+                "stat_trait": ["ambitious", "bloodthirsty", "troublesome", "vengeful"],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": -5
+                    }
+                ]
+            },
+            {
+                "text": "With so many slugcats all working as one, the cyan lizard started to get beaten back. But just as the tide of the fight seems about to turn, one lucky strike hits r_c, and those vicious jaws take {PRONOUN/r_c/object} to the Void.",
+                "exp": 0,
+                "weight": 10,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "This slugcat is scarred from bravely defending the Clan against a cyan lizard.",
+                    "reg_death": "This slugcat died to keep the Clan safe from a cyan lizard.",
+                    "lead_death": "died to keep c_n safe from a cyan lizard"
+                },
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": -5
+                    }
+                ]
+            },
+			{
+                "text": "Of course, with more than one yellow lizard, they aren't satisfied taking only one scug... They hunt down as much of the patrol as they can, leaving the survivors howling their grief and loss as they flee.",
+                "exp": 0,
+                "weight": 5,
+                "dead_cats": ["multi"],
+                "history_text": {
+                    "scar": "This slugcat was scarred from bravely defending the Clan from a yellow lizard pack",
+                    "reg_death": "This slugcat died to keep c_n safe from a yellow lizard pack.",
+                    "lead_death": "died to keep c_n safe from a yellow lizard pack"
+                },
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": -10
+                    }
+                ]
+            },
+            {
+                "text": "The patrol fights bravely, but you only need to be unlucky once. r_c gets taken out of the fight with one snap of lizard jaws. The rest of the patrol rallies to defend {PRONOUN/r_c/object}, and r_c is safely helped back to camp, where the cleric den awaits.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["big_bite_injury"],
+                        "scars": ["BRIGHTHEART"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This cat is scarred from bravely defending the Clan against a cyan lizard pack.",
+                    "reg_death": "This slugcat died to keep the Clan safe from a large cyan lizard pack.",
+                    "lead_death": "died to keep c_n safe from a large cyan lizard pack"
+                },
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": -5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_bord_pinkliz1",
         "biome": ["any"],
         "season": ["any"],
         "types": ["border"],
@@ -541,9 +2057,41 @@
                 "stat_skill": ["FIGHTER,1"]
             },
 			{
-                "text": "r_c spots the pink lizard first, and pauses. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The pink lizard follows r_c home, happily sticking close to their new friend.",
+                "text": "s_c spots the pink lizard first, and pauses. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The pink lizard follows s_c home, happily sticking close to their new friend.",
                 "exp": 40,
-                "weight": 99,
+                "weight": 5,
+				"art": "gen_liztame_pink",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["PINKMAGENTA","PINKPURPLE"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c spots the pink lizard first, and pauses. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The pink lizard follows r_c home, happily sticking close to their new friend.",
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_pink",
 				"accessory": [
                     {
                         "cats": ["r_c"],
@@ -598,7 +2146,7 @@
         ]
     },
     {
-        "patrol_id": "gen_bord_smalldog2",
+        "patrol_id": "gen_bord_pinkliz2",
         "biome": ["any"],
         "season": ["any"],
         "types": ["border"],
@@ -656,9 +2204,41 @@
                 ]
             },
 			{
+                "text": "s_c spots the pink lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The pink lizard follows s_c home, happily sticking close to their new friend.",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_pink",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["PINKMAGENTA","PINKPURPLE"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
                 "text": "r_c spots the pink lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The pink lizard follows r_c home, happily sticking close to their new friend.",
-                "exp": 40,
-                "weight": 99,
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_pink",
 				"accessory": [
                     {
                         "cats": ["r_c"],
@@ -700,7 +2280,7 @@
         ]
     },
     {
-        "patrol_id": "gen_bord_smalldog3",
+        "patrol_id": "gen_bord_pinkliz3",
         "biome": ["any"],
         "season": ["any"],
         "types": ["border"],
@@ -758,9 +2338,41 @@
                 ]
             },
 			{
+                "text": "s_c spots the pink lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The pink lizard follows s_c home, happily sticking close to their new friend.",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_pink",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["PINKMAGENTA","PINKPURPLE"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
                 "text": "r_c spots the pink lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The pink lizard follows r_c home, happily sticking close to their new friend.",
-                "exp": 40,
-                "weight": 99,
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_pink",
 				"accessory": [
                     {
                         "cats": ["r_c"],
@@ -801,6 +2413,2274 @@
             }
         ]
     },
+	{
+        "patrol_id": "gen_bord_blueliz1",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": [],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 1,
+        "max_cats": 1,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol comes across a blue lizard.",
+        "decline_text": "The patrol decides not to pursue the lizard.",
+        "chance_of_success": 40,
+        "success_outcomes": [
+            {
+                "text": "r_c hisses at the blue lizard, warning it off. It skitters back, hissing loudly but headed in the right direction. Maybe {PRONOUN/r_c/subject} should add lizard herding to {PRONOUN/r_c/poss} list of accomplishments?",
+                "exp": 10,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "r_c unsheathes {PRONOUN/r_c/poss} claws, puffs {PRONOUN/r_c/poss} fur out to as far as it'll go, gathers {PRONOUN/r_c/poss} courage, and drives the blue lizard from the border.",
+                "exp": 10,
+                "weight": 5
+            },
+            {
+                "text": "s_c unleashes all {PRONOUN/r_c/poss} battle experience, darting this way and that, ripping chunks of lizard hide out as {PRONOUN/r_c/subject} {VERB/r_c/drive/drives} it into the distance.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,1"]
+            },
+			{
+                "text": "s_c spots the blue lizard first, and pauses. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The blue lizard nuzzles up to s_c with a happy rumble.",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_blue",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["BLUESEA","BLUESKY"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c spots the blue lizard first, and pauses. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The blue lizard nuzzles up to r_c with a happy rumble.",
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_blue",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["BLUESEA","BLUESKY"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "All r_c's attempts to drive the blue lizard off only make it more excited! r_c is forced to retreat and wait for it to calm down.",
+                "exp": 0,
+                "weight": 20
+            },
+            {
+                "text": "The animal is far more tenacious than r_c ever expected, and once the fight starts, there's no escaping from it. As r_c's world goes dark, {PRONOUN/r_c/subject} {VERB/r_c/have/has} {PRONOUN/r_c/poss} fangs sunk in the blue lizard's throat. At least {PRONOUN/r_c/subject}'ll take the beast with {PRONOUN/r_c/object}.",
+                "exp": 0,
+                "weight": 10,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "This cat got a scar from a fight with a blue lizard, but {PRONOUN/m_c/subject} always {VERB/m_c/say/says} it was a white lizard.",
+                    "reg_death": "This cat was killed in a fight with a blue lizard, but {PRONOUN/m_c/subject} took the lizard out with {PRONOUN/m_c/object}.",
+                    "lead_death": "killed in a fight with a blue lizard"
+                }
+            },
+            {
+                "text": "Small, hissy, but... still a lizard. r_c peers down from the tree where the animal has pinned {PRONOUN/r_c/object}, wincing in pain. {PRONOUN/r_c/subject/CAP} won't underestimate these ugly creatures again.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["small_bite_injury"],
+                        "scars": ["LEGBITE"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This cat got a scar from a fight with a blue lizard, but {PRONOUN/m_c/subject} always {VERB/m_c/say/says} it was a white lizard.",
+                    "reg_death": "This cat was killed in a fight with a blue lizard, but {PRONOUN/m_c/subject} took the lizard out with {PRONOUN/m_c/object}.",
+                    "lead_death": "killed in a fight with a blue lizard"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_bord_blueliz2",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": [],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 2,
+        "max_cats": 3,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol comes across a blue lizard right on the border of c_n territory.",
+        "decline_text": "p_l decides not to pursue the lizard and instead cuts the patrol short to head back to camp and report it.",        
+        "chance_of_success": 40,
+        "success_outcomes": [
+            {
+                "text": "p_l hisses at the blue lizard, and the rest of {PRONOUN/p_l/poss} small team {VERB/p_l/back/backs} {PRONOUN/p_l/object} up. The lizard skitters back, hissing loudly, apparently shocked by the display. The patrol breaks out into yowls and caterwauls until the lizard loses its nerve and runs from the c_n border into the distance.",
+                "exp": 10,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "The patrol paces towards the blue lizard, claws out, fur up, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "exp": 10,
+                "weight": 5,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c calls out a battle plan, and the slugcats flow into it, carefully covering each other and driving the blue lizard backwards until it loses its nerve, tucks tail, and runs from c_n territory, deep into the wilderness.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,1"],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+			{
+                "text": "s_c spots the blue lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The blue lizard nuzzles up to s_c with a happy rumble.",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_blue",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["BLUESEA","BLUESKY"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c spots the blue lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The blue lizard nuzzles up to r_c with a happy rumble.",
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_blue",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["BLUESEA","BLUESKY"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "All r_c's attempts to drive the blue lizard off only make it more excited! r_c is forced to retreat and wait for it to calm down.",
+                "exp": 0,
+                "weight": 20
+            },
+            {
+                "text": "The blue lizard gets a lucky hit in on r_c, though together the patrol is still able to drive it off successfully.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["small_bite_injury"],
+                        "scars": ["LEGBITE"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This cat got a scar from a fight with a blue lizard, but {PRONOUN/m_c/subject} always {VERB/m_c/say/says} it was a white lizard."
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_bord_blueliz3",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": [],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 4,
+        "max_cats": 6,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol comes across a blue lizard right on the border of c_n territory.",
+        "decline_text": "p_l decides not to pursue the lizard and instead cuts the patrol short to head back to camp and report it.",
+                "chance_of_success": 10,
+        "success_outcomes": [
+            {
+                "text": "The patrol paces towards the blue lizard, claws out, fur up, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "exp": 10,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "Mobbed by slugcats and near-blind with the blood in its eyes, the lizard flees from c_n, crying pitifully.",
+                "exp": 10,
+                "weight": 5,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c calls out a battle plan, and the slugcats flow into it, carefully covering each other and driving the blue lizard backwards until it loses its nerve, tucks tail, and runs from c_n territory, deep into the wilderness.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,1"],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+			{
+                "text": "s_c spots the blue lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The blue lizard nuzzles up to s_c with a happy rumble.",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_blue",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["BLUESEA","BLUESKY"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c spots the blue lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The blue lizard nuzzles up to r_c with a happy rumble.",
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_blue",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["BLUESKY","BLUESEA"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 5
+                    }
+                ]
+			}
+		],
+        "fail_outcomes": [
+            {
+                "text": "All r_c's attempts to drive the blue lizard off only make it more excited! r_c is forced to retreat and wait for it to calm down.",
+                "exp": 0,
+                "weight": 20
+            },
+            {
+                "text": "The blue lizard gets a lucky hit in on r_c, though together the patrol is still able to drive it off successfully.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["small_bite_injury"],
+                        "scars": ["LEGBITE"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This slugcat got a scar from a fight with a blue lizard, though {PRONOUN/m_c/subject} {VERB/m_c/insist/insists} it was white."
+                }
+            }
+        ]
+    },
+	{
+        "patrol_id": "gen_bord_greenliz1",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": [],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 1,
+        "max_cats": 1,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol comes across a lazy green lizard.",
+        "decline_text": "The patrol decides not to pursue the lizard.",
+        "chance_of_success": 40,
+        "success_outcomes": [
+            {
+                "text": "r_c hisses at the green lizard, warning it off. It flinches back, hissing loudly but headed in the right direction. Maybe {PRONOUN/r_c/subject} should add lizard herding to {PRONOUN/r_c/poss} list of accomplishments?",
+                "exp": 10,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "r_c unsheathes {PRONOUN/r_c/poss} claws, puffs {PRONOUN/r_c/poss} fur out to as far as it'll go, gathers {PRONOUN/r_c/poss} courage, and drives the green lizard from the border.",
+                "exp": 10,
+                "weight": 5
+            },
+            {
+                "text": "s_c unleashes all {PRONOUN/r_c/poss} battle experience, darting this way and that, ripping chunks of lizard hide out as {PRONOUN/r_c/subject} {VERB/r_c/drive/drives} it into the distance.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,1"]
+            },
+			{
+                "text": "s_c spots the green lizard first, pausing. Instead of brandishing a spear, {PRONOUN/r_c/poss} uses kindness as their weapon... And it somehow works! The green lizard's belly tracks follow the patrol's home.",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_green",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["GREENEMERALD","GREENLIME"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c spots the green lizard first, pausing. Instead of brandishing a spear, {PRONOUN/r_c/poss} uses kindness as their weapon... And it somehow works! The green lizard's belly tracks follow the patrol's home.",
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_green",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["GREENEMERALD","GREENLIME"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "All r_c's attempts to drive the green lizard off only make it more excited! r_c is forced to climb and wait for it to calm down.",
+                "exp": 0,
+                "weight": 20
+            },
+            {
+                "text": "The animal is far more powerful than r_c ever expected, and once the fight starts, there's no escaping from it. As r_c's world goes dark, {PRONOUN/r_c/subject} {VERB/r_c/have/has} {PRONOUN/r_c/poss} fangs sunk in the blue lizard's throat. At least {PRONOUN/r_c/subject}'ll take the beast with {PRONOUN/r_c/object}.",
+                "exp": 0,
+                "weight": 10,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "This cat got a scar from a fight with a green lizard.",
+                    "reg_death": "This cat was killed in a fight with a green lizard, but {PRONOUN/m_c/subject} took the lizard out with {PRONOUN/m_c/object}.",
+                    "lead_death": "killed in a fight with a green lizard"
+                }
+            },
+            {
+                "text": "huge, lazy, but... still a lizard. r_c peers down from the tree where the animal has pinned {PRONOUN/r_c/object}, wincing in pain. {PRONOUN/r_c/subject/CAP} won't underestimate these ugly creatures again.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["small_bite_injury"],
+                        "scars": ["LEGBITE"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This cat got a scar from a fight with a green lizard.",
+                    "reg_death": "This cat was killed in a fight with a green lizard, but {PRONOUN/m_c/subject} took the lizard out with {PRONOUN/m_c/object}.",
+                    "lead_death": "killed in a fight with a green lizard"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_bord_greenliz2",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": [],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 2,
+        "max_cats": 3,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol comes across a lazy green lizard right on the border of c_n territory.",
+        "decline_text": "p_l decides not to pursue the lizard and instead cuts the patrol short to head back to camp and report it.",        
+        "chance_of_success": 40,
+        "success_outcomes": [
+            {
+                "text": "p_l hisses at the green lizard, and the rest of {PRONOUN/p_l/poss} small team {VERB/p_l/back/backs} {PRONOUN/p_l/object} up. The lizard flinches back, hissing loudly, apparently shocked by the display. The patrol breaks out into yowls and caterwauls until the lizard loses its nerve and runs from the c_n border into the distance.",
+                "exp": 10,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "The patrol paces towards the green lizard, claws out, fur up, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "exp": 10,
+                "weight": 5,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c calls out a battle plan, and the slugcats flow into it, carefully covering each other and driving the green lizard backwards until it loses its nerve, tucks tail, and runs from c_n territory, deep into the wilderness.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,1"],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+			{
+                "text": "s_c spots the green lizard first, and stops the rest of the patrol. Instead of brandishing a spear, {PRONOUN/r_c/poss} uses kindness as their weapon... And it somehow works! The green lizard's belly tracks follow the patrol's home.",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_green",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["GREENEMERALD","GREENLIME"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c spots the green lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The green lizard's belly tracks follow the patrol's home.",
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_green",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["GREENEMERALD","GREENLIME"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "All r_c's attempts to drive the green lizard off only make it more excited! r_c is forced to retreat and wait for it to calm down.",
+                "exp": 0,
+                "weight": 20
+            },
+			{
+                "text": "The patrol was doing so well, dodging those jaws and landing blows on it's tough hide... But it only took one bite. The green lizard's jaws close around r_c, killing them instantly.",
+                "exp": 0,
+                "weight": 5,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "This slugcat was scarred from bravely defending the Clan from a green lizard",
+                    "reg_death": "This slugcat died to keep c_n safe from a green lizard.",
+                    "lead_death": "died to keep c_n safe from a green lizard"
+                }
+            },
+            {
+                "text": "The green lizard gets a lucky hit in on r_c, though together the patrol is still able to drive it off successfully.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["small_bite_injury"],
+                        "scars": ["LEGBITE"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This cat got a scar from a fight with a green lizard."
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_bord_greenliz3",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": [],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 4,
+        "max_cats": 6,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol comes across a lazy green lizard right on the border of c_n territory.",
+        "decline_text": "p_l decides not to pursue the lizard and instead cuts the patrol short to head back to camp and report it.",
+                "chance_of_success": 10,
+        "success_outcomes": [
+            {
+                "text": "The patrol paces towards the green lizard, claws out, fur up, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "exp": 10,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "Mobbed by slugcats and near-blind with the blood in its eyes, the lizard flees from c_n, crying pitifully.",
+                "exp": 10,
+                "weight": 5,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c calls out a battle plan, and the slugcats flow into it, carefully covering each other and driving the green lizard backwards until it loses its nerve, tucks tail, and runs from c_n territory, deep into the wilderness.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,1"],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+			{
+                "text": "s_c spots the green lizard first, and stops the rest of the patrol. Instead of brandishing a spear, {PRONOUN/r_c/poss} uses kindness as their weapon... And it somehow works! The green lizard's belly tracks follow the patrol's home.",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_green",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["GREENEMERALD","GREENLIME"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c spots the green lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The green lizard's belly tracks follow the patrol's home.",
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_green",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["GREENEMERALD","GREENLIME"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 5
+                    }
+                ]
+			}
+		],
+        "fail_outcomes": [
+            {
+                "text": "All r_c's attempts to drive the green lizard off only make it more excited! r_c is forced to climb and wait for it to calm down.",
+                "exp": 0,
+                "weight": 20
+            },
+			{
+                "text": "The patrol was doing so well, dodging those jaws and landing blows on it's tough hide... But it only took one bite. The green lizard's jaws close around r_c, killing them instantly.",
+                "exp": 0,
+                "weight": 5,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "This slugcat was scarred from bravely defending the Clan from a green lizard",
+                    "reg_death": "This slugcat died to keep c_n safe from a green lizard.",
+                    "lead_death": "died to keep c_n safe from a green lizard"
+                }
+            },
+            {
+                "text": "The green lizard gets a lucky hit in on r_c, though together the patrol is still able to drive it off successfully.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["small_bite_injury"],
+                        "scars": ["LEGBITE"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This slugcat got a scar from a fight with a green lizard."
+                }
+            }
+        ]
+    },
+	{
+        "patrol_id": "gen_bord_whiteliz1",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": [],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 1,
+        "max_cats": 1,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol comes across a camoflagued white lizard.",
+        "decline_text": "The patrol walks right past it, neither of them noticing the other.",
+        "chance_of_success": 40,
+        "success_outcomes": [
+            {
+                "text": "r_c sees the camoflagued lizard just in time! With a loud battle-cry, r_c drives the lizard out of the territory!",
+                "exp": 10,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "r_c unsheathes {PRONOUN/r_c/poss} claws, puffs {PRONOUN/r_c/poss} fur out to as far as it'll go, gathers {PRONOUN/r_c/poss} courage, and drives the white lizard from the border.",
+                "exp": 10,
+                "weight": 5
+            },
+            {
+                "text": "s_c unleashes all {PRONOUN/r_c/poss} battle experience, darting this way and that, ripping chunks of lizard hide out as {PRONOUN/r_c/subject} {VERB/r_c/drive/drives} it into the distance.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,1"]
+            },
+			{
+                "text": "s_c barely spots the white lizard through it's camoflague! {PRONOUN/p_l/poss} slowly approaches the lizard. It takes some time, but the lizard took a liking to s_c !",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_white",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["WHITEHIDDEN","WHITEREVEALED"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c barely spots the white lizard through it's camoflague! {PRONOUN/p_l/poss} slowly approaches the lizard. It takes some time, but the lizard took a liking to r_c !",
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_white",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["WHITEHIDDEN","WHITEREVEALED"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 5
+                    }
+                ]
+			}
+        ],
+        "fail_outcomes": [
+            {
+                "text": "All r_c's attempts to drive the white lizard off only make it more excited! r_c is forced to hide and wait for it to calm down.",
+                "exp": 0,
+                "weight": 20
+            },
+            {
+                "text": "r_c didn't even see the blow coming... One second, {PRONOUN/m_c/subject} were walking, and the next {PRONOUN/m_c/subject} had a pain in {PRONOUN/p_l/poss} side. As the barbed tongue dragged r_c in, {PRONOUN/m_c/subject} drove a spear home, taking it with {PRONOUN/p_l/poss}.",
+                "exp": 0,
+                "weight": 10,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "This cat got a scar from a fight with a white lizard.",
+                    "reg_death": "This cat was killed in a fight with a white lizard, but {PRONOUN/m_c/subject} took the lizard out with {PRONOUN/m_c/object}.",
+                    "lead_death": "killed in a fight with a white lizard"
+                }
+            },
+            {
+                "text": "r_c watches from the hiding spot {PRONOUN/p_l/poss} found, thanking the Void. The white lizard stalked off to a new ambush spot, but r_c didn't come out unscathed.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["small_bite_injury"],
+                        "scars": ["LEGBITE"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This cat got a scar from a fight with a white lizard.",
+                    "reg_death": "This cat was killed in a fight with a white lizard, but {PRONOUN/m_c/subject} took the lizard out with {PRONOUN/m_c/object}.",
+                    "lead_death": "killed in a fight with a white lizard"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_bord_whiteliz2",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": [],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 2,
+        "max_cats": 3,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol comes across a camoflagued white lizard.",
+        "decline_text": "The patrol walks right past it, neither of them noticing the other.",        
+        "chance_of_success": 40,
+        "success_outcomes": [
+            {
+                "text": "p_l hisses at the white lizard, and the rest of {PRONOUN/p_l/poss} small team {VERB/p_l/back/backs} {PRONOUN/p_l/object} up. The lizard flinches back, hissing loudly, apparently shocked by the display. The patrol breaks out into yowls and caterwauls until the lizard loses its nerve and runs from the c_n border into the distance.",
+                "exp": 10,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "The patrol paces towards the white lizard, claws out, fur up, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "exp": 10,
+                "weight": 5,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c calls out a battle plan, and the slugcats flow into it, carefully covering each other and driving the white lizard backwards until it loses its nerve, tucks tail, and runs from c_n territory, deep into the wilderness.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,1"],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+			{
+                "text": "s_c barely spots the white lizard through it's camoflague! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the lizard. It takes some time, but the lizard took a liking to s_c !",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_white",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["WHITEHIDDEN","WHITEREVEALED"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c barely spots the white lizard through it's camoflague! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the lizard. It takes some time, but the lizard took a liking to r_c !",
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_white",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["WHITEHIDDEN","WHITEREVEALED"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 5
+                    }
+                ]
+			}
+        ],
+        "fail_outcomes": [
+            {
+                "text": "All r_c's attempts to drive the white lizard off only make it more excited! r_c is forced to hide and wait for it to calm down.",
+                "exp": 0,
+                "weight": 20
+            },
+			{
+                "text": "The only warning was a cry of pain from r_c. The patrol turns to fight, only to see r_c limp in the white lizard's jaws as it flees with it's kill.",
+                "exp": 0,
+                "weight": 5,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "This cat got a scar from a white lizard ambush.",
+                    "reg_death": "This cat was ambushed by a white lizard",
+                    "lead_death": "ambushed by a white lizard"
+                }
+            },
+            {
+                "text": "The only warning is a cry of pain from r_c. The patrols turns around and jumps to the defence of their clanmate, freeing them from the jaws of the predator. r_c is rushed back to the Cleric's den.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["small_bite_injury"],
+                        "scars": ["LEGBITE"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This cat got a scar from a white lizard ambush."
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_bord_whiteliz3",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": [],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 4,
+        "max_cats": 6,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol comes across a camoflagued white lizard.",
+        "decline_text": "The patrol walks right past it, neither of them noticing the other.",
+                "chance_of_success": 10,
+        "success_outcomes": [
+            {
+                "text": "The patrol paces towards the white lizard, claws out, fur up, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "exp": 10,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "Mobbed by slugcats and near-blind with the blood in its eyes, the lizard flees from c_n, crying pitifully.",
+                "exp": 10,
+                "weight": 5,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c calls out a battle plan, and the slugcats flow into it, carefully covering each other and driving the white lizard backwards until it loses its nerve, tucks tail, and runs from c_n territory, deep into the wilderness.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,1"],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+			{
+                "text": "s_c barely spots the white lizard through it's camoflague! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the lizard. It takes some time, but the lizard took a liking to s_c !",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_white",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["WHITEHIDDEN","WHITEREVEALED"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c barely spots the white lizard through it's camoflague! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the lizard. It takes some time, but the lizard took a liking to r_c !",
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_white",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["WHITEHIDDEN","WHITEREVEALED"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 5
+                    }
+                ]
+			}
+		],
+        "fail_outcomes": [
+            {
+                "text": "All r_c's attempts to drive the white lizard off only make it more excited! r_c is forced to hide and wait for it to calm down.",
+                "exp": 0,
+                "weight": 20
+            },
+            {
+                "text": "The only warning was a cry of pain from r_c. The patrol turns to fight, only to see r_c limp in the white lizard's jaws as it flees with it's kill.",
+                "exp": 0,
+                "weight": 5,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "This cat got a scar from a white lizard ambush.",
+                    "reg_death": "This cat was ambushed by a white lizard",
+                    "lead_death": "ambushed by a white lizard"
+                }
+            },
+            {
+                "text": "The only warning is a cry of pain from r_c. The patrols turns around and jumps to the defence of their clanmate, freeing them from the jaws of the predator. r_c is rushed back to the Cleric's den.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["small_bite_injury"],
+                        "scars": ["LEGBITE"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This cat got a scar from a white lizard ambush."
+                }
+            }
+        ]
+    },
+	{
+        "patrol_id": "gen_bord_sala1",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": [],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 1,
+        "max_cats": 1,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol comes across a salamander.",
+        "decline_text": "The patrol walks right past the water, neither of them noticing the other.",
+        "chance_of_success": 40,
+        "success_outcomes": [
+            {
+                "text": "r_c sees the salamander just in time! With a loud battle-cry, r_c drives the salamander out of the territory!",
+                "exp": 10,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "r_c unsheathes {PRONOUN/r_c/poss} claws, puffs {PRONOUN/r_c/poss} fur out to as far as it'll go, gathers {PRONOUN/r_c/poss} courage, and drives the salamander from the border.",
+                "exp": 10,
+                "weight": 5
+            },
+            {
+                "text": "s_c unleashes all {PRONOUN/r_c/poss} battle experience, darting this way and that, ripping chunks of salamander hide out as {PRONOUN/r_c/subject} {VERB/r_c/drive/drives} it into the distance.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,1"]
+            },
+			{
+                "text": "s_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} slowly approaches the salamnder. It's frills are soon twitching as it follows s_c home!",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_melasala",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["MELASALAFUSHIA", "MELASALARED"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "s_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} slowly approaches the salamnder. It's frills are soon twitching as it follows s_c home!",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_melasala",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["MELASALAFUSHIA", "MELASALARED"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "s_c barely spots the salamander in the water! {PRONOUN/p_l/poss} slowly approaches the albino salamander. It's frills are soon twitching as it follows s_c home!",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_albisala",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["ALBISALAFUSHIA", "ALBISALARED"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} slowly approaches the salamnder. It's frills are soon twitching as it follows r_c home!",
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_melasala",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["MELASALAFUSHIA", "MELASALARED"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 5
+                    }
+                ]
+			},
+			{
+                "text": "r_c barely spots the salamander in the water! {PRONOUN/p_l/poss} slowly approaches the albino salamander. It's frills are soon twitching as it follows r_c home!",
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_albisala",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["ALBISALAFUSHIA", "ALBISALARED"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 5
+                    }
+                ]
+			}
+        ],
+        "fail_outcomes": [
+            {
+                "text": "All r_c's attempts to drive the salamander off only make it more excited! r_c is forced to hide and wait for it to calm down.",
+                "exp": 0,
+                "weight": 20
+            },
+            {
+                "text": "r_c had no time to react- The salamander pulled them under the water, not even enough time to yowl out in alarm.",
+                "exp": 0,
+                "weight": 10,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "This cat got a scar from a salamander ambush.",
+                    "reg_death": "This cat was killed in a salamander ambush",
+                    "lead_death": "killed in a salamander ambush"
+                }
+            },
+            {
+                "text": "r_c peers down from dry land, dripping wet... They thanked the Void, the salamander let go when r_c put a spear in it's side.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["small_bite_injury"],
+                        "scars": ["LEGBITE"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This cat got a scar from a salamander ambush.",
+                    "reg_death": "This cat was killed in a salamander ambush.",
+                    "lead_death": "killed in a salamander ambush"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_bord_sala2",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": [],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 2,
+        "max_cats": 3,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol comes across a salamander.",
+        "decline_text": "The patrol walks right past the water, neither of them noticing the other.",        
+        "chance_of_success": 40,
+        "success_outcomes": [
+            {
+                "text": "p_l hisses at the salamander, and the rest of {PRONOUN/p_l/poss} small team {VERB/p_l/back/backs} {PRONOUN/p_l/object} up. The salamander flinches back, hissing loudly, apparently shocked by the display. The patrol breaks out into yowls and caterwauls until the salamander loses its nerve and runs from the c_n border into the distance.",
+                "exp": 10,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "The patrol paces towards the salamander, claws out, fur up, backed up with the courage of their Clanmates. The salamander breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "exp": 10,
+                "weight": 5,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c calls out a battle plan, and the slugcats flow into it, carefully covering each other and driving the salamander backwards until it loses its nerve, tucks tail, and runs from c_n territory, deep into the wilderness.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,1"],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+			{
+                "text": "s_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamander. It's frills are soon twitching as it follows s_c home!",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_melasala",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["MELASALAFUSHIA", "MELASALARED"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "s_c barely spots the albino salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamander. It's frills are soon twitching as it follows s_c home!",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_albisala",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["ALBISALAFUSHIA", "ALBISALARED"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamnder. It's frills are soon twitching as it follows r_c home!",
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_melasala",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["MELASALAFUSHIA", "MELASALARED"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 5
+                    }
+                ]
+			},
+			{
+                "text": "r_c barely spots the albino salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamnder. It's frills are soon twitching as it follows r_c home!",
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_albisala",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["ALBISALAFUSHIA", "ALBISALARED"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 5
+                    }
+                ]
+			}
+        ],
+        "fail_outcomes": [
+            {
+                "text": "All r_c's attempts to drive the salamander off only make it more excited! r_c is forced to hide and wait for it to calm down.",
+                "exp": 0,
+                "weight": 20
+            },
+            {
+                "text": "r_c had no time to react- The salamander pulled them under the water, not even enough time to yowl out a warning. By the time the patrol turned around, the salamander was gone with r_c",
+                "exp": 0,
+                "weight": 10,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "This cat got a scar from a salamander ambush.",
+                    "reg_death": "This cat was killed in a salamander ambush",
+                    "lead_death": "killed in a salamander ambush"
+                }
+            },
+            {
+                "text": "r_c had no time to react- The salamander pulled them under the water. The patrol heard r_c yowl, and jumped in to pelt the salamander with spears. r_c is rushed to the Cleric's den.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["small_bite_injury"],
+                        "scars": ["LEGBITE"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This cat got a scar from a salamander ambush.",
+                    "reg_death": "This cat was killed in a salamander ambush.",
+                    "lead_death": "killed in a salamander ambush"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_bord_albisala3",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": [],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 4,
+        "max_cats": 6,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol comes across an salamander in the water.",
+        "decline_text": "The patrol walks right past it, neither of them noticing the other.",
+                "chance_of_success": 10,
+        "success_outcomes": [
+            {
+                "text": "The patrol paces towards the salamander, claws out, fur up, backed up with the courage of their Clanmates. The salamander breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "exp": 10,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "Mobbed by slugcats and near-blind with the blood in its eyes, the salamander flees from c_n, crying pitifully.",
+                "exp": 10,
+                "weight": 5,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c calls out a battle plan, and the slugcats flow into it, carefully covering each other and driving the salamander backwards until it loses its nerve, tucks tail, and runs from c_n territory, deep into the wilderness.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,1"],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+			{
+                "text": "s_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamander. It's frills are soon twitching as it follows s_c home!",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_melasala",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["MELASALAFUSHIA", "MELASALARED"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "s_c barely spots the albino salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamander. It's frills are soon twitching as it follows s_c home!",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_albisala",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["ALBISALAFUSHIA", "ALBISALARED"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamnder. It's frills are soon twitching as it follows r_c home!",
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_melasala",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["MELASALAFUSHIA", "MELASALARED"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 5
+                    }
+                ]
+			},
+			{
+                "text": "r_c barely spots the albino salamander under the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamander. It's frills are soon twitching as it follows r_c home!",
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_albisala",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["ALBISALAFUSHIA", "ALBISALARED"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 5
+                    }
+                ]
+			}
+		],
+        "fail_outcomes": [
+            {
+                "text": "All r_c's attempts to drive the salamander off only make it more excited! r_c is forced to hide and wait for it to calm down.",
+                "exp": 0,
+                "weight": 20
+            },
+            {
+                "text": "r_c had no time to react- The salamander pulled them under the water, not even enough time to yowl out a warning. By the time the patrol turned around, the salamander was gone with r_c",
+                "exp": 0,
+                "weight": 10,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "This cat got a scar from a salamander ambush.",
+                    "reg_death": "This cat was killed in a salamander ambush",
+                    "lead_death": "killed in a salamander ambush"
+                }
+            },
+            {
+                "text": "r_c had no time to react- The salamander pulled them under the water. The patrol heard r_c yowl, and jumped in to pelt the salamander with spears. r_c is rushed to the Cleric's den.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["small_bite_injury"],
+                        "scars": ["LEGBITE"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This cat got a scar from a salamander ambush.",
+                    "reg_death": "This cat was killed in a salamander ambush.",
+                    "lead_death": "killed in a salamander ambush"
+                }
+            }
+        ]
+    },
+	{
+        "patrol_id": "gen_bord_blindliz1",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": [],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 1,
+        "max_cats": 1,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The night patrol encounters a blind lizard.",
+        "decline_text": "In the darkness and quiet, neither even knows of the other",
+        "chance_of_success": 40,
+        "success_outcomes": [
+            {
+                "text": "r_c sees the lizard just in time! A little clever stone throwing and sneaking helps send the blind lizard out of the territory.",
+                "exp": 10,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "r_c unsheathes {PRONOUN/r_c/poss} claws, puffs {PRONOUN/r_c/poss} fur out to as far as it'll go, gathers {PRONOUN/r_c/poss} courage, and drives the lizard from the border.",
+                "exp": 10,
+                "weight": 5
+            },
+            {
+                "text": "s_c unleashes all {PRONOUN/r_c/poss} battle experience, darting this way and that, ripping chunks of lizard hide out as {PRONOUN/r_c/subject} {VERB/r_c/drive/drives} it into the distance.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,1"]
+            },
+			{
+                "text": "s_c barely spots the blind lizard in the gloom! {PRONOUN/p_l/poss} finds something to feed the creature, earning it's trust. This lizard sticks close to their new friend.",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_blind",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["BLACKNEUTRAL", "BLACKALERT"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c barely spots the blind lizard in the gloom! {PRONOUN/p_l/poss} finds something to feed the creature, earning it's trust. This lizard sticks close to their new friend.",
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_blind",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["BLACKNEUTRAL", "BLACKALERT"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 5
+                    }
+                ]
+			}
+        ],
+        "fail_outcomes": [
+            {
+                "text": "All r_c's attempts to drive the blind lizard off only make it more excited! r_c is forced to hide and wait for it to calm down.",
+                "exp": 0,
+                "weight": 20
+            },
+            {
+                "text": "The blind lizard finds r_c first, and it's jaws snap fatally over r_c before they even know what found them.",
+                "exp": 0,
+                "weight": 10,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "This scug lost a game of hide and seek with a blind lizard.",
+                    "reg_death": "This scug was killed by a blind lizard",
+                    "lead_death": "killed by a blind lizard"
+                }
+            },
+            {
+                "text": "r_c peers silently at the blind lizard from their hiding spot... They thanked the Void, the lizard let go when r_c put a spear in it's side.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["small_bite_injury"],
+                        "scars": ["LEGBITE"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This scug lost a game of hide and seek with a blind lizard.",
+                    "reg_death": "This scug was killed by a blind lizard",
+                    "lead_death": "killed by a blind lizard"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_bord_blindliz2",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": [],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 2,
+        "max_cats": 3,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The night patrol encounters a blind lizard.",
+        "decline_text": "In the darkness and quiet, neither even knows of the other",        
+        "chance_of_success": 40,
+        "success_outcomes": [
+            {
+                "text": "r_c sees the lizard just in time! A little clever stone throwing and sneaking helps send the blind lizard out of the territory.",
+                "exp": 10,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "The patrol paces towards the lizard, claws out, fur up, backed up with the courage of their Clanmates. The lizard breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "exp": 10,
+                "weight": 5,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c calls out a battle plan, and the slugcats flow into it, carefully covering each other and driving the lizard backwards until it loses its nerve, tucks tail, and runs from c_n territory, deep into the wilderness.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,1"],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+			{
+                "text": "s_c barely spots the blind lizard in the gloom! {PRONOUN/p_l/poss} stops the patrol, finding something to feed the creature and earning it's trust. This lizard sticks close to their new friend.",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_blind",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["BLACKNEUTRAL", "BLACKALERT"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c barely spots the blind lizard in the gloom! {PRONOUN/p_l/poss} stops the patrol, finding something to feed the creature and earning it's trust. This lizard sticks close to their new friend.",
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_blind",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["BLACKNEUTRAL", "BLACKALERT"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 5
+                    }
+                ]
+			}
+        ],
+        "fail_outcomes": [
+            {
+                "text": "All r_c's attempts to drive the lizard off only make it more excited! r_c is forced to hide and wait for it to calm down.",
+                "exp": 0,
+                "weight": 20
+            },
+            {
+                "text": "The blind lizard finds r_c first, and it's jaws snap fatally over r_c before the patrol could even hope to save them.",
+                "exp": 0,
+                "weight": 10,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "This scug lost a game of hide and seek with a blind lizard.",
+                    "reg_death": "This scug was killed by a blind lizard",
+                    "lead_death": "killed by a blind lizard"
+                }
+            },
+            {
+                "text": "r_c silently limps home with the patrol. The blind lizard heard the patrol first, and had bitten r_c before they were taken down.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["small_bite_injury"],
+                        "scars": ["LEGBITE"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This scug lost a game of hide and seek with a blind lizard.",
+                    "reg_death": "This scug was killed by a blind lizard",
+                    "lead_death": "killed by a blind lizard"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_bord_blindliz3",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["border"],
+        "tags": [],
+        "patrol_art": "bord_general_intro",
+        "min_cats": 4,
+        "max_cats": 6,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The night patrol encounters a blind lizard.",
+        "decline_text": "In the darkness and quiet, neither even knows of the other",
+                "chance_of_success": 10,
+        "success_outcomes": [
+            {
+                "text": "The patrol paces towards the salamander, claws out, fur up, backed up with the courage of their Clanmates. The salamander breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "exp": 10,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "Mobbed by slugcats and senses overwhelmed with noise, the lizard flees from c_n, crying pitifully.",
+                "exp": 10,
+                "weight": 5,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c calls out a battle plan, and the slugcats flow into it, carefully covering each other and driving the lizard backwards until it loses its nerve, tucks tail, and runs from c_n territory, deep into the wilderness.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["FIGHTER,1"],
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["respect", "comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            },
+			{
+                "text": "s_c barely spots the blind lizard in the gloom! {PRONOUN/p_l/poss} stops the patrol, finding something to feed the creature and earning it's trust. This lizard sticks close to their new friend.",
+                "exp": 30,
+                "weight": 5,
+				"art": "gen_liztame_blind",
+                "stat_trait": [
+                    "compassionate",
+                    "confident",
+                    "faithful",
+                    "fierce",
+                    "loving",
+                    "thoughtful",
+                    "charismatic",
+                    "daring"
+                ],
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["BLACKNEUTRAL", "BLACKALERT"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["s_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 15
+                    }
+                ]
+            },
+			{
+                "text": "r_c barely spots the blind lizard in the gloom! {PRONOUN/p_l/poss} stops the patrol, finding something to feed the creature and earning it's trust. This lizard sticks close to their new friend.",
+                "exp": 20,
+                "weight": 1,
+				"art": "gen_liztame_blind",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["BLACKNEUTRAL", "BLACKALERT"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 5
+                    }
+                ]
+			}
+		],
+        "fail_outcomes": [
+            {
+                "text": "All r_c's attempts to drive the lizard off only make it more excited! r_c is forced to hide and wait for it to calm down.",
+                "exp": 0,
+                "weight": 20
+            },
+            {
+                "text": "The blind lizard finds r_c first, and it's jaws snap fatally over r_c before the patrol could even hope to save them.",
+                "exp": 0,
+                "weight": 10,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "This scug lost a game of hide and seek with a blind lizard.",
+                    "reg_death": "This scug was killed by a blind lizard",
+                    "lead_death": "killed by a blind lizard"
+                }
+            },
+            {
+                "text": "r_c silently limps home with the patrol. The blind lizard heard the patrol first, and had bitten r_c before they were taken down.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["small_bite_injury"],
+                        "scars": ["LEGBITE"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "This scug lost a game of hide and seek with a blind lizard.",
+                    "reg_death": "This scug was killed by a blind lizard",
+                    "lead_death": "killed by a blind lizard"
+                }
+            }
+        ]
+    },
     {
         "patrol_id": "gen_bord_abandonedkittypet1_kittypet4",
         "biome": ["any"],
@@ -814,7 +4694,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The patrol hears a slugcat begging for their scavengers to come back, just barely intelligible over the sound of a miros bird speeding away.",
+        "intro_text": "The patrol hears a slugcat begging for their seekers to come back, just barely intelligible over the sound of a miros bird speeding away.",
         "decline_text": "p_l decides it's none of {PRONOUN/p_l/poss} business and resumes {PRONOUN/p_l/poss} patrol.",
         "chance_of_success": 30,
         "success_outcomes": [
@@ -844,7 +4724,7 @@
                 "injury": [
                     {
                         "cats": ["n_c:0"],
-                        "injuries": ["rotsickness"],
+                        "injuries": ["sickness"],
                         "no_results": true
                     }
                 ]
@@ -1084,7 +4964,28 @@
                     }
                 ],
                 "other_clan_rep": 2
-            }
+            },
+			{
+			    "text": "r_c spots the lizard, stopping the rest of the patrol. Instead of waiting for the other clan, {PRONOUN/p_l/poss} decides to take care of the problem. With a bit of kindness and compassion, the green lizard wraps protectively around their new friend.",
+                "exp": 40,
+                "weight": 1,
+				"art": "gen_liztame_green",
+				"accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["GREENEMERALD","GREENLIME"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["r_c"],
+                        "cats_from": ["clan"],
+                        "mutual": false,
+                        "values": ["trust", "respect"],
+                        "amount": 5
+                    }
+                ]
+			}
         ],
         "fail_outcomes": [
             {
@@ -1483,7 +5384,7 @@
                 "weight": 20
             },
             {
-                "text": "The patrol cautiously heads in the direction of the strange, motionless eyes. When p_l gets closer {PRONOUN/p_l/subject} {VERB/p_l/are/is} overwhelmed with the scent of Iterators and smoke. Upon closer inspection, it seems that these foolish Sekkers are trying to set fire to a pumpkin with an unsettling hollow face! p_l and r_c charge the scavengers, hissing, spitting, and doing their best to scare them off. Thankfully the scavengers scatter before they set the pumpkin ablaze.",
+                "text": "The patrol cautiously heads in the direction of the strange, motionless eyes. When p_l gets closer {PRONOUN/p_l/subject} {VERB/p_l/are/is} overwhelmed with the scent of Iterators and smoke. Upon closer inspection, it seems that these foolish Sekkers are trying to set fire to a pumpkin with an unsettling hollow face! p_l and r_c charge the Seekers, hissing, spitting, and doing their best to scare them off. Thankfully the Seekers scatter before they set the pumpkin ablaze.",
                 "exp": 10,
                 "weight": 5
             },
@@ -1521,7 +5422,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol cautiously heads in the direction of the strange, motionless eyes. As they get closer to what seems to be some sort of pumpkin, a group of scavengers springs out of nowhere and chases the frightened slugcats off! The patrol runs until the scavengers stop following. Panting and defeated, they return to camp without much information about the strange face.",
+                "text": "The patrol cautiously heads in the direction of the strange, motionless eyes. As they get closer to what seems to be some sort of pumpkin, a group of Seekers springs out of nowhere and chases the frightened slugcats off! The patrol runs until the Seekers stop following. Panting and defeated, they return to camp without much information about the strange face.",
                 "exp": 0,
                 "weight": 20
             },
@@ -1561,22 +5462,22 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol stumbles upon a strange scene near a scavenger den: scavengers traveling from den to den in colorful pelts.",
+        "intro_text": "The patrol stumbles upon a strange scene near a scavenger den: Seekers traveling from den to den in colorful pelts.",
         "decline_text": "The patrol decides it's best not to interfere with this peculiar ritual.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "r_c, being ever so curious, decides to see if {PRONOUN/r_c/subject} can decipher the meaning behind this scavenger ritual. After some time, {PRONOUN/r_c/subject} {VERB/r_c/realize/realizes} it's some kind of friendly exchange. Each time the scavengers go to the den, they receive a bit of prey from the Iterators. The patrol takes note and continues on their way, amused by the Iterators' strange customs.",
+                "text": "r_c, being ever so curious, decides to see if {PRONOUN/r_c/subject} can decipher the meaning behind this scavenger ritual. After some time, {PRONOUN/r_c/subject} {VERB/r_c/realize/realizes} it's some kind of friendly exchange. Each time the Seekers go to the den, they receive a bit of prey from the Iterators. The patrol takes note and continues on their way, amused by the Iterators' strange customs.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "r_c cautiously approaches the scavengers, intrigued by their colorful pelts. To r_c's surprise, one of the scavengers offers {PRONOUN/r_c/object} a strange, shiny object. It doesn't smell exactly like prey, but r_c decides to take it back to the camp for further investigation.",
+                "text": "r_c cautiously approaches the Seekers, intrigued by their colorful pelts. To r_c's surprise, one of the Seekers offers {PRONOUN/r_c/object} a strange, shiny object. It doesn't smell exactly like prey, but r_c decides to take it back to the camp for further investigation.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "r_c decides to mimic the scavengers. Approaching a larger scavenger den, {PRONOUN/r_c/subject} {VERB/r_c/meow/meows} softly at the entrance. The scavenger that opens the entrance seems amused and hands r_c a morsel of food. The patrol brings it back to camp for further investigation.",
+                "text": "r_c decides to mimic the Seekers. Approaching a larger scavenger den, {PRONOUN/r_c/subject} {VERB/r_c/meow/meows} softly at the entrance. The scavenger that opens the entrance seems amused and hands r_c a morsel of food. The patrol brings it back to camp for further investigation.",
                 "exp": 10,
                 "weight": 20
             }
@@ -1588,7 +5489,7 @@
                 "weight": 10
             },
             {
-                "text": "The patrol attempts to get closer to the scavengers, but their presence causes panic among the little creatures. The Iterators nearby seem agitated, waving their paws and stomping around. The slugcats quickly retreat to avoid causing further disruption.",
+                "text": "The patrol attempts to get closer to the Seekers, but their presence causes panic among the little creatures. The Iterators nearby seem agitated, waving their paws and stomping around. The slugcats quickly retreat to avoid causing further disruption.",
                 "exp": 0,
                 "weight": 10
             }
