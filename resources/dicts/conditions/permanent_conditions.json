@@ -265,7 +265,7 @@
             "mullein"
         ]
     },
-    "wasting disease": {
+    "rotplague": {
         "severity": "major",
         "congenital": "sometimes",
         "moons_until": 1,

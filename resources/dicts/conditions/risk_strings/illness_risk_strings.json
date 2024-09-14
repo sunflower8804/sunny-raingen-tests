@@ -2,14 +2,14 @@
     "greencough": {
         "yellowcough": [
              "There has to be a solution - if r_c tries hard enough, surely {PRONOUN/r_c/subject} can still save m_c from the yellowcough {PRONOUN/m_c/poss} greencough has progressed to.",
-            "m_c sits miserably in the medicine cat den, coughing so hard it feels like {PRONOUN/m_c/subject} can barely get a breath in. The outlook looks grim as {PRONOUN/m_c/poss} greencough has progressed to yellowcough."
+            "m_c sits miserably in the cleric's den, coughing so hard it feels like {PRONOUN/m_c/subject} can barely get a breath in. The outlook looks grim as {PRONOUN/m_c/poss} greencough has progressed to yellowcough."
 
         ]
     },
     "kittencough": {
         "whitecough": [
-            "r_c quietly tells m_c's parent that {PRONOUN/r_c/subject} {VERB/r_c/need/needs} to move m_c to the medicine cat den. m_c's kittencough has progressed to whitecough.",
-            "m_c coughs pathetically, wondering why it's not getting better - and why {PRONOUN/m_c/subject} {VERB/m_c/have/has} to be in the stinky medicine cat den now."
+            "r_c quietly tells m_c's parent that {PRONOUN/r_c/subject} {VERB/r_c/need/needs} to move m_c to the cleric's den. m_c's kittencough has progressed to whitecough.",
+            "m_c coughs pathetically, wondering why it's not getting better - and why {PRONOUN/m_c/subject} {VERB/m_c/have/has} to be in the stinky cleric's den now."
 
         ]
     },
@@ -22,8 +22,8 @@
     },
     "running nose": {
         "whitecough": [
-            "r_c moves m_c to the medicine cat den, where the whitecough that {PRONOUN/m_c/poss} running nose has turned into can be more easily monitored.",
-            "m_c brings {PRONOUN/m_c/self} to the medicine cat den, concerned {PRONOUN/m_c/poss} running nose only seems to be getting worse."
+            "r_c moves m_c to the cleric's den, where the whitecough that {PRONOUN/m_c/poss} running nose has turned into can be more easily monitored.",
+            "m_c brings {PRONOUN/m_c/self} to the cleric's den, concerned {PRONOUN/m_c/poss} running nose only seems to be getting worse."
 
         ]
     },
@@ -55,13 +55,13 @@
 
         ]
     },
-    "fleas": {
+    "leeches": {
         "torn pelt": [
-            "m_c has been scratching incessantly at the fleas infesting {PRONOUN/m_c/poss} pelt. r_c scolds {PRONOUN/m_c/object} for it as {PRONOUN/r_c/subject} gently {VERB/r_c/clean/cleans} the now raw areas of m_c's pelt.",
-            "m_c scratches and scratches and scratches, ever frustrated by {PRONOUN/m_c/poss} fleas. The constant scratching has begun to tear up {PRONOUN/m_c/poss} pelt, leaving raw patches of skin exposed.",
+            "m_c has been scratching incessantly at the leeches infesting {PRONOUN/m_c/poss} pelt. r_c scolds {PRONOUN/m_c/object} for it as {PRONOUN/r_c/subject} gently {VERB/r_c/clean/cleans} the now raw areas of m_c's pelt.",
+            "m_c scratches and scratches and scratches, ever frustrated by {PRONOUN/m_c/poss} leeches. The constant scratching has begun to tear up {PRONOUN/m_c/poss} pelt, leaving raw patches of skin exposed.",
             "m_c's constant flea scratching has torn {PRONOUN/m_c/poss} pelt.",
-            "m_c can't help scratching at {PRONOUN/m_c/poss} fleas and has left raw spots on {PRONOUN/m_c/poss} pelt.",
-            "Raw hairless patches are forming on m_c's pelt as {PRONOUN/m_c/subject} {VERB/m_c/scratch/scratches} and {VERB/m_c/scratch/scratches} at {PRONOUN/m_c/poss} fleas."
+            "m_c can't help scratching at {PRONOUN/m_c/poss} leeches and has left raw spots on {PRONOUN/m_c/poss} pelt.",
+            "Raw hairless patches are forming on m_c's pelt as {PRONOUN/m_c/subject} {VERB/m_c/scratch/scratches} and {VERB/m_c/scratch/scratches} at {PRONOUN/m_c/poss} leeches."
         ]
     },
     "grief stricken": {

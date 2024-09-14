@@ -63,7 +63,7 @@
             "mallow"
         ]
     },
-    "fleas": {
+    "leeches": {
         "severity": "minor",
         "mortality": {
             "newborn": 0,
@@ -126,7 +126,7 @@
             }
         ],
         "herbs": [
-            "catmint",
+            "scugmint",
             "tansy",
             "mullein",
             "plantain",
@@ -165,7 +165,7 @@
             }
         ],
         "herbs": [
-            "catmint",
+            "scugmint",
             "tansy",
             "mullein",
             "plantain",
@@ -210,7 +210,7 @@
             "poppy"
         ]
     },
-    "carrionplace disease": {
+    "rotsickness": {
         "severity": "severe",
         "mortality": {
             "newborn": 1,
@@ -341,7 +341,7 @@
             }
         ],
         "herbs": [
-            "catmint",
+            "scugmint",
             "plantain",
             "tansy",
             "mullein",

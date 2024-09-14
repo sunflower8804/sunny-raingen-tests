@@ -26,9 +26,9 @@
     "m_c was killed by {PRONOUN/m_c/poss} infected wound.",
     "m_c's infection progressed too far and left {PRONOUN/m_c/subject} cold in their nest."
   ],
-  "carrionplace disease": [
-    "m_c died to carrionplace disease.",
-    "Carrionplace disease has killed m_c."
+  "rotsickness": [
+    "m_c died to the Rotsickness.",
+    "Rotsickness has killed m_c."
   ],
   "redcough": [
     "m_c died to redcough.",

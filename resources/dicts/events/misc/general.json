@@ -392,7 +392,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c tossed a snake out of the camp before it could bite someone.",
+    "event_text": "m_c tossed a dropwig out of the camp before it could get the drop on someone.",
     "m_c": {
       "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "status": ["any"]
@@ -550,7 +550,7 @@
     "season": ["leaf-fall"],
     "tags": ["clan:kitten"],
     "weight": 20,
-    "event_text": "The older cats look fondly upon the kits who are dashing in and out of leaf piles at the edge of camp.",
+    "event_text": "The older slugcats look fondly upon the slugpups who are dashing in and out of leaf piles at the edge of camp.",
     "m_c": {
       "age": ["senior", "senior adult"]
     },
@@ -842,7 +842,7 @@
     "season": ["any"],
     "tags": ["clan:kitten"],
     "weight": 10,
-    "event_text": "m_c listens bashfully as r_c tells the story of how {PRONOUN/r_c/subject} fell in love with {PRONOUN/r_c/poss} mate to a group of starry-eyed kits.",
+    "event_text": "m_c listens bashfully as r_c tells the story of how {PRONOUN/r_c/subject} fell in love with {PRONOUN/r_c/poss} mate to a group of starry-eyed slugpups.",
     "m_c": {
       "age": ["any"],
       "status": ["any"],
@@ -868,7 +868,7 @@
     "season": ["any"],
     "tags": ["clan:elder"],
     "weight": 15,
-    "event_text": "m_c watches r_c give an elder the best piece of prey on the pile. {PRONOUN/m_c/subject/CAP} {VERB/m_c/feel/feels} lucky to have such a kind cat as {PRONOUN/m_c/poss} mate.",
+    "event_text": "m_c watches r_c give an elder the best piece of prey on the pile. {PRONOUN/m_c/subject/CAP} {VERB/m_c/feel/feels} lucky to have such a kind slugcat as {PRONOUN/m_c/poss} mate.",
     "m_c": {
       "age": ["any"],
       "status": ["any"],
@@ -894,7 +894,7 @@
     "season": ["any"],
     "tags": ["clan:kitten"],
     "weight": 15,
-    "event_text": "m_c and r_c watch the Clan's kits play and daydream about having their own one day.",
+    "event_text": "m_c and r_c watch the Clan's slugpups play and daydream about having their own one day.",
     "m_c": {
       "age": ["any"],
       "status": ["any"],
@@ -1211,7 +1211,7 @@
         "season": ["leaf-fall"],
       "tags": ["clan:warrior"],
         "weight": 20,
-        "event_text": "m_c and r_c lead a small leaf-gathering hunt, which the adult cats watch with amused purrs.",
+        "event_text": "m_c and r_c lead a small leaf-gathering hunt, which the adult slugcats watch with amused purrs.",
         "m_c": {
             "status": ["kitten"]
         },
@@ -1301,7 +1301,7 @@
         "season": ["any"],
         "sub_type": ["war"],
         "weight": 10,
-        "event_text": "m_c is being comforted by r_c after having nightmares about the big, bad o_c_n cats.",
+        "event_text": "m_c is being comforted by r_c after having nightmares about the big, bad o_c_n slugcats.",
         "m_c": {
             "status": ["kitten"],
             "relationship_status": ["child/parent"]
@@ -1775,7 +1775,7 @@
     "season": ["any"],
     "sub_type": ["accessory"],
     "weight": 20,
-    "event_text": "m_c is nearly blindsided by r_c as {PRONOUN/r_c/subject} {VERB/r_c/walk/walks} into camp after a long training day, listening to the kit squeak about a type of feather. r_c leads m_c to the nursery, where {PRONOUN/r_c/subject} carefully put acc_plural in m_c's fur.",
+    "event_text": "m_c is nearly blindsided by r_c as {PRONOUN/r_c/subject} {VERB/r_c/walk/walks} into camp after a long training day, listening to the slugpup squeak about a type of feather. r_c leads m_c to the nursery, where {PRONOUN/r_c/subject} carefully put acc_plural in m_c's fur.",
     "new_accessory": ["BLUE FEATHERS"],
     "m_c": {
         "age": ["adolescent"]
@@ -1821,7 +1821,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was caught sharing prey with a kittypet, who was chased off by a patrol.",
+    "event_text": "m_c was caught sharing prey with a pet, who was chased off by a patrol.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
@@ -1847,7 +1847,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was seen touching noses with a kittypet. Scandalous!",
+    "event_text": "m_c was seen touching noses with a pet. Scandalous!",
     "m_c": {
         "age": ["young adult", "adult", "senior adult", "senior"]
     },
@@ -1873,7 +1873,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was seen playing with a kittypet over the border.",
+    "event_text": "m_c was seen playing with a pet over the border.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
@@ -1899,7 +1899,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was seen chasing a kittypet off of the territory.",
+    "event_text": "m_c was seen chasing a pet off of the territory.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
@@ -1925,7 +1925,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was seen in a very serious conversation with a kittypet, who ran away when another patrol approached.",
+    "event_text": "m_c was seen in a very serious conversation with a pet, who ran away when another patrol approached.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
@@ -1961,7 +1961,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 10,
-    "event_text": "m_c was loitering around o_c_n's border, looking for a specific cat.",
+    "event_text": "m_c was loitering around o_c_n's border, looking for a specific slugcat.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     }
@@ -1986,7 +1986,7 @@
     "season": ["any"],
     "tags": [],
     "weight": 10,
-    "event_text": "m_c was seen arguing, and borderline-fighting, with a cat from o_c_n.",
+    "event_text": "m_c was seen arguing, and borderline-fighting, with a slugcat from o_c_n.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
@@ -2000,7 +2000,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 10,
-    "event_text": "m_c was seen speaking calmly to a cat from o_c_n.",
+    "event_text": "m_c was seen speaking calmly to a slugcat from o_c_n.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
@@ -2066,7 +2066,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 10,
-    "event_text": "m_c was seen talking calmly to a loner, before both cats went their separate ways.",
+    "event_text": "m_c was seen talking calmly to a loner, before both slugcats went their separate ways.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
@@ -2088,7 +2088,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 5,
-    "event_text": "m_c was seen taking food from a Twoleg!",
+    "event_text": "m_c was seen taking food from a Seeker!",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     }
@@ -2195,7 +2195,7 @@
     "season": ["any"],
     "sub_type": ["war"],
     "weight": 20,
-    "event_text": "m_c is checking in on every cat in the camp to make sure everyone is staying healthy in the midst of war.",
+    "event_text": "m_c is checking in on every slugcat in the camp to make sure everyone is staying healthy in the midst of war.",
     "m_c": {
       "age":["any"],  
       "status": ["mediator", "mediator apprentice"],
@@ -2231,7 +2231,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 10,
-    "event_text": "m_c pulls r_c to the side, quietly asking {PRONOUN/r_c/object} abou {PRONOUN/r_c/poss} crush on a fellow Clanmate.",
+    "event_text": "m_c pulls r_c to the side, quietly asking {PRONOUN/r_c/object} about {PRONOUN/r_c/poss} crush on a fellow Clanmate.",
     "m_c":{
       "status":["mediator", "mediator apprentice"]
     },
@@ -2371,7 +2371,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c visits the other medicine cats.",
+    "event_text": "m_c visits the other medicine slugcats.",
     "m_c": {
         "status": ["medicine cat"]
     },
@@ -2385,7 +2385,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c visits o_c_n to converse with their medicine cats about an omen StarClan sent.",
+    "event_text": "m_c visits o_c_n to converse with their medicine slugcats about an omen the Ascended sent.",
     "m_c": {
         "status": ["medicine cat"],
         "skill": ["OMEN,0"]
@@ -2400,7 +2400,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c visits o_c_n to congratulate them on their new medicine cat.",
+    "event_text": "m_c visits o_c_n to congratulate them on their new medicine slugcat.",
     "m_c": {
         "status": ["medicine cat"],
         "skill": ["MEDIATOR,1"]
@@ -2512,7 +2512,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c spends {PRONOUN/m_c/poss} day communing with StarClan, attempting to figure out a recent prophecy.",
+    "event_text": "m_c spends {PRONOUN/m_c/poss} day communing with the Ascended, attempting to figure out a recent prophecy.",
     "m_c": {
       "status":["medicine cat", "medicine cat apprentice"],
       "skill": ["PROPHET,2"]
@@ -2538,7 +2538,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was seen loudly bickering with the medicine cat of o_c_n.",
+    "event_text": "m_c was seen loudly bickering with the medicine slugcat of o_c_n.",
     "m_c":{
       "status": ["medicine cat"]
     },
@@ -2586,7 +2586,7 @@
     "season": ["any"],
     "sub_type": ["war"],
     "weight": 20,
-    "event_text": "m_c watches every little thing around {PRONOUN/m_c/object} for any omen that indicates what the Clan should do in the war. The losses weigh heavy on the hearts of every cat.",
+    "event_text": "m_c watches every little thing around {PRONOUN/m_c/object} for any omen that indicates what the Clan should do in the war. The losses weigh heavy on the hearts of every slugcat.",
     "m_c": {
       "status": ["medicine cat apprentice", "medicine cat"],
       "skill": ["OMEN,1"]
@@ -2676,7 +2676,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 20,
-    "event_text": "m_c awakens with multiple objects stacked on {PRONOUN/m_c/object}, and the sound of giggling cats in the distance.",
+    "event_text": "m_c awakens with multiple objects stacked on {PRONOUN/m_c/object}, and the sound of giggling slugcats in the distance.",
     "m_c": {
       "status":["elder"]
     }
@@ -2739,7 +2739,7 @@
     "season": ["any"],
     "tags": ["clan:apps"],
     "weight": 20,
-    "event_text": "m_c calls the younger cats to {PRONOUN/m_c/poss} den to tell stories of the Clan's past.",
+    "event_text": "m_c calls the younger slugcats to {PRONOUN/m_c/poss} den to tell stories of the Clan's past.",
     "m_c": {
       "age":["any"],
       "status":["elder"],
@@ -2752,7 +2752,7 @@
     "season": ["any"],
     "tags": ["clan:kitten"],
     "weight": 30,
-    "event_text": "m_c calls out to some eager kits, and after they have situated themselves in front of m_c, {PRONOUN/m_c/subject} {VERB/m_c/start/starts} telling the kits a thrilling story of times long past.",
+    "event_text": "m_c calls out to some eager slugpups, and after they have situated themselves in front of m_c, {PRONOUN/m_c/subject} {VERB/m_c/start/starts} telling the slugpups a thrilling story of times long past.",
     "m_c": {
       "age": ["senior", "adolescent","young adult", "adult","senior adult"],
       "skill": ["STORY,1","LORE,2"]
@@ -3020,7 +3020,7 @@
     "season": ["any"],
     "tags": ["clan_wide"],
     "weight": 5,
-    "event_text": "The o_c_n medicine cat comes asking if c_n has any herbs to spare. Unfortunately, the c_n herb stocks are far too low and c_n is unable to provide any help.",
+    "event_text": "The o_c_n medicine slugcat comes asking if c_n has any herbs to spare. Unfortunately, the c_n herb stocks are far too low and c_n is unable to provide any help.",
     "supplies": [
       {
           "type": "all_herb",
@@ -3039,7 +3039,7 @@
     "season": ["any"],
     "tags": ["clan_wide"],
     "weight": 2,
-    "event_text": "A medicine cat from o_c_n comes comes to c_n, asking for herbs to heal their sick Clanmates. c_n quickly shoos them away, not willing to admit that they already don't have enough to support themselves.",
+    "event_text": "A medicine slugcat from o_c_n comes comes to c_n, asking for herbs to heal their sick Clanmates. c_n quickly shoos them away, not willing to admit that they already don't have enough to support themselves.",
     "supplies": [
       {
           "type": "all_herb",
@@ -3058,7 +3058,7 @@
     "season": ["any"],
     "tags": ["clan_wide"],
     "weight": 5,
-    "event_text": "The o_c_n medicine cat comes asking if c_n has any given_herb to spare. Graciously, your Clan decides to aid their allies and share the herbs.",
+    "event_text": "The o_c_n medicine slugcat comes asking if c_n has any given_herb to spare. Graciously, your Clan decides to aid their allies and share the herbs.",
     "supplies": [
       {
           "type": "any_herb",
@@ -3077,7 +3077,7 @@
     "season": ["any"],
     "tags": ["clan_wide"],
     "weight": 2,
-    "event_text": "The medicine cat apprentice from o_c_n comes asking for given_herb. They refuse to say why their Clan needs them but c_n still provides them with what they need.",
+    "event_text": "The medicine slugcat apprentice from o_c_n comes asking for given_herb. They refuse to say why their Clan needs them but c_n still provides them with what they need.",
     "supplies": [
       {
           "type": "any_herb",
@@ -3096,7 +3096,7 @@
     "season": ["any"],
     "tags": ["clan_wide"],
     "weight": 5,
-    "event_text": "The o_c_n medicine cat comes asking if c_n has any given_herb to spare. However, c_n only has enough for themselves and they refuse to share.",
+    "event_text": "The o_c_n medicine slugcat comes asking if c_n has any given_herb to spare. However, c_n only has enough for themselves and they refuse to share.",
     "supplies": [
       {
           "type": "any_herb",
@@ -3115,7 +3115,7 @@
     "season": ["any"],
     "tags": ["clan_wide"],
     "weight": 2,
-    "event_text": "The medicine cat apprentice from o_c_n comes asking for herbs. They refuse to say why their Clan needs them and c_n decides not to share their precious few given_herb.",
+    "event_text": "The medicine slugcat apprentice from o_c_n comes asking for herbs. They refuse to say why their Clan needs them and c_n decides not to share their precious few given_herb.",
     "supplies": [
       {
           "type": "any_herb",
@@ -3134,7 +3134,7 @@
     "season": ["any"],
     "tags": ["clan_wide"],
     "weight": 2,
-    "event_text": "The o_c_n medicine cat apprentice comes to c_n's camp, pleading for help with a yellowcough epidemic. c_n provides the cat with some of their extra lungwort.",
+    "event_text": "The o_c_n medicine slugcat apprentice comes to c_n's camp, pleading for help with a yellowcough epidemic. c_n provides the cat with some of their extra lungwort.",
     "supplies": [
       {
           "type": "lungwort",
@@ -3153,7 +3153,7 @@
     "season": ["any"],
     "tags": ["clan_wide"],
     "weight": 2,
-    "event_text": "A medicine cat from o_c_n comes to c_n, asking for lungwort to heal a case of yellowcough. c_n has some extra, and so decides to share with their allies.",
+    "event_text": "A medicine slugcat from o_c_n comes to c_n, asking for lungwort to heal a case of yellowcough. c_n has some extra, and so decides to share with their allies.",
     "supplies": [
       {
           "type": "lungwort",
@@ -3172,7 +3172,7 @@
     "season": ["any"],
     "tags": ["clan_wide"],
     "weight": 2,
-    "event_text": "The o_c_n medicine cat apprentice comes to c_n's camp, pleading for help with a yellowcough epidemic. However, c_n has nothing that they are willing to share.",
+    "event_text": "The o_c_n medicine slugcat apprentice comes to c_n's camp, pleading for help with a yellowcough epidemic. However, c_n has nothing that they are willing to share.",
     "supplies": [
       {
           "type": "lungwort",
@@ -3191,7 +3191,7 @@
     "season": ["any"],
     "tags": ["clan_wide"],
     "weight": 2,
-    "event_text": "A medicine cat from o_c_n comes to c_n, asking for lungwort to heal a case of yellowcough. However, c_n hardly has enough for their own Clan and so refuses.",
+    "event_text": "A medicine slugcat from o_c_n comes to c_n, asking for lungwort to heal a case of yellowcough. However, c_n hardly has enough for their own Clan and so refuses.",
     "supplies": [
       {
           "type": "lungwort",
@@ -3275,7 +3275,7 @@
     "season": ["leaf-bare"],
     "tags": ["clan_wide"],
     "weight": 1,
-    "event_text": "Freezing temperatures have not just affected the cats. It's also frostbitten the stored herbs. They're useless now and will have to be replaced.",
+    "event_text": "Freezing temperatures have not just affected the slugcats. It's also frostbitten the stored herbs. They're useless now and will have to be replaced.",
     "supplies": [
       {
           "type": "all_herb",
@@ -3390,7 +3390,7 @@
     "season": ["any"],
     "sub_type": ["ceremony", "accessory"],
     "weight": 20,
-    "event_text": "r_c is so proud of how far {PRONOUN/r_c/poss} kit has grown. With a look of pride, r_c presents m_c with acc_plural as a congratulations for becoming an apprentice.",
+    "event_text": "r_c is so proud of how far {PRONOUN/r_c/poss} slugpup has grown. With a look of pride, r_c presents m_c with acc_plural as a congratulations for becoming an apprentice.",
     "new_accessory": ["WILD", "PLANT"],
     "m_c": {
       "status": ["apprentice"],
@@ -3555,7 +3555,7 @@
     "season": ["any"],
     "sub_type": ["ceremony", "accessory"],
     "weight": 20,
-    "event_text": "r_c feels so lucky to have {PRONOUN/r_c/poss} own sibling become a medicine cat apprentice. Knowing how time consuming it is to gather herbs, r_c spends a long time gathering up acc_plural to help out m_c. While m_c appreciates the efforts, none of these are particularly useful. Instead m_c uses the acc_plural to decorate {PRONOUN/m_c/poss} pelt.",
+    "event_text": "r_c feels so lucky to have {PRONOUN/r_c/poss} own sibling become a medicine scug apprentice. Knowing how time consuming it is to gather herbs, r_c spends a long time gathering up acc_plural to help out m_c. While m_c appreciates the efforts, none of these are particularly useful. Instead m_c uses the acc_plural to decorate {PRONOUN/m_c/poss} pelt.",
     "new_accessory": ["HERBS", "DRY HERBS"],
     "m_c": {
       "status": ["medicine cat apprentice"],

@@ -366,7 +366,7 @@ def reformat(path):
                     "cats": ["r_c"],
                     "injuries": []
                 }
-                injuries = ["claw-wound", "bite-wound", "cat bite", "beak bite", "snake bite", "rat bite", "tick bites",
+                injuries = ["claw-wound", "bite-wound", "cat bite", "beak bite", "spider bite", "dropwig bite", "leech bites",
                             "blood loss", "broken jaw", "broken bone", "mangled leg", "dislocated joint", "joint pain",
                             "sprain", "mangled tail", "bruises", "cracked pads", "sore", "phantom pain", "scrapes",
                             "small cut", "torn pelt", "torn ear", "frostbite", "recovering from birth",

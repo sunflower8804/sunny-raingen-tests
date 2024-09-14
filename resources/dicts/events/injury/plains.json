@@ -62,7 +62,7 @@
         "sub_type": [],
         "tags": [],
         "weight": 30,
-        "event_text": "Playfully following a butterfly outside the camp, m_c accidentally steps into a rabbit burrow, severely injuring {PRONOUN/m_c/poss} leg and letting out a yelp of pain.",
+        "event_text": "Playfully following a dragonfly outside the camp, m_c accidentally steps into a pipe, severely injuring {PRONOUN/m_c/poss} leg and letting out a yelp of pain.",
         "m_c": {
             "age": ["any"],
             "status": ["any"],
@@ -78,9 +78,9 @@
         "history": [
             {
                 "cats": ["m_c"],
-                "scar": "m_c was scarred when they accidentally ran their leg into a rabbit burrow.",
-                "reg_death": "m_c died from wounds caused by when they accidentally ran into a rabbit burrow.",
-                "lead_death": "died after stepping in a rabbit burrow"
+                "scar": "m_c was scarred when they accidentally ran their leg into a pipe.",
+                "reg_death": "m_c died from wounds caused by when they accidentally ran into a pipe.",
+                "lead_death": "died after stepping in a pipe"
             }
         ]
     },
@@ -89,7 +89,7 @@
         "location": ["plains"],
         "season": ["any"],
         "weight": 30,
-        "event_text": "m_c was running around excitedly on patrol, when {PRONOUN/m_c/poss} paw landed right in a rabbit hole, twisting uncomfortably. {PRONOUN/m_c/subject/CAP} limped the whole way home.",
+        "event_text": "m_c was running around excitedly on patrol, when {PRONOUN/m_c/poss} paw landed right in a pipe, twisting uncomfortably. {PRONOUN/m_c/subject/CAP} limped the whole way home.",
         "m_c": {
             "age": ["adolescent"],
             "status": ["apprentice"],

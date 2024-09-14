@@ -6,16 +6,16 @@
         "m_c died from a bite-wound."
     ],
     "cat bite": [
-        "m_c died from a cat bite."
+        "m_c died from a slugcat bite."
     ],
     "beak bite": [
         "m_c died from a beak bite."
     ],
-    "snake bite": [
-        "m_c died from a snake bite."
+    "spider bite": [
+        "m_c died from a spider bite."
     ],
-    "rat bite": [
-        "m_c died from a rat bite."
+    "dropwig bite": [
+        "m_c died from a dropwig bite."
     ],
     "blood loss": [
         "m_c died from blood loss."
@@ -60,7 +60,7 @@
         "m_c's eyes were too badly damaged and {PRONOUN/m_c/subject} died."
     ],
     "quilled by a porcupine": [
-        "m_c died from {PRONOUN/m_c/poss} wounds after being quilled by a porcupine."
+        "m_c died from {PRONOUN/m_c/poss} wounds after being strangled by a pole plant."
     ],
     "poisoned": [
         "m_c died from the poison in {PRONOUN/m_c/poss} body."

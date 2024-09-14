@@ -176,7 +176,7 @@
         "location": ["beach:camp1_camp2"],
         "season": ["any"],
         "weight": 30,
-        "event_text": "m_c was grabbed by a seagull, but luckily r_c saves {PRONOUN/m_c/object}! The kit is still left injured from the ordeal.",
+        "event_text": "m_c was grabbed by a vulture, but luckily r_c saves {PRONOUN/m_c/object}! The slugpup is still left injured from the ordeal.",
         "m_c": {
             "status": ["kitten"]
         },
@@ -187,15 +187,15 @@
         "injury": [
             {
                 "cats": ["m_c"],
-                "injuries": ["claw-wound"],
-                "scars": ["TWO"]
+                "injuries": ["beak bite"],
+                "scars": ["BEAKLOWER"]
             }
         ],
         "history": [
             {
                 "cats": ["m_c"],
-                "scar": "m_c was scarred as a kit, when a seagull tried to carry {PRONOUN/m_c/object} off.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a seagull tried to carry {PRONOUN/m_c/object} off."
+                "scar": "m_c was scarred as a slugpup, when a vulture tried to carry {PRONOUN/m_c/object} off.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a vulture tried to carry {PRONOUN/m_c/object} off."
             }
         ],
         "relationships": [
@@ -218,7 +218,7 @@
         "location": ["beach:camp1_camp2"],
         "season": ["any"],
         "weight": 30,
-        "event_text": "m_c was grabbed by a pelican, but luckily r_c saves {PRONOUN/m_c/object}! The kit is still left injured from the ordeal.",
+        "event_text": "m_c was grabbed by a king vulture, but luckily r_c saves {PRONOUN/m_c/object}! The slugpup is still left injured from the ordeal.",
         "m_c": {
             "status": ["kitten"]
         },
@@ -229,15 +229,15 @@
         "injury": [
             {
                 "cats": ["m_c"],
-                "injuries": ["claw-wound"],
-                "scars": ["TWO"]
+                "injuries": ["beak bite"],
+                "scars": ["BEAKLOWER"]
             }
         ],
         "history": [
             {
                 "cats": ["m_c"],
-                "scar": "m_c was scarred as a kit, when a pelican tried to carry {PRONOUN/m_c/object} off.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a pelican tried to carry {PRONOUN/m_c/object} off."
+                "scar": "m_c was scarred as a slugpup, when a king vulture tried to carry {PRONOUN/m_c/object} off.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a king vulture tried to carry {PRONOUN/m_c/object} off."
             }
         ],
         "relationships": [
@@ -383,7 +383,7 @@
         "location": ["beach"],
         "season": ["greenleaf", "newleaf", "leaf-fall"],
         "weight": 30,
-        "event_text": "m_c found a hole in the rocks and, curious as all kits are, stuck {PRONOUN/m_c/poss} paw inside. The whole camp comes running when {PRONOUN/m_c/subject} {VERB/m_c/screech/screeches} in pain. It seems a snake was living in that hole.",
+        "event_text": "m_c found a hole in the rocks and, curious as all slugpups are, stuck {PRONOUN/m_c/poss} paw inside. The whole camp comes running when {PRONOUN/m_c/subject} {VERB/m_c/screech/screeches} in pain. It seems a spider was living in that hole.",
         "m_c": {
             "status": ["kitten"],
             "trait": ["daring", "impulsive", "noisy", "troublesome", "attention-seeker"]
@@ -391,15 +391,15 @@
         "injury": [
             {
                 "cats": ["m_c"],
-                "injuries": ["snake bite"],
+                "injuries": ["spider bite"],
                 "scars": ["SNAKE"]
             }
         ],
         "history": [
             {
                 "cats": ["m_c"],
-                "scar": "m_c was scarred as a kit, when a snake bit {PRONOUN/m_c/object}.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a snake bit {PRONOUN/m_c/object}."
+                "scar": "m_c was scarred as a slugpup, when a spider bit {PRONOUN/m_c/object}.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a spider bit {PRONOUN/m_c/object}."
             }
         ]
     },

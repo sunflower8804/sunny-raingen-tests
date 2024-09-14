@@ -43,7 +43,7 @@
         ],
         "tags": [],
         "weight": 20,
-        "event_text": "m_c was poisoned by a sea creature and died.",
+        "event_text": "m_c was crushed in the jaws of a leviathan and died.",
         "m_c": {
             "dies": true
         },
@@ -52,8 +52,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "reg_death": "m_c was killed by a poisonous sea creature.",
-                "lead_death": "{VERB/m_c/were/was} killed by a poisonous sea creature"
+                "reg_death": "m_c was killed by a leviathan.",
+                "lead_death": "{VERB/m_c/were/was} killed by a leviathan"
             }
         ]
     },
@@ -176,8 +176,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "reg_death": "m_c was taken by a mysterious sea creature.",
-                "lead_death": "{VERB/m_c/were/was} taken by a mysterious sea creature"
+                "reg_death": "m_c was taken by monster kelp.",
+                "lead_death": "{VERB/m_c/were/was} taken by a monster kelp"
             }
         ]
     },
@@ -397,7 +397,7 @@
         ],
         "tags": [],
         "weight": 20,
-        "event_text": "m_c couldn't speak, yell for help, or beg StarClan to give {PRONOUN/m_c/subject} a sign they were still with {PRONOUN/m_c/object}, {PRONOUN/m_c/poss} tongue having swelled up inside {PRONOUN/m_c/poss} dried mouth. As m_c collapses, feeling {PRONOUN/m_c/poss} body internally shut down because of dehydration and heat exhaustion, {PRONOUN/m_c/subject} pray that {PRONOUN/m_c/poss} clanmates locate m_c's body before {PRONOUN/m_c/subject} {VERB/m_c/become/becomes} unrecognizable under the sun.",
+        "event_text": "m_c couldn't speak, yell for help, or beg the Ascended to give {PRONOUN/m_c/subject} a sign they were still with {PRONOUN/m_c/object}, {PRONOUN/m_c/poss} tongue having swelled up inside {PRONOUN/m_c/poss} dried mouth. As m_c collapses, feeling {PRONOUN/m_c/poss} body internally shut down because of dehydration and heat exhaustion, {PRONOUN/m_c/subject} pray that {PRONOUN/m_c/poss} clanmates locate m_c's body before {PRONOUN/m_c/subject} {VERB/m_c/become/becomes} unrecognizable under the sun.",
         "m_c": {
             "age": [
                 "adolescent"
@@ -512,7 +512,7 @@
         ],
         "tags": [],
         "weight": 20,
-        "event_text": "m_c never meant to meet StarClan this way, rotting away under the sun after fainting from dehydration, heat exhaustion, and overexertion. r_c tragically discovers {PRONOUN/m_c/poss} body, unable to stop {PRONOUN/r_c/poss} desperate wails at the sight of {PRONOUN/r_c/poss} child's body.",
+        "event_text": "m_c never meant to meet the Ascended this way, rotting away under the sun after fainting from dehydration, heat exhaustion, and overexertion. r_c tragically discovers {PRONOUN/m_c/poss} body, unable to stop {PRONOUN/r_c/poss} desperate wails at the sight of {PRONOUN/r_c/poss} child's body.",
         "m_c": {
             "age": [
                 "adolescent"
@@ -687,6 +687,39 @@
                     "m_c"
                 ],
                 "reg_death": "m_c was ill-prepared for the heat and succumbed to dehydration."
+            }
+        ]
+    },
+    {
+        "event_id": "bch_death_leviathan_any1",
+        "location": [
+            "beach"
+        ],
+        "season": [
+            "any"
+        ],
+        "tags": [
+            "no_body", "all_lives"
+        ],
+        "weight": 20,
+        "event_text": "Looking to find a way to cool off, m_c decides to go exploring in the water. Too focused on fighting the waves, {PRONOUN/m_c/subject} doesn’t notice the ominous shape below them in the water until it’s too late. The last thing {PRONOUN/m_c/subject} hears is the metallic creaking of the leviathan’s jaws, and then all goes dark",
+        "m_c": {
+            "age": [
+                "adolescent",
+                "young adult",
+                "adult",
+                "senior adult",
+                "senior"
+            ],
+            "dies": true
+        },
+        "history": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "reg_death": "m_c was eaten by a leviathan.",
+                "lead_death": "{VERB/m_c/were/was} eaten by a leviathan"
             }
         ]
     },
