@@ -87,24 +87,24 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol searches for a patch of slime mold.",
+        "intro_text": "The patrol searches for an eggbug.",
         "decline_text": "The patrol decides the search isn't worth the risk.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "The patrol find a good-sized patch! This'll feed quite a few scugs!",
+                "text": "The patrol find a good-sized eggbug! This'll feed quite a few scugs!",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"]
             },
             {
-                "text": "Only a very patch is found, sadly. Some food is better then none, though.",
+                "text": "Only a single egg is found, sadly. Some food is better then none, though.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["small"]
             },
             {
-                "text": "They find a huge amount of the slime mold! What a good find! This will feed many slugcats!",
+                "text": "They find a huge eggbug! What a good find! This will feed many slugcats!",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["HUNTER,2"],
@@ -113,7 +113,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol doesn't find any of the elusive mold, and return empty-pawed",
+                "text": "The patrol doesn't find any of the elusive bugs, and return empty-pawed",
                 "exp": 0,
                 "weight": 20
             }
@@ -216,7 +216,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "Thy evade a green lizard just barely! Behind where it was sunning itself is a patch of the bluefruit.",
+                "text": "They evade a green lizard just barely! Behind where it was sunning itself is a patch of the bluefruit.",
                 "exp": 10,
                 "weight": 5,
                 "prey": ["medium"]
@@ -224,7 +224,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "is scared off of their hunt by a narrow escape from a pole plant.",
+                "text": "r_c is scared off of their hunt by a narrow escape from a pole plant.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
@@ -317,23 +317,23 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c spots a eggbug up ahead, but it seems to be acting strange. The patrol can see its tremors from a few scavenger-lengths away.",
-        "decline_text": "r_c avoids catching the odd eggbug and looks for other prey.",
+        "intro_text": "r_c spots a blue lizard up ahead, but it seems to be acting strange. The patrol can see its tremors from far away.",
+        "decline_text": "r_c avoids catching the odd lizard and looks for other prey.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "r_c catches the eggbug and it is eaten as normal.",
+                "text": "r_c catches the blue lizard and it is eaten as normal.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["large"]
             },
             {
-                "text": "r_c catches the eggbug, but when {PRONOUN/r_c/subject} {VERB/r_c/report/reports} about the strange incident at camp, the dead eggbug is taken far away and buried.",
+                "text": "r_c catches the lizard, but when {PRONOUN/r_c/subject} {VERB/r_c/report/reports} about the strange incident at camp, the dead lizard is taken far away and buried.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "s_c stops the patrol from catching the eggbug and takes the opportunity to teach them about the Rot, which can pass from prey to scug.",
+                "text": "s_c stops the patrol from catching the lizard and takes the opportunity to teach them about the Rot, which can pass from prey to scug.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"]
@@ -341,12 +341,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c leaps for the eggbug but it still manages to slip away, despite its obvious illness.",
+                "text": "r_c leaps for the lizard but it still manages to slip away, despite its obvious illness.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "r_c catches the eggbug, but later {PRONOUN/r_c/subject} and the slugcats who eat it become violently ill.",
+                "text": "r_c catches the lizard, but later {PRONOUN/r_c/subject} and the slugcats who eat it become violently ill.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
