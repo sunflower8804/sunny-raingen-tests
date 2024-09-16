@@ -6,7 +6,8 @@ from scripts.cat.sprites import sprites
 from scripts.game_structure.game_essentials import game
 
 
-class Pelt:
+class Pelt():
+    
     sprites_names = {
         "SingleColour": 'single',
         'TwoColour': 'single',
@@ -23,17 +24,19 @@ class Pelt:
         'Agouti': 'agouti',
         'Singlestripe': 'singlestripe',
         'Masked': 'masked',
-        'Centi': 'centipede',
-        'Collar': 'collared',
-        'Con': 'con',
         'Gravel': 'gravel',
+        'Collared': 'collared',
+        'Slimemold': 'slimemold',
         'Cyanlizard': 'cyanlizard',
-        'Lizard': 'lizard',
-        'Slime': 'slimemold',
+        'Vulture': 'vulture',
         'Banana': 'banana',
+        'Centipede': 'centipede',
+        'Conductor': 'conductor',
+        'Lizard': 'lizard',
         'Lantern': 'lantern',
         'Leviathan': 'leviathan',
-        'Vult': 'vulture',
+        'Fluffy': 'fluffy',
+        'Amoeba': 'amoeba',
         'Tortie': None,
         'Calico': None,
     }
@@ -62,18 +65,19 @@ class Pelt:
                       'ROBIN', 'BRINDLE', 'PAIGE', 'ROSETAIL', 'SAFI', 'SMUDGED', 'DAPPLENIGHT', 'STREAK', 'MASK',
                       'CHEST', 'ARMTAIL', 'SMOKE', 'GRUMPYFACE',
                       'BRIE', 'BELOVED', 'BODY', 'SHILOH', 'FRECKLED', 'HEARTBEAT']
+
     tortiebases = ['single', 'tabby', 'bengal', 'marbled', 'ticked', 'smoke', 'rosette', 'speckled', 'mackerel',
-                   'classic', 'sokoke', 'agouti', 'singlestripe', 'masked', 'centipede', 'collared', 'con',
-                   'gravel', 'cyanlizard', 'lizard', 'banana', 'lantern', 'slimemold', 'vulture', 'leviathan',]
+                'classic', 'sokoke', 'agouti', 'singlestripe', 'masked', 'gravel', 'collared', 'slimemold', 'cyanlizard', 'vulture', 'banana', 'centipede', 'conductor', 'lizard', 'lantern', 'leviathan', 'fluffy', 'amoeba']
     
     pelt_length = ["short", "medium", "long"]
-    eye_colours = ['YELLOW', 'AMBER', 'HAZEL', 'PALEGREEN', 'GREEN', 'BLUE', 'DARKBLUE', 'GREY', 'CYAN', 'EMERALD',
-                   'PALEBLUE',
-                   'PALEYELLOW', 'GOLD', 'HEATHERBLUE', 'COPPER', 'SAGE', 'COBALT', 'SUNLITICE', 'GREENYELLOW',
-                   'BRONZE', 'SILVER', 'RED', 'PINK', 'MAUVE']
-    yellow_eyes = ['YELLOW', 'AMBER', 'PALEYELLOW', 'GOLD', 'COPPER', 'GREENYELLOW', 'BRONZE', 'SILVER', 'RED', 'PINK']
-    blue_eyes = ['BLUE', 'DARKBLUE', 'CYAN', 'PALEBLUE', 'HEATHERBLUE', 'COBALT', 'SUNLITICE', 'GREY']
-    green_eyes = ['PALEGREEN', 'GREEN', 'EMERALD', 'SAGE', 'HAZEL', 'MAUVE']
+    eye_colours = ['YELLOW', 'AMBER', 'HAZEL', 'PALEGREEN', 'GREEN', 'BLUE', 'DARKBLUE', 'GREY', 'CYAN', 'EMERALD', 'PALEBLUE', 
+        'PALEYELLOW', 'GOLD', 'HEATHERBLUE', 'COPPER', 'SAGE', 'COBALT', 'SUNLITICE', 'GREENYELLOW', 'BRONZE', 'SILVER', 'RED', 'PURPLE', 'MAUVE',
+        'ELECTRICBLUE', 'VIOLET', 'PINK', 'SNOW', 'ORANGE', 'CREAM', 'SEAFOAM', 'CRIMSON', 'NAVY', 'VOIDGOLD', 'COOLBROWN', 'PLUM',
+        'INDIGO', 'LILAC']
+    yellow_eyes = ['YELLOW', 'AMBER', 'PALEYELLOW', 'GOLD', 'COPPER', 'GREENYELLOW', 'BRONZE', 'SILVER', 'ORANGE', 'CREAM', 'VOIDGOLD']
+    blue_eyes = ['BLUE', 'DARKBLUE', 'CYAN', 'PALEBLUE', 'HEATHERBLUE', 'COBALT', 'SUNLITICE', 'GREY', 'ELECTRICBLUE', 'SNOW', 'INDIGO']
+    green_eyes = ['PALEGREEN', 'GREEN', 'EMERALD', 'SAGE', 'HAZEL', 'SEAFOAM', 'NAVY']
+    red_eyes = ['RED', 'PURPLE', 'MAUVE', 'VIOLET', 'PINK', 'CRIMSON', 'COOLBROWN', 'PLUM', 'LILAC']
 
     # bite scars by @wood pank on discord
 
@@ -114,10 +118,10 @@ class Pelt:
         "ALBISALAFUSHIA", "ALBISALARED", "MELASALARED", "MELASALAFUSHIA", "MELASALAPURPLE"
     ]
 
-    tabbies = ["Tabby", "Ticked", "Mackerel", "Classic", "Sokoke", "Agouti", "Centi"]
-    spotted = ["Speckled", "Rosette"]
-    plain = ["SingleColour", "TwoColour", "Smoke", "Singlestripe", "Slime"]
-    exotic = ["Bengal", "Marbled", "Masked", "Collar", "Con", "Gravel", "Lantern", "Banana", "Cyanlizard", "Lizard", "Vult"]
+    tabbies = ["Tabby", "Ticked", "Mackerel", "Classic", "Sokoke", "Agouti", "Masked", "Vulture"]
+    spotted = ["Speckled", "Rosette", "Gravel", "Banana", "Conductor"]
+    plain = ["SingleColour", "TwoColour", "Smoke", "Singlestripe", "Collared", "Slimemold", "Fluffy"]
+    exotic = ["Bengal", "Marbled", "Lizard", "Cyanlizard", "Centipede", "Lantern", "Leviathan", "Amoeba"]
     torties = ["Tortie", "Calico"]
     pelt_categories = [tabbies, spotted, plain, exotic, torties]
 
@@ -135,7 +139,9 @@ class Pelt:
     eye_sprites = [
         'YELLOW', 'AMBER', 'HAZEL', 'PALEGREEN', 'GREEN', 'BLUE', 'DARKBLUE', 'BLUEYELLOW', 'BLUEGREEN',
         'GREY', 'CYAN', 'EMERALD', 'PALEBLUE', 'PALEYELLOW', 'GOLD', 'HEATHERBLUE', 'COPPER', 'SAGE', 'COBALT',
-        'SUNLITICE', 'GREENYELLOW', 'BRONZE', 'SILVER'
+        'SUNLITICE', 'GREENYELLOW', 'BRONZE', 'SILVER', 'RED', 'PURPLE', 'MAUVE',
+        'ELECTRICBLUE', 'VIOLET', 'PINK', 'SNOW', 'ORANGE', 'CREAM', 'SEAFOAM', 'CRIMSON', 'NAVY', 'VOIDGOLD', 'COOLBROWN', 'PLUM',
+        'INDIGO', 'LILAC'
     ]
     little_white = ['LITTLE', 'LIGHTTUXEDO', 'BUZZARDFANG', 'TIP', 'BLAZE', 'BIB', 'VEE', 'PAWS',
                     'BELLY', 'TAILTIP', 'TOES', 'BROKENBLAZE', 'LILTWO', 'SCOURGE', 'TOESTAIL', 'RAVENPAW', 'HONEY',
@@ -159,9 +165,14 @@ class Pelt:
     white_sprites = [
         little_white, mid_white, high_white, mostly_white, point_markings, vit, 'FULLWHITE']
 
-    skin_sprites = ['BLACK', 'PINK', 'DARKBROWN', 'BROWN', 'LIGHTBROWN', 'DARK', 'DARKGREY', 'GREY', 'DARKSALMON',
-                    'SALMON', 'PEACH', 'DARKMARBLED', 'MARBLED', 'LIGHTMARBLED', 'DARKBLUE', 'BLUE', 'LIGHTBLUE', 'RED']
-
+    skin_sprites = ['BLACK',  'PINK', 'DARKBROWN', 'BROWN', 'LIGHTBROWN', 'DARK', 'DARKGREY', 'GREY', 'DARKSALMON',
+                    'SALMON', 'PEACH', 'DARKMARBLED', 'MARBLED', 'LIGHTMARBLED', 'DARKBLUE', 'BLUE', 'LIGHTBLUE', 'RED', 'PINKGILLS', 'BLUEGILLS', 'REDGILLS', 'LIMEGILLS', 'YELLOWGILLS', 'WHITEGILLS',
+                    'RAINBOWGILLS', 'FUCHSIATONGUE', 'PASTELTONGUE', 'KOBITONGUE', 'REDTONGUE', 'GREYTONGUE',
+                    'ORANGETONGUE', 'WHITESPOTS', 'BLACKSPOTS', 'MIXSPOTS', 'RAINBOWSPOTS',
+                    'WHITETENNA', 'REDTENNA', 'PINKTENNA', 'ORANGETENNA', 'YELLOWTENNA', 'BLUETENNA',
+                    'GREENTENNA', 'WHITEGLOWSPOTS', 'REDGLOWSPOTS', 'PINKGLOWSPOTS', 'ORANGEGLOWSPOTS', 'YELLOWGLOWSPOTS',
+                    'BLUEGLOWSPOTS', 'GREENGLOWSPOTS']
+    
     """Holds all appearance information for a cat. """
 
     def __init__(self,
@@ -359,14 +370,16 @@ class Pelt:
 
         if not random.randint(0, num):
             if self.eye_colour in Pelt.yellow_eyes:
-                eye_choice = choice([Pelt.blue_eyes, Pelt.green_eyes])
+                eye_choice = choice([Pelt.blue_eyes, Pelt.green_eyes, Pelt.red_eyes])
                 self.eye_colour2 = choice(eye_choice)
             elif self.eye_colour in Pelt.blue_eyes:
-                eye_choice = choice([Pelt.yellow_eyes, Pelt.green_eyes])
+                eye_choice = choice([Pelt.yellow_eyes, Pelt.green_eyes, Pelt.red_eyes])
                 self.eye_colour2 = choice(eye_choice)
             elif self.eye_colour in Pelt.green_eyes:
-                eye_choice = choice([Pelt.yellow_eyes, Pelt.blue_eyes])
+                eye_choice = choice([Pelt.yellow_eyes, Pelt.blue_eyes, Pelt.red_eyes])
                 self.eye_colour2 = choice(eye_choice)
+            elif self.eye_colour in Pelt.red_eyes:
+                eye_choice = choice([Pelt.yellow_eyes, Pelt.green_eyes, Pelt.blue_eyes])
 
     def pattern_color_inheritance(self, parents: tuple = (), gender="female"):
         # setting parent pelt categories
