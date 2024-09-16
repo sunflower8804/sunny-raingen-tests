@@ -9,7 +9,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {},
-        "weight": 20,
+        "weight": 10,
         "intro_text": "r_c tracks the scent of a red lizard along the edge of the Clan's territory.",
         "decline_text": "r_c decides not to pursue such a dangerous creature, especially seeing as it hasn't crossed the border.",
         "chance_of_success": 20,
@@ -46,7 +46,7 @@
 			{
                 "text": "s_c spots the huge red lizard first, and pauses in {PRONOUN/s_c/poss} fright. However, instead of brandishing a spear, they use kindness as their weapon... And it somehow works! s_c now has a story to tell about {PRONOUN/s_c/poss} new friend!",
                 "exp": 40,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_red",
                 "stat_trait": [
                     "compassionate",
@@ -181,7 +181,7 @@
         "min_cats": 2,
         "max_cats": 3,
         "min_max_status": {},
-        "weight": 20,
+        "weight": 10,
         "intro_text": "The patrol tracks the scent of a large red lizard along the edge of the Clan's territory.",
         "decline_text": "The patrol decides not to pursue such a dangerous creature, especially seeing as it hasn't crossed the border.",
         "chance_of_success": 30,
@@ -256,7 +256,7 @@
 			{
                 "text": "s_c spots the huge red lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The red lizard follows s_c home, happily sticking close to their new friend.",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_red",
                 "stat_trait": [
                     "compassionate",
@@ -414,7 +414,7 @@
         "min_cats": 4,
         "max_cats": 6,
         "min_max_status": {},
-        "weight": 20,
+        "weight": 10,
         "intro_text": "The patrol stumbles across a red lizard wandering through the middle of the Clan's territory.",
         "decline_text": "The patrol decides not to pursue such a dangerous creature. c_n will just have to hope it doesn't come any nearer to camp.",
         "chance_of_success": 10,
@@ -489,7 +489,7 @@
 			{
                 "text": "s_c spots the huge red lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The red lizard follows s_c home, happily sticking close to their new friend.",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_red",
                 "stat_trait": [
                     "compassionate",
@@ -647,7 +647,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {},
-        "weight": 20,
+        "weight": 10,
         "intro_text": "r_c tracks the scent of a cyan lizard along the edge of the Clan's territory.",
         "decline_text": "r_c decides not to pursue such a dangerous creature, especially seeing as it hasn't crossed the border.",
         "chance_of_success": 20,
@@ -706,7 +706,7 @@
 			{
                 "text": "s_c spots the nimble cyan lizard first, and pauses in {PRONOUN/s_c/poss} fright. However, instead of brandishing a spear, they use kindness as their weapon... And it somehow works! s_c now has a story to tell about {PRONOUN/s_c/poss} new friend!",
                 "exp": 40,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_cyan",
                 "stat_trait": [
                     "compassionate",
@@ -819,7 +819,7 @@
         "min_cats": 2,
         "max_cats": 3,
         "min_max_status": {},
-        "weight": 20,
+        "weight": 10,
         "intro_text": "The patrol tracks the scent of a cyan lizard along the edge of the Clan's territory.",
         "decline_text": "The patrol decides not to pursue such a dangerous creature, especially seeing as it hasn't crossed the border.",
         "chance_of_success": 30,
@@ -894,7 +894,7 @@
 			{
                 "text": "s_c spots the nimble cyan lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The cyan lizard follows s_c home, happily sticking close to their new friend.",
                 "exp": 40,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_cyan",
                 "stat_trait": [
                     "compassionate",
@@ -1026,8 +1026,8 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "This cat is scarred from bravely defending the Clan against a cyan lizard.",
-                    "reg_death": "This cat died to keep the Clan safe from a cyan lizard.",
+                    "scar": "This scug is scarred from bravely defending the Clan against a cyan lizard.",
+                    "reg_death": "This scug died to keep the Clan safe from a cyan lizard.",
                     "lead_death": "died to keep c_n safe from a cyan lizard"
                 },
                 "relationships": [
@@ -1052,7 +1052,7 @@
         "min_cats": 4,
         "max_cats": 6,
         "min_max_status": {},
-        "weight": 20,
+        "weight": 10,
         "intro_text": "The patrol stumbles across a cyan lizard wandering through the middle of the Clan's territory.",
         "decline_text": "The patrol decides not to pursue such a dangerous creature. c_n will just have to hope it doesn't come any nearer to camp.",
         "chance_of_success": 10,
@@ -1127,7 +1127,7 @@
 			{
                 "text": "s_c spots the nimble cyan lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The cyan lizard follows s_c home, happily sticking close to their new friend.",
                 "exp": 40,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_cyan",
                 "stat_trait": [
                     "compassionate",
@@ -1285,7 +1285,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {},
-        "weight": 20,
+        "weight": 10,
         "intro_text": "r_c tracks the scent of a yellow lizard pack along the edge of the Clan's territory.",
         "decline_text": "r_c decides not to pursue such a dangerous group, especially seeing as it hasn't crossed the border.",
         "chance_of_success": 20,
@@ -1343,8 +1343,8 @@
 			{
                 "text": "s_c spots the pack of yellow lizards first. One of the beasts, lingering further away from the pack, is approached with kindness... After a little persuation, it follows s_c home, leaving it's pack behind.",
                 "exp": 40,
-                "weight": 10,
-				"art": "gen_liztame_yellow",
+                "weight": 1,
+	        "art": "gen_liztame_yellow",
                 "stat_trait": [
                     "compassionate",
                     "confident",
@@ -1552,7 +1552,7 @@
 			{
                 "text": "s_c spots the pack of yellow lizards first. One of the beasts, lingering further away from the pack, is approached with kindness... After a little persuation, it follows s_c home, leaving it's pack behind.",
                 "exp": 40,
-                "weight": 10,
+                "weight": 1,
 				"art": "gen_liztame_yellow",
                 "stat_trait": [
                     "compassionate",
@@ -1583,7 +1583,7 @@
 			{
                 "text": "s_c spots the pack of yellow lizards first, and stops the rest of the patrol. Carefully, prey is offered to the pack... The gift is accepted! Soon, the lizards choose their favorite scugs and follow them home.",
                 "exp": 40,
-                "weight": 10,
+                "weight": 1,
 				"art": "gen_liztame_yellow",
                 "stat_trait": [
                     "compassionate",
@@ -1741,7 +1741,7 @@
         "min_cats": 4,
         "max_cats": 6,
         "min_max_status": {},
-        "weight": 20,
+        "weight": 10,
         "intro_text": "The patrol stumbles across a cyan lizard wandering through the middle of the Clan's territory.",
         "decline_text": "The patrol decides not to pursue such a dangerous creature. c_n will just have to hope it doesn't come any nearer to camp.",
         "chance_of_success": 10,
@@ -1837,7 +1837,7 @@
 			{
                 "text": "s_c spots the pack of yellow lizards first. One of the beasts, lingering further away from the pack, is approached with kindness... After a little persuation, it follows s_c home, leaving it's pack behind.",
                 "exp": 40,
-                "weight": 10,
+                "weight": 1,
 				"art": "gen_liztame_yellow",
                 "stat_trait": [
                     "compassionate",
@@ -1868,7 +1868,7 @@
 			{
                 "text": "s_c spots the pack of yellow lizards first, and stops the rest of the patrol. Carefully, prey is offered to the pack... The gift is accepted! Soon, the lizards choose their favorite scugs and follow them home.",
                 "exp": 40,
-                "weight": 10,
+                "weight": 1,
 				"art": "gen_liztame_yellow",
                 "stat_trait": [
                     "compassionate",
@@ -2059,7 +2059,7 @@
 			{
                 "text": "s_c spots the pink lizard first, and pauses. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The pink lizard follows s_c home, happily sticking close to their new friend.",
                 "exp": 40,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_pink",
                 "stat_trait": [
                     "compassionate",
@@ -2206,7 +2206,7 @@
 			{
                 "text": "s_c spots the pink lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The pink lizard follows s_c home, happily sticking close to their new friend.",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_pink",
                 "stat_trait": [
                     "compassionate",
@@ -2340,7 +2340,7 @@
 			{
                 "text": "s_c spots the pink lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The pink lizard follows s_c home, happily sticking close to their new friend.",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_pink",
                 "stat_trait": [
                     "compassionate",
@@ -2456,7 +2456,7 @@
 			{
                 "text": "s_c spots the blue lizard first, and pauses. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The blue lizard nuzzles up to s_c with a happy rumble.",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_blue",
                 "stat_trait": [
                     "compassionate",
@@ -2603,7 +2603,7 @@
 			{
                 "text": "s_c spots the blue lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The blue lizard nuzzles up to s_c with a happy rumble.",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_blue",
                 "stat_trait": [
                     "compassionate",
@@ -2737,7 +2737,7 @@
 			{
                 "text": "s_c spots the blue lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The blue lizard nuzzles up to s_c with a happy rumble.",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_blue",
                 "stat_trait": [
                     "compassionate",
@@ -2853,7 +2853,7 @@
 			{
                 "text": "s_c spots the green lizard first, pausing. Instead of brandishing a spear, {PRONOUN/r_c/poss} uses kindness as their weapon... And it somehow works! The green lizard's belly tracks follow the patrol's home.",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_green",
                 "stat_trait": [
                     "compassionate",
@@ -3000,7 +3000,7 @@
 			{
                 "text": "s_c spots the green lizard first, and stops the rest of the patrol. Instead of brandishing a spear, {PRONOUN/r_c/poss} uses kindness as their weapon... And it somehow works! The green lizard's belly tracks follow the patrol's home.",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_green",
                 "stat_trait": [
                     "compassionate",
@@ -3145,7 +3145,7 @@
 			{
                 "text": "s_c spots the green lizard first, and stops the rest of the patrol. Instead of brandishing a spear, {PRONOUN/r_c/poss} uses kindness as their weapon... And it somehow works! The green lizard's belly tracks follow the patrol's home.",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_green",
                 "stat_trait": [
                     "compassionate",
@@ -3272,7 +3272,7 @@
 			{
                 "text": "s_c barely spots the white lizard through it's camoflague! {PRONOUN/p_l/poss} slowly approaches the lizard. It takes some time, but the lizard took a liking to s_c !",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_white",
                 "stat_trait": [
                     "compassionate",
@@ -3419,7 +3419,7 @@
 			{
                 "text": "s_c barely spots the white lizard through it's camoflague! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the lizard. It takes some time, but the lizard took a liking to s_c !",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_white",
                 "stat_trait": [
                     "compassionate",
@@ -3535,7 +3535,7 @@
             {
                 "text": "Mobbed by slugcats and near-blind with the blood in its eyes, the lizard flees from c_n, crying pitifully.",
                 "exp": 10,
-                "weight": 5,
+                "weight": 1,
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3691,7 +3691,7 @@
 			{
                 "text": "s_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} slowly approaches the salamnder. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_melasala",
                 "stat_trait": [
                     "compassionate",
@@ -3722,8 +3722,8 @@
 			{
                 "text": "s_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} slowly approaches the salamnder. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 5,
-				"art": "gen_liztame_melasala",
+                "weight": 1,
+		"art": "gen_liztame_melasala",
                 "stat_trait": [
                     "compassionate",
                     "confident",
@@ -3753,7 +3753,7 @@
 			{
                 "text": "s_c barely spots the salamander in the water! {PRONOUN/p_l/poss} slowly approaches the albino salamander. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_albisala",
                 "stat_trait": [
                     "compassionate",
@@ -3921,7 +3921,7 @@
 			{
                 "text": "s_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamander. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_melasala",
                 "stat_trait": [
                     "compassionate",
@@ -3952,7 +3952,7 @@
 			{
                 "text": "s_c barely spots the albino salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamander. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_albisala",
                 "stat_trait": [
                     "compassionate",
@@ -4120,7 +4120,7 @@
 			{
                 "text": "s_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamander. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_melasala",
                 "stat_trait": [
                     "compassionate",
@@ -4151,7 +4151,7 @@
 			{
                 "text": "s_c barely spots the albino salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamander. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_albisala",
                 "stat_trait": [
                     "compassionate",
@@ -4301,7 +4301,7 @@
 			{
                 "text": "s_c barely spots the blind lizard in the gloom! {PRONOUN/p_l/poss} finds something to feed the creature, earning it's trust. This lizard sticks close to their new friend.",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_blind",
                 "stat_trait": [
                     "compassionate",
@@ -4448,7 +4448,7 @@
 			{
                 "text": "s_c barely spots the blind lizard in the gloom! {PRONOUN/p_l/poss} stops the patrol, finding something to feed the creature and earning it's trust. This lizard sticks close to their new friend.",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_blind",
                 "stat_trait": [
                     "compassionate",
@@ -4595,7 +4595,7 @@
 			{
                 "text": "s_c barely spots the blind lizard in the gloom! {PRONOUN/p_l/poss} stops the patrol, finding something to feed the creature and earning it's trust. This lizard sticks close to their new friend.",
                 "exp": 30,
-                "weight": 5,
+                "weight": 1,
 				"art": "gen_liztame_blind",
                 "stat_trait": [
                     "compassionate",
