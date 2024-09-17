@@ -350,12 +350,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c finds a wounded cat near the Thunderpath.",
-        "decline_text": "They leave the wounded cat alone.",
+        "intro_text": "r_c finds a wounded slugcat near a scavenger toll.",
+        "decline_text": "They leave the wounded slugcat alone.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The patrol approaches the injured cat and sees signs of life. They gingerly pick up the cat and take them back to camp to be treated by the medicine cat. The cat is grateful for their help and decides to join the Clan.",
+                "text": "The patrol approaches the injured scug and sees signs of life. They gingerly pick up the scug and take them back to camp to be treated by the cleric. The slugcat is grateful for their help and decides to join the Clan.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -381,13 +381,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "As r_c inspects the cat, {PRONOUN/r_c/subject} {VERB/r_c/find/finds} that they are already hunting with their ancestors.",
+                "text": "As r_c inspects the slugcat, {PRONOUN/r_c/subject} {VERB/r_c/find/finds} that they are already hunting with their ancestors.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
             },
             {
-                "text": "The cats attempt to carry the cat back to camp, but the cat passes on the way. They stop to bury the cat before continuing home.",
+                "text": "The patrol attempts to carry the slugcat back to camp, but the slugcat passes on the way. They stop to bury the scug before continuing home.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -395,7 +395,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The patrol tries to drive the cat away, but they trip and stumble over a loose twig. They lay on the ground and don't get back up. The patrol takes a bit of time to bury them - just to keep the scavengers away.",
+                "text": "The patrol tries to drive the scug away, but they trip and stumble over a loose twig. They lay on the ground and don't get back up. The patrol takes a bit of time to bury them - just to keep the predators away.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -421,12 +421,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "p_l finds a wounded cat near the Thunderpath.",
-        "decline_text": "p_l leaves the wounded cat alone.",
+        "intro_text": "p_l finds a wounded slugcat near a scavenger toll.",
+        "decline_text": "p_l leaves the wounded slugcat alone.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "p_l approaches the injured cat and sees signs of life. {PRONOUN/p_l/subject/CAP} gingerly {VERB/p_l/pick/picks} up the cat and {VERB/p_l/take/takes} them back to camp to be treated by the medicine cat. The cat is grateful for their help and decides to join the Clan.",
+                "text": "p_l approaches the injured slugcat and sees signs of life. {PRONOUN/p_l/subject/CAP} gingerly {VERB/p_l/pick/picks} up the scug and {VERB/p_l/take/takes} them back to camp to be treated by the cleric. The cat is grateful for their help and decides to join the Clan.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -452,13 +452,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "As p_l inspects the cat, {PRONOUN/p_l/subject} {VERB/p_l/find/finds} that they are already hunting with their ancestors.",
+                "text": "As p_l inspects the slugcat, {PRONOUN/p_l/subject} {VERB/p_l/find/finds} that they are already hunting with their ancestors.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
             },
             {
-                "text": "p_l attempts to carry the cat back to camp, but the cat passes on the way. {PRONOUN/p_l/subject/CAP} {VERB/p_l/stop/stops} to bury the cat before continuing home.",
+                "text": "p_l attempts to carry the slugcat back to camp, but the scug passes on the way. {PRONOUN/p_l/subject/CAP} {VERB/p_l/stop/stops} to bury the slugcat before continuing home.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -466,7 +466,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l tries to drive the cat away, but they trip and stumble over a loose twig. They lay on the ground and don't get back up. p_l takes a bit of time to bury them - just to keep the scavengers away.",
+                "text": "p_l tries to drive the cat away, but they trip and stumble over a loose twig. They lay on the ground and don't get back up. p_l takes a bit of time to bury them - just to keep the predators away.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -499,7 +499,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old kittypet, wheezing {PRONOUN/n_c:0/poss} Twoleg's name. p_l doesn't care if this kittypet wants {PRONOUN/n_c:0/poss} Twoleg - {PRONOUN/n_c:0/subject} {VERB/n_c:0/smell/smells} sick, and needs medicine cat attention.",
+                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old kittypet, wheezing {PRONOUN/n_c:0/poss} iterator's name. p_l doesn't care if this kittypet wants {PRONOUN/n_c:0/poss} iterator - {PRONOUN/n_c:0/subject} {VERB/n_c:0/smell/smells} sick, and needs medicine cat attention.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -523,7 +523,7 @@
                 ]
             },
             {
-                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old kittypet, wheezing {PRONOUN/n_c:0/poss} Twoleg's name. s_c steps up, and tells the patrol they'll be taking this kittypet back to camp for healing. In Tigger's name. {PRONOUN/s_c/subject/CAP}'ll tell the story later.",
+                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old kittypet, wheezing {PRONOUN/n_c:0/poss} iterator's name. s_c steps up, and tells the patrol they'll be taking this kittypet back to camp for healing. In Tigger's name. {PRONOUN/s_c/subject/CAP}'ll tell the story later.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["LORE,1", "STORY,1"],
@@ -599,7 +599,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old kittypet, wheezing {PRONOUN/n_c:0/poss} Twoleg's name. They try to drive the kittypet off - but {PRONOUN/n_c:0/poss} too weak, and the warriors too practiced at unnecessarily strong battle moves.",
+                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old kittypet, wheezing {PRONOUN/n_c:0/poss} iterator's name. They try to drive the kittypet off - but {PRONOUN/n_c:0/poss} too weak, and the warriors too practiced at unnecessarily strong battle moves.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -4,
@@ -610,7 +610,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old kittypet, wheezing {PRONOUN/n_c:0/poss} Twoleg's name. They drive the struggling kittypet off c_n territory, protecting the Clan from a source of sickness - no matter the cost.",
+                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old kittypet, wheezing {PRONOUN/n_c:0/poss} iterator's name. They drive the struggling kittypet off c_n territory, protecting the Clan from a source of sickness - no matter the cost.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2,
@@ -980,7 +980,7 @@
         "season": ["any"],
         "types": ["border"],
         "tags": ["new_cat"],
-        "patrol_art": "bord_general_intro",
+        "patrol_art": "gen_med_newmed",
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {},
@@ -1071,7 +1071,7 @@
         "season": ["any"],
         "types": ["border"],
         "tags": ["new_cat"],
-        "patrol_art": "bord_general_intro",
+        "patrol_art": "gen_med_newmed",
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {},
@@ -1625,7 +1625,7 @@
         "season": ["any"],
         "types": ["herb_gathering"],
         "tags": ["new_cat"],
-        "patrol_art": "med_general_intro",
+        "patrol_art": "gen_med_rescue",
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
@@ -1714,7 +1714,7 @@
         "season": ["any"],
         "types": ["herb_gathering"],
         "tags": ["new_cat"],
-        "patrol_art": "med_general_intro",
+        "patrol_art": "gen_med_rescue",
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
