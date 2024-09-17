@@ -143,7 +143,7 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "As the patrol travels the territory, they come upon a strange metal forest that the scavengers have built.  Smooth, white tree trunks rise up into the sky, completely bare apart from the very top, where three massive branches grow outwards and spin in slow circles. A low hum permeates the air.",
+        "intro_text": "As the patrol travels the territory, they come upon a strange metal forest that the ancients have built.  Smooth, white tree trunks rise up into the sky, completely bare apart from the very top, where three massive branches grow outwards and spin in slow circles. A low hum permeates the air.",
         "decline_text": "The patrol decides to hunt elsewhere",
         "chance_of_success": 50,
         "success_outcomes": [
@@ -154,7 +154,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "This place is unnerving and the patrol hunts carefully and cautiously, keeping an eye out for scavengers all the while.",
+                "text": "This place is unnerving and the patrol hunts carefully and cautiously, keeping an eye out for vultures all the while.",
                 "exp": 10,
                 "weight": 5,
                 "prey": ["medium"]
@@ -168,7 +168,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "The patrol considers their options. s_c is adamant that they find somewhere else to hunt. It's not safe here and the threat of scavengers is too high. They decide to move on but struggle to find any prey during the rest of the patrol.",
+                "text": "The patrol considers their options. s_c is adamant that they find somewhere else to hunt. It's not safe here and the threat of vultures is too high. They decide to move on but struggle to find any prey during the rest of the patrol.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["strict", "careful", "nervous", "insecure"],
@@ -184,7 +184,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "The patrol is frustrated by this seemingly permanent proof of scavenger on their territory and takes the time to thoroughly and aggressively mark the area. There. That will show the scavenger whose land this is.",
+                "text": "The patrol is frustrated by this seemingly permanent ancient machinery on their territory and takes the time to thoroughly and aggressively mark the area. There. That will show the ancients whose land this is now.",
                 "exp": 10,
                 "weight": 20
             }
