@@ -4694,12 +4694,12 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The patrol hears a slugcat begging for their seekers to come back, just barely intelligible over the sound of a miros bird speeding away.",
+        "intro_text": "The patrol hears a slugcat wailing their Iterator's name, just barely intelligible over the loud clanking of scissor birds.",
         "decline_text": "p_l decides it's none of {PRONOUN/p_l/poss} business and resumes {PRONOUN/p_l/poss} patrol.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "p_l finds a pet collapsed by the Thunderpath, wailing for {PRONOUN/n_c:0/poss} scavenger. p_l comforts {PRONOUN/n_c:0/object}, asking why {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} left here. The only explanation {PRONOUN/n_c:0/subject} {VERB/n_c:0/have/has} is that {PRONOUN/n_c:0/subject}{VERB/n_c:0/'re/'s} sick... Perhaps {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} too much of a burden? p_l offers {PRONOUN/n_c:0/object} a place in c_n, at least until {PRONOUN/n_c:0/subject} recover. {PRONOUN/n_c:0/subject/CAP} tentatively {VERB/n_c:0/accept/accepts}, looking longingly at the Thunderpath as {PRONOUN/n_c:0/subject}{VERB/n_c:0/'re/'s} led away.",
+                "text": "p_l finds a pet collapsed by the Thunderpath, wailing for {PRONOUN/n_c:0/poss} Iterator. p_l comforts {PRONOUN/n_c:0/object}, asking why {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} left here. The only explanation {PRONOUN/n_c:0/subject} {VERB/n_c:0/have/has} is that {PRONOUN/n_c:0/subject}{VERB/n_c:0/'re/'s} sick... Perhaps {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} too much of a burden? p_l offers {PRONOUN/n_c:0/object} a place in c_n, at least until {PRONOUN/n_c:0/subject} recover. {PRONOUN/n_c:0/subject/CAP} tentatively {VERB/n_c:0/accept/accepts}, looking longingly at the Thunderpath as {PRONOUN/n_c:0/subject}{VERB/n_c:0/'re/'s} led away.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -4732,7 +4732,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/discover/discovers} the cooling body of a pet; it seems they attempted to run after their scavenger, but were run over by another Miros Bird. p_l silently sends a prayer for the pet and can't help cursing the scavenger who abandoned such a loyal slugcat.",
+                "text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/discover/discovers} the cooling body of a pet; it seems they attempted to run back to their iterator, but were caught in the jaws of a scissor bird. p_l silently sends a prayer for the pet and can't help cursing the iterator who abandoned such a loyal slugcat.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,
