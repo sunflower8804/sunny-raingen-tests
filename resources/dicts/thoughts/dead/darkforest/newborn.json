@@ -3,7 +3,7 @@
         "id": "gen_dead_newborn",
         "thoughts": [
             "Mewls pitifully for milk",
-            "Wobbles around the Dark Forest",
+            "Wobbles around the Rotwound",
             "Is crying for milk to no avail",
             "Attempts to snarl but can only manage a tiny mewl",
             "Is crying for {PRONOUN/m_c/poss} parents, but no one comforts {PRONOUN/m_c/object}",
@@ -11,7 +11,7 @@
             "Wishes to feel warmth at least once",
             "Hears menacing whispers around {PRONOUN/m_c/object}",
             "Is clouded in confusion and fear",
-            "Feels trapped in the sticky mud",
+            "Feels trapped in the grabbing rot",
             "Is feeling incredibly lonely"
         ]
     },

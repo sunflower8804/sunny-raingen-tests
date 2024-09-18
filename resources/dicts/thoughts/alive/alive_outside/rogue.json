@@ -37,9 +37,9 @@
     {
         "id": "shameless_rogue",
         "thoughts": [
-            "Is eating kittypet kibble",
-            "Stole some random kittypet's food",
-            "Is eating dog food {PRONOUN/m_c/subject} found",
+            "Is eating pet kibble",
+            "Stole some random pet's food",
+            "Is eating noodlefly food {PRONOUN/m_c/subject} found",
             "Is putting {PRONOUN/m_c/poss} own scent on c_n's clearly marked borders"
         ],
         "main_trait_constraint": [
@@ -99,17 +99,17 @@
         "id": "general_rogue_thoughts",
         "thoughts": [
             "Wishes the other rogues would leave {PRONOUN/m_c/object} alone",
-            "Snarls at any cat that comes near",
+            "Snarls at any scug that comes near",
             "Wanders off on {PRONOUN/m_c/poss} own",
             "Has been going missing quite a lot lately",
             "Sniffs for {PRONOUN/m_c/poss} next meal",
             "Wonders if {PRONOUN/m_c/subject} can find a warm place to sleep tonight",
-            "Was chased by a fox recently",
+            "Was chased by a lizard recently",
             "Wishes {PRONOUN/m_c/subject} {VERB/m_c/were/was} in a warm nest",
-            "Wonders what it's like to live with Twolegs",
+            "Wonders what it's like to live with Iterators",
             "Is struggling to survive on {PRONOUN/m_c/poss} own",
             "Is fighting with another rogue over food",
-            "Laughed at the thought of dead cats 'watching over' c_n",
+            "Laughed at the thought of dead slugcats 'watching over' c_n",
             "Debates if {PRONOUN/m_c/poss} previous Clan was fair casting {PRONOUN/m_c/object} out",
             "Debates if {PRONOUN/m_c/subject} should join c_n"
         ]
@@ -117,7 +117,7 @@
     {
         "id": "kitten_rogue_thoughts",
         "thoughts": [
-            "Is currently trying to figure out how to catch a bird"
+            "Is currently trying to figure out how to catch a batfly"
         ],
         "main_age_constraint": [
             "kitten"
@@ -126,7 +126,7 @@
     {
         "id": "adolescent_rogue_thoughts",
         "thoughts": [
-            "Is setting up a pile of thorns to catch a cat off guard",
+            "Is setting up a pile of thorns to catch a slugcat off guard",
             "Wishes {PRONOUN/m_c/subject} still had {PRONOUN/m_c/poss} family around",
             "Has been teaching {PRONOUN/m_c/self} how to hunt",
             "Misses {PRONOUN/m_c/poss} friends",
@@ -147,7 +147,8 @@
             "Licks at an old, aching scar in an attempt to soothe it",
             "Was almost found by a c_n patrol",
             "Is lurking in c_n territory",
-            "Scents for prey"
+            "Scents for prey",
+			"Watches a suspicious pole very closely"
         ],
         "main_age_constraint": [
             "young adult",
@@ -158,7 +159,7 @@
     {
         "id": "senior_rogue_thoughts",
         "thoughts": [
-            "Thinks about finding some Twolegs to help {PRONOUN/m_c/object} in {PRONOUN/m_c/poss} old age",
+            "Thinks about finding some Iterators to help {PRONOUN/m_c/object} in {PRONOUN/m_c/poss} old age",
             "Thinks {PRONOUN/m_c/poss} joints are aching too much to hunt today",
             "Wonders if {PRONOUN/m_c/subject} can carry on"
         ],

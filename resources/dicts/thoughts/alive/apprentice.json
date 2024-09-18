@@ -1,24 +1,36 @@
 [
     {
-      "id": "warrior_apprentice_gen",
-        "thoughts":[
+        "id": "gen_warrior_app",
+        "thoughts": [
             "Feels worn out from training",
             "Wonders if {PRONOUN/m_c/subject}'ll be allowed to go night-hunting soon",
             "Is resting in the sun after a long day of training",
             "Wonders if {PRONOUN/m_c/subject}'ll have to fight a battle anytime soon",
-            "Bats at a beetle that wandered into camp",
+            "Bats at a bug that wandered into camp",
             "Is saving the softest bedding for {PRONOUN/m_c/poss} own nest",
             "Practices {PRONOUN/m_c/poss} newest battle moves",
             "Hopes {PRONOUN/m_c/subject}'ll learn something new today",
             "Is feeling proud of the progress {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} made",
             "Practices {PRONOUN/m_c/poss} hunting on a smooth rock {PRONOUN/m_c/subject} found",
             "Feels disappointed after a missed catch",
-            "Hopes there's a juicy mouse left on the fresh-kill pile for {PRONOUN/m_c/object}",
+            "Hopes there's a juicy batfly left on the fresh-kill pile for {PRONOUN/m_c/object}",
             "Tries to recite the Warrior Code from memory",
             "Feels nervous about an upcoming assessment",
             "Practices {PRONOUN/m_c/poss} highest jump",
             "Practices {PRONOUN/m_c/poss} farthest leap",
             "Feels proud of {PRONOUN/m_c/self} for doing so well in training today",
+            "Is gossiping",
+            "Is acting angsty",
+            "Is dreading {PRONOUN/m_c/poss} apprentice duties",
+            "Fell into the nearby creek yesterday and is still feeling damp",
+            "Is having a hard time keeping up with {PRONOUN/m_c/poss} training",
+            "Was tasked with lining nests with fresh moss today",
+            "Is dreaming of someday making {PRONOUN/m_c/poss} Clan proud",
+            "Is thinking about the time {PRONOUN/m_c/subject} caught a huge squidcada",
+            "Practices some battle moves",
+            "Is helping to reinforce the camp wall with brambles",
+            "Is daydreaming about having a mate and slugpups someday",
+            "Had quite the adventure today",
             "Is thinking about how cool it will be when {PRONOUN/m_c/subject} {VERB/m_c/are/is} a warrior",
             "Wants to become a fierce warrior someday",
             "Wants to learn as many fighting techniques as {PRONOUN/m_c/subject} can",
@@ -38,7 +50,7 @@
         ]
     },
     {
-      "id": "warrior_apprentice_to_alive_deputy",
+        "id": "apprentice_alive_deputy",
         "thoughts": [
             "Wants r_c to assign {PRONOUN/m_c/object} to the next patrol",
             "Is watching and learning from r_c",
@@ -53,7 +65,7 @@
         ]
     },
     {
-      "id": "warrior_apprentice_to_alive_warrior",
+        "id": "apprentice_alive_warrior",
         "thoughts": [
             "Is watching and learning from r_c",
             "Is asking r_c questions about warrior life",
@@ -72,7 +84,7 @@
         ]
     },
     {
-      "id": "warrior_apprentice_to_alive_mentor",
+        "id": "apprentice_alive_mentor",
         "thoughts": [
             "Is trying to perfect the latest move that r_c taught {PRONOUN/m_c/object}",
             "Is asking r_c questions",
@@ -82,14 +94,16 @@
             "Hopes to be just like r_c as a warrior",
             "Admires r_c's knowledge and skills",
             "Wants to learn everything that r_c knows",
-            "Wants to make r_c proud today"
+            "Wants to make r_c proud today",
+            "Is bouncing behind {PRONOUN/m_c/poss} mentor as r_c teaches {PRONOUN/m_c/object} about maintaining borders",
+            "Asking r_c about {PRONOUN/r_c/poss} apprentice days"
         ],
         "relationship_constraint": [
             "app/mentor"
         ]
     },
     {
-      "id": "warrior_apprentice_to_alive_apprentice",
+        "id": "apprentice_alive_apprentice",
         "thoughts": [
             "Is learning how to hunt with r_c",
             "Teases r_c for missing an easy catch",
@@ -108,20 +122,25 @@
             "Swaps new techniques with r_c",
             "Asks r_c to quiz {PRONOUN/m_c/object} on types of hunting techniques",
             "Asks r_c to quiz {PRONOUN/m_c/object} on types of battle moves",
-            "Asks r_c to train with {PRONOUN/m_c/object} soon"
+            "Asks r_c to train with {PRONOUN/m_c/object} soon",
+            "Is showing r_c a crazy, new trick {PRONOUN/m_c/subject} created for future battles",
+            "Is chatting with r_c while on patrol together",
+            "Is showing r_c a new fighting move {PRONOUN/m_c/subject} learned from {PRONOUN/m_c/poss} mentor",
+            "Is teasing r_c for oversleeping and missing out on today's training",
+            "Is debating with r_c on who should take the blame for a backfired prank"
         ],
         "random_status_constraint": [
             "apprentice"
         ]
     },
     {
-      "id": "warrior_apprentice_to_alive_elder",
+        "id": "apprentice_alive_elder",
         "thoughts":[
             "Is dreading having to clean the elders' den later",
-            "Is picking ticks off of r_c",
+            "Is picking bees off of r_c",
             "Listens to a story from r_c",
             "Is making sure the elders are comfortable",
-            "Is asking r_c how things have changed since {PRONOUN/m_c/subject} {VERB/m_c/were/was} a 'paw'",
+            "Is asking r_c how things have changed since {PRONOUN/m_c/subject} {VERB/m_c/were/was} an apprentice",
             "Appreciates r_c's words of wisdom",
             "Doesn't mind taking care of the elders",
             "Is cleaning out the elder's den today",
@@ -129,7 +148,7 @@
             "Asks r_c what it's like to be an elder",
             "Is doing {PRONOUN/m_c/poss} best to keep r_c happy",
             "Is bringing r_c a nice piece of prey",
-            "Is complaining about picking ticks out of the elders' pelts"
+            "Is complaining about picking bees out of the elders' pelts"
         ],
         "random_status_constraint":[
             "elder"
@@ -139,14 +158,14 @@
         ]
     },
     {
-      "id": "warrior_apprentice_to_alive_kits",
+        "id": "apprentice_alive_kits",
         "thoughts":[
-            "Leaves fresh-kill outside the nursery for the kits",
+            "Leaves fresh-kill outside the nursery for the slugpups",
             "Is showing r_c the proper way to do a hunter's crouch",
             "Tries not to giggle as r_c fails at a hunting crouch",
             "Looks at r_c and wonders if {PRONOUN/m_c/subject} {VERB/m_c/were/was} ever that small",
-            "Brought back some feathers for the kits to play with",
-            "Is showing off {PRONOUN/m_c/poss} new battle moves to the kits",
+            "Brought back some feathers for the slugpups to play with",
+            "Is showing off {PRONOUN/m_c/poss} new battle moves to the slugpups",
             "Wonders if r_c can be {PRONOUN/m_c/poss} apprentice someday",
             "Wants to be a warrior before r_c is an apprentice",
             "Hopes r_c will be an apprentice with {PRONOUN/m_c/object}",
@@ -159,7 +178,7 @@
         ]
     },
     {
-      "id": "warrior_apprentice_to_dead_warrior",
+        "id": "apprentice_dead_warrior",
         "thoughts": [
             "Wishes {PRONOUN/m_c/subject} could learn from r_c",
             "Wants to be a great warrior, just like r_c"
@@ -172,9 +191,36 @@
         ]
     },
     {
-      "id": "formerly_rogue_warrior_apprentice",
+        "id": "apprentice_dead_dark_forest_warrior",
         "thoughts": [
-            "Got scolded for eating what {PRONOUN/m_c/subject} caught",
+            "Even though {PRONOUN/m_c/subject} {VERB/m_c/have/has} heard the stories about {PRONOUN/r_c/object}, {PRONOUN/m_c/subject} wonders if r_c is truly as evil as everyone claims",
+            "Thought {PRONOUN/m_c/subject} saw r_c in {PRONOUN/m_c/poss} dreams last night",
+            "Debating if {PRONOUN/m_c/subject} should train secretly with r_c"
+        ],
+        "random_status_constraint": [
+            "warrior"
+        ],
+        "random_living_status": [
+            "darkforest"
+        ]   
+    },
+    {
+        "id": "dark_apprentice",
+        "thoughts": [
+            "Jolted awake with a scream from a dream filled with disturbing images and spitting whispers",
+            "Found {PRONOUN/m_c/self} among an eerie, misty landscape before waking up in a panic",
+            "Is debating with {PRONOUN/m_c/self} about training in the Rotwound instead of with {PRONOUN/m_c/poss} mentor",
+            "Prefers the company of the cold and sinister Rotwound than {PRONOUN/m_c/poss} Clanmates",
+            "Feels as if {PRONOUN/m_c/subject} {VERB/m_c/is/are} growing far powerful in the Rotwound than with {PRONOUN/m_c/poss} mentor"
+        ],
+        "main_skill_constraint": [
+            "DARK,1"
+        ]    
+    },
+    {
+        "id": "formerly_a_rogue_warrior_apprentice",
+        "thoughts": [
+            "Got scolded for eating what {PRONOUN/m_c/subject} caught on a hunting patrol",
             "Has some trouble adjusting",
             "Forgets the Warrior Code sometimes",
             "Wants to prove to the Clan that {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} going to be a good warrior",
@@ -201,14 +247,19 @@
         ]
     },
     {
-        "id": "calm_warrior_apprentice",
+        "id": "patient_warrior_apprentice",
         "thoughts": [
-            "Likes to catch prey",
+            "Is busy mastering a fighting technique",
+            "Spent all morning mastering and practicing the hunting crouch",
+            "Wants to train until {PRONOUN/m_c/subject} {VERB/m_c/have/has} learned everything",
+            "Doesn't stop practicing a move until it's done perfectly",
+            "Likes to catch jetfish",
             "Is taking extra time to finish {PRONOUN/m_c/poss} task for today",
+            "Is settling for nothing less than perfect",
             "Is calm and focused"
         ],
         "main_trait_constraint": [
-            "calm"
+            "patient"
         ]
     },
     {
@@ -227,7 +278,12 @@
             "Is worrying about something",
             "Says sorry more often than {PRONOUN/m_c/subject} need to",
             "Is hiding after receiving a compliment",
-            "Is avoiding everyone today"
+            "Is avoiding everyone today",
+            "Was found hiding in {PRONOUN/m_c/poss} nest instead of out training",
+            "Believes everyone will yell at {PRONOUN/m_c/object} for tiny mistakes",
+            "Is thinking of becoming a loner instead of a warrior",
+            "Was holding back tears during training",
+            "Is a bit squeamish about having to use {PRONOUN/m_c/poss} claws"
         ],
         "main_trait_constraint": [
             "insecure"
@@ -246,32 +302,34 @@
             "Is hoping to be sent to battle",
             "Is picking a fight with r_c",
             "Is bored during a hunting patrol",
-            "Is busy mastering a fighting technique",
-            "Is in trouble after scratching r_c during an argument"
+            "Is in trouble after scratching r_c during an argument",
+            "Often flexes {PRONOUN/m_c/poss} claws, trying to intimidating others",
+            "Proclaimed the best way to be a c_n warrior is on the battlefield",
+            "Can't wait for the other Clans to tremble at {PRONOUN/m_c/poss} presence",
+            "Can't wait to gain scars"
         ],
         "main_trait_constraint": [
             "fierce"
         ]
     },
     {
-        "id": "competitive_warrior_apprentice",
+        "id": "charismatic_warrior_apprentice",
         "thoughts": [
-            "Is busy mastering a fighting technique"
+            "Is popular amongst the other apprentices",
+            "Can charm {PRONOUN/m_c/poss} way through tough situations",
+            "Has captivated an audience with {PRONOUN/m_c/poss} promising talents",
+            "Is rallying the other apprentices in training with {PRONOUN/m_c/poss} magnatic charm",
+            "Is showing off {PRONOUN/m_c/poss} fighting moves to adoring fans",
+            "Is showing off {PRONOUN/m_c/poss} hunting moves to adoring fans",
+            "Is lying through {PRONOUN/m_c/poss} fangs to gain favors",
+            "Was teasingly mistaken as a sly scavenger",
+            "Could shift {PRONOUN/m_c/subject} peers' view at {PRONOUN/m_c/object} favorably",
+            "Is trying to raise {PRONOUN/m_c/poss} reputation within the Clan",
+            "Has a bright smile"
         ],
         "main_trait_constraint": [
-            "competitive"
-        ]
-    },
-    {
-        "id": "responsible_warrior_apprentice",
-        "thoughts": [
-            "Spent all morning mastering and practicing the hunting crouch",
-            "Makes sure that everyone else is fed before taking prey from the prey-pile",
-            "Listens to {PRONOUN/m_c/poss} mentor's advice"
-        ],
-        "main_trait_constraint": [
-            "responsible"
-        ]
+            "charismatic"
+        ]    
     },
     {
         "id": "confident_warrior_apprentice",
@@ -285,11 +343,39 @@
             "Is sure that r_c thinks {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} the best apprentice",
             "Is a very quick learner",
             "Is sure {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} doing a good job today",
-            "Knows {PRONOUN/m_c/subject} will get picked first for today's hunting patrol"
+            "Knows {PRONOUN/m_c/subject} will get picked first for today's hunting patrol",
+            "Puffs up {PRONOUN/m_c/poss} chest out as {PRONOUN/m_c/subject} strunt",
+            "Proudly announces {PRONOUN/m_c/poss} name when entering an area",
+            "Poses heroically, hoping the leader will take notice of {PRONOUN/m_c/poss} potential"
         ],
         "main_trait_constraint": [
             "confident"
         ]
+    },
+    {
+        "id": "competitive_warrior_apprentice",
+        "thoughts": [
+            "Is sure that {PRONOUN/m_c/subject}'ll be made into a warrior soon",
+            "Thinks that {PRONOUN/m_c/subject} will be the strongest warrior to ever live",
+            "Is trying to spar every slugcat",
+            "Thinks {PRONOUN/m_c/subject} can beat every record",
+            "Is void-damn sure no cat can defeat {PRONOUN/m_c/object}",
+            "Is creating a new fighting stance for today's training session",
+            "Is racing around trying to finish {PRONOUN/m_c/poss} chores first",
+            "Is overdoing {PRONOUN/m_c/poss} training but doesn't care",
+            "Is sure {PRONOUN/m_c/subject} can double {PRONOUN/m_c/poss} training today",
+            "Knows {PRONOUN/m_c/subject}'ll collect the most prey while hunting",
+            "Is calling r_c 'bro'",
+            "Proudly announces {PRONOUN/m_c/poss} recent feats",
+            "Was seen racing an vulture's shadow",
+            "Throws a fit whenever someone defeats {PRONOUN/m_c/object}",
+            "Is trying to make everything a competition",
+            "Wants to make sure everyone is at their absolute best",
+            "Was the first awake for training"
+        ],
+        "main_trait_constraint": [
+            "competitive"
+        ]    
     },
     {
         "id": "bold_warrior_apprentice",
@@ -301,7 +387,9 @@
             "Isn't planning on asking for permission",
             "Tells {PRONOUN/m_c/poss} mentor {PRONOUN/m_c/subject} {VERB/m_c/are/is} doing battle training today",
             "Tells {PRONOUN/m_c/poss} mentor {PRONOUN/m_c/subject} {VERB/m_c/are/is} going hunting instead of training",
-            "Tells {PRONOUN/m_c/poss} mentor {PRONOUN/m_c/subject} {VERB/m_c/are/is} going on patrol without {PRONOUN/r_c/object}"
+            "Tells {PRONOUN/m_c/poss} mentor {PRONOUN/m_c/subject} {VERB/m_c/are/is} going on patrol without {PRONOUN/r_c/object}",
+            "Playfully smacks a cyan lizard",
+            "Is claiming {PRONOUN/m_c/subject} can take on an entire Clan"
         ],
         "main_status_constraint": [
             "apprentice"
@@ -333,7 +421,7 @@
             "Pesters {PRONOUN/m_c/poss} mentor for more battle training",
             "Is practicing forbidden battle moves",
             "Drew blood during {PRONOUN/m_c/poss} battle training",
-          "Sinks {PRONOUN/m_c/poss} teeth into prey, pretending it's another cat's pelt",
+            "Sinks {PRONOUN/m_c/poss} teeth into prey, pretending its another slugcat's pelt",
             "Is caught playing with {PRONOUN/m_c/poss} prey instead of hunting",
             "Is cleaning blood from {PRONOUN/m_c/poss} claws",
             "Is hissing defiantly at r_c",
@@ -341,7 +429,7 @@
             "Is glaring at r_c",
             "Is covered in prey-blood after hunting",
             "Is clawing up moss for fun",
-          "Is asking what deathberries look like - for safety reasons, of course...",
+            "Is asking what deathberries look like... for safety reasons of course",
             "Hopes to get a scar from battle"
 
         ],
@@ -360,10 +448,9 @@
             "Doesn't like to take breaks",
             "Offers to go on every patrol today",
             "Is always busy with something",
-            "Wants to train until {PRONOUN/m_c/subject} {VERB/m_c/have/has} learned everything",
-            "Doesn't stop practicing a move until it's done perfectly",
-            "Is settling for nothing less than perfect",
-            "Is too busy training to help out around camp"
+            "Is too busy training to help out around camp",
+            "Wants {PRONOUN/m_c/poss} training to be harder and dangerous",
+            "Trying to excel at everything {PRONOUN/m_c/poss} mentor throws at {PRONOUN/m_c/object}"
         ],
         "main_trait_constraint": [
             "ambitious"
@@ -384,6 +471,82 @@
         "main_trait_constraint": [
             "ambitious"
         ]
+    },
+    {
+        "id": "flamboyant_warrior_apprentice",
+        "thoughts": [
+            "Isn't keen on getting {PRONOUN/m_c/poss} coat dirty just after shining it",
+            "Is extravagant in {PRONOUN/m_c/poss} fighting style",
+            "Would rather show off flashy and impactiable moves than actually train",
+            "Is hunting a prey {PRONOUN/m_c/subject} don't have to struggle for",
+            "Is adamant {PRONOUN/m_c/poss} problems is everyscugs' problem",
+            "Offering insight to the other apprentices",
+            "Gifted r_c a present, a gesture of goodwill and not at all for praise",
+            "Dotted r_c's coat with alluring flowers and trickets",
+            "Surprisingly complimented r_c's coat",
+            "Wants to look {PRONOUN/m_c/poss} absolute best before going out",
+            "Isn't bashful being {PRONOUN/m_c/self}",
+            "Has the most eccentric appearance"
+        ],
+        "main_trait_constraint": [
+            "flamboyant"
+        ]    
+    },
+    {
+        "id": "grumpy_warrior_apprentice",
+        "thoughts": [
+            "Is hard to work with during training",
+            "Is often too serious",
+            "Disobeyed orders and bolted nose-first into a patrol skrimish",
+            "Had to be dragged away when another apprentice annoyed {PRONOUN/m_c/object}",
+            "Snapped at r_c",
+            "Would rather train by {PRONOUN/m_c/self}",
+            "Communicates with grunts and piercing stares",
+            "Always wakes up on the wrong side of the nest",
+            "Would rather be elsewhere"
+        ],
+        "main_trait_constraint": [
+            "grumpy"
+        ]     
+    }, 
+    {
+        "id": "loyal_warrior_apprentice",
+        "thoughts": [
+            "Is making sure everyone is following the Warrior Code without question",
+            "Is struck between wanting to goof off with friends and listening to {PRONOUN/m_c/poss} mentor",
+            "Knows where {PRONOUN/m_c/poss} morals lie",
+            "Ears perk up in every Clan announcements",
+            "Proclaims {PRONOUN/m_c/poss} unwavering loyality to {PRONOUN/m_c/poss} Clan",
+            "Wants to become the best warrior {PRONOUN/m_c/poss} Clan has ever seen",
+            "Told an apprentice was slacking off to their mentor",
+            "Pompously vowed {PRONOUN/m_c/subject} will defend c_n",
+            "Is the best slugcat to tell secrets to",
+            "Stood up for friends that couldn't find their voice",
+            "Knows {PRONOUN/m_c/subject} have r_c's back",
+            "Is reporting, with keen details, everything {PRONOUN/m_c/subject} {VERB/m_c/have/has} seen and heard to the leader"
+        ],
+        "main_trait_constraint": [
+            "loyal"
+        ]  
+    },
+    {
+        "id": "rebellious_warrior_apprentice",
+        "thoughts": [
+            "Is going against {PRONOUN/m_c/poss} mentor's teachings",
+            "Is creating {PRONOUN/m_c/poss} own rank",
+            "Openly believes the Warrior Code should be changed",
+            "Often rallies the other apprentice with {PRONOUN/m_c/poss} antics",
+            "Crosses other Clan's borders unyeilding",
+            "Is crossed with traditions and rules",
+            "Is aiding the other apprentices to discover their identites",
+            "Proclaims rules are meant to be broken",
+            "Wants to pick out {PRONOUN/m_c/poss} warrior name",
+            "Rolls {PRONOUN/m_c/poss} eyes at r_c",
+            "Says {PRONOUN/m_c/subject} can go anywhere whenever {PRONOUN/m_c/subject} feels like"
+        ],
+        "main_trait_constraint": [
+            "rebellious"
+        ]    
     }, 
     {
         "id": "childish_warrior_apprentice",
@@ -394,16 +557,40 @@
             "Isn't paying attention to the lesson... again",
             "Overslept and missed the dawn patrol",
             "Says {PRONOUN/m_c/subject} {VERB/m_c/do/does}n't want to do anything today",
-            "Is not allowed to leave camp without asking first"
+            "Is not allowed to leave camp without asking first",
+            "Is making silly faces",
+            "Is this moon's class clown",
+            "Was rambling terribles jokes in patrols",
+            "Knows the best ways to cheer up a Clanmate",
+            "Is currently chasing a butterfly",
+            "Was chasing a butterfly before promptly tripping over {PRONOUN/m_c/poss} paws",
+            "Is battling a Clanmate's tail",
+            "Was recently chastised by {PRONOUN/m_c/poss} mentor for goofing off during training"
         ],
         "main_trait_constraint": [
             "childish"
         ]
     },
-  {
-    "id": "childish_apprentice_to_elder",
+    {
+        "id": "adventurous_warrior_apprentice",
         "thoughts": [
-            "Pouts about being asked to check the elders for ticks",
+            "Was the first awake to see the rising sun, a fresh new day!",
+            "Is begging {PRONOUN/m_c/poss} mentor to allow the both of them to travel furthur through the territories",
+            "Tries to gather the other apprentices for a mini-exploration through undiscovered landscapes",
+            "Was wrestling with the biggest prey {PRONOUN/m_c/subject} had ever seen",
+            "Can't wait to get {PRONOUN/m_c/poss} warrior name so {PRONOUN/m_c/subject} can be independent and explore",
+            "Is itching to leave camp",
+            "Was confined to plucking off elders' bees for wandering too far",
+            "Wishes {PRONOUN/m_c/subject} had wings to fly away"
+        ],
+        "main_trait_constraint": [
+            "adventurous"
+        ]    
+    },
+    { 
+        "id": "childish_apprentice_elder",
+        "thoughts": [
+            "Pouts about being asked to check the elders for bees",
             "Is hiding instead of taking care of the elders",
             "Is listening to r_c tell stories instead of cleaning out the den"
         ],

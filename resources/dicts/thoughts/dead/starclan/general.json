@@ -11,10 +11,10 @@
             "Is feeling sassy today",
             "Is thinking about a message to send",
             "Wishes {PRONOUN/m_c/subject} {VERB/m_c/were/was} still alive",
-            "Is admiring StarClan territory",
+            "Is admiring the Void's territory",
             "Is thinking about {PRONOUN/m_c/poss} life",
             "Is missing a loved one",
-            "Is hoping to meet with a medicine cat soon",
+            "Is hoping to meet with a medicine slugcat soon",
             "Is admiring the stars in {PRONOUN/m_c/poss} fur",
             "Is watching over a Clan ceremony",
             "Is hoping to give a life to a new leader",
@@ -22,20 +22,20 @@
             "Is watching over the Clan",
             "Is worried about the Clan",
             "Is relaxing in the sun",
-            "Is wondering about Twolegs",
+            "Is wondering about Iterators",
             "Is thinking about {PRONOUN/m_c/poss} ancient ancestors",
-            "Is worried about the cats in the Dark Forest",
-            "Is thinking of advice to give to a medicine cat",
-            "Is exploring StarClan",
+            "Is worried about the slugcats in the Rotwound",
+            "Is thinking of advice to give to a medicine slugcat",
+            "Is exploring the Void",
             "Is sad seeing how the Clan has changed",
             "Wishes {PRONOUN/m_c/subject} could speak to old friends",
-            "Is sneezing on stardust",
-            "Is comforting another StarClan cat",
-            "Is exploring StarClan's hunting grounds",
-            "Is hunting mice in StarClan",
-            "Is chattering at the birds in StarClan",
-            "Is chasing rabbits in StarClan",
-            "Can feel some cat forgetting {PRONOUN/m_c/object}..."
+            "Is sneezing on voidfluid",
+            "Is comforting another Ascended cat",
+            "Is exploring the Voids's hunting grounds",
+            "Is hunting squidcadas in the Void",
+            "Is chattering at the batflies in the Void",
+            "Is chasing eggbugs in the Void",
+            "Can feel some slugcat forgetting {PRONOUN/m_c/object}..."
         ],
         "random_living_status":[
             "living",
@@ -69,7 +69,7 @@
         "id": "founder_dead_to_dead_other",
         "thoughts": [
             "Is speaking with r_c about how c_n came to be",
-            "Is telling other StarClan cats stories of c_n's beginning"
+            "Is telling other Ascended slugcats stories of c_n's beginning"
         ],
         "main_age_constraint": [
             "adolescent",
@@ -146,9 +146,9 @@
     {
         "id": "gen_dead_med_cat",
         "thoughts": [
-            "Regrets leaving the Clan one medicine cat short",
+            "Regrets leaving the Clan one medicine slugcat short",
             "Is worried about the Clan's ability to survive the latest illness",
-            "Looks after the newborns in StarClan",
+            "Looks after the newborns in the Void",
             "Is watching c_n, ready to send an omen"
         ],
         "main_status_constraint": [
@@ -248,10 +248,10 @@
     {
         "id": "gen_dead_app",
         "thoughts": [
-            "Wants to use {PRONOUN/m_c/poss} training to help StarClan",
+            "Wants to use {PRONOUN/m_c/poss} training to help the Ascended",
             "Is sad {PRONOUN/m_c/subject} couldn't complete {PRONOUN/m_c/poss} training",
             "Tries to continue {PRONOUN/m_c/poss} training on {PRONOUN/m_c/poss} own",
-            "Is listening intently to other StarClan cats' stories"
+            "Is listening intently to other the Ascended slugcats' stories"
         ],
         "main_status_constraint": [
             "apprentice",
@@ -352,7 +352,7 @@
     {
         "id": "gen_dead_mediator",
         "thoughts": [
-            "Is trying to mediate StarClan cats' squabbles",
+            "Is trying to mediate Ascended scugs' squabbles",
             "Wishes {PRONOUN/m_c/subject} could help resolve the Clan's issues",
             "Is watching the Clans for any signs of discord"
         ],

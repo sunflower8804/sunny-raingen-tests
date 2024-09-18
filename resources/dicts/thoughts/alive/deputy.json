@@ -14,16 +14,16 @@
     {
         "id": "gen_deputy",
         "thoughts": [
-            "Is assigning cats to a border patrol",
-            "Is assigning cats to a hunting patrol",
+            "Is assigning slugcats to a border patrol",
+            "Is assigning slugcats to a hunting patrol",
             "Is wondering what it would be like to be a leader",
             "Is stressed about organizing patrols",
             "Wonders who will give {PRONOUN/m_c/object} nine lives",
             "Feels overworked",
             "Is hoping for a break",
-            "Is assigning cats to the dawn patrol",
-            "Is assigning cats to the hunting patrol",
-            "Is assigning cats to patrol the borders",
+            "Is assigning slugcats to the dawn patrol",
+            "Is assigning slugcats to the hunting patrol",
+            "Is assigning slugcats to patrol the borders",
             "Can't believe {PRONOUN/m_c/subject} overslept today",
             "Is unsure of what the rest of the Clan thinks of {PRONOUN/m_c/object} as deputy"
         ]
@@ -74,11 +74,11 @@
     {
         "id": "strange_deputy_to_gen",
         "thoughts": [
-            "Accidentally assigns the same cat to three patrols",
-            "Insists a hunting patrol needs to only bring back mice",
+            "Accidentally assigns the same slugcat to three patrols",
+            "Insists a hunting patrol needs to only bring back bluefruit",
             "Goes missing and comes back smelling like garlic",
             "Is making odd noises",
-            "Giggles at the thought of a bird trying to swim"
+            "Giggles at the thought of a batflies trying to swim"
         ],
         "main_trait_constraint": [
             "strange"
@@ -124,7 +124,7 @@
         "id": "playful_deputy",
         "thoughts": [
             "Is inventing a fun game to make patrol assignments more engaging",
-            "Is amused by the antics of the younger cats",
+            "Is amused by the antics of the younger slugcats",
             "Finds joy in the simple tasks of a deputy's duty"
         ],
         "main_trait_constraint": [
@@ -134,7 +134,7 @@
     {
         "id": "nervous_deputy",
         "thoughts": [
-            "Is fretting over a recent increase in fox sightings near the camp",
+            "Is fretting over a recent increase in lizard sightings near the camp",
             "Feels a twinge of worry about an approaching storm",
             "Is overthinking a recent encounter with a rival Clan"
         ],
@@ -217,7 +217,7 @@
         "id": "teacher_deputy",
         "thoughts": [
             "Is devising an effective teaching strategy for new skills",
-            "Encourages the older cats to share {PRONOUN/m_c/poss} skills and techniques with the younger generations"
+            "Encourages the older slugcats to share {PRONOUN/m_c/poss} skills and techniques with the younger generations"
         ],
         "main_skill_constraint": [
             "TEACHER,1"
@@ -284,7 +284,7 @@
     {
       "id": "healer_deputy_to_medcat",
         "thoughts": [
-            "Takes a patrol out to gather herbs for the medicine cat"
+            "Takes a patrol out to gather herbs for the medicine slugcat"
         ],
         "main_skill_constraint": [
             "HEALER,1"
