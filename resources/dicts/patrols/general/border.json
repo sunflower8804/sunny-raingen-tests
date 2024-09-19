@@ -9,7 +9,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {},
-        "weight": 10,
+        "weight": 20,
         "intro_text": "r_c tracks the scent of a red lizard along the edge of the Clan's territory.",
         "decline_text": "r_c decides not to pursue such a dangerous creature, especially seeing as it hasn't crossed the border.",
         "chance_of_success": 20,
@@ -46,7 +46,7 @@
 			{
                 "text": "s_c spots the huge red lizard first, and pauses in {PRONOUN/s_c/poss} fright. However, instead of brandishing a spear, they use kindness as their weapon... And it somehow works! s_c now has a story to tell about {PRONOUN/s_c/poss} new friend!",
                 "exp": 40,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_red",
                 "stat_trait": [
                     "compassionate",
@@ -181,7 +181,7 @@
         "min_cats": 2,
         "max_cats": 3,
         "min_max_status": {},
-        "weight": 10,
+        "weight": 20,
         "intro_text": "The patrol tracks the scent of a large red lizard along the edge of the Clan's territory.",
         "decline_text": "The patrol decides not to pursue such a dangerous creature, especially seeing as it hasn't crossed the border.",
         "chance_of_success": 30,
@@ -256,7 +256,7 @@
 			{
                 "text": "s_c spots the huge red lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The red lizard follows s_c home, happily sticking close to their new friend.",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_red",
                 "stat_trait": [
                     "compassionate",
@@ -414,7 +414,7 @@
         "min_cats": 4,
         "max_cats": 6,
         "min_max_status": {},
-        "weight": 10,
+        "weight": 20,
         "intro_text": "The patrol stumbles across a red lizard wandering through the middle of the Clan's territory.",
         "decline_text": "The patrol decides not to pursue such a dangerous creature. c_n will just have to hope it doesn't come any nearer to camp.",
         "chance_of_success": 10,
@@ -489,7 +489,7 @@
 			{
                 "text": "s_c spots the huge red lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The red lizard follows s_c home, happily sticking close to their new friend.",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_red",
                 "stat_trait": [
                     "compassionate",
@@ -647,7 +647,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {},
-        "weight": 10,
+        "weight": 20,
         "intro_text": "r_c tracks the scent of a cyan lizard along the edge of the Clan's territory.",
         "decline_text": "r_c decides not to pursue such a dangerous creature, especially seeing as it hasn't crossed the border.",
         "chance_of_success": 20,
@@ -706,7 +706,7 @@
 			{
                 "text": "s_c spots the nimble cyan lizard first, and pauses in {PRONOUN/s_c/poss} fright. However, instead of brandishing a spear, they use kindness as their weapon... And it somehow works! s_c now has a story to tell about {PRONOUN/s_c/poss} new friend!",
                 "exp": 40,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_cyan",
                 "stat_trait": [
                     "compassionate",
@@ -819,7 +819,7 @@
         "min_cats": 2,
         "max_cats": 3,
         "min_max_status": {},
-        "weight": 10,
+        "weight": 20,
         "intro_text": "The patrol tracks the scent of a cyan lizard along the edge of the Clan's territory.",
         "decline_text": "The patrol decides not to pursue such a dangerous creature, especially seeing as it hasn't crossed the border.",
         "chance_of_success": 30,
@@ -894,7 +894,7 @@
 			{
                 "text": "s_c spots the nimble cyan lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The cyan lizard follows s_c home, happily sticking close to their new friend.",
                 "exp": 40,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_cyan",
                 "stat_trait": [
                     "compassionate",
@@ -1026,8 +1026,8 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "This scug is scarred from bravely defending the Clan against a cyan lizard.",
-                    "reg_death": "This scug died to keep the Clan safe from a cyan lizard.",
+                    "scar": "This cat is scarred from bravely defending the Clan against a cyan lizard.",
+                    "reg_death": "This cat died to keep the Clan safe from a cyan lizard.",
                     "lead_death": "died to keep c_n safe from a cyan lizard"
                 },
                 "relationships": [
@@ -1052,7 +1052,7 @@
         "min_cats": 4,
         "max_cats": 6,
         "min_max_status": {},
-        "weight": 10,
+        "weight": 20,
         "intro_text": "The patrol stumbles across a cyan lizard wandering through the middle of the Clan's territory.",
         "decline_text": "The patrol decides not to pursue such a dangerous creature. c_n will just have to hope it doesn't come any nearer to camp.",
         "chance_of_success": 10,
@@ -1127,7 +1127,7 @@
 			{
                 "text": "s_c spots the nimble cyan lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The cyan lizard follows s_c home, happily sticking close to their new friend.",
                 "exp": 40,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_cyan",
                 "stat_trait": [
                     "compassionate",
@@ -1285,7 +1285,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {},
-        "weight": 10,
+        "weight": 20,
         "intro_text": "r_c tracks the scent of a yellow lizard pack along the edge of the Clan's territory.",
         "decline_text": "r_c decides not to pursue such a dangerous group, especially seeing as it hasn't crossed the border.",
         "chance_of_success": 20,
@@ -1343,8 +1343,8 @@
 			{
                 "text": "s_c spots the pack of yellow lizards first. One of the beasts, lingering further away from the pack, is approached with kindness... After a little persuation, it follows s_c home, leaving it's pack behind.",
                 "exp": 40,
-                "weight": 1,
-	        "art": "gen_liztame_yellow",
+                "weight": 10,
+				"art": "gen_liztame_yellow",
                 "stat_trait": [
                     "compassionate",
                     "confident",
@@ -1552,7 +1552,7 @@
 			{
                 "text": "s_c spots the pack of yellow lizards first. One of the beasts, lingering further away from the pack, is approached with kindness... After a little persuation, it follows s_c home, leaving it's pack behind.",
                 "exp": 40,
-                "weight": 1,
+                "weight": 10,
 				"art": "gen_liztame_yellow",
                 "stat_trait": [
                     "compassionate",
@@ -1583,7 +1583,7 @@
 			{
                 "text": "s_c spots the pack of yellow lizards first, and stops the rest of the patrol. Carefully, prey is offered to the pack... The gift is accepted! Soon, the lizards choose their favorite scugs and follow them home.",
                 "exp": 40,
-                "weight": 1,
+                "weight": 10,
 				"art": "gen_liztame_yellow",
                 "stat_trait": [
                     "compassionate",
@@ -1741,7 +1741,7 @@
         "min_cats": 4,
         "max_cats": 6,
         "min_max_status": {},
-        "weight": 10,
+        "weight": 20,
         "intro_text": "The patrol stumbles across a cyan lizard wandering through the middle of the Clan's territory.",
         "decline_text": "The patrol decides not to pursue such a dangerous creature. c_n will just have to hope it doesn't come any nearer to camp.",
         "chance_of_success": 10,
@@ -1837,7 +1837,7 @@
 			{
                 "text": "s_c spots the pack of yellow lizards first. One of the beasts, lingering further away from the pack, is approached with kindness... After a little persuation, it follows s_c home, leaving it's pack behind.",
                 "exp": 40,
-                "weight": 1,
+                "weight": 10,
 				"art": "gen_liztame_yellow",
                 "stat_trait": [
                     "compassionate",
@@ -1868,7 +1868,7 @@
 			{
                 "text": "s_c spots the pack of yellow lizards first, and stops the rest of the patrol. Carefully, prey is offered to the pack... The gift is accepted! Soon, the lizards choose their favorite scugs and follow them home.",
                 "exp": 40,
-                "weight": 1,
+                "weight": 10,
 				"art": "gen_liztame_yellow",
                 "stat_trait": [
                     "compassionate",
@@ -2059,7 +2059,7 @@
 			{
                 "text": "s_c spots the pink lizard first, and pauses. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The pink lizard follows s_c home, happily sticking close to their new friend.",
                 "exp": 40,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_pink",
                 "stat_trait": [
                     "compassionate",
@@ -2206,7 +2206,7 @@
 			{
                 "text": "s_c spots the pink lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The pink lizard follows s_c home, happily sticking close to their new friend.",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_pink",
                 "stat_trait": [
                     "compassionate",
@@ -2340,7 +2340,7 @@
 			{
                 "text": "s_c spots the pink lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The pink lizard follows s_c home, happily sticking close to their new friend.",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_pink",
                 "stat_trait": [
                     "compassionate",
@@ -2456,7 +2456,7 @@
 			{
                 "text": "s_c spots the blue lizard first, and pauses. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The blue lizard nuzzles up to s_c with a happy rumble.",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_blue",
                 "stat_trait": [
                     "compassionate",
@@ -2603,7 +2603,7 @@
 			{
                 "text": "s_c spots the blue lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The blue lizard nuzzles up to s_c with a happy rumble.",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_blue",
                 "stat_trait": [
                     "compassionate",
@@ -2737,7 +2737,7 @@
 			{
                 "text": "s_c spots the blue lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The blue lizard nuzzles up to s_c with a happy rumble.",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_blue",
                 "stat_trait": [
                     "compassionate",
@@ -2853,7 +2853,7 @@
 			{
                 "text": "s_c spots the green lizard first, pausing. Instead of brandishing a spear, {PRONOUN/r_c/poss} uses kindness as their weapon... And it somehow works! The green lizard's belly tracks follow the patrol's home.",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_green",
                 "stat_trait": [
                     "compassionate",
@@ -3000,7 +3000,7 @@
 			{
                 "text": "s_c spots the green lizard first, and stops the rest of the patrol. Instead of brandishing a spear, {PRONOUN/r_c/poss} uses kindness as their weapon... And it somehow works! The green lizard's belly tracks follow the patrol's home.",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_green",
                 "stat_trait": [
                     "compassionate",
@@ -3145,7 +3145,7 @@
 			{
                 "text": "s_c spots the green lizard first, and stops the rest of the patrol. Instead of brandishing a spear, {PRONOUN/r_c/poss} uses kindness as their weapon... And it somehow works! The green lizard's belly tracks follow the patrol's home.",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_green",
                 "stat_trait": [
                     "compassionate",
@@ -3272,7 +3272,7 @@
 			{
                 "text": "s_c barely spots the white lizard through it's camoflague! {PRONOUN/p_l/poss} slowly approaches the lizard. It takes some time, but the lizard took a liking to s_c !",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_white",
                 "stat_trait": [
                     "compassionate",
@@ -3419,7 +3419,7 @@
 			{
                 "text": "s_c barely spots the white lizard through it's camoflague! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the lizard. It takes some time, but the lizard took a liking to s_c !",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_white",
                 "stat_trait": [
                     "compassionate",
@@ -3535,7 +3535,7 @@
             {
                 "text": "Mobbed by slugcats and near-blind with the blood in its eyes, the lizard flees from c_n, crying pitifully.",
                 "exp": 10,
-                "weight": 1,
+                "weight": 5,
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3691,7 +3691,7 @@
 			{
                 "text": "s_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} slowly approaches the salamnder. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_melasala",
                 "stat_trait": [
                     "compassionate",
@@ -3722,8 +3722,8 @@
 			{
                 "text": "s_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} slowly approaches the salamnder. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 1,
-		"art": "gen_liztame_melasala",
+                "weight": 5,
+				"art": "gen_liztame_melasala",
                 "stat_trait": [
                     "compassionate",
                     "confident",
@@ -3753,7 +3753,7 @@
 			{
                 "text": "s_c barely spots the salamander in the water! {PRONOUN/p_l/poss} slowly approaches the albino salamander. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_albisala",
                 "stat_trait": [
                     "compassionate",
@@ -3921,7 +3921,7 @@
 			{
                 "text": "s_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamander. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_melasala",
                 "stat_trait": [
                     "compassionate",
@@ -3952,7 +3952,7 @@
 			{
                 "text": "s_c barely spots the albino salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamander. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_albisala",
                 "stat_trait": [
                     "compassionate",
@@ -4120,7 +4120,7 @@
 			{
                 "text": "s_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamander. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_melasala",
                 "stat_trait": [
                     "compassionate",
@@ -4151,7 +4151,7 @@
 			{
                 "text": "s_c barely spots the albino salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamander. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_albisala",
                 "stat_trait": [
                     "compassionate",
@@ -4301,7 +4301,7 @@
 			{
                 "text": "s_c barely spots the blind lizard in the gloom! {PRONOUN/p_l/poss} finds something to feed the creature, earning it's trust. This lizard sticks close to their new friend.",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_blind",
                 "stat_trait": [
                     "compassionate",
@@ -4448,7 +4448,7 @@
 			{
                 "text": "s_c barely spots the blind lizard in the gloom! {PRONOUN/p_l/poss} stops the patrol, finding something to feed the creature and earning it's trust. This lizard sticks close to their new friend.",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_blind",
                 "stat_trait": [
                     "compassionate",
@@ -4595,7 +4595,7 @@
 			{
                 "text": "s_c barely spots the blind lizard in the gloom! {PRONOUN/p_l/poss} stops the patrol, finding something to feed the creature and earning it's trust. This lizard sticks close to their new friend.",
                 "exp": 30,
-                "weight": 1,
+                "weight": 5,
 				"art": "gen_liztame_blind",
                 "stat_trait": [
                     "compassionate",
@@ -4694,12 +4694,12 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The patrol hears a slugcat wailing their Iterator's name, just barely intelligible over the loud clanking of scissor birds.",
+        "intro_text": "The patrol hears a slugcat begging for their seekers to come back, just barely intelligible over the sound of a miros bird speeding away.",
         "decline_text": "p_l decides it's none of {PRONOUN/p_l/poss} business and resumes {PRONOUN/p_l/poss} patrol.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "p_l finds a pet collapsed by the Thunderpath, wailing for {PRONOUN/n_c:0/poss} Iterator. p_l comforts {PRONOUN/n_c:0/object}, asking why {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} left here. The only explanation {PRONOUN/n_c:0/subject} {VERB/n_c:0/have/has} is that {PRONOUN/n_c:0/subject}{VERB/n_c:0/'re/'s} sick... Perhaps {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} too much of a burden? p_l offers {PRONOUN/n_c:0/object} a place in c_n, at least until {PRONOUN/n_c:0/subject} recover. {PRONOUN/n_c:0/subject/CAP} tentatively {VERB/n_c:0/accept/accepts}, looking longingly at the Thunderpath as {PRONOUN/n_c:0/subject}{VERB/n_c:0/'re/'s} led away.",
+                "text": "p_l finds a pet collapsed by the Thunderpath, wailing for {PRONOUN/n_c:0/poss} scavenger. p_l comforts {PRONOUN/n_c:0/object}, asking why {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} left here. The only explanation {PRONOUN/n_c:0/subject} {VERB/n_c:0/have/has} is that {PRONOUN/n_c:0/subject}{VERB/n_c:0/'re/'s} sick... Perhaps {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} too much of a burden? p_l offers {PRONOUN/n_c:0/object} a place in c_n, at least until {PRONOUN/n_c:0/subject} recover. {PRONOUN/n_c:0/subject/CAP} tentatively {VERB/n_c:0/accept/accepts}, looking longingly at the Thunderpath as {PRONOUN/n_c:0/subject}{VERB/n_c:0/'re/'s} led away.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -4732,7 +4732,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/discover/discovers} the cooling body of a pet; it seems they attempted to run back to their iterator, but were caught in the jaws of a scissor bird. p_l silently sends a prayer for the pet and can't help cursing the iterator who abandoned such a loyal slugcat.",
+                "text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/discover/discovers} the cooling body of a pet; it seems they attempted to run after their scavenger, but were run over by another Miros Bird. p_l silently sends a prayer for the pet and can't help cursing the scavenger who abandoned such a loyal slugcat.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,
@@ -4901,7 +4901,7 @@
         ]
     },
     {
-        "patrol_id": "gen_border_otherclan_badger1",
+        "patrol_id": "gen_border_otherclan_greenliz1",
         "biome": ["any"],
         "season": ["any"],
         "types": ["border"],
@@ -5212,7 +5212,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "Boldly, p_l steps right across the border, only to be unceremoniously yanked back by the tail. {PRONOUN/p_l/subject/CAP} {VERB/p_l/look/looks} over {PRONOUN/p_l/poss} shoulder in bewilderment, heart sinking when {PRONOUN/p_l/subject} {VERB/p_l/see/sees} one of {PRONOUN/p_l/poss} Clanmates staring {PRONOUN/p_l/object} down. {PRONOUN/p_l/subject/CAP} would almost rather be looking at a scavenger right now... How will {PRONOUN/p_l/subject} explain <i>this?</i>",
+                "text": "Boldly, p_l steps right across the border, only to be unceremoniously yanked back by the tail. {PRONOUN/p_l/subject/CAP} {VERB/p_l/look/looks} over {PRONOUN/p_l/poss} shoulder in bewilderment, heart sinking when {PRONOUN/p_l/subject} {VERB/p_l/see/sees} one of {PRONOUN/p_l/poss} Clanmates staring {PRONOUN/p_l/object} down. {PRONOUN/p_l/subject/CAP} would almost rather be looking at a vulture right now... How will {PRONOUN/p_l/subject} explain <i>this?</i>",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -5303,7 +5303,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l strolls across the border, deliberately laying {PRONOUN/p_l/poss} scent everywhere {PRONOUN/p_l/subject} can. For good measure, {PRONOUN/p_l/subject} {VERB/p_l/hunt/hunts} and {VERB/p_l/kill/kills} a mouse, feasting messily and leaving the bones strewn about. That'll show those good-for-nothing o_c_n cats who really owns these lands.",
+                "text": "p_l strolls across the border, deliberately laying {PRONOUN/p_l/poss} scent everywhere {PRONOUN/p_l/subject} can. For good measure, {PRONOUN/p_l/subject} {VERB/p_l/hunt/hunts} and {VERB/p_l/kill/kills} a mouse, feasting messily and leaving the bones strewn about. That'll show those good-for-nothing o_c_n slugcats who really owns these lands.",
                 "exp": 5,
                 "weight": 20,
                 "other_clan_rep": -2
@@ -5326,13 +5326,13 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "Slugats don't normally come with wings, much less bat ones, and the patrol flinches back from the foreign stranger. But unnatural or not, the stranger's still stuck, and with a deep breath, p_l orders them forward to free a fellow slugcat... ish... thing.",
+                "text": "Slugats don't normally come with wings, much less batfly ones, and the patrol flinches back from the foreign stranger. But unnatural or not, the stranger's still stuck, and with a deep breath, p_l orders them forward to free a fellow slugcat... ish... thing.",
                 "exp": 15,
                 "weight": 20,
                 "outsider_rep": 1
             },
             {
-                "text": "Frankly, extra limbs or not (bat wings, at that - this'll make a great story back at camp), the patrol needs to get this plump crying ball of fur back to their scavenger. The world will eat this pet alive if they don't help them.",
+                "text": "Frankly, extra limbs or not (batfly wings, at that - this'll make a great story back at camp), the patrol needs to get this plump crying ball of fur back to their Iterator. The world will eat this pet alive if they don't help them.",
                 "exp": 15,
                 "weight": 10,
                 "outsider_rep": 1
@@ -5340,7 +5340,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Falling over, paws waving helplessly in the air and somehow making the situation <i>even worse</i>, the patrol passes the mouse-brained pet by, leaving them to their stupidity while they focus on their actual task.",
+                "text": "Falling over, paws waving helplessly in the air and somehow making the situation <i>even worse</i>, the patrol passes the yeek-brained pet by, leaving them to their stupidity while they focus on their actual task.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -5348,7 +5348,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "Swaggering up, p_l tries to intimidate the pet. But while the cat is easily successfully frightened, that doesn't make them any less stuck in place, and eventually the patrol is forced to help set them free, if only so they can leave c_n's borders.",
+                "text": "Swaggering up, p_l tries to intimidate the pet. But while the slugcat is easily successfully frightened, that doesn't make them any less stuck in place, and eventually the patrol is forced to help set them free, if only so they can leave c_n's borders.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -5356,7 +5356,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Hissing, p_l bowls the pet over, and with a ripping sound, the bat wing detaches from their back. The plump cat's crying increases in volume as they flee. p_l brings the trophy back to camp to boast.",
+                "text": "Hissing, p_l bowls the pet over, and with a ripping sound, the batfly wing detaches from their back. The plump slugcat's crying increases in volume as they flee. p_l brings the trophy back to camp to boast.",
                 "exp": 15,
                 "weight": 20,
                 "outsider_rep": -2
@@ -5384,7 +5384,7 @@
                 "weight": 20
             },
             {
-                "text": "The patrol cautiously heads in the direction of the strange, motionless eyes. When p_l gets closer {PRONOUN/p_l/subject} {VERB/p_l/are/is} overwhelmed with the scent of Iterators and smoke. Upon closer inspection, it seems that these foolish Sekkers are trying to set fire to a pumpkin with an unsettling hollow face! p_l and r_c charge the Seekers, hissing, spitting, and doing their best to scare them off. Thankfully the Seekers scatter before they set the pumpkin ablaze.",
+                "text": "The patrol cautiously heads in the direction of the strange, motionless eyes. When p_l gets closer {PRONOUN/p_l/subject} {VERB/p_l/are/is} overwhelmed with the scent of Iterators and smoke. Upon closer inspection, it seems that these foolish Scavengers are trying to set fire to a pumpkin with an unsettling hollow face! p_l and r_c charge the Iterators, hissing, spitting, and doing their best to scare them off. Thankfully the Iterators scatter before they set the pumpkin ablaze.",
                 "exp": 10,
                 "weight": 5
             },
@@ -5406,7 +5406,7 @@
                 ]
             },
             {
-                "text": "The patrol nervously heads towards the unblinking eyes, unsure of what lies ahead. As the strange object comes into view, s_c lets out a mrrow of laughter! {PRONOUN/s_c/subject/CAP} {VERB/s_c/explain/explains} that this is a scavenger ritual performed around the start of leaf-bare. p_l is glad to have a slugcat with s_c's understanding of Iterators on this patrol. With this knowledge, unneeded panic was surely avoided!",
+                "text": "The patrol nervously heads towards the unblinking eyes, unsure of what lies ahead. As the strange object comes into view, s_c lets out a mrrow of laughter! {PRONOUN/s_c/subject/CAP} {VERB/s_c/explain/explains} that this is a scavenger ritual performed around the start of leaf-bare. p_l is glad to have a slugcat with s_c's understanding of scavengers on this patrol. With this knowledge, unneeded panic was surely avoided!",
                 "exp": 15,
                 "weight": 10,
                 "stat_skill": [
@@ -5414,7 +5414,7 @@
                     "LONER,0"]
             },
             {
-                "text": "The patrol nervously heads towards the unblinking eyes, unsure of what lies ahead. As the strange object comes into view, s_c begins to bristle with unease. {PRONOUN/s_c/subject/CAP} can see strange, mist-like Iterators floating around the glowing, unblinking face of a... pumpkin? The figures approach s_c, and run their cold, fur-less paws through {PRONOUN/s_c/subject} fur. s_c can hardly hear r_c asking {PRONOUN/s_c/object} why {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} frozen in place.",
+                "text": "The patrol nervously heads towards the unblinking eyes, unsure of what lies ahead. As the strange object comes into view, s_c begins to bristle with unease. {PRONOUN/s_c/subject/CAP} can see strange, mist-like Scavengers floating around the glowing, unblinking face of a... pumpkin? The figures approach s_c, and run their cold, fur-less paws through {PRONOUN/s_c/subject} fur. s_c can hardly hear r_c asking {PRONOUN/s_c/object} why {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} frozen in place.",
                 "exp": 20,
                 "weight": 10,
                 "stat_skill": ["GHOST,1"]
@@ -5422,12 +5422,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol cautiously heads in the direction of the strange, motionless eyes. As they get closer to what seems to be some sort of pumpkin, a group of Seekers springs out of nowhere and chases the frightened slugcats off! The patrol runs until the Seekers stop following. Panting and defeated, they return to camp without much information about the strange face.",
+                "text": "The patrol cautiously heads in the direction of the strange, motionless eyes. As they get closer to what seems to be some sort of pumpkin, a group of scavengers springs out of nowhere and chases the frightened slugcats off! The patrol runs until the scavengers stop following. Panting and defeated, they return to camp without much information about the strange face.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "As r_c slowly creeps towards the disturbing face, s_c huffs with frustration. Tail lashing, s_c calls r_c a batfly-heart and stomps in the direction of the unblinking eyes without a shred of fear. s_c rolls {PRONOUN/s_c/poss} eyes and knocks over the harmless pumpkin, ignoring the strange face and the smell of smoke wafting around it.",
+                "text": "As r_c slowly creeps towards the disturbing face, s_c huffs with frustration. Tail lashing, s_c calls r_c a yeek-heart and stomps in the direction of the unblinking eyes without a shred of fear. s_c rolls {PRONOUN/s_c/poss} eyes and knocks over the harmless pumpkin, ignoring the strange face and the smell of smoke wafting around it.",
                 "exp": 5,
                 "weight": 20,
                 "stat_trait": [
@@ -5462,22 +5462,22 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol stumbles upon a strange scene near a scavenger den: Seekers traveling from den to den in colorful pelts.",
+        "intro_text": "The patrol stumbles upon a strange scene near a scavenger den: scavengers traveling from den to den in colorful pelts.",
         "decline_text": "The patrol decides it's best not to interfere with this peculiar ritual.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "r_c, being ever so curious, decides to see if {PRONOUN/r_c/subject} can decipher the meaning behind this scavenger ritual. After some time, {PRONOUN/r_c/subject} {VERB/r_c/realize/realizes} it's some kind of friendly exchange. Each time the Seekers go to the den, they receive a bit of prey from the Iterators. The patrol takes note and continues on their way, amused by the Iterators' strange customs.",
+                "text": "r_c, being ever so curious, decides to see if {PRONOUN/r_c/subject} can decipher the meaning behind this scavenger ritual. After some time, {PRONOUN/r_c/subject} {VERB/r_c/realize/realizes} it's some kind of friendly exchange. Each time the scavenger pups go to the den, they receive a bit of prey from the scavengers. The patrol takes note and continues on their way, amused by the scavengers' strange customs.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "r_c cautiously approaches the Seekers, intrigued by their colorful pelts. To r_c's surprise, one of the Seekers offers {PRONOUN/r_c/object} a strange, shiny object. It doesn't smell exactly like prey, but r_c decides to take it back to the camp for further investigation.",
+                "text": "r_c cautiously approaches the scavengers, intrigued by their colorful pelts. To r_c's surprise, one of the scavengers offers {PRONOUN/r_c/object} a strange, shiny object. It doesn't smell exactly like prey, but r_c decides to take it back to the camp for further investigation.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "r_c decides to mimic the Seekers. Approaching a larger scavenger den, {PRONOUN/r_c/subject} {VERB/r_c/meow/meows} softly at the entrance. The scavenger that opens the entrance seems amused and hands r_c a morsel of food. The patrol brings it back to camp for further investigation.",
+                "text": "r_c decides to mimic the scavengers. Approaching a larger scavenger den, {PRONOUN/r_c/subject} {VERB/r_c/meow/meows} softly at the entrance. The scavenger that opens the entrance seems amused and hands r_c a morsel of food. The patrol brings it back to camp for further investigation.",
                 "exp": 10,
                 "weight": 20
             }
@@ -5489,7 +5489,7 @@
                 "weight": 10
             },
             {
-                "text": "The patrol attempts to get closer to the Seekers, but their presence causes panic among the little creatures. The Iterators nearby seem agitated, waving their paws and stomping around. The slugcats quickly retreat to avoid causing further disruption.",
+                "text": "The patrol attempts to get closer to the scavengers, but their presence causes panic among the little creatures. The scavengers nearby seem agitated, waving their paws and stomping around. The slugcats quickly retreat to avoid causing further disruption.",
                 "exp": 0,
                 "weight": 10
             }
@@ -5943,7 +5943,7 @@
         },
         "weight": 20,
         "chance_of_success": 40,
-        "intro_text": "The patrol reaches o_c_n's border just as a o_c_n patrol approaches from the other side. The cats of both Clans shift uneasily, waiting for someone to break the silence. app1 perks up when {PRONOUN/app1/subject} {VERB/app1/spot/spots} another apprentice in the o_c_n patrol.",
+        "intro_text": "The patrol reaches o_c_n's border just as a o_c_n patrol approaches from the other side. The slugcats of both Clans shift uneasily, waiting for someone to break the silence. app1 perks up when {PRONOUN/app1/subject} {VERB/app1/spot/spots} another apprentice in the o_c_n patrol.",
         "decline_text": "p_l quickly marks the border and then steers {PRONOUN/p_l/poss} patrol away from the o_c_n patrol. Best not to risk a confrontation.",
         "success_outcomes": [
             {
@@ -6108,7 +6108,7 @@
                 "art": "gen_bord_twocat_hostile_app_warrior"
             },
                 {
-                "text": "app1 arches {PRONOUN/app1/poss} back and spits an insult at the o_c_n apprentice. They're as scrawny as a mouse in leaf-bare! Doesn't o_c_n bother feeding their slugpups? Oh, sorry, they're an <i>apprentice?</i> Wow, app1 didn't think an apprentice could even <i>be</i> that small.",
+                "text": "app1 arches {PRONOUN/app1/poss} back and spits an insult at the o_c_n apprentice. They're as scrawny as a yeek in leaf-bare! Doesn't o_c_n bother feeding their slugpups? Oh, sorry, they're an <i>apprentice?</i> Wow, app1 didn't think an apprentice could even <i>be</i> that small.",
                 "exp": 15,
                 "weight": 40,
                 "stat_skill": [ "SPEAKER,1" ],
@@ -6147,7 +6147,7 @@
                 ]
             },
             {
-                "text": "app1 raises {PRONOUN/app1/poss} hackles, staring down the other apprentice until they spit a challenge back. Tempers flare, and the patrols size each other up. It doesn't take much for the o_c_n patrol to decide c_n has put a paw wrong and leap across the border with claws unsheathed and teeth bared. s_c breaks up the skirmish, convincing {PRONOUN/s_c/poss} Clanmates not to waste all the medicine slugcat's herbs on a petty dispute.",
+                "text": "app1 raises {PRONOUN/app1/poss} hackles, staring down the other apprentice until they spit a challenge back. Tempers flare, and the patrols size each other up. It doesn't take much for the o_c_n patrol to decide c_n has put a paw wrong and leap across the border with claws unsheathed and teeth bared. s_c breaks up the skirmish, convincing {PRONOUN/s_c/poss} Clanmates not to waste all the cleric's herbs on a petty dispute.",
                 "exp": 0,
                 "weight": 40,
                 "stat_skill": [ "MEDIATOR,1", "SPEAKER,1", "TEACHER,1", "INSIGHTFUL,1"],

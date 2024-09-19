@@ -77,7 +77,7 @@
         ]
     },
     {
-        "patrol_id": "gen_hunt_rat1",
+        "patrol_id": "gen_hunt_slimemold1",
         "biome": ["any"],
         "season": ["any"],
         "types": ["hunting"],
@@ -87,24 +87,24 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol searches for an eggbug.",
+        "intro_text": "The patrol searches for a patch of slime mold.",
         "decline_text": "The patrol decides the search isn't worth the risk.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "The patrol find a good-sized eggbug! This'll feed quite a few scugs!",
+                "text": "The patrol find a good-sized patch! This'll feed quite a few scugs!",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"]
             },
             {
-                "text": "Only a single egg is found, sadly. Some food is better then none, though.",
+                "text": "Only a very patch is found, sadly. Some food is better then none, though.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["small"]
             },
             {
-                "text": "They find a huge eggbug! What a good find! This will feed many slugcats!",
+                "text": "They find a huge amount of the slime mold! What a good find! This will feed many slugcats!",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["HUNTER,2"],
@@ -113,14 +113,14 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol doesn't find any of the elusive bugs, and return empty-pawed",
+                "text": "The patrol doesn't find any of the elusive mold, and return empty-pawed",
                 "exp": 0,
                 "weight": 20
             }
         ]
     },
     {
-        "patrol_id": "gen_hunt_hare1",
+        "patrol_id": "gen_hunt_eggbug1",
         "biome": ["any"],
         "season": ["any"],
         "types": ["hunting"],
@@ -158,12 +158,12 @@
         ]
     },
     {
-        "patrol_id": "gen_hunt_bird1",
+        "patrol_id": "gen_hunt_batfly1",
         "biome": ["any"],
         "season": ["any"],
         "types": ["hunting"],
         "tags": [],
-        "patrol_art": "gen_hunt_bird",
+        "patrol_art": "gen_hunt_batfly",
         "min_cats": 1,
         "max_cats": 3,
         "min_max_status": {},
@@ -195,7 +195,7 @@
         ]
     },
     {
-        "patrol_id": "gen_hunt_squirrel1",
+        "patrol_id": "gen_hunt_bluefruit1",
         "biome": ["any"],
         "season": ["any"],
         "types": ["hunting"],
@@ -216,7 +216,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "They evade a green lizard just barely! Behind where it was sunning itself is a patch of the bluefruit.",
+                "text": "They evade a green lizard just barely! Behind it's sunning spot is a patch of the bluefruit.",
                 "exp": 10,
                 "weight": 5,
                 "prey": ["medium"]
@@ -224,7 +224,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c is scared off of their hunt by a narrow escape from a pole plant.",
+                "text": "is scared off of their hunt by a narrow escape from a pole plant.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
@@ -232,7 +232,7 @@
         ]
     },
     {
-        "patrol_id": "gen_hunt_fish1",
+        "patrol_id": "gen_hunt_squidcada1",
         "biome": ["any"],
         "season": ["any"],
         "types": ["hunting"],
@@ -269,12 +269,12 @@
         ]
     },
     {
-        "patrol_id": "gen_hunt_fish2",
+        "patrol_id": "gen_hunt_batflies2",
         "biome": ["any"],
         "season": ["any"],
         "types": ["hunting"],
         "tags": [],
-        "patrol_art": "gen_hunt_fish",
+        "patrol_art": "gen_hunt_bird",
         "min_cats": 4,
         "max_cats": 6,
         "min_max_status": {},
@@ -307,7 +307,7 @@
         ]
     },
     {
-        "patrol_id": "gen_hunt_strangerabbit1",
+        "patrol_id": "gen_hunt_strangeeggbug1",
         "biome": ["any"],
         "season": ["any"],
         "types": ["hunting"],
@@ -317,23 +317,23 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c spots a blue lizard up ahead, but it seems to be acting strange. The patrol can see its tremors from far away.",
-        "decline_text": "r_c avoids catching the odd lizard and looks for other prey.",
+        "intro_text": "r_c spots a eggbug up ahead, but it seems to be acting strange. The patrol can see its tremors from a few scavenger-lengths away.",
+        "decline_text": "r_c avoids catching the odd eggbug and looks for other prey.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "r_c catches the blue lizard and it is eaten as normal.",
+                "text": "r_c catches the eggbug and it is eaten as normal.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["large"]
             },
             {
-                "text": "r_c catches the lizard, but when {PRONOUN/r_c/subject} {VERB/r_c/report/reports} about the strange incident at camp, the dead lizard is taken far away and buried.",
+                "text": "r_c catches the eggbug, but when {PRONOUN/r_c/subject} {VERB/r_c/report/reports} about the strange incident at camp, the dead eggbug is taken far away and buried.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "s_c stops the patrol from catching the lizard and takes the opportunity to teach them about the Rot, which can pass from prey to scug.",
+                "text": "s_c stops the patrol from catching the eggbug and takes the opportunity to teach them about the Rot, which can pass from prey to scug.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"]
@@ -341,12 +341,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c leaps for the lizard but it still manages to slip away, despite its obvious illness.",
+                "text": "r_c leaps for the eggbug but it still manages to slip away, despite its obvious illness.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "r_c catches the lizard, but later {PRONOUN/r_c/subject} and the slugcats who eat it become violently ill.",
+                "text": "r_c catches the eggbug, but later {PRONOUN/r_c/subject} and the slugcats who eat it become violently ill.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -367,12 +367,12 @@
         ]
     },
     {
-        "patrol_id": "gen_hunt_rabbit2",
+        "patrol_id": "gen_hunt_eggbug2",
         "biome": ["any"],
         "season": ["any"],
         "types": ["hunting"],
         "tags": [],
-        "patrol_art": "gen_hunt_rabbit",
+        "patrol_art": "gen_hunt_rat",
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {},
@@ -448,12 +448,12 @@
         ]
     },
     {
-        "patrol_id": "gen_hunt_rabbit3",
+        "patrol_id": "gen_hunt_eggbug3",
         "biome": ["any"],
         "season": ["any"],
         "types": ["hunting"],
         "tags": [],
-        "patrol_art": "gen_hunt_rabbit",
+        "patrol_art": "gen_hunt_rat",
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {},
@@ -680,7 +680,7 @@
             "all apprentices": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "r_c is tempted to eat the prey {PRONOUN/r_c/subject} just caught.",
+        "intro_text": "r_c is tempted to eat the food {PRONOUN/r_c/subject} just caught.",
         "decline_text": "r_c decides against breaking the Warrior Code.",
         "chance_of_success": 50,
         "success_outcomes": [
@@ -746,7 +746,7 @@
             "apprentice": [1, 6]
         },
         "weight": 20,
-        "intro_text": "r_c is tempted to eat the prey {PRONOUN/r_c/subject} just caught.",
+        "intro_text": "r_c is tempted to eat the food {PRONOUN/r_c/subject} just caught.",
         "decline_text": "r_c decides against breaking the Warrior Code.",
         "chance_of_success": 50,
         "success_outcomes": [
@@ -998,7 +998,7 @@
         ]
     },
     {
-        "patrol_id": "gen_hunt_twolegdogsdeer1",
+        "patrol_id": "gen_hunt_yellowlizards1",
         "biome": ["any"],
         "season": ["newleaf"],
         "types": ["hunting"],
@@ -1015,7 +1015,7 @@
         "chance_of_success": 25,
         "success_outcomes": [
             {
-                "text": "The patrol silently creeps towards the noise. They discover several lizards fighting over a rain deer carcass some Seekers displaying alarm nearby. The Seekers distracts the lizards, their hisses disappearing in the distance. p_l can't help but feel thankful to the lizards; c_n will eat well for several days to come.",
+                "text": "The patrol silently creeps towards the noise. They discover several yellow lizards fighting over a rain deer carcass. The lizards are soon distracted by a theiving blue lizard, their hisses disappearing in the distance. p_l can't help but feel thankful to the lizards; c_n will eat well for several days to come.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["large"],
@@ -1037,7 +1037,7 @@
                 ]
             },
             {
-                "text": "p_l and the patrol pause and snicker when they see some Seekers' attempt to distract several lizards fighting over the rain deer carcass. As the Seekers finally lead them away, the patrol begins snacking on the carcass. A soft bleating noise nearby notifies them of the presence of the rain deer's still nursing fawn. They return to c_n with the fawn's carcass, proud and tall.",
+                "text": "p_l and the patrol pause and snicker when they see several yellow lizards fighting over the rain deer carcass. As the yellow lizards forget about the carcass in their arguing, the patrol begins snacking on the carcass in their absence. A soft bleating noise nearby notifies them of the presence of the rain deer's still nursing fawn. They return to c_n with the fawn's carcass, proud and tall.",
                 "exp": 10,
                 "weight": 5,
                 "prey": ["large"],
@@ -1061,7 +1061,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Following the noises, they see lizards eating a rain deer and seekers trying to distact them. Soon, the beasts are lead away and the patrol goes to check out the rain deer. Suddenly, the sound of hissing reaches their ears and as the lizards come back into view, the patrol scatters! p_l has to spend the whole day gathering the patrol rather than hunting.",
+                "text": "Following the noises, they see yellow lizards eating a rain deer. Soon, the beasts are distracted by a theiving blue lizard and give chase, allowing the scugs to eat. Suddenly, the sound of hissing reaches their ears and as the lizards come back into view, the patrol scatters! p_l has to spend the whole day gathering the patrol rather than hunting.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1084,7 +1084,7 @@
         ]
     },
     {
-    "patrol_id": "gen_hunt_stinkyrat",
+    "patrol_id": "gen_hunt_centipede",
     "biome": ["any"],
     "season": ["leaf-bare"],
     "types": ["hunting"],
@@ -3560,53 +3560,6 @@
                 "reg_death": "m_c died after a small injury progressed to something worse.",
                 "lead_death": "died after a small injury progressed to something worse"
               }
-        }
-    ]
-},
-  {
-    "patrol_id": "gen_hunt_kittylion",
-    "biome": ["any"],
-    "season": ["any"],
-    "types": ["hunting"],
-    "tags": ["halloween"],
-    "patrol_art": "kittylion_INTRO",
-    "min_cats": 1,
-    "max_cats": 1,
-    "min_max_status": {
-      "apprentice": [1,1]
-    },
-    "weight": 20,
-    "intro_text": "app1 huffs in frustration when all scents of prey are drowned out by pet scent. {PRONOUN/app1/subject/CAP} {VERB/app1/follow/follows} the scent to discover a... flat slugcat? But slugcats aren't flat? And why does it smell like a pet?",
-    "decline_text": "One can never be too cautious around strange creatures; who knows whether it could be deadly? {PRONOUN/app1/subject/CAP} {VERB/app1/are/is} just an apprentice after all! app1 backs away from the flat slugcat, praying that the Ascended understands {PRONOUN/app1/poss} empty-pawed return.",
-    "chance_of_success": 50,
-    "success_outcomes": [
-        {
-            "text": "app1 cautiously greets the scug, when {PRONOUN/app1/object} finds out it is not actually a slugcat, but a seeker's picture. Whew! Now app1 can return to {PRONOUN/app1/poss} hunting in peace, knowing the silly picture poses no harm.",
-            "exp": 20,
-            "weight": 20,
-            "prey": ["small"],
-            "art": ["kittylion_OUTCOME"]
-        },
-        {
-            "text": "Boldly, s_c steps forward to interrogate the scug, but it disappears before {PRONOUN/app1/poss} can get close. The seeker disappears quickly!",
-            "exp": 20,
-            "weight": 20,
-            "stat_trait": [
-                "bold", 
-                "confident", 
-                "daring", 
-                "adventurous", 
-                "shameless", 
-                "playful"
-            ],
-            "art": ["kittylion_OUTCOME"]
-        }
-    ],
-    "fail_outcomes": [
-        {
-            "text": "While attempting to stalk up to the slugcat, app1 trips and falls flat on {PRONOUN/app1/poss} face. The scug disappears before it can even get close. Sullen, app1 trots home empty-pawed and full of questions about what {PRONOUN/app1/subject} even encountered. ",
-            "exp": 0,
-            "weight": 20
         }
     ]
 },
