@@ -37,6 +37,7 @@ class Pelt():
         'Leviathan': 'leviathan',
         'Fluffy': 'fluffy',
         'Amoeba': 'amoeba',
+        'Seaslug': 'seaslug',
         'Tortie': None,
         'Calico': None,
     }
@@ -121,7 +122,7 @@ class Pelt():
     tabbies = ["Tabby", "Ticked", "Mackerel", "Classic", "Sokoke", "Agouti", "Masked", "Vulture"]
     spotted = ["Speckled", "Rosette", "Gravel", "Banana", "Conductor"]
     plain = ["SingleColour", "TwoColour", "Smoke", "Singlestripe", "Collared", "Slimemold", "Fluffy"]
-    exotic = ["Bengal", "Marbled", "Lizard", "Cyanlizard", "Centipede", "Lantern", "Leviathan", "Amoeba"]
+    exotic = ["Bengal", "Marbled", "Lizard", "Cyanlizard", "Centipede", "Lantern", "Leviathan", "Amoeba", "Seaslug"]
     torties = ["Tortie", "Calico"]
     pelt_categories = [tabbies, spotted, plain, exotic, torties]
 
