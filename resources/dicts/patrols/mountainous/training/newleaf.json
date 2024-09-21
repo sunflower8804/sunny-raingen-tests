@@ -622,7 +622,7 @@
         "decline_text": "Best not to be anywhere near an adult centiwing fresh from hibernation, the slugcats decide.",
         "success_outcomes": [
                 {
-                    "text": "Have they ever starved? Felt hunger gnawing their belly until it flips, filled it with water just to get a moment's relief, felt their limbs tremble with weakness as their mind desperately yearns for prey? How long did that take, a day, a quarter of a moon? Imagine several moons in a row without food. Stay away from adult centiwings emerging from hibernation.",
+                    "text": "Have they ever starved? Felt hunger gnawing their belly until it flips, filled it with water just to get a moment's relief, felt their limbs tremble with weakness as their mind desperately yearns for prey? How long did that take, a day, a quarter of a cycle? Imagine several cycles in a row without food. Stay away from adult centiwings emerging from hibernation.",
                     "exp": 30,
                     "weight": 20,
                     "art": "gen_train_ghost",

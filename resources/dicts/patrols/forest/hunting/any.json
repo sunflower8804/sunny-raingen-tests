@@ -1,6 +1,6 @@
 [
     {
-        "patrol_id": "fst_hunt_porcupine1",
+        "patrol_id": "fst_hunt_kelp1",
         "biome": ["forest"],
         "season": ["any"],
         "types": ["hunting"],
@@ -1147,7 +1147,7 @@
                 "can_have_stat": ["app"]
             },
             {
-                "text": "While on the hunt, r_c tumbles right down a steep slope while {PRONOUN/r_c/poss} attention is elsewhere. Bruised and sore, r_c has to report to the medicine slugcat den when {PRONOUN/r_c/subject} {VERB/r_c/return/returns} to camp.",
+                "text": "While on the hunt, r_c tumbles right down a steep slope while {PRONOUN/r_c/poss} attention is elsewhere. Bruised and sore, r_c has to report to the cleric den when {PRONOUN/r_c/subject} {VERB/r_c/return/returns} to camp.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [

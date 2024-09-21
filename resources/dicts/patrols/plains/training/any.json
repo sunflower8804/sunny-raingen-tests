@@ -1137,7 +1137,7 @@
                 "can_have_stat": ["app"]
             },
             {
-                "text": "The apprentice wanders along obliviously and slips, and tumbling right down into a well-hidden gully. Bruised and sore, app1 has to report to the medicine slugcat den when they return to camp.",
+                "text": "The apprentice wanders along obliviously and slips, and tumbling right down into a well-hidden gully. Bruised and sore, app1 has to report to the cleric den when they return to camp.",
                 "exp": 0,
                 "weight": 10,
                 "art": "gen_train_soggykitty_mad_app",
@@ -2019,7 +2019,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "app2 bursts out from cover, pouncing on app1 with claws sheathed and giggling. app1 rolls with the blow and kicks app2 off, bounding after them with promises of getting them back! On and on the chase goes, neither interested in winning it as they play under the light of the full moon.",
+                "text": "app2 bursts out from cover, pouncing on app1 with claws sheathed and giggling. app1 rolls with the blow and kicks app2 off, bounding after them with promises of getting them back! On and on the chase goes, neither interested in winning it as they play under the light of the full cycle.",
                 "exp": 10,
                 "weight": 20,
                 "art": "fst_hunt_fun4",

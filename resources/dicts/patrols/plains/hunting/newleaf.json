@@ -87,7 +87,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the slugcats give up on challenging for the food in favor of quickly helping r_c back to the medicine slugcat den.",
+                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the slugcats give up on challenging for the food in favor of quickly helping r_c back to the cleric den.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -223,7 +223,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the slugcats give up on challenging for the food in favor of quickly helping r_c back to the medicine slugcat den.",
+                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the slugcats give up on challenging for the food in favor of quickly helping r_c back to the cleric den.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1330,7 +1330,7 @@
         },
         "weight": 20,
         "intro_text": "p_l stalks low to the ground, paws soft and light so as not to make a sound. Their jaws hang open to taste at the air, and a tingle of satisfaction shoots through them as they scent a nearby lanternmouse, just awakening from its leaf-bare hibernation.",
-        "decline_text": "Though they're pleased to know the lanternmice are waking up, they don't pursue this one. It hasn't properly eaten in moons; better to let it wake up and get fatter before bringing it home.",
+        "decline_text": "Though they're pleased to know the lanternmice are waking up, they don't pursue this one. It hasn't properly eaten in cycles; better to let it wake up and get fatter before bringing it home.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
@@ -4182,7 +4182,7 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "p_l finds a patch of herbs that {PRONOUN/p_l/subject} believe c_n might need for their stores. {PRONOUN/p_l/subject/CAP} freely admit to {PRONOUN/p_l/poss} patrol {PRONOUN/p_l/subject} {VERB/p_l/aren't/isn't} a medicine slugcat, and ask {PRONOUN/p_l/poss} companions' advice. What do they know about this part of the plains' herbal properties, especially with the herb stores still recovering from leaf-bare?",
+        "intro_text": "p_l finds a patch of herbs that {PRONOUN/p_l/subject} believe c_n might need for their stores. {PRONOUN/p_l/subject/CAP} freely admit to {PRONOUN/p_l/poss} patrol {PRONOUN/p_l/subject} {VERB/p_l/aren't/isn't} a cleric, and ask {PRONOUN/p_l/poss} companions' advice. What do they know about this part of the plains' herbal properties, especially with the herb stores still recovering from leaf-bare?",
         "decline_text": "They decide to focus on hunting and leave the herb collecting to the medicine slugcats.",
         "chance_of_success": 50,
         "success_outcomes": [

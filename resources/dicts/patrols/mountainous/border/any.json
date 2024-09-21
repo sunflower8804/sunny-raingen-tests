@@ -710,7 +710,7 @@
 		{
             "text": "s_c spots the nimble cyan lizard first, and pauses in {PRONOUN/s_c/poss} fright. However, instead of brandishing a spear, they use kindness as their weapon... And it somehow works! s_c now has a story to tell about {PRONOUN/s_c/poss} new friend!",
             "exp": 40,
-            "weight": 1,
+            "weight": 5,
 			"art": "gen_liztame_cyan",
             "stat_trait": [
                 "compassionate",
@@ -739,7 +739,7 @@
             ]
         },
         {
-            "text": "s_c {PRONOUN/s_c/subject} {VERB/s_c/do/does}n't feel like {PRONOUN/s_c/subject} {VERB/s_c/have/has} the skill or power to take on a cyan lizard single-pawed, but s_c would give {PRONOUN/s_c/poss} life for c_n. {PRONOUN/s_c/subject/CAP} {VERB/s_c/charge/charges} in courageously to lead the lizard away from c_n territory. Each burst from it's tail could be the herald of their doom, each jump the last thing {PRONOUN/s_c/subject} might ever feel, but somehow, limbs and lungs burning, {PRONOUN/s_c/subject} eventually {VERB/s_c/leap/leaps} to refuge.",
+            "text": "{PRONOUN/s_c/subject} {VERB/s_c/do/does}n't feel like {PRONOUN/s_c/subject} {VERB/s_c/have/has} the skill or power to take on a cyan lizard single-pawed, but s_c would give {PRONOUN/s_c/poss} life for c_n. {PRONOUN/s_c/subject/CAP} {VERB/s_c/charge/charges} in courageously to lead the lizard away from c_n territory. Each burst from it's tail could be the herald of their doom, each jump the last thing {PRONOUN/s_c/subject} might ever feel, but somehow, limbs and lungs burning, {PRONOUN/s_c/subject} eventually {VERB/s_c/leap/leaps} to refuge.",
             "exp": 40,
             "weight": 20,
             "stat_trait": [
@@ -898,7 +898,7 @@
 		{
             "text": "s_c spots the nimble cyan lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The cyan lizard follows s_c home, happily sticking close to their new friend.",
             "exp": 40,
-            "weight": 1,
+            "weight": 5,
 			"art": "gen_liztame_cyan",
             "stat_trait": [
                 "compassionate",
@@ -1131,7 +1131,7 @@
 		{
             "text": "s_c spots the nimble cyan lizard first, and stops the rest of the patrol. Instead of brandishing a spear, they use kindness as their weapon... And it somehow works! The cyan lizard follows s_c home, happily sticking close to their new friend.",
             "exp": 40,
-            "weight": 1,
+            "weight": 5,
 			"art": "gen_liztame_cyan",
             "stat_trait": [
                 "compassionate",

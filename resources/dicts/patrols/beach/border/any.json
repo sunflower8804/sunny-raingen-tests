@@ -1818,8 +1818,8 @@
 			{
                 "text": "s_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} slowly approaches the salamnder. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 1,
-		"art": "gen_liztame_melasala",
+                "weight": 5,
+				"art": "gen_liztame_melasala",
                 "stat_trait": [
                     "compassionate",
                     "confident",
@@ -1830,7 +1830,7 @@
                     "charismatic",
                     "daring"
                 ],
-		"accessory": [
+				"accessory": [
                     {
                         "cats": ["s_c"],
                         "accessory": ["MELASALAFUSHIA", "MELASALARED"]
@@ -1849,8 +1849,8 @@
 			{
                 "text": "s_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} slowly approaches the salamnder. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 1,
-		"art": "gen_liztame_melasala",
+                "weight": 5,
+				"art": "gen_liztame_melasala",
                 "stat_trait": [
                     "compassionate",
                     "confident",
@@ -1861,7 +1861,7 @@
                     "charismatic",
                     "daring"
                 ],
-		"accessory": [
+				"accessory": [
                     {
                         "cats": ["s_c"],
                         "accessory": ["MELASALAFUSHIA", "MELASALARED"]
@@ -1880,8 +1880,8 @@
 			{
                 "text": "s_c barely spots the salamander in the water! {PRONOUN/p_l/poss} slowly approaches the albino salamander. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 1,
-		"art": "gen_liztame_albisala",
+                "weight": 5,
+				"art": "gen_liztame_albisala",
                 "stat_trait": [
                     "compassionate",
                     "confident",
@@ -1892,7 +1892,7 @@
                     "charismatic",
                     "daring"
                 ],
-		"accessory": [
+				"accessory": [
                     {
                         "cats": ["s_c"],
                         "accessory": ["ALBISALAFUSHIA", "ALBISALARED"]
@@ -1912,8 +1912,8 @@
                 "text": "r_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} slowly approaches the salamnder. It's frills are soon twitching as it follows r_c home!",
                 "exp": 20,
                 "weight": 1,
-		"art": "gen_liztame_melasala",
-		"accessory": [
+				"art": "gen_liztame_melasala",
+				"accessory": [
                     {
                         "cats": ["r_c"],
                         "accessory": ["MELASALAFUSHIA", "MELASALARED"]
@@ -1933,8 +1933,8 @@
                 "text": "r_c barely spots the salamander in the water! {PRONOUN/p_l/poss} slowly approaches the albino salamander. It's frills are soon twitching as it follows r_c home!",
                 "exp": 20,
                 "weight": 1,
-		"art": "gen_liztame_albisala",
-		"accessory": [
+				"art": "gen_liztame_albisala",
+				"accessory": [
                     {
                         "cats": ["r_c"],
                         "accessory": ["ALBISALAFUSHIA", "ALBISALARED"]
@@ -2048,8 +2048,8 @@
 			{
                 "text": "s_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamander. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 1,
-		"art": "gen_liztame_melasala",
+                "weight": 5,
+				"art": "gen_liztame_melasala",
                 "stat_trait": [
                     "compassionate",
                     "confident",
@@ -2060,7 +2060,7 @@
                     "charismatic",
                     "daring"
                 ],
-	        "accessory": [
+				"accessory": [
                     {
                         "cats": ["s_c"],
                         "accessory": ["MELASALAFUSHIA", "MELASALARED"]
@@ -2079,8 +2079,8 @@
 			{
                 "text": "s_c barely spots the albino salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamander. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 1,
-		"art": "gen_liztame_albisala",
+                "weight": 5,
+				"art": "gen_liztame_albisala",
                 "stat_trait": [
                     "compassionate",
                     "confident",
@@ -2091,8 +2091,7 @@
                     "charismatic",
                     "daring"
                 ],
-				
-		"accessory": [
+				"accessory": [
                     {
                         "cats": ["s_c"],
                         "accessory": ["ALBISALAFUSHIA", "ALBISALARED"]
@@ -2112,8 +2111,8 @@
                 "text": "r_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamnder. It's frills are soon twitching as it follows r_c home!",
                 "exp": 20,
                 "weight": 1,
-		"art": "gen_liztame_melasala",
-		"accessory": [
+				"art": "gen_liztame_melasala",
+				"accessory": [
                     {
                         "cats": ["r_c"],
                         "accessory": ["MELASALAFUSHIA", "MELASALARED"]
@@ -2133,8 +2132,8 @@
                 "text": "r_c barely spots the albino salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamnder. It's frills are soon twitching as it follows r_c home!",
                 "exp": 20,
                 "weight": 1,
-		"art": "gen_liztame_albisala",
-		"accessory": [
+				"art": "gen_liztame_albisala",
+				"accessory": [
                     {
                         "cats": ["r_c"],
                         "accessory": ["ALBISALAFUSHIA", "ALBISALARED"]
@@ -2248,8 +2247,8 @@
 			{
                 "text": "s_c barely spots the melanistic salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamander. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 1,
-		"art": "gen_liztame_melasala",
+                "weight": 5,
+				"art": "gen_liztame_melasala",
                 "stat_trait": [
                     "compassionate",
                     "confident",
@@ -2279,8 +2278,8 @@
 			{
                 "text": "s_c barely spots the albino salamander in the water! {PRONOUN/p_l/poss} puts a paw out to stop the patrol, and slowly approaches the salamander. It's frills are soon twitching as it follows s_c home!",
                 "exp": 30,
-                "weight": 1,
-		"art": "gen_liztame_albisala",
+                "weight": 5,
+				"art": "gen_liztame_albisala",
                 "stat_trait": [
                     "compassionate",
                     "confident",

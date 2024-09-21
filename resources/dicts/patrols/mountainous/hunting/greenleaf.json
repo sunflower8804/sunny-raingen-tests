@@ -721,7 +721,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the slugcats give up on challenging for the food in favor of quickly helping r_c back to the medicine slugcat den.",
+                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the slugcats give up on challenging for the food in favor of quickly helping r_c back to the cleric den.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -857,7 +857,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the slugcats give up on challenging for the food in favor of quickly helping r_c back to the medicine slugcat den.",
+                "text": "The patrol launches into battle, but r_c is caught with a nasty bite, and the slugcats give up on challenging for the food in favor of quickly helping r_c back to the cleric den.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1079,24 +1079,24 @@
             "all apprentices": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "p_l tastes the air and perks up - there's a squirrel nearby, nibbling the lush plant growth near the base of a tree!",
+        "intro_text": "p_l tastes the air and perks up - there's a lanternmouse nearby, nibbling the lush plant growth near the base of a tree!",
         "decline_text": "After a moment's deliberation, r_c decides to move on.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "The wind suddenly shifts, and the squirrel jerks its head up in alarm. p_l thinks fast, bolting to cut off its escape before delivering the killing blow.",
+                "text": "The wind suddenly shifts, and the lanternmouse jerks its head up in alarm. p_l thinks fast, bolting to cut off its escape before delivering the killing blow.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["medium"]
             },
             {
-                "text": "Though it tries to escape, p_l is faster and smarter - {PRONOUN/p_l/subject} {VERB/p_l/slam/slams} a paw down on the squirrel's tail before it can go very far, and kill it with ease.",
+                "text": "Though it tries to escape, p_l is faster and smarter - {PRONOUN/p_l/subject} {VERB/p_l/slam/slams} a paw down on the lanternmouse's tail before it can go very far, and kill it with ease.",
                 "exp": 10,
                 "weight": 5,
                 "prey": ["medium"]
             },
             {
-                "text": "s_c silently slinks through the underbrush, going undetected until {PRONOUN/s_c/subject} {VERB/s_c/have/has} pounced - and by then it's far too late for the squirrel to do anything about it.",
+                "text": "s_c silently slinks through the underbrush, going undetected until {PRONOUN/s_c/subject} {VERB/s_c/have/has} pounced - and by then it's far too late for the lanternmouse to do anything about it.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["HUNTER,1"],
@@ -1105,7 +1105,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l shifts on some pebbles as {PRONOUN/p_l/subject} {VERB/p_l/ready/readies} {PRONOUN/p_l/self} to pounce, and the resulting clatter alerts the squirrel. It doesn't even spare {PRONOUN/p_l/object} a glance as it scurries up the tree and out of sight.",
+                "text": "p_l shifts on some pebbles as {PRONOUN/p_l/subject} {VERB/p_l/ready/readies} {PRONOUN/p_l/self} to pounce, and the resulting clatter alerts the lanternmouse. It doesn't even spare {PRONOUN/p_l/object} a glance as it scurries up the tree and out of sight.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
@@ -1125,8 +1125,8 @@
             "apprentice": [1, 6]
         },
         "weight": 20,
-        "intro_text": "app1 scents a squirrel on the air! Greenleaf has made prey fat and unaware, surely this would be an easy catch?",
-        "decline_text": "{PRONOUN/app1/subject/CAP} {VERB/app1/decide/decides} to move on and ignore the squirrel for now.",
+        "intro_text": "app1 scents a lanternmouse on the air! Greenleaf has made prey fat and unaware, surely this would be an easy catch?",
+        "decline_text": "{PRONOUN/app1/subject/CAP} {VERB/app1/decide/decides} to move on and ignore the lanternmouse for now.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
@@ -1136,7 +1136,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "Though {PRONOUN/app1/subject} {VERB/app1/are/is} a little sloppy, and the squirrel quickly spots {PRONOUN/app1/object}, app1 manages to secure the catch in the end!",
+                "text": "Though {PRONOUN/app1/subject} {VERB/app1/are/is} a little sloppy, and the lanternmouse quickly spots {PRONOUN/app1/object}, app1 manages to secure the catch in the end!",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["medium"]
@@ -1144,7 +1144,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Poor app1 focuses too hard on making sure {PRONOUN/app1/poss} hunting crouch is correct - by the time {PRONOUN/app1/subject} {VERB/app1/feel/feels} ready, the squirrel is long gone.",
+                "text": "Poor app1 focuses too hard on making sure {PRONOUN/app1/poss} hunting crouch is correct - by the time {PRONOUN/app1/subject} {VERB/app1/feel/feels} ready, the lanternmouse is long gone.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
@@ -1165,7 +1165,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l instructs app1 to scent the air, and nods in approval when app1 says {PRONOUN/app1/subject} {VERB/app1/smell/smells} squirrel. With greenleaf comes fatter prey that tends to stick to shady spots - p_l points out a few likely destinations the squirrel may be heading to, then softly asks app1 how {PRONOUN/app1/subject} would like to proceed.",
+        "intro_text": "p_l instructs app1 to scent the air, and nods in approval when app1 says {PRONOUN/app1/subject} {VERB/app1/smell/smells} lanternmouse. With greenleaf comes fatter prey that tends to stick to shady spots - p_l points out a few likely destinations the lanternmouse may be heading to, then softly asks app1 how {PRONOUN/app1/subject} would like to proceed.",
         "decline_text": "app1 looks apprehensive, and quietly says they want to look for something easier.",
         "chance_of_success": 50,
         "success_outcomes": [
@@ -1185,7 +1185,7 @@
                 ]
             },
             {
-                "text": "Though {PRONOUN/app1/subject} {VERB/app1/are/is} a little sloppy, and the squirrel quickly spots {PRONOUN/app1/object}, app1 manages to secure the catch in the end! p_l looks pleased, and gives {PRONOUN/app1/object} tips to improve {PRONOUN/app1/poss} technique next time.",
+                "text": "Though {PRONOUN/app1/subject} {VERB/app1/are/is} a little sloppy, and the lanternmouse quickly spots {PRONOUN/app1/object}, app1 manages to secure the catch in the end! p_l looks pleased, and gives {PRONOUN/app1/object} tips to improve {PRONOUN/app1/poss} technique next time.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["medium"],
@@ -1202,7 +1202,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "A misplaced step onto loose gravel is all that's needed to scare the squirrel away, and app1 watches in disappointment as it scampers away.",
+                "text": "A misplaced step onto loose gravel is all that's needed to scare the lanternmouse away, and app1 watches in disappointment as it scampers away.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1231,12 +1231,12 @@
             "deputy": [1, 6]
         },
         "weight": 20,
-        "intro_text": "As the patrol walks through the wooded slopes, a loud chittering from above interrupts them. One slugcat looks up just in time to get a shower of twigs and leaves to the face, while another exclaims aloud as they spot squirrels darting through the branches above.",
+        "intro_text": "As the patrol walks through the wooded slopes, a loud chittering from above interrupts them. One slugcat looks up just in time to get a shower of twigs and leaves to the face, while another exclaims aloud as they spot lanternmice darting through the branches above.",
         "decline_text": "Though they snort in amusement, the patrol decides to move on to easier prey, rather than waste their energy amongst the trees.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Before anyone can even speak, there's a loud crack from above. The slugcats scatter as a branch crashes down, bringing both squirrels and a shower of oak leaves with it! The patrol thinks fast, and pounce on the squirrels before they can escape. They head home with their bounty, each slugcat feeling quite pleased with themself.",
+                "text": "Before anyone can even speak, there's a loud crack from above. The slugcats scatter as a branch crashes down, bringing both lanternmice and a shower of oak leaves with it! The patrol thinks fast, and pounce on the lanternmice before they can escape. They head home with their bounty, each slugcat feeling quite pleased with themself.",
                 "exp": 40,
                 "weight": 20,
                 "herbs": ["oak_leaves"],
@@ -1252,7 +1252,7 @@
                 ]
             },
             {
-                "text": "A mischievous look in their eye, the deputy challenges their Clanmates - whoever catches one of the squirrels gets to skip dawn patrol for a whole moon. They're all eager to shimmy up the trees at that, and before long someone calls out in triumph. Not only do they have the squirrel, but they now also have a pawful of oak leaves for the medicine slugcat too!",
+                "text": "A mischievous look in their eye, the deputy challenges their Clanmates - whoever catches one of the lanternmice gets to skip dawn patrol for a whole cycle. They're all eager to shimmy up the trees at that, and before long someone calls out in triumph. Not only do they have the lanternmouse, but they now also have a pawful of oak leaves for the cleric too!",
                 "exp": 40,
                 "weight": 5,
                 "herbs": ["oak_leaves"],
@@ -1268,7 +1268,7 @@
                 ]
             },
             {
-                "text": "With a glint in their eye, s_c is up in the trees before anyone can say anything. There's rustling, a short pause, then squirrel carcasses begin falling to the ground, one by one. s_c descends when {PRONOUN/s_c/subject} {VERB/s_c/finish/finishes} with a mouthful of oak leaves, curling {PRONOUN/s_c/poss} tail in pride at the looks on {PRONOUN/s_c/poss} Clanmates faces.",
+                "text": "With a glint in their eye, s_c is up in the trees before anyone can say anything. There's rustling, a short pause, then lanternmouse carcasses begin falling to the ground, one by one. s_c descends when {PRONOUN/s_c/subject} {VERB/s_c/finish/finishes} with a mouthful of oak leaves, curling {PRONOUN/s_c/poss} tail in pride at the looks on {PRONOUN/s_c/poss} Clanmates faces.",
                 "exp": 40,
                 "weight": 20,
                 "stat_skill": ["HUNTER,1"],
@@ -1287,7 +1287,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Though they try to climb the trees in pursuit, the squirrels are much more suited to running along the branches, and they easily leave the patrol floundering as they disappear into the distance.",
+                "text": "Though they try to climb the trees in pursuit, the lanternmice are much more suited to running along the branches, and they easily leave the patrol floundering as they disappear into the distance.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1302,7 +1302,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "The patrol fans out, some slugcats climbing, some staying on the ground. The hunt comes to an abrupt end, however, when r_c yowls in fear as {PRONOUN/r_c/subject} {VERB/r_c/plummet/plummets} from the branches and land heavily on the ground. {PRONOUN/r_c/poss/CAP} Clanmates help {PRONOUN/r_c/object} home and settle {PRONOUN/r_c/object} into the medicine slugcat's den, guilt and regret prickling at them for pursuing such a foolhardy hunt.",
+                "text": "The patrol fans out, some slugcats climbing, some staying on the ground. The hunt comes to an abrupt end, however, when r_c yowls in fear as {PRONOUN/r_c/subject} {VERB/r_c/plummet/plummets} from the branches and land heavily on the ground. {PRONOUN/r_c/poss/CAP} Clanmates help {PRONOUN/r_c/object} home and settle {PRONOUN/r_c/object} into the cleric's den, guilt and regret prickling at them for pursuing such a foolhardy hunt.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1336,12 +1336,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "As the patrol walks through the wooded slopes, r_c explains an idea {PRONOUN/r_c/subject} had for squirrel hunting. It sounds a little strange, but perhaps it could work?",
+        "intro_text": "As the patrol walks through the wooded slopes, r_c explains an idea {PRONOUN/r_c/subject} had for lanternmouse hunting. It sounds a little strange, but perhaps it could work?",
         "decline_text": "The patrol decides they'd rather not spend time on something that might not work when they could be doing something they know <i>does</i>.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "r_c suggests baiting the squirrels with food and picking them off when they come out to eat. It's pretty tedious, and they end up having to move a few times, but it does work, and the patrol heads home with a decent amount of prey.",
+                "text": "r_c suggests baiting the lanternmice with food and picking them off when they come out to eat. It's pretty tedious, and they end up having to move a few times, but it does work, and the patrol heads home with a decent amount of prey.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"],
@@ -1356,7 +1356,7 @@
                 ]
             },
             {
-                "text": "r_c suggests baiting the squirrels with food and picking them off when they come out to eat. Waiting is the most difficult part; the squirrels don't seem to expect the trap, and they come home laden with prey.",
+                "text": "r_c suggests baiting the lanternmice with food and picking them off when they come out to eat. Waiting is the most difficult part; the lanternmice don't seem to expect the trap, and they come home laden with prey.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["large"],
@@ -1371,7 +1371,7 @@
                 ]
             },
             {
-                "text": "r_c suggests baiting the squirrels with food and picking them off when they come out to eat. All the patrol has to do is set the trap - with s_c on the patrol, they rarely have to lift a paw, and each slugcat carries multiple squirrels home.",
+                "text": "r_c suggests baiting the lanternmice with food and picking them off when they come out to eat. All the patrol has to do is set the trap - with s_c on the patrol, they rarely have to lift a paw, and each slugcat carries multiple lanternmice home.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["HUNTER,1"],
@@ -1389,7 +1389,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c suggests finding squirrels sheltered in trees, climbing above them, and shaking the branches to scare them down. Unfortunately for them, the idea is a little too far out there, and while they do manage a few small catches, the day is mostly wasted with little to show for it.",
+                "text": "r_c suggests finding lanternmice sheltered in trees, climbing above them, and shaking the branches to scare them down. Unfortunately for them, the idea is a little too far out there, and while they do manage a few small catches, the day is mostly wasted with little to show for it.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3023,7 +3023,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "r_c sees a squirrel {PRONOUN/r_c/subject}'d like for the fresh-kill pile, but the chase goes badly - {PRONOUN/r_c/subject} {VERB/r_c/throw/throws} out a front paw to stop {PRONOUN/r_c/poss} fall, claws scraping off rock, and it works, but it wrenches {PRONOUN/r_c/poss} foreleg out of socket. Fleas and ticks!",
+                "text": "r_c sees a lanternmouse {PRONOUN/r_c/subject}'d like for the fresh-kill pile, but the chase goes badly - {PRONOUN/r_c/subject} {VERB/r_c/throw/throws} out a front paw to stop {PRONOUN/r_c/poss} fall, claws scraping off rock, and it works, but it wrenches {PRONOUN/r_c/poss} foreleg out of socket. Fleas and ticks!",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3439,7 +3439,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "r_c sees a squirrel {PRONOUN/r_c/subject}'d like for the fresh-kill pile, but the chase goes badly - {PRONOUN/r_c/subject} {VERB/r_c/throw/throws} out a front paw to stop {PRONOUN/r_c/poss} fall, claws scraping off rock, and it works, but it wrenches {PRONOUN/r_c/poss} foreleg out of socket. Fleas and ticks!",
+                "text": "r_c sees a lanternmouse {PRONOUN/r_c/subject}'d like for the fresh-kill pile, but the chase goes badly - {PRONOUN/r_c/subject} {VERB/r_c/throw/throws} out a front paw to stop {PRONOUN/r_c/poss} fall, claws scraping off rock, and it works, but it wrenches {PRONOUN/r_c/poss} foreleg out of socket. Fleas and ticks!",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
