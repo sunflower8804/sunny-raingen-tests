@@ -1699,31 +1699,31 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol comes across a Thunderpath running through the grasslands.",
+        "intro_text": "The patrol comes across a wide open space running through the grasslands.",
         "decline_text": "They decide it is better not to cross.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The patrol crosses the Thunderpath and hunts on the other side.",
+                "text": "The patrol crosses the open space and hunts on the other side.",
                 "exp": 10,
                 "weight": 20,
-                "prey": ["medium"]
+                "prey": ["large"]
             },
             {
-                "text": "The patrol finds a pipe running under the Thunderpath and uses it to cross. They end up with damp paws, but a successful haul of prey.",
+                "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey.",
                 "exp": 10,
                 "weight": 5,
-                "prey": ["medium"]
+                "prey": ["large"]
             },
             {
-                "text": "The patrol stops on the edge of the Thunderpath, and s_c organizes a thorough search that finds a sliced up lantern mouse. It's a reminder of the danger of the Thunderpath, and a good source of scavenged meat.",
+                "text": "The patrol stops on the edge of the open space, and s_c organizes a thorough search that finds a hidden cache of bluefruit. The emptiness of the space feels unnatural, a warning of the dangers these places bring.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
-                "prey": ["medium"]
+                "prey": ["large"]
             },
             {
-                "text": "s_c is patient enough to wait until the Thunderpath is completely clear, then trots across to hunt on the other side.",
+                "text": "s_c is patient enough to wait until there is definately no vultures, then trots across to hunt on the other side.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -1738,29 +1738,28 @@
                     "thoughtful",
                     "wise"
                 ],
-                "prey": ["medium"]
+                "prey": ["large"]
             }
         ],
         "fail_outcomes": [
             {
-                "text": "r_c hears a miros bird thundering towards {PRONOUN/r_c/object}, but it's jaws just barely missed. That was close! Maybe it's best to go back to camp.",
+                "text": "r_c hears a the jets of a vulture, and ducks into cover just as the jaws snap behind {PRONOUN/r_c/poss} tail.",
                 "exp": 0,
-                "weight": 20,
-				"prey": ["very_small"]
+                "weight": 20
             },
             {
-                "text": "r_c is sliced by a miros bird while crossing and dies instantly.",
+                "text": "r_c is picked up by a vulture, never to be seen again.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "m_c was heavily injured by a miros bird, and carries the scars from it.",
-                    "reg_death": "m_c was sliced by a miros bird and killed.",
-                    "lead_death": "{VERB/m_c/were/was} sliced by a miros bird"
+                    "scar": "m_c was bitten by a vulture.",
+                    "reg_death": "m_c was carried away by a vulture.",
+                    "lead_death": "{VERB/m_c/were/was} carried away by a vulture"
                 }
             },
             {
-                "text": "r_c is sliced by a miros bird and seems quite injured, but miraculously still alive.",
+                "text": "r_c is picked up by a vulture, but miraculously gets free! They still fell a long way.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1771,9 +1770,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was heavily injured by a miros bird, and carries the scars from it.",
-                    "reg_death": "m_c was sliced by a miros bird and killed.",
-                    "lead_death": "{VERB/m_c/were/was} sliced by a miros bird"
+                    "scar": "m_c was heavily injured by a vulture, and carries the scars from it.",
+                    "reg_death": "m_c was dropped by a vulture and killed.",
+                    "lead_death": "{VERB/m_c/were/was} dropped by a vulture"
                 }
             }
         ]
@@ -1789,31 +1788,31 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol comes across a Thunderpath running through the grasslands.",
+        "intro_text": "The patrol comes across a wide open space running through the grasslands.",
         "decline_text": "They decide it is better not to cross.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The patrol crosses the Thunderpath and hunts on the other side.",
+                "text": "The patrol crosses the open space and hunts on the other side.",
                 "exp": 10,
                 "weight": 20,
-                "prey": ["medium"]
+                "prey": ["large"]
             },
             {
-                "text": "The patrol finds a pipe running under the Thunderpath and uses it to cross. They end up with damp paws, but a successful haul of prey.",
+                "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey.",
                 "exp": 10,
                 "weight": 5,
-                "prey": ["medium"]
+                "prey": ["large"]
             },
             {
-                "text": "The patrol stops on the edge of the Thunderpath, and s_c organizes a thorough search that finds a sliced up lantern mouse. It's a reminder of the danger of the Thunderpath, and a good source of scavenged meat.",
+                "text": "The patrol stops on the edge of the open space, and s_c organizes a thorough search that finds a hidden cache of bluefruit. The emptiness of the space feels unnatural, a warning of the dangers these places bring.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
-                "prey": ["medium"]
+                "prey": ["large"]
             },
             {
-                "text": "s_c is patient enough to wait until the Thunderpath is completely clear, then trots across to hunt on the other side.",
+                "text": "s_c is patient enough to wait until there is definately no vultures, then trots across to hunt on the other side.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -1828,28 +1827,28 @@
                     "thoughtful",
                     "wise"
                 ],
-                "prey": ["medium"]
+                "prey": ["large"]
             }
         ],
         "fail_outcomes": [
             {
-                "text": "r_c hears a miros bird thundering towards {PRONOUN/r_c/object}, but it jaws just barely miss. That was close! Maybe it's best to go back to camp.",
+                "text": "r_c hears a the jets of a vulture, and yowls a warning as the patrol ducks into cover. The vulture hovers for some time, but gives up on this hunt.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "r_c is crossing the Thunderpath and hears a miros bird thundering towards {PRONOUN/r_c/object}. {PRONOUN/r_c/subject/CAP} {VERB/r_c/freeze/freezes}, and the miros bird swerves to hit {PRONOUN/r_c/object} deliberately, killing {PRONOUN/r_c/object} instantly.",
+                "text": "r_c is picked up by a vulture, never to be seen again.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "m_c was heavily injured by a miros bird, and carries the scars from it.",
-                    "reg_death": "m_c was sliced by a miros bird and killed.",
-                    "lead_death": "{VERB/m_c/were/was} sliced by a miros bird"
+                    "scar": "m_c was bitten by a vulture.",
+                    "reg_death": "m_c was carried away by a vulture.",
+                    "lead_death": "{VERB/m_c/were/was} carried away by a vulture"
                 }
             },
             {
-                "text": "r_c is sliced by a miros bird and seems quite injured, but miraculously still alive.",
+                "text": "r_c is picked up by a vulture, but miraculously gets free! They still fell a long way.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1860,9 +1859,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was heavily injured by a miros bird, and carries the scars from it.",
-                    "reg_death": "m_c was sliced by a miros bird and killed.",
-                    "lead_death": "{VERB/m_c/were/was} sliced by a miros bird"
+                    "scar": "m_c was heavily injured by a vulture, and carries the scars from it.",
+                    "reg_death": "m_c was dropped by a vulture and killed.",
+                    "lead_death": "{VERB/m_c/were/was} dropped by a vulture"
                 }
             }
         ]
@@ -1878,31 +1877,31 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol comes across a Thunderpath running through the grasslands.",
+        "intro_text": "The patrol comes across a wide open space running through the grasslands.",
         "decline_text": "They decide it is better not to cross.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The patrol crosses the Thunderpath and hunts on the other side.",
+                "text": "The patrol crosses the open space and hunts on the other side.",
                 "exp": 10,
                 "weight": 20,
-                "prey": ["large"]
+                "prey": ["medium"]
             },
             {
-                "text": "The patrol finds a pipe running under the Thunderpath and uses it to cross. They end up with damp paws, but a successful haul of lots of prey.",
+                "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey.",
                 "exp": 10,
                 "weight": 5,
                 "prey": ["large"]
             },
             {
-                "text": "The patrol stops on the edge of the Thunderpath, and s_c organizes a thorough search that finds several sliced up pieces of roadkill. It's a reminder of the danger of the Thunderpath, and a good source of scavenged meat.",
+                "text": "The patrol stops on the edge of the open space, and s_c organizes a thorough search that finds a hidden cache of bluefruit. The emptiness of the space feels unnatural, a warning of the dangers these places bring.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
                 "prey": ["large"]
             },
             {
-                "text": "s_c is patient enough to wait until the Thunderpath is completely clear, then trots across with the patrol to hunt on the other side.",
+                "text": "s_c is patient enough to wait until there is definately no vultures, then trots with the patrol across to hunt on the other side.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -1922,18 +1921,18 @@
         ],
         "fail_outcomes": [
             {
-                "text": "As the group crosses the Thunderpath, a speeding miros bird appears out of nowhere. The slugcats run panicked in all directions, and several of them get hit and die.",
+                "text": "r_c hears a the jets of a vulture, and yowls a warning! The It's too late for many though, as a whole group of vultures decends on the scugs and carries away as many as they can catch.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["multi"],
                 "history_text": {
-                    "scar": "m_c was heavily injured by a miros bird, and carries the scars from it.",
-                    "reg_death": "This slugcat was sliced by a miros bird and killed.",
-                    "lead_death": "{VERB/m_c/were/was} sliced by a miros bird"
+                    "scar": "m_c was bitten by a vulture.",
+                    "reg_death": "m_c was carried away by a vulture.",
+                    "lead_death": "{VERB/m_c/were/was} carried away by a vulture"
                 }
             },
             {
-                "text": "r_c is sliced by a miros bird and seems quite injured, but miraculously still alive.",
+                "text": "r_c is picked up by a vulture, but miraculously gets free! They still fell a long way.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1944,9 +1943,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was heavily injured by a miros bird, and carries the scars from it.",
-                    "reg_death": "This slugcat was sliced by a miros bird and killed.",
-                    "lead_death": "{VERB/m_c/were/was} sliced by a miros bird"
+                    "scar": "m_c was heavily injured by a vulture, and carries the scars from it.",
+                    "reg_death": "m_c was dropped by a vulture and killed.",
+                    "lead_death": "{VERB/m_c/were/was} dropped by a vulture"
                 }
             }
         ]
@@ -1962,31 +1961,31 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol comes across a Thunderpath running through the grasslands.",
+        "intro_text": "The patrol comes across a wide open space running through the grasslands.",
         "decline_text": "They decide it is better not to cross.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The patrol crosses the Thunderpath and hunts on the other side.",
+                "text": "The patrol crosses the open space and hunts on the other side.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["large"]
             },
             {
-                "text": "The patrol finds a pipe running under the Thunderpath and uses it to cross. They end up with damp paws, but a successful haul of lots of prey.",
+                "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey.",
                 "exp": 10,
                 "weight": 5,
                 "prey": ["large"]
             },
             {
-                "text": "The patrol stops on the edge of the Thunderpath, and s_c organizes a thorough search that finds a sliced up lantern mouse. It's a reminder of the danger of the Thunderpath, and a good source of scavenged meat.",
+                "text": "The patrol stops on the edge of the open space, and s_c organizes a thorough search that finds a hidden cache of bluefruit. The emptiness of the space feels unnatural, a warning of the dangers these places bring.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
                 "prey": ["large"]
             },
             {
-                "text": "s_c is patient enough to wait until the Thunderpath is completely clear, then trots across with the patrol to hunt on the other side.",
+                "text": "s_c is patient enough to wait until there is definately no vultures, then trots with the patrol across to hunt on the other side.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -2006,23 +2005,23 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c hears a miros bird thundering towards {PRONOUN/r_c/object}, but it's jaws just barely miss. That was close! Maybe it's best to go back to camp.",
+                "text": "r_c hears a the jets of a vulture, and yowls a warning as the patrol ducks into cover. The vulture hovers for some time, but gives up on this hunt.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "As the group crosses the Thunderpath, a speeding miros bird appears out of nowhere. The slugcats run panicked in all directions, and several of them get bite as the miros bird swerves to bite them deliberately, killing them instantly.",
+                "text": "r_c hears a the jets of a vulture, and yowls a warning! The It's too late for many though, as a whole group of vultures decends on the scugs and carries away as many as they can catch.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["multi"],
                 "history_text": {
-                    "scar": "m_c was heavily injured by a miros bird, and carries the scars from it.",
-                    "reg_death": "m_c was sliced by a miros bird and killed.",
-                    "lead_death": "{VERB/m_c/were/was} sliced by a miros bird"
+                    "scar": "m_c was bitten by a vulture.",
+                    "reg_death": "m_c was carried away by a vulture.",
+                    "lead_death": "{VERB/m_c/were/was} carried away by a vulture"
                 }
             },
             {
-                "text": "r_c is sliced by a miros bird and seems quite injured, but miraculously still alive.",
+                "text": "r_c is picked up by a vulture, but miraculously gets free! They still fell a long way.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2033,9 +2032,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was heavily injured by a miros bird, and carries the scars from it.",
-                    "reg_death": "m_c was sliced by a miros bird and killed.",
-                    "lead_death": "{VERB/m_c/were/was} sliced by a miros bird"
+                    "scar": "m_c was heavily injured by a vulture, and carries the scars from it.",
+                    "reg_death": "m_c was dropped by a vulture and killed.",
+                    "lead_death": "{VERB/m_c/were/was} dropped by a vulture"
                 }
             }
         ]
