@@ -203,5 +203,12 @@
             "m_c tries to keep the disappointment down. Logically, {PRONOUN/m_c/subject} knew this was inevitable. Emotionally, {PRONOUN/m_c/subject} just can't accept that {PRONOUN/m_c/subject}'ll never walk again.",
             "m_c continues to do {PRONOUN/m_c/poss} exercises dutifully, hoping beyond hope that someday it will pay off. For now though, {PRONOUN/m_c/subject} {VERB/m_c/know/knows} this paralysis is {PRONOUN/m_c/poss} new reality."
         ]
+    },
+    "rotsickness": {
+        "rotplague": [
+          "r_c is gentle when {PRONOUN/r_c/subject} {VERB/r_c/break/breaks} the news, but m_c had already knows. {PRONOUN/m_c/subject/CAP} has gotten the Rotplague.",
+            "m_c hacks and coughs uncontrollably, so like Redcough that it's concerning. However, the lumps on {PRONOUN/m_c/subject} say what it truly is. The rot has taken hold in {PRONOUN/m_c/subject}.",
+            "m_c looks to the skies above, begging the Ascended for answers that are never answered. How could starclan be so cruel? How could they give Rotplague to {PRONOUN/m_c/subject}?"
+        ]
     }
 }
