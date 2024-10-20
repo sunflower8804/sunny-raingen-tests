@@ -233,7 +233,12 @@
         "duration": 3,
         "medicine_duration": 2,
         "infectiousness": 0,
-        "risks": [],
+        "risks": [
+            {
+                "name": "rotplague",
+                "chance": 1
+            }
+        ],
         "herbs": [
             "marigold",
             "burdock",
