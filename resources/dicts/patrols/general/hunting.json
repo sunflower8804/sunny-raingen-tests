@@ -256,7 +256,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "s_c remembers a trick {PRONOUN/r_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/r_c/subject} could against the pole! When it doesn't move, {PRONOUN/r_c/subject} safely climb to gather the blue fruits.",
+                "text": "s_c remembers a trick {PRONOUN/s_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/s_c/subject} could against the pole! When it doesn't move, {PRONOUN/s_c/subject} safely climb to gather the blue fruits.",
                 "exp": 10,
                 "weight": 5,
                 "stat_skill": ["CLEVER,1"],
@@ -264,7 +264,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "s_c remembers a trick {PRONOUN/r_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/r_c/subject} could against the pole! The pole plant bursts into life and is dispatched, before s_c gathered the blue fruits.",
+                "text": "s_c remembers a trick {PRONOUN/s_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/s_c/subject} could against the pole! The pole plant bursts into life and is dispatched, before s_c gathered the blue fruits.",
                 "exp": 10,
                 "weight": 5,
                 "stat_skill": ["CLEVER,1"],
@@ -283,7 +283,7 @@
             {
                 "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that r_c remembers {PRONOUN/r_c/subject} has a spare spear on {PRONOUN/r_c/poss} back, and, with a frantic manoeuvre, stabs it into the pole plant's body and breaks free. However, r_c isn't lucky enough to have escaped unscathed, and {PRONOUN/r_c/subject} {VERB/r_c/limp/limps} back to camp with a mangled leg",
                 "exp": 0,
-                "weight": 20,
+                "weight": 10,
                 "art": "gen_hunt_pole_failureW",
                 "injury": [
                     {
@@ -303,7 +303,7 @@
             {
                 "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and immediately drags r_c into its den before {PRONOUN/r_c/subject} can react.",
                 "exp": 0,
-                "weight": 20,
+                "weight": 5,
                 "art": "gen_hunt_pole_failureW",
                 "dead_cats": ["r_c"],
                 "history_text": {
@@ -323,7 +323,7 @@
         "min_cats": 1,
         "max_cats": 1,
         "min_max_status": {
-        "normal adult": [1, 1]
+        "apprentice": [1, 1]
         },
         "weight": 20,
         "intro_text": "r_c comes across a series of poles with a few blue fruits hanging off the highest one. {PRONOUN/r_c/subject/CAP} is unsure whether to climb up, but the poles show no sign of danger.",
@@ -338,7 +338,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "s_c remembers a trick {PRONOUN/r_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/r_c/subject} could against the pole! When it doesn't move, {PRONOUN/r_c/subject} safely climb to gather the blue fruits.",
+                "text": "s_c remembers a trick {PRONOUN/s_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/s_c/subject} could against the pole! When it doesn't move, {PRONOUN/s_c/subject} safely climb to gather the blue fruits.",
                 "exp": 10,
                 "weight": 5,
                 "stat_skill": ["CLEVER,1"],
@@ -346,7 +346,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "s_c remembers a trick {PRONOUN/r_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/r_c/subject} could against the pole! The pole plant bursts into life and is dispatched, before s_c gathered the blue fruits.",
+                "text": "s_c remembers a trick {PRONOUN/s_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/s_c/subject} could against the pole! The pole plant bursts into life and is dispatched, before s_c gathered the blue fruits.",
                 "exp": 10,
                 "weight": 5,
                 "stat_skill": ["CLEVER,1"],
@@ -365,7 +365,7 @@
             {
                 "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that r_c remembers {PRONOUN/r_c/subject} has a spare spear on {PRONOUN/r_c/poss} back, and, with a frantic manoeuvre, stabs it into the pole plant's body and breaks free. However, r_c isn't lucky enough to have escaped unscathed, and {PRONOUN/r_c/subject} {VERB/r_c/limp/limps} back to camp with a mangled leg",
                 "exp": 0,
-                "weight": 20,
+                "weight": 10,
                 "art": "gen_hunt_pole_failureA",
                 "injury": [
                     {
@@ -385,7 +385,335 @@
             {
                 "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and immediately drags r_c into its den before {PRONOUN/r_c/subject} can react.",
                 "exp": 0,
+                "weight": 5,
+                "art": "gen_hunt_pole_failureA",
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "reg_death": "m_c was dragged to their doom by a pole plant.",
+                    "lead_death": "was dragged to their doom by a pole plant"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_hunt_poleplant3",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": [],
+        "patrol_art": "gen_hunt_pole_introW",
+        "min_cats": 2,
+        "max_cats": 3,
+        "min_max_status": {
+        "normal adult": [1, 6]
+        },
+        "weight": 20,
+        "intro_text": "The patrol comes across a series of poles with a few blue fruits hanging off the highest one. {PRONOUN/r_c/subject/CAP} is unsure whether to climb up, but the poles show no sign of danger.",
+        "decline_text": "Deciding that a few blue fruits aren't worth the risk of getting caught by a pole plant, the patrol turns around and decides to hunt in a different area.",
+        "chance_of_success": 50,
+        "success_outcomes": [
+            {
+                "text": "r_c takes the risk, and it ends up successful! With the approval of their clanmates, they head home with arms full of bluefruit.",
+                "exp": 10,
                 "weight": 20,
+                "art": "gen_hunt_pole_successW",
+                "prey": ["medium"]
+            },
+            {
+                "text": "s_c remembers a trick {PRONOUN/s_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/s_c/subject} could against the pole! When it doesn't move, {PRONOUN/s_c/subject} safely climbs to gather the blue fruits.",
+                "exp": 10,
+                "weight": 5,
+                "stat_skill": ["CLEVER,1"],
+                "art": "gen_hunt_pole_successW",
+                "prey": ["medium"]
+            },
+            {
+                "text": "s_c remembers a trick {PRONOUN/s_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/s_c/subject} could against the pole! The pole plant bursts into life and is dispatched by a clanmate, before s_c gathered the blue fruits.",
+                "exp": 10,
+                "weight": 5,
+                "stat_skill": ["CLEVER,1"],
+                "art": "gen_hunt_pole_successW",
+                "prey": ["medium"]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that a clanmate has a spare spear, and, with a frantic manoeuvre, stabs it into the pole plant's body to break r_c free. r_c is lucky to escape with only a few scrapes, and returns to camp frazzled.",
+                "exp": 0,
+                "weight": 20,
+                "art": "gen_hunt_pole_failureW",
+                "prey": ["very_small"]
+            },
+            {
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that a clanmate has a spare spear, and, with a frantic manoeuvre, stabs it into the pole plant's body to break r_c free. However, r_c isn't lucky enough to have escaped unscathed, and {PRONOUN/r_c/subject} {VERB/r_c/limp/limps} back to camp with the help of the other scugs.",
+                "exp": 0,
+                "weight": 10,
+                "art": "gen_hunt_pole_failureW",
+                "injury": [
+                    {
+                      "cats": [
+                          "r_c"
+                      ],
+                        "injuries": ["mangled leg"],
+                        "scars": []
+                    }
+                ],
+                "history_text": {
+                    "reg_death": "This cat died after trying to climb a pole plant.",
+                    "lead_death": "after trying to climb a pole plant"
+                },
+                "prey": ["very_small"]
+            },
+            {
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and immediately drags r_c into its den before anyscug can react.",
+                "exp": 0,
+                "weight": 5,
+                "art": "gen_hunt_pole_failureW",
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "reg_death": "m_c was dragged to their doom by a pole plant.",
+                    "lead_death": "was dragged to their doom by a pole plant"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_hunt_poleplant4",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": [],
+        "patrol_art": "gen_hunt_pole_introA",
+        "min_cats": 2,
+        "max_cats": 3,
+        "min_max_status": {
+        "apprentice": [1, 6]
+        },
+        "weight": 20,
+        "intro_text": "The patrol comes across a series of poles with a few blue fruits hanging off the highest one. {PRONOUN/r_c/subject/CAP} is unsure whether to climb up, but the poles show no sign of danger.",
+        "decline_text": "Deciding that a few blue fruits aren't worth the risk of getting caught by a pole plant, the patrol turns around and decides to hunt in a different area.",
+        "chance_of_success": 50,
+        "success_outcomes": [
+            {
+                "text": "r_c takes the risk, and it ends up successful! With the approval of their clanmates, they head home with arms full of bluefruit.",
+                "exp": 10,
+                "weight": 20,
+                "art": "gen_hunt_pole_successA",
+                "prey": ["medium"]
+            },
+            {
+                "text": "s_c remembers a trick {PRONOUN/s_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/s_c/subject} could against the pole! When it doesn't move, {PRONOUN/s_c/subject} safely climbs to gather the blue fruits.",
+                "exp": 10,
+                "weight": 5,
+                "stat_skill": ["CLEVER,1"],
+                "art": "gen_hunt_pole_successA",
+                "prey": ["medium"]
+            },
+            {
+                "text": "s_c remembers a trick {PRONOUN/s_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/s_c/subject} could against the pole! The pole plant bursts into life and is dispatched by a clanmate, before s_c gathered the blue fruits.",
+                "exp": 10,
+                "weight": 5,
+                "stat_skill": ["CLEVER,1"],
+                "art": "gen_hunt_pole_successA",
+                "prey": ["medium"]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that a clanmate has a spare spear, and, with a frantic manoeuvre, stabs it into the pole plant's body to break r_c free. r_c is lucky to escape with only a few scrapes, and returns to camp frazzled.",
+                "exp": 0,
+                "weight": 20,
+                "art": "gen_hunt_pole_failureA",
+                "prey": ["very_small"]
+            },
+            {
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that a clanmate has a spare spear, and, with a frantic manoeuvre, stabs it into the pole plant's body to break r_c free. However, r_c isn't lucky enough to have escaped unscathed, and {PRONOUN/r_c/subject} {VERB/r_c/limp/limps} back to camp with the help of the other scugs.",
+                "exp": 0,
+                "weight": 10,
+                "art": "gen_hunt_pole_failureW",
+                "injury": [
+                    {
+                      "cats": [
+                          "r_c"
+                      ],
+                        "injuries": ["mangled leg"],
+                        "scars": []
+                    }
+                ],
+                "history_text": {
+                    "reg_death": "This cat died after trying to climb a pole plant.",
+                    "lead_death": "after trying to climb a pole plant"
+                },
+                "prey": ["very_small"]
+            },
+            {
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and immediately drags r_c into its den before anyscug can react.",
+                "exp": 0,
+                "weight": 5,
+                "art": "gen_hunt_pole_failureA",
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "reg_death": "m_c was dragged to their doom by a pole plant.",
+                    "lead_death": "was dragged to their doom by a pole plant"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_hunt_poleplant5",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": [],
+        "patrol_art": "gen_hunt_pole_introW",
+        "min_cats": 4,
+        "max_cats": 6,
+        "min_max_status": {
+        "normal adult": [1, 6]
+        },
+        "weight": 20,
+        "intro_text": "The patrol comes across a series of poles with a few blue fruits hanging off the highest one. {PRONOUN/r_c/subject/CAP} is unsure whether to climb up, but the poles show no sign of danger.",
+        "decline_text": "Deciding that a few blue fruits aren't worth the risk of getting caught by a pole plant, the patrol turns around and decides to hunt in a different area.",
+        "chance_of_success": 50,
+        "success_outcomes": [
+            {
+                "text": "r_c takes the risk, and it ends up successful! With the approval of their clanmates, they head home with arms full of bluefruit.",
+                "exp": 10,
+                "weight": 20,
+                "art": "gen_hunt_pole_successW",
+                "prey": ["medium"]
+            },
+            {
+                "text": "s_c remembers a trick {PRONOUN/s_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/s_c/subject} could against the pole! When it doesn't move, {PRONOUN/s_c/subject} safely climbs to gather the blue fruits.",
+                "exp": 10,
+                "weight": 5,
+                "stat_skill": ["CLEVER,1"],
+                "art": "gen_hunt_pole_successW",
+                "prey": ["medium"]
+            },
+            {
+                "text": "s_c remembers a trick {PRONOUN/s_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/s_c/subject} could against the pole! The pole plant bursts into life and is dispatched by a clanmate, before s_c gathered the blue fruits.",
+                "exp": 10,
+                "weight": 5,
+                "stat_skill": ["CLEVER,1"],
+                "art": "gen_hunt_pole_successW",
+                "prey": ["medium"]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that a clanmate has a spare spear, and, with a frantic manoeuvre, stabs it into the pole plant's body to break r_c free. r_c is lucky to escape with only a few scrapes, and returns to camp frazzled.",
+                "exp": 0,
+                "weight": 20,
+                "art": "gen_hunt_pole_failureW",
+                "prey": ["very_small"]
+            },
+            {
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that a clanmate has a spare spear, and, with a frantic manoeuvre, stabs it into the pole plant's body to break r_c free. However, r_c isn't lucky enough to have escaped unscathed, and {PRONOUN/r_c/subject} {VERB/r_c/limp/limps} back to camp with the help of the other scugs.",
+                "exp": 0,
+                "weight": 10,
+                "art": "gen_hunt_pole_failureW",
+                "injury": [
+                    {
+                      "cats": [
+                          "r_c"
+                      ],
+                        "injuries": ["mangled leg"],
+                        "scars": []
+                    }
+                ],
+                "history_text": {
+                    "reg_death": "This cat died after trying to climb a pole plant.",
+                    "lead_death": "after trying to climb a pole plant"
+                },
+                "prey": ["very_small"]
+            },
+            {
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and immediately drags r_c into its den before anyscug can react.",
+                "exp": 0,
+                "weight": 5,
+                "art": "gen_hunt_pole_failureW",
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "reg_death": "m_c was dragged to their doom by a pole plant.",
+                    "lead_death": "was dragged to their doom by a pole plant"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_hunt_poleplant6",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": [],
+        "patrol_art": "gen_hunt_pole_introA",
+        "min_cats": 4,
+        "max_cats": 6,
+        "min_max_status": {
+        "apprentice": [1, 6]
+        },
+        "weight": 20,
+        "intro_text": "The patrol comes across a series of poles with a few blue fruits hanging off the highest one. {PRONOUN/r_c/subject/CAP} is unsure whether to climb up, but the poles show no sign of danger.",
+        "decline_text": "Deciding that a few blue fruits aren't worth the risk of getting caught by a pole plant, the patrol turns around and decides to hunt in a different area.",
+        "chance_of_success": 50,
+        "success_outcomes": [
+            {
+                "text": "r_c takes the risk, and it ends up successful! With the approval of their clanmates, they head home with arms full of bluefruit.",
+                "exp": 10,
+                "weight": 20,
+                "art": "gen_hunt_pole_successA",
+                "prey": ["medium"]
+            },
+            {
+                "text": "s_c remembers a trick {PRONOUN/s_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/s_c/subject} could against the pole! When it doesn't move, {PRONOUN/s_c/subject} safely climbs to gather the blue fruits.",
+                "exp": 10,
+                "weight": 5,
+                "stat_skill": ["CLEVER,1"],
+                "art": "gen_hunt_pole_successA",
+                "prey": ["medium"]
+            },
+            {
+                "text": "s_c remembers a trick {PRONOUN/s_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/s_c/subject} could against the pole! The pole plant bursts into life and is dispatched by a clanmate, before s_c gathered the blue fruits.",
+                "exp": 10,
+                "weight": 5,
+                "stat_skill": ["CLEVER,1"],
+                "art": "gen_hunt_pole_successA",
+                "prey": ["medium"]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that a clanmate has a spare spear, and, with a frantic manoeuvre, stabs it into the pole plant's body to break r_c free. r_c is lucky to escape with only a few scrapes, and returns to camp frazzled.",
+                "exp": 0,
+                "weight": 20,
+                "art": "gen_hunt_pole_failureA",
+                "prey": ["very_small"]
+            },
+            {
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that a clanmate has a spare spear, and, with a frantic manoeuvre, stabs it into the pole plant's body to break r_c free. However, r_c isn't lucky enough to have escaped unscathed, and {PRONOUN/r_c/subject} {VERB/r_c/limp/limps} back to camp with the help of the other scugs.",
+                "exp": 0,
+                "weight": 10,
+                "art": "gen_hunt_pole_failureW",
+                "injury": [
+                    {
+                      "cats": [
+                          "r_c"
+                      ],
+                        "injuries": ["mangled leg"],
+                        "scars": []
+                    }
+                ],
+                "history_text": {
+                    "reg_death": "This cat died after trying to climb a pole plant.",
+                    "lead_death": "after trying to climb a pole plant"
+                },
+                "prey": ["very_small"]
+            },
+            {
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and immediately drags r_c into its den before anyscug can react.",
+                "exp": 0,
+                "weight": 5,
                 "art": "gen_hunt_pole_failureA",
                 "dead_cats": ["r_c"],
                 "history_text": {
