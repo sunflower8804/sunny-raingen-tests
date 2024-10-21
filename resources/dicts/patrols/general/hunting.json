@@ -232,6 +232,170 @@
         ]
     },
     {
+        "patrol_id": "gen_hunt_poleplant1",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": [],
+        "patrol_art": "gen_hunt_pole_introW",
+        "min_cats": 1,
+        "max_cats": 1,
+        "min_max_status": {
+        "normal adult": [1, 1]
+        },
+        "weight": 20,
+        "intro_text": "r_c comes across a series of poles with a few blue fruits hanging off the highest one. {PRONOUN/r_c/subject/CAP} is unsure whether to climb up, but the poles show no sign of danger.",
+        "decline_text": "Deciding that a few blue fruits aren't worth the risk of getting caught by a pole plant, r_c turns around and decides to hunt in a different area.",
+        "chance_of_success": 50,
+        "success_outcomes": [
+            {
+                "text": "r_c takes the risk, and it ends up successful! {PRONOUN/r_c/subject/CAP} {VERB/r_c/head/heads} back to camp with {PRONOUN/r_c/poss} arms full of fresh, plump blue fruits.",
+                "exp": 10,
+                "weight": 20,
+                "art": "gen_hunt_pole_successW",
+                "prey": ["medium"]
+            },
+            {
+                "text": "s_c remembers a trick {PRONOUN/r_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/r_c/subject} could against the pole! When it doesn't move, {PRONOUN/r_c/subject} safely climb to gather the blue fruits.",
+                "exp": 10,
+                "weight": 5,
+                "stat_skill": ["CLEVER,1"],
+                "art": "gen_hunt_pole_successW",
+                "prey": ["medium"]
+            },
+            {
+                "text": "s_c remembers a trick {PRONOUN/r_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/r_c/subject} could against the pole! The pole plant bursts into life and is dispatched, before s_c gathered the blue fruits.",
+                "exp": 10,
+                "weight": 5,
+                "stat_skill": ["CLEVER,1"],
+                "art": "gen_hunt_pole_successW",
+                "prey": ["medium"]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that r_c remembers {PRONOUN/r_c/subject} has a spare spear on {PRONOUN/r_c/poss} back, and, with a frantic manoeuvre, stabs it into the pole plant's body and breaks free. r_c is lucky to escape with only a few scrapes, and returns to camp frazzled.",
+                "exp": 0,
+                "weight": 20,
+                "art": "gen_hunt_pole_failureW",
+                "prey": ["very_small"]
+            },
+            {
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that r_c remembers {PRONOUN/r_c/subject} has a spare spear on {PRONOUN/r_c/poss} back, and, with a frantic manoeuvre, stabs it into the pole plant's body and breaks free. However, r_c isn't lucky enough to have escaped unscathed, and {PRONOUN/r_c/subject} {VERB/r_c/limp/limps} back to camp with a mangled leg",
+                "exp": 0,
+                "weight": 20,
+                "art": "gen_hunt_pole_failureW",
+                "injury": [
+                    {
+                      "cats": [
+                          "r_c"
+                      ],
+                        "injuries": ["mangled leg"],
+                        "scars": []
+                    }
+                ],
+                "history_text": {
+                    "reg_death": "This cat died after trying to climb a pole plant.",
+                    "lead_death": "after trying to climb a pole plant"
+                },
+                "prey": ["very_small"]
+            },
+            {
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and immediately drags r_c into its den before {PRONOUN/r_c/subject} can react.",
+                "exp": 0,
+                "weight": 20,
+                "art": "gen_hunt_pole_failureW",
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "reg_death": "m_c was dragged to their doom by a pole plant.",
+                    "lead_death": "was dragged to their doom by a pole plant"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_hunt_poleplant2",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": [],
+        "patrol_art": "gen_hunt_pole_introA",
+        "min_cats": 1,
+        "max_cats": 1,
+        "min_max_status": {
+        "normal adult": [1, 1]
+        },
+        "weight": 20,
+        "intro_text": "r_c comes across a series of poles with a few blue fruits hanging off the highest one. {PRONOUN/r_c/subject/CAP} is unsure whether to climb up, but the poles show no sign of danger.",
+        "decline_text": "Deciding that a few blue fruits aren't worth the risk of getting caught by a pole plant, r_c turns around and decides to hunt in a different area.",
+        "chance_of_success": 50,
+        "success_outcomes": [
+            {
+                "text": "r_c takes the risk, and it ends up successful! {PRONOUN/r_c/subject/CAP} {VERB/r_c/head/heads} back to camp with {PRONOUN/r_c/poss} arms full of fresh, plump blue fruits.",
+                "exp": 10,
+                "weight": 20,
+                "art": "gen_hunt_pole_successA",
+                "prey": ["medium"]
+            },
+            {
+                "text": "s_c remembers a trick {PRONOUN/r_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/r_c/subject} could against the pole! When it doesn't move, {PRONOUN/r_c/subject} safely climb to gather the blue fruits.",
+                "exp": 10,
+                "weight": 5,
+                "stat_skill": ["CLEVER,1"],
+                "art": "gen_hunt_pole_successA",
+                "prey": ["medium"]
+            },
+            {
+                "text": "s_c remembers a trick {PRONOUN/r_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/r_c/subject} could against the pole! The pole plant bursts into life and is dispatched, before s_c gathered the blue fruits.",
+                "exp": 10,
+                "weight": 5,
+                "stat_skill": ["CLEVER,1"],
+                "art": "gen_hunt_pole_successA",
+                "prey": ["medium"]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that r_c remembers {PRONOUN/r_c/subject} has a spare spear on {PRONOUN/r_c/poss} back, and, with a frantic manoeuvre, stabs it into the pole plant's body and breaks free. r_c is lucky to escape with only a few scrapes, and returns to camp frazzled.",
+                "exp": 0,
+                "weight": 20,
+                "art": "gen_hunt_pole_failureA",
+                "prey": ["very_small"]
+            },
+            {
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that r_c remembers {PRONOUN/r_c/subject} has a spare spear on {PRONOUN/r_c/poss} back, and, with a frantic manoeuvre, stabs it into the pole plant's body and breaks free. However, r_c isn't lucky enough to have escaped unscathed, and {PRONOUN/r_c/subject} {VERB/r_c/limp/limps} back to camp with a mangled leg",
+                "exp": 0,
+                "weight": 20,
+                "art": "gen_hunt_pole_failureA",
+                "injury": [
+                    {
+                      "cats": [
+                          "r_c"
+                      ],
+                        "injuries": ["mangled leg"],
+                        "scars": []
+                    }
+                ],
+                "history_text": {
+                    "reg_death": "This cat died after trying to climb a pole plant.",
+                    "lead_death": "after trying to climb a pole plant"
+                },
+                "prey": ["very_small"]
+            },
+            {
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and immediately drags r_c into its den before {PRONOUN/r_c/subject} can react.",
+                "exp": 0,
+                "weight": 20,
+                "art": "gen_hunt_pole_failureA",
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "reg_death": "m_c was dragged to their doom by a pole plant.",
+                    "lead_death": "was dragged to their doom by a pole plant"
+                }
+            }
+        ]
+    },
+    {
         "patrol_id": "gen_hunt_squidcada1",
         "biome": ["any"],
         "season": ["any"],
@@ -316,7 +480,7 @@
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {},
-        "weight": 20,
+        "weight": 10,
         "intro_text": "r_c spots a young blue lizard up ahead, but it seems to be acting strange. The patrol can see its tremors from a few scavenger-lengths away.",
         "decline_text": "r_c avoids catching the odd lizard and looks for other prey.",
         "chance_of_success": 30,
@@ -347,6 +511,126 @@
             },
             {
                 "text": "r_c catches the young lizard, but later {PRONOUN/r_c/subject} and the slugcats who eat it become violently ill.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                      "cats": [
+                          "r_c",
+                          "some_clan"
+                      ],
+                        "injuries": ["rotsickness"],
+                        "scars": []
+                    }
+                ],
+                "history_text": {
+                    "reg_death": "This cat died after eating rot-tainted prey.",
+                    "lead_death": "after eating rot-tainted prey"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_hunt_strangeyeek1",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": [],
+        "patrol_art": "gen_hunt_strangeyeek",
+        "min_cats": 2,
+        "max_cats": 6,
+        "min_max_status": {},
+        "weight": 10,
+        "intro_text": "r_c spots a yeek up ahead, but it seems to be acting strange. The patrol can see its tremors and coughs from a few scavenger-lengths away.",
+        "decline_text": "r_c avoids catching the odd yeek and looks for other prey.",
+        "chance_of_success": 30,
+        "success_outcomes": [
+            {
+                "text": "r_c catches the yeek and it is eaten as normal.",
+                "exp": 10,
+                "weight": 20,
+                "prey": ["large"]
+            },
+            {
+                "text": "r_c catches the yeek, but when {PRONOUN/r_c/subject} {VERB/r_c/report/reports} about the strange incident at camp, the dead yeek is taken far away and buried.",
+                "exp": 10,
+                "weight": 5
+            },
+            {
+                "text": "s_c stops the patrol from catching the yeek and takes the opportunity to teach them about the Rot, which can pass from prey to scug.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["CLEVER,1"]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "r_c leaps for the yeek but it still manages to slip away, despite its obvious illness.",
+                "exp": 0,
+                "weight": 20
+            },
+            {
+                "text": "r_c catches the yeek, but later {PRONOUN/r_c/subject} and the slugcats who eat it become violently ill.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                      "cats": [
+                          "r_c",
+                          "some_clan"
+                      ],
+                        "injuries": ["rotsickness"],
+                        "scars": []
+                    }
+                ],
+                "history_text": {
+                    "reg_death": "This cat died after eating rot-tainted prey.",
+                    "lead_death": "after eating rot-tainted prey"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "gen_hunt_strangelantmouse1",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": [],
+        "patrol_art": "gen_hunt_strangelantmouse",
+        "min_cats": 2,
+        "max_cats": 6,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "r_c spots a lantern mouse up ahead, but it seems to be acting strange. The patrol can see its tremors from a few scavenger-lengths away.",
+        "decline_text": "r_c avoids catching the lantern mouse and looks for other prey.",
+        "chance_of_success": 30,
+        "success_outcomes": [
+            {
+                "text": "r_c catches the lantern mouse and it is eaten as normal.",
+                "exp": 10,
+                "weight": 20,
+                "prey": ["large"]
+            },
+            {
+                "text": "r_c catches the lantern mouse, but when {PRONOUN/r_c/subject} {VERB/r_c/report/reports} about the strange incident at camp, the dead lantern mouse is taken far away and buried.",
+                "exp": 10,
+                "weight": 5
+            },
+            {
+                "text": "s_c stops the patrol from catching the lantern mouse and takes the opportunity to teach them about the Rot, which can pass from prey to scug.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["CLEVER,1"]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "r_c leaps for the lantern mouse but it still manages to slip away, despite its obvious illness.",
+                "exp": 0,
+                "weight": 20
+            },
+            {
+                "text": "r_c catches the lantern mouse, but later {PRONOUN/r_c/subject} and the slugcats who eat it become violently ill.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
