@@ -146,7 +146,7 @@ class MakeClanScreen(Screens):
 
         # Buttons that appear on every screen.
         self.menu_warning = pygame_gui.elements.UITextBox(
-            "Note: going back to main menu resets the generated cats.",
+            "Note: going back to main menu resets the generated scugs.",
             scale(pygame.Rect((50, 50), (1200, -1))),
             object_id=get_text_box_theme("#text_box_22_horizleft"),
             manager=MANAGER,
@@ -997,7 +997,7 @@ class MakeClanScreen(Screens):
 
             if self.sub_screen == "choose leader":
                 self.elements["cat_name"].set_text(
-                    str(selected.name) + " --> " + selected.name.prefix + "star"
+                    str(selected.name) + " --> " + selected.name.prefix + " The Leader"
                 )
             else:
                 self.elements["cat_name"].set_text(str(selected.name))
@@ -1578,7 +1578,7 @@ class MakeClanScreen(Screens):
         )
         # Error message, to appear if you can't choose that cat.
         self.elements["error_message"] = pygame_gui.elements.UITextBox(
-            "Too young to become a medicine cat",
+            "Too young to become a Cleric",
             scale(pygame.Rect((300, 706), (1000, 110))),
             object_id=get_text_box_theme("#text_box_30_horizcenter_red"),
             visible=False,
@@ -1832,7 +1832,7 @@ class MakeClanScreen(Screens):
         )
         self.text["leader"] = pygame_gui.elements.UILabel(
             scale(pygame.Rect((0, 90), (-1, -1))),
-            text=f"Leader name: {self.leader.name.prefix}star",
+            text=f"Leader name: {self.leader.name.prefix} The Leader",
             container=self.elements["text_container"],
             object_id=get_text_box_theme("#text_box_30_horizleft"),
             manager=MANAGER,
