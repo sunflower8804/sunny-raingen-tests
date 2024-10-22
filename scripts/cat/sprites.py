@@ -41,6 +41,12 @@ class Sprites:
         except IOError:
             print("ERROR: Reading White Patches Tints")
 
+        #try:
+            #with open("sprites/dicts/white_patches_lesstint.json", 'r') as read_file:
+                #self.white_patches_tints = ujson.loads(read_file.read())
+        #except IOError:
+            #print("ERROR: Reading White Patches Less Tints")
+
     def spritesheet(self, a_file, name):
         """
         Add spritesheet called name from a_file.
