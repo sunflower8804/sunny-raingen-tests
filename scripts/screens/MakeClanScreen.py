@@ -463,6 +463,12 @@ class MakeClanScreen(Screens):
         elif event.ui_element == self.tabs["tab4"]:
             self.selected_camp_tab = 4
             self.refresh_selected_camp()
+        elif event.ui_element == self.tabs["tab5"]:
+            self.selected_camp_tab = 5
+            self.refresh_selected_camp()
+        elif event.ui_element == self.tabs["tab6"]:
+            self.selected_camp_tab = 6
+            self.refresh_selected_camp()
         elif event.ui_element == self.tabs["newleaf_tab"]:
             self.selected_season = "Newleaf"
             self.refresh_text_and_buttons()
@@ -478,7 +484,9 @@ class MakeClanScreen(Screens):
         elif event.ui_element == self.elements["random_background"]:
             # Select a random biome and background
             self.biome_selected = self.random_biome_selection()
-            if self.biome_selected in ['Forest', "Mountainous"]:
+            if self.biome_selected in ["Forest"]:
+                self.selected_camp_tab = randrange(1, 7)
+            elif self.biome_selected in ["Mountainous"]:
                 self.selected_camp_tab = randrange(1, 5)
             else:
                 self.selected_camp_tab = randrange(1, 4)
@@ -802,6 +810,8 @@ class MakeClanScreen(Screens):
         self.tabs["tab2"].kill()
         self.tabs["tab3"].kill()
         self.tabs["tab4"].kill()
+        self.tabs["tab5"].kill()
+        self.tabs["tab6"].kill()
 
         if self.biome_selected == "Forest":
             self.tabs["tab1"] = UIImageButton(
@@ -826,6 +836,18 @@ class MakeClanScreen(Screens):
                 scale(pygame.Rect((170, 570), (308, 60))),
                 "",
                 object_id="#lakeside_tab",
+                manager=MANAGER,
+            )
+            self.tabs["tab5"] = UIImageButton(
+                scale(pygame.Rect((85, 640), (358, 60))),
+                "",
+                object_id="#outer_tab",
+                manager=MANAGER,
+            )
+            self.tabs["tab6"] = UIImageButton(
+                scale(pygame.Rect((140, 710), (358, 60))),
+                "",
+                object_id="#outskirts_tab",
                 manager=MANAGER,
             )
         elif self.biome_selected == "Mountainous":
@@ -898,26 +920,50 @@ class MakeClanScreen(Screens):
             self.tabs["tab2"].enable()
             self.tabs["tab3"].enable()
             self.tabs["tab4"].enable()
+            self.tabs["tab5"].enable()
+            self.tabs["tab6"].enable()
         elif self.selected_camp_tab == 2:
             self.tabs["tab1"].enable()
             self.tabs["tab2"].disable()
             self.tabs["tab3"].enable()
             self.tabs["tab4"].enable()
+            self.tabs["tab5"].enable()
+            self.tabs["tab6"].enable()
         elif self.selected_camp_tab == 3:
             self.tabs["tab1"].enable()
             self.tabs["tab2"].enable()
             self.tabs["tab3"].disable()
             self.tabs["tab4"].enable()
+            self.tabs["tab5"].enable()
+            self.tabs["tab6"].enable()
         elif self.selected_camp_tab == 4:
             self.tabs["tab1"].enable()
             self.tabs["tab2"].enable()
             self.tabs["tab3"].enable()
             self.tabs["tab4"].disable()
+            self.tabs["tab5"].enable()
+            self.tabs["tab6"].enable()
+        elif self.selected_camp_tab == 5:
+            self.tabs["tab1"].enable()
+            self.tabs["tab2"].enable()
+            self.tabs["tab3"].enable()
+            self.tabs["tab4"].enable()
+            self.tabs["tab5"].disable()
+            self.tabs["tab6"].enable()
+        elif self.selected_camp_tab == 6:
+            self.tabs["tab1"].enable()
+            self.tabs["tab2"].enable()
+            self.tabs["tab3"].enable()
+            self.tabs["tab4"].enable()
+            self.tabs["tab5"].enable()
+            self.tabs["tab6"].disable()
         else:
             self.tabs["tab1"].enable()
             self.tabs["tab2"].enable()
             self.tabs["tab3"].enable()
             self.tabs["tab4"].enable()
+            self.tabs["tab5"].enable()
+            self.tabs["tab6"].enable()
 
         # I have to do this for proper layering.
         if "camp_art" in self.elements:
@@ -1680,6 +1726,12 @@ class MakeClanScreen(Screens):
         self.tabs["tab4"] = UIImageButton(
             scale(pygame.Rect((0, 0), (0, 0))), "", visible=False, manager=MANAGER
         )
+        self.tabs["tab5"] = UIImageButton(
+            scale(pygame.Rect((0, 0), (0, 0))), "", visible=False, manager=MANAGER
+        )
+        self.tabs["tab6"] = UIImageButton(
+            scale(pygame.Rect((0, 0), (0, 0))), "", visible=False, manager=MANAGER
+        )
 
         y_pos = 550
         self.tabs["newleaf_tab"] = UIImageButton(
@@ -1933,7 +1985,7 @@ class MakeClanScreen(Screens):
         game.cat_to_fade.clear()
         Cat.outside_cats.clear()
         Patrol.used_patrols.clear()
-        convert_camp = {1: "camp1", 2: "camp2", 3: "camp3", 4: "camp4"}
+        convert_camp = {1: "camp1", 2: "camp2", 3: "camp3", 4: "camp4", 5: "camp5", 6: "camp6"}
         game.clan = Clan(
             name=self.clan_name,
             leader=self.leader,
