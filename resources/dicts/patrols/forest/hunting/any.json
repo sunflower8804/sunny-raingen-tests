@@ -5,7 +5,7 @@
         "season": ["any"],
         "types": ["hunting"],
         "tags": [],
-        "patrol_art": "fst_hunt_porcupine",
+        "patrol_art": "hunt_general_intro",
         "min_cats": 3,
         "max_cats": 6,
         "min_max_status": {},
@@ -86,7 +86,7 @@
         "season": ["any"],
         "types": ["hunting"],
         "tags": [],
-        "patrol_art": "fst_hunt_porcupine",
+        "patrol_art": "hunt_general_intro",
         "min_cats": 1,
         "max_cats": 2,
         "min_max_status": {},
@@ -2625,6 +2625,290 @@
                     "scar": "m_c was heavily injured by a vulture, and carries the scars from it.",
                     "reg_death": "m_c was dropped by a vulture and killed.",
                     "lead_death": "{VERB/m_c/were/was} dropped by a vulture"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "fst_hunt_scavtoll1",
+        "biome": ["forest"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": ["retirement"],
+        "patrol_art": "gen_hunt_thunderpath",
+        "min_cats": 1,
+        "max_cats": 6,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol comes across a scavenger toll in the middle of a field",
+        "decline_text": "The patrol turns away. The risk isn't worth it.",
+        "chance_of_success": 40,
+        "success_outcomes": [
+            {
+                "text": "r_c happens to have a pearl on {PRONOUN/r_c/poss}, trading the shiny object for safe passage.",
+                "exp": 10,
+                "weight": 20,
+                "prey": ["large"]
+            },
+            {
+                "text": "The patrol finds another path instead, finding a good haul for their trouble",
+                "exp": 10,
+                "weight": 5,
+                "prey": ["large"]
+            },
+            {
+                "text": "s_c stops the patrol, slowly walking up to the scavengers and offering up a stolen pearl. The scavengers fall for it, and the patrol is waved through.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["CLEVER,1"],
+                "prey": ["large"]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "r_c tries to sneak through the toll, but is caught! A spear lands just behind {PRONOUN/r_c/poss} tail, but {PRONOUN/r_c/poss} get away.",
+                "exp": 0,
+                "weight": 20
+            },
+            {
+                "text": "r_c tries to sneak through the toll, but is caught! A spear soon sinks into their back, killing them instantly.",
+                "exp": 0,
+                "weight": 10,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "m_c was speared by a scavenger.",
+                    "reg_death": "m_c was speared by a scavenger.",
+                    "lead_death": "{VERB/m_c/were/was} speared by a scavenger"
+                }
+            },
+            {
+                "text": "r_c tries to sneak through the toll, but is caught! A spear soon sinks into their back, thankfully missing anything vital.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["spear-wound"],
+                        "scars": ["MANLEG"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "m_c was speared by a scavenger, and carries a scar from it.",
+                    "reg_death": "m_c was speared by a scavenger and killed.",
+                    "lead_death": "{VERB/m_c/were/was} speared by a scavenger"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "fst_hunt_scavtoll2",
+        "biome": ["forest"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": ["retirement", "cruel_season"],
+        "patrol_art": "gen_hunt_thunderpath",
+        "min_cats": 1,
+        "max_cats": 6,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol comes across a scavenger toll in the middle of a field",
+        "decline_text": "The patrol turns away. The risk isn't worth it.",
+        "chance_of_success": 30,
+        "success_outcomes": [
+            {
+                "text": "r_c happens to have a pearl on {PRONOUN/r_c/poss}, trading the shiny object for safe passage.",
+                "exp": 10,
+                "weight": 20,
+                "prey": ["large"]
+            },
+            {
+                "text": "The patrol finds another path instead, finding a good haul for their trouble",
+                "exp": 10,
+                "weight": 5,
+                "prey": ["large"]
+            },
+            {
+                "text": "s_c stops the patrol, slowly walking up to the scavengers and offering up a stolen pearl. The scavengers fall for it, and the patrol is waved through.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["CLEVER,1"],
+                "prey": ["large"]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "r_c tries to sneak through the toll, but is caught! A spear lands just behind {PRONOUN/r_c/poss} tail, but {PRONOUN/r_c/subject} get away.",
+                "exp": 0,
+                "weight": 20
+            },
+            {
+                "text": "r_c tries to sneak through the toll, but is caught! A spear soon sinks into their back, killing them instantly.",
+                "exp": 0,
+                "weight": 10,
+                "dead_cats": ["r_c"],
+                "history_text": {
+                    "scar": "m_c was speared by a scavenger.",
+                    "reg_death": "m_c was speared by a scavenger.",
+                    "lead_death": "{VERB/m_c/were/was} speared by a scavenger"
+                }
+            },
+            {
+                "text": "r_c tries to sneak through the toll, but is caught! A spear soon sinks into their back, thankfully missing anything vital.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["spear-wound"],
+                        "scars": ["MANTAIL"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "m_c was speared by a scavenger, and carries a scar from it.",
+                    "reg_death": "m_c was speared by a scavenger and killed.",
+                    "lead_death": "{VERB/m_c/were/was} speared by a scavenger"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "fst_hunt_scavtoll3",
+        "biome": ["forest"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": ["retirement"],
+        "patrol_art": "gen_hunt_thunderpath",
+        "min_cats": 5,
+        "max_cats": 6,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol comes across a scavenger toll in the middle of a field",
+        "decline_text": "The patrol turns away. The risk isn't worth it.",
+        "chance_of_success": 10,
+        "success_outcomes": [
+            {
+                "text": "r_c happens to have a pearl on {PRONOUN/r_c/poss}, trading the shiny object for safe passage.",
+                "exp": 10,
+                "weight": 20,
+                "prey": ["large"]
+            },
+            {
+                "text": "The patrol finds another path instead, finding a good haul for their trouble",
+                "exp": 10,
+                "weight": 5,
+                "prey": ["large"]
+            },
+            {
+                "text": "s_c stops the patrol, slowly walking up to the scavengers and offering up a stolen pearl. The scavengers fall for it, and the patrol is waved through.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["CLEVER,1"],
+                "prey": ["large"]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "r_c tries to sneak through the toll, but is caught! Spears fly at the whole patrol, but they thankfully escape unharmed.",
+                "exp": 0,
+                "weight": 20
+            },
+            {
+                "text": "r_c tries to sneak through the toll, but is caught! Spears fly at the whole patrol for this offense, at least one killing a clanmate.",
+                "exp": 0,
+                "weight": 10,
+                "dead_cats": ["multi"],
+                "history_text": {
+                    "scar": "m_c was speared by a scavenger.",
+                    "reg_death": "m_c was speared by a scavenger.",
+                    "lead_death": "{VERB/m_c/were/was} speared by a scavenger"
+                }
+            },
+            {
+                "text": "r_c tries to sneak through the toll, but is caught! Spears fly at the whole patrol for this offense, at least one injuring a clanmate.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["multi"],
+                        "injuries": ["spear-wound"],
+                        "scars": ["MANLEG"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "m_c was speared by a scavenger, and carries a scar from it.",
+                    "reg_death": "m_c was speared by a scavenger and killed.",
+                    "lead_death": "{VERB/m_c/were/was} speared by a scavenger"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "fst_hunt_scavtoll4",
+        "biome": ["forest"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": ["retirement", "cruel_season"],
+        "patrol_art": "gen_hunt_thunderpath",
+        "min_cats": 5,
+        "max_cats": 6,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol comes across a scavenger toll in the middle of a field",
+        "decline_text": "The patrol turns away. The risk isn't worth it.",
+        "chance_of_success": 10,
+        "success_outcomes": [
+            {
+                "text": "r_c happens to have a pearl on {PRONOUN/r_c/poss}, trading the shiny object for safe passage.",
+                "exp": 10,
+                "weight": 20,
+                "prey": ["large"]
+            },
+            {
+                "text": "The patrol finds another path instead, finding a good haul for their trouble",
+                "exp": 10,
+                "weight": 5,
+                "prey": ["large"]
+            },
+            {
+                "text": "s_c stops the patrol, slowly walking up to the scavengers and offering up a stolen pearl. The scavengers fall for it, and the patrol is waved through.",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["CLEVER,1"],
+                "prey": ["large"]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "r_c tries to sneak through the toll, but is caught! Spears fly at the whole patrol, but they thankfully escape unharmed.",
+                "exp": 0,
+                "weight": 20
+            },
+            {
+                "text": "r_c tries to sneak through the toll, but is caught! Spears fly at the whole patrol for this offense, at least one killing a clanmate.",
+                "exp": 0,
+                "weight": 10,
+                "dead_cats": ["multi"],
+                "history_text": {
+                    "scar": "m_c was speared by a scavenger.",
+                    "reg_death": "m_c was speared by a scavenger.",
+                    "lead_death": "{VERB/m_c/were/was} speared by a scavenger"
+                }
+            },
+            {
+                "text": "r_c tries to sneak through the toll, but is caught! Spears fly at the whole patrol for this offense, at least one injuring a clanmate.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["multi"],
+                        "injuries": ["spear-wound"],
+                        "scars": ["MANTAIL"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "m_c was speared by a scavenger, and carries a scar from it.",
+                    "reg_death": "m_c was speared by a scavenger and killed.",
+                    "lead_death": "{VERB/m_c/were/was} speared by a scavenger"
                 }
             }
         ]
