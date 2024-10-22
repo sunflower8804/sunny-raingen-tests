@@ -13,7 +13,7 @@
   "normal_suffixes" : [
     " The Fast", " The Void", " The Meek", " The Bully", " The Tough", " The Toughhearted", " The Voidhunter", " The Slow", " The Rude", " The Nice",
     " The Meekhearted", " The Lizardhunter", " The Dragonhunter", " The Hero", " The Lizardlover", " The Vulture", " The Vulturehunter", " The Evil", " The Trickster", " The Pranker", " The Brave", 
-    " The Pearl", " The Fluffy", " The Bravehearted", " The Sad", " The Bee", " The Tree", " The Begonia", " The Happy", " The Gourmond", " The Artificer", " The Monk", " The Saint", " The Survivor",
+    " The Pearl", " The Fluffy", " The Bravehearted", " The Sad", " The Bee", " The Tree", " The Begonia", " The Happy", " The Gourmand", " The Artificer", " The Monk", " The Saint", " The Survivor",
     " The Hunter", " The Rivulet", " The Glacier", " The Friend", " The Pearl", " The Pearlcat", " The Traveler", " The Untouchable", " The Gravel-Eater", " The Vinki", " The Parasite",
     " The Explorer", " The Estranged", " The Stranger", " The Batfly", " The Oceanexplorer", " The Oceanist", " The Explorer", " The Iterator",
     " The Escort", " The Darkness", " The Lancer", " The Nymph", " The Sporecat", " The Vangaurd", " The Guide", " The Technomancer", " The Warrior", " The Savage", " The Florist", " The Tinkerer", " The Sightseer", " The Witness", 
@@ -202,7 +202,7 @@
     "BLACK": [
     "Black", "Black", "Black", "Shade", "Shaded", "Crow", "Raven", "Ebony", "Dark", "Grackle",
     "Night", "Shadow", "Scorch", "Midnight", "Pepper", "Pitch", "Bat", "Burnt", "Coal", "Ink", "Inky",
-    "Char", "Charred", "Mulberry", "Night", "Evening", "Dark", "Murk", "Ghost"
+    "Char", "Charred", "Mulberry", "Night", "Evening", "Dark", "Murk", "Ghost", "Consider"
     ]
   },
 
@@ -256,7 +256,7 @@
     " The Druid", " The Seeker"
     ],
     "Beach": [
-    " The Rivulet", " The Fishcat", " The Swimmer", " The Oceanexplorer", " The Oceanist", " The Aquatic"
+    " The Rivulet", " The Fishcat", " The Swimmer", " The Oceanexplorer", " The Oceanist", " The Aquatic", " The Siren"
     ],
     "Plains": [
     " The Fast", " The Flicker"
@@ -317,7 +317,7 @@
     "Chef", "Cherry", "Cherubi", "Cheshire", "Chester", "Chevre", "Chewie", "Chewy", "Chiaki", "Chibi", "Chica", "Chicco", "Chickpea", 
     "Chief", "Chihiro", "Chikorita", "Chiku", "Chip", "Chiquito", "Chispa", "Chloe", "Choccie", "Chocolate Chip", "Chocolate", "Chocolate Pudding", "Choo-Choo", "Chorizo", "Chris", "Chrissy", "Chub", "Churro", "Cielo", 
     "Cilantro", "Cinder", "Cinderblock", "Cinnabon", "Civet", "Clawdette", "Cleffa", "Clementine", "Cleo", "Clicker", "Clifford", "Cloe", "Cloud", 
-    "Clover", "Coal", "Cobweb", "Cocoa Puff", "Cocoa", "Coffee", "Cola", "Colby Jack", "Colin Robinson", "Comet", "Comfy", "Conan", "Concrete", "Confetti", "Conk Crete", "Connie", "Constructive Criticism", "Cookie", "Cooper", 
+    "Clover", "Coal", "Cobweb", "Cocoa Puff", "Cocoa", "Coffee", "Cola", "Colby Jack", "Colin Robinson", "Comet", "Comfy", "Conan", "Concrete", "Confetti", "Conk Crete", "Connie", "Consdier", "Constructive Criticism", "Cookie", "Cooper", 
     "Coquito", "Coral", "Coriander", "Coricopat", "Corn", "Cosmo", "Courage", "Cowbell", "Cowboy", "Cozy", "Crab", "Cracked Earth", "Cracker",
     "Cream", "Crema", "Crescent", "Crispy", "Crow", "Crumpet", "Crunchwrap", "Crunchy", "Cullen", "Cupcake", "Cupid", "Curry", "Cyndaquil", 
     "Cutie", "Cybele", "Cyprus", "Daisy Mae", "Dakarai", "Dakari", "Dakota", "Dali", 
@@ -400,7 +400,7 @@
     "Venti", "Venture", "Venus", "Vervain", "Vesper", "Vesta", "Via", "Victini", "Victor", "Victoria", "Vida", "Viktor", "Vinnie", 
     "Vinyl", "Violet", "Virgo", "Vivian", "Vivienne", "Void", "Void Walker", "Void Worm", "Volkswagen", "Voltage", 
     "Vox", "Vulpix", "Wade", "Waffle", "Wagyu", "Wally", "Walter", "Walnut", "Wanda", "Wanderer", "War", "Warren Peace", "Wasabi", "Watches the Path", "Webby", "Wednesday", 
-    "Wendy", "Weston", "Whiskers", "Whiskey", "Whisper", "Whitney", "Whiz Kid", "Wiggity Wacks", "Wigglebutt", "Wiggly", "Wiggog Yrath", "Wikipedia", "Wilbur", "Willow", "Windy", 
+    "Wendy", "Weston", "Whiskers", "Whiskey", "Whisper", "Whitney", "Whiz Kid", "Wiggity Wacks", "Wigglebutt", "Wiggly", "Wiggog Yrath", "Wikipedia", "Wilbur", "Willow", "Windchime", "Windy", 
     "Winry", "Wishbone", "Wisp", "Wisteria", "Wizard", "Wolfe", "Wolfgang", "Wolverine", "Wonder", 
     "Worm", "Wrath", "X'ek", "Xelle", "Xhosa", "Xiao", "Xola", "Yaoyao", "Yazhu", "Yeet", "Yeeted", "Yen", "Yeobo", "Yeza", 
     "Yinuo", "Yippee", "Yokai", "Yoonmin", "Yooted", "Yoshi", "Yote", "Yuca", "Yuka", "Yuki", "Yumeko", "Yusuke", "Yuzu", "Yvaine", 
