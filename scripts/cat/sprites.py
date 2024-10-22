@@ -34,18 +34,20 @@ class Sprites:
                 self.cat_tints = ujson.loads(read_file.read())
         except IOError:
             print("ERROR: Reading Tints")
-
+        #If you want less white patches, place hashtags below!
         try:
             with open("sprites/dicts/white_patches_tint.json", 'r') as read_file:
                 self.white_patches_tints = ujson.loads(read_file.read())
         except IOError:
             print("ERROR: Reading White Patches Tints")
 
+        #If you want less white patches, place hashtages above and remove below!
         #try:
             #with open("sprites/dicts/white_patches_lesstint.json", 'r') as read_file:
                 #self.white_patches_tints = ujson.loads(read_file.read())
         #except IOError:
             #print("ERROR: Reading White Patches Less Tints")
+        #If you want less white patches, remove hashtags above!
 
     def spritesheet(self, a_file, name):
         """
