@@ -5,6 +5,9 @@
     "bite-wound": [
         "m_c died from a bite-wound."
     ],
+    "spear-wound": [
+        "m_c died from a spear-wound."
+    ],
     "cat bite": [
         "m_c died from a slugcat bite."
     ],

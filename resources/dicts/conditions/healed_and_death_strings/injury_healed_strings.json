@@ -9,6 +9,11 @@
         "m_c's bite-wound has healed.",
         "m_c has healed well from {PRONOUN/m_c/poss} bite-wound."
     ],
+    "spear-wound": [
+        "m_c has healed from {PRONOUN/m_c/poss} spear-wound.",
+        "m_c's spear-wound has healed.",
+        "m_c has healed well from {PRONOUN/m_c/poss} spear-wound."
+    ],
     "cat bite": [
         "m_c has healed from {PRONOUN/m_c/poss} slugcat bite.",
         "m_c's slugcat bite has healed.",
