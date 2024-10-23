@@ -92,7 +92,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "The patrol find a good-sized patch! This'll feed quite a few scugs!",
+                "text": "The patrol find a good-sized patch! This'll feed quite a few slugcats!",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"]
@@ -408,7 +408,7 @@
         "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The patrol comes across a series of poles with a few blue fruits hanging off the highest one. {PRONOUN/r_c/subject/CAP} is unsure whether to climb up, but the poles show no sign of danger.",
+        "intro_text": "The patrol comes across a series of poles with a few blue fruits hanging off the highest one. r_c is unsure whether to climb up, but the poles show no sign of danger.",
         "decline_text": "Deciding that a few blue fruits aren't worth the risk of getting caught by a pole plant, the patrol turns around and decides to hunt in a different area.",
         "chance_of_success": 50,
         "success_outcomes": [
@@ -445,7 +445,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that a clanmate has a spare spear, and, with a frantic manoeuvre, stabs it into the pole plant's body to break r_c free. However, r_c isn't lucky enough to have escaped unscathed, and {PRONOUN/r_c/subject} {VERB/r_c/limp/limps} back to camp with the help of the other scugs.",
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that a clanmate has a spare spear, and, with a frantic manoeuvre, stabs it into the pole plant's body to break r_c free. However, r_c isn't lucky enough to have escaped unscathed, and {PRONOUN/r_c/subject} {VERB/r_c/limp/limps} back to camp with the help of the other slugcats.",
                 "exp": 0,
                 "weight": 10,
                 "art": "gen_hunt_pole_failureW",
@@ -465,7 +465,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and immediately drags r_c into its den before anyscug can react.",
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and immediately drags r_c into its den before any slugcat can react.",
                 "exp": 0,
                 "weight": 5,
                 "art": "gen_hunt_pole_failureW",
@@ -490,7 +490,7 @@
         "apprentice": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The patrol comes across a series of poles with a few blue fruits hanging off the highest one. {PRONOUN/r_c/subject/CAP} is unsure whether to climb up, but the poles show no sign of danger.",
+        "intro_text": "The patrol comes across a series of poles with a few blue fruits hanging off the highest one. r_c is unsure whether to climb up, but the poles show no sign of danger.",
         "decline_text": "Deciding that a few blue fruits aren't worth the risk of getting caught by a pole plant, the patrol turns around and decides to hunt in a different area.",
         "chance_of_success": 50,
         "success_outcomes": [
@@ -527,7 +527,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that a clanmate has a spare spear, and, with a frantic manoeuvre, stabs it into the pole plant's body to break r_c free. However, r_c isn't lucky enough to have escaped unscathed, and {PRONOUN/r_c/subject} {VERB/r_c/limp/limps} back to camp with the help of the other scugs.",
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that a clanmate has a spare spear, and, with a frantic manoeuvre, stabs it into the pole plant's body to break r_c free. However, r_c isn't lucky enough to have escaped unscathed, and {PRONOUN/r_c/subject} {VERB/r_c/limp/limps} back to camp with the help of the other slugcats.",
                 "exp": 0,
                 "weight": 10,
                 "art": "gen_hunt_pole_failureW",
@@ -547,7 +547,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and immediately drags r_c into its den before anyscug can react.",
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and immediately drags r_c into its den before any slugcat can react.",
                 "exp": 0,
                 "weight": 5,
                 "art": "gen_hunt_pole_failureA",
@@ -572,7 +572,7 @@
         "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The patrol comes across a series of poles with a few blue fruits hanging off the highest one. {PRONOUN/r_c/subject/CAP} is unsure whether to climb up, but the poles show no sign of danger.",
+        "intro_text": "The patrol comes across a series of poles with a few blue fruits hanging off the highest one. r_c is unsure whether to climb up, but the poles show no sign of danger.",
         "decline_text": "Deciding that a few blue fruits aren't worth the risk of getting caught by a pole plant, the patrol turns around and decides to hunt in a different area.",
         "chance_of_success": 50,
         "success_outcomes": [
@@ -609,7 +609,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that a clanmate has a spare spear, and, with a frantic manoeuvre, stabs it into the pole plant's body to break r_c free. However, r_c isn't lucky enough to have escaped unscathed, and {PRONOUN/r_c/subject} {VERB/r_c/limp/limps} back to camp with the help of the other scugs.",
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that a clanmate has a spare spear, and, with a frantic manoeuvre, stabs it into the pole plant's body to break r_c free. However, r_c isn't lucky enough to have escaped unscathed, and {PRONOUN/r_c/subject} {VERB/r_c/limp/limps} back to camp with the help of the other slugcats.",
                 "exp": 0,
                 "weight": 10,
                 "art": "gen_hunt_pole_failureW",
@@ -629,7 +629,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and immediately drags r_c into its den before anyscug can react.",
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and immediately drags r_c into its den before any slugcat can react.",
                 "exp": 0,
                 "weight": 5,
                 "art": "gen_hunt_pole_failureW",
@@ -654,7 +654,7 @@
         "apprentice": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The patrol comes across a series of poles with a few blue fruits hanging off the highest one. {PRONOUN/r_c/subject/CAP} is unsure whether to climb up, but the poles show no sign of danger.",
+        "intro_text": "The patrol comes across a series of poles with a few blue fruits hanging off the highest one. r_c is unsure whether to climb up, but the poles show no sign of danger.",
         "decline_text": "Deciding that a few blue fruits aren't worth the risk of getting caught by a pole plant, the patrol turns around and decides to hunt in a different area.",
         "chance_of_success": 50,
         "success_outcomes": [
@@ -691,7 +691,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that a clanmate has a spare spear, and, with a frantic manoeuvre, stabs it into the pole plant's body to break r_c free. However, r_c isn't lucky enough to have escaped unscathed, and {PRONOUN/r_c/subject} {VERB/r_c/limp/limps} back to camp with the help of the other scugs.",
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and begins to drag r_c into its den. It is only by sheer luck that a clanmate has a spare spear, and, with a frantic manoeuvre, stabs it into the pole plant's body to break r_c free. However, r_c isn't lucky enough to have escaped unscathed, and {PRONOUN/r_c/subject} {VERB/r_c/limp/limps} back to camp with the help of the other slugcats.",
                 "exp": 0,
                 "weight": 10,
                 "art": "gen_hunt_pole_failureW",
@@ -711,7 +711,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and immediately drags r_c into its den before anyscug can react.",
+                "text": "As r_c grabs onto the pole to begin climbing, it suddenly erupts with terrifying, sprawling tendrils. It grasps onto {PRONOUN/r_c/poss} pelt with small, sticky hooks and immediately drags r_c into its den before any slugcat can react.",
                 "exp": 0,
                 "weight": 5,
                 "art": "gen_hunt_pole_failureA",
@@ -825,7 +825,7 @@
                 "weight": 5
             },
             {
-                "text": "s_c stops the patrol from catching the young lizard and takes the opportunity to teach them about the Rot, which can pass from prey to scug.",
+                "text": "s_c stops the patrol from catching the young lizard and takes the opportunity to teach them about the Rot, which can pass from prey to slugcat.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"]
@@ -885,7 +885,7 @@
                 "weight": 5
             },
             {
-                "text": "s_c stops the patrol from catching the yeek and takes the opportunity to teach them about the Rot, which can pass from prey to scug.",
+                "text": "s_c stops the patrol from catching the yeek and takes the opportunity to teach them about the Rot, which can pass from prey to slugcat.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"]
@@ -945,7 +945,7 @@
                 "weight": 5
             },
             {
-                "text": "s_c stops the patrol from catching the lantern mouse and takes the opportunity to teach them about the Rot, which can pass from prey to scug.",
+                "text": "s_c stops the patrol from catching the lantern mouse and takes the opportunity to teach them about the Rot, which can pass from prey to slugcat.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"]
@@ -1673,7 +1673,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Following the noises, they see yellow lizards eating a rain deer. Soon, the beasts are distracted by a theiving blue lizard and give chase, allowing the scugs to eat. Suddenly, the sound of hissing reaches their ears and as the lizards come back into view, the patrol scatters! p_l has to spend the whole day gathering the patrol rather than hunting.",
+                "text": "Following the noises, they see yellow lizards eating a rain deer. Soon, the beasts are distracted by a theiving blue lizard and give chase, allowing the slugcats to eat. Suddenly, the sound of hissing reaches their ears and as the lizards come back into view, the patrol scatters! p_l has to spend the whole day gathering the patrol rather than hunting.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1728,7 +1728,7 @@
         "stat_skill": ["CLEVER,3", "HUNTER,2", "SENSE,1"]
       },
       {
-        "text": "Before any cat makes a move, s_c stops the patrol. {PRONOUN/s_c/subject/CAP} {VERB/s_c/explain/explains} that rogues and loners are taught at a young age to stay away from centipedes after a certain size, as their deadly shock can kill any scug.",
+        "text": "Before any cat makes a move, s_c stops the patrol. {PRONOUN/s_c/subject/CAP} {VERB/s_c/explain/explains} that rogues and loners are taught at a young age to stay away from centipedes after a certain size, as their deadly shock can kill any slugcat.",
         "exp": 30,
         "weight": 20,
         "stat_skill": ["ROGUE,0", "LONER,0"]
@@ -4197,7 +4197,7 @@
    		 "prey": ["medium"]
    	    },
    	    {
-   		 "text": "After making some good catches, p_l picks up on r_c's scent. Whiskers twitching with mischief, p_l decides to give r_c a good scare and drops into a sneaking crouch. p_l creeps closer and closer until r_c is in range, but suddenly r_c turns around with a startled hiss! Both r_c and p_l jump with fright, fur puffed out and claws ready! It takes a moment but both slugcats have a good laugh at the scare they gave each other, and promise not to tell anyscug about how easily startled they were.",
+   		 "text": "After making some good catches, p_l picks up on r_c's scent. Whiskers twitching with mischief, p_l decides to give r_c a good scare and drops into a sneaking crouch. p_l creeps closer and closer until r_c is in range, but suddenly r_c turns around with a startled hiss! Both r_c and p_l jump with fright, fur puffed out and claws ready! It takes a moment but both slugcats have a good laugh at the scare they gave each other, and promise not to tell any slugcat about how easily startled they were.",
    		 "exp": 5,
    		 "weight": 20,
    		 "prey": ["medium"]

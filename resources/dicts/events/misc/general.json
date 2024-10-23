@@ -291,7 +291,7 @@
     "season": ["any"],
     "sub_type": ["accessory"],
     "weight": 10,
-    "event_text": "m_c accidentally trespasses onto o_c_n's territory, and finds a lizard.",
+    "event_text": "m_c accidentally trespasses onto o_c_n's territory and finds a lizard.",
     "new_accessory": ["BLUESKY", "BLUESEA", "PINKMAGENTA", "PINKPURPLE", "GREENEMERALD", "GREENLIME", "WHITEHIDDEN", "WHITEREVEALED", "BLACKNEUTRAL", "BLACKALERT", "YELLOWORANGE", "YELLOWLEMON", "REDTOMATO", "CYANBLUE", "CYANGREEN", "ALBISALAFUSHIA", "ALBISALARED", "MELASALARED", "MELASALAFUSHIA", "MELASALAPURPLE"],
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult"],
@@ -492,6 +492,19 @@
     "m_c": {
         "age": ["adolescent", "young adult","adult","senior","senior adult"],
         "status": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_muddypaws_misc15",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 10,
+    "event_text": "m_c went missing for a few days and came back with muddy paws.",
+    "new_accessory": ["MUDDYPAWS"],
+    "m_c": {
+      "age": ["any"],
+      "status": ["any"]
     }
   },
   {

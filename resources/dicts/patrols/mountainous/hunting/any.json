@@ -878,17 +878,17 @@
         ]
     },
     {
-        "patrol_id": "mtn_hunt_thunderpath1",
-        "biome": ["mountain"],
+        "patrol_id": "pln_hunt_thunderpath1",
+        "biome": ["mountainous"],
         "season": ["any"],
         "types": ["hunting"],
         "tags": ["retirement"],
-        "patrol_art": "gen_hunt_thunderpath",
+        "patrol_art": "gen_openclearing_intro",
         "min_cats": 1,
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol comes across a wide open space running through the mountains.",
+        "intro_text": "The patrol comes across a wide open space in the middle of the territory. The jets of vultures echo in the distance, but they're far away. Even so, the patrol can't help but mull over whether or not it's worth crossing to hunt on the other side.",
         "decline_text": "They decide it is better not to cross.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -896,25 +896,42 @@
                 "text": "The patrol crosses the open space and hunts on the other side.",
                 "exp": 10,
                 "weight": 20,
+                "art": "gen_openclearing_success1",
                 "prey": ["large"]
             },
             {
                 "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey.",
                 "exp": 10,
                 "weight": 5,
+                "art": "gen_openclearing_success2",
+                "prey": ["large"]
+            },
+            {
+                "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey. Upon returning to camp and washing their paws off, s_c finds that theirs have been stained by the mud from the tunnel.",
+                "exp": 10,
+                "weight": 5,
+                "art": "gen_openclearing_success2",
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["MUDDYPAWS"]
+                    }
+                ],
                 "prey": ["large"]
             },
             {
                 "text": "The patrol stops on the edge of the open space, and s_c organizes a thorough search that finds a hidden cache of bluefruit. The emptiness of the space feels unnatural, a warning of the dangers these places bring.",
                 "exp": 10,
                 "weight": 20,
+                "art": "gen_openclearing_success3",
                 "stat_skill": ["CLEVER,1"],
                 "prey": ["large"]
             },
             {
-                "text": "s_c is patient enough to wait until there is definately no vultures, then trots across to hunt on the other side.",
+                "text": "s_c is patient enough to wait until there is definitely no vultures, then trots across to hunt on the other side.",
                 "exp": 10,
                 "weight": 20,
+                "art": "gen_openclearing_success1",
                 "stat_trait": [
                     "calm",
                     "careful",
@@ -934,12 +951,14 @@
             {
                 "text": "r_c hears a the jets of a vulture, and ducks into cover just as the jaws snap behind {PRONOUN/r_c/poss} tail.",
                 "exp": 0,
-                "weight": 20
+                "weight": 20,
+                "art": "gen_openclearing_failure1"
             },
             {
                 "text": "r_c is picked up by a vulture, never to be seen again.",
                 "exp": 0,
                 "weight": 10,
+                "art": "gen_openclearing_failure2",
                 "dead_cats": ["r_c"],
                 "history_text": {
                     "scar": "m_c was bitten by a vulture.",
@@ -951,6 +970,7 @@
                 "text": "r_c is picked up by a vulture, but miraculously gets free! They still fell a long way.",
                 "exp": 0,
                 "weight": 10,
+                "art": "gen_openclearing_failure3",
                 "injury": [
                     {
                         "cats": ["r_c"],
@@ -967,17 +987,17 @@
         ]
     },
     {
-        "patrol_id": "mtn_hunt_thunderpath2",
-        "biome": ["mountain"],
+        "patrol_id": "pln_hunt_thunderpath2",
+        "biome": ["mountainous"],
         "season": ["any"],
         "types": ["hunting"],
         "tags": ["retirement", "cruel_season"],
-        "patrol_art": "gen_hunt_thunderpath",
+        "patrol_art": "gen_openclearing_intro",
         "min_cats": 1,
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol comes across a wide open space running through the mountains.",
+        "intro_text": "The patrol comes across a wide open space in the middle of the territory. The jets of vultures echo in the distance, but they're far away. Even so, the patrol can't help but mull over whether or not it's worth crossing to hunt on the other side.",
         "decline_text": "They decide it is better not to cross.",
         "chance_of_success": 30,
         "success_outcomes": [
@@ -985,25 +1005,42 @@
                 "text": "The patrol crosses the open space and hunts on the other side.",
                 "exp": 10,
                 "weight": 20,
+                "art": "gen_openclearing_success1",
                 "prey": ["large"]
             },
             {
                 "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey.",
                 "exp": 10,
                 "weight": 5,
+                "art": "gen_openclearing_success2",
+                "prey": ["large"]
+            },
+            {
+                "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey. Upon returning to camp and washing their paws off, s_c finds that theirs have been stained by the mud from the tunnel.",
+                "exp": 10,
+                "weight": 5,
+                "art": "gen_openclearing_success2",
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["MUDDYPAWS"]
+                    }
+                ],
                 "prey": ["large"]
             },
             {
                 "text": "The patrol stops on the edge of the open space, and s_c organizes a thorough search that finds a hidden cache of bluefruit. The emptiness of the space feels unnatural, a warning of the dangers these places bring.",
                 "exp": 10,
                 "weight": 20,
+                "art": "gen_openclearing_success3",
                 "stat_skill": ["CLEVER,1"],
                 "prey": ["large"]
             },
             {
-                "text": "s_c is patient enough to wait until there is definately no vultures, then trots across to hunt on the other side.",
+                "text": "s_c is patient enough to wait until there is definitely no vultures, then trots across to hunt on the other side.",
                 "exp": 10,
                 "weight": 20,
+                "art": "gen_openclearing_success1",
                 "stat_trait": [
                     "calm",
                     "careful",
@@ -1023,12 +1060,14 @@
             {
                 "text": "r_c hears a the jets of a vulture, and yowls a warning as the patrol ducks into cover. The vulture hovers for some time, but gives up on this hunt.",
                 "exp": 0,
-                "weight": 20
+                "weight": 20,
+                "art": "gen_openclearing_failure1"
             },
             {
                 "text": "r_c is picked up by a vulture, never to be seen again.",
                 "exp": 0,
                 "weight": 10,
+                "art": "gen_openclearing_failure2",
                 "dead_cats": ["r_c"],
                 "history_text": {
                     "scar": "m_c was bitten by a vulture.",
@@ -1040,6 +1079,219 @@
                 "text": "r_c is picked up by a vulture, but miraculously gets free! They still fell a long way.",
                 "exp": 0,
                 "weight": 10,
+                "art": "gen_openclearing_failure2",
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["blunt_force_injury"],
+                        "scars": ["MANTAIL"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "m_c was heavily injured by a vulture, and carries the scars from it.",
+                    "reg_death": "m_c was dropped by a vulture and killed.",
+                    "lead_death": "{VERB/m_c/were/was} dropped by a vulture"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "pln_hunt_thunderpath3",
+        "biome": ["mountainous"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": ["retirement"],
+        "patrol_art": "gen_openclearing_intro",
+        "min_cats": 5,
+        "max_cats": 6,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol comes across a wide open space in the middle of the territory. The jets of vultures echo in the distance, but they're far away. Even so, the patrol can't help but mull over whether or not it's worth crossing to hunt on the other side.",
+        "decline_text": "They decide it is better not to cross.",
+        "chance_of_success": 10,
+        "success_outcomes": [
+            {
+                "text": "The patrol crosses the open space and hunts on the other side.",
+                "exp": 10,
+                "weight": 20,
+                "art": "gen_openclearing_success1",
+                "prey": ["medium"]
+            },
+            {
+                "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey.",
+                "exp": 10,
+                "weight": 5,
+                "art": "gen_openclearing_success2",
+                "prey": ["large"]
+            },
+            {
+                "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey. Upon returning to camp and washing their paws off, s_c finds that theirs have been stained by the mud from the tunnel.",
+                "exp": 10,
+                "weight": 5,
+                "art": "gen_openclearing_success2",
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["MUDDYPAWS"]
+                    }
+                ],
+                "prey": ["large"]
+            },
+            {
+                "text": "The patrol stops on the edge of the open space, and s_c organizes a thorough search that finds a hidden cache of bluefruit. The emptiness of the space feels unnatural, a warning of the dangers these places bring.",
+                "art": "gen_openclearing_success3",
+                "exp": 10,
+                "weight": 20,
+                "stat_skill": ["CLEVER,1"],
+                "prey": ["large"]
+            },
+            {
+                "text": "s_c is patient enough to wait until there is definitely no vultures, then trots across with the patrol to hunt on the other side.",
+                "exp": 10,
+                "weight": 20,
+                "art": "gen_openclearing_success1",
+                "stat_trait": [
+                    "calm",
+                    "careful",
+                    "insecure",
+                    "nervous",
+                    "sneaky",
+                    "strange",
+                    "patient",
+                    "responsible",
+                    "thoughtful",
+                    "wise"
+                ],
+                "prey": ["large"]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "r_c hears a the jets of a vulture, and yowls a warning! It's a heartbeat too late, though, as a whole group of vultures decends on the slugcats and carries away as many as they can catch.",
+                "exp": 0,
+                "weight": 10,
+                "art": "gen_openclearing_failure2",
+                "dead_cats": ["multi"],
+                "history_text": {
+                    "scar": "m_c was bitten by a vulture.",
+                    "reg_death": "m_c was carried away by a vulture.",
+                    "lead_death": "{VERB/m_c/were/was} carried away by a vulture"
+                }
+            },
+            {
+                "text": "r_c is picked up by a vulture, but miraculously gets free! They still fell a long way.",
+                "exp": 0,
+                "weight": 10,
+                "art": "gen_openclearing_failure2",
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["blunt_force_injury"],
+                        "scars": ["MANLEG"]
+                    }
+                ],
+                "history_text": {
+                    "scar": "m_c was heavily injured by a vulture, and carries the scars from it.",
+                    "reg_death": "m_c was dropped by a vulture and killed.",
+                    "lead_death": "{VERB/m_c/were/was} dropped by a vulture"
+                }
+            }
+        ]
+    },
+    {
+        "patrol_id": "pln_hunt_thunderpath4",
+        "biome": ["mountainous"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": ["retirement", "cruel_season"],
+        "patrol_art": "gen_openclearing_intro",
+        "min_cats": 5,
+        "max_cats": 6,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "The patrol comes across a wide open space in the middle of the territory. The jets of vultures echo in the distance, but they're far away. Even so, the patrol can't help but mull over whether or not it's worth crossing to hunt on the other side.",
+        "decline_text": "They decide it is better not to cross.",
+        "chance_of_success": 10,
+        "success_outcomes": [
+            {
+                "text": "The patrol crosses the open space and hunts on the other side.",
+                "exp": 10,
+                "weight": 20,
+                "art": "gen_openclearing_success1",
+                "prey": ["large"]
+            },
+            {
+                "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey.",
+                "exp": 10,
+                "weight": 5,
+                "art": "gen_openclearing_success2",
+                "prey": ["large"]
+            },
+            {
+                "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey. Upon returning to camp and washing their paws off, s_c finds that theirs have been stained by the mud from the tunnel.",
+                "exp": 10,
+                "weight": 5,
+                "art": "gen_openclearing_success2",
+				"accessory": [
+                    {
+                        "cats": ["s_c"],
+                        "accessory": ["MUDDYPAWS"]
+                    }
+                ],
+                "prey": ["large"]
+            },
+            {
+                "text": "The patrol stops on the edge of the open space, and s_c organizes a thorough search that finds a hidden cache of bluefruit. The emptiness of the space feels unnatural, a warning of the dangers these places bring.",
+                "exp": 10,
+                "weight": 20,
+                "art": "gen_openclearing_success3",
+                "stat_skill": ["CLEVER,1"],
+                "prey": ["large"]
+            },
+            {
+                "text": "s_c is patient enough to wait until there is definitely no vultures, then trots with the patrol across to hunt on the other side.",
+                "exp": 10,
+                "weight": 20,
+                "art": "gen_openclearing_success1",
+                "stat_trait": [
+                    "calm",
+                    "careful",
+                    "insecure",
+                    "nervous",
+                    "sneaky",
+                    "strange",
+                    "patient",
+                    "responsible",
+                    "thoughtful",
+                    "wise"
+                ],
+                "prey": ["large"]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "r_c hears a the jets of a vulture, and yowls a warning as the patrol ducks into cover. The vulture hovers for some time, but gives up on this hunt.",
+                "exp": 0,
+                "weight": 20,
+                "art": "gen_openclearing_failure1"
+            },
+            {
+                "text": "r_c hears a the jets of a vulture, and yowls a warning! It's a heartbeat too late, though, as a whole group of vultures decends on the slugcats and carries away as many as they can catch.",
+                "exp": 0,
+                "weight": 10,
+                "art": "gen_openclearing_failure2",
+                "dead_cats": ["multi"],
+                "history_text": {
+                    "scar": "m_c was bitten by a vulture.",
+                    "reg_death": "m_c was carried away by a vulture.",
+                    "lead_death": "{VERB/m_c/were/was} carried away by a vulture"
+                }
+            },
+            {
+                "text": "r_c is picked up by a vulture, but miraculously gets free! They still fell a long way.",
+                "exp": 0,
+                "weight": 10,
+                "art": "gen_openclearing_failure2",
                 "injury": [
                     {
                         "cats": ["r_c"],
