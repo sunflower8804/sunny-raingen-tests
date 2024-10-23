@@ -2279,7 +2279,7 @@
         ]
     },
     {
-        "patrol_id": "pln_hunt_thunderpath1",
+        "patrol_id": "fst_hunt_thunderpath1",
         "biome": ["forest"],
         "season": ["any"],
         "types": ["hunting"],
@@ -2388,7 +2388,7 @@
         ]
     },
     {
-        "patrol_id": "pln_hunt_thunderpath2",
+        "patrol_id": "fst_hunt_thunderpath2",
         "biome": ["forest"],
         "season": ["any"],
         "types": ["hunting"],
@@ -2497,7 +2497,7 @@
         ]
     },
     {
-        "patrol_id": "pln_hunt_thunderpath3",
+        "patrol_id": "fst_hunt_thunderpath3",
         "biome": ["forest"],
         "season": ["any"],
         "types": ["hunting"],
@@ -2600,7 +2600,7 @@
         ]
     },
     {
-        "patrol_id": "pln_hunt_thunderpath4",
+        "patrol_id": "fst_hunt_thunderpath4",
         "biome": ["forest"],
         "season": ["any"],
         "types": ["hunting"],
