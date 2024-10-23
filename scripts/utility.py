@@ -2603,8 +2603,8 @@ def generate_sprite(
                             'PINKNYLON',
                             'PURPLENYLON',
                             'MULTINYLON',
-                            'INDIGONYLON',
-                            'MUDDYPAWS']
+                            'INDIGONYLON'
+                            ]
 
         for i in cat.pelt.accessories:
             if i not in clangen_accessories and game.settings['new accessories'] is False:

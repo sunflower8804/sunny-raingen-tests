@@ -540,9 +540,6 @@ class Sprites:
             ["BLACKNEUTRAL", "BLACKALERT", "YELLOWORANGE", "YELLOWLEMON", "REDTOMATO", "CYANBLUE", "CYANGREEN"],
             ["ALBISALAFUSHIA", "ALBISALARED", "MELASALARED", "MELASALAFUSHIA", "MELASALAPURPLE"]
         ]
-        seyaccessories_data = [
-            ["MUDDYPAWS"]
-        ]
 
         # medcatherbs
         for row, herbs in enumerate(medcatherbs_data):
