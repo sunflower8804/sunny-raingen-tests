@@ -134,7 +134,7 @@ class Sprites:
             'eyes', 'eyes2', 'skin', 'gilltongue',
             'scars', 'missingscars',
             'medcatherbs', 'herbs2',
-            'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards', 'drones',
+            'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards', 'drones', 'muddypaws',
             'singlecolours', 'speckledcolours', 'tabbycolours', 'bengalcolours', 'marbledcolours',
             'rosettecolours', 'smokecolours', 'tickedcolours', 'mackerelcolours', 'classiccolours',
             'sokokecolours', 'agouticolours', 'singlestripecolours', 'maskedcolours', 'bananacolours',
@@ -540,6 +540,9 @@ class Sprites:
             ["BLACKNEUTRAL", "BLACKALERT", "YELLOWORANGE", "YELLOWLEMON", "REDTOMATO", "CYANBLUE", "CYANGREEN"],
             ["ALBISALAFUSHIA", "ALBISALARED", "MELASALARED", "MELASALAFUSHIA", "MELASALAPURPLE"]
         ]
+        muddypaws_data = [
+            ["MUDDYPAWS"]
+        ]
 
         # medcatherbs
         for row, herbs in enumerate(medcatherbs_data):
@@ -577,10 +580,16 @@ class Sprites:
             self.make_group('rwlizards', (a, 0), f'lizards{i}')
         for a, i in enumerate(["YELLOWORANGE", "YELLOWLEMON", "REDTOMATO", "CYANBLUE", "CYANGREEN", "ALBISALAFUSHIA", "ALBISALARED", "MELASALARED", "MELASALAFUSHIA", "MELASALAPURPLE"]):
             self.make_group('rwlizards', (a, 1), f'lizards{i}')
+
         # drones
         for row, drones in enumerate(drones_data):
             for col, drone in enumerate(drones):
                 self.make_group('drones', (col, row), f'collars{drone}')
+
+        #muddy paws
+        for row, muddypaws in enumerate(muddypaws_data):
+            for col, muddypaws in enumerate(muddypaws):
+                self.make_group('muddypaws', (col, row), f'muddypaws{muddypaws}')
 
     def load_symbols(self):
         """
