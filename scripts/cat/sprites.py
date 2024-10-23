@@ -134,7 +134,7 @@ class Sprites:
             'eyes', 'eyes2', 'skin', 'gilltongue',
             'scars', 'missingscars',
             'medcatherbs', 'herbs2',
-            'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards', 'drones', 'muddypaws',
+            'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards', 'drones', 'muddypaws', 'herbs2',
             'singlecolours', 'speckledcolours', 'tabbycolours', 'bengalcolours', 'marbledcolours',
             'rosettecolours', 'smokecolours', 'tickedcolours', 'mackerelcolours', 'classiccolours',
             'sokokecolours', 'agouticolours', 'singlestripecolours', 'maskedcolours', 'bananacolours',
@@ -543,6 +543,12 @@ class Sprites:
         muddypaws_data = [
             ["MUDDYPAWS"]
         ]
+        herbs2_data = [
+            ["SPEAR", "PEARLEAR", "KARMAFLOWER", "LILCENTI", "PEARLNECK", "REDBATNIP"], 
+            ["LILFLY","BATNIP", "FLASHFRUIT", "REDFLASHFRUIT", "GREENKELP", "REDKELP"], 
+            ["VULTMASK", "KINGMASK", "SCAVMASK", "TREESEED", "GLOWSTONE", "BROWNKELP"], 
+            ["LILBEETLE", "EXPLOSPEAR", "GREENDRAGFLY", "BLUEDRAGFLY"]
+        ]
 
         # medcatherbs
         for row, herbs in enumerate(medcatherbs_data):
@@ -590,6 +596,11 @@ class Sprites:
         for row, muddypaws in enumerate(muddypaws_data):
             for col, muddypaws in enumerate(muddypaws):
                 self.make_group('muddypaws', (col, row), f'muddypaws{muddypaws}')
+
+        #herbs 2
+        for row, herbs2 in enumerate(herbs2_data):
+            for col, herbs2 in enumerate(herbs2):
+                self.make_group('herbs2', (col, row), f'herbs2{herbs2}')
 
     def load_symbols(self):
         """

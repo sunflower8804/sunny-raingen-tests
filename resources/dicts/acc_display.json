@@ -523,5 +523,115 @@
     "default": "muddy paws",
     "plural": "muddy paws",
     "singular": "muddy paws"
+  },
+"SPEAR": {
+    "default": "spear",
+    "plural": "spears",
+    "singular": "spear"
+  },
+  "EXPLOSPEAR": {
+    "default": "explosive spear",
+    "plural": "explosive spears",
+    "singular": "explosive spear"
+  },
+  "PEARLEAR": {
+    "default": "pearl earrings",
+    "plural": "pearl earrings",
+    "singular": "pearl earring"
+  },
+  "KARMAFLOWER": {
+    "default": "karma flower",
+    "plural": "karma flowers",
+    "singular": "karma flower"
+  },
+  "PEARLNECK": {
+    "default": "pearl necklace",
+    "plural": "pearl necklaces",
+    "singular": "pearl necklace"
+  },
+  "REDBATNIP": {
+    "default": "red batnip",
+    "plural": "red batnip",
+    "singular": "red batnip"
+  },
+  "BATNIP": {
+    "default": "batnip",
+    "plural": "batnip",
+    "singular": "batnip"
+  },
+  "FLASHFRUIT": {
+    "default": "flash fruit",
+    "plural": "flash fruits",
+    "singular": "flash fruit"
+  },
+  "REDFLASHFRUIT": {
+    "default": "red flash fruit",
+    "plural": "red flash fruits",
+    "singular": "red flash fruit"
+  },
+  "GREENKELP": {
+    "default": "green kelp stalk",
+    "plural": "green kelp stalks",
+    "singular": "green kelp stalk"
+  },
+  "REDKELP": {
+    "default": "red kelp stalk",
+    "plural": "red kelp stalks",
+    "singular": "red kelp stalk"
+  },
+  "BROWNKELP": {
+    "default": "brown kelp stalk",
+    "plural": "brown kelp stalks",
+    "singular": "brown kelp stalk"
+  },
+  "VULTMASK": {
+    "default": "vulture mask",
+    "plural": "vulture masks",
+    "singular": "vulture mask"
+  },
+  "KINGMASK": {
+    "default": "king vulture mask",
+    "plural": "king vulture masks",
+    "singular": "king vulture mask"
+  },
+  "SCAVMASK": {
+    "default": "crafted vulture mask",
+    "plural": "crafted vulture masks",
+    "singular": "crafted vulture mask"
+  },
+  "TREESEED": {
+    "default": "small seed",
+    "plural": "small seeds",
+    "singular": "small seed"
+  },
+  "GLOWSTONE": {
+    "default": "warm glowing stone",
+    "plural": "warm glowing stones",
+    "singular": "warm glowing stone"
+  },
+  "LILFLY": {
+    "default": "small flying bug",
+    "plural": "small flying bugs",
+    "singular": "small flying bug"
+  },
+  "LILCENTI": {
+    "default": "small bug",
+    "plural": "small bugs",
+    "singular": "small bug"
+  },
+  "LILBEETLE": {
+    "default": "small beetle",
+    "plural": "small beetles",
+    "singular": "small beetle"
+  },
+  "GREENDRAGFLY": {
+    "default": "green dragonfly",
+    "plural": "green dragonflies",
+    "singular": "green dragonfly"
+  },
+  "BLUEDRAGFLY": {
+    "default": "blue dragonfly",
+    "plural": "blue dragonflies",
+    "singular": "blue dragonfly"
   }
 }
