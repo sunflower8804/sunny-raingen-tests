@@ -2603,7 +2603,8 @@ def generate_sprite(
                             'PINKNYLON',
                             'PURPLENYLON',
                             'MULTINYLON',
-                            'INDIGONYLON']
+                            'INDIGONYLON'
+                            ]
 
         for i in cat.pelt.accessories:
             if i not in clangen_accessories and game.settings['new accessories'] is False:
@@ -2618,6 +2619,9 @@ def generate_sprite(
                         new_sprite.blit(sprites.sprites['collars' + i + cat_sprite], (0, 0))
                     elif i in cat.pelt.lizards:
                         new_sprite.blit(sprites.sprites['lizards' + i + cat_sprite], (0, 0))
+                    if i in cat.pelt.muddypaws:
+                        new_sprite.blit(sprites.sprites['muddypaws' + i + cat_sprite], (0, 0))
+               
                 except:
                     continue
 

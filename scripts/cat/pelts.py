@@ -118,6 +118,9 @@ class Pelt():
         "BLACKNEUTRAL", "BLACKALERT", "YELLOWORANGE", "YELLOWLEMON", "REDTOMATO", "CYANBLUE", "CYANGREEN", 
         "ALBISALAFUSHIA", "ALBISALARED", "MELASALARED", "MELASALAFUSHIA", "MELASALAPURPLE"
     ]
+    #sey's muddy paws
+    muddypaws = ["MUDDYPAWS"]
+
 
     tabbies = ["Tabby", "Ticked", "Mackerel", "Classic", "Sokoke", "Agouti", "Masked", "Vulture"]
     spotted = ["Speckled", "Rosette", "Gravel", "Banana", "Conductor"]
