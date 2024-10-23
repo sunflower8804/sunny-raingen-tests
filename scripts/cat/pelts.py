@@ -120,6 +120,13 @@ class Pelt():
     ]
     #sey's muddy paws
     muddypaws = ["MUDDYPAWS"]
+    #other
+    herbs2 = [
+        "SPEAR", "PEARLEAR", "KARMAFLOWER", "LILCENTI", "PEARLNECK", "REDBATNIP", 
+        "LILFLY", "BATNIP", "FLASHFRUIT", "REDFLASHFRUIT", "GREENKELP", "REDKELP", 
+        "VULTMASK", "KINGMASK", "SCAVMASK", "TREESEED", "GLOWSTONE", "BROWNKELP", 
+        "LILBEETLE", "EXPLOSPEAR", "GREENDRAGFLY", "BLUEDRAGFLY"
+    ]
 
 
     tabbies = ["Tabby", "Ticked", "Mackerel", "Classic", "Sokoke", "Agouti", "Masked", "Vulture"]
