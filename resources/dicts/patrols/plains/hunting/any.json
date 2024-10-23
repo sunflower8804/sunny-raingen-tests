@@ -1718,13 +1718,13 @@
                 "prey": ["large"]
             },
             {
-                "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey. Upon returning to camp and washing their paws off, s_c finds that theirs have been stained by the mud from the tunnel.",
+                "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey. Upon returning to camp and washing their paws off, r_c finds that theirs have been stained by the mud from the tunnel.",
                 "exp": 10,
                 "weight": 5,
                 "art": "gen_openclearing_success2",
 				"accessory": [
                     {
-                        "cats": ["s_c"],
+                        "cats": ["r_c"],
                         "accessory": ["MUDDYPAWS"]
                     }
                 ],
@@ -1781,7 +1781,7 @@
                 "text": "r_c is picked up by a vulture, but miraculously gets free! They still fell a long way.",
                 "exp": 0,
                 "weight": 10,
-                "art": "gen_openclearing_failure3",
+                "art": "gen_openclearing_failure2",
                 "injury": [
                     {
                         "cats": ["r_c"],
@@ -1827,13 +1827,13 @@
                 "prey": ["large"]
             },
             {
-                "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey. Upon returning to camp and washing their paws off, s_c finds that theirs have been stained by the mud from the tunnel.",
+                "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey. Upon returning to camp and washing their paws off, r_c finds that theirs have been stained by the mud from the tunnel.",
                 "exp": 10,
                 "weight": 5,
                 "art": "gen_openclearing_success2",
 				"accessory": [
                     {
-                        "cats": ["s_c"],
+                        "cats": ["r_c"],
                         "accessory": ["MUDDYPAWS"]
                     }
                 ],
@@ -1936,13 +1936,13 @@
                 "prey": ["large"]
             },
             {
-                "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey. Upon returning to camp and washing their paws off, s_c finds that theirs have been stained by the mud from the tunnel.",
+                "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey. Upon returning to camp and washing their paws off, r_c finds that theirs have been stained by the mud from the tunnel.",
                 "exp": 10,
                 "weight": 5,
                 "art": "gen_openclearing_success2",
 				"accessory": [
                     {
-                        "cats": ["s_c"],
+                        "cats": ["r_c"],
                         "accessory": ["MUDDYPAWS"]
                     }
                 ],
@@ -2039,13 +2039,13 @@
                 "prey": ["large"]
             },
             {
-                "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey. Upon returning to camp and washing their paws off, s_c finds that theirs have been stained by the mud from the tunnel.",
+                "text": "The patrol finds a pipe running under the open space and uses it to cross. They end up with damp paws, but a successful haul of prey. Upon returning to camp and washing their paws off, r_c finds that theirs have been stained by the mud from the tunnel.",
                 "exp": 10,
                 "weight": 5,
                 "art": "gen_openclearing_success2",
 				"accessory": [
                     {
-                        "cats": ["s_c"],
+                        "cats": ["r_c"],
                         "accessory": ["MUDDYPAWS"]
                     }
                 ],

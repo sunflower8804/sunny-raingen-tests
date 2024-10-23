@@ -2371,7 +2371,7 @@
                 "text": "r_c is picked up by a vulture, but miraculously gets free! They still fell a long way.",
                 "exp": 0,
                 "weight": 10,
-                "art": "gen_openclearing_failure3",
+                "art": "gen_openclearing_failure2",
                 "injury": [
                     {
                         "cats": ["r_c"],
