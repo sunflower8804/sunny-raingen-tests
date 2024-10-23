@@ -1602,7 +1602,7 @@
         ]
     },
     {
-        "patrol_id": "pln_hunt_thunderpath1",
+        "patrol_id": "bch_hunt_thunderpath1",
         "biome": ["beach"],
         "season": ["any"],
         "types": ["hunting"],
@@ -1711,7 +1711,7 @@
         ]
     },
     {
-        "patrol_id": "pln_hunt_thunderpath2",
+        "patrol_id": "bch_hunt_thunderpath2",
         "biome": ["beach"],
         "season": ["any"],
         "types": ["hunting"],
@@ -1820,7 +1820,7 @@
         ]
     },
     {
-        "patrol_id": "pln_hunt_thunderpath3",
+        "patrol_id": "bch_hunt_thunderpath3",
         "biome": ["beach"],
         "season": ["any"],
         "types": ["hunting"],
@@ -1923,7 +1923,7 @@
         ]
     },
     {
-        "patrol_id": "pln_hunt_thunderpath4",
+        "patrol_id": "bch_hunt_thunderpath4",
         "biome": ["beach"],
         "season": ["any"],
         "types": ["hunting"],
