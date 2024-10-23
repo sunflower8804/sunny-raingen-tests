@@ -313,6 +313,8 @@ class HandleShortEvents:
             acc_list.extend(pelts.plant_accessories)
         if "COLLAR" in possible_accs:
             acc_list.extend(pelts.collars)
+        if "SEY" in possible_accs:
+            acc_list.extend(pelts.sey)
 
         for acc in possible_accs:
             if acc not in ["WILD", "PLANT", "COLLAR"]:
