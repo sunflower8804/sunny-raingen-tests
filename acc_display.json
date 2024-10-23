@@ -518,5 +518,10 @@
     "default": "melanistic purple salamander",
     "plural": "melanistic purple salamander",
     "singular": "melanistic purple salamander"
+  },
+  "MUDDYPAWS": {
+    "default": "muddy paws",
+    "plural": "muddy paws",
+    "singular": "muddy paws"
   }
 }
