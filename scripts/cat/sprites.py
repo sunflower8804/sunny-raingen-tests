@@ -133,7 +133,7 @@ class Sprites:
             'lineart', 'lineartdf', 'lineartdead',
             'eyes', 'eyes2', 'skin', 'gilltongue',
             'scars', 'missingscars',
-            'medcatherbs', 'herbs2',
+            'medcatherbs', 'moreaccs',
             'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards', 'drones', 'muddypaws', 'herbs2',
             'singlecolours', 'speckledcolours', 'tabbycolours', 'bengalcolours', 'marbledcolours',
             'rosettecolours', 'smokecolours', 'tickedcolours', 'mackerelcolours', 'classiccolours',
@@ -549,6 +549,11 @@ class Sprites:
             ["VULTMASK", "KINGMASK", "SCAVMASK", "TREESEED", "GLOWSTONE", "BROWNKELP"], 
             ["LILBEETLE", "EXPLOSPEAR", "GREENDRAGFLY", "BLUEDRAGFLY"]
         ]
+        moreaccs_data = [
+            ["MOUSEBLUE", "MOUSEYEL", "MOUSEPINK", "MOUSERED", "BATFLY", "BLUEFRUIT"], 
+            ["INVEGG", "VOIDSPAWN", "GRAPPLE", "EMPTYBAG", "HERBSBAG", "REDARMOR"], 
+            ["VULTGRUB", "YEEKRED", "YEEKBLUE"]
+        ]
 
         # medcatherbs
         for row, herbs in enumerate(medcatherbs_data):
@@ -601,6 +606,11 @@ class Sprites:
         for row, herbs2 in enumerate(herbs2_data):
             for col, herbs2 in enumerate(herbs2):
                 self.make_group('herbs2', (col, row), f'herbs2{herbs2}')
+                
+        #more accs
+        for row, moreaccs in enumerate(moreaccs_data):
+            for col, moreaccs in enumerate(moreaccs):
+                self.make_group('moreaccs', (col, row), f'moreaccs{moreaccs}')
 
     def load_symbols(self):
         """

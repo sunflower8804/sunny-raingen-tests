@@ -127,6 +127,11 @@ class Pelt():
         "VULTMASK", "KINGMASK", "SCAVMASK", "TREESEED", "GLOWSTONE", "BROWNKELP", 
         "LILBEETLE", "EXPLOSPEAR", "GREENDRAGFLY", "BLUEDRAGFLY"
     ]
+    moreaccs = [
+        "MOUSEBLUE", "MOUSEYEL", "MOUSEPINK", "MOUSERED", "BATFLY", "BLUEFRUIT", 
+        "INVEGG", "VOIDSPAWN", "GRAPPLE", "EMPTYBAG", "HERBSBAG", "REDARMOR", 
+        "VULTGRUB", "YEEKRED", "YEEKBLUE"
+    ]
 
 
     tabbies = ["Tabby", "Ticked", "Mackerel", "Classic", "Sokoke", "Agouti", "Masked", "Vulture"]
