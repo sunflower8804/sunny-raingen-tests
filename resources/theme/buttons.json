@@ -151,5 +151,39 @@
                 "path": "resources/images/buttons/cat_event_profile.png"
             }
         }
+    },
+    "#accessories_tab_button": {
+        "prototype": "#image_button",
+        "images": {
+            "normal_image": {
+                "path": "resources/images/buttons/accessories.png"
+            },
+            "hovered_image": {
+                "path": "resources/images/buttons/accessories_hover.png"
+            },
+            "selected_image": {
+                "path": "resources/images/buttons/accessories_hover.png"
+            },
+            "disabled_image": {
+                "path": "resources/images/buttons/accessories_unavailable.png"
+            }
+        }
+    },
+    "#change_accessory_button": {
+        "prototype": "#image_button",
+        "images": {
+            "normal_image": {
+                "path": "resources/images/buttons/change_accessory.png"
+            },
+            "hovered_image": {
+                "path": "resources/images/buttons/change_accessory_hover.png"
+            },
+            "selected_image": {
+                "path": "resources/images/buttons/change_accessory_hover.png"
+            },
+            "disabled_image": {
+                "path": "resources/images/buttons/change_accessory_unavailable.png"
+            }
+        }
     }
 }

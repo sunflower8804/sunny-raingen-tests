@@ -123,6 +123,23 @@
             "filled_bar": "#8CB250"
         }
     },
+    "#remove_accessory_button": {
+        "prototype": "#image_button",
+        "images": {
+            "normal_image": {
+                "path": "resources/images/buttons/remove_accessory.png"
+            },
+            "hovered_image": {
+                "path": "resources/images/buttons/remove_accessory_hover.png"
+            },
+            "selected_image": {
+                "path": "resources/images/buttons/remove_accessory_hover.png"
+            },
+            "disabled_image": {
+                "path": "resources/images/buttons/remove_accessory_unavailable.png"
+            }
+        }
+    },
     "#events_cat_profile_button": {
         "colours": {
             "normal_bg": "#655934",
