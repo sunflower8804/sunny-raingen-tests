@@ -633,5 +633,80 @@
     "default": "blue dragonfly",
     "plural": "blue dragonflies",
     "singular": "blue dragonfly"
+  },
+  "MOUSEBLUE": {
+    "default": "blue lantern mouse",
+    "plural": "blue lantern mice",
+    "singular": "blue lantern mouse"
+  },
+  "MOUSEYEL": {
+    "default": "yellow lantern mouse",
+    "plural": "yellow lantern mice",
+    "singular": "yellow lantern mouse"
+  },
+  "MOUSEPINK": {
+    "default": "pink lantern mouse",
+    "plural": "pink lantern mice",
+    "singular": "pink lantern mouse"
+  },
+  "MOUSERED": {
+    "default": "red lantern mouse",
+    "plural": "red lantern mice",
+    "singular": "red lantern mouse"
+  },
+  "BATFLY": {
+    "default": "batfly",
+    "plural": "batflies",
+    "singular": "batfly"
+  },
+  "BLUEFRUIT": {
+    "default": "blue fruit",
+    "plural": "blue fruits",
+    "singular": "blue fruit"
+  },
+  "INVEGG": {
+    "default": "weird egg",
+    "plural": "weird egg",
+    "singular": "weird egg"
+  },
+  "VOIDSPAWN": {
+    "default": "void spawn",
+    "plural": "void spawns",
+    "singular": "void spawn"
+  },
+  "GRAPPLE": {
+    "default": "grapple worm",
+    "plural": "grapple worms",
+    "singular": "grapple worm"
+  },
+  "EMPTYBAG": {
+    "default": "small bag",
+    "plural": "small bags",
+    "singular": "small bag"
+  },
+  "HERBSBAG": {
+    "default": "bag of herbs",
+    "plural": "bags of herbs",
+    "singular": "bag of herbs"
+  },
+  "REDARMOR": {
+    "default": "red centipede armor",
+    "plural": "red centipede armor",
+    "singular": "red centipede armor"
+  },
+  "VULTGRUB": {
+    "default": "vulture grub",
+    "plural": "vulture grubs",
+    "singular": "vulture grub"
+  },
+  "YEEKRED": {
+    "default": "red yeek",
+    "plural": "red yeeks",
+    "singular": "red yeek"
+  },
+  "YEEKBLUE": {
+    "default": "blue yeek",
+    "plural": "blue yeeks",
+    "singular": "blue yeek"
   }
 }
