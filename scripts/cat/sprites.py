@@ -554,6 +554,11 @@ class Sprites:
             ["INVEGG", "VOIDSPAWN", "GRAPPLE", "EMPTYBAG", "HERBSBAG", "REDARMOR"], 
             ["VULTGRUB", "YEEKRED", "YEEKBLUE"]
         ]
+        drones_data = [
+            ["CRIMSONDRONE", "BLUEDRONE", "YELLOWDRONE", "CYANDRONE", "REDDRONE", "LIMEDRONE"],
+            ["GREENDRONE", "RAINBOWDRONE", "BLACKDRONE", "SPIKESDRONE", "WHITEDRONE"],
+            ["PINKDRONE", "PURPLEDRONE", "MULTIDRONE", "INDIGODRONE"]
+        ]
 
         # medcatherbs
         for row, herbs in enumerate(medcatherbs_data):
