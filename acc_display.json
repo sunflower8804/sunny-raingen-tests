@@ -710,9 +710,9 @@
     "singular": "blue yeek"
   },
   "DEATHSHEAD": {
-    "default": "hawkmoth wings",
-    "plural": "hawkmoth wings",
-    "singular": "hawkmoth wing"
+    "default": "death's-head wings",
+    "plural": "death's-head wings",
+    "singular": "death's-head wing"
   },
   "BLUEBORDERED": {
     "default": "blue-bordered carpet wings",
@@ -738,5 +738,20 @@
     "default": "luna wings",
     "plural": "luna wings",
     "singular": "luna wing"
+  },
+  "ROSYMAPLE": {
+    "default": "rosy maple wings",
+    "plural": "rosy maple wings",
+    "singular": "rosy maple wing"
+  },
+  "ATLAS": {
+    "default": "atlas wings",
+    "plural": "atlas wings",
+    "singular": "atlas wing"
+  },
+  "HERCULES": {
+    "default": "hercules wings",
+    "plural": "hercules wings",
+    "singular": "hercules wing"
   }
 }
