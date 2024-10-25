@@ -80,9 +80,9 @@
     "singular": "oak leaf"
   },
   "CATMINT": {
-    "default": "catmint",
-    "plural": "catmint",
-    "singular": "catmint"
+    "default": "scugmint",
+    "plural": "scugmint",
+    "singular": "scugmint"
   },
   "MAPLE SEED": {
     "default": "maple seed",
@@ -418,6 +418,81 @@
     "default": "indigo nylon collar",
     "plural": "indigo nylon collars",
     "singular": "indigo nylon collar"
+  },
+  "CRIMSONDRONE": {
+    "default": "crimson drone",
+    "plural": "crimson drones",
+    "singular": "crimson drone"
+  },
+  "BLUEDRONE": {
+    "default": "blue drone",
+    "plural": "blue drones",
+    "singular": "blue drone"
+  },
+  "CYANDRONE": {
+    "default": "cyan drone",
+    "plural": "cyan drones",
+    "singular": "cyan droner"
+  },
+  "YELLOWDRONE": {
+    "default": "yellow drone",
+    "plural": "yellow drones",
+    "singular": "yellow drone"
+  },
+  "LIMEDRONE": {
+    "default": "lime drone",
+    "plural": "lime drones",
+    "singular": "lime drone"
+  },
+  "GREENDRONE": {
+    "default": "green drone",
+    "plural": "green drones",
+    "singular": "green drone"
+  },
+  "REDDRONE": {
+    "default": "red drone",
+    "plural": "red drones",
+    "singular": "red drone"
+  },
+  "RAINBOWDRONE": {
+    "default": "rainbow drone",
+    "plural": "rainbow drones",
+    "singular": "rainbow drone"
+  },
+  "BLACKDRONE": {
+    "default": "black drone",
+    "plural": "black drones",
+    "singular": "black drone"
+  },
+  "SPIKESDRONE": {
+    "default": "blue and gold drone",
+    "plural": "blue and gold drones",
+    "singular": "blue and gold drone"
+  },
+  "WHITEDRONE": {
+    "default": "white drone",
+    "plural": "white drones",
+    "singular": "white drone"
+  },
+  "PINKDRONE": {
+    "default": "pink drone",
+    "plural": "pink drones",
+    "singular": "pink drone"
+  },
+  "PURPLEDRONE": {
+    "default": "purple drone",
+    "plural": "purple drones",
+    "singular": "purple drone"
+  },
+  "MULTIDRONE": {
+    "default": "lilac drone",
+    "plural": "lilac drones",
+    "singular": "lilac drone"
+  },
+  "INDIGODRONE": {
+    "default": "indigo drone",
+    "plural": "indigo drones",
+    "singular": "indigo drone"
   },
   "BLUESKY": {
     "default": "light blue lizard",
