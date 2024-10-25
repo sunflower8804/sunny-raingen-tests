@@ -134,7 +134,8 @@ class Sprites:
             'eyes', 'eyes2', 'skin', 'gilltongue',
             'scars', 'missingscars',
             'medcatherbs', 'moreaccs',
-            'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards', 'drones', 'muddypaws', 'herbs2',
+            'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards', 'drones', 'muddypaws', 
+            'herbs2', 'insectwings',
             'singlecolours', 'speckledcolours', 'tabbycolours', 'bengalcolours', 'marbledcolours',
             'rosettecolours', 'smokecolours', 'tickedcolours', 'mackerelcolours', 'classiccolours',
             'sokokecolours', 'agouticolours', 'singlestripecolours', 'maskedcolours', 'bananacolours',
@@ -556,6 +557,9 @@ class Sprites:
             ["VULTMASK", "KINGMASK", "SCAVMASK", "TREESEED", "GLOWSTONE", "BROWNKELP"], 
             ["LILBEETLE", "EXPLOSPEAR", "GREENDRAGFLY", "BLUEDRAGFLY"]
         ]
+        insectwings_data = [
+            "DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA"
+        ]
         moreaccs_data = [
             ["MOUSEBLUE", "MOUSEYEL", "MOUSEPINK", "MOUSERED", "BATFLY", "BLUEFRUIT"], 
             ["INVEGG", "VOIDSPAWN", "GRAPPLE", "EMPTYBAG", "HERBSBAG", "REDARMOR"], 
@@ -613,6 +617,11 @@ class Sprites:
         for row, muddypaws in enumerate(muddypaws_data):
             for col, muddypaws in enumerate(muddypaws):
                 self.make_group('muddypaws', (col, row), f'muddypaws{muddypaws}')
+
+        #insect wings
+        for a, i in enumerate(
+                ["DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA"]):
+            self.make_group('insectwings', (a, 0), f'insectwings{i}')
 
         #herbs 2
         for row, herbs2 in enumerate(herbs2_data):

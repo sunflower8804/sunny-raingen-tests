@@ -708,5 +708,35 @@
     "default": "blue yeek",
     "plural": "blue yeeks",
     "singular": "blue yeek"
+  },
+  "DEATHSHEAD": {
+    "default": "hawkmoth wings",
+    "plural": "hawkmoth wings",
+    "singular": "hawkmoth wing"
+  },
+  "BLUEBORDERED": {
+    "default": "blue-bordered carpet wings",
+    "plural": "blue-bordered carpet wings",
+    "singular": "blue-bordered carpet wing"
+  },
+  "BLOODVEIN": {
+    "default": "blood-vein wings",
+    "plural": "blood-vein wings",
+    "singular": "blood-vein wing"
+  },
+  "LARGEEMERALD": {
+    "default": "large emerald wings",
+    "plural": "large emerald wings",
+    "singular": "large emerald wing"
+  },
+  "CINNABAR": {
+    "default": "cinnabar wings",
+    "plural": "cinnabar wings",
+    "singular": "cinnabar wing"
+  },
+  "LUNA": {
+    "default": "luna wings",
+    "plural": "luna wings",
+    "singular": "luna wing"
   }
 }

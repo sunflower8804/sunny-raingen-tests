@@ -123,8 +123,12 @@ class Pelt():
         "BLACKNEUTRAL", "BLACKALERT", "YELLOWORANGE", "YELLOWLEMON", "REDTOMATO", "CYANBLUE", "CYANGREEN", 
         "ALBISALAFUSHIA", "ALBISALARED", "MELASALARED", "MELASALAFUSHIA", "MELASALAPURPLE"
     ]
-    #sey's muddy paws
+    #sey's accessories
     muddypaws = ["MUDDYPAWS"]
+    insectwings = [
+        "DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA"
+        ]
+
     #other
     herbs2 = [
         "SPEAR", "PEARLEAR", "KARMAFLOWER", "LILCENTI", "PEARLNECK", "REDBATNIP", 
