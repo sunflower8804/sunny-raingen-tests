@@ -127,7 +127,7 @@ class Pelt():
     muddypaws = ["MUDDYPAWS"]
     insectwings = [
         "DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE",
-        "ATLAS", "HERCULES"
+        "ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL"
         ]
 
     #other

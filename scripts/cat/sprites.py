@@ -559,7 +559,7 @@ class Sprites:
         ]
         insectwings_data = [
             ["DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE"],
-            ["ATLAS", "HERCULES"]
+            ["ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL"]
         ]
         moreaccs_data = [
             ["MOUSEBLUE", "MOUSEYEL", "MOUSEPINK", "MOUSERED", "BATFLY", "BLUEFRUIT"], 
@@ -623,7 +623,7 @@ class Sprites:
         for a, i in enumerate(
                 ["DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE"]):
             self.make_group('insectwings', (a, 0), f'insectwings{i}')
-        for a, i in enumerate(["ATLAS", "HERCULES"]):
+        for a, i in enumerate(["ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL"]):
             self.make_group('insectwings', (a, 1), f'insectwings{i}')
 
         #herbs 2

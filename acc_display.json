@@ -753,5 +753,25 @@
     "default": "hercules wings",
     "plural": "hercules wings",
     "singular": "hercules wing"
-  }
+  },
+  "SUNSET": {
+    "default": "Madagascan sunset wings",
+    "plural": "Madagascan sunset wings",
+    "singular": "Madagascan sunset wing"
+  },
+  "PURPLEEMPEROR": {
+    "default": "purple emperor wings",
+    "plural": "purple emperor wings",
+    "singular": "purple emperor wing"
+  },
+  "WHITEADMIRAL": {
+    "default": "white admiral wings",
+    "plural": "white admiral wings",
+    "singular": "white admiral wing"
+  },
+ "SWALLOWTAIL": {
+  "default": "swallowtail wings",
+  "plural": "swallowtail wings",
+  "singular": "swallowtail wing"
+}
 }
