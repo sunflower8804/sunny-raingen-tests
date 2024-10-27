@@ -1,5 +1,273 @@
 [
   {
+    "event_id": "gen_misc_any_spear",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 20,
+    "event_text":  "m_c finds an unusually sharp spear and decides to keep it.",
+    "new_accessory": ["SPEAR"],
+    "m_c": {
+      "age": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_explosivespear",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 10,
+    "event_text":  "m_c finds an explosive spear and decides to keep it.",
+    "new_accessory": ["EXPLOSPEAR"],
+    "m_c": {
+      "age": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_electricspear",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 10,
+    "event_text":  "m_c finds a shiny electric spear and decides to keep it.",
+    "new_accessory": ["ELESPEAR"],
+    "m_c": {
+      "age": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_karmaflower",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "tags": ["skill_trait_required"],
+    "weight": 15,
+    "event_text": "m_c finds a mesmerizing karma flower and decides to wear it.",
+    "new_accessory": ["KARMAFLOWER"],
+    "m_c":{
+      "age": ["any"],
+      "skill": ["SENSE,0", "STORY,0", "LORE,0", "STAR,0", "OMEN,0", "DREAM,0", "CLAIRVOYANT,0", "PROPHET,0", "GHOST,0"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_vulturemask",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "tags": ["skill_trait_required"],
+    "weight": 30,
+    "event_text": "m_c fought a vulture and won. {PRONOUN/m_c/subject/CAP} decided to keep its mask as a trophy.",
+    "new_accessory": ["VULTMASK"],
+    "m_c":{
+      "age": ["any"],
+      "skill": ["FIGHTER,0"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_kingvulturemask",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "tags": ["skill_trait_required"],
+    "weight": 30,
+    "event_text": "m_c fought a king vulture and won. {PRONOUN/m_c/subject/CAP} decided to keep its mask as a trophy.",
+    "new_accessory": ["KINGMASK"],
+    "m_c":{
+      "age": ["any"],
+      "skill": ["FIGHTER,1"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_monsterkelp",
+    "location": ["any"],
+    "season": ["leaf-bare", "leaf-fall"],
+    "sub_type": ["accessory"],
+    "weight": 30,
+    "event_text": "m_c complains about the awful cold, so r_c crafts {PRONOUN/m_c/object} a mantle out of a acc_singular.",
+    "new_accessory": ["GREENKELP", "REDKELP", "BROWNKELP"],
+    "m_c": {
+      "age": ["any"],
+      "status": ["any"],
+      "trait": ["troublesome", "childish", "insecure", "nervous", "grumpy"]
+    },
+    "r_c": {
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
+      "status": ["any"]
+    },
+    "relationships": [
+        {
+          "cats_from": ["m_c"],
+          "cats_to": ["r_c"],
+          "mutual": true,
+          "values": ["platonic", "comfort", "trust"],
+          "amount": 15
+        },
+        {
+          "cats_from": ["m_c"],
+          "cats_to": ["r_c"],
+          "mutual": true,
+          "values": ["dislike"],
+          "amount": -15
+        }
+    ]
+  },
+  {
+    "event_id": "gen_misc_any_flashbang",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 15,
+    "event_text": "After being attacked by a huge coalescipede, m_c decided to always carry acc_plural with {PRONOUN/m_c/object}.",
+    "new_accessory": ["FLASHFRUIT", "REDFLASHFRUIT"],
+    "m_c":{
+      "age": ["any"],
+      "trait": ["lonesome", "nervous", "insecure", "thoughtful", "confident", "careful", "responsible", "vengeful"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_alphagamer",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 1,
+    "event_text":  "One day m_c came back to camp carrying a weird egg-shaped object. To all {PRONOUN/m_c/poss} clanmates' questions {PRONOUN/m_c/subject} simply answered that {PRONOUN/m_c/subject} {VERB/m_c/are/is} an «alpha gamer» now. Whatever that means.",
+    "new_accessory": ["INVEGG"],
+    "m_c": {
+      "age": ["any"],
+      "trait": ["strange"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_alwaysbatflies",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 10,
+    "event_text":  "m_c seems to always have batflies swarming around {PRONOUN/m_c/object}.",
+    "new_accessory": ["BATFLY"],
+    "m_c": {
+        "age": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_alwaysbluefruit",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 10,
+    "event_text":  "m_c seems to always have a blue fruit at hand.",
+    "new_accessory": ["BLUEFRUIT"],
+    "m_c": {
+        "age": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_lanternfind",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 10,
+    "event_text":  "m_c went for a walk and found a cute acc_singular. It now lives in the camp, though it was hard for m_c to convince {PRONOUN/m_c/poss} clanmates not to eat {PRONOUN/m_c/poss} friend.",
+    "new_accessory": ["MOUSEBLUE", "MOUSEYEL", "MOUSEPINK", "MOUSERED"],
+    "m_c": {
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
+      "not_trait": ["cold", "strict", "grumpy", "bloodthirsty", "fierce"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_vulturegrub",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 5,
+    "event_text":  "One day m_c came to camp with a vulture grub and a tale of how that little worm saved {PRONOUN/m_c/poss} life.",
+    "new_accessory": ["VULTGRUB"],
+    "m_c": {
+        "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_grubfascination",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 10,
+    "event_text":  "m_c has a newfound fascination with grubs. Vulture grubs, specifically. Now {PRONOUN/m_c/subject} always {VERB/m_c/carry/carries} one around.",
+    "new_accessory": ["VULTGRUB"],
+    "m_c": {
+      "age": ["adolescent", "young adult", "adult"],
+      "trait": ["childish", "playful", "strange"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_kitgrubfascination",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 20,
+    "event_text":  "m_c has a newfound fascination with grubs. Vulture grubs, specifically. Now {PRONOUN/m_c/subject} always {VERB/m_c/carry/carries} one around.",
+    "new_accessory": ["VULTGRUB"],
+    "m_c": {
+      "age": ["any"],
+      "status": ["kitten"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_bugfascination",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 20,
+    "event_text":  "m_c has a newfound fascination with bugs. Specifically acc_plural. {PRONOUN/m_c/subject/CAP} {VERB/m_c/wear/wears} one as an earring now.",
+    "new_accessory": ["LILFLY", "LILCENTI", "LILBEETLE", "GREENDRAGFLY", "BLUEDRAGFLY"],
+    "m_c": {
+      "age": ["adolescent", "young adult", "adult"],
+      "trait": ["childish", "playful", "strange"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_kitbugfascination",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 40,
+    "event_text":  "m_c has a newfound fascination with bugs. Specifically acc_plural. {PRONOUN/m_c/subject/CAP} always {VERB/m_c/carry/carries} one around now.",
+    "new_accessory": ["LILFLY", "LILCENTI", "LILBEETLE", "GREENDRAGFLY", "BLUEDRAGFLY"],
+    "m_c": {
+      "age": ["any"],
+      "status": ["kitten"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_redarmor",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "tags": ["skill_trait_required"],
+    "weight": 30,
+    "event_text": "A red centipede attacked the camp, and m_c saw this as an opportunity to prove {PRONOUN/m_c/poss} strength in the most dangerous way. {PRONOUN/m_c/subject/CAP} took on the centipede single-pawed and won. As a celebration of this accomplishment {PRONOUN/m_c/subject} was gifted armor made of the centipede's shells.",
+    "new_accessory": ["REDARMOR"],
+    "m_c":{
+      "age": ["any"],
+      "status": ["adolescent", "young adult", "adult", "senior adult"],
+      "skill": ["FIGHTER,3"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_voidspawn",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "tags": ["skill_trait_required"],
+    "weight": 20,
+    "event_text": "m_c goes missing for a couple cycles and comes back asking everyone about weird small yellowish ghosts. It turns out no one else can see them, to m_c's surprise.",
+    "new_accessory": ["VOIDSPAWN"],
+    "m_c":{
+      "age": ["any"],
+      "skill": ["GHOST,2", "STAR,2"]
+    }
+  },
+  {
     "event_id": "gen_misc_murderreveal_any1",
     "location": ["any"],
     "season": ["any"],
@@ -264,7 +532,7 @@
     "season": ["any"],
     "sub_type": ["accessory"],
     "weight": 5,
-    "event_text":  "m_c disappears for a few days, then returns to camp with a acc_singular around {PRONOUN/m_c/poss} neck.",
+    "event_text":  "m_c disappears for a few cycles, then returns to camp with a acc_singular.",
     "new_accessory": ["COLLAR"],
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
@@ -290,8 +558,8 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 10,
-    "event_text": "m_c accidentally trespasses onto o_c_n's territory and finds a lizard.",
+    "weight": 8,
+    "event_text": "m_c accidentally trespasses onto o_c_n's territory and returns to camp with a breathtaking story of friendship. m_c introduces the Clan to {PRONOUN/m_c/poss} new acc_singular companion.",
     "new_accessory": ["BLUESKY", "BLUESEA", "PINKMAGENTA", "PINKPURPLE", "GREENEMERALD", "GREENLIME", "WHITEHIDDEN", "WHITEREVEALED", "BLACKNEUTRAL", "BLACKALERT", "YELLOWORANGE", "YELLOWLEMON", "REDTOMATO", "CYANBLUE", "CYANGREEN", "ALBISALAFUSHIA", "ALBISALARED", "MELASALARED", "MELASALAFUSHIA", "MELASALAPURPLE"],
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult"],
@@ -318,8 +586,8 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 20,
-    "event_text": "m_c went for a long walk this morning, deep in thought, and finds a lizard.",
+    "weight": 8,
+    "event_text": "m_c went for a long walk this morning, deep in thought, and returned to camp with a acc_singular following {PRONOUN/m_c/object}.",
     "new_accessory": ["BLUESKY", "BLUESEA", "PINKMAGENTA", "PINKPURPLE", "GREENEMERALD", "GREENLIME", "WHITEHIDDEN", "WHITEREVEALED", "BLACKNEUTRAL", "BLACKALERT", "YELLOWORANGE", "YELLOWLEMON", "REDTOMATO", "CYANBLUE", "CYANGREEN", "ALBISALAFUSHIA", "ALBISALARED", "MELASALARED", "MELASALAFUSHIA", "MELASALAPURPLE"],
     "m_c": {
       "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
@@ -344,8 +612,8 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 30,
-    "event_text": "m_c spends the evening regaling the Clan with stories of how they found a lizard.",
+    "weight": 15,
+    "event_text": "m_c spends the evening regaling the Clan with stories of how they found a acc_singular.",
     "new_accessory": ["BLUESKY", "BLUESEA", "PINKMAGENTA", "PINKPURPLE", "GREENEMERALD", "GREENLIME", "WHITEHIDDEN", "WHITEREVEALED", "BLACKNEUTRAL", "BLACKALERT", "YELLOWORANGE", "YELLOWLEMON", "REDTOMATO", "CYANBLUE", "CYANGREEN", "ALBISALAFUSHIA", "ALBISALARED", "MELASALARED", "MELASALAFUSHIA", "MELASALAPURPLE"],
     "m_c": {
       "age": ["any"],
@@ -392,7 +660,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c tossed a dropwig out of the camp before it could get the drop on someone.",
+    "event_text": "m_c tossed a centipede out of the camp before it could shock someone.",
     "m_c": {
       "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "status": ["any"]
@@ -440,7 +708,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 10,
-    "event_text": "m_c went missing for a few days.",
+    "event_text": "m_c went missing for a few cycles.",
     "m_c": {
       "age": ["any"],
       "status": ["any"]
@@ -451,8 +719,8 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 10,
-    "event_text": "m_c went missing for a few days and brought back a lizard.",
+    "weight": 8,
+    "event_text": "m_c went missing for a few cycles and returned to camp with a breathtaking tale of survival and, surprisingly, friendship. {PRONOUN/m_c/subject/CAP} introduces the Clan to {PRONOUN/m_c/poss} new acc_singular companion.",
     "new_accessory": ["BLUESKY", "BLUESEA", "PINKMAGENTA", "PINKPURPLE", "GREENEMERALD", "GREENLIME", "WHITEHIDDEN", "WHITEREVEALED", "BLACKNEUTRAL", "BLACKALERT", "YELLOWORANGE", "YELLOWLEMON", "REDTOMATO", "CYANBLUE", "CYANGREEN", "ALBISALAFUSHIA", "ALBISALARED", "MELASALARED", "MELASALAFUSHIA", "MELASALAPURPLE"],
     "m_c": {
       "age": ["any"],
@@ -486,8 +754,8 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 20,
-    "event_text": "m_c is caught outside of the Clan's territory and brought back a lizard.",
+    "weight": 8,
+    "event_text": "m_c got caught outside of the Clan's territory and frightened everyone when a acc_singular followed {PRONOUN/m_c/object} to camp.",
     "new_accessory": ["BLUESKY", "BLUESEA", "PINKMAGENTA", "PINKPURPLE", "GREENEMERALD", "GREENLIME", "WHITEHIDDEN", "WHITEREVEALED", "BLACKNEUTRAL", "BLACKALERT", "YELLOWORANGE", "YELLOWLEMON", "REDTOMATO", "CYANBLUE", "CYANGREEN", "ALBISALAFUSHIA", "ALBISALARED", "MELASALARED", "MELASALAFUSHIA", "MELASALAPURPLE"],
     "m_c": {
         "age": ["adolescent", "young adult","adult","senior","senior adult"],
@@ -500,7 +768,7 @@
     "season": ["any"],
     "sub_type": ["accessory"],
     "weight": 10,
-    "event_text": "m_c went missing for a few days and came back with muddy paws.",
+    "event_text": "m_c got tired of having to wash {PRONOUN/m_c/poss} constantly muddy paws, so {PRONOUN/m_c/subject} decided to accept it as a part of {PRONOUN/m_c/poss} new look.",
     "new_accessory": ["MUDDYPAWS"],
     "m_c": {
       "age": ["any"],
@@ -578,7 +846,7 @@
     "weight": 20,
     "event_text": "m_c and r_c begin a small camp snowball fight while on guard duty, eventually getting the whole Clan to join in.",
     "m_c": {
-        "status": ["warrior"],
+      "status": ["warrior"],
       "trait": ["playful"]
     },
     "r_c": {
@@ -638,8 +906,8 @@
     "season": ["any"],
     "sub_type": ["accessory"],
     "weight": 10,
-    "event_text": "m_c always seems to have acc_plural stuck in {PRONOUN/m_c/poss} fur.",
-    "new_accessory": ["HERBS","PETALS","DRY HERBS", "RED FEATHERS", "BLUE FEATHERS","JAY FEATHERS"],
+    "event_text": "m_c always seems to have acc_plural on {PRONOUN/m_c/poss} pelt.",
+    "new_accessory": ["HERBS", "PETALS", "DRY HERBS", "RED FEATHERS", "BLUE FEATHERS", "JAY FEATHERS"],
     "m_c":{
       "age": ["any"],
       "status": ["any"]
@@ -651,8 +919,8 @@
     "season": ["any"],
     "sub_type": ["accessory"],
     "weight": 20,
-    "event_text": "r_c finds acc_plural while out on a walk and decides to give them to m_c.",
-    "new_accessory": ["WILD","PLANT"],
+    "event_text": "r_c finds acc_plural while out on a walk and decides to give some to m_c.",
+    "new_accessory": ["WILD", "PLANT", "REDBATNIP", "BATNIP"],
     "m_c":{
       "age": ["any"],
       "status": ["any"]
@@ -684,8 +952,8 @@
     "season": ["any"],
     "sub_type": ["accessory"],
     "weight": 20,
-    "event_text": "m_c finds acc_plural while out on a walk and decides to keep them.",
-    "new_accessory": ["WILD","PLANT"],
+    "event_text": "m_c finds acc_plural while out on a walk and decides to keep some.",
+    "new_accessory": ["WILD", "PLANT", "REDBATNIP", "BATNIP"],
     "m_c":{
       "age": ["any"],
       "status": ["any"]
@@ -698,7 +966,7 @@
     "sub_type": ["ceremony", "accessory"],
     "weight": 20,
     "event_text": "m_c was given acc_plural as a congratulations, r_c watches from the side with a jealous glint in {PRONOUN/r_c/poss} eyes.",
-    "new_accessory": ["WILD", "PLANT"],
+    "new_accessory": ["WILD", "PLANT", "REDBATNIP", "BATNIP"],
     "m_c":{
       "age": ["any"],
       "status": ["any"]
@@ -724,7 +992,7 @@
     "sub_type": ["accessory"],
     "weight": 20,
     "event_text": "m_c received a present, acc_plural, from r_c and decided to keep it with {PRONOUN/m_c/object} on {PRONOUN/m_c/poss} pelt.",
-    "new_accessory": ["WILD", "PLANT"],
+    "new_accessory": ["WILD", "PLANT", "REDBATNIP", "BATNIP"],
     "m_c":{
       "age": ["any"],
       "status": ["any"]
@@ -750,7 +1018,7 @@
     "sub_type": ["ceremony", "accessory"],
     "weight": 20,
     "event_text": "m_c decides to pick something to adorn {PRONOUN/m_c/poss} pelt as celebration.",
-    "new_accessory": ["WILD","PLANT"],
+    "new_accessory": ["WILD", "PLANT", "REDBATNIP", "BATNIP", "EMPTYBAG"],
     "m_c":{
       "age": ["any"],
       "status": ["any"]
@@ -763,7 +1031,7 @@
     "sub_type": ["ceremony", "accessory"],
     "weight": 20,
     "event_text": "r_c gives m_c something to adorn {PRONOUN/m_c/poss} pelt as congratulations.",
-    "new_accessory": ["WILD","PLANT"],
+    "new_accessory": ["WILD","PLANT", "REDBATNIP", "BATNIP"],
     "m_c":{
       "age": ["any"],
       "status": ["any"]
@@ -788,6 +1056,32 @@
             "amount": -5
         }
     ]
+  },
+  {
+    "event_id": "gen_misc_any_accessory8",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["ceremony", "accessory"],
+    "weight": 40,
+    "event_text": "m_c decides to craft a little bag as celebration of {PRONOUN/m_c/poss} new status.",
+    "new_accessory": ["EMPTYBAG"],
+    "m_c":{
+      "age": ["any"],
+      "status": ["apprentice", "warrior", "deputy"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_accessory9",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["ceremony", "accessory"],
+    "weight": 60,
+    "event_text": "m_c decides to craft a little bag for herbs as celebration of {PRONOUN/m_c/poss} new status.",
+    "new_accessory": ["HERBSBAG"],
+    "m_c":{
+      "age": ["any"],
+      "status": ["medicine cat apprentice", "medicine cat"]
+    }
   },
   {
     "event_id": "gen_misc_leafbare_accessory1",
@@ -1834,7 +2128,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was caught sharing prey with a pet, who was chased off by a patrol.",
+    "event_text": "m_c was caught sharing prey with an Iterator's pet, who was chased off by a patrol.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
@@ -1860,7 +2154,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was seen touching noses with a pet. Scandalous!",
+    "event_text": "m_c was seen touching noses with an Iterator's pet. Scandalous!",
     "m_c": {
         "age": ["young adult", "adult", "senior adult", "senior"]
     },
@@ -1886,7 +2180,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was seen playing with a pet over the border.",
+    "event_text": "m_c was seen playing with an Iterator's pet over the border.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
@@ -1912,7 +2206,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was seen chasing a pet off of the territory.",
+    "event_text": "m_c was seen chasing an Iterator's pet off of the territory.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
@@ -1938,7 +2232,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was seen in a very serious conversation with a pet, who ran away when another patrol approached.",
+    "event_text": "m_c was seen in a very serious conversation with an Iterator's pet, who ran away when another patrol approached.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
@@ -2095,16 +2389,6 @@
         "amount": 5
       }
     ]
-  },
-  {
-    "event_id": "gen_misc_any_scandalous1",
-    "location": ["any"],
-    "season": ["any"],
-    "weight": 5,
-    "event_text": "m_c was seen taking food from a Seeker!",
-    "m_c": {
-        "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
-    }
   },
   {
     "event_id": "gen_misc_any_scandalous_rogue1",
@@ -3432,7 +3716,7 @@
     "new_accessory": ["WILD", "PLANT"],
     "m_c": {
       "status": ["warrior"],
-      "relationship_status":["child/parent"]
+      "relationship_status": ["child/parent"]
     },
     "r_c": {
       "status": ["any"]
@@ -3457,7 +3741,7 @@
     "new_accessory": ["WILD", "PLANT"],
     "m_c": {
       "status": ["any"],
-      "relationship_status":["child/parent", "dislike_20"]
+      "relationship_status": ["child/parent", "dislike_20"]
     },
     "r_c": {
       "status": ["any"]
@@ -3489,7 +3773,7 @@
     "new_accessory": ["FORGET ME NOTS"],
     "m_c": {
       "status": ["apprentice"],
-      "relationship_status":["siblings"]
+      "relationship_status": ["siblings"]
     },
     "r_c": {
       "status": ["any"]
@@ -3514,7 +3798,7 @@
     "new_accessory": ["FORGET ME NOTS"],
     "m_c": {
       "status": ["warrior"],
-      "relationship_status":["siblings"]
+      "relationship_status": ["siblings"]
     },
     "r_c": {
       "status": ["any"]
@@ -3540,7 +3824,7 @@
     "m_c": {
       "status": ["apprentice"],
       "trait": ["nervous", "insecure"],
-      "relationship_status":["siblings"]
+      "relationship_status": ["siblings"]
     },
     "r_c": {
       "status": ["any"]
@@ -3568,11 +3852,11 @@
     "season": ["any"],
     "sub_type": ["ceremony", "accessory"],
     "weight": 20,
-    "event_text": "r_c feels so lucky to have {PRONOUN/r_c/poss} own sibling become a medicine scug apprentice. Knowing how time consuming it is to gather herbs, r_c spends a long time gathering up acc_plural to help out m_c. While m_c appreciates the efforts, none of these are particularly useful. Instead m_c uses the acc_plural to decorate {PRONOUN/m_c/poss} pelt.",
+    "event_text": "r_c feels so lucky to have {PRONOUN/r_c/poss} own sibling become a cleric apprentice. Knowing how time consuming it is to gather herbs, r_c spends a long time gathering up acc_plural to help out m_c. While m_c appreciates the efforts, none of these are particularly useful. Instead m_c uses the acc_plural to decorate {PRONOUN/m_c/poss} pelt.",
     "new_accessory": ["HERBS", "DRY HERBS"],
     "m_c": {
       "status": ["medicine cat apprentice"],
-      "relationship_status":["siblings"]
+      "relationship_status": ["siblings"]
     },
     "r_c": {
       "status": ["apprentice", "warrior", "mediator", "mediator apprentice"]
@@ -3604,11 +3888,11 @@
     "new_accessory": ["WILD"],
     "m_c": {
       "status": ["warrior"],
-      "relationship_status":["siblings", "platonic_50"]
+      "relationship_status": ["siblings", "platonic_50"]
     },
     "r_c": {
       "status": ["warrior"],
-      "relationship_status":["platonic_50"]
+      "relationship_status": ["platonic_50"]
     },
     "relationships": [
       {
@@ -3630,7 +3914,7 @@
     "new_accessory": ["WILD", "PLANT"],
     "m_c": {
       "status": ["apprentice", "medicine cat apprentice", "mediator apprentice"],
-      "relationship_status":["app/mentor"]
+      "relationship_status": ["app/mentor"]
     },
     "r_c": {
       "status": ["any"],
@@ -3663,11 +3947,11 @@
     "new_accessory": ["WILD", "PLANT"],
     "m_c": {
       "status": ["apprentice", "medicine cat apprentice", "mediator apprentice"],
-      "relationship_status":["app/mentor"]
+      "relationship_status": ["app/mentor"]
     },
     "r_c": {
       "status": ["any"],
-      "skill":["TEACHER,1"]
+      "skill": ["TEACHER,1"]
     },
     "relationships": [
       {

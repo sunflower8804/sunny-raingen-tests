@@ -1,5 +1,56 @@
 [
   {
+    "event_id": "mtn_misc_any_grapplesave",
+    "location": ["mountainous"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 20,
+    "event_text":  "m_c fell from a cliff but survived and came back with a tale of a brave grapple worm that will from now on be {PRONOUN/m_c/poss} best friend.",
+    "new_accessory": ["GRAPPLE"],
+    "m_c": {
+        "age": ["adolescent", "young adult", "adult"],
+      "trait": ["childish", "playful", "adventurous"]
+    }
+  },
+  {
+    "event_id": "mtn_misc_any_grapplefind",
+    "location": ["mountainous"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 10,
+    "event_text":  "m_c finds a grapple worm and decides to carry it around.",
+    "new_accessory": ["GRAPPLE"],
+    "m_c": {
+        "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
+    }
+  },
+  {
+    "event_id": "mtn_misc_any_grapplefascination",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 20,
+    "event_text":  "m_c has a newfound fascination with worms. Grapple worms, specifically. Now {PRONOUN/m_c/subject} always carries one around.",
+    "new_accessory": ["GRAPPLE"],
+    "m_c": {
+      "age": ["adolescent", "young adult", "adult"],
+      "trait": ["childish", "playful", "strange"]
+    }
+  },
+  {
+    "event_id": "mtn_misc_kit_grapplefascination",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 25,
+    "event_text":  "m_c has a newfound fascination with worms. Grapple worms, specifically. Now {PRONOUN/m_c/subject} always carries one around.",
+    "new_accessory": ["GRAPPLE"],
+    "m_c": {
+      "age": ["any"],
+      "status": ["kitten"]
+    }
+  },
+  {
     "event_id": "mtn_misc_war_anyapps1",
     "location": ["mountainous"],
     "season": ["any"],

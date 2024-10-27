@@ -80,9 +80,9 @@
     "singular": "oak leaf"
   },
   "CATMINT": {
-    "default": "catmint",
-    "plural": "catmint",
-    "singular": "catmint"
+    "default": "scugmint",
+    "plural": "scugmint",
+    "singular": "scugmint"
   },
   "MAPLE SEED": {
     "default": "maple seed",
@@ -120,154 +120,154 @@
     "singular": "cicada wing"
   },
   "CRIMSON": {
-    "default": "crimson leather collar",
-    "plural": "crimson leather collars",
-    "singular": "crimson leather collar"
+    "default": "crimson iterator cloak",
+    "plural": "crimson iterator cloaks",
+    "singular": "crimson iterator cloak"
   },
   "BLUE": {
-    "default": "blue leather collar",
-    "plural": "blue leather collars",
-    "singular": "blue leather collar"
+    "default": "blue iterator cloak",
+    "plural": "blue iterator cloaks",
+    "singular": "blue iterator cloak"
   },
   "CYAN": {
-    "default": "cyan leather collar",
-    "plural": "cyan leather collars",
-    "singular": "cyan leather collar"
+    "default": "cyan iterator cloak",
+    "plural": "cyan iterator cloaks",
+    "singular": "cyan iterator cloak"
   },
   "YELLOW": {
-    "default": "yellow leather collar",
-    "plural": "yellow leather collars",
-    "singular": "yellow leather collar"
+    "default": "yellow iterator cloak",
+    "plural": "yellow iterator cloaks",
+    "singular": "yellow iterator cloak"
   },
   "LIME": {
-    "default": "lime leather collar",
-    "plural": "lime leather collars",
-    "singular": "lime leather collar"
+    "default": "lime iterator cloak",
+    "plural": "lime iterator cloaks",
+    "singular": "lime iterator cloak"
   },
   "GREEN": {
-    "default": "green leather collar",
-    "plural": "green leather collars",
-    "singular": "green leather collar"
+    "default": "green iterator cloak",
+    "plural": "green iterator cloaks",
+    "singular": "green iterator cloak"
   },
   "RED": {
-    "default": "red leather collar",
-    "plural": "red leather collars",
-    "singular": "red leather collar"
+    "default": "red iterator cloak",
+    "plural": "red iterator cloaks",
+    "singular": "red iterator cloak"
   },
   "RAINBOW": {
-    "default": "rainbow leather collar",
-    "plural": "rainbow leather collars",
-    "singular": "rainbow leather collar"
+    "default": "lilac iterator cloak",
+    "plural": "lilac iterator cloaks",
+    "singular": "lilac iterator cloak"
   },
   "BLACK": {
-    "default": "black leather collar",
-    "plural": "black leather collars",
-    "singular": "black leather collar"
+    "default": "grey iterator cloak",
+    "plural": "grey iterator cloaks",
+    "singular": "grey iterator cloak"
   },
   "SPIKES": {
-    "default": "spiky leather collar",
-    "plural": "spiky leather collars",
-    "singular": "spiky leather collar"
+    "default": "black iterator cloak",
+    "plural": "black iterator cloaks",
+    "singular": "black iterator cloak"
   },
   "WHITE": {
-    "default": "white leather collar",
-    "plural": "white leather collars",
-    "singular": "white leather collar"
+    "default": "white iterator cloak",
+    "plural": "white iterator cloaks",
+    "singular": "white iterator cloak"
   },
   "PINK": {
-    "default": "pink leather collar",
-    "plural": "pink leather collars",
-    "singular": "pink leather collar"
+    "default": "multi-colored iterator cloak",
+    "plural": "multi-colored iterator cloaks",
+    "singular": "multi-colored iterator cloak"
   },
   "PURPLE": {
-    "default": "purple leather collar",
-    "plural": "purple leather collars",
-    "singular": "purple leather collar"
+    "default": "purple iterator cloak",
+    "plural": "purple iterator cloaks",
+    "singular": "purple iterator cloak"
   },
   "MULTI": {
-    "default": "lilac leather collar",
-    "plural": "lilac leather collars",
-    "singular": "lilac leather collar"
+    "default": "pink iterator cloak",
+    "plural": "pink iterator cloaks",
+    "singular": "pink iterator cloak"
   },
   "INDIGO": {
-    "default": "indigo leather collar",
-    "plural": "indigo leather collars",
-    "singular": "indigo leather collar"
+    "default": "indigo iterator cloak",
+    "plural": "indigo iterator cloaks",
+    "singular": "indigo iterator cloak"
   },
   "CRIMSONBELL": {
-    "default": "crimson bell collar",
-    "plural": "crimson bell collars",
-    "singular": "crimson bell collar"
+    "default": "crimson mark of communication",
+    "plural": "crimson mark of communications",
+    "singular": "crimson mark of communication"
   },
   "BLUEBELL": {
-    "default": "blue bell collar",
-    "plural": "blue bell collars",
-    "singular": "blue bell collar"
+    "default": "blue mark of communication",
+    "plural": "blue mark of communications",
+    "singular": "blue mark of communication"
   },
   "CYANBELL": {
-    "default": "cyan bell collar",
-    "plural": "cyan bell collars",
-    "singular": "cyan bell collar"
+    "default": "cyan mark of communication",
+    "plural": "cyan mark of communications",
+    "singular": "cyan mark of communication"
   },
   "YELLOWBELL": {
-    "default": "yellow bell collar",
-    "plural": "yellow bell collars",
-    "singular": "yellow bell collar"
+    "default": "yellow mark of communication",
+    "plural": "yellow mark of communications",
+    "singular": "yellow mark of communication"
   },
   "LIMEBELL": {
-    "default": "lime bell collar",
-    "plural": "lime bell collars",
-    "singular": "lime bell collar"
+    "default": "lime mark of communication",
+    "plural": "lime mark of communications",
+    "singular": "lime mark of communication"
   },
   "GREENBELL": {
-    "default": "green bell collar",
-    "plural": "green bell collars",
-    "singular": "green bell collar"
+    "default": "green mark of communication",
+    "plural": "green mark of communications",
+    "singular": "green mark of communication"
   },
   "REDBELL": {
-    "default": "red bell collar",
-    "plural": "red bell collars",
-    "singular": "red bell collar"
+    "default": "red mark of communication",
+    "plural": "red mark of communications",
+    "singular": "red mark of communication"
   },
   "RAINBOWBELL": {
-    "default": "rainbow bell collar",
-    "plural": "rainbow bell collars",
-    "singular": "rainbow bell collar"
+    "default": "hot pink mark of communication",
+    "plural": "hot pink mark of communications",
+    "singular": "hot pink mark of communication"
   },
   "BLACKBELL": {
-    "default": "black bell collar",
-    "plural": "black bell collars",
-    "singular": "black bell collar"
+    "default": "grey mark of communication",
+    "plural": "grey mark of communications",
+    "singular": "grey mark of communication"
   },
   "SPIKESBELL": {
-    "default": "spiky bell collar",
-    "plural": "spiky bell collars",
-    "singular": "spikybell collar"
+    "default": "black mark of communication",
+    "plural": "black mark of communications",
+    "singular": "black mark of communication"
   },
   "WHITEBELL": {
-    "default": "white bell collar",
-    "plural": "white bell collars",
-    "singular": "white bell collar"
+    "default": "white mark of communication",
+    "plural": "white mark of communications",
+    "singular": "white mark of communication"
   },
   "PINKBELL": {
-    "default": "pink bell collar",
-    "plural": "pink bell collars",
-    "singular": "pink bell collar"
+    "default": "pink mark of communication",
+    "plural": "pink mark of communications",
+    "singular": "pink mark of communication"
   },
   "PURPLEBELL": {
-    "default": "purple bell collar",
-    "plural": "purple bell collars",
-    "singular": "purple bell collar"
+    "default": "purple mark of communication",
+    "plural": "purple mark of communications",
+    "singular": "purple mark of communication"
   },
   "MULTIBELL": {
-    "default": "lilac bell collar",
-    "plural": "lilac bell collars",
-    "singular": "lilac bell collar"
+    "default": "light pink mark of communication",
+    "plural": "light pink mark of communications",
+    "singular": "light pink mark of communication"
   },
   "INDIGOBELL": {
-    "default": "indigo bell collar",
-    "plural": "indigo bell collars",
-    "singular": "indigo bell collar"
+    "default": "indigo mark of communication",
+    "plural": "indigo mark of communications",
+    "singular": "indigo mark of communication"
   },
   "CRIMSONBOW": {
     "default": "crimson bow collar",
@@ -345,79 +345,154 @@
     "singular": "indigo bow collar"
   },
   "CRIMSONNYLON": {
-    "default": "crimson nylon collar",
-    "plural": "crimson nylon collars",
-    "singular": "crimson nylon collar"
+    "default": "crimson cloak",
+    "plural": "crimson cloaks",
+    "singular": "crimson cloak"
   },
   "BLUENYLON": {
-    "default": "blue nylon collar",
-    "plural": "blue nylon collars",
-    "singular": "blue nylon collar"
+    "default": "blue cloak",
+    "plural": "blue cloaks",
+    "singular": "blue cloak"
   },
   "CYANNYLON": {
-    "default": "cyan nylon collar",
-    "plural": "cyan nylon collars",
-    "singular": "cyan nylon collar"
+    "default": "cyan cloak",
+    "plural": "cyan cloaks",
+    "singular": "cyan cloak"
   },
   "YELLOWNYLON": {
-    "default": "yellow nylon collar",
-    "plural": "yellow nylon collars",
-    "singular": "yellow nylon collar"
+    "default": "yellow cloak",
+    "plural": "yellow cloaks",
+    "singular": "yellow cloak"
   },
   "LIMENYLON": {
-    "default": "lime nylon collar",
-    "plural": "lime nylon collars",
-    "singular": "lime nylon collar"
+    "default": "lime cloak",
+    "plural": "lime cloaks",
+    "singular": "lime cloak"
   },
   "GREENNYLON": {
-    "default": "green nylon collar",
-    "plural": "green nylon collars",
-    "singular": "green nylon collar"
+    "default": "green cloak",
+    "plural": "green cloaks",
+    "singular": "green cloak"
   },
   "REDNYLON": {
-    "default": "red nylon collar",
-    "plural": "red nylon collars",
-    "singular": "red nylon collar"
+    "default": "red cloak",
+    "plural": "red cloaks",
+    "singular": "red cloak"
   },
   "RAINBOWNYLON": {
-    "default": "rainbow nylon collar",
-    "plural": "rainbow nylon collars",
-    "singular": "rainbow nylon collar"
+    "default": "hot pink cloak",
+    "plural": "hot pink cloaks",
+    "singular": "hot pink cloak"
   },
   "BLACKNYLON": {
-    "default": "black nylon collar",
-    "plural": "black nylon collars",
-    "singular": "black nylon collar"
+    "default": "grey cloak",
+    "plural": "grey cloaks",
+    "singular": "grey cloak"
   },
   "SPIKESNYLON": {
-    "default": "blue and gold nylon collar",
-    "plural": "blue and gold nylon collars",
-    "singular": "blue and gold nylon collar"
+    "default": "black cloak",
+    "plural": "black cloaks",
+    "singular": "black cloak"
   },
   "WHITENYLON": {
-    "default": "white nylon collar",
-    "plural": "white nylon collars",
-    "singular": "white nylon collar"
+    "default": "white cloak",
+    "plural": "white cloaks",
+    "singular": "white cloak"
   },
   "PINKNYLON": {
-    "default": "pink nylon collar",
-    "plural": "pink nylon collars",
-    "singular": "pink nylon collar"
+    "default": "multi-colored cloak",
+    "plural": "multi-colored cloaks",
+    "singular": "multi-colored cloak"
   },
   "PURPLENYLON": {
-    "default": "purple nylon collar",
-    "plural": "purple nylon collars",
-    "singular": "purple nylon collar"
+    "default": "purple cloak",
+    "plural": "purple cloaks",
+    "singular": "purple cloak"
   },
   "MULTINYLON": {
-    "default": "lilac nylon collar",
-    "plural": "lilac nylon collars",
-    "singular": "lilac nylon collar"
+    "default": "pink cloak",
+    "plural": "pink cloaks",
+    "singular": "pink cloak"
   },
   "INDIGONYLON": {
-    "default": "indigo nylon collar",
-    "plural": "indigo nylon collars",
-    "singular": "indigo nylon collar"
+    "default": "indigo cloak",
+    "plural": "indigo cloaks",
+    "singular": "indigo cloak"
+  },
+  "CRIMSONDRONE": {
+    "default": "crimson drone",
+    "plural": "crimson drones",
+    "singular": "crimson drone"
+  },
+  "BLUEDRONE": {
+    "default": "blue drone",
+    "plural": "blue drones",
+    "singular": "blue drone"
+  },
+  "CYANDRONE": {
+    "default": "cyan drone",
+    "plural": "cyan drones",
+    "singular": "cyan drone"
+  },
+  "YELLOWDRONE": {
+    "default": "yellow drone",
+    "plural": "yellow drones",
+    "singular": "yellow drone"
+  },
+  "LIMEDRONE": {
+    "default": "lime drone",
+    "plural": "lime drones",
+    "singular": "lime drone"
+  },
+  "GREENDRONE": {
+    "default": "green drone",
+    "plural": "green drones",
+    "singular": "green drone"
+  },
+  "REDDRONE": {
+    "default": "red drone",
+    "plural": "red drones",
+    "singular": "red drone"
+  },
+  "RAINBOWDRONE": {
+    "default": "rainbow drone",
+    "plural": "rainbow drones",
+    "singular": "rainbow drone"
+  },
+  "BLACKDRONE": {
+    "default": "black drone",
+    "plural": "black drones",
+    "singular": "black drone"
+  },
+  "SPIKESDRONE": {
+    "default": "blue and gold drone",
+    "plural": "blue and gold drones",
+    "singular": "blue and gold drone"
+  },
+  "WHITEDRONE": {
+    "default": "white drone",
+    "plural": "white drones",
+    "singular": "white drone"
+  },
+  "PINKDRONE": {
+    "default": "pink drone",
+    "plural": "pink drones",
+    "singular": "pink drone"
+  },
+  "PURPLEDRONE": {
+    "default": "purple drone",
+    "plural": "purple drones",
+    "singular": "purple drone"
+  },
+  "MULTIDRONE": {
+    "default": "lilac drone",
+    "plural": "lilac drones",
+    "singular": "lilac drone"
+  },
+  "INDIGODRONE": {
+    "default": "indigo drone",
+    "plural": "indigo drones",
+    "singular": "indigo drone"
   },
   "BLUESKY": {
     "default": "light blue lizard",
@@ -524,7 +599,7 @@
     "plural": "muddy paws",
     "singular": "muddy paws"
   },
-"SPEAR": {
+  "SPEAR": {
     "default": "spear",
     "plural": "spears",
     "singular": "spear"
@@ -615,9 +690,9 @@
     "singular": "small flying bug"
   },
   "LILCENTI": {
-    "default": "small bug",
-    "plural": "small bugs",
-    "singular": "small bug"
+    "default": "small centipede",
+    "plural": "small centipedes",
+    "singular": "small centipede"
   },
   "LILBEETLE": {
     "default": "small beetle",
@@ -633,6 +708,11 @@
     "default": "blue dragonfly",
     "plural": "blue dragonflies",
     "singular": "blue dragonfly"
+  },
+  "ELESPEAR": {
+    "default": "electric spear",
+    "plural": "electric spears",
+    "singular": "electric spear"
   },
   "MOUSEBLUE": {
     "default": "blue lantern mouse",
