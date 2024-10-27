@@ -417,13 +417,13 @@ class Condition_Events:
             "RIGHTBLIND": ["one bad eye", "failing eyesight"],
             "BOTHBLIND": ["blind"],
             "RATBITE": ["weak leg"],
+            "ROTRIDDEN": ["rotplague"]
         }
 
         scarless_conditions = [
             "weak leg",
             "paralyzed",
             "raspy lungs",
-            "wasting disease",
             "blind",
             "failing eyesight",
             "one bad eye",

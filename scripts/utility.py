@@ -795,6 +795,7 @@ def create_new_cat(
             "NOLEFTEAR",
             "NORIGHTEAR",
             "MANLEG",
+            "ROTRIDDEN"
         ]
         for scar in new_cat.pelt.scars:
             if scar in not_allowed:
@@ -846,6 +847,8 @@ def create_new_cat(
                         new_cat.pelt.scars.append("NOPAW")
                     elif chosen_condition in ["lost their tail", "born without a tail"]:
                         new_cat.pelt.scars.append("NOTAIL")
+                    elif chosen_condition in ["rotplague"]:
+                        new_cat.pelt.scars.append("ROTRIDDEN")
 
         if outside:
             new_cat.outside = True

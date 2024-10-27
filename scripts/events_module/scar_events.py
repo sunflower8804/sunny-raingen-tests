@@ -64,6 +64,14 @@ class Scar_Events():
     back_scars = [
         "TWO", "TAILBASE", "BACK"
     ]
+    rot_scars = [
+        "ROTRIDDEN"
+    ]
+    rotrecovery_scars = [
+        "ROTRIDDEN"
+    ]
+
+
 
     scar_allowed = {
         "bite-wound": canid_scars,
@@ -83,6 +91,8 @@ class Scar_Events():
         "broken jaw": head_scars,
         "broken back": back_scars,
         "broken bone": bone_scars,
+        "rotplague": rot_scars,
+        "rotsickness": rotrecovery_scars
     }
 
     @staticmethod
