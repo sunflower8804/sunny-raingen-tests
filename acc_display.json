@@ -848,5 +848,25 @@
   "default": "swallowtail wings",
   "plural": "swallowtail wings",
   "singular": "swallowtail wing"
+},
+"FLOWEREDMOSS": {
+  "default": "flowered moss-covered pelt",
+  "plural": "flowered moss-covered pelt",
+  "singular": "flowered moss-covered pelt"
+},
+"MOSS": {
+  "default": "moss-covered pelt",
+  "plural": "moss-covered pelt",
+  "singular": "swallowtail wings"
+},
+"MUSHROOMS": {
+  "default": "mushroom-covered tail",
+  "plural": "mushroom-covered tail",
+  "singular": "mushroom-covered tail"
+},
+"SAKURA": {
+  "default": "cherry blossoms",
+  "plural": "cherry blossoms",
+  "singular": "cherry blossom"
 }
 }

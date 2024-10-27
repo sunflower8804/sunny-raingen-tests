@@ -128,7 +128,10 @@ class Pelt():
     insectwings = [
         "DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE",
         "ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL"
-        ]
+    ]
+    naturalacc = [
+        "FLOWEREDMOSS", "MOSS", "MUSHROOMS", "SAKURA"
+    ]
 
     #other
     herbs2 = [

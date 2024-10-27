@@ -135,7 +135,7 @@ class Sprites:
             'scars', 'missingscars',
             'medcatherbs', 'moreaccs',
             'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards', 'drones', 'muddypaws', 
-            'herbs2', 'insectwings',
+            'herbs2', 'insectwings', 'naturalacc',
             'singlecolours', 'speckledcolours', 'tabbycolours', 'bengalcolours', 'marbledcolours',
             'rosettecolours', 'smokecolours', 'tickedcolours', 'mackerelcolours', 'classiccolours',
             'sokokecolours', 'agouticolours', 'singlestripecolours', 'maskedcolours', 'bananacolours',
@@ -572,6 +572,9 @@ class Sprites:
             ["GREENDRONE", "RAINBOWDRONE", "BLACKDRONE", "SPIKESDRONE", "WHITEDRONE"],
             ["PINKDRONE", "PURPLEDRONE", "MULTIDRONE", "INDIGODRONE"]
         ]
+        naturalacc_data = [
+            ["FLOWEREDMOSS", "MOSS", "MUSHROOMS", "SAKURA"]
+        ]
 
         # medcatherbs
         for row, herbs in enumerate(medcatherbs_data):
@@ -615,17 +618,18 @@ class Sprites:
             for col, drone in enumerate(drones):
                 self.make_group('drones', (col, row), f'collars{drone}')
 
-        #muddy paws
+        #sey's accs
         for row, muddypaws in enumerate(muddypaws_data):
             for col, muddypaws in enumerate(muddypaws):
                 self.make_group('muddypaws', (col, row), f'muddypaws{muddypaws}')
-
-        #insect wings
         for a, i in enumerate(
                 ["DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE"]):
             self.make_group('insectwings', (a, 0), f'insectwings{i}')
         for a, i in enumerate(["ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL"]):
             self.make_group('insectwings', (a, 1), f'insectwings{i}')
+        for row, naturalacc in enumerate(naturalacc_data):
+            for col, naturalacc in enumerate(naturalacc):
+                self.make_group('naturalacc', (col, row), f'naturalacc{naturalacc}')
 
         #herbs 2
         for row, herbs2 in enumerate(herbs2_data):
