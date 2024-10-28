@@ -134,7 +134,8 @@ class Sprites:
             'eyes', 'eyes2', 'skin', 'gilltongue',
             'scars', 'missingscars',
             'medcatherbs', 'moreaccs',
-            'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards', 'drones', 'muddypaws', 'herbs2',
+            'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards', 'drones', 'muddypaws', 
+            'herbs2', 'insectwings', 'naturalacc',
             'singlecolours', 'speckledcolours', 'tabbycolours', 'bengalcolours', 'marbledcolours',
             'rosettecolours', 'smokecolours', 'tickedcolours', 'mackerelcolours', 'classiccolours',
             'sokokecolours', 'agouticolours', 'singlestripecolours', 'maskedcolours', 'bananacolours',
@@ -484,7 +485,8 @@ class Sprites:
              "FROSTMITT", "FROSTSOCK", "QUILLCHUNK", "QUILLSCRATCH"],
             ["TAILSCAR", "SNOUT", "CHEEK", "SIDE", "THROAT", "TAILBASE", "BELLY", "TOETRAP", "SNAKE", "LEGBITE",
              "NECKBITE", "FACE"],
-            ["HINDLEG", "BACK", "QUILLSIDE", "SCRATCHSIDE", "TOE", "BEAKSIDE", "CATBITETWO", "SNAKETWO", "FOUR"]
+            ["HINDLEG", "BACK", "QUILLSIDE", "SCRATCHSIDE", "TOE", "BEAKSIDE", "CATBITETWO", "SNAKETWO", "FOUR", 
+             "ROTMARKED", "ROTRIDDEN"]
         ]
 
         # define missing parts
@@ -556,6 +558,10 @@ class Sprites:
             ["VULTMASK", "KINGMASK", "SCAVMASK", "TREESEED", "GLOWSTONE", "BROWNKELP"], 
             ["LILBEETLE", "EXPLOSPEAR", "GREENDRAGFLY", "BLUEDRAGFLY", "ELESPEAR"]
         ]
+        insectwings_data = [
+            ["DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE"],
+            ["ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL"]
+        ]
         moreaccs_data = [
             ["MOUSEBLUE", "MOUSEYEL", "MOUSEPINK", "MOUSERED", "BATFLY", "BLUEFRUIT"], 
             ["INVEGG", "VOIDSPAWN", "GRAPPLE", "EMPTYBAG", "HERBSBAG", "REDARMOR"], 
@@ -565,6 +571,9 @@ class Sprites:
             ["CRIMSONDRONE", "BLUEDRONE", "YELLOWDRONE", "CYANDRONE", "REDDRONE", "LIMEDRONE"],
             ["GREENDRONE", "RAINBOWDRONE", "BLACKDRONE", "SPIKESDRONE", "WHITEDRONE"],
             ["PINKDRONE", "PURPLEDRONE", "MULTIDRONE", "INDIGODRONE"]
+        ]
+        naturalacc_data = [
+            ["FLOWEREDMOSS", "MOSS", "MUSHROOMS", "SAKURA"]
         ]
 
         # medcatherbs
@@ -609,10 +618,18 @@ class Sprites:
             for col, drone in enumerate(drones):
                 self.make_group('drones', (col, row), f'collars{drone}')
 
-        #muddy paws
+        #sey's accs
         for row, muddypaws in enumerate(muddypaws_data):
             for col, muddypaws in enumerate(muddypaws):
                 self.make_group('muddypaws', (col, row), f'muddypaws{muddypaws}')
+        for a, i in enumerate(
+                ["DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE"]):
+            self.make_group('insectwings', (a, 0), f'insectwings{i}')
+        for a, i in enumerate(["ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL"]):
+            self.make_group('insectwings', (a, 1), f'insectwings{i}')
+        for row, naturalacc in enumerate(naturalacc_data):
+            for col, naturalacc in enumerate(naturalacc):
+                self.make_group('naturalacc', (col, row), f'naturalacc{naturalacc}')
 
         #herbs 2
         for row, herbs2 in enumerate(herbs2_data):

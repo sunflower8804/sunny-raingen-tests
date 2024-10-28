@@ -206,9 +206,9 @@
     },
     "rotsickness": {
         "rotplague": [
-          "r_c is gentle when {PRONOUN/r_c/subject} {VERB/r_c/break/breaks} the news, but m_c had already knows. {PRONOUN/m_c/subject/CAP} has gotten the Rotplague.",
-            "m_c hacks and coughs uncontrollably, so like Redcough that it's concerning. However, the lumps on {PRONOUN/m_c/subject} say what it truly is. The rot has taken hold in {PRONOUN/m_c/subject}.",
-            "m_c looks to the skies above, begging the Ascended for answers that are never answered. How could starclan be so cruel? How could they give Rotplague to {PRONOUN/m_c/subject}?"
+          "r_c is gentle when {PRONOUN/r_c/subject} {VERB/r_c/break/breaks} the news, but m_c already knows. m_c has the Rot.",
+            "m_c hacks and coughs uncontrollably, blood dripping from their jaws like redcough. However, the cysts on {PRONOUN/m_c/poss} pelt say what it truly is. The rot has taken hold in {PRONOUN/m_c/subject}.",
+            "m_c looks to the skies above, begging the Ascended for answers that are never answered. How could VoidClan be so cruel? How could they give the Rot to {PRONOUN/m_c/subject}?"
         ]
     }
 }

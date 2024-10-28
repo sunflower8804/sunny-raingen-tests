@@ -532,6 +532,7 @@
                     {
                         "cats": ["n_c:0"],
                         "injuries": ["rotsickness"],
+                        "scars": "ROTMARKED",
                         "no_results": true
                     }
                 ]
@@ -558,6 +559,7 @@
                     {
                         "cats": ["n_c:0"],
                         "injuries": ["rotsickness"],
+                        "scars": "ROTMARKED",
                         "no_results": true
                     }
                 ]

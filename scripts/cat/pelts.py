@@ -96,7 +96,7 @@ class Pelt():
 
     # "special" scars that could only happen in a special event
     scars3 = ["SNAKE", "TOETRAP", "BURNPAWS", "BURNTAIL", "BURNBELLY", "BURNRUMP", "FROSTFACE", "FROSTTAIL",
-              "FROSTMITT", "FROSTSOCK", "TOE", "SNAKETWO"]
+              "FROSTMITT", "FROSTSOCK", "TOE", "SNAKETWO", "ROTMARKED", "ROTRIDDEN"]
 
     # make sure to add plural and singular forms of new accs to acc_display.json so that they will display nicely
     plant_accessories = ["MAPLE LEAF", "HOLLY", "BLUE BERRIES", "FORGET ME NOTS", "RYE STALK", "LAUREL",
@@ -123,8 +123,16 @@ class Pelt():
         "BLACKNEUTRAL", "BLACKALERT", "YELLOWORANGE", "YELLOWLEMON", "REDTOMATO", "CYANBLUE", "CYANGREEN", 
         "ALBISALAFUSHIA", "ALBISALARED", "MELASALARED", "MELASALAFUSHIA", "MELASALAPURPLE"
     ]
-    #sey's muddy paws
+    #sey's accessories
     muddypaws = ["MUDDYPAWS"]
+    insectwings = [
+        "DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE",
+        "ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL"
+    ]
+    naturalacc = [
+        "FLOWEREDMOSS", "MOSS", "MUSHROOMS", "SAKURA"
+    ]
+
     #other
     herbs2 = [
         "SPEAR", "PEARLEAR", "KARMAFLOWER", "LILCENTI", "PEARLNECK", "REDBATNIP", 
@@ -719,6 +727,8 @@ class Pelt():
 
         if 'NOTAIL' in self.scars and 'HALFTAIL' in self.scars:
             self.scars.remove('HALFTAIL')
+        if 'ROTRIDDEN' in self.scars and 'ROTMARKED' in self.scars:
+            self.scars.remove('ROTMARKED')
 
     def init_accessories(self, age):
         if age == "newborn":
@@ -1126,7 +1136,8 @@ class Pelt():
                 "NOPAW": "three legs",
                 "NOLEFTEAR": "a missing ear",
                 "NORIGHTEAR": "a missing ear",
-                "NOEAR": "no ears"
+                "NOEAR": "no ears",
+                "ROTRIDDEN": "the rot"
             }
 
             additional_details = []

@@ -1895,6 +1895,8 @@ class Cat:
             return
         if name == "torn ear" and "NOEAR" in self.pelt.scars:
             return
+        if name == "the rot" and "ROTMARKED" in self.pelt.scars:
+            return
 
         injury = INJURIES[name]
         mortality = injury["mortality"][self.age]
@@ -1997,6 +1999,8 @@ class Cat:
             cat.pelt.scars.append("NOPAW")
         elif new_condition == "born without a tail":
             cat.pelt.scars.append("NOTAIL")
+        elif new_condition == "the rot":
+            cat.pelt.scars.append("ROTRIDDEN")
 
         self.get_permanent_condition(new_condition, born_with=True)
 
@@ -2036,7 +2040,8 @@ class Cat:
                 'JAY FEATHERS', "SEAWEED",
                 "DAISY CORSAGE", "GULL FEATHERS",
                 "SPARROW FEATHERS", "CLOVER",
-                "DAISY"
+                "DAISY", "MUSHROOMS",
+                "FLOWEREDMOSS", "MOSS"
                 ]:
                 if acc in self.pelt.accessories:
                     self.pelt.inventory.remove(acc)
@@ -3723,7 +3728,7 @@ def create_cat(status, moons=None, biome=None):
             new_cat.moons = choice([1, 2, 3, 4, 5])
     
     not_allowed_scars = ['NOPAW', 'NOTAIL', 'HALFTAIL', 'NOEAR', 'BOTHBLIND', 'RIGHTBLIND', 'LEFTBLIND', 'BRIGHTHEART',
-                         'NOLEFTEAR', 'NORIGHTEAR', 'MANLEG']
+                         'NOLEFTEAR', 'NORIGHTEAR', 'MANLEG', "ROTRIDDEN", "ROTMARKED"]
     
     for scar in new_cat.pelt.scars:
         if scar in not_allowed_scars:

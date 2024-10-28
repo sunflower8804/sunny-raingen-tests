@@ -788,5 +788,90 @@
     "default": "blue yeek",
     "plural": "blue yeeks",
     "singular": "blue yeek"
-  }
+  },
+  "DEATHSHEAD": {
+    "default": "death's-head wings",
+    "plural": "death's-head wings",
+    "singular": "death's-head wing"
+  },
+  "BLUEBORDERED": {
+    "default": "blue-bordered carpet wings",
+    "plural": "blue-bordered carpet wings",
+    "singular": "blue-bordered carpet wing"
+  },
+  "BLOODVEIN": {
+    "default": "blood-vein wings",
+    "plural": "blood-vein wings",
+    "singular": "blood-vein wing"
+  },
+  "LARGEEMERALD": {
+    "default": "large emerald wings",
+    "plural": "large emerald wings",
+    "singular": "large emerald wing"
+  },
+  "CINNABAR": {
+    "default": "cinnabar wings",
+    "plural": "cinnabar wings",
+    "singular": "cinnabar wing"
+  },
+  "LUNA": {
+    "default": "luna wings",
+    "plural": "luna wings",
+    "singular": "luna wing"
+  },
+  "ROSYMAPLE": {
+    "default": "rosy maple wings",
+    "plural": "rosy maple wings",
+    "singular": "rosy maple wing"
+  },
+  "ATLAS": {
+    "default": "atlas wings",
+    "plural": "atlas wings",
+    "singular": "atlas wing"
+  },
+  "HERCULES": {
+    "default": "hercules wings",
+    "plural": "hercules wings",
+    "singular": "hercules wing"
+  },
+  "SUNSET": {
+    "default": "Madagascan sunset wings",
+    "plural": "Madagascan sunset wings",
+    "singular": "Madagascan sunset wing"
+  },
+  "PURPLEEMPEROR": {
+    "default": "purple emperor wings",
+    "plural": "purple emperor wings",
+    "singular": "purple emperor wing"
+  },
+  "WHITEADMIRAL": {
+    "default": "white admiral wings",
+    "plural": "white admiral wings",
+    "singular": "white admiral wing"
+  },
+ "SWALLOWTAIL": {
+  "default": "swallowtail wings",
+  "plural": "swallowtail wings",
+  "singular": "swallowtail wing"
+},
+"FLOWEREDMOSS": {
+  "default": "flowered moss-covered pelt",
+  "plural": "flowered moss-covered pelt",
+  "singular": "flowered moss-covered pelt"
+},
+"MOSS": {
+  "default": "moss-covered pelt",
+  "plural": "moss-covered pelt",
+  "singular": "swallowtail wings"
+},
+"MUSHROOMS": {
+  "default": "mushroom-covered tail",
+  "plural": "mushroom-covered tail",
+  "singular": "mushroom-covered tail"
+},
+"SAKURA": {
+  "default": "cherry blossoms",
+  "plural": "cherry blossoms",
+  "singular": "cherry blossom"
+}
 }
