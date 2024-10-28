@@ -276,7 +276,7 @@ class ClanSettingsScreen(Screens):
             n += 1
 
         self.checkboxes_text["instr"] = pygame_gui.elements.UITextBox(
-            "Change Clan-specific settings regarding cat roles",
+            "Change Clan-specific settings regarding slugcat roles",
             scale(pygame.Rect((200, 370), (1200, 100))),
             object_id=get_text_box_theme("#text_box_30_horizcenter"),
             manager=MANAGER,
@@ -316,7 +316,7 @@ class ClanSettingsScreen(Screens):
             n += 1
 
         self.checkboxes_text["instr"] = pygame_gui.elements.UITextBox(
-            "Change Clan-specific settings regarding cat relationships",
+            "Change Clan-specific settings regarding slugcat relationships",
             scale(pygame.Rect((200, 370), (1200, 100))),
             object_id=get_text_box_theme("#text_box_30_horizcenter"),
             manager=MANAGER,
@@ -382,19 +382,19 @@ class ClanSettingsScreen(Screens):
                 kits += 1
 
         text = (
-            f"Living Clan Cats: {living_cats}\n"
-            f"StarClan Cats: {starclan}\n"
-            f"Dark Forest Cats: {df}\n"
-            f"Unknown Residence Cats: {ur}\n"
-            f"Medicine Cats: {med_cats}\n"
-            f"Medicine Cat Apprentices: {med_cat_apprentices}\n"
+            f"Living Clan Slugcats: {living_cats}\n"
+            f"Ascended Slugcats: {starclan}\n"
+            f"RotWound Slugcats: {df}\n"
+            f"Unknown Residence Slugcats: {ur}\n"
+            f"Clerics: {med_cats}\n"
+            f"Cleric Apprentices: {med_cat_apprentices}\n"
             f"Warriors: {warriors}\n"
             f"Warrior Apprentices: {warrior_apprentices}\n"
             f"Mediators: {mediators}\n"
             f"Mediators Apprentices: {mediator_apprentices}\n"
             f"Elders: {elders}\n"
-            f"Kittens and Newborns: {kits}\n"
-            f"Faded Cats: {faded_cats}"
+            f"Slugpups and Newborns: {kits}\n"
+            f"Faded Slugcats: {faded_cats}"
         )
 
         self.checkboxes_text["stat_box"] = pygame_gui.elements.UITextBox(

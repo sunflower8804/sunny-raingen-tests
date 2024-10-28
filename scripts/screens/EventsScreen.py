@@ -428,9 +428,9 @@ class EventsScreen(Screens):
         # UPDATE CLAN INFO
         self.clan_info["season"].set_text(f"Current season: {game.clan.current_season}")
         if game.clan.age == 1:
-            self.clan_info["age"].set_text(f"Clan age: {game.clan.age} moon")
+            self.clan_info["age"].set_text(f"Clan age: {game.clan.age} cycle")
         else:
-            self.clan_info["age"].set_text(f"Clan age: {game.clan.age} moons")
+            self.clan_info["age"].set_text(f"Clan age: {game.clan.age} cycles")
 
         self.make_event_scrolling_container()
 
@@ -559,7 +559,7 @@ class EventsScreen(Screens):
 
         if not self.all_events:
             self.all_events.append(
-                Single_Event("Nothing interesting happened this moon.")
+                Single_Event("Nothing interesting happened this cycle.")
             )
 
         self.display_events = self.all_events
