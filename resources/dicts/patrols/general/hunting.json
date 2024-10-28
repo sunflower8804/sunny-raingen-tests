@@ -848,7 +848,7 @@
                           "some_clan"
                       ],
                         "injuries": ["rotsickness"],
-                        "scars": []
+                        "scars": ["ROTMARKED"]
                     }
                 ],
                 "history_text": {
@@ -908,7 +908,7 @@
                           "some_clan"
                       ],
                         "injuries": ["rotsickness"],
-                        "scars": []
+                        "scars": ["ROTMARKED"]
                     }
                 ],
                 "history_text": {
@@ -968,7 +968,7 @@
                           "some_clan"
                       ],
                         "injuries": ["rotsickness"],
-                        "scars": []
+                        "scars": ["ROTMARKED"]
                     }
                 ],
                 "history_text": {

@@ -92,11 +92,11 @@ class Pelt():
               "BACK", "QUILLSIDE", "SCRATCHSIDE", "BEAKSIDE", "CATBITETWO", "FOUR"]
 
     # missing parts
-    scars2 = ["LEFTEAR", "RIGHTEAR", "NOTAIL", "HALFTAIL", "NOPAW", "NOLEFTEAR", "NORIGHTEAR", "NOEAR", "ROTRIDDEN"]
+    scars2 = ["LEFTEAR", "RIGHTEAR", "NOTAIL", "HALFTAIL", "NOPAW", "NOLEFTEAR", "NORIGHTEAR", "NOEAR"]
 
     # "special" scars that could only happen in a special event
     scars3 = ["SNAKE", "TOETRAP", "BURNPAWS", "BURNTAIL", "BURNBELLY", "BURNRUMP", "FROSTFACE", "FROSTTAIL",
-              "FROSTMITT", "FROSTSOCK", "TOE", "SNAKETWO", "ROTMARKED"]
+              "FROSTMITT", "FROSTSOCK", "TOE", "SNAKETWO", "ROTMARKED", "ROTRIDDEN"]
 
     # make sure to add plural and singular forms of new accs to acc_display.json so that they will display nicely
     plant_accessories = ["MAPLE LEAF", "HOLLY", "BLUE BERRIES", "FORGET ME NOTS", "RYE STALK", "LAUREL",
@@ -727,6 +727,8 @@ class Pelt():
 
         if 'NOTAIL' in self.scars and 'HALFTAIL' in self.scars:
             self.scars.remove('HALFTAIL')
+        if 'ROTRIDDEN' in self.scars and 'ROTMARKED' in self.scars:
+            self.scars.remove('ROTMARKED')
 
     def init_accessories(self, age):
         if age == "newborn":

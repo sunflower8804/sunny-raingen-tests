@@ -417,7 +417,7 @@ class Condition_Events:
             "RIGHTBLIND": ["one bad eye", "failing eyesight"],
             "BOTHBLIND": ["blind"],
             "RATBITE": ["weak leg"],
-            "ROTRIDDEN": ["rotplague"]
+            "ROTRIDDEN": ["the rot"]
         }
 
         scarless_conditions = [
@@ -604,7 +604,11 @@ class Condition_Events:
         triggered = False
         event_list = []
 
-        injury_progression = {"poisoned": "redcough", "shock": "lingering shock"}
+        injury_progression = {
+            "poisoned": "redcough", 
+            "shock": "lingering shock",
+            "rotsickness": "rotplague"
+            }
 
         # need to hold this number so that we can check if the leader has died
         starting_life_count = game.clan.leader_lives

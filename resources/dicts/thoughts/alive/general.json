@@ -2003,7 +2003,7 @@
         ],
         "perm_conditions": {
             "m_c": [
-                "wasting disease"
+                "rotplague"
             ]
         },
         "random_age_constraint": [
@@ -2021,7 +2021,7 @@
         ],
         "perm_conditions": {
             "m_c": [
-                "wasting disease"
+                "rotplague"
             ]
         },
         "random_age_constraint": [
@@ -2038,7 +2038,7 @@
         ],
         "perm_conditions": {
             "m_c": [
-                "wasting disease"
+                "rotplague"
             ]
         },
         "random_age_constraint": [
@@ -2053,7 +2053,7 @@
         ],
         "perm_conditions": {
             "m_c": [
-                "wasting disease"
+                "rotplague"
             ]
         },
         "main_age_constraint": [

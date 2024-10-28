@@ -518,6 +518,7 @@
                     {
                         "slugcats": ["n_c:0"],
                         "injuries": ["rotsickness"],
+                        "scars": "ROTMARKED",
                         "no_results": true
                     }
                 ]
@@ -544,6 +545,7 @@
                     {
                         "slugcats": ["n_c:0"],
                         "injuries": ["rotsickness"],
+                        "scars": "ROTMARKED",
                         "no_results": true
                     }
                 ]

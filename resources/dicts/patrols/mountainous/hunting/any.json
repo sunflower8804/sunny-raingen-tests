@@ -1707,16 +1707,18 @@
             {
                 "text": "Ignoring the warning from the bird above, the patrol brings back an unremarkable amount of prey - and a cough that leaps from slugcat to slugcat in the dens that night.",
                 "exp": 0,
-                "weight": 20,
+                "weight": 10,
                 "injury": [
                     {
                         "cats": ["patrol"],
-                        "injuries": ["yellowcough"]
+                        "injuries": ["rotsickness"],
+                        "scars": ["ROTMARKED"]
                     }
                 ],
                 "history_text": {
-                    "reg_death": "m_c died from the yellowcough brought to the Clan by the Belled miros vulture.",
-                    "lead_death": "died from the yellowcough brought by the Belled miros vulture"
+                    "scar": "r_c was scarred by the cysts formed by their former rot poisoning.",
+                    "reg_death": "m_c died from the rot sickness brought to the Clan by the Belled miros vulture.",
+                    "lead_death": "died from the rot sickness brought by the Belled miros vulture"
                 },
                 "art": "belledbuzzard_OUTCOME",
 				"prey": ["very_small"]

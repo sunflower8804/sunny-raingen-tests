@@ -486,12 +486,12 @@ class Sprites:
             ["TAILSCAR", "SNOUT", "CHEEK", "SIDE", "THROAT", "TAILBASE", "BELLY", "TOETRAP", "SNAKE", "LEGBITE",
              "NECKBITE", "FACE"],
             ["HINDLEG", "BACK", "QUILLSIDE", "SCRATCHSIDE", "TOE", "BEAKSIDE", "CATBITETWO", "SNAKETWO", "FOUR", 
-             "ROTMARKED"]
+             "ROTMARKED", "ROTRIDDEN"]
         ]
 
         # define missing parts
         missing_parts_data = [
-            ["LEFTEAR", "RIGHTEAR", "NOTAIL", "NOLEFTEAR", "NORIGHTEAR", "NOEAR", "HALFTAIL", "NOPAW", "ROTRIDDEN"]
+            ["LEFTEAR", "RIGHTEAR", "NOTAIL", "NOLEFTEAR", "NORIGHTEAR", "NOEAR", "HALFTAIL", "NOPAW"]
         ]
 
         # scars 
