@@ -206,7 +206,7 @@
 		"elder_modifier": 20,
 		"happy_trait_modifier": -30,
 		"grumpy_trait_modifier": 30,
-		"ceremony_modifier": -20
+		"ceremony_modifier": -50
 	},
 	"fading": {
 		"age_to_fade": 202,
@@ -286,7 +286,7 @@
 		"war_injury_modifier": 100
 	},
 	"clan_creation": {
-		"rerolls": 3,
+		"rerolls": -1,
 		"comment": "Set this to -1 for it to be infinite"
 	},
 	"graduation": {
