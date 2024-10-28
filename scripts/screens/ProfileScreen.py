@@ -666,7 +666,7 @@ class ProfileScreen(Screens):
 
         # if cat is a med or med app, show button for their den
         self.profile_elements["med_den"] = UIImageButton(
-            scale(pygame.Rect((200, 760), (302, 56))),
+            scale(pygame.Rect((200, 760), (242, 56))),
             "",
             object_id="#med_den_button",
             manager=MANAGER,
