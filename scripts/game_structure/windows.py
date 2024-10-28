@@ -1042,7 +1042,7 @@ class KillCat(UIWindow):
         )
         cat_dict = {"m_c": (str(self.the_cat.name), choice(self.the_cat.pronouns))}
         self.heading = pygame_gui.elements.UITextBox(
-            f"<b>-- How did this cat die? --</b>",
+            f"<b>-- How did this slugcat die? --</b>",
             scale(pygame.Rect((20, 20), (860, 150))),
             object_id="#text_box_30_horizcenter_spacing_95",
             manager=MANAGER,
@@ -1082,7 +1082,7 @@ class KillCat(UIWindow):
             )
 
             self.prompt = process_text(
-                "This cat died when {PRONOUN/m_c/subject}...", cat_dict
+                "This slugcat died when {PRONOUN/m_c/subject}...", cat_dict
             )
             self.initial = process_text(
                 "{VERB/m_c/were/was} killed by a higher power.", cat_dict
@@ -1116,10 +1116,10 @@ class KillCat(UIWindow):
             # This should only occur for retired leaders.
 
             self.prompt = process_text(
-                "This cat died when {PRONOUN/m_c/subject}...", cat_dict
+                "This slugcat died when {PRONOUN/m_c/subject}...", cat_dict
             )
             self.initial = process_text(
-                "{VERB/m_c/were/was} killed by something unknowable to even StarClan",
+                "{VERB/m_c/were/was} killed by something unknowable to even the Ascended",
                 cat_dict,
             )
             self.all_lives_check.hide()
@@ -1952,10 +1952,10 @@ class ChangeCatToggles(UIWindow):
             tool_tip = "The afterlife guide can never fade."
         elif self.the_cat.prevent_fading:
             box_type = "#checked_checkbox"
-            tool_tip = "Prevents cat from fading away after being dead for 202 moons."
+            tool_tip = "Prevents slugcat from fading away after being dead for 202 cycles."
         else:
             box_type = "#unchecked_checkbox"
-            tool_tip = "Prevents cat from fading away after being dead for 202 moons."
+            tool_tip = "Prevents slugcat from fading away after being dead for 202 cycles."
 
         # Fading
         self.checkboxes["prevent_fading"] = UIImageButton(
@@ -1972,10 +1972,10 @@ class ChangeCatToggles(UIWindow):
         # No Kits
         if self.the_cat.no_kits:
             box_type = "#checked_checkbox"
-            tool_tip = "Prevent the cat from adopting or having kittens."
+            tool_tip = "Prevent the slugcat from adopting or having slugpups."
         else:
             box_type = "#unchecked_checkbox"
-            tool_tip = "Prevent the cat from adopting or having kittens."
+            tool_tip = "Prevent the slugcat from adopting or having slugpups."
 
         self.checkboxes["prevent_kits"] = UIImageButton(
             scale(pygame.Rect(45, 100, 68, 68)),
@@ -1988,10 +1988,10 @@ class ChangeCatToggles(UIWindow):
         # No Retire
         if self.the_cat.no_retire:
             box_type = "#checked_checkbox"
-            tool_tip = "Allow cat to retiring automatically."
+            tool_tip = "Allow slugcat to retire automatically."
         else:
             box_type = "#unchecked_checkbox"
-            tool_tip = "Prevent cat from retiring automatically."
+            tool_tip = "Prevent slugcat from retiring automatically."
 
         self.checkboxes["prevent_retire"] = UIImageButton(
             scale(pygame.Rect(45, 150, 68, 68)),
@@ -2004,10 +2004,10 @@ class ChangeCatToggles(UIWindow):
         # No mates
         if self.the_cat.no_mates:
             box_type = "#checked_checkbox"
-            tool_tip = "Prevent cat from automatically taking a mate, breaking up, or having romantic interactions with non-mates."
+            tool_tip = "Prevent slugcat from automatically taking a mate, breaking up, or having romantic interactions with non-mates."
         else:
             box_type = "#unchecked_checkbox"
-            tool_tip = "Prevent cat from automatically taking a mate, breaking up, or having romantic interactions with non-mates."
+            tool_tip = "Prevent slugcat from automatically taking a mate, breaking up, or having romantic interactions with non-mates."
 
         self.checkboxes["prevent_mates"] = UIImageButton(
             scale(pygame.Rect(45, 200, 68, 68)),

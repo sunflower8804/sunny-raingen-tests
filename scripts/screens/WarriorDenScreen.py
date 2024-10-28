@@ -110,7 +110,7 @@ class WarriorDenScreen(Screens):
                           "specific focus, which will provide some benefits (and possibly some negatives) to your "
                           "Clan.  Some focuses are not available in classic mode.  Click on each focus to see a "
                           "description of what they will do.  Focuses that target other Clans will allow you to "
-                          "choose which Clans you target.  Your focus can only be changed every 3 moons, "
+                          "choose which Clans you target.  Your focus can only be changed every 3 cycles, "
                           "so choose carefully.",
 
         )
@@ -273,16 +273,16 @@ class WarriorDenScreen(Screens):
                 desc += f"clan and {game.clan.clans_in_focus[-1]}clan"
 
         last_change_text = "unknown"
-        next_change = "0 moons"
+        next_change = "0 cycles"
         if game.clan.last_focus_change:
-            last_change_text = "moon " + str(game.clan.last_focus_change)
+            last_change_text = "cycle " + str(game.clan.last_focus_change)
             moons = game.clan.last_focus_change + game.config["focus"]["duration"] - game.clan.age
             if moons == 1:
-                next_change = f"{moons} moon"
+                next_change = f"{moons} cycle"
             elif moons > 0:
-                next_change = f"{moons} moons"
+                next_change = f"{moons} cycles"
             else:
-                next_change = f"0 moons"
+                next_change = f"0 cycles"
 
         self.focus_information["current_focus"] = pygame_gui.elements.UITextBox(
             f"<b>Current Focus:</b> {name}{desc}<br><b>Focus Last Changed:</b> {last_change_text}<br>(next change in {next_change})",
