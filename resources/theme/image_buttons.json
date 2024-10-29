@@ -567,6 +567,23 @@
             }
         }
     },
+    "#menurandom_button": {
+        "prototype": "#image_button",
+        "images": {
+            "normal_image": {
+                "path": "resources/images/buttons/random_dice.png"
+            },
+            "hovered_image": {
+                "path": "resources/images/buttons/random_dice_hover.png"
+            },
+            "selected_image": {
+                "path": "resources/images/buttons/random_dice_hover.png"
+            },
+            "disabled_image": {
+                "path": "resources/images/buttons/random_dice_unavailable.png"
+            }
+        }
+    },
     "#arrow_left_fancy": {
         "prototype": "#image_button",
         "images": {
