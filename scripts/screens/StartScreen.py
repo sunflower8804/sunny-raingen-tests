@@ -10,7 +10,7 @@ This file contains:
 
 
 """  # pylint: enable=line-too-long
-
+from random import randrange
 import logging
 import os
 import platform
@@ -43,16 +43,14 @@ logger = logging.getLogger(__name__)
 has_checked_for_update = False
 update_available = False
 
-
 class StartScreen(Screens):
     """
     TODO: DOCS
     """
-
     def __init__(self, name=None):
         super().__init__(name)
         self.warning_label = None
-        self.bg = pygame.image.load("resources/images/menu.png").convert()
+        self.bg = pygame.image.load(f"resources/images/menu_art/menu{randrange(0,8)}.png").convert()
         self.bg = pygame.transform.scale(self.bg, (screen_x, screen_y))
         self.social_buttons = {}
 
@@ -124,6 +122,9 @@ class StartScreen(Screens):
                     subprocess.Popen(
                         ["xdg-open", "https://twitter.com/OfficialClangen"]
                     )
+            elif event.ui_element == self.social_buttons["menurandom_button"]:
+                self.bg = pygame.image.load(f"resources/images/menu_art/menu{randrange(0,8)}.png").convert()
+                self.bg = pygame.transform.scale(self.bg, (screen_x, screen_y))
         elif event.type == pygame.KEYDOWN and game.settings["keybinds"]:
             if (
                 event.key == pygame.K_RETURN or event.key == pygame.K_SPACE
@@ -214,6 +215,14 @@ class StartScreen(Screens):
             object_id="#discord_button",
             manager=MANAGER,
             tool_tip_text="Join our Discord!",
+        )
+
+        self.social_buttons["menurandom_button"] = UIImageButton(
+            scale(pygame.Rect((285, 1070), (102, 102))),
+            "",
+            object_id="#menurandom_button",
+            manager=MANAGER,
+            tool_tip_text="Randomize menu screen",
         )
         errorimg = image_cache.load_image(
             "resources/images/errormsg.png"
