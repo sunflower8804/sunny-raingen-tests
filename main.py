@@ -15,6 +15,7 @@ It then loads the settings, and then loads the start screen.
 
 
 """  # pylint: enable=line-too-long
+from random import randrange
 import os
 import shutil
 import sys
@@ -109,6 +110,7 @@ logging.root.addHandler(stream_handler)
 
 prune_logs(logs_to_keep=10, retain_empty_logs=False)
 
+somenumber = randrange(0,4)
 
 def log_crash(logtype, value, tb):
     """
@@ -212,7 +214,6 @@ def load_data():
 
     finished_loading = True
 
-
 def loading_animation():
     global finished_loading
 
@@ -222,12 +223,28 @@ def loading_animation():
         color.fill(game.config["theme"]["light_mode_background"])
     else:
         color.fill(game.config["theme"]["dark_mode_background"])
-
+    
     images = []
-    for i in range(1, 11):
-        im = pygame.image.load(f"resources/images/loading_animate/startup/{i}.png")
-        im.blit(color, (0, 0), special_flags=pygame.BLEND_RGBA_MULT)
-        images.append(im)
+    if somenumber==0:
+        for i in range(1, 11):
+            im = pygame.image.load(f"resources/images/loading_animate/startup/{somenumber}/{i}.png")
+            im.blit(color, (0, 0), special_flags=pygame.BLEND_RGBA_MULT)
+            images.append(im)
+    elif somenumber==1:
+        for i in range(1, 13):
+            im = pygame.image.load(f"resources/images/loading_animate/startup/{somenumber}/{i}.png")
+            im.blit(color, (0, 0), special_flags=pygame.BLEND_RGBA_MULT)
+            images.append(im)
+    elif somenumber==2:
+        for i in range(1, 9):
+            im = pygame.image.load(f"resources/images/loading_animate/startup/{somenumber}/{i}.png")
+            im.blit(color, (0, 0), special_flags=pygame.BLEND_RGBA_MULT)
+            images.append(im)
+    elif somenumber==3:
+        for i in range(1, 9):
+            im = pygame.image.load(f"resources/images/loading_animate/startup/{somenumber}/{i}.png")
+            im.blit(color, (0, 0), special_flags=pygame.BLEND_RGBA_MULT)
+            images.append(im)
 
     # Cleanup
     del im
@@ -239,7 +256,10 @@ def loading_animation():
     i = 0
     total_frames = len(images)
     while not finished_loading:
-        clock.tick(8)  # Loading screen is 8FPS
+        if somenumber==0:
+            clock.tick(8)  #FPS count. the walk cycle is 8FPS, but other animations use 12FPS
+        else:
+            clock.tick(12)
 
         if game.settings["dark mode"]:
             screen.fill(game.config["theme"]["dark_mode_background"])
