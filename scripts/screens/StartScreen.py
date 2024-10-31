@@ -50,8 +50,14 @@ class StartScreen(Screens):
     def __init__(self, name=None):
         super().__init__(name)
         self.warning_label = None
-        self.bg = pygame.image.load(f"resources/images/menu{randrange(0,8)}.png").convert()
-        self.bg = pygame.transform.scale(self.bg, (screen_x, screen_y))
+        if game.settings["dark mode"]:
+            menunumber = randrange(0,15)
+            self.bg = pygame.image.load(f"resources/images/menu_art_dark/menu{menunumber}.png").convert()
+            self.bg = pygame.transform.scale(self.bg, (screen_x, screen_y))
+        else:
+            menunumber = randrange(0,35)
+            self.bg = pygame.image.load(f"resources/images/menu_art/menu{menunumber}.png").convert()
+            self.bg = pygame.transform.scale(self.bg, (screen_x, screen_y))
         self.social_buttons = {}
 
     def handle_event(self, event):
@@ -123,8 +129,14 @@ class StartScreen(Screens):
                         ["xdg-open", "https://twitter.com/OfficialClangen"]
                     )
             elif event.ui_element == self.social_buttons["menurandom_button"]:
-                self.bg = pygame.image.load(f"resources/images/menu{randrange(0,8)}.png").convert()
-                self.bg = pygame.transform.scale(self.bg, (screen_x, screen_y))
+                if game.settings["dark mode"]:
+                    menunumber = randrange(0,15)
+                    self.bg = pygame.image.load(f"resources/images/menu_art_dark/menu{menunumber}.png").convert()
+                    self.bg = pygame.transform.scale(self.bg, (screen_x, screen_y))
+                else:
+                    menunumber = randrange(0,35)
+                    self.bg = pygame.image.load(f"resources/images/menu_art/menu{menunumber}.png").convert()
+                    self.bg = pygame.transform.scale(self.bg, (screen_x, screen_y))
         elif event.type == pygame.KEYDOWN and game.settings["keybinds"]:
             if (
                 event.key == pygame.K_RETURN or event.key == pygame.K_SPACE
