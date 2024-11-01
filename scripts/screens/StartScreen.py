@@ -51,11 +51,11 @@ class StartScreen(Screens):
         super().__init__(name)
         self.warning_label = None
         if game.settings["dark mode"]:
-            menunumber = randrange(0,15)
+            menunumber = randrange(0,37)
             self.bg = pygame.image.load(f"resources/images/menu_art_dark/menu{menunumber}.png").convert()
             self.bg = pygame.transform.scale(self.bg, (screen_x, screen_y))
         else:
-            menunumber = randrange(0,35)
+            menunumber = randrange(0,57)
             self.bg = pygame.image.load(f"resources/images/menu_art/menu{menunumber}.png").convert()
             self.bg = pygame.transform.scale(self.bg, (screen_x, screen_y))
         self.social_buttons = {}
@@ -130,11 +130,11 @@ class StartScreen(Screens):
                     )
             elif event.ui_element == self.social_buttons["menurandom_button"]:
                 if game.settings["dark mode"]:
-                    menunumber = randrange(0,15)
+                    menunumber = randrange(0,37)
                     self.bg = pygame.image.load(f"resources/images/menu_art_dark/menu{menunumber}.png").convert()
                     self.bg = pygame.transform.scale(self.bg, (screen_x, screen_y))
                 else:
-                    menunumber = randrange(0,35)
+                    menunumber = randrange(0,57)
                     self.bg = pygame.image.load(f"resources/images/menu_art/menu{menunumber}.png").convert()
                     self.bg = pygame.transform.scale(self.bg, (screen_x, screen_y))
         elif event.type == pygame.KEYDOWN and game.settings["keybinds"]:
