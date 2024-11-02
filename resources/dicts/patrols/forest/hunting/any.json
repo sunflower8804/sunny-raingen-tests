@@ -1,6 +1,6 @@
 [
     {
-        "patrol_id": "fst_hunt_kelp1",
+        "patrol_id": "fst_hunt_monstkelp1",
         "biome": ["forest"],
         "season": ["any"],
         "types": ["hunting"],
@@ -16,26 +16,47 @@
         "success_outcomes": [
             {
                 "text": "The patrol examines the monster kelp, eventually deciding that they shouldn't risk the potential injury it could cause.",
-                "exp": 10,
-                "weight": 20
+                "exp": 30,
+                "weight": 20,
+                "prey": ["small"]
             },
             {
-                "text": "The monster kelp slowly swishes towards them, the patrol heeds its warning and gives it space.",
-                "exp": 10,
-                "weight": 5
+                "text": "The monster kelp rustles its leaves, the patrol heeds its warning and gives it space.",
+                "exp": 30,
+                "weight": 5,
+                "prey": ["small"]
             },
             {
                 "text": "s_c sets up an ambush, devising a use the monster kelp to {PRONOUN/s_c/poss} advantage. When a large centipede wanders too close, they attack it fiercely with a spear, collecting it's bounty instead.  The Clan will be impressed by this hefty fresh-kill.",
-                "exp": 10,
+                "exp": 30,
                 "weight": 20,
-                "stat_skill": ["HUNTER,2", "CLEVER,2"],
+                "stat_skill": ["HUNTER,3", "CLEVER,3"],
                 "prey": ["huge"]
             },
             {
-                "text": "s_c has the ingenious idea to use rocks on the monster kelp from a distance and collect dropped leaves to bring back to camp. The leaves could be woven into the Clan's defenses as intimidation.",
+                "text": "s_c has the ingenious idea to use rocks on the monster kelp from a distance and collect dropped leaves to bring back to camp. The leaves could be woven into the Clan's defenses as intimidation, though {PRONOUN/s_c/subject} decides to wear some leaves on {PRONOUN/s_c/poss} pelt.",
                 "exp": 10,
-                "weight": 20,
-                "stat_trait": ["calm", "careful", "strange", "thoughtful", "wise"]
+                "weight": 1,
+                "prey": ["medium"],
+                "stat_trait": ["calm", "careful", "strange", "thoughtful", "wise"],
+                "accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["REDKELP", "GREENKELP", "BROWNKELP"]
+                    }
+                ]
+            },
+            {
+                "text": "r_c jumps into action, throwing a spear and seperating a large chunk of the stalk from the stem. As a prize of {PRONOUN/r_c/poss}'s victory, r_c decides to wear some leaves on {PRONOUN/r_c/poss} pelt.",
+                "exp": 10,
+                "weight": 1,
+                "prey": ["medium"],
+                "accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["REDKELP", "GREENKELP", "BROWNKELP"]
+                    }
+                ]
             }
         ],
         "fail_outcomes": [
@@ -81,7 +102,7 @@
         ]
     },
     {
-        "patrol_id": "fst_hunt_porcupine2",
+        "patrol_id": "fst_hunt_monstkelp2",
         "biome": ["forest"],
         "season": ["any"],
         "types": ["hunting"],
@@ -98,12 +119,14 @@
             {
                 "text": "The patrol examines the monster kelp, eventually deciding that they shouldn't risk the potential injury it could cause.",
                 "exp": 30,
-                "weight": 20
+                "weight": 20,
+                "prey": ["small"]
             },
             {
                 "text": "The monster kelp rustles its leaves, the patrol heeds its warning and gives it space.",
                 "exp": 30,
-                "weight": 5
+                "weight": 5,
+                "prey": ["small"]
             },
             {
                 "text": "s_c sets up an ambush, devising a use the monster kelp to {PRONOUN/s_c/poss} advantage. When a large centipede wanders too close, they attack it fiercely with a spear, collecting it's bounty instead.  The Clan will be impressed by this hefty fresh-kill.",
@@ -113,10 +136,29 @@
                 "prey": ["huge"]
             },
             {
-                "text": "s_c has the ingenious idea to use rocks on the monster kelp from a distance and collect dropped leaves to bring back to camp. The leaves could be woven into the Clan's defenses as intimidation.",
-                "exp": 30,
-                "weight": 20,
-                "stat_trait": ["calm", "careful", "strange", "thoughtful", "wise"]
+                "text": "s_c has the ingenious idea to use rocks on the monster kelp from a distance and collect dropped leaves to bring back to camp. The leaves could be woven into the Clan's defenses as intimidation, though {PRONOUN/s_c/subject} decides to wear some leaves on {PRONOUN/s_c/poss} pelt.",
+                "exp": 10,
+                "weight": 1,
+                "prey": ["medium"],
+                "stat_trait": ["calm", "careful", "strange", "thoughtful", "wise"],
+                "accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["REDKELP", "GREENKELP", "BROWNKELP"]
+                    }
+                ]
+            },
+            {
+                "text": "r_c jumps into action, throwing a spear and seperating a large chunk of the stalk from the stem. As a prize of {PRONOUN/r_c/poss}'s victory, r_c decides to wear some leaves on {PRONOUN/r_c/poss} pelt.",
+                "exp": 10,
+                "weight": 1,
+                "prey": ["medium"],
+                "accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["REDKELP", "GREENKELP", "BROWNKELP"]
+                    }
+                ]
             }
         ],
         "fail_outcomes": [
@@ -156,7 +198,7 @@
         ]
     },
     {
-        "patrol_id": "fst_hunt_rabbitburrow1",
+        "patrol_id": "fst_hunt_eggbugburrow1",
         "biome": ["forest"],
         "season": ["any"],
         "types": ["hunting"],
@@ -274,14 +316,14 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The acavenger slugpups wandering around are unimpressed by the patrol and chase the slugcats for fun.",
+                "text": "The scavenger slugpups wandering around are unimpressed by the patrol and chase the slugcats for fun.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "antag_success_outcomes": [
             {
-                "text": "Finding a acavenger slugpup wandering alone, the slugcats harass it until it flees squawking, its blood on their claws.",
+                "text": "Finding a scavenger slugpup wandering alone, the slugcats harass it until it flees squawking, its blood on their claws.",
                 "exp": 10,
                 "weight": 20
             }
@@ -449,7 +491,7 @@
                 "weight": 20
             },
             {
-                "text": "s_c sticks {PRONOUN/s_c/poss} nose into the hole only to disturb a large patch of spore puffs! The whole patrol is covered by stinky spores!",
+                "text": "s_c sticks {PRONOUN/s_c/poss} nose into the hole only to disturb a large patch of spore puffs! r_c is covered by stinky spores!",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["bold", "ambitious", "childish", "impulsive"]
@@ -1177,26 +1219,26 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "r_c heads off to one of {PRONOUN/r_c/poss} favorite spots in the forest, a grove of spread-out trees with thick underbrush providing excellent ambush chances. And what do you know, {PRONOUN/r_c/subject} {VERB/r_c/are/is} bush! Or {PRONOUN/r_c/subject} {VERB/r_c/were/was} as far as that lanternmouse thought.",
+                "text": "r_c heads off to one of {PRONOUN/r_c/poss} favorite spots in the forest, a grove of spread-out trees with thick underbrush providing excellent ambush chances. And what do you know, {PRONOUN/r_c/subject} {VERB/r_c/are/is} a bush! Or {PRONOUN/r_c/subject} {VERB/r_c/were/was} as that lanternmouse thought. {PRONOUN/r_c/subject/CAP} {VERB/r_c/snicker/snickers} to {PRONOUN/r_c/self} as {PRONOUN/r_c/subject} {VERB/r_c/pad/pads} back to camp.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"]
             },
             {
-                "text": "r_c finds a fat, dumb, slow rabbit, and {PRONOUN/r_c/subject} can barely drag the thing back to camp, but great Ascended, it's juicy when {PRONOUN/r_c/subject} {VERB/r_c/sit/sits} down to eat it with {PRONOUN/r_c/poss} Clanmates.",
+                "text": "r_c finds a fat, dumb, slow eggbug, and {PRONOUN/r_c/subject} can barely drag the thing back to camp, but great Ascended, it's juicy when {PRONOUN/r_c/subject} {VERB/r_c/sit/sits} down to eat it with {PRONOUN/r_c/poss} Clanmates. Purring, {PRONOUN/r_c/subject} {VERB/r_c/take/takes} the opportunity for a moment of peace, relaxing with {PRONOUN/r_c/poss} friends.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["large"]
             },
             {
-                "text": "s_c gets the chance to try out an idea {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} been sitting on for a while. There's a rabbit warren that {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} spotted that's particularly badly built, and {PRONOUN/s_c/subject} {VERB/s_c/dig/digs} down into one of the dens, fishing baby rabbits out by the pawful.",
+                "text": "s_c gets the chance to try out an idea {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} been sitting on for a while. There's an eggbug warren that {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} spotted that's particularly badly built, and {PRONOUN/s_c/subject} {VERB/s_c/dig/digs} down into one of the dens, fishing a couple hatchling eggbugs out. This is a good spot to remember if c_n hits hard times.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
                 "prey": ["large"]
             },
             {
-                "text": "The prey is running terribly today. But s_c has patience, and wisely waits for the perfect opportunity instead of getting frustrated. {PRONOUN/s_c/subject/CAP} {VERB/s_c/come/comes} back to camp with a good contribution to the Clan's stores, having had a relaxing day sitting with {PRONOUN/s_c/poss} thoughts while waiting for the prey to come to {PRONOUN/s_c/object}.",
+                "text": "The prey is running terribly today. But s_c has patience, and wisely waits for the perfect opportunity instead of getting frustrated. {PRONOUN/s_c/subject/CAP} come back to camp with a good contribution to the Clan's stores, having had a relaxing day sitting with {PRONOUN/s_c/poss} thoughts while waiting for the prey to come to {PRONOUN/r_c/object}.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1247,26 +1289,26 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "r_c heads off to one of {PRONOUN/r_c/poss} favorite spots in the forest, a grove of spread-out trees with thick underbrush providing excellent ambush chances. And what do you know, {PRONOUN/r_c/subject} {VERB/r_c/are/is} bush! Or {PRONOUN/r_c/subject} {VERB/r_c/were/was} as that lanternmouse thought. {PRONOUN/r_c/subject/CAP} {VERB/r_c/snicker/snickers} to {PRONOUN/r_c/self} as {PRONOUN/r_c/subject} {VERB/r_c/pad/pads} back to camp.",
+                "text": "r_c heads off to one of {PRONOUN/r_c/poss} favorite spots in the forest, a grove of spread-out trees with thick underbrush providing excellent ambush chances. And what do you know, {PRONOUN/r_c/subject} {VERB/r_c/are/is} a bush! Or {PRONOUN/r_c/subject} {VERB/r_c/were/was} as that lanternmouse thought. {PRONOUN/r_c/subject/CAP} {VERB/r_c/snicker/snickers} to {PRONOUN/r_c/self} as {PRONOUN/r_c/subject} {VERB/r_c/pad/pads} back to camp.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"]
             },
             {
-                "text": "r_c finds a fat, dumb, slow rabbit, and {PRONOUN/r_c/subject} can barely drag the thing back to camp, but great Ascended, it's juicy when {PRONOUN/r_c/subject} {VERB/r_c/sit/sits} down to eat it with {PRONOUN/r_c/poss} Clanmates. Purring, {PRONOUN/r_c/subject} {VERB/r_c/take/takes} the opportunity for a moment of peace, relaxing with {PRONOUN/r_c/poss} friends.",
+                "text": "r_c finds a fat, dumb, slow eggbug, and {PRONOUN/r_c/subject} can barely drag the thing back to camp, but great Ascended, it's juicy when {PRONOUN/r_c/subject} {VERB/r_c/sit/sits} down to eat it with {PRONOUN/r_c/poss} Clanmates. Purring, {PRONOUN/r_c/subject} {VERB/r_c/take/takes} the opportunity for a moment of peace, relaxing with {PRONOUN/r_c/poss} friends.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["large"]
             },
             {
-                "text": "s_c gets the chance to try out an idea {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} been sitting on for a while. There's a rabbit warren that {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} spotted that's particularly badly built, and {PRONOUN/s_c/subject} {VERB/s_c/dig/digs} down into one of the dens, fishing a couple baby rabbits out. This is a good spot to remember if c_n hits hard times.",
+                "text": "s_c gets the chance to try out an idea {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} been sitting on for a while. There's an eggbug warren that {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} spotted that's particularly badly built, and {PRONOUN/s_c/subject} {VERB/s_c/dig/digs} down into one of the dens, fishing a couple hatchling eggbugs out. This is a good spot to remember if c_n hits hard times.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
                 "prey": ["large"]
             },
             {
-                "text": "The prey is running terribly today. But s_c has patience, and wisely waits for the perfect opportunity instead of getting frustrated. {PRONOUN/s_c/subject/CAP} {VERB/s_c/come/comes} back to camp with a good contribution to the Clan's stores, having had a relaxing day sitting with {PRONOUN/s_c/poss} thoughts while waiting for the prey to come to {PRONOUN/s_c/object}.",
+                "text": "The prey is running terribly today. But s_c has patience, and wisely waits for the perfect opportunity instead of getting frustrated. {PRONOUN/s_c/subject/CAP} come back to camp with a good contribution to the Clan's stores, having had a relaxing day sitting with {PRONOUN/s_c/poss} thoughts while waiting for the prey to come to {PRONOUN/r_c/object}.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1317,19 +1359,19 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "r_c heads off to one of {PRONOUN/r_c/poss} favorite spots in the forest, a grove of spread-out trees with thick underbrush providing excellent ambush chances. And what do you know, {PRONOUN/r_c/subject} {VERB/r_c/are/is} bush! Or {PRONOUN/r_c/subject} {VERB/r_c/were/was} as that lanternmouse thought. {PRONOUN/r_c/subject/CAP} {VERB/r_c/snicker/snickers} to {PRONOUN/r_c/self} as {PRONOUN/r_c/subject} {VERB/r_c/pad/pads} back to camp.",
+                "text": "r_c heads off to one of {PRONOUN/r_c/poss} favorite spots in the forest, a grove of spread-out trees with thick underbrush providing excellent ambush chances. And what do you know, {PRONOUN/r_c/subject} {VERB/r_c/are/is} a bush! Or {PRONOUN/r_c/subject} {VERB/r_c/were/was} as that lanternmouse thought. {PRONOUN/r_c/subject/CAP} {VERB/r_c/snicker/snickers} to {PRONOUN/r_c/self} as {PRONOUN/r_c/subject} {VERB/r_c/pad/pads} back to camp.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"]
             },
             {
-                "text": "r_c finds a fat, dumb, slow rabbit, and {PRONOUN/r_c/subject} can barely drag the thing back to camp, but great Ascended, it's juicy when {PRONOUN/r_c/subject} {VERB/r_c/sit/sits} down to eat it with {PRONOUN/r_c/poss} Clanmates. Purring, {PRONOUN/r_c/subject} {VERB/r_c/take/takes} the opportunity for a moment of peace, relaxing with {PRONOUN/r_c/poss} friends.",
+                "text": "r_c finds a fat, dumb, slow eggbug, and {PRONOUN/r_c/subject} can barely drag the thing back to camp, but great Ascended, it's juicy when {PRONOUN/r_c/subject} {VERB/r_c/sit/sits} down to eat it with {PRONOUN/r_c/poss} Clanmates. Purring, {PRONOUN/r_c/subject} {VERB/r_c/take/takes} the opportunity for a moment of peace, relaxing with {PRONOUN/r_c/poss} friends.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["large"]
             },
             {
-                "text": "s_c gets the chance to try out an idea {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} been sitting on for a while. There's a rabbit warren that {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} spotted that's particularly badly built, and {PRONOUN/s_c/subject} {VERB/s_c/dig/digs} down into one of the dens, fishing a couple baby rabbits out. This is a good spot to remember if c_n hits hard times.",
+                "text": "s_c gets the chance to try out an idea {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} been sitting on for a while. There's an eggbug warren that {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} spotted that's particularly badly built, and {PRONOUN/s_c/subject} {VERB/s_c/dig/digs} down into one of the dens, fishing a couple hatchling eggbugs out. This is a good spot to remember if c_n hits hard times.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
@@ -1391,7 +1433,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "p_l pads towards the bush to check on the noise when a rabbit bursts out! s_c is quick to react and snags the rabbit before it can disappear.",
+                "text": "p_l pads towards the bush to check on the noise when an eggbug bursts out! s_c is quick to react and snags the eggbug before it can disappear.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["HUNTER,1"],
@@ -1400,13 +1442,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l pads closer to the bush, intent on finding the source of the noise, only to come face to face with a skunk!  The poor slugcat ends up stinking for days after the unfortunate incident.",
+                "text": "p_l pads closer to the bush, intent on finding the source of the noise, only to dive face first into a spore puff!  The poor slugcat ends up stinking for days after the unfortunate incident.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
             },
             {
-                "text": "s_c doesn't even hesitate before splitting from the patrol to check on the source of the noise. {PRONOUN/s_c/subject/CAP} quickly {VERB/s_c/regret/regrets} {PRONOUN/s_c/poss} impulsivity, however, when an angry raccoon bursts from the bush! s_c gets quite the scare, but thankfully the raccoon only wanted to get away from {PRONOUN/s_c/object} and quickly runs off back into the undergrowth.",
+                "text": "s_c doesn't even hesitate before splitting from the patrol to check on the source of the noise. {PRONOUN/s_c/subject/CAP} quickly {VERB/s_c/regret/regrets} {PRONOUN/s_c/poss} impulsivity, however, when an angry blue lizard bursts from the bush! s_c gets quite the scare, but thankfully the lizard only wanted to get away from {PRONOUN/s_c/object} and quickly runs off back into the undergrowth.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["daring", "bold", "ambitious"],
@@ -1508,13 +1550,13 @@
         "types": ["hunting"],
         "tags": [],
         "patrol_art": "fst_hunt_gonetnr",
-        "min_cats": 2,
-        "max_cats": 3,
+        "min_cats": 4,
+        "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
         "intro_text": "The patrol encounters a clearing where a lot of scavengers linger.",
         "decline_text": "The patrol decides to hunt elsewhere.",
-        "chance_of_success": 60,
+        "chance_of_success": 10,
         "success_outcomes": [
             {
                 "text": "They continue hunting undetected.",
@@ -1523,19 +1565,19 @@
                 "prey": ["medium"]
             },
             {
-                "text": "Slyly, r_c uses the chance to get food, practicing {PRONOUN/r_c/poss} best kittypet impression until just the right moment, when {PRONOUN/r_c/subject} {VERB/r_c/dart/darts} forward and {VERB/r_c/make/makes} off with a sandwich in {PRONOUN/r_c/poss} mouth.",
+                "text": "Slyly, r_c uses the chance to get food, waiting for the scavengers to spook up some batlfies and catching the little things around the scavengers, much to their amazement.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["medium"]
             },
             {
-                "text": "s_c spots the scavengers unloading metal boxes from their monsters, and abruptly tells the patrol they need to leave. Now.",
+                "text": "s_c spots the scavengers unloading metal taps from their backs, and abruptly tells the patrol they need to leave. Now.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,3"]
             },
             {
-                "text": "A scavenger spots s_c and crouches down, clicking softly. s_c hisses and flees.",
+                "text": "A scavenger spots s_c and crouches down, gesturing strangely. s_c hisses and flees.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1552,13 +1594,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol mostly ignores the scavengers. As they hunt, they hear a yelp from r_c. {PRONOUN/r_c/subject/CAP}{VERB/r_c/'ve/'s} crawled into a metal scavengers box, and there's nothing {PRONOUN/r_c/subject} or the rest of the patrol can do to get {PRONOUN/r_c/object} out - eventually the scavengers notice, and r_c is taken by them.",
+                "text": "The patrol mostly ignores the scavengers. As they hunt, they hear a yelp from r_c. {PRONOUN/r_c/subject/CAP}{VERB/r_c/'ve/'s} crawled into a metal scavengers trap, and there's nothing {PRONOUN/r_c/subject} or the rest of the patrol can do to get {PRONOUN/r_c/object} out - eventually the scavengers notice, and r_c is taken by them.",
                 "exp": 0,
                 "weight": 10,
                 "lost_cats": ["r_c"]
             },
             {
-                "text": "A scavenger spots s_c and crouches down, clicking softly. s_c pauses - are they hurt? Do they want to make friends? Before {PRONOUN/s_c/subject} can decide whether to step closer, there's a swoosh, and a net falls around {PRONOUN/r_c/object}. s_c fights desperately, but the scavengers take {PRONOUN/r_c/object} away in the monster.",
+                "text": "A scavenger spots s_c and crouches down, gesturing strangely. s_c pauses - are they hurt? Do they want to make friends? Before {PRONOUN/s_c/subject} can decide whether to step closer, there's a swoosh, and a net falls around {PRONOUN/r_c/object}. s_c fights desperately, but the scavengers take {PRONOUN/r_c/object} away.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -1591,25 +1633,25 @@
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "They continue hunting undetected, using the presence of the scavengers startling the local wildlife to bring back a good haul.",
+                "text": "They continue hunting undetected.",
                 "exp": 20,
                 "weight": 20,
                 "prey": ["medium"]
             },
             {
-                "text": "Slyly, r_c uses the chance to get food, practicing {PRONOUN/r_c/poss} best kittypet impression until just the right moment, when {PRONOUN/r_c/subject} {VERB/r_c/dart/darts} forward and {VERB/r_c/make/makes} off with a hunk of meat in {PRONOUN/r_c/poss} mouth.",
+                "text": "Slyly, r_c uses the chance to get food, waiting for the scavengers to spook up some batlfies and catching the little things around the scavengers, much to their amazement.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["large"]
             },
             {
-                "text": "s_c spots the scavengers unloading metal boxes from their monsters, and abruptly tells the patrol they need to leave. Now.",
+                "text": "s_c spots the scavengers unloading metal taps from their backs, and abruptly tells the patrol they need to leave. Now.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,3"]
             },
             {
-                "text": "A scavenger spots s_c and crouches down, clicking softly. s_c hisses and flees.",
+                "text": "A scavenger spots s_c and crouches down, gesturing strangely. s_c hisses and flees.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1626,13 +1668,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol mostly ignores the scavengers. As they hunt, they hear a yelp from r_c. {PRONOUN/r_c/subject/CAP}{VERB/r_c/'ve/'s} crawled into a metal scavengers box, and there's nothing {PRONOUN/r_c/subject} or the rest of the patrol can do to get {PRONOUN/r_c/object} out - eventually the scavengers notice, and r_c is taken by them.",
+                "text": "The patrol mostly ignores the scavengers. As they hunt, they hear a yelp from r_c. {PRONOUN/r_c/subject/CAP}{VERB/r_c/'ve/'s} crawled into a metal scavengers trap, and there's nothing {PRONOUN/r_c/subject} or the rest of the patrol can do to get {PRONOUN/r_c/object} out - eventually the scavengers notice, and r_c is taken by them.",
                 "exp": 0,
                 "weight": 10,
                 "lost_cats": ["r_c"]
             },
             {
-                "text": "A scavenger spots s_c and crouches down, clicking softly. s_c pauses - are they hurt? Do they want to make friends? Before {PRONOUN/s_c/subject} can decide whether to step closer, there's a swoosh, and a net falls around {PRONOUN/r_c/object}. s_c fights desperately, but the scavengers take {PRONOUN/r_c/object} away in the monster.",
+                "text": "A scavenger spots s_c and crouches down, gesturing strangely. s_c pauses - are they hurt? Do they want to make friends? Before {PRONOUN/s_c/subject} can decide whether to step closer, there's a swoosh, and a net falls around {PRONOUN/r_c/object}. s_c fights desperately, but the scavengers take {PRONOUN/r_c/object} away.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -1671,19 +1713,19 @@
                 "prey": ["small"]
             },
             {
-                "text": "Slyly, r_c uses the chance to get food, practicing {PRONOUN/r_c/poss} best kittypet impression until just the right moment, when {PRONOUN/r_c/subject} {VERB/r_c/dart/darts} forward and {VERB/r_c/make/makes} off with a sandwich in {PRONOUN/r_c/poss} mouth.",
+                "text": "Slyly, r_c uses the chance to get food, waiting for the scavengers to spook up some batlfies and catching the little things around the scavengers, much to their amazement.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["small"]
             },
             {
-                "text": "s_c spots the scavengers unloading metal boxes from their monsters, and abruptly tells the patrol they need to leave. Now.",
+                "text": "s_c spots the scavengers unloading metal taps from their backs, and abruptly tells the patrol they need to leave. Now.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,3"]
             },
             {
-                "text": "A scavenger spots s_c and crouches down, clicking softly. s_c hisses and flees.",
+                "text": "A scavenger spots s_c and crouches down, gesturing strangely. s_c hisses and flees.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1700,13 +1742,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol mostly ignores the scavengers. As they hunt, they hear a yelp from r_c. {PRONOUN/r_c/subject/CAP}{VERB/r_c/'ve/'s} crawled into a metal scavengers box, and there's nothing {PRONOUN/r_c/subject} or the rest of the patrol can do to get {PRONOUN/r_c/object} out - eventually the scavengers notice, and r_c is taken by them.",
+                "text": "The patrol mostly ignores the scavengers. As they hunt, they hear a yelp from r_c. {PRONOUN/r_c/subject/CAP}{VERB/r_c/'ve/'s} crawled into a metal scavengers trap, and there's nothing {PRONOUN/r_c/subject} or the rest of the patrol can do to get {PRONOUN/r_c/object} out - eventually the scavengers notice, and r_c is taken by them.",
                 "exp": 0,
                 "weight": 10,
                 "lost_cats": ["r_c"]
             },
             {
-                "text": "A scavenger spots s_c and crouches down, clicking softly. s_c pauses - are they hurt? Do they want to make friends? Before {PRONOUN/s_c/subject} can decide whether to step closer, there's a swoosh, and a net falls around {PRONOUN/r_c/object}. s_c fights desperately, but the scavengers take {PRONOUN/r_c/object} away in the monster.",
+                "text": "A scavenger spots s_c and crouches down, gesturing strangely. s_c pauses - are they hurt? Do they want to make friends? Before {PRONOUN/s_c/subject} can decide whether to step closer, there's a swoosh, and a net falls around {PRONOUN/r_c/object}. s_c fights desperately, but the scavengers take {PRONOUN/r_c/object} away.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -1724,7 +1766,7 @@
         ]
     },
     {
-        "patrol_id": "fst_hunt_gonetwolegden1",
+        "patrol_id": "fst_hunt_soloscavtrade1",
         "biome": ["forest"],
         "season": ["any"],
         "types": ["hunting"],
@@ -1735,7 +1777,7 @@
         "min_max_status": {},
         "weight": 20,
         "intro_text": "r_c decides to hunt out near the scavenger dens.",
-        "decline_text": "On second thought, {PRONOUN/r_c/subject} {VERB/r_c/decide/decides} to reline {PRONOUN/r_c/poss} nest today instead.",
+        "decline_text": "On second thought, {PRONOUN/r_c/subject} {VERB/r_c/decide/decides} to recline {PRONOUN/r_c/poss} nest today instead.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
@@ -1745,19 +1787,35 @@
                 "prey": ["medium"]
             },
             {
-                "text": "A friendly scavenger makes a 'psspsspss' noise, and pours kittypet food on the ground for r_c. {PRONOUN/r_c/subject/CAP}{VERB/r_c/'ve/'s} always wondered what it might taste like... dry, is the answer. Very odd.",
+                "text": "A curious scavenger peers at r_c, pointing at some of the freshkill and offering a strange earring. r_c gives the food up to the scavenger, taking the strange trinket.",
                 "exp": 20,
-                "weight": 5
+                "weight": 1,
+                "prey": ["very_small"],
+                "accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["PEARLEAR"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["app1"],
+                        "cats_from": ["app2"],
+                        "mutual": false,
+                        "values": ["romantic", "platonic"],
+                        "amount": 5
+                    }
+                ]
             },
             {
-                "text": "s_c gets distracted from hunting by strange scavenger activity around one of their dens. They appear to be hauling all their many, many varieties of nest lining out and into a big monster. s_c takes the opportunity to grab a little soft thing, something that's almost shaped like prey. It'll be good for the nursery.",
+                "text": "s_c gets distracted from hunting by strange scavenger activity around one of their dens. They appear to be hauling all sorts of trinkets and spears away, towards the trading post. s_c takes the opportunity to grab a little shiny thing, something that dangles like bluefruit. It'll be good for the nursery.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
                 "prey": ["medium"]
             },
             {
-                "text": "Calmly, s_c weaves around the scavenger dens, picking out the mice from the tunnels and the birds off the strange metal hanging fruit. A successful, sneaky hunt.",
+                "text": "Calmly, s_c weaves around the scavenger dens, picking out the batflies from the air and the bluefruit off the ledges. A successful, sneaky hunt.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1775,7 +1833,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The scavengers here are friendly, and a little carelessly, s_c goes to hunt in their garden. But there's a new thing there: a strange, suspicious box. Wisely, s_c avoids it, and returns to c_n territory.",
+                "text": "A little carelessly, s_c climbs a pole to hunt near the trading den. But there's a new lookout, watching them suspiciously. Wisely, s_c avoids it, and returns to c_n territory.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1797,7 +1855,213 @@
                 "lost_cats": ["r_c"]
             },
             {
-                "text": "Carelessly, r_c is seen by scavengers and locked, hissing and spitting, in a monster's den. Overnight, {PRONOUN/r_c/subject} {VERB/r_c/discover/discovers} that a broken window is just wide enough to push {PRONOUN/r_c/self} out to safety through, but the glass leaves {PRONOUN/r_c/object} bleeding as {PRONOUN/r_c/subject} {VERB/r_c/run/runs} back to c_n.",
+                "text": "Carelessly, r_c is seen by some unfriendly scavengers and locked, hissing and spitting, in a strange den. Overnight, {PRONOUN/r_c/subject} {VERB/r_c/squeezed/squeezes} through a narrow gap. Shivering, r_c pelts home to c_n and their den, desperate to not be followed.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["torn pelt"],
+                        "scars": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patrol_id": "fst_hunt_soloscavtrade2",
+        "biome": ["forest"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": [],
+        "patrol_art": "hunt_general_intro",
+        "min_cats": 1,
+        "max_cats": 1,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "r_c decides to hunt out near the scavenger dens.",
+        "decline_text": "On second thought, {PRONOUN/r_c/subject} {VERB/r_c/decide/decides} to recline {PRONOUN/r_c/poss} nest today instead.",
+        "chance_of_success": 40,
+        "success_outcomes": [
+            {
+                "text": "{PRONOUN/r_c/subject/CAP}{VERB/r_c/'re/'s} interrupted by scavengers wandering through the woods a couple times, but it's a successful hunt.",
+                "exp": 20,
+                "weight": 20,
+                "prey": ["medium"]
+            },
+            {
+                "text": "A curious scavenger peers at r_c, pointing at some of the freshkill and offering a strange necklace. r_c gives the food up to the scavenger, taking the strange trinket.",
+                "exp": 20,
+                "weight": 1,
+                "prey": ["very_small"],
+                "accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["PEARLNECK"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["app1"],
+                        "cats_from": ["app2"],
+                        "mutual": false,
+                        "values": ["romantic", "platonic"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c gets distracted from hunting by strange scavenger activity around one of their dens. They appear to be hauling all sorts of trinkets and spears away, towards the trading post. s_c takes the opportunity to grab a little shiny thing, something that dangles like bluefruit. It'll be good for the nursery.",
+                "exp": 20,
+                "weight": 20,
+                "stat_skill": ["CLEVER,1"],
+                "prey": ["medium"]
+            },
+            {
+                "text": "Calmly, s_c weaves around the scavenger dens, picking out the batflies from the air and the bluefruit off the ledges. A successful, sneaky hunt.",
+                "exp": 20,
+                "weight": 20,
+                "stat_trait": [
+                    "calm",
+                    "careful",
+                    "insecure",
+                    "lonesome",
+                    "loyal",
+                    "nervous",
+                    "sneaky",
+                    "strange"
+                ],
+                "prey": ["large"]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "A little carelessly, s_c climbs a pole to hunt near the trading den. But there's a new lookout, watching them suspiciously. Wisely, s_c avoids it, and returns to c_n territory.",
+                "exp": 0,
+                "weight": 20,
+                "stat_trait": [
+                    "compassionate",
+                    "empathetic",
+                    "faithful",
+                    "loving",
+                    "patient",
+                    "responsible",
+                    "thoughtful",
+                    "wise"
+                ],
+                "prey": ["small"]
+            },
+            {
+                "text": "Carelessly, r_c is seen by scavengers, and taken from c_n.",
+                "exp": 0,
+                "weight": 10,
+                "lost_cats": ["r_c"]
+            },
+            {
+                "text": "Carelessly, r_c is seen by some unfriendly scavengers and locked, hissing and spitting, in a strange den. Overnight, {PRONOUN/r_c/subject} {VERB/r_c/squeezed/squeezes} through a narrow gap. Shivering, r_c pelts home to c_n and their den, desperate to not be followed.",
+                "exp": 0,
+                "weight": 10,
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["torn pelt"],
+                        "scars": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patrol_id": "fst_hunt_soloscavtrade3",
+        "biome": ["forest"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": [],
+        "patrol_art": "hunt_general_intro",
+        "min_cats": 1,
+        "max_cats": 1,
+        "min_max_status": {},
+        "weight": 20,
+        "intro_text": "r_c decides to hunt out near the scavenger dens.",
+        "decline_text": "On second thought, {PRONOUN/r_c/subject} {VERB/r_c/decide/decides} to recline {PRONOUN/r_c/poss} nest today instead.",
+        "chance_of_success": 40,
+        "success_outcomes": [
+            {
+                "text": "{PRONOUN/r_c/subject/CAP}{VERB/r_c/'re/'s} interrupted by scavengers wandering through the woods a couple times, but it's a successful hunt.",
+                "exp": 20,
+                "weight": 20,
+                "prey": ["medium"]
+            },
+            {
+                "text": "A curious scavenger peers at r_c, pointing at some of the freshkill and offering a strange mask. r_c gives the food up to the scavenger, taking the strange trinket.",
+                "exp": 20,
+                "weight": 1,
+                "prey": ["very_small"],
+                "accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["SCAVMASK"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["app1"],
+                        "cats_from": ["app2"],
+                        "mutual": false,
+                        "values": ["romantic", "platonic"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c gets distracted from hunting by strange scavenger activity around one of their dens. They appear to be hauling all sorts of trinkets and spears away, towards the trading post. s_c takes the opportunity to grab a little shiny thing, something that dangles like bluefruit. It'll be good for the nursery.",
+                "exp": 20,
+                "weight": 20,
+                "stat_skill": ["CLEVER,1"],
+                "prey": ["medium"]
+            },
+            {
+                "text": "Calmly, s_c weaves around the scavenger dens, picking out the batflies from the air and the bluefruit off the ledges. A successful, sneaky hunt.",
+                "exp": 20,
+                "weight": 20,
+                "stat_trait": [
+                    "calm",
+                    "careful",
+                    "insecure",
+                    "lonesome",
+                    "loyal",
+                    "nervous",
+                    "sneaky",
+                    "strange"
+                ],
+                "prey": ["large"]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "A little carelessly, s_c climbs a pole to hunt near the trading den. But there's a new lookout, watching them suspiciously. Wisely, s_c avoids it, and returns to c_n territory.",
+                "exp": 0,
+                "weight": 20,
+                "stat_trait": [
+                    "compassionate",
+                    "empathetic",
+                    "faithful",
+                    "loving",
+                    "patient",
+                    "responsible",
+                    "thoughtful",
+                    "wise"
+                ],
+                "prey": ["small"]
+            },
+            {
+                "text": "Carelessly, r_c is seen by scavengers, and taken from c_n.",
+                "exp": 0,
+                "weight": 10,
+                "lost_cats": ["r_c"]
+            },
+            {
+                "text": "Carelessly, r_c is seen by some unfriendly scavengers and locked, hissing and spitting, in a strange den. Overnight, {PRONOUN/r_c/subject} {VERB/r_c/squeezed/squeezes} through a narrow gap. Shivering, r_c pelts home to c_n and their den, desperate to not be followed.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1834,10 +2098,25 @@
                 "prey": ["small"]
             },
             {
-                "text": "A friendly scavengers makes a 'psspsspss' noise, and pours kittypet food on the ground for app1. {PRONOUN/app1/subject/CAP}{VERB/app1/'ve/'s} always wondered what it might taste like... dry, is the answer. It's strangely appealing.",
+                "text": "A curious scavenger peers at r_c, pointing at some of the freshkill and offering a strange earring. They fetch p_l, and both apprentices loudly proclaim how this wasn't worth the trade, but both are also wide-eyed and thrilled by the experience.",
                 "exp": 20,
-                "weight": 5,
-                "prey": ["very_small"]
+                "weight": 1,
+                "prey": ["very_small"],
+                "accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["PEARLEAR"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["app1"],
+                        "cats_from": ["app2"],
+                        "mutual": false,
+                        "values": ["romantic", "platonic"],
+                        "amount": 5
+                    }
+                ]
             },
             {
                 "text": "Tail lashing excitedly, app1 hunts in the strange, forbidden land, ducking around corners and crawling over gardens with {PRONOUN/app1/poss} belly low to the ground. A successful, sneaky hunt.",
@@ -1859,7 +2138,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "A little carelessly, s_c jumps a fence to hunt in a den's garden. But there's a new thing there: a strange, suspicious box. Wisely, s_c avoids it, and returns to c_n territory.",
+                "text": "A little carelessly, s_c climbs a pole to hunt near the trading den. But there's a new lookout, watching them suspiciously. Wisely, s_c avoids it, and returns to c_n territory.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1875,7 +2154,7 @@
                 "can_have_stat": ["app"]
             },
             {
-                "text": "Carelessly, app1 is seen by scavengers, and taken from c_n.",
+                "text": "Carelessly, app1 is seen by unfriendly scavengers, and taken from c_n.",
                 "exp": 0,
                 "weight": 10,
                 "lost_cats": ["r_c"]
@@ -1883,7 +2162,7 @@
         ]
     },
     {
-        "patrol_id": "fst_hunt_twolegdencatdare1",
+        "patrol_id": "fst_hunt_scavtradecatdare1",
         "biome": ["forest"],
         "season": ["any"],
         "types": ["hunting"],
@@ -1895,7 +2174,7 @@
             "all apprentices": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "{PRONOUN/r_c/poss} eyes daring p_l to say no, r_c suggests hunting by the scavenger dens.",
+        "intro_text": "{PRONOUN/r_c/poss} eyes daring p_l to say no, r_c suggests hunting by the scavenger trading post.",
         "decline_text": "On second thought, they decide to reline their nests today instead.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -1915,15 +2194,21 @@
                 ]
             },
             {
-                "text": "A friendly scavengers makes a 'psspsspss' noise, and pours kittypet food on the ground for r_c. They fetch p_l, and both slugcats investigate the food, loudly proclaiming how much better fresh-kill is, but both a little thrilled by the experience.",
+                "text": "A curious scavenger peers at r_c, pointing at some of the freshkill and offering a strange earring. They fetch p_l, and both apprentices loudly proclaim how this wasn't worth the trade, but both are also wide-eyed and thrilled by the experience.",
                 "exp": 20,
-                "weight": 5,
+                "weight": 1,
                 "prey": ["very_small"],
+                "accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["PEARLEAR"]
+                    }
+                ],
                 "relationships": [
                     {
-                        "cats_to": ["p_l"],
-                        "cats_from": ["r_c"],
-                        "mutual": true,
+                        "cats_to": ["app1"],
+                        "cats_from": ["app2"],
+                        "mutual": false,
                         "values": ["romantic", "platonic"],
                         "amount": 5
                     }
@@ -1973,7 +2258,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Carelessly, r_c is seen by scavengers and locked, hissing and spitting, in a monster's den. Overnight, {PRONOUN/r_c/subject} {VERB/r_c/hear/hears} p_l yowling from outside, and the two slugcats manage to craft an escape plan through a broken window. Shivering, r_c presses {PRONOUN/r_c/poss} pelt against p_l on the way back to c_n.",
+                "text": "Carelessly, r_c is seen by some unfriendly scavengers and locked, hissing and spitting, in a strange den. Overnight, {PRONOUN/r_c/subject} {VERB/r_c/hear/hears} p_l yowling from outside, and the two slugcats manage to craft an escape plan through a narrow gap. Shivering, r_c presses {PRONOUN/r_c/poss} pelt against r_l as they pad home.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1987,7 +2272,7 @@
                 ]
             },
             {
-                "text": "The scavengers here are friendly, and a little carelessly, s_c goes to hunt in their garden. But there's a new thing there: a strange, suspicious box. Wisely, s_c avoids it, and returns to c_n territory.",
+                "text": "A little carelessly, s_c climbs a pole to hunt near the trading den. But there's a new lookout, watching them suspiciously. Wisely, s_c avoids it, and returns to c_n territory.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2012,7 +2297,7 @@
                 "prey": ["small"]
             },
             {
-                "text": "Carelessly, r_c is seen by scavengers, and taken from c_n.",
+                "text": "Carelessly, r_c is seen by some unfriendly scavengers, and taken from c_n.",
                 "exp": 0,
                 "weight": 10,
                 "lost_cats": ["r_c"],
@@ -2029,7 +2314,311 @@
         ]
     },
     {
-        "patrol_id": "fst_hunt_twolegdenappdare1",
+        "patrol_id": "fst_hunt_scavtradecatdare2",
+        "biome": ["forest"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": ["romantic"],
+        "patrol_art": "gen_hunt_twolegdencatdare",
+        "min_cats": 2,
+        "max_cats": 2,
+        "min_max_status": {
+            "all apprentices": [-1, -1]
+        },
+        "weight": 20,
+        "intro_text": "{PRONOUN/r_c/poss} eyes daring p_l to say no, r_c suggests hunting by the scavenger trading post.",
+        "decline_text": "On second thought, they decide to reline their nests today instead.",
+        "chance_of_success": 40,
+        "success_outcomes": [
+            {
+                "text": "They're interrupted by scavengers wandering through the woods a couple times, but it's a successful hunt.",
+                "exp": 20,
+                "weight": 20,
+                "prey": ["small", "medium"],
+                "relationships": [
+                    {
+                        "cats_to": ["p_l"],
+                        "cats_from": ["r_c"],
+                        "mutual": true,
+                        "values": ["romantic", "platonic"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "A curious scavenger peers at r_c, pointing at some of the freshkill and offering a strange necklace. They fetch p_l, and both apprentices loudly proclaim how this wasn't worth the trade, but both are also wide-eyed and thrilled by the experience.",
+                "exp": 20,
+                "weight": 1,
+                "prey": ["very_small"],
+                "accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["PEARLNECK"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["app1"],
+                        "cats_from": ["app2"],
+                        "mutual": false,
+                        "values": ["romantic", "platonic"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c shows r_c all around the outskirts of the scavenger dens, showing off how much {PRONOUN/s_c/subject} {VERB/s_c/know/knows}about the strange animals and their weird behavior, and enjoying getting to feel clever.",
+                "exp": 20,
+                "weight": 20,
+                "stat_skill": ["CLEVER,1"],
+                "prey": ["small"],
+                "relationships": [
+                    {
+                        "cats_to": ["p_l"],
+                        "cats_from": ["r_c"],
+                        "mutual": true,
+                        "values": ["romantic", "platonic"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "It's a strange adventure, odd and weird and a little thrilling. s_c takes the lead, but both s_c and r_c are wide-eyed and a little scared, in a fun way.",
+                "exp": 20,
+                "weight": 20,
+                "stat_trait": [
+                    "calm",
+                    "careful",
+                    "insecure",
+                    "lonesome",
+                    "loyal",
+                    "nervous",
+                    "sneaky",
+                    "strange"
+                ],
+                "prey": ["small"],
+                "relationships": [
+                    {
+                        "cats_to": ["p_l"],
+                        "cats_from": ["r_c"],
+                        "mutual": true,
+                        "values": ["romantic", "platonic"],
+                        "amount": 5
+                    }
+                ]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "Carelessly, r_c is seen by some unfriendly scavengers and locked, hissing and spitting, in a strange den. Overnight, {PRONOUN/r_c/subject} {VERB/r_c/hear/hears} p_l yowling from outside, and the two slugcats manage to craft an escape plan through a narrow gap. Shivering, r_c presses {PRONOUN/r_c/poss} pelt against r_l as they pad home.",
+                "exp": 0,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["p_l"],
+                        "cats_from": ["r_c"],
+                        "mutual": true,
+                        "values": ["romantic", "platonic"],
+                        "amount": -5
+                    }
+                ]
+            },
+            {
+                "text": "A little carelessly, s_c climbs a pole to hunt near the trading den. But there's a new lookout, watching them suspiciously. Wisely, s_c avoids it, and returns to c_n territory.",
+                "exp": 0,
+                "weight": 20,
+                "stat_trait": [
+                    "compassionate",
+                    "empathetic",
+                    "faithful",
+                    "loving",
+                    "patient",
+                    "responsible",
+                    "thoughtful",
+                    "wise"
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["p_l"],
+                        "cats_from": ["r_c"],
+                        "mutual": true,
+                        "values": ["romantic", "platonic"],
+                        "amount": -5
+                    }
+                ],
+                "prey": ["small"]
+            },
+            {
+                "text": "Carelessly, r_c is seen by some unfriendly scavengers, and taken from c_n.",
+                "exp": 0,
+                "weight": 10,
+                "lost_cats": ["r_c"],
+                "relationships": [
+                    {
+                        "cats_to": ["p_l"],
+                        "cats_from": ["r_c"],
+                        "mutual": true,
+                        "values": ["romantic", "platonic"],
+                        "amount": -5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patrol_id": "fst_hunt_scavtradecatdare3",
+        "biome": ["forest"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": ["romantic"],
+        "patrol_art": "gen_hunt_twolegdencatdare",
+        "min_cats": 2,
+        "max_cats": 2,
+        "min_max_status": {
+            "all apprentices": [-1, -1]
+        },
+        "weight": 20,
+        "intro_text": "{PRONOUN/r_c/poss} eyes daring p_l to say no, r_c suggests hunting by the scavenger trading post.",
+        "decline_text": "On second thought, they decide to reline their nests today instead.",
+        "chance_of_success": 40,
+        "success_outcomes": [
+            {
+                "text": "They're interrupted by scavengers wandering through the woods a couple times, but it's a successful hunt.",
+                "exp": 20,
+                "weight": 20,
+                "prey": ["small", "medium"],
+                "relationships": [
+                    {
+                        "cats_to": ["p_l"],
+                        "cats_from": ["r_c"],
+                        "mutual": true,
+                        "values": ["romantic", "platonic"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "A curious scavenger peers at r_c, pointing at some of the freshkill and offering a strange mask. They fetch p_l, and both apprentices loudly proclaim how this wasn't worth the trade, but both are also wide-eyed and thrilled by the experience.",
+                "exp": 20,
+                "weight": 1,
+                "prey": ["very_small"],
+                "accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["SCAVMASK"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["app1"],
+                        "cats_from": ["app2"],
+                        "mutual": false,
+                        "values": ["romantic", "platonic"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "s_c shows r_c all around the outskirts of the scavenger dens, showing off how much {PRONOUN/s_c/subject} {VERB/s_c/know/knows}about the strange animals and their weird behavior, and enjoying getting to feel clever.",
+                "exp": 20,
+                "weight": 20,
+                "stat_skill": ["CLEVER,1"],
+                "prey": ["small"],
+                "relationships": [
+                    {
+                        "cats_to": ["p_l"],
+                        "cats_from": ["r_c"],
+                        "mutual": true,
+                        "values": ["romantic", "platonic"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "It's a strange adventure, odd and weird and a little thrilling. s_c takes the lead, but both s_c and r_c are wide-eyed and a little scared, in a fun way.",
+                "exp": 20,
+                "weight": 20,
+                "stat_trait": [
+                    "calm",
+                    "careful",
+                    "insecure",
+                    "lonesome",
+                    "loyal",
+                    "nervous",
+                    "sneaky",
+                    "strange"
+                ],
+                "prey": ["small"],
+                "relationships": [
+                    {
+                        "cats_to": ["p_l"],
+                        "cats_from": ["r_c"],
+                        "mutual": true,
+                        "values": ["romantic", "platonic"],
+                        "amount": 5
+                    }
+                ]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "Carelessly, r_c is seen by some unfriendly scavengers and locked, hissing and spitting, in a strange den. Overnight, {PRONOUN/r_c/subject} {VERB/r_c/hear/hears} p_l yowling from outside, and the two slugcats manage to craft an escape plan through a narrow gap. Shivering, r_c presses {PRONOUN/r_c/poss} pelt against r_l as they pad home.",
+                "exp": 0,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["p_l"],
+                        "cats_from": ["r_c"],
+                        "mutual": true,
+                        "values": ["romantic", "platonic"],
+                        "amount": -5
+                    }
+                ]
+            },
+            {
+                "text": "A little carelessly, s_c climbs a pole to hunt near the trading den. But there's a new lookout, watching them suspiciously. Wisely, s_c avoids it, and returns to c_n territory.",
+                "exp": 0,
+                "weight": 20,
+                "stat_trait": [
+                    "compassionate",
+                    "empathetic",
+                    "faithful",
+                    "loving",
+                    "patient",
+                    "responsible",
+                    "thoughtful",
+                    "wise"
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["p_l"],
+                        "cats_from": ["r_c"],
+                        "mutual": true,
+                        "values": ["romantic", "platonic"],
+                        "amount": -5
+                    }
+                ],
+                "prey": ["small"]
+            },
+            {
+                "text": "Carelessly, r_c is seen by some unfriendly scavengers, and taken from c_n.",
+                "exp": 0,
+                "weight": 10,
+                "lost_cats": ["r_c"],
+                "relationships": [
+                    {
+                        "cats_to": ["p_l"],
+                        "cats_from": ["r_c"],
+                        "mutual": true,
+                        "values": ["romantic", "platonic"],
+                        "amount": -5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patrol_id": "fst_hunt_scavtradeappdare1",
         "biome": ["forest"],
         "season": ["any"],
         "types": ["hunting"],
@@ -2042,7 +2631,7 @@
             "all apprentices": [2, 2]
         },
         "weight": 20,
-        "intro_text": "{PRONOUN/app2/poss/CAP} eyes daring app1 to say no, app2 suggests hunting by the scavenger dens. Where apprentices are definitely not allowed.",
+        "intro_text": "{PRONOUN/app2/poss/CAP} eyes daring app1 to say no, app2 suggests hunting by the scavenger trading post. Where apprentices are definitely not allowed.",
         "decline_text": "On second thought, they decide to reline their nests today instead.",
         "chance_of_success": 30,
         "success_outcomes": [
@@ -2062,10 +2651,16 @@
                 ]
             },
             {
-                "text": "A friendly scavengers makes a 'psspsspss' noise, and pours kittypet food on the ground for app2. They fetch app1, and both apprentices loudly proclaim how much better fresh-kill is, but both are also wide-eyed and thrilled by the experience.",
+                "text": "A curious scavenger peers at app2, pointing at some of the freshkill and offering a strange earring. They fetch app1, and both apprentices loudly proclaim how this wasn't worth the trade, but both are also wide-eyed and thrilled by the experience.",
                 "exp": 20,
-                "weight": 5,
+                "weight": 1,
                 "prey": ["very_small"],
+                "accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["PEARLEAR"]
+                    }
+                ],
                 "relationships": [
                     {
                         "cats_to": ["app1"],
@@ -2077,7 +2672,7 @@
                 ]
             },
             {
-                "text": "Tail lashing excitedly, app1 hunts in the strange, forbidden land, ducking around corners and crawling over gardens with {PRONOUN/app1/poss} belly low to the ground. app2 tries to be even sneakier, and so app1 ups {PRONOUN/app1/poss} game, until they're both probably the most obvious pair of slugcats in the neighborhood.",
+                "text": "Tail lashing excitedly, app1 hunts in the strange, forbidden land, ducking around corners and crawling through narrow tunnels with {PRONOUN/app1/poss} belly low to the ground. app2 tries to be even sneakier, and so app1 ups {PRONOUN/app1/poss} game, until they're both probably the most obvious pair of slugcats in the area.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2105,7 +2700,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Carelessly, app2 is seen by scavengers and locked, hissing and spitting, in a monster's den. Overnight, {PRONOUN/app2/subject} {VERB/app2/hear/hears} app1 yowling from outside, and the two slugcats manage to craft an escape plan through a broken window. Shivering, app2 presses {PRONOUN/app2/poss} pelt against app1 as they pad home.",
+                "text": "Carelessly, app2 is seen by some unfriendly scavengers and locked, hissing and spitting, in a strange den. Overnight, {PRONOUN/app2/subject} {VERB/app2/hear/hears} app1 yowling from outside, and the two slugcats manage to craft an escape plan through a narrow gap. Shivering, app2 presses {PRONOUN/app2/poss} pelt against app1 as they pad home.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2119,7 +2714,7 @@
                 ]
             },
             {
-                "text": "A little carelessly, s_c jumps a fence to hunt in a den's garden. But there's a new thing there: a strange, suspicious box. Wisely, s_c avoids it, and returns to c_n territory.",
+                "text": "A little carelessly, s_c climbs a pole to hunt near the trading den. But there's a new lookout, watching them suspiciously. Wisely, s_c avoids it, and returns to c_n territory.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2144,7 +2739,7 @@
                 ]
             },
             {
-                "text": "Carelessly, app1 is seen by scavengers, and taken from c_n.",
+                "text": "Carelessly, app1 is seen by some unfriendly scavengers, and taken from c_n.",
                 "exp": 0,
                 "weight": 10,
                 "lost_cats": ["r_c"],
@@ -2161,7 +2756,283 @@
         ]
     },
     {
-        "patrol_id": "fst_hunt_gonetwolegtrap1",
+        "patrol_id": "fst_hunt_scavtradeappdare2",
+        "biome": ["forest"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": ["rom_two_apps", "romantic"],
+        "patrol_art": "gen_hunt_twolegdenappdare",
+        "min_cats": 2,
+        "max_cats": 2,
+        "min_max_status": {
+            "apprentice": [1, 6],
+            "all apprentices": [2, 2]
+        },
+        "weight": 20,
+        "intro_text": "{PRONOUN/app2/poss/CAP} eyes daring app1 to say no, app2 suggests hunting by the scavenger trading post. Where apprentices are definitely not allowed.",
+        "decline_text": "On second thought, they decide to reline their nests today instead.",
+        "chance_of_success": 30,
+        "success_outcomes": [
+            {
+                "text": "They're interrupted by scavengers wandering through the woods a couple times, so they miss a couple catches, but overall, it works out.",
+                "exp": 20,
+                "weight": 20,
+                "prey": ["small", "medium"],
+                "relationships": [
+                    {
+                        "cats_to": ["app1"],
+                        "cats_from": ["app2"],
+                        "mutual": false,
+                        "values": ["romantic", "platonic"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "A curious scavenger peers at app2, pointing at some of the freshkill and offering a strange necklace. They fetch app1, and both apprentices loudly proclaim how this wasn't worth the trade, but both are also wide-eyed and thrilled by the experience.",
+                "exp": 20,
+                "weight": 1,
+                "prey": ["very_small"],
+                "accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["PEARLNECK"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["app1"],
+                        "cats_from": ["app2"],
+                        "mutual": false,
+                        "values": ["romantic", "platonic"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "Tail lashing excitedly, app1 hunts in the strange, forbidden land, ducking around corners and crawling through narrow tunnels with {PRONOUN/app1/poss} belly low to the ground. app2 tries to be even sneakier, and so app1 ups {PRONOUN/app1/poss} game, until they're both probably the most obvious pair of slugcats in the area.",
+                "exp": 20,
+                "weight": 20,
+                "stat_trait": [
+                    "calm",
+                    "careful",
+                    "insecure",
+                    "lonesome",
+                    "loyal",
+                    "nervous",
+                    "sneaky",
+                    "strange"
+                ],
+                "can_have_stat": ["app"],
+                "prey": ["small"],
+                "relationships": [
+                    {
+                        "cats_to": ["app1"],
+                        "cats_from": ["app2"],
+                        "mutual": false,
+                        "values": ["romantic", "platonic"],
+                        "amount": 5
+                    }
+                ]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "Carelessly, app2 is seen by some unfriendly scavengers and locked, hissing and spitting, in a strange den. Overnight, {PRONOUN/app2/subject} {VERB/app2/hear/hears} app1 yowling from outside, and the two slugcats manage to craft an escape plan through a narrow gap. Shivering, app2 presses {PRONOUN/app2/poss} pelt against app1 as they pad home.",
+                "exp": 0,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["app1"],
+                        "cats_from": ["app2"],
+                        "mutual": false,
+                        "values": ["romantic", "platonic"],
+                        "amount": -5
+                    }
+                ]
+            },
+            {
+                "text": "A little carelessly, s_c climbs a pole to hunt near the trading den. But there's a new lookout, watching them suspiciously. Wisely, s_c avoids it, and returns to c_n territory.",
+                "exp": 0,
+                "weight": 20,
+                "stat_trait": [
+                    "compassionate",
+                    "empathetic",
+                    "faithful",
+                    "loving",
+                    "patient",
+                    "responsible",
+                    "thoughtful",
+                    "wise"
+                ],
+                "can_have_stat": ["app"],
+                "relationships": [
+                    {
+                        "cats_to": ["app1"],
+                        "cats_from": ["app2"],
+                        "mutual": false,
+                        "values": ["romantic", "platonic"],
+                        "amount": -5
+                    }
+                ]
+            },
+            {
+                "text": "Carelessly, app1 is seen by some unfriendly scavengers, and taken from c_n.",
+                "exp": 0,
+                "weight": 10,
+                "lost_cats": ["r_c"],
+                "relationships": [
+                    {
+                        "cats_to": ["app1"],
+                        "cats_from": ["app2"],
+                        "mutual": false,
+                        "values": ["romantic", "platonic"],
+                        "amount": -5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patrol_id": "fst_hunt_scavtradeappdare3",
+        "biome": ["forest"],
+        "season": ["any"],
+        "types": ["hunting"],
+        "tags": ["rom_two_apps", "romantic"],
+        "patrol_art": "gen_hunt_twolegdenappdare",
+        "min_cats": 2,
+        "max_cats": 2,
+        "min_max_status": {
+            "apprentice": [1, 6],
+            "all apprentices": [2, 2]
+        },
+        "weight": 20,
+        "intro_text": "{PRONOUN/app2/poss/CAP} eyes daring app1 to say no, app2 suggests hunting by the scavenger trading post. Where apprentices are definitely not allowed.",
+        "decline_text": "On second thought, they decide to reline their nests today instead.",
+        "chance_of_success": 30,
+        "success_outcomes": [
+            {
+                "text": "They're interrupted by scavengers wandering through the woods a couple times, so they miss a couple catches, but overall, it works out.",
+                "exp": 20,
+                "weight": 20,
+                "prey": ["small", "medium"],
+                "relationships": [
+                    {
+                        "cats_to": ["app1"],
+                        "cats_from": ["app2"],
+                        "mutual": false,
+                        "values": ["romantic", "platonic"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "A curious scavenger peers at app2, pointing at some of the freshkill and offering a strange mask. They fetch app1, and both apprentices loudly proclaim how this wasn't worth the trade, but both are also wide-eyed and thrilled by the experience.",
+                "exp": 20,
+                "weight": 1,
+                "prey": ["very_small"],
+                "accessory": [
+                    {
+                        "cats": ["r_c"],
+                        "accessory": ["SCAVMASK"]
+                    }
+                ],
+                "relationships": [
+                    {
+                        "cats_to": ["app1"],
+                        "cats_from": ["app2"],
+                        "mutual": false,
+                        "values": ["romantic", "platonic"],
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "text": "Tail lashing excitedly, app1 hunts in the strange, forbidden land, ducking around corners and crawling through narrow tunnels with {PRONOUN/app1/poss} belly low to the ground. app2 tries to be even sneakier, and so app1 ups {PRONOUN/app1/poss} game, until they're both probably the most obvious pair of slugcats in the area.",
+                "exp": 20,
+                "weight": 20,
+                "stat_trait": [
+                    "calm",
+                    "careful",
+                    "insecure",
+                    "lonesome",
+                    "loyal",
+                    "nervous",
+                    "sneaky",
+                    "strange"
+                ],
+                "can_have_stat": ["app"],
+                "prey": ["small"],
+                "relationships": [
+                    {
+                        "cats_to": ["app1"],
+                        "cats_from": ["app2"],
+                        "mutual": false,
+                        "values": ["romantic", "platonic"],
+                        "amount": 5
+                    }
+                ]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": "Carelessly, app2 is seen by some unfriendly scavengers and locked, hissing and spitting, in a strange den. Overnight, {PRONOUN/app2/subject} {VERB/app2/hear/hears} app1 yowling from outside, and the two slugcats manage to craft an escape plan through a narrow gap. Shivering, app2 presses {PRONOUN/app2/poss} pelt against app1 as they pad home.",
+                "exp": 0,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["app1"],
+                        "cats_from": ["app2"],
+                        "mutual": false,
+                        "values": ["romantic", "platonic"],
+                        "amount": -5
+                    }
+                ]
+            },
+            {
+                "text": "A little carelessly, s_c climbs a pole to hunt near the trading den. But there's a new lookout, watching them suspiciously. Wisely, s_c avoids it, and returns to c_n territory.",
+                "exp": 0,
+                "weight": 20,
+                "stat_trait": [
+                    "compassionate",
+                    "empathetic",
+                    "faithful",
+                    "loving",
+                    "patient",
+                    "responsible",
+                    "thoughtful",
+                    "wise"
+                ],
+                "can_have_stat": ["app"],
+                "relationships": [
+                    {
+                        "cats_to": ["app1"],
+                        "cats_from": ["app2"],
+                        "mutual": false,
+                        "values": ["romantic", "platonic"],
+                        "amount": -5
+                    }
+                ]
+            },
+            {
+                "text": "Carelessly, app1 is seen by some unfriendly scavengers, and taken from c_n.",
+                "exp": 0,
+                "weight": 10,
+                "lost_cats": ["r_c"],
+                "relationships": [
+                    {
+                        "cats_to": ["app1"],
+                        "cats_from": ["app2"],
+                        "mutual": false,
+                        "values": ["romantic", "platonic"],
+                        "amount": -5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "patrol_id": "fst_hunt_goneoverseer1",
         "biome": ["forest"],
         "season": ["any"],
         "types": ["hunting"],
@@ -2171,28 +3042,28 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The smell of food lures r_c into what looks like a tunnel between some bushes.",
-        "decline_text": "Turning {PRONOUN/r_c/poss} nose up at the temptation, {PRONOUN/r_c/subject} {VERB/r_c/continue/continues} on {PRONOUN/r_c/poss} way.",
+        "intro_text": "A strange glowing creature catches the eye of r_c. Should {PRONOUN/r_c/subject} follow it?",
+        "decline_text": "Turning {PRONOUN/r_c/poss} tail away from this strange creature, {PRONOUN/r_c/subject} {VERB/r_c/continue/continues} on {PRONOUN/r_c/poss} way.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Darting through quickly, {PRONOUN/r_c/subject} {VERB/r_c/see/sees} that the lovely smell is scavenger mush, and keep running.",
+                "text": "With a quick leap, {PRONOUN/r_c/subject} {VERB/r_c/tried/tries} to catch it, though it disappears before {PRONOUN/r_c/poss} paws could touch it.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "The lovely smell leads to scavenger mush. Puzzled, r_c checks around {PRONOUN/r_c/self}. {PRONOUN/r_c/poss/CAP} fur stands on end as {PRONOUN/r_c/subject} {VERB/r_c/realize/realizes} {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} standing in a metal tunnel, cloaked in rust and camouflage. It's to {PRONOUN/r_c/poss} great fortune that this trap seems to be broken, but whatever scavenger restocked the bait might still be around. {PRONOUN/r_c/subject/CAP} {VERB/r_c/leave/leaves} quickly.",
+                "text": "The creature leads r_c quite a distance, seeming to flicker into different positions as it moves... Puzzled, r_c checks around {PRONOUN/r_c/self}. {PRONOUN/r_c/poss/CAP} fur stands on end as {PRONOUN/r_c/subject} {VERB/r_c/realize/realizes} {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} standing at the edge of their territory! This thing was trying to get r_c lost! Who knows what enemy it would have lured {PRONOUN/r_c/object} to. {PRONOUN/r_c/subject/CAP} {VERB/r_c/leave/leaves} quickly.",
                 "exp": 20,
                 "weight": 5
             },
             {
-                "text": "Something about this situation sets all of s_c's instincts off. {PRONOUN/r_c/subject/CAP} {VERB/r_c/investigate/investigates} carefully, and strip the cover of the bushes away from a scavenger trap underneath.",
+                "text": "Something about this situation sets all of s_c's instincts off. {PRONOUN/r_c/subject/CAP} {VERB/r_c/investigate/investigates} carefully, and peeks through the thicket to see a fast-moving section of the river.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"]
             },
             {
-                "text": "Something isn't right. Nervously pawing at the bushes, s_c thinks that the smell is too good to be true. {PRONOUN/r_c/subject/CAP} {VERB/r_c/leave/leaves} it, deciding to return to camp and report it to the deputy instead.",
+                "text": "Something isn't right. Nervously pawing at the bushes, s_c thinks that the creature is too suspicious. {PRONOUN/r_c/subject/CAP} {VERB/r_c/leave/leaves} it, deciding to return to camp and report it to the deputy instead.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2209,7 +3080,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Easily swayed by the delicious smell, s_c wanders recklessly into the sheltered space, only to smack into a metal wall. Inside the trap, a young lizard starts up a distressed wail, and s_c feels sympathy for it {PRONOUN/r_c/subject} never expected to feel for a lizard, as well as the heart stopping realization that it could easily have been {PRONOUN/r_c/object}.",
+                "text": "Easily swayed by the insatiable curiosity, s_c wanders recklessly after the strange creature, only barely avoiding falling into a river at the edge of the territory. s_c can see a young blue lizard struggling in the water, heart nearly stopping at the realization that it could easily have been {PRONOUN/r_c/object}.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["adventurous", "bold", "confident", "daring", "playful"]
@@ -2217,7 +3088,7 @@
         ]
     },
     {
-        "patrol_id": "fst_hunt_gonetwolegtrap2",
+        "patrol_id": "fst_hunt_goneoverseer2",
         "biome": ["forest"],
         "season": ["any"],
         "types": ["hunting"],
@@ -2227,28 +3098,28 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The smell of food lures r_c into what looks like a tunnel between some bushes.",
-        "decline_text": "Turning {PRONOUN/r_c/poss} nose up at the temptation, the patrol continues on their way.",
+        "intro_text": "A strange glowing creature catches the eye of r_c. Should {PRONOUN/r_c/subject} follow it?",
+        "decline_text": "Turning {PRONOUN/r_c/poss} tail away from this strange creature, the patrol continues on their way.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Darting through quickly, r_c sees that the lovely smell is scavenger mush, and keeps running.",
+                "text": "With a quick leap, {PRONOUN/r_c/subject} {VERB/r_c/tried/tries} to catch it, though it disappears before {PRONOUN/r_c/poss} paws could touch it.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "The lovely smell leads to scavenger mush. Puzzled, r_c checks around {PRONOUN/r_c/self}. {PRONOUN/r_c/poss/CAP} fur stands on end as {PRONOUN/r_c/subject} {VERB/r_c/realize/realizes} {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} standing in a metal tunnel, cloaked in rust and camouflage. It's to {PRONOUN/r_c/poss} great fortune that this trap seems to be broken, but whatever scavenger restocked the bait might still be around. {PRONOUN/r_c/subject/CAP} {VERB/r_c/leave/leaves} quickly.",
+                "text": "The creature leads r_c quite a distance, seeming to flicker into different positions as it moves... Puzzled, r_c checks around {PRONOUN/r_c/self}. {PRONOUN/r_c/poss/CAP} fur stands on end as {PRONOUN/r_c/subject} {VERB/r_c/realize/realizes} {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} standing at the edge of their territory! This thing was trying to get r_c lost! Who knows what enemy it would have lured {PRONOUN/r_c/object} to. {PRONOUN/r_c/subject/CAP} {VERB/r_c/leave/leaves} quickly.",
                 "exp": 20,
                 "weight": 5
             },
             {
-                "text": "Something about this situation sets all of s_c's instincts off. {PRONOUN/r_c/subject/CAP} {VERB/r_c/investigate/investigates} carefully, and the patrol helps {PRONOUN/r_c/object} strip the cover of the bushes away from a scavenger trap underneath.",
+                "text": "Something about this situation sets all of s_c's instincts off. {PRONOUN/r_c/subject/CAP} {VERB/r_c/investigate/investigates} carefully, and peeks through the thicket to see a fast-moving section of the river.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"]
             },
             {
-                "text": "Something isn't right. Nervously pawing at the bushes, s_c thinks that the smell is too good to be true. {PRONOUN/r_c/subject/CAP} {VERB/r_c/leave/leaves} it, convincing the patrol to return to camp and report it to the deputy instead.",
+                "text": "Something isn't right. Nervously pawing at the bushes, s_c thinks that the creature is too suspicious. {PRONOUN/r_c/subject/CAP} {VERB/r_c/leave/leaves} it, convincing the patrol to return to camp and report it to the deputy instead.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2265,13 +3136,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Easily swayed by the delicious smell, s_c wanders recklessly into the sheltered space, only to smack into a metal wall. Inside the trap, a young lizard starts up a distressed wail, and s_c feels sympathy for it {PRONOUN/r_c/subject} never expected to feel for a lizard, as well as the heart stopping realization that it could easily have been {PRONOUN/r_c/object}.",
+                "text": "Easily swayed by the insatiable curiosity, s_c wanders recklessly after the strange creature, only barely avoiding falling into a river at the edge of the territory. s_c can see a young blue lizard struggling in the water, heart nearly stopping at the realization that it could easily have been {PRONOUN/r_c/object}.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["adventurous", "bold", "confident", "daring", "playful"]
             },
             {
-                "text": "r_c is caught in a trap hidden in the bushes! There's nothing the patrol is able to do to help {PRONOUN/r_c/object}, and r_c is taken by scavengers shortly after.",
+                "text": "r_c is lured right into the river by this thing! There's nothing the patrol is able to do to help {PRONOUN/r_c/object}, and r_c is taken away by the current.",
                 "exp": 0,
                 "weight": 10,
                 "lost_cats": ["r_c"]
