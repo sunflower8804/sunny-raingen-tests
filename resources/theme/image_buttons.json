@@ -571,16 +571,16 @@
         "prototype": "#image_button",
         "images": {
             "normal_image": {
-                "path": "resources/images/buttons/random_dice.png"
+                "path": "resources/images/buttons/random_menu.png"
             },
             "hovered_image": {
-                "path": "resources/images/buttons/random_dice_hover.png"
+                "path": "resources/images/buttons/random_menu_hover.png"
             },
             "selected_image": {
-                "path": "resources/images/buttons/random_dice_hover.png"
+                "path": "resources/images/buttons/random_menu_hover.png"
             },
             "disabled_image": {
-                "path": "resources/images/buttons/random_dice_unavailable.png"
+                "path": "resources/images/buttons/random_menu_unavailable.png"
             }
         }
     },
@@ -3127,23 +3127,6 @@
             }
         }
     },
-    "#accessories_tab_button": {
-        "prototype": "#image_button",
-        "images": {
-            "normal_image": {
-                "path": "resources/images/buttons/accessories.png"
-            },
-            "hovered_image": {
-                "path": "resources/images/buttons/accessories_hover.png"
-            },
-            "selected_image": {
-                "path": "resources/images/buttons/accessories_hover.png"
-            },
-            "disabled_image": {
-                "path": "resources/images/buttons/accessories_unavailable.png"
-            }
-        }
-    },
     "#dangerous_tab_button": {
         "prototype": "#image_button",
         "images": {
@@ -4349,6 +4332,23 @@
             },
             "disabled_image": {
                 "path": "resources/images/buttons/freshkill_pile_unavailable.png"
+            }
+        }
+    },
+    "#accessories_tab_button": {
+        "prototype": "#image_button",
+        "images": {
+            "disabled_image": {
+                "path": "resources/images/buttons/accessories_unavailable.png"
+            },
+            "hovered_image": {
+                "path": "resources/images/buttons/accessories_hover.png"
+            },
+            "normal_image": {
+                "path": "resources/images/buttons/accessories.png"
+            },
+            "selected_image": {
+                "path": "resources/images/buttons/accessories_hover.png"
             }
         }
     },
