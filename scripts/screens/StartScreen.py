@@ -101,33 +101,11 @@ class StartScreen(Screens):
                 quit(savesettings=False, clearevents=False)
             elif event.ui_element == self.social_buttons["discord_button"]:
                 if platform.system() == "Darwin":
-                    subprocess.Popen(["open", "-u", "https://discord.gg/clangen"])
+                    subprocess.Popen(["open", "-u", "https://discord.gg/Zyj6vTq4rS"])
                 elif platform.system() == "Windows":
-                    os.system(f"start \"\" {'https://discord.gg/clangen'}")
+                    os.system(f"start \"\" {'https://discord.gg/Zyj6vTq4rS'}")
                 elif platform.system() == "Linux":
-                    subprocess.Popen(["xdg-open", "https://discord.gg/clangen"])
-            elif event.ui_element == self.social_buttons["tumblr_button"]:
-                if platform.system() == "Darwin":
-                    subprocess.Popen(
-                        ["open", "-u", "https://officialclangen.tumblr.com/"]
-                    )
-                elif platform.system() == "Windows":
-                    os.system(f"start \"\" {'https://officialclangen.tumblr.com/'}")
-                elif platform.system() == "Linux":
-                    subprocess.Popen(
-                        ["xdg-open", "https://officialclangen.tumblr.com/"]
-                    )
-            elif event.ui_element == self.social_buttons["twitter_button"]:
-                if platform.system() == "Darwin":
-                    subprocess.Popen(
-                        ["open", "-u", "https://twitter.com/OfficialClangen"]
-                    )
-                elif platform.system() == "Windows":
-                    os.system(f"start \"\" {'https://twitter.com/OfficialClangen'}")
-                elif platform.system() == "Linux":
-                    subprocess.Popen(
-                        ["xdg-open", "https://twitter.com/OfficialClangen"]
-                    )
+                    subprocess.Popen(["xdg-open", "https://discord.gg/Zyj6vTq4rS"])
             elif event.ui_element == self.social_buttons["menurandom_button"]:
                 if game.settings["dark mode"]:
                     menunumber = randrange(0,37)
@@ -176,53 +154,38 @@ class StartScreen(Screens):
         # Create buttons
 
         self.continue_button = UIImageButton(
-            scale(pygame.Rect((140, 620), (384, 70))),
+            scale(pygame.Rect((140, 600), (384, 80))),
             "",
             object_id="#continue_button",
             manager=MANAGER,
         )
         self.switch_clan_button = UIImageButton(
-            scale(pygame.Rect((140, 710), (384, 70))),
+            scale(pygame.Rect((140, 690), (384, 80))),
             "",
             object_id="#switch_clan_button",
             manager=MANAGER,
         )
         self.new_clan_button = UIImageButton(
-            scale(pygame.Rect((140, 800), (384, 70))),
+            scale(pygame.Rect((140, 780), (384, 80))),
             "",
             object_id="#new_clan_button",
             manager=MANAGER,
         )
         self.settings_button = UIImageButton(
-            scale(pygame.Rect((140, 890), (384, 70))),
+            scale(pygame.Rect((140, 870), (384, 80))),
             "",
             object_id="#settings_button",
             manager=MANAGER,
         )
         self.quit = UIImageButton(
-            scale(pygame.Rect((140, 980), (384, 70))),
+            scale(pygame.Rect((140, 960), (384, 80))),
             "",
             object_id="#quit_button",
             manager=MANAGER,
         )
 
-        self.social_buttons["twitter_button"] = UIImageButton(
-            scale(pygame.Rect((25, 1295), (80, 80))),
-            "",
-            object_id="#twitter_button",
-            manager=MANAGER,
-            tool_tip_text="Check out our Twitter!",
-        )
-        self.social_buttons["tumblr_button"] = UIImageButton(
-            scale(pygame.Rect((115, 1295), (80, 80))),
-            "",
-            object_id="#tumblr_button",
-            manager=MANAGER,
-            tool_tip_text="Check out our Tumblr!",
-        )
-
         self.social_buttons["discord_button"] = UIImageButton(
-            scale(pygame.Rect((205, 1295), (80, 80))),
+            scale(pygame.Rect((25, 1295), (96, 84))),
             "",
             object_id="#discord_button",
             manager=MANAGER,
@@ -230,7 +193,7 @@ class StartScreen(Screens):
         )
 
         self.social_buttons["menurandom_button"] = UIImageButton(
-            scale(pygame.Rect((285, 1070), (102, 102))),
+            scale(pygame.Rect((280, 1070), (114, 114))),
             "",
             object_id="#menurandom_button",
             manager=MANAGER,
