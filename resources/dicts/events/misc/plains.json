@@ -5,7 +5,7 @@
     "season": ["any"],
     "sub_type": ["accessory"],
     "weight": 10,
-    "event_text":  "m_c went for a walk and found a cute acc_singular. It now lives in the camp, though it was hard for m_c to convince {PRONOUN/m_c/poss} clanmates not to eat {PRONOUN/m_c/poss} friend.",
+    "event_text":  "m_c went for a walk and found a cute acc_singular. It now lives in the camp, though it was hard for m_c to convince {PRONOUN/m_c/poss} Clanmates not to eat {PRONOUN/m_c/poss} friend.",
     "new_accessory": ["YEEKRED", "YEEKBLUE"],
     "m_c": {
       "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],

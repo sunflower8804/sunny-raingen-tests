@@ -1,5 +1,91 @@
 [
   {
+    "event_id": "gen_misc_any_moss",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 15,
+    "event_text":  "m_c moved so little this cycle that moss started growing on {PRONOUN/m_c/object}. It did't affect {PRONOUN/m_c/poss} health, so {PRONOUN/m_c/subject} accepted it as {PRONOUN/m_c/poss} new look.",
+    "new_accessory": ["FLOWEREDMOSS", "MOSS"],
+    "m_c": {
+      "age": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_mushrooms",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 15,
+    "event_text":  "Mushrooms started growing on m_c's tail. It did't affect {PRONOUN/m_c/poss} health, so {PRONOUN/m_c/subject} accepted it as {PRONOUN/m_c/poss} new look.",
+    "new_accessory": ["MUSHROOMS"],
+    "m_c": {
+      "age": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_littlebubble",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 8,
+    "event_text":  "m_c finds a funny acc_singular. {PRONOUN/m_c/subject/CAP} never {VERB/m_c/let/lets} go of it now.",
+    "new_accessory": ["BUBBLE"],
+    "m_c": {
+      "age": ["adolescent", "young adult", "adult"],
+      "trait": ["childish", "playful", "strange"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_overseerfriend",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 9,
+    "event_text":  "m_c is constantly being watched by acc_plural.",
+    "new_accessory": ["IGGYYELLOW", "IGGYPURPLE", "IGGYWHITE", "IGGYGREEN", "IGGYRED", "IGGYBLUE"],
+    "m_c": {
+      "age": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_noodlefriend",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 10,
+    "event_text":  "m_c has found a acc_singular egg. It hached the next morning, and now little noodleflies follow {PRONOUN/m_c/object} around.",
+    "new_accessory": ["NOODLERED", "NOODLEPURPLE", "NOODLEGREY", "NOODLEBLUE", "NOODLEWHITE", "NOODLEPINK"],
+    "m_c": {
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
+      "not_trait": ["cold", "strict", "grumpy", "bloodthirsty", "fierce"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_ancientdecoration",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 20,
+    "event_text":  "m_c explores ancient ruins and finds a hidden acc_singular that is very well preserved.",
+    "new_accessory": ["KARMAONE", "KARMATWO", "KARMATHREE", "KARMAFOUR", "SCROLL", "NECKLACESILVER", "NECKLACEGOLD", "TAILWRAP", "RAINCOAT", "LACESCARF"],
+    "m_c": {
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_overseereye",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 8,
+    "event_text":  "m_c got sick of overseers watching {PRONOUN/m_c/object} constantly. {PRONOUN/m_c/subject/CAP} did a lucky spear hit and now wears the acc_singular as a trophy to scare off the rest of the spies.",
+    "new_accessory": ["OVERSEEREYE"],
+    "m_c": {
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
+    }
+  },
+  {
     "event_id": "gen_misc_any_spear",
     "location": ["any"],
     "season": ["any"],
@@ -93,23 +179,7 @@
     "r_c": {
       "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "status": ["any"]
-    },
-    "relationships": [
-        {
-          "cats_from": ["m_c"],
-          "cats_to": ["r_c"],
-          "mutual": true,
-          "values": ["platonic", "comfort", "trust"],
-          "amount": 15
-        },
-        {
-          "cats_from": ["m_c"],
-          "cats_to": ["r_c"],
-          "mutual": true,
-          "values": ["dislike"],
-          "amount": -15
-        }
-    ]
+    }
   },
   {
     "event_id": "gen_misc_any_flashbang",
@@ -129,8 +199,9 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
+    "tags": ["skill_trait_required"],
     "weight": 1,
-    "event_text":  "One day m_c came back to camp carrying a weird egg-shaped object. To all {PRONOUN/m_c/poss} clanmates' questions {PRONOUN/m_c/subject} simply answered that {PRONOUN/m_c/subject} {VERB/m_c/are/is} an «alpha gamer» now. Whatever that means.",
+    "event_text":  "One day m_c came back to camp carrying a weird egg-shaped object. To all {PRONOUN/m_c/poss} Clanmates' questions {PRONOUN/m_c/subject} simply answered that {PRONOUN/m_c/subject} {VERB/m_c/are/is} an ``alpha gamer`` now. Whatever that means.",
     "new_accessory": ["INVEGG"],
     "m_c": {
       "age": ["any"],
@@ -167,23 +238,11 @@
     "season": ["any"],
     "sub_type": ["accessory"],
     "weight": 10,
-    "event_text":  "m_c went for a walk and found a cute acc_singular. It now lives in the camp, though it was hard for m_c to convince {PRONOUN/m_c/poss} clanmates not to eat {PRONOUN/m_c/poss} friend.",
-    "new_accessory": ["MOUSEBLUE", "MOUSEYEL", "MOUSEPINK", "MOUSERED"],
+    "event_text":  "m_c went for a walk and found a cute acc_singular. It now lives in the camp, though it was hard for m_c to convince {PRONOUN/m_c/poss} Clanmates not to eat {PRONOUN/m_c/poss} friend.",
+    "new_accessory": ["MOUSEBLUE", "MOUSEYEL", "MOUSEPINK", "MOUSERED", "SQUIDBLACK", "SQUIDWHITE"],
     "m_c": {
       "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "not_trait": ["cold", "strict", "grumpy", "bloodthirsty", "fierce"]
-    }
-  },
-  {
-    "event_id": "gen_misc_any_vulturegrub",
-    "location": ["any"],
-    "season": ["any"],
-    "sub_type": ["accessory"],
-    "weight": 5,
-    "event_text":  "One day m_c came to camp with a vulture grub and a tale of how that little worm saved {PRONOUN/m_c/poss} life.",
-    "new_accessory": ["VULTGRUB"],
-    "m_c": {
-        "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     }
   },
   {
@@ -191,7 +250,7 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 10,
+    "weight": 5,
     "event_text":  "m_c has a newfound fascination with grubs. Vulture grubs, specifically. Now {PRONOUN/m_c/subject} always {VERB/m_c/carry/carries} one around.",
     "new_accessory": ["VULTGRUB"],
     "m_c": {
@@ -204,7 +263,7 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 20,
+    "weight": 10,
     "event_text":  "m_c has a newfound fascination with grubs. Vulture grubs, specifically. Now {PRONOUN/m_c/subject} always {VERB/m_c/carry/carries} one around.",
     "new_accessory": ["VULTGRUB"],
     "m_c": {
@@ -219,7 +278,7 @@
     "sub_type": ["accessory"],
     "weight": 20,
     "event_text":  "m_c has a newfound fascination with bugs. Specifically acc_plural. {PRONOUN/m_c/subject/CAP} {VERB/m_c/wear/wears} one as an earring now.",
-    "new_accessory": ["LILFLY", "LILCENTI", "LILBEETLE", "GREENDRAGFLY", "BLUEDRAGFLY"],
+    "new_accessory": ["LILFLY", "LILCENTI", "LILBEETLE", "GREENDRAGFLY", "BLUEDRAGFLY", "SPIDEREAR"],
     "m_c": {
       "age": ["adolescent", "young adult", "adult"],
       "trait": ["childish", "playful", "strange"]
@@ -230,16 +289,16 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 40,
+    "weight": 30,
     "event_text":  "m_c has a newfound fascination with bugs. Specifically acc_plural. {PRONOUN/m_c/subject/CAP} always {VERB/m_c/carry/carries} one around now.",
-    "new_accessory": ["LILFLY", "LILCENTI", "LILBEETLE", "GREENDRAGFLY", "BLUEDRAGFLY"],
+    "new_accessory": ["LILFLY", "LILCENTI", "LILBEETLE", "GREENDRAGFLY", "BLUEDRAGFLY", "SPIDEREAR"],
     "m_c": {
       "age": ["any"],
       "status": ["kitten"]
     }
   },
   {
-    "event_id": "gen_misc_any_redarmor",
+    "event_id": "gen_misc_any_redarmorfight",
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
@@ -250,7 +309,20 @@
     "m_c":{
       "age": ["any"],
       "status": ["adolescent", "young adult", "adult", "senior adult"],
-      "skill": ["FIGHTER,3"]
+      "skill": ["FIGHTER,2"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_redarmorcamp",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 5,
+    "event_text": "A red centipede attacked the camp. The slugcats successfully fought off, and m_c saw this as an opportunity to craft {PRONOUN/m_c/self} armor made of the centipede's shells.",
+    "new_accessory": ["REDARMOR"],
+    "m_c":{
+      "age": ["any"],
+      "status": ["adolescent", "young adult", "adult", "senior adult"]
     }
   },
   {
@@ -259,7 +331,7 @@
     "season": ["any"],
     "sub_type": ["accessory"],
     "tags": ["skill_trait_required"],
-    "weight": 20,
+    "weight": 30,
     "event_text": "m_c goes missing for a couple cycles and comes back asking everyone about weird small yellowish ghosts. It turns out no one else can see them, to m_c's surprise.",
     "new_accessory": ["VOIDSPAWN"],
     "m_c":{
@@ -533,7 +605,7 @@
     "sub_type": ["accessory"],
     "weight": 5,
     "event_text":  "m_c disappears for a few cycles, then returns to camp with a acc_singular.",
-    "new_accessory": ["COLLAR"],
+    "new_accessory": ["COLLAR", "NEURONBLUE", "NEURONRED", "NEURONGREEN", "NEURONWHITE"],
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     }
@@ -920,7 +992,7 @@
     "sub_type": ["accessory"],
     "weight": 20,
     "event_text": "r_c finds acc_plural while out on a walk and decides to give some to m_c.",
-    "new_accessory": ["WILD", "PLANT", "REDBATNIP", "BATNIP"],
+    "new_accessory": ["WILD", "PLANT", "REDBATNIP", "BATNIP", "DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE", "ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL", "SAKURA"],
     "m_c":{
       "age": ["any"],
       "status": ["any"]
@@ -953,7 +1025,7 @@
     "sub_type": ["accessory"],
     "weight": 20,
     "event_text": "m_c finds acc_plural while out on a walk and decides to keep some.",
-    "new_accessory": ["WILD", "PLANT", "REDBATNIP", "BATNIP"],
+    "new_accessory": ["WILD", "PLANT", "REDBATNIP", "BATNIP", "DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE", "ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL", "SAKURA"],
     "m_c":{
       "age": ["any"],
       "status": ["any"]
@@ -966,7 +1038,7 @@
     "sub_type": ["ceremony", "accessory"],
     "weight": 20,
     "event_text": "m_c was given acc_plural as a congratulations, r_c watches from the side with a jealous glint in {PRONOUN/r_c/poss} eyes.",
-    "new_accessory": ["WILD", "PLANT", "REDBATNIP", "BATNIP"],
+    "new_accessory": ["WILD", "PLANT", "REDBATNIP", "BATNIP", "DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE", "ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL", "SAKURA"],
     "m_c":{
       "age": ["any"],
       "status": ["any"]
@@ -992,7 +1064,7 @@
     "sub_type": ["accessory"],
     "weight": 20,
     "event_text": "m_c received a present, acc_plural, from r_c and decided to keep it with {PRONOUN/m_c/object} on {PRONOUN/m_c/poss} pelt.",
-    "new_accessory": ["WILD", "PLANT", "REDBATNIP", "BATNIP", "DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE", "ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL", "SAKURA", "MUSHROOMS", "FLOWEREDMOSS", "MOSS"],
+    "new_accessory": ["WILD", "PLANT", "REDBATNIP", "BATNIP", "DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE", "ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL", "SAKURA"],
     "m_c":{
       "age": ["any"],
       "status": ["any"]
@@ -1018,7 +1090,7 @@
     "sub_type": ["ceremony", "accessory"],
     "weight": 20,
     "event_text": "m_c decides to pick something to adorn {PRONOUN/m_c/poss} pelt as celebration.",
-    "new_accessory": ["WILD", "PLANT", "REDBATNIP", "BATNIP", "EMPTYBAG"],
+    "new_accessory": ["WILD", "PLANT", "REDBATNIP", "BATNIP", "DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE", "ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL", "SAKURA"],
     "m_c":{
       "age": ["any"],
       "status": ["any"]
@@ -1031,7 +1103,7 @@
     "sub_type": ["ceremony", "accessory"],
     "weight": 20,
     "event_text": "r_c gives m_c something to adorn {PRONOUN/m_c/poss} pelt as congratulations.",
-    "new_accessory": ["WILD","PLANT", "REDBATNIP", "BATNIP", "DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE", "ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL", "SAKURA"],
+    "new_accessory": ["WILD", "PLANT", "REDBATNIP", "BATNIP", "DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE", "ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL", "SAKURA"],
     "m_c":{
       "age": ["any"],
       "status": ["any"]
@@ -1343,8 +1415,8 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 5,
-    "event_text": "m_c gifts {PRONOUN/m_c/poss} beloved r_c with a acc_singular to wear in {PRONOUN/m_c/poss} pelt.",
+    "weight": 15,
+    "event_text": "r_c gifts {PRONOUN/m_c/poss} beloved m_c with a acc_singular to wear in {PRONOUN/r_c/poss} pelt.",
     "new_accessory": ["WILD", "PLANT", "DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE", "ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL", "SAKURA"],
     "m_c": {
       "age": ["young adult", "adult", "senior adult","senior"],
@@ -1355,8 +1427,8 @@
     },
     "relationships": [
         {
-          "cats_to": ["m_c"],
-            "cats_from": ["r_c"],
+          "cats_to": ["r_c"],
+            "cats_from": ["m_c"],
             "mutual": true,
             "values": ["romantic", "comfort","trust"],
           "amount": 15
@@ -1802,7 +1874,7 @@
         "sub_type": ["accessory"],
         "weight": 15,
         "event_text": "m_c finds some acc_singular to wear in {PRONOUN/m_c/poss} fur to impress r_c!",
-        "new_accessory": ["WILD", "PLANT", "FLOWEREDMOSS", "MOSS", "MUSHROOMS"],
+        "new_accessory": ["WILD", "PLANT"],
         "m_c": {
             "age": ["kitten"],
             "relationship_status": ["child/parent"],
