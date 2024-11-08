@@ -181,9 +181,10 @@
 	},
 	"cat_generation": {
 		"base_permanent_condition": 90,
-		"base_male_tortie": 13,
+		"base_male_tortie": 4,
 		"base_female_tortie": 4,
-		"base_heterochromia": 120,
+		"base_heterochromia": 25,
+		"base_multieyes": 50,
 		"direct_inheritance": 15,
 		"wildcard_tortie": 9,
 		"vit_chance": 8,
@@ -202,11 +203,11 @@
 	"accessory_generation": {
 		"base_acc_chance": 150,
 		"med_modifier": -80,
-		"baby_modifier": -20,
+		"baby_modifier": -50,
 		"elder_modifier": 20,
 		"happy_trait_modifier": -30,
 		"grumpy_trait_modifier": 30,
-		"ceremony_modifier": -50
+		"ceremony_modifier": -80
 	},
 	"fading": {
 		"age_to_fade": 202,
