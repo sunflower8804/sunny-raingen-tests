@@ -714,81 +714,6 @@
     "plural": "electric spears",
     "singular": "electric spear"
   },
-  "MOUSEBLUE": {
-    "default": "blue lantern mouse",
-    "plural": "blue lantern mice",
-    "singular": "blue lantern mouse"
-  },
-  "MOUSEYEL": {
-    "default": "yellow lantern mouse",
-    "plural": "yellow lantern mice",
-    "singular": "yellow lantern mouse"
-  },
-  "MOUSEPINK": {
-    "default": "pink lantern mouse",
-    "plural": "pink lantern mice",
-    "singular": "pink lantern mouse"
-  },
-  "MOUSERED": {
-    "default": "red lantern mouse",
-    "plural": "red lantern mice",
-    "singular": "red lantern mouse"
-  },
-  "BATFLY": {
-    "default": "batfly",
-    "plural": "batflies",
-    "singular": "batfly"
-  },
-  "BLUEFRUIT": {
-    "default": "blue fruit",
-    "plural": "blue fruits",
-    "singular": "blue fruit"
-  },
-  "INVEGG": {
-    "default": "weird egg",
-    "plural": "weird egg",
-    "singular": "weird egg"
-  },
-  "VOIDSPAWN": {
-    "default": "void spawn",
-    "plural": "void spawns",
-    "singular": "void spawn"
-  },
-  "GRAPPLE": {
-    "default": "grapple worm",
-    "plural": "grapple worms",
-    "singular": "grapple worm"
-  },
-  "EMPTYBAG": {
-    "default": "small bag",
-    "plural": "small bags",
-    "singular": "small bag"
-  },
-  "HERBSBAG": {
-    "default": "bag of herbs",
-    "plural": "bags of herbs",
-    "singular": "bag of herbs"
-  },
-  "REDARMOR": {
-    "default": "red centipede armor",
-    "plural": "red centipede armor",
-    "singular": "red centipede armor"
-  },
-  "VULTGRUB": {
-    "default": "vulture grub",
-    "plural": "vulture grubs",
-    "singular": "vulture grub"
-  },
-  "YEEKRED": {
-    "default": "red yeek",
-    "plural": "red yeeks",
-    "singular": "red yeek"
-  },
-  "YEEKBLUE": {
-    "default": "blue yeek",
-    "plural": "blue yeeks",
-    "singular": "blue yeek"
-  },
   "DEATHSHEAD": {
     "default": "death's-head wings",
     "plural": "death's-head wings",
@@ -835,9 +760,9 @@
     "singular": "hercules wing"
   },
   "SUNSET": {
-    "default": "Madagascan sunset wings",
-    "plural": "Madagascan sunset wings",
-    "singular": "Madagascan sunset wing"
+    "default": "madagascan sunset wings",
+    "plural": "madagascan sunset wings",
+    "singular": "madagascan sunset wing"
   },
   "PURPLEEMPEROR": {
     "default": "purple emperor wings",
@@ -849,29 +774,284 @@
     "plural": "white admiral wings",
     "singular": "white admiral wing"
   },
- "SWALLOWTAIL": {
+  "SWALLOWTAIL": {
   "default": "swallowtail wings",
   "plural": "swallowtail wings",
   "singular": "swallowtail wing"
-},
-"FLOWEREDMOSS": {
+  },
+  "FLOWEREDMOSS": {
   "default": "flowered moss-covered pelt",
   "plural": "flowered moss-covered pelt",
   "singular": "flowered moss-covered pelt"
-},
-"MOSS": {
+  },
+  "MOSS": {
   "default": "moss-covered pelt",
   "plural": "moss-covered pelt",
-  "singular": "swallowtail wings"
-},
-"MUSHROOMS": {
+  "singular": "moss-covered pelt"
+  },
+  "MUSHROOMS": {
   "default": "mushroom-covered tail",
   "plural": "mushroom-covered tail",
   "singular": "mushroom-covered tail"
-},
-"SAKURA": {
+  },
+  "SAKURA": {
   "default": "cherry blossoms",
   "plural": "cherry blossoms",
   "singular": "cherry blossom"
-}
+ },
+  "MOUSEBLUE": {
+    "default": "blue lantern mouse",
+    "plural": "blue lantern mice",
+    "singular": "blue lantern mouse"
+  },
+  "MOUSEYEL": {
+    "default": "yellow lantern mouse",
+    "plural": "yellow lantern mice",
+    "singular": "yellow lantern mouse"
+  },
+  "MOUSEPINK": {
+    "default": "pink lantern mouse",
+    "plural": "pink lantern mice",
+    "singular": "pink lantern mouse"
+  },
+  "MOUSERED": {
+    "default": "red lantern mouse",
+    "plural": "red lantern mice",
+    "singular": "red lantern mouse"
+  },
+  "YEEKRED": {
+    "default": "red yeek",
+    "plural": "red yeeks",
+    "singular": "red yeek"
+  },
+  "YEEKBLUE": {
+    "default": "blue yeek",
+    "plural": "blue yeeks",
+    "singular": "blue yeek"
+  },
+  "VULTGRUB": {
+    "default": "vulture grub",
+    "plural": "vulture grubs",
+    "singular": "vulture grub"
+  },
+  "GRAPPLE": {
+    "default": "grapple worm",
+    "plural": "grapple worms",
+    "singular": "grapple worm"
+  },
+  "SNAILGREEN": {
+    "default": "green snail",
+    "plural": "green snails",
+    "singular": "green snail"
+  },
+  "SNAILBLUE": {
+    "default": "blue snail",
+    "plural": "blue snails",
+    "singular": "blue snail"
+  },
+  "SNAILRED": {
+    "default": "red snail",
+    "plural": "red snails",
+    "singular": "red snail"
+  },
+  "SNAILPURPLE": {
+    "default": "purple snail",
+    "plural": "purple snails",
+    "singular": "purple snail"
+  },
+  "NOODLERED": {
+    "default": "red noodlefly",
+    "plural": "red noodlefies",
+    "singular": "red noodlefly"
+  },
+  "NOODLEPURPLE": {
+    "default": "purple noodlefly",
+    "plural": "purple noodleflies",
+    "singular": "purple noodlefly"
+  },
+  "NOODLEGREY": {
+    "default": "grey noodlefly",
+    "plural": "grey noodleflies",
+    "singular": "grey noodlefly"
+  },
+  "NOODLEBLUE": {
+    "default": "blue noodlefly",
+    "plural": "blue noodleflies",
+    "singular": "blue noodlefly"
+  },
+  "NOODLEWHITE": {
+    "default": "white noodlefly",
+    "plural": "white noodleflies",
+    "singular": "white noodlefly"
+  },
+  "NOODLEPINK": {
+    "default": "pink noodlefly",
+    "plural": "pink noodleflies",
+    "singular": "pink noodlefly"
+  },
+  "IGGYYELLOW": {
+    "default": "yellow overseer",
+    "plural": "yellow overseers",
+    "singular": "yellow overseer"
+  },
+  "IGGYPURPLE": {
+    "default": "purple overseer",
+    "plural": "purple overseers",
+    "singular": "purple overseer"
+  },
+  "IGGYWHITE": {
+    "default": "white overseer",
+    "plural": "white overseers",
+    "singular": "white overseer"
+  },
+  "IGGYGREEN": {
+    "default": "green overseer",
+    "plural": "green overseers",
+    "singular": "green overseer"
+  },
+  "IGGYRED": {
+    "default": "red overseer",
+    "plural": "red overseers",
+    "singular": "red overseer"
+  },
+  "IGGYBLUE": {
+    "default": "blue overseer",
+    "plural": "blue overseers",
+    "singular": "blue overseer"
+  },
+  "SQUIDBLACK": {
+    "default": "black squidcada",
+    "plural": "black squidcadas",
+    "singular": "black squidcada"
+  },
+  "SQUIDWHITE": {
+    "default": "white squidcada",
+    "plural": "white squidcadas",
+    "singular": "white squidcada"
+  },
+  "BUBBLE": {
+    "default": "little balloon",
+    "plural": "little balloons",
+    "singular": "little balloon"
+  },
+  "BATFLY": {
+    "default": "batfly",
+    "plural": "batflies",
+    "singular": "batfly"
+  },
+  "BLUEFRUIT": {
+    "default": "blue fruit",
+    "plural": "blue fruits",
+    "singular": "blue fruit"
+  },
+  "EMPTYBAG": {
+    "default": "small bag",
+    "plural": "small bags",
+    "singular": "small bag"
+  },
+  "HERBSBAG": {
+    "default": "bag of herbs",
+    "plural": "bags of herbs",
+    "singular": "bag of herbs"
+  },
+  "INVEGG": {
+    "default": "weird egg",
+    "plural": "weird egg",
+    "singular": "weird egg"
+  },
+  "VOIDSPAWN": {
+    "default": "void spawn",
+    "plural": "void spawns",
+    "singular": "void spawn"
+  },
+  "REDARMOR": {
+    "default": "red centipede armor",
+    "plural": "red centipede armor",
+    "singular": "red centipede armor"
+  },
+  "OVERSEEREYE": {
+    "default": "overseer eye",
+    "plural": "overseer eyes",
+    "singular": "overseer eye"
+  },
+  "SPIDEREAR": {
+    "default": "little spider",
+    "plural": "little spiders",
+    "singular": "little spider"
+  },
+  "NEURONBLUE": {
+    "default": "blue neuron fly",
+    "plural": "blue neuron flies",
+    "singular": "blue neuron fly"
+  },
+  "NEURONRED": {
+    "default": "red neuron fly",
+    "plural": "red neuron flies",
+    "singular": "red neuron fly"
+  },
+  "NEURONGREEN": {
+    "default": "green neuron fly",
+    "plural": "green neuron flies",
+    "singular": "green neuron fly"
+  },
+  "NEURONWHITE": {
+    "default": "white neuron fly",
+    "plural": "white neuron flies",
+    "singular": "white neuron fly"
+  },
+  "KARMAONE": {
+    "default": "ancient decoration",
+    "plural": "ancient decorations",
+    "singular": "ancient decoration"
+  },
+  "KARMATWO": {
+    "default": "ancient decoration",
+    "plural": "ancient decorations",
+    "singular": "ancient decoration"
+  },
+  "KARMATHREE": {
+    "default": "ancient decoration",
+    "plural": "ancient decorations",
+    "singular": "ancient decoration"
+  },
+  "KARMAFOUR": {
+    "default": "ancient decoration",
+    "plural": "ancient decorations",
+    "singular": "ancient decoration"
+  },
+  "SCROLL": {
+    "default": "ancient scroll",
+    "plural": "ancient scrolls",
+    "singular": "ancient scroll"
+  },
+  "NECKLACESILVER": {
+    "default": "silver ancient necklace",
+    "plural": "silver ancient necklaces",
+    "singular": "silver ancient necklace"
+  },
+  "NECKLACEGOLD": {
+    "default": "ancient golden necklace",
+    "plural": "ancient golden necklaces",
+    "singular": "ancient golden necklace"
+  },
+  "TAILWRAP": {
+    "default": "ancient tail wrap",
+    "plural": "ancient tail wrap",
+    "singular": "ancient tail wrap"
+  },
+  "RAINCOAT": {
+    "default": "ancient raincoat",
+    "plural": "ancient raincoats",
+    "singular": "ancient raincoat"
+  },
+  "LACESCARF": {
+    "default": "ancient decoration",
+    "plural": "ancient decorations",
+    "singular": "ancient decoration"
+  },
+  "TOLLMASK": {
+    "default": "scavenger toll mask",
+    "plural": "scavenger toll masks",
+    "singular": "scavenger toll mask"
+  }
 }
