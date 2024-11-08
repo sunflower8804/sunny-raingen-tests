@@ -2632,8 +2632,6 @@ def generate_sprite(
                         new_sprite.blit(sprites.sprites['insectwings' + i + cat_sprite], (0, 0))
                     elif i in cat.pelt.buddies:
                         new_sprite.blit(sprites.sprites['buddies' + i + cat_sprite], (0, 0))
-                    elif i in cat.pelt.naturalaccs:
-                        new_sprite.blit(sprites.sprites['naturalaccs' + i + cat_sprite], (0, 0))
                
                 except:
                     continue
