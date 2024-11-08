@@ -974,7 +974,9 @@ class Cat:
             colour = "sunlit ice"
         elif colour == "greenyellow":
             colour = "green-yellow"
-        if self.pelt.eye_colour2:
+        if self.pelt.eye_colour2 in Pelt.multi_eyes:
+            colour = "multi-eyed " + colour
+        elif self.pelt.eye_colour2:
             if colour2 == "palegreen":
                 colour2 = "pale green"
             if colour2 == "darkblue":

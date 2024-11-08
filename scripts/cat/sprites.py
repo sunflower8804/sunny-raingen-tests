@@ -133,16 +133,16 @@ class Sprites:
             'lineart', 'lineartdf', 'lineartdead',
             'eyes', 'eyes2', 'skin', 'gilltongue',
             'scars', 'missingscars',
-            'medcatherbs', 'moreaccs',
+            'medcatherbs',
             'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards', 'drones', 'muddypaws', 
-            'herbs2', 'insectwings', 'naturalacc',
+            'herbs2', 'insectwings', 'buddies', 'newaccs',
             'singlecolours', 'speckledcolours', 'tabbycolours', 'bengalcolours', 'marbledcolours',
             'rosettecolours', 'smokecolours', 'tickedcolours', 'mackerelcolours', 'classiccolours',
             'sokokecolours', 'agouticolours', 'singlestripecolours', 'maskedcolours', 'bananacolours',
             'centipedecolours', 'collaredcolours', 'concolours', 'gravelcolours', 'cyanlizardcolours',
             'slimemoldcolours', 'lanterncolours', 'vulturecolours', 'lizardcolours', 'leviathancolours',
             'fluffycolours', 'amoebacolours', 'seaslugcolours', 'yeekcolours', 'raineyes', 'raineyes2',
-            'shadersnewwhite', 'lightingnew',
+            'multieyes', 'multiraineyes', 'shadersnewwhite', 'lightingnew',
             'whitepatches', 'tortiepatchesmasks',
             'fademask', 'fadestarclan', 'fadedarkforest',
             'symbols'
@@ -185,6 +185,24 @@ class Sprites:
                 ['INDIGO', 'LILAC']):
             self.make_group('raineyes', (a, 1), f'eyes{i}')
             self.make_group('raineyes2', (a, 1), f'eyes2{i}')
+        #multieyes
+        for a, i in enumerate(
+                ['MULTIYELLOW', 'MULTIAMBER', 'MULTIHAZEL', 'MULTIPALEGREEN', 'MULTIGREEN', 'MULTIBLUE', 
+                'MULTIDARKBLUE', 'MULTIGREY', 'MULTICYAN', 'MULTIEMERALD', 'MULTIHEATHERBLUE', 'MULTISUNLITICE']):
+            self.make_group('multieyes', (a, 0), f'eyes2{i}')
+        for a, i in enumerate(
+                ['MULTICOPPER', 'MULTISAGE', 'MULTICOBALT', 'MULTIPALEBLUE', 'MULTIBRONZE', 'MULTISILVER',
+                'MULTIPALEYELLOW', 'MULTIGOLD', 'MULTIGREENYELLOW', 'MULTIRED', 'MULTIPURPLE', 'MULTIMAUVE']):
+            self.make_group('multieyes', (a, 1), f'eyes2{i}')
+        #multieyes rain's colors
+        for a, i in enumerate(
+                ['MULTIELECTRICBLUE', 'MULTIVIOLET', 'MULTIPINK', 'MULTISNOW', 'MULTIORANGE',
+                 'MULTICREAM', 'MULTISEAFOAM', 'MULTICRIMSON', 'MULTINAVY', 'MULTIVOIDGOLD',
+                 'MULTICOOLBROWN', 'MULTIPLUM']):
+            self.make_group('multiraineyes', (a, 0), f'eyes2{i}')
+        for a, i in enumerate(
+                ['MULTIINDIGO', 'MULTILILAC']):
+            self.make_group('multiraineyes', (a, 1), f'eyes2{i}')
 
         # white patches
         for a, i in enumerate(['FULLWHITE', 'ANY', 'TUXEDO', 'LITTLE', 'COLOURPOINT', 'VAN', 'ANYTWO',
@@ -460,7 +478,7 @@ class Sprites:
             self.make_group('gilltongue', (a, 0), f"skin{i}")
         for a, i in enumerate(['RAINBOWGILLS', 'FUCHSIATONGUE', 'PASTELTONGUE', 'KOBITONGUE', 'REDTONGUE', 'GREYTONGUE']):
             self.make_group('gilltongue', (a, 1), f"skin{i}")
-        for a, i in enumerate(['ORANGETONGUE', 'WHITESPOTS', 'BLACKSPOTS', 'MIXSPOTS', 'RAINBOWSPOTS']):
+        for a, i in enumerate(['ORANGETONGUE', 'WHITESPOTS', 'BLACKSPOTS', 'MIXSPOTS', 'RAINBOWSPOTS', 'BLACKCLAWS']):
             self.make_group('gilltongue', (a, 2), f"skin{i}")
         for a, i in enumerate(['WHITETENNA', 'REDTENNA', 'PINKTENNA', 'ORANGETENNA', 'YELLOWTENNA', 'BLUETENNA']):
             self.make_group('gilltongue', (a, 3), f"skin{i}")
@@ -509,7 +527,7 @@ class Sprites:
             ["MAPLE LEAF", "HOLLY", "BLUE BERRIES", "FORGET ME NOTS", "RYE STALK", "LAUREL"],
             ["BLUEBELLS", "NETTLE", "POPPY", "LAVENDER", "HERBS", "PETALS"],
             [],  # Empty row because this is the wild data, except dry herbs.
-            ["OAK LEAVES", "CATMINT", "MAPLE SEED", "JUNIPER"]
+            ["OAK LEAVES", "CATMINT", "MAPLE SEED", "JUNIPER", "SAKURA"]
         ]
 
         wild_data = [
@@ -562,18 +580,24 @@ class Sprites:
             ["DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE"],
             ["ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL"]
         ]
-        moreaccs_data = [
-            ["MOUSEBLUE", "MOUSEYEL", "MOUSEPINK", "MOUSERED", "BATFLY", "BLUEFRUIT"], 
-            ["INVEGG", "VOIDSPAWN", "GRAPPLE", "EMPTYBAG", "HERBSBAG", "REDARMOR"], 
-            ["VULTGRUB", "YEEKRED", "YEEKBLUE"]
-        ]
         drones_data = [
             ["CRIMSONDRONE", "BLUEDRONE", "YELLOWDRONE", "CYANDRONE", "REDDRONE", "LIMEDRONE"],
             ["GREENDRONE", "RAINBOWDRONE", "BLACKDRONE", "SPIKESDRONE", "WHITEDRONE"],
             ["PINKDRONE", "PURPLEDRONE", "MULTIDRONE", "INDIGODRONE"]
         ]
-        naturalacc_data = [
-            ["FLOWEREDMOSS", "MOSS", "MUSHROOMS", "SAKURA"]
+        buddies_data = [
+            ["MOUSEBLUE", "MOUSEYEL", "MOUSEPINK", "MOUSERED", "YEEKRED", "YEEKBLUE"], 
+            ["VULTGRUB", "GRAPPLE", "SNAILGREEN", "SNAILBLUE", "SNAILRED", "SNAILPURPLE"],
+            ["NOODLERED", "NOODLEPURPLE", "NOODLEGREY", "NOODLEBLUE", "NOODLEWHITE", "NOODLEPINK"],
+            ["IGGYYELLOW", "IGGYPURPLE", "IGGYWHITE", "IGGYGREEN", "IGGYRED", "IGGYBLUE"],
+            ["SQUIDBLACK", "SQUIDWHITE", "BUBBLE"]
+        ]
+        newaccs_data = [
+            ["BATFLY", "BLUEFRUIT", "EMPTYBAG", "HERBSBAG", "INVEGG", "VOIDSPAWN"],
+            ["REDARMOR", "OVERSEEREYE", "SPIDEREAR", "NEURONBLUE", "NEURONRED", "NEURONGREEN"],
+            ["NEURONWHITE", "KARMAONE", "KARMATWO", "KARMATHREE", "KARMAFOUR", "SCROLL"],
+            ["NECKLACESILVER", "NECKLACEGOLD", "TAILWRAP", "RAINCOAT", "LACESCARF", "TOLLMASK"],
+            ["FLOWEREDMOSS", "MOSS", "MUSHROOMS"]
         ]
 
         # medcatherbs
@@ -622,24 +646,27 @@ class Sprites:
         for row, muddypaws in enumerate(muddypaws_data):
             for col, muddypaws in enumerate(muddypaws):
                 self.make_group('muddypaws', (col, row), f'muddypaws{muddypaws}')
+                
         for a, i in enumerate(
                 ["DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE"]):
             self.make_group('insectwings', (a, 0), f'insectwings{i}')
         for a, i in enumerate(["ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL"]):
             self.make_group('insectwings', (a, 1), f'insectwings{i}')
-        for row, naturalacc in enumerate(naturalacc_data):
-            for col, naturalacc in enumerate(naturalacc):
-                self.make_group('naturalacc', (col, row), f'naturalacc{naturalacc}')
-
+            
         #herbs 2
         for row, herbs2 in enumerate(herbs2_data):
             for col, herbs2 in enumerate(herbs2):
                 self.make_group('herbs2', (col, row), f'herbs2{herbs2}')
                 
-        #more accs
-        for row, moreaccs in enumerate(moreaccs_data):
-            for col, moreaccs in enumerate(moreaccs):
-                self.make_group('moreaccs', (col, row), f'moreaccs{moreaccs}')
+        #buddies
+        for row, buddies in enumerate(buddies_data):
+            for col, buddies in enumerate(buddies):
+                self.make_group('buddies', (col, row), f'buddies{buddies}')
+                
+        #newaccs
+        for row, newaccs in enumerate(newaccs_data):
+            for col, newaccs in enumerate(newaccs):
+                self.make_group('newaccs', (col, row), f'newaccs{newaccs}')
 
     def load_symbols(self):
         """

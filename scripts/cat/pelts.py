@@ -82,6 +82,13 @@ class Pelt():
     blue_eyes = ['BLUE', 'DARKBLUE', 'CYAN', 'PALEBLUE', 'HEATHERBLUE', 'COBALT', 'SUNLITICE', 'GREY', 'ELECTRICBLUE', 'SNOW', 'INDIGO']
     green_eyes = ['PALEGREEN', 'GREEN', 'EMERALD', 'SAGE', 'HAZEL', 'SEAFOAM', 'NAVY']
     red_eyes = ['RED', 'PURPLE', 'MAUVE', 'VIOLET', 'PINK', 'CRIMSON', 'COOLBROWN', 'PLUM', 'LILAC']
+    multi_eyes = ['MULTIYELLOW', 'MULTIAMBER', 'MULTIHAZEL', 'MULTIPALEGREEN', 'MULTIGREEN', 'MULTIBLUE', 
+                'MULTIDARKBLUE', 'MULTIGREY', 'MULTICYAN', 'MULTIEMERALD', 'MULTIHEATHERBLUE', 'MULTISUNLITICE',
+                'MULTICOPPER', 'MULTISAGE', 'MULTICOBALT', 'MULTIPALEBLUE', 'MULTIBRONZE', 'MULTISILVER',
+                'MULTIPALEYELLOW', 'MULTIGOLD', 'MULTIGREENYELLOW', 'MULTIRED', 'MULTIPURPLE', 'MULTIMAUVE',
+                'MULTIELECTRICBLUE', 'MULTIVIOLET', 'MULTIPINK', 'MULTISNOW',
+                'MULTIORANGE', 'MULTICREAM', 'MULTISEAFOAM', 'MULTICRIMSON', 'MULTINAVY',
+                'MULTIVOIDGOLD', 'MULTICOOLBROWN', 'MULTIPLUM', 'MULTIINDIGO', 'MULTILILAC']
 
     # bite scars by @wood pank on discord
 
@@ -101,7 +108,7 @@ class Pelt():
     # make sure to add plural and singular forms of new accs to acc_display.json so that they will display nicely
     plant_accessories = ["MAPLE LEAF", "HOLLY", "BLUE BERRIES", "FORGET ME NOTS", "RYE STALK", "LAUREL",
                          "BLUEBELLS", "NETTLE", "POPPY", "LAVENDER", "HERBS", "PETALS", "DRY HERBS",
-                         "OAK LEAVES", "CATMINT", "MAPLE SEED", "JUNIPER"]
+                         "OAK LEAVES", "CATMINT", "MAPLE SEED", "JUNIPER", "SAKURA"]
 
     wild_accessories = ["RED FEATHERS", "BLUE FEATHERS", "JAY FEATHERS", "MOTH WINGS", "CICADA WINGS"]
     tail_accessories = ["RED FEATHERS", "BLUE FEATHERS", "JAY FEATHERS"]
@@ -124,15 +131,13 @@ class Pelt():
         "ALBISALAFUSHIA", "ALBISALARED", "MELASALARED", "MELASALAFUSHIA", "MELASALAPURPLE"
     ]
     #sey's accessories
-    muddypaws = ["MUDDYPAWS"]
+    muddypaws = [
+        "MUDDYPAWS"
+    ]
     insectwings = [
         "DEATHSHEAD", "BLUEBORDERED", "BLOODVEIN", "LARGEEMERALD", "CINNABAR", "LUNA", "ROSYMAPLE",
         "ATLAS", "HERCULES", "SUNSET", "PURPLEEMPEROR", "WHITEADMIRAL", "SWALLOWTAIL"
     ]
-    naturalacc = [
-        "FLOWEREDMOSS", "MOSS", "MUSHROOMS", "SAKURA"
-    ]
-
     #other
     herbs2 = [
         "SPEAR", "PEARLEAR", "KARMAFLOWER", "LILCENTI", "PEARLNECK", "REDBATNIP", 
@@ -140,10 +145,19 @@ class Pelt():
         "VULTMASK", "KINGMASK", "SCAVMASK", "TREESEED", "GLOWSTONE", "BROWNKELP", 
         "LILBEETLE", "EXPLOSPEAR", "GREENDRAGFLY", "BLUEDRAGFLY", "ELESPEAR"
     ]
-    moreaccs = [
-        "MOUSEBLUE", "MOUSEYEL", "MOUSEPINK", "MOUSERED", "BATFLY", "BLUEFRUIT", 
-        "INVEGG", "VOIDSPAWN", "GRAPPLE", "EMPTYBAG", "HERBSBAG", "REDARMOR", 
-        "VULTGRUB", "YEEKRED", "YEEKBLUE"
+    buddies = [
+         "MOUSEBLUE", "MOUSEYEL", "MOUSEPINK", "MOUSERED", "YEEKRED", "YEEKBLUE",
+         "VULTGRUB", "GRAPPLE", "SNAILGREEN", "SNAILBLUE", "SNAILRED", "SNAILPURPLE",
+         "NOODLERED", "NOODLEPURPLE", "NOODLEGREY", "NOODLEBLUE", "NOODLEWHITE", "NOODLEPINK",
+         "IGGYYELLOW", "IGGYPURPLE", "IGGYWHITE", "IGGYGREEN", "IGGYRED", "IGGYBLUE",
+         "SQUIDBLACK", "SQUIDWHITE", "BUBBLE"
+    ]
+    newaccs = [
+         "BATFLY", "BLUEFRUIT", "EMPTYBAG", "HERBSBAG", "INVEGG", "VOIDSPAWN",
+         "REDARMOR", "OVERSEEREYE", "SPIDEREAR", "NEURONBLUE", "NEURONRED", "NEURONGREEN",
+         "NEURONWHITE", "KARMAONE", "KARMATWO", "KARMATHREE", "KARMAFOUR", "SCROLL",
+         "NECKLACESILVER", "NECKLACEGOLD", "TAILWRAP", "RAINCOAT", "LACESCARF", "TOLLMASK",
+         "FLOWEREDMOSS", "MOSS", "MUSHROOMS"
     ]
 
 
@@ -197,7 +211,7 @@ class Pelt():
     skin_sprites = ['BLACK',  'PINK', 'DARKBROWN', 'BROWN', 'LIGHTBROWN', 'DARK', 'DARKGREY', 'GREY', 'DARKSALMON',
                     'SALMON', 'PEACH', 'DARKMARBLED', 'MARBLED', 'LIGHTMARBLED', 'DARKBLUE', 'BLUE', 'LIGHTBLUE', 'RED', 'PINKGILLS', 'BLUEGILLS', 'REDGILLS', 'LIMEGILLS', 'YELLOWGILLS', 'WHITEGILLS',
                     'RAINBOWGILLS', 'FUCHSIATONGUE', 'PASTELTONGUE', 'KOBITONGUE', 'REDTONGUE', 'GREYTONGUE',
-                    'ORANGETONGUE', 'WHITESPOTS', 'BLACKSPOTS', 'MIXSPOTS', 'RAINBOWSPOTS',
+                    'ORANGETONGUE', 'WHITESPOTS', 'BLACKSPOTS', 'MIXSPOTS', 'RAINBOWSPOTS', 'BLACKCLAWS',
                     'WHITETENNA', 'REDTENNA', 'PINKTENNA', 'ORANGETENNA', 'YELLOWTENNA', 'BLUETENNA',
                     'GREENTENNA', 'WHITEGLOWSPOTS', 'REDGLOWSPOTS', 'PINKGLOWSPOTS', 'ORANGEGLOWSPOTS', 'YELLOWGLOWSPOTS',
                     'BLUEGLOWSPOTS', 'GREENGLOWSPOTS']
@@ -387,7 +401,7 @@ class Pelt():
         # White patches must be initalized before eye color.
         num = game.config["cat_generation"]["base_heterochromia"]
         if self.white_patches in [Pelt.high_white, Pelt.mostly_white, 'FULLWHITE'] or self.colour == 'WHITE':
-            num = num - 90
+            num = num - 30
         if self.white_patches == 'FULLWHITE' or self.colour == 'WHITE':
             num -= 10
         for _par in parents:
@@ -396,8 +410,13 @@ class Pelt():
 
         if num < 0:
             num = 1
+            
+        multieyenum = game.config["cat_generation"]["base_multieyes"]
+        
+        if not random.randint(0, multieyenum):
+            self.eye_colour2 = 'MULTI'+self.eye_colour
 
-        if not random.randint(0, num):
+        elif not random.randint(0, num):
             if self.eye_colour in Pelt.yellow_eyes:
                 eye_choice = choice([Pelt.blue_eyes, Pelt.green_eyes, Pelt.red_eyes])
                 self.eye_colour2 = choice(eye_choice)
@@ -735,17 +754,22 @@ class Pelt():
             self.accessory = None
             return
 
-        acc_display_choice = random.randint(0, 80)
+        acc_display_choice = random.randint(0, 50) 
         if age in ['kitten', 'adolescent']:
-            acc_display_choice = random.randint(0, 180)
+            acc_display_choice = random.randint(0, 150) 
         elif age in ['young adult', 'adult']:
-            acc_display_choice = random.randint(0, 100)
+            acc_display_choice = random.randint(0, 70) 
 
         if acc_display_choice == 1:
             self.accessory = choice([
                 choice(Pelt.plant_accessories),
                 choice(Pelt.wild_accessories),
-                choice(Pelt.lizards)
+                choice(Pelt.muddypaws),
+                choice(Pelt.lizards),
+                choice(Pelt.insectwings),
+                choice(Pelt.herbs2),
+                choice(Pelt.buddies),
+                choice(Pelt.newaccs)
             ])
         else:
             self.accessory = None
