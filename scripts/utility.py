@@ -2626,10 +2626,14 @@ def generate_sprite(
                         new_sprite.blit(sprites.sprites['muddypaws' + i + cat_sprite], (0, 0))
                     elif i in cat.pelt.herbs2:
                         new_sprite.blit(sprites.sprites['herbs2' + i + cat_sprite], (0, 0))
-                    elif i in cat.pelt.moreaccs:
-                        new_sprite.blit(sprites.sprites['moreaccs' + i + cat_sprite], (0, 0))
+                    elif i in cat.pelt.newaccs:
+                        new_sprite.blit(sprites.sprites['newaccs' + i + cat_sprite], (0, 0))
                     elif i in cat.pelt.insectwings:
                         new_sprite.blit(sprites.sprites['insectwings' + i + cat_sprite], (0, 0))
+                    elif i in cat.pelt.buddies:
+                        new_sprite.blit(sprites.sprites['buddies' + i + cat_sprite], (0, 0))
+                    elif i in cat.pelt.naturalaccs:
+                        new_sprite.blit(sprites.sprites['naturalaccs' + i + cat_sprite], (0, 0))
                
                 except:
                     continue
