@@ -1,3 +1,7 @@
+# NOT the official version, just me playing around and testing stuff!!
+# if you want the REAL RainGen, go [there!!!!](https://github.com/DevilKitten/Raingen)
+
+
 # RainGen
 
 ### [RainGen Discord Server](https://discord.gg/Zyj6vTq4rS)
