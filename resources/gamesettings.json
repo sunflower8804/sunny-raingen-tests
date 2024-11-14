@@ -48,18 +48,18 @@
         ],
         "discord": [
             "Enable Discord integration",
-            "Discord will show info about your Clan, including your Clan name",
+            "Discord will show info about your Clan, including your Clan name (this probably won't work with RainGen, play at your own risk)",
             false
         ],
         "check_for_updates": [
             "Check for updates",
             "Automatically checks for updates on startup",
-            true
+            false
         ],
         "show_changelog": [
             "Display changelog on startup",
             "Shows the changelog of the latest release on startup",
-            true
+            false
         ],
         "special_dates": [
             "Allow special date events",
