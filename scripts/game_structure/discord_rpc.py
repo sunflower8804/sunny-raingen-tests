@@ -18,11 +18,11 @@ status_dict = {
     "make clan screen": "Making a Clan",
     "mediation screen": "Mediating a dispute",
     "patrol screen": "On a patrol",
-    "profile screen": "Viewing a cat's profile",
+    "profile screen": "Viewing a slugcat's profile",
     "ceremony screen": "Holding a ceremony",
-    "starclan screen": "Viewing StarClan",
-    "dark forest screen": "Viewing the Dark Forest",
-    "med den screen": "In the medicine den",
+    "starclan screen": "Viewing the Ascended",
+    "dark forest screen": "Viewing the Rotwound",
+    "med den screen": "In the cleric den",
 }
 
 
@@ -118,11 +118,11 @@ class _DiscordRPC(threading.Thread):
             try:
                 self._rpc.update(
                     state=state_text,
-                    details=f"Managing {clan_name} for {clan_age} moons",
+                    details=f"Managing {clan_name} for {clan_age} cycles",
                     large_image=img_str.lower(),
                     large_text=img_text,
                     small_image="discord",
-                    small_text=f"Managing {cats_amount} cats",
+                    small_text=f"Managing {cats_amount} slugcats",
                     start=self._start_time,
                     buttons=[
                         {
