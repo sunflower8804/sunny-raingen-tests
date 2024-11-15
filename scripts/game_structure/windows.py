@@ -24,12 +24,12 @@ from scripts.housekeeping.datadir import (
     get_data_dir,
 )
 from scripts.housekeeping.progress_bar_updater import UIUpdateProgressBar
-from scripts.housekeeping.update import (
-    self_update,
-    UpdateChannel,
-    get_latest_version_number,
-)
-from scripts.housekeeping.version import get_version_info
+#from scripts.housekeeping.update import (
+#    self_update,
+#    UpdateChannel,
+#    get_latest_version_number,
+#)
+#from scripts.housekeeping.version import get_version_info
 from scripts.utility import (
     scale,
     quit,
@@ -1253,16 +1253,16 @@ class UpdateWindow(UIWindow):
             container=self,
         )
 
-        self.update_thread = threading.Thread(
-            target=self_update,
-            daemon=True,
-            args=(
-                UpdateChannel(get_version_info().release_channel),
-                self.progress_bar,
-                announce_restart_callback,
-            ),
-        )
-        self.update_thread.start()
+#        self.update_thread = threading.Thread(
+#            target=self_update,
+#            daemon=True,
+#            args=(
+#                UpdateChannel(get_version_info().release_channel),
+#                self.progress_bar,
+#                announce_restart_callback,
+#            ),
+#        )
+#        self.update_thread.start()
 
         self.cancel_button = UIImageButton(
             scale(pygame.Rect((400, 230), (156, 60))),
@@ -1308,43 +1308,43 @@ class AnnounceRestart(UIWindow):
             )
 
 
-class UpdateAvailablePopup(UIWindow):
-    def __init__(self, last_screen, show_checkbox: bool = False):
-        super().__init__(
-            scale(pygame.Rect((400, 400), (800, 460))),
-            window_display_title="Update available",
-            object_id="#game_over_window",
-            resizable=False,
-        )
-        self.set_blocking(True)
-        game.switches["window_open"] = True
-        self.last_screen = last_screen
+# class UpdateAvailablePopup(UIWindow):
+#     def __init__(self, last_screen, show_checkbox: bool = False):
+#         super().__init__(
+#             scale(pygame.Rect((400, 400), (800, 460))),
+#             window_display_title="Update available",
+#             object_id="#game_over_window",
+#             resizable=False,
+#         )
+#         self.set_blocking(True)
+#         game.switches["window_open"] = True
+#         self.last_screen = last_screen
 
-        self.begin_update_title = UIImageButton(
-            scale(pygame.Rect((195, 30), (400, 81))),
-            "",
-            object_id="#new_update_button",
-            container=self,
-        )
+#         self.begin_update_title = UIImageButton(
+#             scale(pygame.Rect((195, 30), (400, 81))),
+#             "",
+#             object_id="#new_update_button",
+#             container=self,
+#         )
 
-        latest_version_number = "{:.16}".format(get_latest_version_number())
-        current_version_number = "{:.16}".format(get_version_info().version_number)
+#        latest_version_number = "{:.16}".format(get_latest_version_number())
+#        current_version_number = "{:.16}".format(get_version_info().version_number)
 
-        self.game_over_message = UITextBoxTweaked(
-            f"<strong>Update to ClanGen {latest_version_number}</strong>",
-            scale(pygame.Rect((20, 160), (800, -1))),
-            line_spacing=0.8,
-            object_id="#update_popup_title",
-            container=self,
-        )
+#        self.game_over_message = UITextBoxTweaked(
+#            f"<strong>Update to ClanGen {latest_version_number}</strong>",
+#            scale(pygame.Rect((20, 160), (800, -1))),
+#            line_spacing=0.8,
+#            object_id="#update_popup_title",
+#            container=self,
+#        )
 
-        self.game_over_message = UITextBoxTweaked(
-            f"Your current version: {current_version_number}",
-            scale(pygame.Rect((22, 200), (800, -1))),
-            line_spacing=0.8,
-            object_id="#text_box_current_version",
-            container=self,
-        )
+#        self.game_over_message = UITextBoxTweaked(
+#            f"Your current version: {current_version_number}",
+#            scale(pygame.Rect((22, 200), (800, -1))),
+#            line_spacing=0.8,
+#            object_id="#text_box_current_version",
+#            container=self,
+#        )
 
         self.game_over_message = UITextBoxTweaked(
             f"Install update now?",
@@ -1395,13 +1395,13 @@ class UpdateAvailablePopup(UIWindow):
             container=self,
         )
 
-        if show_checkbox:
-            self.box_unchecked.enable()
-            self.box_checked.hide()
-        else:
-            self.box_checked.hide()
-            self.box_unchecked.hide()
-            self.box_text.hide()
+        # if show_checkbox:
+        #     self.box_unchecked.enable()
+        #     self.box_checked.hide()
+        # else:
+        #     self.box_checked.hide()
+        #     self.box_unchecked.hide()
+        #     self.box_text.hide()
 
         self.continue_button.enable()
         self.cancel_button.enable()
@@ -1428,10 +1428,10 @@ class UpdateAvailablePopup(UIWindow):
                 self.box_unchecked.hide()
                 self.box_checked.enable()
                 self.box_checked.show()
-                with open(
-                    f"{get_cache_dir()}/suppress_update_popup", "w"
-                ) as write_file:
-                    write_file.write(get_latest_version_number())
+#                with open(
+#                    f"{get_cache_dir()}/suppress_update_popup", "w"
+#                ) #as write_file:
+#                    write_file.write(get_latest_version_number())
             elif event.ui_element == self.box_checked:
                 self.box_checked.disable()
                 self.box_checked.hide()
@@ -1467,77 +1467,77 @@ class ChangelogPopup(UIWindow):
             container=self,
         )
 
-        current_version_number = "{:.16}".format(get_version_info().version_number)
+#        current_version_number = "{:.16}".format(get_version_info().version_number)
 
-        self.changelog_popup_subtitle = UITextBoxTweaked(
-            f"Version {current_version_number}",
-            scale(pygame.Rect((40, 70), (960, -1))),
-            line_spacing=1,
-            object_id="#changelog_popup_subtitle",
-            container=self,
-        )
+#        self.changelog_popup_subtitle = UITextBoxTweaked(
+#            f"Version {current_version_number}",
+#            scale(pygame.Rect((40, 70), (960, -1))),
+#            line_spacing=1,
+ #           object_id="#changelog_popup_subtitle",
+#            container=self,
+ #       )
 
-        dynamic_changelog = False
-        if (
-            get_version_info().is_dev()
-            and get_version_info().is_source_build
-            and get_version_info().git_installed
-        ):
-            file_cont = subprocess.check_output(
-                [
-                    "git",
-                    "log",
-                    r"--pretty=format:%H|||%cd|||%b|||%s",
-                    "-15",
-                    "--no-decorate",
-                    "--merges",
-                    "--grep=Merge pull request",
-                    "--date=short",
-                ]
-            ).decode("utf-8")
-            dynamic_changelog = True
-        else:
-            with open("changelog.txt", "r", encoding="utf-8") as read_file:
-                file_cont = read_file.read()
-
-        if get_version_info().is_dev() and not get_version_info().is_source_build:
-            dynamic_changelog = True
-
-        if dynamic_changelog:
-            commits = file_cont.splitlines()
-            file_cont = ""
-            for line in commits:
-                info = line.split("|||")
-
-                # Get PR number so we can link the PR
-                pr_number = re_search(r"Merge pull request #([0-9]*?) ", info[3])
-                if pr_number:
-                    # For some reason, multi-line links on pygame_gui's text boxes don't work very well.
-                    # So, to work around that, just add a little "link" at the end
-                    info[
-                        2
-                    ] += f" <a href='https://github.com/ClanGenOfficial/clangen/pull/{pr_number.group(1)}'>(link)</a>"
-
-                # Format: DATE- \n PR Title (link)
-                file_cont += f"<b>{info[1]}</b>\n- {info[2]}\n"
-
-        self.changelog_text = UITextBoxTweaked(
-            file_cont,
-            scale(pygame.Rect((20, 130), (960, 650))),
-            object_id="#text_box_30",
-            line_spacing=0.95,
-            starting_height=2,
-            container=self,
-            manager=MANAGER,
-        )
-
-        self.close_button = UIImageButton(
-            scale(pygame.Rect((940, 10), (44, 44))),
-            "",
-            object_id="#exit_window_button",
-            starting_height=2,
-            container=self,
-        )
+#        dynamic_changelog = False
+#        if (
+#            get_version_info().is_dev()
+#            and get_version_info().is_source_build
+#            and get_version_info().git_installed
+#        ):
+#            file_cont = subprocess.check_output(
+#                [
+#                    "git",
+#                    "log",
+#                    r"--pretty=format:%H|||%cd|||%b|||%s",
+#                    "-15",
+#                    "--no-decorate",
+#                    "--merges",
+#                    "--grep=Merge pull request",
+#                    "--date=short",
+#                ]
+#            ).decode("utf-8")
+#            dynamic_changelog = True
+#        else:
+#            with open("changelog.txt", "r", encoding="utf-8") as read_file:
+#                file_cont = read_file.read()
+#
+ #       if get_version_info().is_dev() and not get_version_info().is_source_build:
+#            dynamic_changelog = True
+#
+#        if dynamic_changelog:
+#            commits = file_cont.splitlines()
+#            file_cont = ""
+#            for line in commits:
+#                info = line.split("|||")
+#
+ #               # Get PR number so we can link the PR
+#                pr_number = re_search(r"Merge pull request #([0-9]*?) ", info[3])
+#                if pr_number:
+#                    # For some reason, multi-line links on pygame_gui's text boxes don't work very well.
+#                    # So, to work around that, just add a little "link" at the end
+#                    info[
+ #                       2
+#                    ] += f" <a href='https://github.com/ClanGenOfficial/clangen/pull/{pr_number.group(1)}'>(link)</a>"
+#
+#                # Format: DATE- \n PR Title (link)
+#                file_cont += f"<b>{info[1]}</b>\n- {info[2]}\n"
+#
+#        self.changelog_text = UITextBoxTweaked(
+#            file_cont,
+#            scale(pygame.Rect((20, 130), (960, 650))),
+#            object_id="#text_box_30",
+#            line_spacing=0.95,
+#            starting_height=2,
+#            container=self,
+#            manager=MANAGER,
+#        )
+#
+#        self.close_button = UIImageButton(
+#            scale(pygame.Rect((940, 10), (44, 44))),
+#            "",
+#            object_id="#exit_window_button",
+#            starting_height=2,
+#            container=self,
+#        )
 
     def process_event(self, event):
         super().process_event(event)
