@@ -1308,24 +1308,24 @@ class AnnounceRestart(UIWindow):
             )
 
 
-class UpdateAvailablePopup(UIWindow):
-    def __init__(self, last_screen, show_checkbox: bool = False):
-        super().__init__(
-            scale(pygame.Rect((400, 400), (800, 460))),
-            window_display_title="Update available",
-            object_id="#game_over_window",
-            resizable=False,
-        )
-        self.set_blocking(True)
-        game.switches["window_open"] = True
-        self.last_screen = last_screen
+# class UpdateAvailablePopup(UIWindow):
+#     def __init__(self, last_screen, show_checkbox: bool = False):
+#         super().__init__(
+#             scale(pygame.Rect((400, 400), (800, 460))),
+#             window_display_title="Update available",
+#             object_id="#game_over_window",
+#             resizable=False,
+#         )
+#         self.set_blocking(True)
+#         game.switches["window_open"] = True
+#         self.last_screen = last_screen
 
-        self.begin_update_title = UIImageButton(
-            scale(pygame.Rect((195, 30), (400, 81))),
-            "",
-            object_id="#new_update_button",
-            container=self,
-        )
+#         self.begin_update_title = UIImageButton(
+#             scale(pygame.Rect((195, 30), (400, 81))),
+#             "",
+#             object_id="#new_update_button",
+#             container=self,
+#         )
 
 #        latest_version_number = "{:.16}".format(get_latest_version_number())
 #        current_version_number = "{:.16}".format(get_version_info().version_number)
@@ -1395,13 +1395,13 @@ class UpdateAvailablePopup(UIWindow):
             container=self,
         )
 
-        if show_checkbox:
-            self.box_unchecked.enable()
-            self.box_checked.hide()
-        else:
-            self.box_checked.hide()
-            self.box_unchecked.hide()
-            self.box_text.hide()
+        # if show_checkbox:
+        #     self.box_unchecked.enable()
+        #     self.box_checked.hide()
+        # else:
+        #     self.box_checked.hide()
+        #     self.box_unchecked.hide()
+        #     self.box_text.hide()
 
         self.continue_button.enable()
         self.cancel_button.enable()
