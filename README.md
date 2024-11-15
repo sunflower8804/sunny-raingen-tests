@@ -7,8 +7,8 @@ Fan-made community project aiming to change Clangen to take place in Rain World'
 It's a work in progress! You can contribute to it anytime through our [discord server](https://discord.gg/Zyj6vTq4rS). 
 
 ## Installation
-There is no release yet, but you can still play the unfinished version. Works the same as source version clangen, if you're familiar with it. If you're not:
+The latest release is on [this page.](https://github.com/DevilKitten/Raingen/releases)
 
-Click the green "Code" button on top of this page, then "Download ZIP". Unzip it and then follow [this tutorial. The process is described for lifegen, but it works for raingen too](https://docs.google.com/document/d/1Iakhi3sWnx9ubc3njK4k07xttQilN5W4WITgknla59Q/edit).
+If you're a developer or a modder, you can run RainGen from source code. Works exactly the same as source code version of ClanGen. If you're not familiar with it:
 
-Release version is in the works though!!
+Click the green "Code" button on top of this page, then "Download ZIP". Unzip it and then follow [this tutorial. The process is described for LifeGen, but it works for RainGen too.](https://docs.google.com/document/d/1Iakhi3sWnx9ubc3njK4k07xttQilN5W4WITgknla59Q/edit).
