@@ -125,7 +125,7 @@ class Screens():
             object_id="#lead_den_button",
             starting_height=6),
         "med_cat_den": UIImageButton(
-            scale(pygame.Rect((50, 280), (302, 56))),
+            scale(pygame.Rect((50, 280), (242, 56))),
             "",
             visible=False,
             manager=MANAGER,
