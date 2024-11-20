@@ -131,7 +131,7 @@ class Sprites:
 
         for x in [
             'lineart', 'lineartdf', 'lineartdead',
-            'eyes', 'eyes2', 'skin', 'gilltongue',
+            'eyes', 'eyes2', 'skin', 'gilltongue', 'beagilltongue', 
             'scars', 'missingscars',
             'medcatherbs',
             'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards', 'drones', 'muddypaws', 
@@ -487,19 +487,34 @@ class Sprites:
             self.make_group('skin', (a, 1), f"skin{i}")
         for a, i in enumerate(['DARKMARBLED', 'MARBLED', 'LIGHTMARBLED', 'DARKBLUE', 'BLUE', 'LIGHTBLUE']):
             self.make_group('skin', (a, 2), f"skin{i}")
+
         # Gills, Tongues, Quills
-        for a, i in enumerate(['PINKGILLS', 'BLUEGILLS', 'REDGILLS', 'LIMEGILLS', 'YELLOWGILLS', 'WHITEGILLS']):
-            self.make_group('gilltongue', (a, 0), f"skin{i}")
-        for a, i in enumerate(['RAINBOWGILLS', 'FUCHSIATONGUE', 'PASTELTONGUE', 'KOBITONGUE', 'REDTONGUE', 'GREYTONGUE']):
-            self.make_group('gilltongue', (a, 1), f"skin{i}")
-        for a, i in enumerate(['ORANGETONGUE', 'WHITESPOTS', 'BLACKSPOTS', 'MIXSPOTS', 'RAINBOWSPOTS', 'BLACKCLAWS']):
-            self.make_group('gilltongue', (a, 2), f"skin{i}")
-        for a, i in enumerate(['WHITETENNA', 'REDTENNA', 'PINKTENNA', 'ORANGETENNA', 'YELLOWTENNA', 'BLUETENNA']):
-            self.make_group('gilltongue', (a, 3), f"skin{i}")
-        for a, i in enumerate(['GREENTENNA', 'WHITEGLOWSPOTS', 'REDGLOWSPOTS', 'PINKGLOWSPOTS', 'ORANGEGLOWSPOTS', 'YELLOWGLOWSPOTS']):
-            self.make_group('gilltongue', (a, 4), f"skin{i}")
-        for a, i in enumerate(['BLUEGLOWSPOTS', 'GREENGLOWSPOTS']):
-            self.make_group('gilltongue', (a, 5), f"skin{i}")
+        if game.settings["bea_gilltongue"]:
+            for a, i in enumerate(['PINKGILLS', 'BLUEGILLS', 'REDGILLS', 'LIMEGILLS', 'YELLOWGILLS', 'WHITEGILLS']):
+                self.make_group('beagilltongue', (a, 0), f"skin{i}")
+            for a, i in enumerate(['RAINBOWGILLS', 'FUCHSIATONGUE', 'PASTELTONGUE', 'KOBITONGUE', 'REDTONGUE', 'GREYTONGUE']):
+                    self.make_group('beagilltongue', (a, 1), f"skin{i}")
+            for a, i in enumerate(['ORANGETONGUE', 'WHITESPOTS', 'BLACKSPOTS', 'MIXSPOTS', 'RAINBOWSPOTS', 'BLACKCLAWS']):
+                self.make_group('beagilltongue', (a, 2), f"skin{i}")
+            for a, i in enumerate(['WHITETENNA', 'REDTENNA', 'PINKTENNA', 'ORANGETENNA', 'YELLOWTENNA', 'BLUETENNA']):
+                self.make_group('beagilltongue', (a, 3), f"skin{i}")
+            for a, i in enumerate(['GREENTENNA', 'WHITEGLOWSPOTS', 'REDGLOWSPOTS', 'PINKGLOWSPOTS', 'ORANGEGLOWSPOTS', 'YELLOWGLOWSPOTS']):
+                self.make_group('beagilltongue', (a, 4), f"skin{i}")
+            for a, i in enumerate(['BLUEGLOWSPOTS', 'GREENGLOWSPOTS']):
+                self.make_group('beagilltongue', (a, 5), f"skin{i}")
+        else:
+            for a, i in enumerate(['PINKGILLS', 'BLUEGILLS', 'REDGILLS', 'LIMEGILLS', 'YELLOWGILLS', 'WHITEGILLS']):
+                self.make_group('gilltongue', (a, 0), f"skin{i}")
+            for a, i in enumerate(['RAINBOWGILLS', 'FUCHSIATONGUE', 'PASTELTONGUE', 'KOBITONGUE', 'REDTONGUE', 'GREYTONGUE']):
+                    self.make_group('gilltongue', (a, 1), f"skin{i}")
+            for a, i in enumerate(['ORANGETONGUE', 'WHITESPOTS', 'BLACKSPOTS', 'MIXSPOTS', 'RAINBOWSPOTS', 'BLACKCLAWS']):
+                self.make_group('gilltongue', (a, 2), f"skin{i}")
+            for a, i in enumerate(['WHITETENNA', 'REDTENNA', 'PINKTENNA', 'ORANGETENNA', 'YELLOWTENNA', 'BLUETENNA']):
+                self.make_group('gilltongue', (a, 3), f"skin{i}")
+            for a, i in enumerate(['GREENTENNA', 'WHITEGLOWSPOTS', 'REDGLOWSPOTS', 'PINKGLOWSPOTS', 'ORANGEGLOWSPOTS', 'YELLOWGLOWSPOTS']):
+                self.make_group('gilltongue', (a, 4), f"skin{i}")
+            for a, i in enumerate(['BLUEGLOWSPOTS', 'GREENGLOWSPOTS']):
+                self.make_group('gilltongue', (a, 5), f"skin{i}")
 
         self.load_scars()
         self.load_symbols()

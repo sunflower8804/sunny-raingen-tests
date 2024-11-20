@@ -5,7 +5,7 @@
     "season": ["any"],
     "sub_type": ["accessory"],
     "weight": 15,
-    "event_text":  "m_c moved so little this cycle that moss started growing on {PRONOUN/m_c/object}. It did't affect {PRONOUN/m_c/poss} health, so {PRONOUN/m_c/subject} accepted it as {PRONOUN/m_c/poss} new look.",
+    "event_text":  "m_c used to hate moss, but now it grew on {PRONOUN/m_c/object}.",
     "new_accessory": ["FLOWEREDMOSS", "MOSS"],
     "m_c": {
       "age": ["any"]
@@ -17,7 +17,7 @@
     "season": ["any"],
     "sub_type": ["accessory"],
     "weight": 15,
-    "event_text":  "Mushrooms started growing on m_c's tail. It did't affect {PRONOUN/m_c/poss} health, so {PRONOUN/m_c/subject} accepted it as {PRONOUN/m_c/poss} new look.",
+    "event_text":  "m_c used to hate mushrooms, but now they grew on {PRONOUN/m_c/object}.",
     "new_accessory": ["MUSHROOMS"],
     "m_c": {
       "age": ["any"]
@@ -307,8 +307,7 @@
     "event_text": "A red centipede attacked the camp, and m_c saw this as an opportunity to prove {PRONOUN/m_c/poss} strength in the most dangerous way. {PRONOUN/m_c/subject/CAP} took on the centipede single-pawed and won. As a celebration of this accomplishment {PRONOUN/m_c/subject} was gifted armor made of the centipede's shells.",
     "new_accessory": ["REDARMOR"],
     "m_c":{
-      "age": ["any"],
-      "status": ["adolescent", "young adult", "adult", "senior adult"],
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
       "skill": ["FIGHTER,2"]
     }
   },
@@ -320,9 +319,8 @@
     "weight": 5,
     "event_text": "A red centipede attacked the camp. The slugcats successfully fought off, and m_c saw this as an opportunity to craft {PRONOUN/m_c/self} armor made of the centipede's shells.",
     "new_accessory": ["REDARMOR"],
-    "m_c":{
-      "age": ["any"],
-      "status": ["adolescent", "young adult", "adult", "senior adult"]
+    "m_c": {
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     }
   },
   {
