@@ -180,7 +180,7 @@ class Events:
 
             if len(Cat.dead_cats) > 1 and game.clan.game_mode != "classic":
                 event = (
-                    f"The past moon, {insert} have taken their place in StarClan. {game.clan.name}Clan mourns their "
+                    f"The past moon, {insert} have taken their place in the Void. {game.clan.name}Clan mourns their "
                     f"loss, and their Clanmates will miss where they had been in their lives. Moments of their "
                     f"lives are shared in stories around the circle of mourners as those that were closest to them "
                     f"take them to their final resting place."
@@ -224,13 +224,13 @@ class Events:
                     insert = adjust_list_text(shaken_cat_names)
 
                     if len(shaken_cats) == 1:
-                        extra_event = f"So much grief and death has taken its toll on the cats of {game.clan.name}Clan. {insert} is particularly shaken by it."
+                        extra_event = f"So much grief and death has taken its toll on the slugcats of {game.clan.name}Clan. {insert} is particularly shaken by it."
                     else:
-                        extra_event = f"So much grief and death has taken its toll on the cats of {game.clan.name}Clan. {insert} are particularly shaken by it. "
+                        extra_event = f"So much grief and death has taken its toll on the slugcats of {game.clan.name}Clan. {insert} are particularly shaken by it. "
 
             else:
                 event = (
-                    f"The past moon, {insert} has taken their place in StarClan. {game.clan.name}Clan mourns their "
+                    f"The past moon, {insert} has taken their place in the Void. {game.clan.name}Clan mourns their "
                     f"loss, and their Clanmates will miss the spot they took up in their lives. Moments of their "
                     f"life are shared in stories around the circle of mourners as those that were closest to them "
                     f"take them to their final resting place."
@@ -264,7 +264,7 @@ class Events:
             )
             if not med_fullfilled:
                 string = (
-                    f"{game.clan.name}Clan does not have enough healthy medicine cats! Cats will be sick/hurt "
+                    f"{game.clan.name}Clan does not have enough healthy clerics! Slugats will be sick/hurt "
                     f"for longer and have a higher chance of dying. "
                 )
                 game.cur_events_list.insert(0, Single_Event(string, "health"))
@@ -276,7 +276,7 @@ class Events:
                 for cat in Cat.all_cats.values()
             )
             if not has_med:
-                string = f"{game.clan.name}Clan has no medicine cat!"
+                string = f"{game.clan.name}Clan has no Cleric!"
                 game.cur_events_list.insert(0, Single_Event(string, "health"))
 
         # Clear the list of cats that died this moon.
@@ -399,9 +399,9 @@ class Events:
                     if additional_kits:
                         event_text += " m_c brings along {PRONOUN/m_c/poss} "
                         if len(additional_kits) > 1:
-                            event_text += str(len(additional_kits)) + " kittens."
+                            event_text += str(len(additional_kits)) + " slugpups."
                         else:
-                            event_text += "kit."
+                            event_text += "slugpup."
 
                         for kit_ID in additional_kits:
                             # add to involved cat list
@@ -699,9 +699,9 @@ class Events:
             total_amount = warrior_amount + app_amount
             game.clan.freshkill_pile.add_freshkill(total_amount)
             if total_amount > 1:
-                focus_text = f"With the heightened focus of the Clan, {total_amount} additional pieces of prey were gathered."
+                focus_text = f"With the heightened focus of the Clan, {total_amount} additional pieces of food were gathered."
             elif total_amount == 1:
-                focus_text = f"With the heightened focus of the Clan, {total_amount} additional piece of prey was gathered."
+                focus_text = f"With the heightened focus of the Clan, {total_amount} additional piece of food was gathered."
             else:
                 focus_text = "Despite the additional focus of the Clan, no prey could be gathered."
             game.freshkill_event_list.append(focus_text)
@@ -2609,7 +2609,7 @@ class Events:
                             f"announcement that {random_cat.name} will be the Clan's new deputy.",
                             # pylint: disable=line-too-long
                             f"{random_cat.name} has been chosen as the new deputy. They pray to "  # pylint: disable=line-too-long
-                            f"StarClan that they are the right choice for the Clan.",  # pylint: disable=line-too-long
+                            f"the Ascended that they are the right choice for the Clan.",  # pylint: disable=line-too-long
                             f"{random_cat.name} has been chosen as the new deputy. Although"  # pylint: disable=line-too-long
                             f"they are nervous, they put on a brave front and look forward to serving"  # pylint: disable=line-too-long
                             f"the clan.",
