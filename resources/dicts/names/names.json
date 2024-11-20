@@ -27,10 +27,32 @@
     " The Challenger", " The Leaf", " The Leafcat", " The Visionary", " The Hollow", " The Hopeless", " The Hope", " The Husk", " The Shadowcat", " The Spar", " The Starcat", " The Mooncat", " The Icecat", " The Suncat", " The Grasscat", " The Ivycat", 
     " The Songcat", " The Treecat", " The Skycat", " The Mapmaker", " The Watercat", " The Chief", " The Swathed", " The Leukocyte", " The Leapcat", " The Archaic", " The Sentinel", " The Fishcat", " The Mistcat", " The Brontide", " The Paisan", 
     " The Petalcat", " The Nightcat", " The Double", " The Striped", " The Swirl", " The Spotted", " The Ripple", " The Dappled", " The Mottled", " The Spattered", " The Ghostly", " The Ringed", " The Glimmering", " The Visionkeeper", " The Keeper", " The Herald", 
-    " The Cartographer", " The Inventor", " The Architect", " The Engineer", " The Creator", " The Matriarch", " The Seer", " The Prophet", " The Revolutionary", " The Pyromaniac", " The Arsonist"
+    " The Cartographer", " The Inventor", " The Architect", " The Engineer", " The Creator", " The Matriarch", " The Seer", " The Prophet", " The Revolutionary", " The Pyromaniac", " The Arsonist", 
+    " The Barrier", 
+    " The Fool", " The Magician", " The Priestess", " The Priest", " The Rose", " The Royal", " The Scamperer", " The Sacred", " The Vault", " The Strange", " The Solstice", " The Eclipse", " The Odditiy", 
+    " The Bouncy", " The Empress", " The Emperor", " The Queen", " The King", " The Builder", " The Shaded", " The Camera", " The Caldera", " The Fireborn", " The Gladekeeper", " The Flamekeeper", 
+    " The Flameholder", " The Gladeborn", " The Oceanborn", " The Oceankeeper", " The Riverborn", " The Riverkeeper", " The Airborn", " The Fates", " The Hopeful", " The Hierophant", " The Shining", 
+    " The Shimmering", " The Calm", " The Shadow", " The Shadowbinder", " The Echo", " The Secretkeeper", " The Secretholder", " The Familiar", " The Trance", " The Vast", " The Lonely", " The Lover", 
+    " The Hungry", " The Loud", " The Vultureslayer", " The Pebble", " The Melancholy", " The Chariot", " The Flesh", " The Eye", " The Buried", " The Dark", " The Tower", " The Castle", " The Dreaming", 
+    " The Dream", " The Nightmare", " The Clever", " The Corruption", " The Web", " The Spiral", " The Stranger", " The Desolation", " The Desolated", " The Extinction", " The Unbound", " The Nameless", " The Thunder", 
+    " The Thundercaller", " The Crawling", " The Crawler", " The Timekeeper", " The Clashing", " The Dancing", " The Zombie", " The Machine", " The Wish", " The Wishmaker", " The Nectar", " The Bee", 
+    " The Buzzing", " The Dizzy", " The Sparking", " The Snake", " The Hoarder", " The Hoard", " The Star", " The Misty", " The Mist", " The Mistmaker", " The Anxious", " The Jester", " The Justice", 
+    " The Voidbound", " The World", " The Reaper", " The Death", " The Burning", " The Smouldering", " The Meadow", " The Bloom", " The Blooming", " The Wilt", " The Decay", " The Wilting", " The Glitch",
+    " The Glitching", " The Sun", " The Distorionist", " The Wicked", " The Cannibal", " The Broken", " The Scared", " The Tired", " The Electrified", " The Waterbound", " The Oathbound", " The Oathbreaker", 
+    " The Bewitching", " The Controlled", " The Controlling", " The Failure", " The Hawk", " The Frozen", " The Frost", " The Numb", " The Spark", " The Sparking", " The End",
+    " The Lily", " The Founder", " The Cold", " The Rambunctious", " The Earthshaker", " The Desperate", " The Explosive", " The Torn", " The Skywatcher", " The Wandering", " The Marionette", " The Puppet", 
+    " The Heartbeat", " The Heart", " The Soul", " The Heartbroken", " The Silksong", " The Silky", " The Melody", " The Catch", " The Catcher", " The Caught", " The Bound", " The Prayer", " The Voidwatcher", 
+    " The Nightbound", " The Daylight", " The Moonlight", " The Hastened", " The Serpant", " The Vigilant", " The Vagabond", " The Desert", " The Ancient", " The Pitied", " The Messenger", " The Sobbing", 
+    " The Crying", " The Crier", " The Solace", " The Moonwatcher", " The Sunwatcher", " The Dying", " The Thriving", " The Screecher", " The Screech", " The Soulbound", " The Mountain", " The Volcano", 
+    " The Sand-dune", " The Light", " The Lightweaver", " The Icewarden", " The Icy", " The Icebreaker", " The Hailstorm", " The Windsinger", " The Tidelord", " The Tidecaller", " The Tidebringer", 
+    " The Thunderbringer", " The Storm", " The Tornado", " The Hurricane", " The Stormcatcher", " The Plaguebringer", " The Lost", " The Kelp", " The Forest", " The Jubilee", " The Brightest", " The Bright", 
+    " The Horned", " The Scorned", " The Scorpion", " The Crab", " The Fish", " The Lion", " The Ram", " The Sheep", " The Bull", " The Duplicate", " The Twin", " The Judge", " The Playful", " The Challenge", 
+    " The Devil", " The Honored", " The Thorned", " The Candle", " The Odd", " The Starhunter", " The Voidweaver", " The Faded", " The Zephyr", " The Lurker", " The Verdant", " The Whirlwind", " The Frostlet", 
+    " The Warden", " The Rift", " The Glint", " The Lumen", " The Veil", " The Blaze", " The Moonbeam", " The Shard", " The Vortex", " The Plume", " The Fuzzy", " The Phantom", " The Prowler", " The Aurora", 
+    " The Speaker", " The Cunning", " The Selfish", " The Nervous", " The Daring", " The Adventurous", " The Courier", " The Scryed", " The Fleeting", " The Snow", " The Clouded", " The Busy", " The Ally"
   ],
   "pelt_suffixes": {
-    "TwoColour": [" The Double"],
+    "TwoColour": [" The Simple"],
     "Tabby": [" The Striped"],
     "Marbled": [" The Marbled"],
     "Speckled": [" The Speckled", " The Shiny", " The Flicker"],
@@ -38,7 +60,6 @@
     "Rosette": [" The Spotted"],
     "Smoke": [" The Smoky"],
     "Ticked": [" The Hollow"],
-    "Classic": [" The Survivor", "the Simple"],
     "Masked": [" The Assassin", " The Masked"],
     "Fluffy": [" The Fluffy", " The Soft", " The Saint"],
     "Vulture": [" The Vulture"],
@@ -405,7 +426,7 @@
     "Zendaya", "Zenith", "Zeraora", "Zikomo", "Zim", "Zion", "Zira", "Ziti", "Zoe", "Zoomie", "Zorro", "Zorua", "Zuberi", "Zuko", "Zuma", "Zuna", "Zuva"
     ],
 	"animal_suffixes": [
-		" The Vulture", " The Rabbit", " The Fox"
+		" The Vulture", " The Rabbit", " The Fox", " The Scorpion", " The Crab", " The Fish", " The Lion", " The Ram", " The Sheep", " The Bull", " The Snake", " The Yeek"
 	],
 	"animal_prefixes": [
 		"Addax", "Adder", "Albatross", "Alligator", "Alpaca", "Ant", "Antelope", "Aphid", "Avocet", "Axolotl", "Badger", "Barracuda", "Bass", "Bat", "Bear", "Beaver", 
