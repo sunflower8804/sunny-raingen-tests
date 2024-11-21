@@ -110,7 +110,7 @@ logging.root.addHandler(stream_handler)
 
 prune_logs(logs_to_keep=10, retain_empty_logs=False)
 
-somenumber = randrange(0,4)
+somenumber = randrange(1,7)
 
 def log_crash(logtype, value, tb):
     """
@@ -245,6 +245,21 @@ def loading_animation():
             im = pygame.image.load(f"resources/images/loading_animate/startup/{somenumber}/{i}.png")
             im.blit(color, (0, 0), special_flags=pygame.BLEND_RGBA_MULT)
             images.append(im)
+    elif somenumber==4:
+        for i in range(1, 9):
+            im = pygame.image.load(f"resources/images/loading_animate/startup/{somenumber}/{i}.png")
+            im.blit(color, (0, 0), special_flags=pygame.BLEND_RGBA_MULT)
+            images.append(im)
+    elif somenumber==5:
+        for i in range(1, 9):
+            im = pygame.image.load(f"resources/images/loading_animate/startup/{somenumber}/{i}.png")
+            im.blit(color, (0, 0), special_flags=pygame.BLEND_RGBA_MULT)
+            images.append(im)
+    elif somenumber==6:
+        for i in range(1, 17):
+            im = pygame.image.load(f"resources/images/loading_animate/startup/{somenumber}/{i}.png")
+            im.blit(color, (0, 0), special_flags=pygame.BLEND_RGBA_MULT)
+            images.append(im)
 
     # Cleanup
     del im
@@ -258,6 +273,8 @@ def loading_animation():
     while not finished_loading:
         if somenumber==0:
             clock.tick(8)  #FPS count. the walk cycle is 8FPS, but other animations use 12FPS
+        elif somenumber==6:
+            clock.tick(8)
         else:
             clock.tick(12)
 
