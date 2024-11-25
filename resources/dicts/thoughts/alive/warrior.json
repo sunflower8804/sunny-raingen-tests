@@ -153,8 +153,8 @@
   {
     "id": "warrior_gen_medicine_cat",
     "thoughts": [
-      "Plans to visit the medicine slugcat",
-      "Is helping to escort the medicine slugcat to gather herbs"
+      "Plans to visit the cleric",
+      "Is helping to escort the cleric to gather herbs"
     ],
     "random_status_constraint": [
       "medicine slugcat"
@@ -282,7 +282,7 @@
     "thoughts": [
       "Is getting some looks after speaking out of turn at the last Clan meeting",
       "Spoke out of turn at the last Clan meeting",
-      "Bravely offers to help the medicine slugcat pick herbs from a dangerous spot",
+      "Bravely offers to help the cleric pick herbs from a dangerous spot",
       "Runs out of {PRONOUN/m_c/poss} den into 'battle', only to find that it was just a storm",
       "Prances around with {PRONOUN/m_c/poss} tail up high, ready for anything",
       "Is not afraid of anything",
@@ -420,7 +420,7 @@
       "Is purring warmly",
       "Is purring loudly",
       "Is purring sweetly",
-      "Is this moon's heartthrob",
+      "Is this cycle's heartthrob",
       "Has recently given a wonderful speech to fellow Clanmates, boosting morale",
       "Spends all day chatting and laughing with some other warriors",
       "Forgot where {PRONOUN/m_c/subject} put something, and every other warrior offers to help {PRONOUN/m_c/object} find it",
@@ -553,7 +553,7 @@
   {
     "id": "compassionate_warrior_to_living_med_cat",
     "thoughts": [
-      "Is helping the medicine slugcat organize herb stores"
+      "Is helping the cleric organize herb stores"
     ],
     "random_status_constraint": [
       "medicine cat"
@@ -653,7 +653,7 @@
       "Is hoping that The Ascended protects {PRONOUN/m_c/poss} loved ones...",
       "Thanks The Ascended for {PRONOUN/m_c/poss} catch out on a hunting patrol today",
       "Prays to The Ascended that next season will be a good one",
-      "Goes to the medicine slugcat to ask for spiritual advice",
+      "Goes to the cleric to ask for spiritual advice",
       "Wonders if The Ascended can hear {PRONOUN/m_c/object}",
       "Leaves fresh-kill at the grave of a dead loved one"
     ],
@@ -679,7 +679,7 @@
   {
     "id": "faithful_warrior_to_medcat_any",
     "thoughts": [
-      "Goes to the medicine slugcat to ask for spiritual advice"
+      "Goes to the cleric to ask for spiritual advice"
     ],
     "main_trait_constraint": [
       "faithful"
@@ -704,7 +704,7 @@
       "Thinks that {PRONOUN/m_c/subject} could take on a scavenger solo",
       "Thinks that {PRONOUN/m_c/subject} could take on a red lizard solo",
       "Hopes to earn more battle scars to show off",
-      "Is asking the medicine slugcat for herbs that may help {PRONOUN/m_c/object} in battle",
+      "Is asking the cleric for herbs that may help {PRONOUN/m_c/object} in battle",
       "Is showing off {PRONOUN/m_c/poss} battle moves",
       "Offered to lead a border patrol today",
       "Wishes {PRONOUN/m_c/subject} had more scars",
@@ -798,7 +798,7 @@
     "id": "loving_warrior",
     "thoughts": [
       "Is feeling content with the little things in life",
-      "Is offering any help {PRONOUN/m_c/subject} can to the medicine slugcat",
+      "Is offering any help {PRONOUN/m_c/subject} can to the cleric",
       "Is purring with friends",
       "Is purring loudly",
       "Is purring gently",
@@ -1131,13 +1131,13 @@
   {
     "id": "thoughtful_warrior",
     "thoughts": [
-      "Offers to fetch herbs for the medicine slugcat",
+      "Offers to fetch herbs for the cleric",
       "Is offering helpful advice to a gloomy Clanmate",
-      "Brought back a much-needed herb to the medicine slugcat after a hunting patrol",
+      "Brought back a much-needed herb to the cleric after a hunting patrol",
       "Prepares the perfect gift for a friend",
       "Notices a Clanmate is tired and offers to take their chores",
       "Gets an injured Clanmate a piece of fresh-kill",
-      "Spends some time helping out the medicine slugcat today",
+      "Spends some time helping out the cleric today",
       "Reassures an apprentice who's nervous to go on patrol"
     ],
     "main_trait_constraint": [
@@ -1158,7 +1158,7 @@
       "Is bored, and looking for trouble to get into",
       "Ate {PRONOUN/m_c/poss} fill and then some from the fresh-kill pile",
       "Is considering bending the rules just this once... again",
-      "Is grumbling as {PRONOUN/m_c/subject} {VERB/m_c/carry/carries} out a task for the medicine slugcat",
+      "Is grumbling as {PRONOUN/m_c/subject} {VERB/m_c/carry/carries} out a task for the cleric",
       "Climbed up a tree and nearly fell out",
       "Ate a bluefruit while out on patrol",
       "Is talking far too loud, to the annoyance of every slugcat in camp",
@@ -1273,7 +1273,7 @@
   {
     "id": "recurring shock",
     "thoughts": [
-      "Visits the medicine slugcat den for thyme",
+      "Visits the cleric den for thyme",
       "Wakes up screaming after a nightmare",
       "Panics after hearing a noise",
       "Is seen trembling and looking around nervously",
