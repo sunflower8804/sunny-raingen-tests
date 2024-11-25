@@ -41,6 +41,7 @@ class Pelt():
         'Yeek': 'yeek',
         'Rusted': 'rusted',
         'Envoy': 'envoy',
+        'Drizzle': 'drizzle',
         'Tortie': None,
         'Calico': None,
     }
@@ -73,7 +74,7 @@ class Pelt():
     tortiebases = ['single', 'tabby', 'bengal', 'marbled', 'ticked', 'smoke', 'rosette', 'speckled', 'mackerel',
                 'classic', 'sokoke', 'agouti', 'singlestripe', 'masked', 'gravel', 'collared', 'slimemold',
                 'cyanlizard', 'vulture', 'banana', 'centipede', 'conductor', 'lizard', 'lantern', 'leviathan',
-                'fluffy', 'amoeba', 'yeek', 'rusted', 'envoy']
+                'fluffy', 'amoeba', 'yeek', 'rusted', 'envoy', 'drizzle']
     
     pelt_length = ["short", "medium", "long"]
     eye_colours = ['YELLOW', 'AMBER', 'HAZEL', 'PALEGREEN', 'GREEN', 'BLUE', 'DARKBLUE', 'GREY', 'CYAN', 'EMERALD', 'PALEBLUE', 
@@ -163,7 +164,7 @@ class Pelt():
     ]
 
 
-    tabbies = ["Tabby", "Ticked", "Classic", "Sokoke", "Agouti", "Masked", "Vulture", "Envoy"]
+    tabbies = ["Tabby", "Ticked", "Classic", "Sokoke", "Agouti", "Masked", "Vulture", "Envoy", "Drizzle"]
     spotted = ["Speckled", "Rosette", "Gravel", "Banana", "Conductor", "Bengal"]
     plain = ["SingleColour", "TwoColour", "Smoke", "Singlestripe", "Collared", "Slimemold", "Fluffy", "Yeek", "Rusted"]
     exotic = ["Mackerel", "Marbled", "Lizard", "Cyanlizard", "Centipede", "Lantern", "Leviathan", "Amoeba", "Seaslug"]
@@ -211,12 +212,14 @@ class Pelt():
         little_white, mid_white, high_white, mostly_white, point_markings, vit, 'FULLWHITE']
 
     skin_sprites = ['BLACK',  'PINK', 'DARKBROWN', 'BROWN', 'LIGHTBROWN', 'DARK', 'DARKGREY', 'GREY', 'DARKSALMON',
-                    'SALMON', 'PEACH', 'DARKMARBLED', 'MARBLED', 'LIGHTMARBLED', 'DARKBLUE', 'BLUE', 'LIGHTBLUE', 'RED', 'PINKGILLS', 'BLUEGILLS', 'REDGILLS', 'LIMEGILLS', 'YELLOWGILLS', 'WHITEGILLS',
+                    'SALMON', 'PEACH', 'DARKMARBLED', 'MARBLED', 'LIGHTMARBLED', 'DARKBLUE', 'BLUE', 'LIGHTBLUE', 'RED', 
+                    'PINKGILLS', 'BLUEGILLS', 'REDGILLS', 'LIMEGILLS', 'YELLOWGILLS', 'WHITEGILLS',
                     'RAINBOWGILLS', 'FUCHSIATONGUE', 'PASTELTONGUE', 'KOBITONGUE', 'REDTONGUE', 'GREYTONGUE',
                     'ORANGETONGUE', 'WHITESPOTS', 'BLACKSPOTS', 'MIXSPOTS', 'RAINBOWSPOTS', 'BLACKCLAWS',
                     'WHITETENNA', 'REDTENNA', 'PINKTENNA', 'ORANGETENNA', 'YELLOWTENNA', 'BLUETENNA',
                     'GREENTENNA', 'WHITEGLOWSPOTS', 'REDGLOWSPOTS', 'PINKGLOWSPOTS', 'ORANGEGLOWSPOTS', 'YELLOWGLOWSPOTS',
-                    'BLUEGLOWSPOTS', 'GREENGLOWSPOTS']
+                    'BLUEGLOWSPOTS', 'GREENGLOWSPOTS', 'WHITEHORNS', 'BLACKHORNS', 'REDHORNS', 'YELLOWHORNS',
+                    'GREENHORNS', 'BLUEHORNS', 'ORANGEHORNS', 'BROWNHORNS']
     
     """Holds all appearance information for a cat. """
 

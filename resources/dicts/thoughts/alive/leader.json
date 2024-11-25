@@ -29,7 +29,7 @@
             "Is questioning {PRONOUN/m_c/poss} ability to lead",
             "Is dreading the Clan meeting {PRONOUN/m_c/subject} must call later today",
             "Is finding the responsibility of leadership to be quite the heavy burden",
-            "Is feeling blessed by the Ascended this moon",
+            "Is feeling blessed by the Ascended this cycle",
             "Is thinking about forming an alliance",
             "Is making a solemn vow to protect {PRONOUN/m_c/poss} Clanmates",
             "Called an important Clan meeting recently",
@@ -114,9 +114,9 @@
         "thoughts": [
             "Encourages warriors to start fights on border patrols",
             "Is debating if {PRONOUN/m_c/subject} should declare a war with another Clan",
-          "Is wondering if {PRONOUN/m_c/subject} could hold apprentice ceremonies 2 moons earlier",
+          "Is wondering if {PRONOUN/m_c/subject} could hold apprentice ceremonies 2 cycles earlier",
           "Hopes to postpone the retirement of {PRONOUN/m_c/poss} Clanmates",
-          "Asks the medicine slugcats to have a stock of deathberries at {PRONOUN/m_c/poss} disposal",
+          "Asks the clerics to have a stock of deathberries at {PRONOUN/m_c/poss} disposal",
             "Doesn't understand the Ascended's resentment towards {PRONOUN/m_c/object}",
             "Is thinking about taking slugpups from another Clan",
             "Encourages warriors to destroy other Clan's herb supplies",
@@ -249,7 +249,7 @@
           "Instructs r_c to let a sick slugcat die",
             "Is telling r_c to make a poultice with deathberries",
           "Tells r_c to fake a sign from the Ascended to prepare the Clan for war",
-            "Is pleased with having a like-minded medicine slugcat like r_c",
+            "Is pleased with having a like-minded cleric like r_c",
             "Is listening to r_c explain the pointlessness of treating weak or old slugcats"
         ],
         "random_status_constraint": [

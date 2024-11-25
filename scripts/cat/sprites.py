@@ -141,7 +141,8 @@ class Sprites:
             'sokokecolours', 'agouticolours', 'singlestripecolours', 'maskedcolours', 'bananacolours',
             'centipedecolours', 'collaredcolours', 'concolours', 'gravelcolours', 'cyanlizardcolours',
             'slimemoldcolours', 'lanterncolours', 'vulturecolours', 'lizardcolours', 'leviathancolours',
-            'fluffycolours', 'amoebacolours', 'seaslugcolours', 'yeekcolours', 'rustedcolours', 'envoycolours', 'raineyes', 'raineyes2',
+            'fluffycolours', 'amoebacolours', 'seaslugcolours', 'yeekcolours', 'rustedcolours',
+            'envoycolours', 'drizzlecolours', 'raineyes', 'raineyes2',
             'multieyes', 'multiraineyes', 'shadersnewwhite', 'lightingnew',
             'whitepatches', 'tortiepatchesmasks',
             'fademask', 'fadestarclan', 'fadedarkforest',
@@ -457,6 +458,13 @@ class Sprites:
             self.make_group('envoycolours', (a, 1), f'envoy{i}')
         for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
             self.make_group('envoycolours', (a, 2), f'envoy{i}')
+        # drizzle
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('drizzlecolours', (a, 0), f'drizzle{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
+            self.make_group('drizzlecolours', (a, 1), f'drizzle{i}')
+        for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('drizzlecolours', (a, 2), f'drizzle{i}')
 
         # new new torties
         for a, i in enumerate(['ONE', 'TWO', 'THREE', 'FOUR', 'REDTAIL', 'DELILAH', 'HALF', 'STREAK', 'MASK', 'SMOKE']):
@@ -489,32 +497,28 @@ class Sprites:
             self.make_group('skin', (a, 2), f"skin{i}")
 
         # Gills, Tongues, Quills
-        if game.settings["bea_gilltongue"]:
-            for a, i in enumerate(['PINKGILLS', 'BLUEGILLS', 'REDGILLS', 'LIMEGILLS', 'YELLOWGILLS', 'WHITEGILLS']):
-                self.make_group('beagilltongue', (a, 0), f"skin{i}")
-            for a, i in enumerate(['RAINBOWGILLS', 'FUCHSIATONGUE', 'PASTELTONGUE', 'KOBITONGUE', 'REDTONGUE', 'GREYTONGUE']):
-                    self.make_group('beagilltongue', (a, 1), f"skin{i}")
-            for a, i in enumerate(['ORANGETONGUE', 'WHITESPOTS', 'BLACKSPOTS', 'MIXSPOTS', 'RAINBOWSPOTS', 'BLACKCLAWS']):
-                self.make_group('beagilltongue', (a, 2), f"skin{i}")
-            for a, i in enumerate(['WHITETENNA', 'REDTENNA', 'PINKTENNA', 'ORANGETENNA', 'YELLOWTENNA', 'BLUETENNA']):
-                self.make_group('beagilltongue', (a, 3), f"skin{i}")
-            for a, i in enumerate(['GREENTENNA', 'WHITEGLOWSPOTS', 'REDGLOWSPOTS', 'PINKGLOWSPOTS', 'ORANGEGLOWSPOTS', 'YELLOWGLOWSPOTS']):
-                self.make_group('beagilltongue', (a, 4), f"skin{i}")
-            for a, i in enumerate(['BLUEGLOWSPOTS', 'GREENGLOWSPOTS']):
-                self.make_group('beagilltongue', (a, 5), f"skin{i}")
-        else:
             for a, i in enumerate(['PINKGILLS', 'BLUEGILLS', 'REDGILLS', 'LIMEGILLS', 'YELLOWGILLS', 'WHITEGILLS']):
                 self.make_group('gilltongue', (a, 0), f"skin{i}")
             for a, i in enumerate(['RAINBOWGILLS', 'FUCHSIATONGUE', 'PASTELTONGUE', 'KOBITONGUE', 'REDTONGUE', 'GREYTONGUE']):
                     self.make_group('gilltongue', (a, 1), f"skin{i}")
             for a, i in enumerate(['ORANGETONGUE', 'WHITESPOTS', 'BLACKSPOTS', 'MIXSPOTS', 'RAINBOWSPOTS', 'BLACKCLAWS']):
                 self.make_group('gilltongue', (a, 2), f"skin{i}")
-            for a, i in enumerate(['WHITETENNA', 'REDTENNA', 'PINKTENNA', 'ORANGETENNA', 'YELLOWTENNA', 'BLUETENNA']):
-                self.make_group('gilltongue', (a, 3), f"skin{i}")
-            for a, i in enumerate(['GREENTENNA', 'WHITEGLOWSPOTS', 'REDGLOWSPOTS', 'PINKGLOWSPOTS', 'ORANGEGLOWSPOTS', 'YELLOWGLOWSPOTS']):
-                self.make_group('gilltongue', (a, 4), f"skin{i}")
-            for a, i in enumerate(['BLUEGLOWSPOTS', 'GREENGLOWSPOTS']):
-                self.make_group('gilltongue', (a, 5), f"skin{i}")
+            if game.settings["bea_gilltongue"]:
+                for a, i in enumerate(['WHITETENNA', 'REDTENNA', 'PINKTENNA', 'ORANGETENNA', 'YELLOWTENNA', 'BLUETENNA']):
+                    self.make_group('beagilltongue', (a, 3), f"skin{i}")
+                for a, i in enumerate(['GREENTENNA', 'WHITEGLOWSPOTS', 'REDGLOWSPOTS', 'PINKGLOWSPOTS', 'ORANGEGLOWSPOTS', 'YELLOWGLOWSPOTS']):
+                    self.make_group('beagilltongue', (a, 4), f"skin{i}")
+                for a, i in enumerate(['BLUEGLOWSPOTS', 'GREENGLOWSPOTS', 'WHITEHORNS', 'BLACKHORNS', 'REDHORNS', 'YELLOWHORNS']):
+                    self.make_group('beagilltongue', (a, 5), f"skin{i}")
+            else:
+                for a, i in enumerate(['WHITETENNA', 'REDTENNA', 'PINKTENNA', 'ORANGETENNA', 'YELLOWTENNA', 'BLUETENNA']):
+                    self.make_group('gilltongue', (a, 3), f"skin{i}")
+                for a, i in enumerate(['GREENTENNA', 'WHITEGLOWSPOTS', 'REDGLOWSPOTS', 'PINKGLOWSPOTS', 'ORANGEGLOWSPOTS', 'YELLOWGLOWSPOTS']):
+                    self.make_group('gilltongue', (a, 4), f"skin{i}")
+                for a, i in enumerate(['BLUEGLOWSPOTS', 'GREENGLOWSPOTS', 'WHITEHORNS', 'BLACKHORNS', 'REDHORNS', 'YELLOWHORNS']):
+                    self.make_group('gilltongue', (a, 5), f"skin{i}")
+            for a, i in enumerate(['GREENHORNS', 'BLUEHORNS', 'ORANGEHORNS', 'BROWNHORNS']):
+                self.make_group('gilltongue', (a, 6), f"skin{i}")
 
         self.load_scars()
         self.load_symbols()
