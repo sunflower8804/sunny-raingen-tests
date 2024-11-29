@@ -580,7 +580,7 @@
                 "path": "resources/images/buttons/random_menu_hover.png"
             },
             "disabled_image": {
-                "path": "resources/images/buttons/random_menu_unavailable.png"
+                "path": "resources/images/buttons/random_menu.png"
             }
         }
     },
@@ -4111,6 +4111,23 @@
             },
             "disabled_image": {
                 "path": "resources/images/buttons/shaded_camp_unavailable.png"
+            }
+        }
+    },
+    "#fjord_tab": {
+        "prototype": "#image_button",
+        "images": {
+            "normal_image": {
+                "path": "resources/images/buttons/fjord_camp.png"
+            },
+            "hovered_image": {
+                "path": "resources/images/buttons/fjord_camp_hover.png"
+            },
+            "selected_image": {
+                "path": "resources/images/buttons/fjord_camp_hover.png"
+            },
+            "disabled_image": {
+                "path": "resources/images/buttons/fjord_camp_unavailable.png"
             }
         }
     },
