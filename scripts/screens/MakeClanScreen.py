@@ -923,6 +923,12 @@ class MakeClanScreen(Screens):
                 object_id="#shipwreck_tab",
                 manager=MANAGER,
             )
+            self.tabs["tab4"] = UIImageButton(
+                scale(pygame.Rect((210, 570), (358, 60))),
+                "",
+                object_id="#fjord_tab",
+                manager=MANAGER,
+            )
 
 
         if self.selected_camp_tab == 1:
