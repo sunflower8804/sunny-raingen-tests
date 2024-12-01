@@ -1606,7 +1606,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c was grabbed and dropped by an eagle, but {PRONOUN/m_c/subject} somehow survived.",
+        "event_text": "m_c was grabbed and dropped by an vulture, but {PRONOUN/m_c/subject} somehow survived.",
         "m_c": {
             "status": [
                 "kitten"
@@ -1826,7 +1826,7 @@
             "any"
         ],
         "weight": 0,
-        "event_text": "m_c survived a vicious eagle attack - with the claw marks to prove it!",
+        "event_text": "m_c survived a vicious dropwig attack - with the claw marks to prove it!",
         "m_c": {
             "status": [
                 "kitten",
@@ -1851,9 +1851,9 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by an eagle.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting an eagle.",
-                "lead_death": "died from {PRONOUN/m_c/poss} wounds after fighting an eagle"
+                "scar": "m_c was scarred by a dropwig.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a dropwig.",
+                "lead_death": "died from {PRONOUN/m_c/poss} wounds after fighting a dropwig"
             }
         ]
     },
@@ -1983,7 +1983,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c fought a fox, but was barely even hurt! {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} a bit bruised, but bruises are better than clawmarks.",
+        "event_text": "m_c fought a white lizard, but was barely even hurt! {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} a bit bruised, but bruises are better than clawmarks.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -2024,7 +2024,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c fought a dog, but was barely even hurt! {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} a bit bruised, but bruises are better than clawmarks.",
+        "event_text": "m_c fought a red lizard, but was barely even hurt! {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} a bit bruised, but bruises are better than clawmarks.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -2140,7 +2140,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c saved r_c from a dog, and was barely even hurt! {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} a bit bruised, but bruises are better than clawmarks.",
+        "event_text": "m_c saved r_c from a red lizard, and was barely even hurt! {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} a bit bruised, but bruises are better than clawmarks.",
         "m_c": {
             "status": [
                 "warrior",
@@ -2313,7 +2313,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c fought a fox, but was barely even hurt! {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} a bit scraped up, but a few scrapes are better than clawmarks.",
+        "event_text": "m_c fought a white lizard, but was barely even hurt! {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} a bit scraped up, but a few scrapes are better than clawmarks.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -2354,7 +2354,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c saved r_c from a fox, and was barely even hurt! {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} a bit scraped up, but a few scrapes are better than clawmarks.",
+        "event_text": "m_c saved r_c from a white lizard, and was barely even hurt! {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} a bit scraped up, but a few scrapes are better than clawmarks.",
         "m_c": {
             "status": [
                 "warrior",
@@ -2465,7 +2465,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c fought a dog and got hurt.",
+        "event_text": "m_c fought a red lizard and got hurt.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -2504,9 +2504,9 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by a dog.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a dog.",
-                "lead_death": "died after fighting a dog"
+                "scar": "m_c was scarred by a red lizard.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a red lizard.",
+                "lead_death": "died after fighting a red lizard"
             }
         ]
     },
@@ -2519,7 +2519,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c saved r_c from a fox, but was hurt.",
+        "event_text": "m_c saved r_c from a white lizard, but was hurt.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -2575,9 +2575,9 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by a fox while rescuing r_c.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after saving r_c from a fox.",
-                "lead_death": "died from {PRONOUN/m_c/poss} wounds after saving r_c from a fox"
+                "scar": "m_c was scarred by a white lizard while rescuing r_c.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after saving r_c from a white lizard.",
+                "lead_death": "died from {PRONOUN/m_c/poss} wounds after saving r_c from a white lizard"
             }
         ],
         "relationships": [
@@ -2607,7 +2607,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c was hurt while protecting r_c, the leader, from a fox.",
+        "event_text": "m_c was hurt while protecting r_c, the leader, from a white lizard.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -2656,8 +2656,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by a fox while protecting r_c.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after protecting r_c from a fox."
+                "scar": "m_c was scarred by a white lizard while protecting r_c.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after protecting r_c from a white lizard."
             }
         ],
         "relationships": [
@@ -2763,7 +2763,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c fought a big dog and was badly injured.",
+        "event_text": "m_c fought a red lizard and was badly injured.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -2802,9 +2802,9 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by a big dog.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a big dog.",
-                "lead_death": "died from {PRONOUN/m_c/poss} wounds after fighting a big dog"
+                "scar": "m_c was scarred by a red lizard.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a red lizard.",
+                "lead_death": "died from {PRONOUN/m_c/poss} wounds after fighting a red lizard"
             }
         ]
     },
@@ -2817,7 +2817,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c saved r_c from a big dog, but was badly injured.",
+        "event_text": "m_c saved r_c from a red lizard, but was badly injured.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -2875,9 +2875,9 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by a big dog while rescuing r_c.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after saving r_c from a big dog.",
-                "lead_death": "died from {PRONOUN/m_c/poss} wounds after saving r_c from a big dog"
+                "scar": "m_c was scarred by a red lizard while rescuing r_c.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after saving r_c from a red lizard.",
+                "lead_death": "died from {PRONOUN/m_c/poss} wounds after saving r_c from a red lizard"
             }
         ],
         "relationships": [
@@ -2908,7 +2908,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c fought a hawk and got hurt.",
+        "event_text": "m_c fought a vulture and got hurt.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -2947,9 +2947,9 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by a hawk.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a hawk.",
-                "lead_death": "died after fighting a hawk"
+                "scar": "m_c was scarred by a vulture.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a vulture.",
+                "lead_death": "died after fighting a vulture"
             }
         ]
     },
@@ -2962,7 +2962,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c saved r_c from a hawk, but was hurt.",
+        "event_text": "m_c saved r_c from a vulture, but was hurt.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -3014,9 +3014,9 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by a hawk while rescuing r_c.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after saving r_c from a hawk.",
-                "lead_death": "died after protecting r_c from a hawk"
+                "scar": "m_c was scarred by a vulture while rescuing r_c.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after saving r_c from a vulture.",
+                "lead_death": "died after protecting r_c from a vulture"
             }
         ],
         "relationships": [
@@ -3436,7 +3436,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c's tail was badly hurt by a fox while {PRONOUN/m_c/subject} {VERB/m_c/were/was} trying to follow r_c's orders.",
+        "event_text": "m_c's tail was badly hurt by a white lizard while {PRONOUN/m_c/subject} {VERB/m_c/were/was} trying to follow r_c's orders.",
         "m_c": {
             "age": [
                 "adolescent",
@@ -3488,8 +3488,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by a fox, while trying to follow r_c's orders.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a fox on r_c's orders."
+                "scar": "m_c was scarred by a white lizard, while trying to follow r_c's orders.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a white lizard on r_c's orders."
             }
         ],
         "relationships": [
@@ -3531,7 +3531,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c's leg was badly injured after r_c forced {PRONOUN/m_c/object} to fight a big dog.",
+        "event_text": "m_c's leg was badly injured after r_c forced {PRONOUN/m_c/object} to fight a red lizard.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -3581,8 +3581,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by a big dog, while trying to follow r_c's orders.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a big dog on r_c's orders."
+                "scar": "m_c was scarred by a red lizard, while trying to follow r_c's orders.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a red lizard on r_c's orders."
             }
         ],
         "relationships": [
@@ -3624,7 +3624,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c mistook a hare for a rabbit while hunting and {PRONOUN/m_c/poss} eyes were scratched, a valuable lesson learnt.",
+        "event_text": "m_c mistook a lanternmouse for a yeek while hunting and {PRONOUN/m_c/poss} eyes were scratched, a valuable lesson learnt.",
         "m_c": {
             "status": [
                 "apprentice"
@@ -3648,8 +3648,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred when a hare scratched {PRONOUN/m_c/poss} eyes.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a hare scratched {PRONOUN/m_c/poss} eyes."
+                "scar": "m_c was scarred when a lantern mouse scratched {PRONOUN/m_c/poss} eyes.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a lantern mouse scratched {PRONOUN/m_c/poss} eyes."
             }
         ]
     },
@@ -3985,7 +3985,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c was injured recklessly fighting a dog that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
+        "event_text": "m_c was injured recklessly fighting a red lizard that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
         "m_c": {
             "status": [
                 "apprentice"
@@ -4037,8 +4037,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred fighting a dog that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to fight a dog."
+                "scar": "m_c was scarred fighting a red lizard that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to fight a red lizard."
             }
         ],
         "relationships": [
@@ -4080,7 +4080,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c was injured recklessly fighting a fox that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
+        "event_text": "m_c was injured recklessly fighting a white lizard that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
         "m_c": {
             "status": [
                 "apprentice"
@@ -4132,8 +4132,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred fighting a fox that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to fight a fox."
+                "scar": "m_c was scarred fighting a white lizard that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to fight a white lizard."
             }
         ],
         "relationships": [
@@ -4853,7 +4853,7 @@
             "any"
         ],
         "weight": 10,
-        "event_text": "m_c was hurt by {PRONOUN/m_c/poss} mentor, r_c, as a punishment for messing with a Twoleg object.",
+        "event_text": "m_c was hurt by {PRONOUN/m_c/poss} mentor, r_c, as a punishment for messing with a Scavenger object.",
         "m_c": {
             "age": [
                 "adolescent"
@@ -4912,8 +4912,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor, r_c, for messing with a Twoleg object.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor hurt {PRONOUN/m_c/object} for messing with a Twoleg object."
+                "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor, r_c, for messing with a Scavenger object.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor hurt {PRONOUN/m_c/object} for messing with a Scavenger object."
             }
         ],
         "relationships": [
@@ -5336,7 +5336,7 @@
             "any"
         ],
         "weight": 10,
-        "event_text": "m_c's leg was badly hurt after r_c, {PRONOUN/m_c/poss} mentor, used a Twoleg trap during a training exercise.",
+        "event_text": "m_c's leg was badly hurt after r_c, {PRONOUN/m_c/poss} mentor, used a pole plant during a training exercise.",
         "m_c": {
             "status": [
                 "apprentice"
@@ -5382,8 +5382,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor, r_c, when {PRONOUN/r_c/subject} used a Twoleg trap for training.",
-                "reg_death": "m_c died from wounds caused by {PRONOUN/m_c/poss} mentor using a Twoleg trap for training."
+                "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor, r_c, when {PRONOUN/r_c/subject} used a pole plant for training.",
+                "reg_death": "m_c died from wounds caused by {PRONOUN/m_c/poss} mentor using a pole plant for training."
             }
         ],
         "relationships": [
@@ -5900,7 +5900,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c was out on a walk alone when {PRONOUN/m_c/subject} heard a dog approaching! {PRONOUN/m_c/subject/CAP} crawled into a thorny shrub to hide, but got some nasty scratches in the process.",
+        "event_text": "m_c was out on a walk alone when {PRONOUN/m_c/subject} heard a red lizard approaching! {PRONOUN/m_c/subject/CAP} crawled into a thorny shrub to hide, but got some nasty scratches in the process.",
         "m_c": {
             "age": [
                 "senior",
@@ -5947,7 +5947,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c was out on a walk alone when {PRONOUN/m_c/subject} heard a fox approaching! {PRONOUN/m_c/subject/CAP} crawled into a thorny shrub to hide, but got some nasty scratches in the process.",
+        "event_text": "m_c was out on a walk alone when {PRONOUN/m_c/subject} heard a white lizard approaching! {PRONOUN/m_c/subject/CAP} crawled into a thorny shrub to hide, but got some nasty scratches in the process.",
         "m_c": {
             "age": [
                 "senior",
@@ -6062,7 +6062,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c got {PRONOUN/m_c/poss} paw stuck in a Twoleg trap, and while {PRONOUN/m_c/subject} eventually escaped, {PRONOUN/m_c/poss} leg is heavily injured.",
+        "event_text": "m_c got {PRONOUN/m_c/poss} paw caught in a lizard's jaws, and while {PRONOUN/m_c/subject} eventually escaped, {PRONOUN/m_c/poss} leg is heavily injured.",
         "m_c": {
             "age": [
                 "senior",
@@ -6093,9 +6093,9 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by a Twoleg trap.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} injuries caused by a Twoleg trap.",
-                "lead_death": "died from {PRONOUN/m_c/poss} injuries caused by a Twoleg trap."
+                "scar": "m_c was scarred by a lizard's bite.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} injuries caused by a lizard's bite.",
+                "lead_death": "died from {PRONOUN/m_c/poss} injuries caused by a lizard's bite."
             }
         ]
     },
@@ -6205,7 +6205,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c's tail was badly injured by a dog.",
+        "event_text": "m_c's tail was badly injured by a red lizard.",
         "m_c": {
             "age": [
                 "senior",
@@ -6239,9 +6239,9 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by a dog.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/subject} {VERB/m_c/were/was} hurt by a dog.",
-                "lead_death": "died from {PRONOUN/m_c/poss} wounds after being hurt by a dog"
+                "scar": "m_c was scarred by a red lizard.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/subject} {VERB/m_c/were/was} hurt by a red lizard.",
+                "lead_death": "died from {PRONOUN/m_c/poss} wounds after being hurt by a red lizard"
             }
         ]
     },
@@ -6254,7 +6254,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c's tail was badly injured by a fox.",
+        "event_text": "m_c's tail was badly injured by a white lizard.",
         "m_c": {
             "age": [
                 "senior",
@@ -6285,9 +6285,9 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by a fox.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/subject} {VERB/m_c/were/was} hurt by a fox.",
-                "lead_death": "m_c died from {PRONOUN/m_c/poss} wounds after being hurt by a fox"
+                "scar": "m_c was scarred by a white lizard.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/subject} {VERB/m_c/were/was} hurt by a white lizard.",
+                "lead_death": "m_c died from {PRONOUN/m_c/poss} wounds after being hurt by a white lizard"
             }
         ]
     },
@@ -6638,7 +6638,7 @@
             "newleaf"
         ],
         "weight": 20,
-        "event_text": "m_c found a patch of flowering catmint! No one else is around, so {PRONOUN/m_c/subject} bend down and take a big bite-- Yowch! A bee! {PRONOUN/m_c/subject/CAP} come home with a swollen face...",
+        "event_text": "m_c found a patch of flowering scugmint! No one else is around, so {PRONOUN/m_c/subject} bend down and take a big bite-- Yowch! A bee! {PRONOUN/m_c/subject/CAP} come home with a swollen face...",
         "m_c": {
             "age": [
                 "any"
@@ -6734,7 +6734,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c caught a cat from another Clan trespassing on their territory and {PRONOUN/m_c/poss} ear was torn in the ensuing scuffle.",
+        "event_text": "m_c caught a scug from another Clan trespassing on their territory and {PRONOUN/m_c/poss} ear was torn in the ensuing scuffle.",
         "m_c": {
             "age": [
                 "any"
@@ -6975,7 +6975,7 @@
             "war"
         ],
         "weight": 20,
-        "event_text": "While patrolling the o_c_n borders, m_c stepped on a concealed pit trap set by what seemed to be o_c_n warriors. m_c freezes with shock as {PRONOUN/m_c/subject} {VERB/m_c/plunge/plunges} into the depths of the trap. The other cats on the patrol flank {PRONOUN/m_c/object} as {PRONOUN/m_c/subject} {VERB/m_c/limp/limps} back to the camp.",
+        "event_text": "While patrolling the o_c_n borders, m_c stepped on a concealed pit trap set by what seemed to be o_c_n warriors. m_c freezes with shock as {PRONOUN/m_c/subject} {VERB/m_c/plunge/plunges} into the depths of the trap. The other slugcats on the patrol flank {PRONOUN/m_c/object} as {PRONOUN/m_c/subject} {VERB/m_c/limp/limps} back to the camp.",
         "m_c": {
             "age": [
                 "any"
@@ -7114,7 +7114,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c was taking some prey from the fresh-kill pile only to find a horde of rats! {PRONOUN/m_c/subject/CAP} called to r_c for help and together they fought off the rats, but not before being injured.",
+        "event_text": "m_c was taking some prey from the fresh-kill pile only to find a horde of spiders! {PRONOUN/m_c/subject/CAP} called to r_c for help and together they fought off the spiders, but not before being injured.",
         "m_c": {
             "age": [
                 "adolescent",
@@ -7139,7 +7139,7 @@
                     "r_c"
                 ],
                 "injuries": [
-                    "rat_bite"
+                    "spider bite"
                 ]
             }
         ],
@@ -7149,9 +7149,9 @@
                     "m_c",
                     "r_c"
                 ],
-                "scar": "m_c {VERB/m_c/were/was} hurt while defending the fresh-kill pile from rats.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after defending the fresh-kill pile from rats.",
-                "lead_death": "{VERB/m_c/were/was} killed by rats while defending the fresh-kill pile"
+                "scar": "m_c {VERB/m_c/were/was} hurt while defending the fresh-kill pile from spiders.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after defending the fresh-kill pile from spiders.",
+                "lead_death": "{VERB/m_c/were/was} killed by spiders while defending the fresh-kill pile"
             }
         ],
         "supplies": [
@@ -7198,9 +7198,9 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c {VERB/m_c/were/was} hurt while defending the fresh-kill pile from rats.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after defending the fresh-kill pile from rats.",
-                "lead_death": "{VERB/m_c/were/was} killed by rats while defending the fresh-kill pile"
+                "scar": "m_c {VERB/m_c/were/was} hurt while defending the fresh-kill pile from spiders.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after defending the fresh-kill pile from spiders.",
+                "lead_death": "{VERB/m_c/were/was} killed by spiders while defending the fresh-kill pile"
             }
         ],
         "supplies": [
