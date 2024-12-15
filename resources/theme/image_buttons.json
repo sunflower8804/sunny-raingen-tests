@@ -567,6 +567,23 @@
             }
         }
     },
+    "#menurandom_button": {
+        "prototype": "#image_button",
+        "images": {
+            "normal_image": {
+                "path": "resources/images/buttons/random_menu.png"
+            },
+            "hovered_image": {
+                "path": "resources/images/buttons/random_menu_hover.png"
+            },
+            "selected_image": {
+                "path": "resources/images/buttons/random_menu_hover.png"
+            },
+            "disabled_image": {
+                "path": "resources/images/buttons/random_menu_unavailable.png"
+            }
+        }
+    },
     "#arrow_left_fancy": {
         "prototype": "#image_button",
         "images": {
@@ -3110,23 +3127,6 @@
             }
         }
     },
-    "#accessories_tab_button": {
-        "prototype": "#image_button",
-        "images": {
-            "normal_image": {
-                "path": "resources/images/buttons/accessories.png"
-            },
-            "hovered_image": {
-                "path": "resources/images/buttons/accessories_hover.png"
-            },
-            "selected_image": {
-                "path": "resources/images/buttons/accessories_hover.png"
-            },
-            "disabled_image": {
-                "path": "resources/images/buttons/accessories_unavailable.png"
-            }
-        }
-    },
     "#dangerous_tab_button": {
         "prototype": "#image_button",
         "images": {
@@ -4097,6 +4097,23 @@
             }
         }
     },
+    "#shaded_tab": {
+        "prototype": "#image_button",
+        "images": {
+            "normal_image": {
+                "path": "resources/images/buttons/shaded_camp.png"
+            },
+            "hovered_image": {
+                "path": "resources/images/buttons/shaded_camp_hover.png"
+            },
+            "selected_image": {
+                "path": "resources/images/buttons/shaded_camp_hover.png"
+            },
+            "disabled_image": {
+                "path": "resources/images/buttons/shaded_camp_unavailable.png"
+            }
+        }
+    },
     "#continue_button_small": {
         "prototype": "#image_button",
         "images": {
@@ -4332,6 +4349,23 @@
             },
             "disabled_image": {
                 "path": "resources/images/buttons/freshkill_pile_unavailable.png"
+            }
+        }
+    },
+    "#accessories_tab_button": {
+        "prototype": "#image_button",
+        "images": {
+            "disabled_image": {
+                "path": "resources/images/buttons/accessories_unavailable.png"
+            },
+            "hovered_image": {
+                "path": "resources/images/buttons/accessories_hover.png"
+            },
+            "normal_image": {
+                "path": "resources/images/buttons/accessories.png"
+            },
+            "selected_image": {
+                "path": "resources/images/buttons/accessories_hover.png"
             }
         }
     },
