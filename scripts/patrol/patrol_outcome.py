@@ -1007,6 +1007,24 @@ class PatrolOutcome:
         # Lex's RW Lizards!
         elif "LIZARDS" in acc_list:
             acc_list = Pelt.lizards
+        #herbs2
+        elif "HERBS2" in acc_list:
+            acc_list = Pelt.herbs2
+        #Buddies
+        elif "BUDDIES" in acc_list:
+            acc_list = Pelt.buddies
+        #Insects
+        elif "INSECTWINGS" in acc_list:
+            acc_list = Pelt.insectwings
+        #muddypaws
+        elif "MUDDYPAWS" in acc_list:
+            acc_list = Pelt.muddypaws
+        #newaccs
+        elif "MOREACCS" in acc_list:
+            acc_list = Pelt.moreaccs
+        #drones
+        elif "NEWACCS" in acc_list:
+            acc_list = Pelt.drones
         else:
             acc_list = [x for x in acc_list if x in Pelt.plant_accessories + Pelt.wild_accessories +\
         Pelt.tail_accessories + Pelt.collars + Pelt.lizards
