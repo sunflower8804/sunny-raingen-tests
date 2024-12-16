@@ -175,7 +175,6 @@ class ProfileScreen(Screens):
         self.search_bar_image = None
         self.search_bar = None
         self.search_inventory = []
-        self.inventory = []
         self.previous_search_text = "search"
         self.checkboxes = {}
         self.profile_elements = {}
@@ -364,6 +363,12 @@ class ProfileScreen(Screens):
                                 self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['muddypaws' + accessory + cat_sprite], manager=MANAGER)
                             elif accessory in cat.pelt.moreaccs:
                                 self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['moreaccs' + accessory + cat_sprite], manager=MANAGER)
+                            elif accessory in cat.pelt.newaccs:
+                                self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['newaccs' + accessory + cat_sprite], manager=MANAGER)
+                            elif accessory in cat.pelt.insectwings:
+                                self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['insectwings' + accessory + cat_sprite], manager=MANAGER)
+                            elif accessory in cat.pelt.buddies:
+                                self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['buddies' + accessory + cat_sprite], manager=MANAGER)
                             pos_x += 120
                             if pos_x >= 1100:
                                 pos_x = 0
@@ -701,6 +706,12 @@ class ProfileScreen(Screens):
                                     self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['muddypaws' + accessory + cat_sprite], manager=MANAGER)
                                 elif accessory in cat.pelt.moreaccs:
                                     self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['moreaccs' + accessory + cat_sprite], manager=MANAGER)
+                                elif accessory in cat.pelt.newaccs:
+                                    self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['newaccs' + accessory + cat_sprite], manager=MANAGER)
+                                elif accessory in cat.pelt.insectwings:
+                                    self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['insectwings' + accessory + cat_sprite], manager=MANAGER)
+                                elif accessory in cat.pelt.buddies:
+                                    self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['buddies' + accessory + cat_sprite], manager=MANAGER)
                                 pos_x += 120
                                 if pos_x >= 1100:
                                     pos_x = 0
@@ -2543,6 +2554,12 @@ class ProfileScreen(Screens):
                             self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['muddypaws' + accessory + cat_sprite], manager=MANAGER)
                         elif accessory in cat.pelt.moreaccs:
                             self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['moreaccs' + accessory + cat_sprite], manager=MANAGER)
+                        elif accessory in cat.pelt.newaccs:
+                            self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['newaccs' + accessory + cat_sprite], manager=MANAGER)
+                        elif accessory in cat.pelt.insectwings:
+                            self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['insectwings' + accessory + cat_sprite], manager=MANAGER)
+                        elif accessory in cat.pelt.buddies:
+                            self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['buddies' + accessory + cat_sprite], manager=MANAGER)
 
 
                         self.accessories_list.append(accessory)
