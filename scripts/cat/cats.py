@@ -3408,6 +3408,7 @@ class Cat:
                 "skin": self.pelt.skin,
                 "tint": self.pelt.tint,
                 'accessories': self.pelt.accessories if self.pelt.accessories else [],
+                "inventory": self.pelt.inventory if self.pelt.inventory else [],
                 "skill_dict": self.skills.get_skill_dict(),
                 "scars": self.pelt.scars if self.pelt.scars else [],
                 "accessory": self.pelt.accessory,
