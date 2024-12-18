@@ -169,6 +169,8 @@ class ProfileScreen(Screens):
         self.back_button = None
         self.previous_cat_button = None
         self.next_cat_button = None
+        self.previous_page_button = None
+        self.next_page_button = None
         self.the_cat = None
         self.accessories_tab_button = None
         self.clear_accessories = None
@@ -251,17 +253,7 @@ class ProfileScreen(Screens):
                     self.update_disabled_buttons_and_text()
                 else:
                     print("invalid next cat", self.previous_cat)
-            elif event.ui_element == self.inspect_button:
-                self.close_current_tab()
-                self.change_screen("sprite inspect screen")
-            elif event.ui_element == self.relations_tab_button:
-                self.toggle_relations_tab()
-            elif event.ui_element == self.roles_tab_button:
-                self.toggle_roles_tab()
-            elif event.ui_element == self.personal_tab_button:
-                self.toggle_personal_tab()
-            elif event.ui_element == self.dangerous_tab_button:
-                self.toggle_dangerous_tab()
+
             elif event.ui_element == self.backstory_tab_button:
                 if self.open_sub_tab is None:
                     if game.switches["favorite_sub_tab"] is None:
