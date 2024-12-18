@@ -262,6 +262,17 @@ class ProfileScreen(Screens):
                         self.open_sub_tab = game.switches["favorite_sub_tab"]
 
                 self.toggle_history_tab()
+            elif event.ui_element == self.inspect_button:
+                self.close_current_tab()
+                self.change_screen("sprite inspect screen")
+            elif event.ui_element == self.relations_tab_button:
+                self.toggle_relations_tab()
+            elif event.ui_element == self.roles_tab_button:
+                self.toggle_roles_tab()
+            elif event.ui_element == self.personal_tab_button:
+                self.toggle_personal_tab()
+            elif event.ui_element == self.dangerous_tab_button:
+                self.toggle_dangerous_tab()
             elif event.ui_element == self.conditions_tab_button:
                 self.toggle_conditions_tab()
             elif event.ui_element == self.accessories_tab_button:
