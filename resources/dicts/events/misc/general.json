@@ -1,5 +1,41 @@
 [
   {
+    "event_id": "gen_misc_any_pottedplant",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 8,
+    "event_text":  "m_c finds a acc_singular sprout and decides to put it in a pot.",
+    "new_accessory": ["WORMGRASSPOT", "POLEPLANTPOT"],
+    "m_c": {
+      "age": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_grenadeacc",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 10,
+    "event_text":  "m_c finds a grenade and decides to keep it.",
+    "new_accessory": ["GRENADE"],
+    "m_c": {
+      "age": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_shroomhat",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 15,
+    "event_text":  "m_c finds a mushroom and decides to wear it as a hat.",
+    "new_accessory": ["MUSHROOMS"],
+    "m_c": {
+      "age": ["any"]
+    }
+  },
+  {
     "event_id": "gen_misc_any_moss",
     "location": ["any"],
     "season": ["any"],
