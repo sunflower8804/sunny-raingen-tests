@@ -1022,13 +1022,11 @@ class PatrolOutcome:
         #newaccs
         elif "NEWACCS" in acc_list:
             acc_list = Pelt.newaccs
-        #drones
-        elif "DRONES" in acc_list:
-            acc_list = Pelt.drones
+        #drones used to be here but apparently they are collars
         else:
             acc_list = [x for x in acc_list if x in Pelt.plant_accessories + Pelt.wild_accessories +\
         Pelt.tail_accessories + Pelt.collars + Pelt.lizards + Pelt.insectwings + Pelt.buddies + Pelt.muddypaws +\
-        Pelt.newaccs + Pelt.drones + Pelt.herbs2
+        Pelt.newaccs + Pelt.herbs2
                             and x not in cat.pelt.inventory]
 
         if not acc_list:
