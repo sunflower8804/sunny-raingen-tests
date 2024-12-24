@@ -664,7 +664,7 @@ class ProfileScreen(Screens):
                 else:
                     self.the_cat.pelt.accessories.append(self.accessories_list[n])
                 for acc in self.accessory_buttons:
-                    self.accessory_buttons[acc].kill();
+                    self.accessory_buttons[acc].kill()
                     print("big tab 2 kill")
                 for acc in self.cat_list_buttons:
                     self.cat_list_buttons[acc].kill()
@@ -975,7 +975,7 @@ class ProfileScreen(Screens):
 
         # if cat is a med or med app, show button for their den
         self.profile_elements["med_den"] = UIImageButton(
-            scale(pygame.Rect((200, 760), (302, 56))),
+            scale(pygame.Rect((200, 760), (242, 56))),
             "",
             object_id="#med_den_button",
             manager=MANAGER,
@@ -2780,7 +2780,7 @@ class ProfileScreen(Screens):
                 for i in self.cat_list_buttons:
                     self.cat_list_buttons[i].kill()
                 for i in self.accessory_buttons:
-                    self.accessory_buttons[i].kill();
+                    self.accessory_buttons[i].kill()
                 self.open_accessories()
 
         # History Tab:
@@ -2922,7 +2922,7 @@ class ProfileScreen(Screens):
             for i in self.cat_list_buttons:
                 self.cat_list_buttons[i].kill()
             for i in self.accessory_buttons:
-                self.accessory_buttons[i].kill();
+                self.accessory_buttons[i].kill()
             self.next_page_button.kill()
             self.previous_page_button.kill()
             self.clear_accessories.kill()
@@ -3058,10 +3058,10 @@ class ProfileScreen(Screens):
                     self.next_page_button.enable()
             elif self.search_bar.get_text() != self.previous_search_text:
                 self.page = 0
-                for i in self.cat_list_buttons:
-                    self.cat_list_buttons[acc].kill();
-                for i in self.accessory_buttons:
-                    self.accessory_buttons[acc].kill();
+                for acc in self.cat_list_buttons:
+                    self.cat_list_buttons[acc].kill()
+                for acc in self.accessory_buttons:
+                    self.accessory_buttons[acc].kill()
                 self.open_accessories()
 
                 if self.page == 0 and self.max_pages in [0, 1]:
