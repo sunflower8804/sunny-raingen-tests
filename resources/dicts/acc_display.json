@@ -934,6 +934,16 @@
     "plural": "little balloons",
     "singular": "little balloon"
   },
+  "WORMGRASSPOT": {
+    "default": "worm grass",
+    "plural": "worm grass",
+    "singular": "worm grass"
+  },
+  "POLEPLANTPOT": {
+    "default": "pole plant",
+    "plural": "pole plants",
+    "singular": "pole plant"
+  },
   "BATFLY": {
     "default": "batfly",
     "plural": "batflies",
@@ -1053,5 +1063,20 @@
     "default": "scavenger toll mask",
     "plural": "scavenger toll masks",
     "singular": "scavenger toll mask"
+  },
+  "MUSHROOMHAT": {
+    "default": "mushroom hat",
+    "plural": "mushroom hats",
+    "singular": "mushroom hat"
+  },
+  "GRENADE": {
+    "default": "grenade",
+    "plural": "grenades",
+    "singular": "grenade"
+  },
+  "SANTAHAT": {
+    "default": "christmas hat",
+    "plural": "christmas hats",
+    "singular": "christmas hat"
   }
 }
