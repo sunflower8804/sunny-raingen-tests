@@ -45,6 +45,7 @@ class Pelt():
         'Solace': 'solace',
         'Leafy': 'leafy',
         'Scaled': 'scaled',
+        'Dragonfruit': 'dragonfruit',
         'Tortie': None,
         'Calico': None,
     }
@@ -77,7 +78,7 @@ class Pelt():
     tortiebases = ['single', 'tabby', 'bengal', 'marbled', 'ticked', 'smoke', 'rosette', 'speckled', 'mackerel',
                 'classic', 'sokoke', 'agouti', 'singlestripe', 'masked', 'gravel', 'collared', 'slimemold',
                 'cyanlizard', 'vulture', 'banana', 'centipede', 'conductor', 'lizard', 'lantern', 'leviathan',
-                'fluffy', 'amoeba', 'yeek', 'rusted', 'envoy', 'drizzle','solace', 'leafy', 'scaled']
+                'fluffy', 'amoeba', 'yeek', 'rusted', 'envoy', 'drizzle','solace', 'leafy', 'scaled', 'dragonfruit']
     
     pelt_length = ["short", "medium", "long"]
     eye_colours = ['YELLOW', 'AMBER', 'HAZEL', 'PALEGREEN', 'GREEN', 'BLUE', 'DARKBLUE', 'GREY', 'CYAN', 'EMERALD', 'PALEBLUE', 
@@ -169,7 +170,7 @@ class Pelt():
 
     tabbies = ["Tabby", "Ticked", "Classic", "Sokoke", "Agouti", "Masked", "Vulture", "Envoy", "Drizzle"]
     spotted = ["Speckled", "Rosette", "Gravel", "Banana", "Conductor", "Bengal"]
-    plain = ["SingleColour", "TwoColour", "Smoke", "Singlestripe", "Collared", "Slimemold", "Fluffy", "Yeek", "Rusted", "Leafy", "Scaled"]
+    plain = ["SingleColour", "TwoColour", "Smoke", "Singlestripe", "Collared", "Slimemold", "Fluffy", "Yeek", "Rusted", "Leafy", "Scaled", "Dragonfruit"]
     exotic = ["Mackerel", "Marbled", "Lizard", "Cyanlizard", "Centipede", "Lantern", "Leviathan", "Amoeba", "Seaslug", "Solace"]
     torties = ["Tortie", "Calico"]
     pelt_categories = [tabbies, spotted, plain, exotic, torties]
