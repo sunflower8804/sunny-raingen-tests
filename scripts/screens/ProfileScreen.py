@@ -364,8 +364,6 @@ class ProfileScreen(Screens):
                                 self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['lizards' + accessory + cat_sprite], manager=MANAGER)
                             elif accessory in cat.pelt.muddypaws:
                                 self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['muddypaws' + accessory + cat_sprite], manager=MANAGER)
-                            elif accessory in cat.pelt.moreaccs:
-                                self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['moreaccs' + accessory + cat_sprite], manager=MANAGER)
                             elif accessory in cat.pelt.newaccs:
                                 self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['newaccs' + accessory + cat_sprite], manager=MANAGER)
                             elif accessory in cat.pelt.insectwings:
@@ -665,7 +663,6 @@ class ProfileScreen(Screens):
                     self.the_cat.pelt.accessories.append(self.accessories_list[n])
                 for acc in self.accessory_buttons:
                     self.accessory_buttons[acc].kill()
-                    print("big tab 2 kill")
                 for acc in self.cat_list_buttons:
                     self.cat_list_buttons[acc].kill()
 
@@ -707,8 +704,6 @@ class ProfileScreen(Screens):
                                     self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['lizards' + accessory + cat_sprite], manager=MANAGER)
                                 elif accessory in cat.pelt.muddypaws:
                                     self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['muddypaws' + accessory + cat_sprite], manager=MANAGER)
-                                elif accessory in cat.pelt.moreaccs:
-                                    self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['moreaccs' + accessory + cat_sprite], manager=MANAGER)
                                 elif accessory in cat.pelt.newaccs:
                                     self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['newaccs' + accessory + cat_sprite], manager=MANAGER)
                                 elif accessory in cat.pelt.insectwings:
@@ -2555,8 +2550,6 @@ class ProfileScreen(Screens):
                             self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['lizards' + accessory + cat_sprite], manager=MANAGER)
                         elif accessory in cat.pelt.muddypaws:
                             self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['muddypaws' + accessory + cat_sprite], manager=MANAGER)
-                        elif accessory in cat.pelt.moreaccs:
-                            self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['moreaccs' + accessory + cat_sprite], manager=MANAGER)
                         elif accessory in cat.pelt.newaccs:
                             self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['newaccs' + accessory + cat_sprite], manager=MANAGER)
                         elif accessory in cat.pelt.insectwings:
