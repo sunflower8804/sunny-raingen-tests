@@ -80,7 +80,13 @@
             "Alternate sprites for antennae / tail spots",
             "Use an alternate set of sprites for slugcat antennae and tail spots. Changes will be applied after restarting the game.",
             false
+        ],
+        "christmas_time": [
+            "Christmas time",
+            "Gives every slugcat a little christmas hat. Changes will be applied after restarting the game.",
+            false
         ]
+
     },
     "..": "these are special. they do not have a display name or a tooltip",
     "__other": {

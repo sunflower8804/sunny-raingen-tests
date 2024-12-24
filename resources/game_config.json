@@ -202,7 +202,7 @@
 	},
 	"accessory_generation": {
 		"base_acc_chance": 150,
-		"med_modifier": -80,
+		"med_modifier": -50,
 		"baby_modifier": -50,
 		"elder_modifier": 20,
 		"happy_trait_modifier": -30,
