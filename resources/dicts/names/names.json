@@ -34,7 +34,11 @@
     "Slimemold": [" The Flickering", " The Gleaming", " The Glimmering", " The Glowing", " The Shining"],
     "Seaslug": [" The Slug", " The Snail", " The Mantled", " The Slimy", " The Gooey", " The Gloopy", " The Sticky", " The Soapy", " The Slippery"],
     "Leviathan": [" The Leviathan", " The Banded", " The Barred", " The Lined", " The Streaky", " The Striated", " The Striped", " The Stripy", " The Variegated"],
-    "Centipede": [" The Centipede", " The Electric", " The Galvanic", " The Voltaic", " The Buzzy", " The Battery", " The Centiwing", " The Aquapede"]
+    "Centipede": [" The Centipede", " The Electric", " The Galvanic", " The Voltaic", " The Buzzy", " The Battery", " The Centiwing", " The Aquapede"],
+    "Solace": [" The Ecplipsed", " The Lined", " The Streaky", " The Striated", " The Striped", " The Solstace", " The Banded"],
+    "Leafy": [" The Feathery", " The Feathered", " The Leafy", " The Leafed", " The Fluffy", " The Downy"],
+    "Scaled": [" The Dragon", " The Lizard", " The Scaled", " The Armored", " The Reptile"],
+    "Dragonfruit": [" The Fruity", " The Fruit", " The Dragon", " The Seed", " The Seeded", " The Colorful", " The Tasty"]
   },
   "tortie_pelt_suffixes": {
     "single": [" The Simple", " The Basic", " The Classic", " The Clear", " The Comprehensible", " The Elementary", " The Intelligible", " The Modest", " The Noncomplex", " The Ordinary", " The Plain", " The Pure", " The Unambiguous", " The Uncluttered", " The Uncomplicated", " The Unembellished", " The Unmixed"],
