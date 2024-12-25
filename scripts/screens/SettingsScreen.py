@@ -55,7 +55,7 @@ class SettingsScreen(Screens):
 
     info_text = ""
     tooltip_text = []
-    with open('resources/credits_text.json', 'r', encoding='utf-8') as f
+    with open('resources/credits_text.json', 'r', encoding='utf-8') as f:
         credits_text = ujson.load(f)
     for string in credits_text["text"]:
         if string == "{contrib}":
