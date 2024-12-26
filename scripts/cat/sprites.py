@@ -131,19 +131,22 @@ class Sprites:
 
         for x in [
             'lineart', 'lineartdf', 'lineartdead',
-            'eyes', 'eyes2', 'skin', 'gilltongue', 'beagilltongue', 
+            'eyes', 'eyes2', 'skin', 'gilltongue', 'beagilltongue', 'horns',
             'scars', 'missingscars',
             'medcatherbs',
             'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards', 'drones', 'muddypaws', 
-            'herbs2', 'insectwings', 'buddies', 'newaccs',
+            'herbs2', 'insectwings', 'buddies', 'newaccs', 'bodypaint', 'implant', 'magic', 
             'singlecolours', 'speckledcolours', 'tabbycolours', 'bengalcolours', 'marbledcolours',
             'rosettecolours', 'smokecolours', 'tickedcolours', 'mackerelcolours', 'classiccolours',
             'sokokecolours', 'agouticolours', 'singlestripecolours', 'maskedcolours', 'bananacolours',
             'centipedecolours', 'collaredcolours', 'concolours', 'gravelcolours', 'cyanlizardcolours',
             'slimemoldcolours', 'lanterncolours', 'vulturecolours', 'lizardcolours', 'leviathancolours',
             'fluffycolours', 'amoebacolours', 'seaslugcolours', 'yeekcolours', 'rustedcolours',
-            'envoycolours', 'drizzlecolours', 'solacecolours', 'leafycolours', 'scaledcolours', 'dragonfruitcolours', 'raineyes', 'raineyes2',
-            'multieyes', 'multiraineyes', 'shadersnewwhite', 'lightingnew',
+            'envoycolours', 'drizzlecolours', 'solacecolours', 'leafycolours', 'scaledcolours', 
+            'dragonfruitcolours', 'necklacecolours', 'dreamercolours', 'duskdawncolours', 
+            'seercolours', 'rottencolours',
+            'raineyes', 'raineyes2', 'multieyes', 'multiraineyes', 
+            'shadersnewwhite', 'lightingnew',
             'whitepatches', 'tortiepatchesmasks',
             'fademask', 'fadestarclan', 'fadedarkforest',
             'symbols'
@@ -495,6 +498,42 @@ class Sprites:
             self.make_group('dragonfruitcolours', (a, 1), f'dragonfruit{i}')
         for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
             self.make_group('dragonfruitcolours', (a, 2), f'dragonfruit{i}')
+        # necklace
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('necklacecolours', (a, 0), f'necklace{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
+            self.make_group('necklacecolours', (a, 1), f'necklace{i}')
+        for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('necklacecolours', (a, 2), f'necklace{i}')
+        # dreamer
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('dreamercolours', (a, 0), f'dreamer{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
+            self.make_group('dreamercolours', (a, 1), f'dreamer{i}')
+        for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('dreamercolours', (a, 2), f'dreamer{i}')
+        # duskdawn
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('duskdawncolours', (a, 0), f'duskdawn{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
+            self.make_group('duskdawncolours', (a, 1), f'duskdawn{i}')
+        for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('duskdawncolours', (a, 2), f'duskdawn{i}')
+        # seer
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('seercolours', (a, 0), f'seer{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
+            self.make_group('seercolours', (a, 1), f'seer{i}')
+        for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('seercolours', (a, 2), f'seer{i}')
+        # rotten
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('rottencolours', (a, 0), f'rotten{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
+            self.make_group('rottencolours', (a, 1), f'rotten{i}')
+        for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('rottencolours', (a, 2), f'rotten{i}')
+
         # new new torties
         for a, i in enumerate(['ONE', 'TWO', 'THREE', 'FOUR', 'REDTAIL', 'DELILAH', 'HALF', 'STREAK', 'MASK', 'SMOKE']):
             self.make_group('tortiepatchesmasks', (a, 0), f"tortiemask{i}")
@@ -548,6 +587,20 @@ class Sprites:
                     self.make_group('gilltongue', (a, 5), f"skin{i}")
             for a, i in enumerate(['GREENHORNS', 'BLUEHORNS', 'ORANGEHORNS', 'BROWNHORNS']):
                 self.make_group('gilltongue', (a, 6), f"skin{i}")
+
+            #Horns
+            #for a, i in enumerate(['WHITEHORNSRAM', 'BLACKHORNSRAM', 'REDHORNSRAM', 'YELLOWHORNSRAM', 'GREENHORNSRAM', 'BLUEHORNSRAM', 'ORANGEHORNSRAM', 'BROWNHORNSRAM']):
+            #    self.make_group('horns', (a, 0), f"skin{i}")
+            #for a, i in enumerate(['WHITEHORNSSCAV', 'BLACKHORNSSCAV', 'REDHORNSSCAV', 'YELLOWHORNSSCAV', 'GREENHORNSSCAV', 'BLUEHORNSSCAV', 'ORANGEHORNSSCAV', 'BROWNHORNSSCAV']):
+            #    self.make_group('horns', (a, 1), f"skin{i}")
+            #for a, i in enumerate(['WHITEHORNSELITE', 'BLACKHORNSELITE', 'REDHORNSELITE', 'YELLOWHORNSELITE', 'GREENHORNSELITE', 'BLUEHORNSELITE', 'ORANGEHORNSELITE', 'BROWNHORNSELITE']):
+            #    self.make_group('horns', (a, 2), f"skin{i}")
+            #for a, i in enumerate(['WHITEHORNSSHARP', 'BLACKHORNSSHARP', 'REDHORNSSHARP', 'YELLOWHORNSSHARP', 'GREENHORNSSHARP', 'BLUEHORNSSHARP', 'ORANGEHORNSSHARP', 'BROWNHORNSSHARP']):
+            #    self.make_group('horns', (a, 3), f"skin{i}")
+            #for a, i in enumerate(['WHITEHORNSDRAGON', 'BLACKHORNSDRAGON', 'REDHORNSDRAGON', 'YELLOWHORNSDRAGON', 'GREENHORNSDRAGON', 'BLUEHORNSDRAGON', 'ORANGEHORNSDRAGON', 'BROWNHORNSDRAGON']):
+            #    self.make_group('horns', (a, 4), f"skin{i}")
+            #for a, i in enumerate(['WHITEHORNSLANCER', 'BLACKHORNSLANCER', 'REDHORNSLANCER', 'YELLOWHORNSLANCER', 'GREENHORNSLANCER', 'BLUEHORNSLANCER', 'ORANGEHORNSLANCER', 'BROWNHORNSLANCER']):
+            #    self.make_group('horns', (a, 5), f"skin{i}")
 
         self.load_scars()
         self.load_symbols()
@@ -661,6 +714,18 @@ class Sprites:
             ["NECKLACESILVER", "NECKLACEGOLD", "TAILWRAP", "RAINCOAT", "LACESCARF", "TOLLMASK"],
             ["FLOWEREDMOSS", "MOSS", "MUSHROOMS", "MUSHROOMHAT", "GRENADE", "SANTAHAT"]
         ]
+        bodypaint_data = [
+            ["REDPAINT", "PINKPAINT", "VOIDPAINT", "YELLOWPAINT", "GREENPAINT", "PALEPAINT"],
+            ["CYANPAINT", "BLUEPAINT", "PURPLEPAINT", "MAGENTAPAINT", "BLACKPAINT", "WHITEPAINT"]
+        ]
+        implant_data = [
+            ["IMPLANTWHITE", "IMPLANTPURPLE", "IMPLANTGREEN", "IMPLANTYELLOW", "IMPLANTBLUE"]
+        ]
+        magic_data = [
+            ["ORANGEFIRE", "GREENFIRE", "BLUEFIRE", "YELLOWFIRE", "WHITEFIRE", "PINKFIRE", "REDFIRE"],
+            ["GREENRING", "CYANRING", "SILVERRING", "WHITERING", "YELLOWRING", "VOIDRING", "GOLDRING"],
+            ["PETPEBBLE", "PETCLAY", "PETLAPIS", "PETAMETHYST", "PETJADE", "PETGRANITE", "PETSANDSTONE"]
+        ]
 
         # medcatherbs
         for row, herbs in enumerate(medcatherbs_data):
@@ -729,6 +794,22 @@ class Sprites:
         for row, newaccs in enumerate(newaccs_data):
             for col, newaccs in enumerate(newaccs):
                 self.make_group('newaccs', (col, row), f'newaccs{newaccs}')
+
+        #bodypaint
+        for row, bodypaint in enumerate(bodypaint_data):
+            for col, bodypaint in enumerate(bodypaint):
+                self.make_group('bodypaint', (col, row), f'bodypaint{bodypaint}')
+
+        #implant
+        for row, implant in enumerate(implant_data):
+            for col, implant in enumerate(implant):
+                self.make_group('implant', (col, row), f'implant{implant}')
+
+        #magic
+        for row, magic in enumerate(magic_data):
+            for col, magic in enumerate(magic):
+                self.make_group('magic', (col, row), f'magic{magic}')
+
 
     def load_symbols(self):
         """
