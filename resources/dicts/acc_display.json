@@ -1054,6 +1054,16 @@
     "plural": "ancient raincoats",
     "singular": "ancient raincoat"
   },
+  "LACESCARF": {
+    "default": "ancient decoration",
+    "plural": "ancient decorations",
+    "singular": "ancient decoration"
+  },
+  "TOLLMASK": {
+    "default": "scavenger toll mask",
+    "plural": "scavenger toll masks",
+    "singular": "scavenger toll mask"
+  },
   "MUSHROOMHAT": {
     "default": "mushroom hat",
     "plural": "mushroom hats",
