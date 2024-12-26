@@ -16,6 +16,11 @@
         "",
         "<b>Thank you for playing!!</b>",
         "",
+	"<b>Massive thank you to the amazing Clangen modding community and especially the community supporting Raingen's development!</b>",
+	"<b>Raingen's credits:</b>",
+        "<i>(hover over a name to see their contributions!)",
+	"{raincontrib}",
+	"",
         "Code is licensed under <a href=https://www.mozilla.org/en-US/MPL/2.0/>Mozilla Public License Version 2.0</a>",
         "Art is licensed under <a href=https://creativecommons.org/licenses/by-nc/4.0/legalcode>CC-BY-NC 4.0</a> "
     ],
@@ -99,5 +104,29 @@
         "Tybaxel": "Patrol sprites, Clan creation screen art",
         "wood pank": "Art",
         "ZtheCorgi (Zabe)": "Nylon & indigo collars, various small bugfixes and proofreading"
+    },
+    "raincontrib": {
+	"acorn": "Names, electric spear acc",
+	"bea": "Original mod creator: White patches, tortie patches, original lineart, original pelt colours, original rot faded sprites",
+	"bucketofmackerels": "White patches, tortie patches, extra white patch tints, void sea bg 1, tabby, gravel, vulture, slimemold, and collared pelts",
+	"clayteeth": "Conductor and centipede pelts",
+	"cosmo": "White patches, patrol art, overseer eye accs, rotwound bg",
+	"crazydraws": "White patches",
+	"devilkitten": "Majority of text replacements, yeek pelt",
+	"flamedash": "Voidspawn acc, solace pelt, text replacement, raingen credit tab: hehehe hello",
+	"foxie": "Names, lizard pelt",
+	"funkytown": "little balloon & ancient colar accs",
+	"harley": "White patches, admin, envoy, leafy, scaled, and dragon fruit pelts, creature friend, egg and pupa fruit accs",
+	"lex": "lantern, fluffy, and amoeba pelts, lizard buddy accs, ui tweaks, expression eyes, gills and tongue bases",
+	"lisa": "Beak, lower scar",
+	"luchus": "Patrol art",
+	"murkrowo": "Neuron accs",
+	"raintailed": "White patches, rain eyes, void sea bg 2, leviathan pelt, names, gill and tongue colours, ui tweaks, screens",
+	"sey": "Patrol art, plant back and moth accs, loading animation 2, rot sick and rot scars",
+	"silveryshingu": "Banana slug pelt",
+	"slugcatpotatoes": "Liquid pelt",
+	"sunny": "Patrol art, satchel and red centipede armor accs, sea slug pelt",
+	"weird bird": "White patches, red, purple, and mauve eyes, drones and blinking flower accs, edited faded sprites",
+	"winter": "Cyan lizard pelt"	
     }
 }
