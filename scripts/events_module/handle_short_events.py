@@ -313,6 +313,24 @@ class HandleShortEvents:
             acc_list.extend(pelts.plant_accessories)
         if "COLLAR" in possible_accs:
             acc_list.extend(pelts.collars)
+        if "LIZARD" in possible_accs:
+            acc_list.extend(Pelt.lizards)
+        if "HERBS2" in possible_accs:
+            acc_list.extend(Pelt.herbs2)
+        if "MUDDYPAWS" in possible_accs:
+            acc_list.extend(Pelt.muddypaws)
+        if "INSECTWINGS" in possible_accs:
+            acc_list.extend(Pelt.insectwings)
+        if "BUDDIES" in possible_accs:
+            acc_list.extend(Pelt.buddies)
+        if "NEWACCS" in possible_accs:
+            acc_list.extend(Pelt.newaccs)
+        if "BODYPAINT" in possible_accs:
+            acc_list.extend(Pelt.bodypaint)
+        if "IMPLANT" in possible_accs:
+            acc_list.extend(Pelt.implant)
+        if "MAGIC" in possible_accs:
+            acc_list.extend(Pelt.magic)
 
         for acc in possible_accs:
             if acc not in ["WILD", "PLANT", "COLLAR"]:
