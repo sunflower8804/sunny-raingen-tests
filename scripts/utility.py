@@ -2632,6 +2632,12 @@ def generate_sprite(
                         new_sprite.blit(sprites.sprites['insectwings' + i + cat_sprite], (0, 0))
                     elif i in cat.pelt.buddies:
                         new_sprite.blit(sprites.sprites['buddies' + i + cat_sprite], (0, 0))
+                    elif i in cat.pelt.bodypaint:
+                        new_sprite.blit(sprites.sprites['bodypaint' + i + cat_sprite], (0, 0))
+                    elif i in cat.pelt.implant:
+                        new_sprite.blit(sprites.sprites['implant' + i + cat_sprite], (0, 0))
+                    elif i in cat.pelt.magic:
+                        new_sprite.blit(sprites.sprites['magic' + i + cat_sprite], (0, 0))
                
                 except:
                     continue
