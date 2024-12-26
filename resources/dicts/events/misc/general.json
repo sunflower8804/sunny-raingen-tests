@@ -1,5 +1,44 @@
 [
   {
+    "event_id": "gen_misc_any_magicaccsPLACEHOLDER",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 5,
+    "event_text": "m_c went missing for a few cycles and came back with a acc_singular.",
+    "new_accessory": ["MAGIC"],
+    "m_c": {
+      "age": ["any"],
+      "status": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_bodypaint",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 15,
+    "event_text": "m_c paints themself with a symbol that's haunted their sleep cycles, the karma they carry coloring their pelt.",
+    "new_accessory": ["BODYPAINT"],
+    "m_c": {
+      "age": ["any"],
+      "status": ["any"]
+    }
+  },
+  {
+    "event_id": "gen_misc_any_implant",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 3,
+    "event_text": "m_c went missing for a few cycles and came back with a acc_singular.",
+    "new_accessory": ["IMPLANT"],
+    "m_c": {
+      "age": ["any"],
+      "status": ["any"]
+    }
+  },
+  {
     "event_id": "gen_misc_any_pottedplant",
     "location": ["any"],
     "season": ["any"],
@@ -8,7 +47,8 @@
     "event_text":  "m_c finds a acc_singular sprout and decides to put it in a pot.",
     "new_accessory": ["WORMGRASSPOT", "POLEPLANTPOT"],
     "m_c": {
-      "age": ["any"]
+      "age": ["any"],
+      "status": ["any"]
     }
   },
   {
@@ -16,11 +56,12 @@
     "location": ["any"],
     "season": ["any"],
     "sub_type": ["accessory"],
-    "weight": 10,
+    "weight": 15,
     "event_text":  "m_c finds a grenade and decides to keep it.",
     "new_accessory": ["GRENADE"],
     "m_c": {
-      "age": ["any"]
+      "age": ["any"],
+      "status": ["any"]
     }
   },
   {
@@ -30,9 +71,10 @@
     "sub_type": ["accessory"],
     "weight": 15,
     "event_text":  "m_c finds a mushroom and decides to wear it as a hat.",
-    "new_accessory": ["MUSHROOMS"],
+    "new_accessory": ["MUSHROOMHAT"],
     "m_c": {
-      "age": ["any"]
+      "age": ["any"],
+      "status": ["any"]
     }
   },
   {
@@ -44,7 +86,8 @@
     "event_text":  "m_c used to hate moss, but now it grew on {PRONOUN/m_c/object}.",
     "new_accessory": ["FLOWEREDMOSS", "MOSS"],
     "m_c": {
-      "age": ["any"]
+      "age": ["any"],
+      "status": ["any"]
     }
   },
   {
@@ -56,7 +99,8 @@
     "event_text":  "m_c used to hate mushrooms, but now they grew on {PRONOUN/m_c/object}.",
     "new_accessory": ["MUSHROOMS"],
     "m_c": {
-      "age": ["any"]
+      "age": ["any"],
+      "status": ["any"]
     }
   },
   {
@@ -81,7 +125,8 @@
     "event_text":  "m_c is constantly being watched by acc_plural.",
     "new_accessory": ["IGGYYELLOW", "IGGYPURPLE", "IGGYWHITE", "IGGYGREEN", "IGGYRED", "IGGYBLUE"],
     "m_c": {
-      "age": ["any"]
+      "age": ["any"],
+      "status": ["any"]
     }
   },
   {
@@ -106,7 +151,8 @@
     "event_text":  "m_c explores ancient ruins and finds a hidden acc_singular that is very well preserved.",
     "new_accessory": ["KARMAONE", "KARMATWO", "KARMATHREE", "KARMAFOUR", "SCROLL", "NECKLACESILVER", "NECKLACEGOLD", "TAILWRAP", "RAINCOAT", "LACESCARF"],
     "m_c": {
-      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
+      "status": ["any"]
     }
   },
   {
@@ -118,7 +164,8 @@
     "event_text":  "m_c got sick of overseers watching {PRONOUN/m_c/object} constantly. {PRONOUN/m_c/subject/CAP} did a lucky spear hit and now wears the acc_singular as a trophy to scare off the rest of the spies.",
     "new_accessory": ["OVERSEEREYE"],
     "m_c": {
-      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
+      "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
+      "status": ["any"]
     }
   },
   {
@@ -130,7 +177,8 @@
     "event_text":  "m_c finds an unusually sharp spear and decides to keep it.",
     "new_accessory": ["SPEAR"],
     "m_c": {
-      "age": ["any"]
+      "age": ["any"],
+      "status": ["any"]
     }
   },
   {
@@ -142,7 +190,8 @@
     "event_text":  "m_c finds an explosive spear and decides to keep it.",
     "new_accessory": ["EXPLOSPEAR"],
     "m_c": {
-      "age": ["any"]
+      "age": ["any"],
+      "status": ["any"]
     }
   },
   {
@@ -154,7 +203,8 @@
     "event_text":  "m_c finds a shiny electric spear and decides to keep it.",
     "new_accessory": ["ELESPEAR"],
     "m_c": {
-      "age": ["any"]
+      "age": ["any"],
+      "status": ["any"]
     }
   },
   {
@@ -370,7 +420,7 @@
     "new_accessory": ["VOIDSPAWN"],
     "m_c":{
       "age": ["any"],
-      "skill": ["GHOST,2", "STAR,2"]
+      "skill": ["GHOST,1", "STAR,1"]
     }
   },
   {
