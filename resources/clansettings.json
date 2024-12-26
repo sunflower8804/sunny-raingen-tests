@@ -56,13 +56,13 @@
             true
         ],
         "moons and seasons": [
-            "Show moons and seasons widget",
+            "Show cycles and seasons widget",
             "Displays Clan age and current Clan season on several pages.",
             false
         ],
 		"all accessories": [
-            "Enable all accessories",
-            "All slugcats will have all accessories available in their inventory",
+            "Unlimited accessories",
+            "All slugcats have access to all accessories in the game. Warning: this is irreversible!",
             false
         ]
     },
@@ -227,7 +227,7 @@
         ],
         "hoarding":[
             "Hoarding Resources",
-            "Your warriors begin stockpiling as many resources as they can get their paws on, regardless of their own safety. Prey and herbs will increase each moonskip, but injuries and illnesses will also increase.",
+            "Your warriors begin stockpiling as many resources as they can get their paws on, regardless of their own safety. Prey and herbs will increase each timeskip, but injuries and illnesses will also increase.",
             false,
             "hoard_focus",
             "#hoard_focus_button"
