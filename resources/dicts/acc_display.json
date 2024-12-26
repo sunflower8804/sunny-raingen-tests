@@ -1054,16 +1054,6 @@
     "plural": "ancient raincoats",
     "singular": "ancient raincoat"
   },
-  "LACESCARF": {
-    "default": "ancient decoration",
-    "plural": "ancient decorations",
-    "singular": "ancient decoration"
-  },
-  "TOLLMASK": {
-    "default": "scavenger toll mask",
-    "plural": "scavenger toll masks",
-    "singular": "scavenger toll mask"
-  },
   "MUSHROOMHAT": {
     "default": "mushroom hat",
     "plural": "mushroom hats",
@@ -1078,5 +1068,195 @@
     "default": "christmas hat",
     "plural": "christmas hats",
     "singular": "christmas hat"
+  },
+  "REDPAINT": {
+    "default": "red body paint",
+    "plural": "red body paint",
+    "singular": "red body paint"
+  },
+  "PINKPAINT": {
+    "default": "pink body paint",
+    "plural": "pink body paint",
+    "singular": "pink body paint"
+  },
+  "VOIDPAINT": {
+    "default": "gold body paint",
+    "plural": "gold body paint",
+    "singular": "gold body paint"
+  },
+  "YELLOWPAINT": {
+    "default": "yellow body paint",
+    "plural": "yellow body paint",
+    "singular": "yellow body paint"
+  },
+  "GREENPAINT": {
+    "default": "green body paint",
+    "plural": "green body paint",
+    "singular": "green body paint"
+  },
+  "PALEPAINT": {
+    "default": "silver body paint",
+    "plural": "silver body paint",
+    "singular": "silver body paint"
+  },
+  "CYANPAINT": {
+    "default": "cyan body paint",
+    "plural": "cyan body paint",
+    "singular": "cyan body paint"
+  },
+  "BLUEPAINT": {
+    "default": "blue body paint",
+    "plural": "blue body paint",
+    "singular": "blue body paint"
+  },
+  "PURPLEPAINT": {
+    "default": "purple body paint",
+    "plural": "purple body paint",
+    "singular": "purple body paint"
+  },
+  "MAGENTAPAINT": {
+    "default": "magenta body paint",
+    "plural": "magenta body paint",
+    "singular": "magenta body paint"
+  },
+  "BLACKPAINT": {
+    "default": "black body paint",
+    "plural": "black body paint",
+    "singular": "black body paint"
+  },
+  "WHITEPAINT": {
+    "default": "white body paint",
+    "plural": "white body paint",
+    "singular": "white body paint"
+  },
+  "IMPLANTWHITE": {
+    "default": "neuron fly implant",
+    "plural": "neuron fly implant",
+    "singular": "neuron fly implant"
+  },
+  "IMPLANTPURPLE": {
+    "default": "neuron fly implant",
+    "plural": "neuron fly implant",
+    "singular": "neuron fly implant"
+  },
+  "IMPLANTGREEN": {
+    "default": "neuron fly implant",
+    "plural": "neuron fly implant",
+    "singular": "neuron fly implant"
+  },
+  "IMPLANTYELLOW": {
+    "default": "neuron fly implant",
+    "plural": "neuron fly implant",
+    "singular": "neuron fly implant"
+  },
+  "IMPLANTBLUE": {
+    "default": "neuron fly implant",
+    "plural": "neuron fly implant",
+    "singular": "neuron fly implant"
+  },
+  "ORANGEFIRE": {
+    "default": "orange flame tail",
+    "plural": "orange flame tails",
+    "singular": "orange flame tail"
+  },
+  "GREENFIRE": {
+    "default": "green flame tail",
+    "plural": "green flame tails",
+    "singular": "green flame tail"
+  },
+  "BLUEFIRE": {
+    "default": "blue flame tail",
+    "plural": "blue flame tails",
+    "singular": "blue flame tail"
+  },
+  "YELLOWFIRE": {
+    "default": "yellow flame tail",
+    "plural": "yellow flame tails",
+    "singular": "yellow flame tail"
+  },
+  "WHITEFIRE": {
+    "default": "white flame tail",
+    "plural": "white flame tails",
+    "singular": "white flame tail"
+  },
+  "PINKFIRE": {
+    "default": "pink flame tail",
+    "plural": "pink flame tails",
+    "singular": "pink flame tail"
+  },
+  "REDFIRE": {
+    "default": "red flame tail",
+    "plural": "red flame tails",
+    "singular": "red flame tail"
+  },
+  "GREENRING": {
+    "default": "green glowing ring",
+    "plural": "green glowing rings",
+    "singular": "green glowing ring"
+  },
+  "CYANRING": {
+    "default": "cyan glowing ring",
+    "plural": "cyan glowing rings",
+    "singular": "cyan glowing ring"
+  },
+  "SILVERRING": {
+    "default": "silver glowing ring",
+    "plural": "silver glowing rings",
+    "singular": "silver glowing ring"
+  },
+  "WHITERING": {
+    "default": "white glowing ring",
+    "plural": "white glowing rings",
+    "singular": "white glowing ring"
+  },
+  "YELLOWRING": {
+    "default": "yellow glowing ring",
+    "plural": "yellow glowing rings",
+    "singular": "yellow glowing ring"
+  },
+  "VOIDRING": {
+    "default": "gold glowing ring",
+    "plural": "gold glowing rings",
+    "singular": "gold glowing ring"
+  },
+  "GOLDRING": {
+    "default": "gold glowing ring",
+    "plural": "gold glowing rings",
+    "singular": "gold glowing ring"
+  },
+  "PETPEBBLE": {
+    "default": "pet rock",
+    "plural": "pet rocks",
+    "singular": "pet rock"
+  },
+  "PETSANDSTONE": {
+    "default": "pet sandstone rock",
+    "plural": "pet sandstone rocks",
+    "singular": "pet sandstone rock"
+  },
+  "PETLAPIS": {
+    "default": "pet lapis rock",
+    "plural": "pet lapis rocks",
+    "singular": "pet lapis rock"
+  },
+  "PETAMETHYST": {
+    "default": "pet amethyst rock",
+    "plural": "pet amethyst rocks",
+    "singular": "pet amethyst rock"
+  },
+  "PETJADE": {
+    "default": "pet jade rock",
+    "plural": "pet jade rocks",
+    "singular": "pet jade rock"
+  },
+  "PETGRANITE": {
+    "default": "pet granite rock",
+    "plural": "pet granite rocks",
+    "singular": "pet granite rock"
+  },
+  "PETCLAY": {
+    "default": "pet clay rock",
+    "plural": "pet clay rocks",
+    "singular": "pet clay rock"
   }
 }
