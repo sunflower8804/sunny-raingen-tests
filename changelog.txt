@@ -8,8 +8,8 @@ Added:
 - new camp: Fjord
 - even more names by Harley
 Fixed:
-• replaced more real life animals with Rain World creatures
-• slightly lowered the accessory chances 
+- replaced more real life animals with Rain World creatures
+- slightly lowered the accessory chances 
 
 
 <strong>v1.2.3.1</strong>
@@ -60,3 +60,49 @@ Fixed:
 - the file is finally called Raingen
 - and a million other tiny fixes
 - Changed a bunch of text in some random events. 
+
+
+<strong>v1.0.0</strong>
+- Github repositry created!
+
+
+<strong>v0.9.0</strong>
+THE ACCESSORY UPDATE!! 
+added:
+- a ton of new accessories and events for all of them!! 
+- multiple eyes and black claws that your slugcats can be born with!! 
+- a million minor text and code edits
+
+
+<strong>v0.8.1</strong>
+- Readded the Faded sprites (again)
+- All Forest Hunting patrols have been revamped!
+
+
+<strong>v0.8.0</strong>
+- Added 2 new camps for Outer Expanse and Ourskirts with art from Hydro-City-Zone!
+-- If you're experiencing any bugs or crashes - please let us know in the raingen discord!
+- Added Bea's full scar sprite!
+- Changed up the Create Clan screens to properly display your scugs leader role as 'The Leader' instead of '-Star'! 
+- Added an easy method for folks to change the game into the no extra tints version, until I go about actually making a button for it
+- Added spear-wounds to the injury list to prep for incoming scavenger patrols!
+- Added scav toll patrols to accompany the vulture ones!
+
+
+<strong>v0.7.0</strong>
+- Updated many patrol arts to be scugified!! Enjoy more scug patrols!
+- Rotsickness now has a very rare chance to give scugs Rotplague! (VERY RARE)
+- Rotsickness can now be gained through Strange Hunt patrols instead of poisoning. Might not wanna hunt that strange yeek, lizard, or lanternmouse anymore!
+- We now have a few new hunt patrols! Your scugs can now encounter pole plants in greater depth!
+
+
+<strong>v0.6.0</strong>
+- Updated all hunt patrols to replace thunderpaths with vulture encounters
+- Updated a few patrols to use the new lanternmouse patrol art
+- Redid most of forest's greenleaf patrols
+- Edited terminology in patrols! Medicine cats will now show as Clerics, and Moons will now show as cycles in all your patrols!
+- Relowered lizard tame chances to their intended rarity
+- Changed up many gen border patrols and some gen hunting patrols
+
+
+Any updates that come before v0.6.0 check the original mod thread in the Clangen server!
