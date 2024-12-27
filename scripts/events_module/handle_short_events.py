@@ -357,7 +357,7 @@ class HandleShortEvents:
         if "misc" not in self.types:
             self.types.append("misc")
         acc_list_R = []
-        R_possible_acc = getattr(self.main_cat.pelt.inventory, [])
+        R_possible_acc = getattr(self.main_cat.pelt.inventory, 'remove_accessory', [])
         if "WILD" in possible_accs:
             acc_list_R.extend(pelts.wild_accessories)
         if "PLANT" in possible_accs:
