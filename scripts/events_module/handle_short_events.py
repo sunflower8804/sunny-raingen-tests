@@ -298,7 +298,7 @@ class HandleShortEvents:
 
         if extra_text and extra_text not in self.chosen_event.text:
             self.chosen_event.text = self.chosen_event.text + " " + extra_text
-
+    
     def handle_accessories(self, pelts=Pelt):
         """
         handles giving accessories to the main_cat
@@ -350,6 +350,43 @@ class HandleShortEvents:
             self.main_cat.pelt.accessories.append(new_acc)
             self.main_cat.pelt.inventory.append(new_acc)
 
+    def handle_remove_accessory(self, pelts=Pelt):
+        """
+        Handles removing an accessory from a cat
+        """
+        if "misc" not in self.types:
+            self.types.append("misc")
+        acc_list_R = []
+        R_possible_acc = getattr(self.main_cat.pelt.inventory, [])
+        if "WILD" in possible_accs:
+            acc_list_R.extend(pelts.wild_accessories)
+        if "PLANT" in possible_accs:
+            acc_list_R.extend(pelts.plant_accessories)
+        if "COLLAR" in possible_accs:
+            acc_list_R.extend(pelts.collars)
+        if "LIZARD" in possible_accs:
+            acc_list_R.extend(Pelt.lizards)
+        if "HERBS2" in possible_accs:
+            acc_list_R.extend(Pelt.herbs2)
+        if "MUDDYPAWS" in possible_accs:
+            acc_list_R.extend(Pelt.muddypaws)
+        if "INSECTWINGS" in possible_accs:
+            acc_list_R.extend(Pelt.insectwings)
+        if "BUDDIES" in possible_accs:
+            acc_list_R.extend(Pelt.buddies)
+        if "NEWACCS" in possible_accs:
+            acc_list_R.extend(Pelt.newaccs)
+        if "BODYPAINT" in possible_accs:
+            acc_list_R.extend(Pelt.bodypaint)
+        if "IMPLANT" in possible_accs:
+            acc_list_R.extend(Pelt.implant)
+        if "MAGIC" in possible_accs:
+            acc_list_R.extend(Pelt.magic)
+
+        remove_acc = random.choice(acc_list_R)
+        self.main_cat.pelt.accessories.remove(remove_acc)
+        self.main_cat.pelt.inventory.remove(remove_acc)
+        
     def handle_death(self):
         """
         handles killing/murdering cats
