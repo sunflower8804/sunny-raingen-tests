@@ -1,26 +1,108 @@
-<strong>v0.11.2</strong>
-- Fix: ensure that the changelog is read as UTF-8
-- Fix: issue with manual feeding with tactic "low nutrition first"
-- Fix: edge case of a cat has the exiled status, but is not outside
+<strong>v1.3.1</strong>
+Added:
+- a complete overhaul of the accessories by Devilkitten! now you can see accessories in a separate tab and turn on and off every accessory individually
+- silly little christmas hats by Sunflowering (turn on in settings)
+- 4 new accessories: potted pole plant, potted worm grass and mushroom hat by Mimalot99, grenade by Cosmonaught
+- 3 new pelts: leafy and scaled by Harley, solace by Flamedash
+- updated tabby pelt by Bucketofmackerels
+- new camp: Fjord
+- even more names by Harley
+Fixed:
+- replaced more real life animals with Rain World creatures
+- slightly lowered the accessory chances 
 
-<strong>v0.11.1</strong>
-- Fix: The changelog. Yep, just the changelog. Yes, it happened again-
 
-<strong>v0.11.0</strong>
-- Feature: Freshkill pile & nutrition system
-- Feature: "Destroy accessory" button
-- Content: Lakeside Forest Background
-- Content: Murder for the new year
-- Content: expanded scars: "HINDLEG", "BACK", "QUILLSIDE", "SCRATCHSIDE", "TOE", "BEAKSIDE", "CATBITETWO", "SNAKETWO", "FOUR"
-    Expanded tortie: 'FRECKLED' white patches: 'BLAZEMASK', 'TEARS'
-- Content: Sibling and constrained patrols
-- Content: weights and mates
-- Content: expanded war events
-- Content: more patrols
-- QOL: Cat List UI Update
-- QOL: same sex setting update
-- QOL: update for freshkill switch
-- QOL: Patrol type decision enabled in classic
-- QOL: updated credits list
-- QOL:  change to poetry
-- Plus many more bug fixes, tweaks to events and patrols, and more! Aprils fools - we made an actual game update.
+<strong>v1.2.3.1</strong>
+- Fixed some buttons causing crashes or simply not working
+
+<strong>v1.2.3</strong>
+- Fixed some accessory patrols! You should be able to get monster kelp and other accessories again!
+- Fixed accessories being deleted!! Accessory system should now be FULLY FUNCTIONAL
+
+<strong>v1.2.2</strong>
+- Added the accessory system!!
+-- BE WARNED! If you save and quit with an accessory deselected, IT WILL BE DELETED!
+
+
+<strong>v1.2.1</strong>
+- Rewrote a bunch of injury short events! 
+- Foxes will now be white lizards
+- Dogs are now red lizards
+- Rats and snakes became spiders
+- Twolegs are removed and replaced with various things
+- Fixed a likely crash that one missed short event would have caused
+
+
+<strong>v1.2.0</strong>
+Added:
+- 4000 new slugcat titles (by Harley, Ceru, Lythorus, Mimalot99, Devilkitten and Lars) (more is coming!!)
+- drizzle pelt (by Ceru)
+- new white patches (by raintailed)
+- tiny horns (by squidsaymoo)
+- new loading animations
+Fixed:
+- you can hide accessories in the sprite inspect screen
+- minor sprite cleanup
+- a million minor text fixes 
+
+
+<strong>v1.1.0</strong>
+Added:
+- 262 new names (by Ceru)
+- new white patches and tortie masks (by Harley and cosmo)
+- new Rotwound background (by cosmo)
+- an option to use alternate sprites for antennae and tail spots (by Bea)
+- Changed up the Leader ceremony for both the Ascended and the Rotwound
+- Allowed accessories to be toggled in the Sprite Inspect screen
+Fixed:
+- choosing a clan icon shouldn't crash your game
+- Clangen's save files won't pretend to be Raingen's and break your game
+- the file is finally called Raingen
+- and a million other tiny fixes
+- Changed a bunch of text in some random events. 
+
+
+<strong>v1.0.0</strong>
+- Github repositry created!
+
+
+<strong>v0.9.0</strong>
+THE ACCESSORY UPDATE!! 
+added:
+- a ton of new accessories and events for all of them!! 
+- multiple eyes and black claws that your slugcats can be born with!! 
+- a million minor text and code edits
+
+
+<strong>v0.8.1</strong>
+- Readded the Faded sprites (again)
+- All Forest Hunting patrols have been revamped!
+
+
+<strong>v0.8.0</strong>
+- Added 2 new camps for Outer Expanse and Ourskirts with art from Hydro-City-Zone!
+-- If you're experiencing any bugs or crashes - please let us know in the raingen discord!
+- Added Bea's full scar sprite!
+- Changed up the Create Clan screens to properly display your scugs leader role as 'The Leader' instead of '-Star'! 
+- Added an easy method for folks to change the game into the no extra tints version, until I go about actually making a button for it
+- Added spear-wounds to the injury list to prep for incoming scavenger patrols!
+- Added scav toll patrols to accompany the vulture ones!
+
+
+<strong>v0.7.0</strong>
+- Updated many patrol arts to be scugified!! Enjoy more scug patrols!
+- Rotsickness now has a very rare chance to give scugs Rotplague! (VERY RARE)
+- Rotsickness can now be gained through Strange Hunt patrols instead of poisoning. Might not wanna hunt that strange yeek, lizard, or lanternmouse anymore!
+- We now have a few new hunt patrols! Your scugs can now encounter pole plants in greater depth!
+
+
+<strong>v0.6.0</strong>
+- Updated all hunt patrols to replace thunderpaths with vulture encounters
+- Updated a few patrols to use the new lanternmouse patrol art
+- Redid most of forest's greenleaf patrols
+- Edited terminology in patrols! Medicine cats will now show as Clerics, and Moons will now show as cycles in all your patrols!
+- Relowered lizard tame chances to their intended rarity
+- Changed up many gen border patrols and some gen hunting patrols
+
+
+Any updates that come before v0.6.0 check the original mod thread in the Clangen server!
