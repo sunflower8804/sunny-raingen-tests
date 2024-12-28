@@ -2638,6 +2638,8 @@ def generate_sprite(
                         new_sprite.blit(sprites.sprites['implant' + i + cat_sprite], (0, 0))
                     elif i in cat.pelt.magic:
                         new_sprite.blit(sprites.sprites['magic' + i + cat_sprite], (0, 0))
+                    elif i in cat.pelt.necklaces:
+                        new_sprite.blit(sprites.sprites['necklaces' + i + cat_sprite], (0, 0))
                
                 except:
                     continue
