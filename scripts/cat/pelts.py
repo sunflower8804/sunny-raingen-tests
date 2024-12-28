@@ -488,9 +488,6 @@ class Pelt():
             num = 1
             
         multieyenum = game.config["cat_generation"]["base_multieyes"]
-        
-        if not random.randint(0, multieyenum):
-            self.eye_colour2 = 'MULTI'+self.eye_colour
 
         if not random.randint(0, num):
             if self.eye_colour in Pelt.yellow_eyes:
@@ -516,6 +513,9 @@ class Pelt():
                 self.eye_colour2 = choice(eye_choice)
             elif self.eye_colour in Pelt.red_pupil_eyes:
                 eye_choice = choice([Pelt.yellow_pupil_eyes, Pelt.green_pupil_eyes, Pelt.blue_pupil_eyes])
+            
+        elif not random.randint(0, multieyenum):
+            self.eye_colour2 = 'MULTI'+self.eye_colour
 
     def pattern_color_inheritance(self, parents: tuple = (), gender="female"):
         # setting parent pelt categories
