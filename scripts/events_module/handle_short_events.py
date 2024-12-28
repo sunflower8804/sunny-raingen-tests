@@ -298,7 +298,7 @@ class HandleShortEvents:
 
         if extra_text and extra_text not in self.chosen_event.text:
             self.chosen_event.text = self.chosen_event.text + " " + extra_text
-
+    
     def handle_accessories(self, pelts=Pelt):
         """
         handles giving accessories to the main_cat

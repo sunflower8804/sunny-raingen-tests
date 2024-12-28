@@ -57,6 +57,7 @@ valid_records = {
         "low_lives": []
     },
     "new_accessory": {},
+    "remove_accessory": {},
     "injury": {
         "cats": {
             "m_c": [],
@@ -1471,6 +1472,11 @@ def ea_problems():
         ea_dump_records(invalid_records["new_accessory"])
         no_errors = False
 
+    if invalid_records["remove_accessory"]:
+        ea_header("Accessory")
+        ea_dump_records(invalid_records["remove_accessory"])
+        no_errors = False
+    
     ea_header("Injury Errors", trailing_newline=False, big=True)
     no_injury_errors = True
 
@@ -1619,8 +1625,9 @@ def ea_overview(count, subview="all"):
         ea_subgroup_report(valid_records["tags"], True)
 
     if subview in ["all", "accessory"]:
-        print("\nBreakdown by accessory gained:")
+        print("\nBreakdown by accessory gained or lost:")
         ea_subgroup_report(valid_records["new_accessory"])
+        ea_subgroup_report(valid_records["remove_accessory"])
     print("Returning to main program.")
 
 
