@@ -56,7 +56,8 @@ class Pelt():
         'Sunset': 'sunset',
         'Oldgrowth': 'oldgrowth',
         'Sparklecat': 'sparklecat',
-        'Meisterhunter': 'meisterhunter',
+        'Wolf': 'wolf',
+        'Cherry': 'cherry',
         'Tortie': None,
         'Calico': None,
     }
@@ -90,24 +91,54 @@ class Pelt():
                 'classic', 'sokoke', 'agouti', 'singlestripe', 'masked', 'gravel', 'collared', 'slimemold',
                 'cyanlizard', 'vulture', 'banana', 'centipede', 'conductor', 'lizard', 'lantern', 'leviathan',
                 'fluffy', 'amoeba', 'yeek', 'rusted', 'envoy', 'drizzle', 'solace', 'leafy', 'scaled', 'dragonfruit', 
-                'necklace', 'dreamer', 'duskdawn', 'seer', 'rotten', 'fire', 'countershaded', 'sunset', 'oldgrowth', 'sparklecat', 'meisterhunter']
+                'necklace', 'dreamer', 'duskdawn', 'seer', 'rotten', 'fire', 'countershaded', 'sunset', 'oldgrowth', 
+                'sparklecat', 'wolf', 'cherry']
     
     pelt_length = ["short", "medium", "long"]
     eye_colours = ['YELLOW', 'AMBER', 'HAZEL', 'PALEGREEN', 'GREEN', 'BLUE', 'DARKBLUE', 'GREY', 'CYAN', 'EMERALD', 'PALEBLUE', 
         'PALEYELLOW', 'GOLD', 'HEATHERBLUE', 'COPPER', 'SAGE', 'COBALT', 'SUNLITICE', 'GREENYELLOW', 'BRONZE', 'SILVER', 'RED', 'PURPLE', 'MAUVE',
         'ELECTRICBLUE', 'VIOLET', 'PINK', 'SNOW', 'ORANGE', 'CREAM', 'SEAFOAM', 'CRIMSON', 'NAVY', 'VOIDGOLD', 'COOLBROWN', 'PLUM',
-        'INDIGO', 'LILAC']
+        'INDIGO', 'LILAC', 
+        'ALBA',    'ALBINO', 'ANGEL',    'APPLE', 'AQUA', 'ARID', 'BANANA', 'BLOOD', 'CARNI', 'CHAIN', 
+        'CREAMY',    'DAWN',    'ESES', 'EXILE', 'FAE', 'FALLSTAR', 'FIELD', 'FOAM', 'HOT', 'IRID', 
+        'KARMA', 'KIND', 'MARTI', 'MEISTALT', 'MEISTER', 'MELON',    'MESS',    'MHUNT',    'MINT',    'MINV', 
+        'MOON', 'MRIV',    'PEACH',    'PEBB', 'PELA', 'PEPPER', 'RETRO', 'RUNT', 'RUST', 'SIG', 
+        'SIXER', 'SPLIT', 'SUN', 'SWEET', 'TIDE', 'VIVID', 'WAVE', 'WINKS', 'ZENI', 'BEAST'
+        ]
     yellow_eyes = ['YELLOW', 'AMBER', 'PALEYELLOW', 'GOLD', 'COPPER', 'GREENYELLOW', 'BRONZE', 'SILVER', 'ORANGE', 'CREAM', 'VOIDGOLD']
-    blue_eyes = ['BLUE', 'DARKBLUE', 'CYAN', 'PALEBLUE', 'HEATHERBLUE', 'COBALT', 'SUNLITICE', 'GREY', 'ELECTRICBLUE', 'SNOW', 'INDIGO']
-    green_eyes = ['PALEGREEN', 'GREEN', 'EMERALD', 'SAGE', 'HAZEL', 'SEAFOAM', 'NAVY']
-    red_eyes = ['RED', 'PURPLE', 'MAUVE', 'VIOLET', 'PINK', 'CRIMSON', 'COOLBROWN', 'PLUM', 'LILAC']
+    blue_eyes = ['BLUE', 'DARKBLUE', 'CYAN', 'PALEBLUE', 'HEATHERBLUE', 'COBALT', 'SUNLITICE', 'GREY', 'ELECTRICBLUE', 'SNOW', 'INDIGO',
+                 'ANGEL']
+    green_eyes = ['PALEGREEN', 'GREEN', 'EMERALD', 'SAGE', 'HAZEL', 'SEAFOAM', 'NAVY',
+                  'MESS']
+    red_eyes = ['RED', 'PURPLE', 'MAUVE', 'VIOLET', 'PINK', 'CRIMSON', 'COOLBROWN', 'PLUM', 'LILAC', 
+                'MINT', 'PEACH', 'ALBINO', 'DAWN']
+    
+
+    yellow_pupil_eyes = ['ALBA', 'BANANA', 'CREAMY', 'KARMA', 'MHUNT', 'PEPPER', 'SPLIT', 'WINKS', 'ZENI', 'BEAST']
+    blue_pupil_eyes = ['CARNI', 'CHAIN', 'FOAM', 'MEISTALT', 'MELON', 'MINV', 'MOON', 'MRIV', 'PEBB', 'RUST', 'SIG', 
+                 'TIDE', 'VIVID', 'WAVE']
+    green_pupil_eyes = ['APPLE', 'AQUA', 'FAE', 'FIELD', 'IRID', 'RUNT']
+    red_pupil_eyes = ['ARID', 'BLOOD', 'ESES', 'EXILE', 'FALLSTAR', 'HOT', 'KIND', 'MARTI', 'MEISTER', 
+                'PELA', 'RETRO', 'SIXER', 'SUN', 'SWEET']
+
     multi_eyes = ['MULTIYELLOW', 'MULTIAMBER', 'MULTIHAZEL', 'MULTIPALEGREEN', 'MULTIGREEN', 'MULTIBLUE', 
                 'MULTIDARKBLUE', 'MULTIGREY', 'MULTICYAN', 'MULTIEMERALD', 'MULTIHEATHERBLUE', 'MULTISUNLITICE',
                 'MULTICOPPER', 'MULTISAGE', 'MULTICOBALT', 'MULTIPALEBLUE', 'MULTIBRONZE', 'MULTISILVER',
                 'MULTIPALEYELLOW', 'MULTIGOLD', 'MULTIGREENYELLOW', 'MULTIRED', 'MULTIPURPLE', 'MULTIMAUVE',
                 'MULTIELECTRICBLUE', 'MULTIVIOLET', 'MULTIPINK', 'MULTISNOW',
                 'MULTIORANGE', 'MULTICREAM', 'MULTISEAFOAM', 'MULTICRIMSON', 'MULTINAVY',
-                'MULTIVOIDGOLD', 'MULTICOOLBROWN', 'MULTIPLUM', 'MULTIINDIGO', 'MULTILILAC']
+                'MULTIVOIDGOLD', 'MULTICOOLBROWN', 'MULTIPLUM', 'MULTIINDIGO', 'MULTILILAC',
+                'MULTIALBA', 'MULTIALBINO', 'MULTIANGEL', 'MULTIAPPLE', 'MULTIAQUA', 
+                'MULTIARID', 'MULTIBANANA', 'MULTIBLOOD', 'MULTICARNI', 'MULTICHAIN',
+                'MULTICREAMY', 'MULTIDAWN', 'MULTIESES', 'MULTIEXILE', 'MULTIFAE', 
+                'MULTIFALLSTAR', 'MULTIFIELD', 'MULTIFOAM', 'MULTIHOT', 'MULTIIRID',
+                'MULTIKARMA', 'MULTIKIND', 'MULTIMARTI', 'MULTIMEISTALT', 'MULTIMEISTER', 
+                'MULTIMELON', 'MULTIMESS', 'MULTIMHUNT', 'MULTIMINT', 'MULTIMINV',
+                'MULTIMOON', 'MULTIMRIV', 'MULTIPEACH', 'MULTIPEBB', 'MULTIPELA', 
+                'MULTIPEPPER', 'MULTIRETRO', 'MULTIRUNT', 'MULTIRUST', 'MULTISIG',
+                'MULTISIXER', 'MULTISPLIT', 'MULTISUN', 'MULTISWEET', 'MULTITIDE', 
+                'MULTIVIVID', 'MULTIWAVE', 'MULTIWINKS', 'MULTIZENI', 'MULTIBEAST'
+                ]
 
     # bite scars by @wood pank on discord
 
@@ -176,7 +207,8 @@ class Pelt():
         "REDARMOR", "OVERSEEREYE", "SPIDEREAR", "NEURONBLUE", "NEURONRED", "NEURONGREEN",
         "NEURONWHITE", "KARMAONE", "KARMATWO", "KARMATHREE", "KARMAFOUR", "SCROLL",
         "NECKLACESILVER", "NECKLACEGOLD", "TAILWRAP", "RAINCOAT", "LACESCARF", "TOLLMASK",
-        "FLOWEREDMOSS", "MOSS", "MUSHROOMS", "MUSHROOMHAT", "GRENADE", "SANTAHAT"
+        "FLOWEREDMOSS", "MOSS", "MUSHROOMS", "MUSHROOMHAT", "GRENADE", "SANTAHAT",
+        "EYEPATCH"
     ]
     bodypaint = [
         "REDPAINT", "PINKPAINT", "VOIDPAINT", "YELLOWPAINT", "GREENPAINT", "PALEPAINT",
@@ -190,12 +222,16 @@ class Pelt():
         "GREENRING", "CYANRING", "SILVERRING", "WHITERING", "YELLOWRING", "VOIDRING", "GOLDRING",
         "PETPEBBLE", "PETCLAY", "PETLAPIS", "PETAMETHYST", "PETJADE", "PETGRANITE", "PETSANDSTONE"
     ]
+    necklaces = [
+        "NECKLACEWHITE", "NECKLACEPINK", "NECKLACEPURPLE", "NECKLACEYELLOW", "NECKLACECYAN",
+        "NECKLACEGREEN", "NECKLACERED", "NECKLACEGOLD", "NECKLACEBLUE", "NECKLACEBLACK"
+    ]
 
 
     tabbies = ["Tabby", "Ticked", "Classic", "Sokoke", "Agouti", "Masked", "Vulture", "Envoy", "Drizzle", "Necklace", "Leviathan", "Rotten", "Fire"]
-    spotted = ["Speckled", "Rosette", "Gravel", "Banana", "Conductor", "Bengal", "Dreamer", "Oldgrowth"]
-    plain = ["SingleColour", "TwoColour", "Smoke", "Singlestripe", "Collared", "Lizard", "Slimemold", "Fluffy", "Yeek", "Rusted", "Leafy", "Scaled", "Countershaded", "Sunset", "Meisterhunter"]
-    exotic = ["Mackerel", "Marbled", "Cyanlizard", "Centipede", "Lantern", "Amoeba", "Seaslug", "Solace", "Dragonfruit", "Duskdawn", "Seer", "Sparklecat"]
+    spotted = ["Speckled", "Rosette", "Gravel", "Banana", "Conductor", "Bengal", "Dreamer", "Oldgrowth", "Cherry"]
+    plain = ["SingleColour", "TwoColour", "Smoke", "Singlestripe", "Collared", "Lizard", "Slimemold", "Fluffy", "Yeek", "Rusted", "Leafy", "Scaled", "Countershaded", "Sunset"]
+    exotic = ["Mackerel", "Marbled", "Cyanlizard", "Centipede", "Lantern", "Amoeba", "Seaslug", "Solace", "Dragonfruit", "Duskdawn", "Seer", "Wolf", "Sparklecat"]
     torties = ["Tortie", "Calico"]
     pelt_categories = [tabbies, spotted, plain, exotic, torties]
 
@@ -215,7 +251,12 @@ class Pelt():
         'GREY', 'CYAN', 'EMERALD', 'PALEBLUE', 'PALEYELLOW', 'GOLD', 'HEATHERBLUE', 'COPPER', 'SAGE', 'COBALT',
         'SUNLITICE', 'GREENYELLOW', 'BRONZE', 'SILVER', 'RED', 'PURPLE', 'MAUVE',
         'ELECTRICBLUE', 'VIOLET', 'PINK', 'SNOW', 'ORANGE', 'CREAM', 'SEAFOAM', 'CRIMSON', 'NAVY', 'VOIDGOLD', 'COOLBROWN', 'PLUM',
-        'INDIGO', 'LILAC'
+        'INDIGO', 'LILAC', 
+        'ALBA', 'ALBINO', 'ANGEL', 'APPLE', 'AQUA', 'ARID', 'BANANA', 'BLOOD', 'CARNI', 'CHAIN', 
+        'CREAMY', 'DAWN', 'ESES', 'EXILE', 'FAE', 'FALLSTAR', 'FIELD', 'FOAM', 'HOT', 'IRID', 
+        'KARMA', 'KIND', 'MARTI', 'MEISTALT', 'MEISTER', 'MELON', 'MESS', 'MHUNT', 'MINT', 'MINV', 
+        'MOON', 'MRIV', 'PEACH', 'PEBB', 'PELA', 'PEPPER', 'RETRO', 'RUNT', 'RUST', 'SIG', 
+        'SIXER', 'SPLIT', 'SUN', 'SWEET', 'TIDE', 'VIVID', 'WAVE', 'WINKS', 'ZENI', 'BEAST'
     ]
     little_white = ['LITTLE', 'LIGHTTUXEDO', 'BUZZARDFANG', 'TIP', 'BLAZE', 'BIB', 'VEE', 'PAWS',
                     'BELLY', 'TAILTIP', 'TOES', 'BROKENBLAZE', 'LILTWO', 'SCOURGE', 'TOESTAIL', 'RAVENPAW', 'HONEY',
@@ -451,7 +492,7 @@ class Pelt():
         if not random.randint(0, multieyenum):
             self.eye_colour2 = 'MULTI'+self.eye_colour
 
-        elif not random.randint(0, num):
+        if not random.randint(0, num):
             if self.eye_colour in Pelt.yellow_eyes:
                 eye_choice = choice([Pelt.blue_eyes, Pelt.green_eyes, Pelt.red_eyes])
                 self.eye_colour2 = choice(eye_choice)
@@ -463,6 +504,18 @@ class Pelt():
                 self.eye_colour2 = choice(eye_choice)
             elif self.eye_colour in Pelt.red_eyes:
                 eye_choice = choice([Pelt.yellow_eyes, Pelt.green_eyes, Pelt.blue_eyes])
+
+            elif self.eye_colour in Pelt.yellow_pupil_eyes:
+                eye_choice = choice([Pelt.blue_pupil_eyes, Pelt.green_pupil_eyes, Pelt.red_pupil_eyes])
+                self.eye_colour2 = choice(eye_choice)
+            elif self.eye_colour in Pelt.blue_pupil_eyes:
+                eye_choice = choice([Pelt.yellow_pupil_eyes, Pelt.green_pupil_eyes, Pelt.red_pupil_eyes])
+                self.eye_colour2 = choice(eye_choice)
+            elif self.eye_colour in Pelt.green_pupil_eyes:
+                eye_choice = choice([Pelt.yellow_pupil_eyes, Pelt.blue_pupil_eyes, Pelt.red_pupil_eyes])
+                self.eye_colour2 = choice(eye_choice)
+            elif self.eye_colour in Pelt.red_pupil_eyes:
+                eye_choice = choice([Pelt.yellow_pupil_eyes, Pelt.green_pupil_eyes, Pelt.blue_pupil_eyes])
 
     def pattern_color_inheritance(self, parents: tuple = (), gender="female"):
         # setting parent pelt categories
@@ -805,7 +858,8 @@ class Pelt():
                 choice(Pelt.herbs2),
                 choice(Pelt.buddies),
                 choice(Pelt.newaccs),
-                choice(Pelt.bodypaint)
+                choice(Pelt.bodypaint),
+                choice(Pelt.necklaces)
             ]))
         else:
             self.accessories = []
