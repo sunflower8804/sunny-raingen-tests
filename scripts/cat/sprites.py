@@ -146,7 +146,7 @@ class Sprites:
             'dragonfruitcolours', 'necklacecolours', 'dreamercolours', 'duskdawncolours', 
             'seercolours', 'rottencolours', 'firecolours', 'countershadedcolours', 
             'raineyes', 'raineyes2', 'multieyes', 'multiraineyes', 'sunsetcolours', 
-            'oldgrowth', 'sparklecatcolours', 'meisterhuntercolours',
+            'oldgrowthcolours', 'sparklecatcolours', 'meisterhuntercolours',
             'shadersnewwhite', 'lightingnew',
             'whitepatches', 'tortiepatchesmasks',
             'fademask', 'fadestarclan', 'fadedarkforest',
