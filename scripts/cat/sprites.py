@@ -144,8 +144,9 @@ class Sprites:
             'fluffycolours', 'amoebacolours', 'seaslugcolours', 'yeekcolours', 'rustedcolours',
             'envoycolours', 'drizzlecolours', 'solacecolours', 'leafycolours', 'scaledcolours', 
             'dragonfruitcolours', 'necklacecolours', 'dreamercolours', 'duskdawncolours', 
-            'seercolours', 'rottencolours',
-            'raineyes', 'raineyes2', 'multieyes', 'multiraineyes', 
+            'seercolours', 'rottencolours', 'firecolours', 'countershadedcolours', 
+            'raineyes', 'raineyes2', 'multieyes', 'multiraineyes', 'sunsetcolours', 
+            'oldgrowth', 'sparklecatcolours', 'meisterhuntercolours',
             'shadersnewwhite', 'lightingnew',
             'whitepatches', 'tortiepatchesmasks',
             'fademask', 'fadestarclan', 'fadedarkforest',
@@ -533,7 +534,50 @@ class Sprites:
             self.make_group('rottencolours', (a, 1), f'rotten{i}')
         for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
             self.make_group('rottencolours', (a, 2), f'rotten{i}')
+        # fire
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('firecolours', (a, 0), f'fire{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
+            self.make_group('firecolours', (a, 1), f'fire{i}')
+        for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('firecolours', (a, 2), f'fire{i}')
+        # countershaded
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('countershadedcolours', (a, 0), f'countershaded{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
+            self.make_group('countershadedcolours', (a, 1), f'countershaded{i}')
+        for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('countershadedcolours', (a, 2), f'countershaded{i}')
+        # sunset
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('sunsetcolours', (a, 0), f'sunset{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
+            self.make_group('sunsetcolours', (a, 1), f'sunset{i}')
+        for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('sunsetcolours', (a, 2), f'sunset{i}')
+         # oldgrowth
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('oldgrowthcolours', (a, 0), f'oldgrowth{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
+            self.make_group('oldgrowthcolours', (a, 1), f'oldgrowth{i}')
+        for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('oldgrowthcolours', (a, 2), f'oldgrowth{i}')
+         # sparklecat
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('sparklecatcolours', (a, 0), f'sparklecat{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
+            self.make_group('sparklecatcolours', (a, 1), f'sparklecat{i}')
+        for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('sparklecatcolours', (a, 2), f'sparklecat{i}')
+         # miesterhunter
+        for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
+            self.make_group('miesterhuntercolours', (a, 0), f'miesterhunter{i}')
+        for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
+            self.make_group('miesterhuntercolours', (a, 1), f'miesterhunter{i}')
+        for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
+            self.make_group('miesterhuntercolours', (a, 2), f'miesterhunter{i}')
 
+        
         # new new torties
         for a, i in enumerate(['ONE', 'TWO', 'THREE', 'FOUR', 'REDTAIL', 'DELILAH', 'HALF', 'STREAK', 'MASK', 'SMOKE']):
             self.make_group('tortiepatchesmasks', (a, 0), f"tortiemask{i}")
