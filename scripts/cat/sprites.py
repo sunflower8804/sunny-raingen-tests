@@ -221,7 +221,7 @@ class Sprites:
             self.make_group('larseyes', (a, 1), f'eyes{i}')
             self.make_group('larseyes2', (a, 1), f'eyes2{i}')
         for a, i in enumerate(
-                ['KARMA', 'KIND', 'MARTI', 'MEISTALT', 'MEISTER', 'MELON', 'MESS', 'MHUNT', 'MINT', 'MINV']):
+                ['KARMA', 'KIND', 'MARTI', 'MEISTALT', 'MHUNT', 'MELON', 'MESS', 'MEISTER', 'MINT', 'MINV']):
             self.make_group('larseyes', (a, 2), f'eyes{i}')
             self.make_group('larseyes2', (a, 2), f'eyes2{i}')
         for a, i in enumerate(
