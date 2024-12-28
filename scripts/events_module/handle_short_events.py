@@ -298,7 +298,7 @@ class HandleShortEvents:
 
         if extra_text and extra_text not in self.chosen_event.text:
             self.chosen_event.text = self.chosen_event.text + " " + extra_text
-    
+
     def handle_accessories(self, pelts=Pelt):
         """
         handles giving accessories to the main_cat
@@ -331,6 +331,8 @@ class HandleShortEvents:
             acc_list.extend(Pelt.implant)
         if "MAGIC" in possible_accs:
             acc_list.extend(Pelt.magic)
+        if "NECKLACES" in possible_accs:
+            acc_list.extend(Pelt.necklaces)
 
         for acc in possible_accs:
             if acc not in ["WILD", "PLANT", "COLLAR"]:
