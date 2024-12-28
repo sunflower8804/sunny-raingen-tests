@@ -406,6 +406,8 @@ class ProfileScreen(Screens):
                                 self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['implant' + accessory + cat_sprite], manager=MANAGER)
                             elif accessory in cat.pelt.magic:
                                 self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['magic' + accessory + cat_sprite], manager=MANAGER)
+                            elif accessory in cat.pelt.necklaces:
+                                self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['necklaces' + accessory + cat_sprite], manager=MANAGER)
                             pos_x += 120
                             if pos_x >= 1220:
                                 pos_x = 0
@@ -752,6 +754,8 @@ class ProfileScreen(Screens):
                                     self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['implant' + accessory + cat_sprite], manager=MANAGER)
                                 elif accessory in cat.pelt.magic:
                                     self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['magic' + accessory + cat_sprite], manager=MANAGER)
+                                elif accessory in cat.pelt.necklaces:
+                                    self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['necklaces' + accessory + cat_sprite], manager=MANAGER)
                                 pos_x += 120
                                 if pos_x >= 1220:
                                     pos_x = 0
@@ -2604,6 +2608,8 @@ class ProfileScreen(Screens):
                             self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['implant' + accessory + cat_sprite], manager=MANAGER)
                         elif accessory in cat.pelt.magic:
                             self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['magic' + accessory + cat_sprite], manager=MANAGER)
+                        elif accessory in cat.pelt.necklaces:
+                            self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(scale(pygame.Rect((200 + pos_x, 730 + pos_y), (100, 100))), sprites.sprites['necklaces' + accessory + cat_sprite], manager=MANAGER)
 
 
                         self.accessories_list.append(accessory)
