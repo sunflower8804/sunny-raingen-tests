@@ -350,19 +350,6 @@ class HandleShortEvents:
             self.main_cat.pelt.accessories.append(new_acc)
             self.main_cat.pelt.inventory.append(new_acc)
 
-    def handle_remove_accessory(self, pelts=Pelt):
-        """
-        Handles removing an accessory from a cat
-        """
-        if "misc" not in self.types:
-            self.types.append("misc")
-        acc_list_R = getattr(self.main_cat.pelt.inventory, [])
-        
-        if acc_list_R:
-            remove_acc = random.choice(acc_list_R)
-            self.main_cat.pelt.accessories.remove(remove_acc)
-            self.main_cat.pelt.inventory.remove(remove_acc)
-        
     def handle_death(self):
         """
         handles killing/murdering cats
