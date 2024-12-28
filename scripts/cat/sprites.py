@@ -569,13 +569,13 @@ class Sprites:
             self.make_group('sparklecatcolours', (a, 1), f'sparklecat{i}')
         for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
             self.make_group('sparklecatcolours', (a, 2), f'sparklecat{i}')
-         # miesterhunter
+         # meisterhunter
         for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST', 'BLACK']):
-            self.make_group('miesterhuntercolours', (a, 0), f'miesterhunter{i}')
+            self.make_group('meisterhuntercolours', (a, 0), f'meisterhunter{i}')
         for a, i in enumerate(['CREAM', 'PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'SIENNA']):
-            self.make_group('miesterhuntercolours', (a, 1), f'miesterhunter{i}')
+            self.make_group('meisterhuntercolours', (a, 1), f'meisterhunter{i}')
         for a, i in enumerate(['LIGHTBROWN', 'LILAC', 'BROWN', 'GOLDEN-BROWN', 'DARKBROWN', 'CHOCOLATE']):
-            self.make_group('miesterhuntercolours', (a, 2), f'miesterhunter{i}')
+            self.make_group('meisterhuntercolours', (a, 2), f'meisterhunter{i}')
 
         
         # new new torties
