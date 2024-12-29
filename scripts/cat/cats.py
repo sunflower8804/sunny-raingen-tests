@@ -3731,7 +3731,7 @@ def create_cat(status, moons=None, biome=None):
             new_cat.moons = choice([1, 2, 3, 4, 5])
     
     not_allowed_scars = ['NOPAW', 'NOTAIL', 'HALFTAIL', 'NOEAR', 'BOTHBLIND', 'RIGHTBLIND', 'LEFTBLIND', 'BRIGHTHEART',
-                         'NOLEFTEAR', 'NORIGHTEAR', 'MANLEG', "ROTRIDDEN", "ROTMARKED"]
+                         'NOLEFTEAR', 'NORIGHTEAR', 'MANLEG', "ROTRIDDEN", "ROTMARKED", "FULLBODYBURNS", "HALFFACELEFT", "HALFFACERIGHT"]
     
     for scar in new_cat.pelt.scars:
         if scar in not_allowed_scars:

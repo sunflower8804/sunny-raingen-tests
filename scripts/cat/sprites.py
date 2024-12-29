@@ -717,7 +717,10 @@ class Sprites:
             ["TAILSCAR", "SNOUT", "CHEEK", "SIDE", "THROAT", "TAILBASE", "BELLY", "TOETRAP", "SNAKE", "LEGBITE",
              "NECKBITE", "FACE"],
             ["HINDLEG", "BACK", "QUILLSIDE", "SCRATCHSIDE", "TOE", "BEAKSIDE", "CATBITETWO", "SNAKETWO", "FOUR", 
-             "ROTMARKED", "ROTRIDDEN"]
+             "ROTMARKED", "ROTRIDDEN", "TOPSURGERY"],
+            ["CUTOPEN", "LABRATFACE", "VIVISECTION", "LABRATCHEST", "LABRATLIMBS", "NEUTRINO", "MANGLEDARM", 
+             "ENVOYCHEST", "HALFFACELEFT", "FULLBODYBURNS", "BESIEGED", "HALFFACERIGHT"],
+            ["STARBURN", "ARMBURN", "DOUBLEBITE", "DANGEROUS"]
         ]
 
         # define missing parts

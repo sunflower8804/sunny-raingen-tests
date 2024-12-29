@@ -147,14 +147,17 @@ class Pelt():
     scars1 = ["ONE", "TWO", "THREE", "TAILSCAR", "SNOUT", "CHEEK", "SIDE", "THROAT", "TAILBASE", "BELLY",
               "LEGBITE", "NECKBITE", "FACE", "MANLEG", "BRIGHTHEART", "MANTAIL", "BRIDGE", "RIGHTBLIND", "LEFTBLIND",
               "BOTHBLIND", "BEAKCHEEK", "BEAKLOWER", "CATBITE", "RATBITE", "QUILLCHUNK", "QUILLSCRATCH", "HINDLEG",
-              "BACK", "QUILLSIDE", "SCRATCHSIDE", "BEAKSIDE", "CATBITETWO", "FOUR"]
+              "BACK", "QUILLSIDE", "SCRATCHSIDE", "BEAKSIDE", "CATBITETWO", "FOUR", 
+              "LABRATFACE", "LABRATCHEST", "NEUTRINO", "MANGLEDARM", "ENVOYCHEST", "DOUBLEBITE", "DANGEROUS"]
 
     # missing parts
     scars2 = ["LEFTEAR", "RIGHTEAR", "NOTAIL", "HALFTAIL", "NOPAW", "NOLEFTEAR", "NORIGHTEAR", "NOEAR"]
 
     # "special" scars that could only happen in a special event
     scars3 = ["SNAKE", "TOETRAP", "BURNPAWS", "BURNTAIL", "BURNBELLY", "BURNRUMP", "FROSTFACE", "FROSTTAIL",
-              "FROSTMITT", "FROSTSOCK", "TOE", "SNAKETWO", "ROTMARKED", "ROTRIDDEN"]
+              "FROSTMITT", "FROSTSOCK", "TOE", "SNAKETWO", "ROTMARKED", "ROTRIDDEN", 
+              "TOPSURGERY", "CUTOPEN", "VIVISECTION", "LABRATLIMBS", "HALFFACELEFT", "FULLBODYBURNS", "BESIEGED", 
+              "HALFFACERIGHT", "STARBURN", "ARMBURN"]
 
     # make sure to add plural and singular forms of new accs to acc_display.json so that they will display nicely
     plant_accessories = ["MAPLE LEAF", "HOLLY", "BLUE BERRIES", "FORGET ME NOTS", "RYE STALK", "LAUREL",
