@@ -708,6 +708,24 @@ def create_new_cat(
         else:
             _gender = gender
 
+        #genderalign = "nonbinary"
+
+        #if not genderalign:
+        #    genderalign = _gender
+
+        #if age > 12:
+        #    if not randint(0, 2):
+        #        if randint(0, 2):
+        #            if _gender == "male":
+        #                genderalign = "trans female"
+        #            else:
+        #                genderalign = "trans male"
+        #        else:
+        #            genderalign = "nonbinary"
+        #else:
+        #    genderalign = _gender
+
+
         # other Clan cats, apps, and kittens (kittens and apps get indoctrinated lmao no old names for them)
         if other_clan or kit or litter or age < 12 and not (loner or kittypet):
             new_cat = Cat(
@@ -774,6 +792,19 @@ def create_new_cat(
                     parent2=parent2,
                 )
 
+        if age > 12:
+            if not randint(0, 128):   #trans chance
+                print('TRANS!!!!')
+                if randint(0, 2):   #nonbinary chance
+                    if _gender == "male":
+                        new_cat.genderalign = "trans female"
+                    else:
+                        new_cat.genderalign = "trans male"
+                else:
+                    new_cat.genderalign = "nonbinary"
+        else:
+            new_cat.genderalign = _gender
+
         # give em a collar if they got one
         if accessory:
             new_cat.pelt.accessories.append(accessory)
@@ -795,7 +826,10 @@ def create_new_cat(
             "NOLEFTEAR",
             "NORIGHTEAR",
             "MANLEG",
-            "ROTRIDDEN"
+            "ROTRIDDEN",
+            "FULLBODYBURNS", 
+            "HALFFACELEFT", 
+            "HALFFACERIGHT"
         ]
         for scar in new_cat.pelt.scars:
             if scar in not_allowed:
