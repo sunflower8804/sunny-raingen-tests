@@ -1164,6 +1164,56 @@
     "plural": "neuron fly implant",
     "singular": "neuron fly implant"
   },
+  "EYEIMPLANTWHITE": {
+    "default": "inspector eye implant",
+    "plural": "inspector eye implant",
+    "singular": "inspector eye implant"
+  },
+  "EYEIMPLANTRED": {
+    "default": "inspector eye implant",
+    "plural": "inspector eye implant",
+    "singular": "inspector eye implant"
+  },
+  "EYEIMPLANTGREEN": {
+    "default": "inspector eye implant",
+    "plural": "inspector eye implant",
+    "singular": "inspector eye implant"
+  },
+  "EYEIMPLANTYELLOW": {
+    "default": "inspector eye implant",
+    "plural": "inspector eye implant",
+    "singular": "inspector eye implant"
+  },
+  "EYEIMPLANTBLUE": {
+    "default": "inspector eye implant",
+    "plural": "inspector eye implant",
+    "singular": "inspector eye implant"
+  },
+  "GLOWWHITE": {
+    "default": "white neuron glow",
+    "plural": "white neuron glow",
+    "singular": "white neuron glow"
+  },
+  "GLOWPURPLE": {
+    "default": "purple neuron glow",
+    "plural": "purple neuron glow",
+    "singular": "purple neuron glow"
+  },
+  "GLOWGREEN": {
+    "default": "green neuron glow",
+    "plural": "green neuron glow",
+    "singular": "green neuron glow"
+  },
+  "GLOWYELLOW": {
+    "default": "yellow neuron glow",
+    "plural": "yellow neuron glow",
+    "singular": "yellow neuron glow"
+  },
+  "GLOWBLUE": {
+    "default": "blue neuron glow",
+    "plural": "blue neuron glow",
+    "singular": "blue neuron glow"
+  },
   "ORANGEFIRE": {
     "default": "orange flame tail",
     "plural": "orange flame tails",
@@ -1268,5 +1318,100 @@
     "default": "pet clay rock",
     "plural": "pet clay rocks",
     "singular": "pet clay rock"
+  },
+  "EYEPATCH": {
+    "default": "eye patch",
+    "plural": "eye patches",
+    "singular": "eye patch"
+  },
+  "INVMOUTH": {
+    "default": "seducing smile",
+    "plural": "seducing smile",
+    "singular": "seducing smile"
+  },
+  "MOUSEYELPLUSH": {
+    "default": "yellow mouse plush",
+    "plural": "yellow mouse plushies",
+    "singular": "yellow mouse plush"
+  },
+  "MOUSEREDPLUSH": {
+    "default": "red mouse plush",
+    "plural": "red mouse plushies",
+    "singular": "red mouse plush"
+  },
+  "MOUSEBLUEPLUSH": {
+    "default": "blue mouse plush",
+    "plural": "blue mouse plushies",
+    "singular": "blue mouse plush"
+  },
+  "MOUSEPINKPLUSH": {
+    "default": "pink mouse plush",
+    "plural": "pink mouse plushies",
+    "singular": "pink mouse plush"
+  },
+  "GLITCHING": {
+    "default": "glitches",
+    "plural": "glitches",
+    "singular": "glitch"
+  },
+  "ROBOTARM": {
+    "default": "bionic arm",
+    "plural": "bionic arms",
+    "singular": "bionic arm"
+  },
+  "ROBOTLEG": {
+    "default": "bionic scissorbird leg",
+    "plural": "bionic scissorbird legs",
+    "singular": "bionic scissorbird leg"
+  },
+  "NECKLACEWHITE": {
+    "default": "white pearl necklace",
+    "plural": "white pearl necklaces",
+    "singular": "white pearl necklace"
+  },
+  "NECKLACEPINK": {
+    "default": "pink pearl necklace",
+    "plural": "pink pearl necklaces",
+    "singular": "pink pearl necklace"
+  },
+  "NECKLACEPURPLE": {
+    "default": "purple pearl necklace",
+    "plural": "purple pearl necklaces",
+    "singular": "purple pearl necklace"
+  },
+  "NECKLACEYELLOW": {
+    "default": "yellow pearl necklace",
+    "plural": "yellow pearl necklaces",
+    "singular": "yellow pearl necklace"
+  },
+  "NECKLACECYAN": {
+    "default": "cyan pearl necklace",
+    "plural": "cyan pearl necklaces",
+    "singular": "cyan pearl necklace"
+  },
+  "NECKLACEGREEN": {
+    "default": "green pearl necklace",
+    "plural": "green pearl necklaces",
+    "singular": "green pearl necklace"
+  },
+  "NECKLACERED": {
+    "default": "red pearl necklace",
+    "plural": "red pearl necklaces",
+    "singular": "red pearl necklace"
+  },
+  "NECKLACEORANGE": {
+    "default": "gold pearl necklace",
+    "plural": "gold pearl necklaces",
+    "singular": "gold pearl necklace"
+  },
+  "NECKLACEBLUE": {
+    "default": "blue pearl necklace",
+    "plural": "blue pearl necklaces",
+    "singular": "blue pearl necklace"
+  },
+  "NECKLACEBLACK": {
+    "default": "black pearl necklace",
+    "plural": "black pearl necklaces",
+    "singular": "black pearl necklace"
   }
 }
