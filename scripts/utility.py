@@ -2628,6 +2628,8 @@ def generate_sprite(
                         new_sprite.blit(sprites.sprites['herbs2' + i + cat_sprite], (0, 0))
                     elif i in cat.pelt.newaccs:
                         new_sprite.blit(sprites.sprites['newaccs' + i + cat_sprite], (0, 0))
+                    elif i in cat.pelt.newaccs2:
+                        new_sprite.blit(sprites.sprites['newaccs2' + i + cat_sprite], (0, 0))
                     elif i in cat.pelt.insectwings:
                         new_sprite.blit(sprites.sprites['insectwings' + i + cat_sprite], (0, 0))
                     elif i in cat.pelt.buddies:
