@@ -23,7 +23,7 @@ class Scar_Events():
         "BEAKCHEEK", "BEAKLOWER", "BEAKSIDE"
     ]
     canid_scars = [
-        "LEGBITE", "NECKBITE", "TAILSCAR", "BRIGHTHEART"
+        "LEGBITE", "NECKBITE", "TAILSCAR", "BRIGHTHEART", "DOUBLEBITE"
     ]
     snake_scars = [
         "SNAKE", "SNAKETWO"
@@ -31,7 +31,8 @@ class Scar_Events():
     claw_scars = [
         "ONE", "TWO", "SNOUT", "TAILSCAR", "CHEEK",
         "SIDE", "THROAT", "TAILBASE", "BELLY", "FACE",
-        "BRIDGE", "HINDLEG", "BACK", "SCRATCHSIDE"
+        "BRIDGE", "HINDLEG", "BACK", "SCRATCHSIDE",
+        "LABRATFACE", "NEUTRINO", "ENVOYCHEST"
     ]
     leg_scars = [
         "NOPAW", "TOETRAP", "MANLEG", "FOUR"
@@ -50,13 +51,14 @@ class Scar_Events():
         "THREE", "RIGHTBLIND", "LEFTBLIND", "BOTHBLIND"
     ]
     burn_scars = [
-        "BRIGHTHEART", "BURNPAWS", "BURNTAIL", "BURNBELLY", "BURNRUMP"
+        "BRIGHTHEART", "BURNPAWS", "BURNTAIL", "BURNBELLY", "BURNRUMP",
+        "HALFFACELEFT", "FULLBODYBURNS", "HALFFACERIGHT", "STARBURN", "ARMBURN"
     ]
     quill_scars = [
         "QUILLCHUNK", "QUILLSCRATCH", "QUILLSIDE"
     ]
     head_scars = [
-        "SNOUT", "CHEEK", "BRIDGE", "BEAKCHEEK"
+        "SNOUT", "CHEEK", "BRIDGE", "BEAKCHEEK", "LABRATFACE"
     ]
     bone_scars = [
         "MANLEG", "TOETRAP", "FOUR"
@@ -118,7 +120,7 @@ class Scar_Events():
 
             scar_pool = [i for i in Scar_Events.scar_allowed[injury_name] if i not in cat.pelt.scars]
             if 'NOPAW' in cat.pelt.scars:
-                scar_pool = [i for i in scar_pool if i not in ['TOETRAP', 'RATBITE', "FROSTSOCK"]]
+                scar_pool = [i for i in scar_pool if i not in ['TOETRAP', 'RATBITE', "FROSTSOCK", "MANGLEDARM", "FULLBODYBURNS"]]
             if 'NOTAIL' in cat.pelt.scars:
                 scar_pool = [i for i in scar_pool if
                              i not in ["HALFTAIL", "TAILBASE", "TAILSCAR", "MANTAIL", "BURNTAIL", "FROSTTAIL"]]
@@ -131,7 +133,7 @@ class Scar_Events():
                              i not in ["THREE", "RIGHTBLIND", "LEFTBLIND", "BOTHBLIND", "BRIGHTHEART"]]
             if 'NOEAR' in cat.pelt.scars:
                 scar_pool = [i for i in scar_pool if
-                             i not in ["LEFTEAR", "RIGHTEAR", 'NOLEFTEAR', 'NORIGHTEAR', "FROSTFACE"]]
+                             i not in ["LEFTEAR", "RIGHTEAR", 'NOLEFTEAR', 'NORIGHTEAR', "FROSTFACE", "FULLBODYBURNS", "HALFFACELEFT", "HALFFACERIGHT"]]
             if 'MANTAIL' in cat.pelt.scars:
                 scar_pool = [i for i in scar_pool if i not in ["BURNTAIL", 'FROSTTAIL']]
             if 'BURNTAIL' in cat.pelt.scars:
@@ -145,12 +147,13 @@ class Scar_Events():
             if 'ROTRIDDEN' in cat.pelt.scars:
                 scar_pool = [i for i in scar_pool if i not in ['ROTMARKED']]
 
+
             # Extra check for disabling scars.
             if int(random.random() * 3):
                 condition_scars = {
                     "LEGBITE", "THREE", "NOPAW", "TOETRAP", "NOTAIL", "HALFTAIL", "LEFTEAR", "RIGHTEAR",
                     "MANLEG", "BRIGHTHEART", "NOLEFTEAR", "NORIGHTEAR", "NOEAR", "LEFTBLIND",
-                    "RIGHTBLIND", "BOTHBLIND", "RATBITE", "ROTRIDDEN"
+                    "RIGHTBLIND", "BOTHBLIND", "RATBITE", "ROTRIDDEN", "FULLBODYBURNS", "HALFFACELEFT", "HALFFACERIGHT"
                 }
 
                 scar_pool = list(set(scar_pool).difference(condition_scars))

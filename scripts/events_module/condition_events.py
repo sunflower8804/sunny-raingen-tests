@@ -417,7 +417,10 @@ class Condition_Events:
             "RIGHTBLIND": ["one bad eye", "failing eyesight"],
             "BOTHBLIND": ["blind"],
             "RATBITE": ["weak leg"],
-            "ROTRIDDEN": ["the rot"]
+            "ROTRIDDEN": ["the rot"],
+            "FULLBODYBURNS": ["partial hearing loss", "one bad eye"],
+            "HALFFACELEFT": ["partial hearing loss", "one bad eye"],
+            "HALFFACERIGHT": ["partial hearing loss", "one bad eye"]
         }
 
         scarless_conditions = [
