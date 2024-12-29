@@ -352,7 +352,10 @@ def reformat(path):
                                  "NOPAW", "NOLEFTEAR", "NORIGHTEAR",
                                  "NOEAR", "SNAKE", "TOETRAP", "BURNPAWS", "BURNTAIL", "BURNBELLY", "BURNRUMP",
                                  "FROSTFACE",
-                                 "FROSTTAIL", "FROSTMITT", "FROSTSOCK", "TOE", "SNAKETWO"]
+                                 "FROSTTAIL", "FROSTMITT", "FROSTSOCK", "TOE", "SNAKETWO",
+                                 "LABRATFACE", "LABRATCHEST", "NEUTRINO", "MANGLEDARM", "ENVOYCHEST", "DOUBLEBITE", "DANGEROUS",
+                                 "TOPSURGERY", "CUTOPEN", "VIVISECTION", "LABRATLIMBS", "HALFFACELEFT", "FULLBODYBURNS", "BESIEGED", 
+                                 "HALFFACERIGHT", "STARBURN", "ARMBURN"]
                     for tag in event["tags"]:
                         if tag in scar_list:
                             info["scars"].append(tag)
@@ -399,7 +402,10 @@ def reformat(path):
                                  "NOPAW", "NOLEFTEAR", "NORIGHTEAR",
                                  "NOEAR", "SNAKE", "TOETRAP", "BURNPAWS", "BURNTAIL", "BURNBELLY", "BURNRUMP",
                                  "FROSTFACE",
-                                 "FROSTTAIL", "FROSTMITT", "FROSTSOCK", "TOE", "SNAKETWO"]
+                                 "FROSTTAIL", "FROSTMITT", "FROSTSOCK", "TOE", "SNAKETWO",
+                                 "LABRATFACE", "LABRATCHEST", "NEUTRINO", "MANGLEDARM", "ENVOYCHEST", "DOUBLEBITE", "DANGEROUS",
+                                 "TOPSURGERY", "CUTOPEN", "VIVISECTION", "LABRATLIMBS", "HALFFACELEFT", "FULLBODYBURNS", "BESIEGED", 
+                                 "HALFFACERIGHT", "STARBURN", "ARMBURN"]
                     for tag in event["tags"]:
                         if tag in scar_list:
                             info["scars"].append(tag)
