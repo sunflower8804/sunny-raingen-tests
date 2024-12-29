@@ -136,6 +136,7 @@ class Sprites:
             'medcatherbs',
             'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards', 'drones', 'muddypaws', 
             'herbs2', 'insectwings', 'buddies', 'newaccs', 'bodypaint', 'implant', 'magic', 'necklaces',
+            'newaccs2',
             'singlecolours', 'speckledcolours', 'tabbycolours', 'bengalcolours', 'marbledcolours',
             'rosettecolours', 'smokecolours', 'tickedcolours', 'mackerelcolours', 'classiccolours',
             'sokokecolours', 'agouticolours', 'singlestripecolours', 'maskedcolours', 'bananacolours',
@@ -810,14 +811,19 @@ class Sprites:
             ["NEURONWHITE", "KARMAONE", "KARMATWO", "KARMATHREE", "KARMAFOUR", "SCROLL"],
             ["NECKLACESILVER", "NECKLACEGOLD", "TAILWRAP", "RAINCOAT", "LACESCARF", "TOLLMASK"],
             ["FLOWEREDMOSS", "MOSS", "MUSHROOMS", "MUSHROOMHAT", "GRENADE", "SANTAHAT"],
-            ["EYEPATCH"]
+            ["EYEPATCH", 'INVMOUTH', "MOUSEYELPLUSH", "MOUSEREDPLUSH", "MOUSEBLUEPLUSH", "MOUSEPINKPLUSH"]
+        ]
+        newaccs2_data = [
+            ["GLITCHING", "ROBOTARM", "ROBOTLEG"]
         ]
         bodypaint_data = [
             ["REDPAINT", "PINKPAINT", "VOIDPAINT", "YELLOWPAINT", "GREENPAINT", "PALEPAINT"],
             ["CYANPAINT", "BLUEPAINT", "PURPLEPAINT", "MAGENTAPAINT", "BLACKPAINT", "WHITEPAINT"]
         ]
         implant_data = [
-            ["IMPLANTWHITE", "IMPLANTPURPLE", "IMPLANTGREEN", "IMPLANTYELLOW", "IMPLANTBLUE"]
+            ["IMPLANTWHITE", "IMPLANTPURPLE", "IMPLANTGREEN", "IMPLANTYELLOW", "IMPLANTBLUE"],
+            ["EYEIMPLANTWHITE", "EYEIMPLANTRED", "EYEIMPLANTGREEN", "EYEIMPLANTYELLOW", "EYEIMPLANTBLUE"],
+            ["GLOWWHITE", "GLOWPURPLE", "GLOWGREEN", "GLOWYELLOW", "GLOWBLUE"]
         ]
         magic_data = [
             ["ORANGEFIRE", "GREENFIRE", "BLUEFIRE", "YELLOWFIRE", "WHITEFIRE", "PINKFIRE", "REDFIRE"],
@@ -826,7 +832,7 @@ class Sprites:
         ]
         necklaces_data = [
             ["NECKLACEWHITE", "NECKLACEPINK", "NECKLACEPURPLE", "NECKLACEYELLOW", "NECKLACECYAN"],
-            ["NECKLACEGREEN", "NECKLACERED", "NECKLACEGOLD", "NECKLACEBLUE", "NECKLACEBLACK"]
+            ["NECKLACEGREEN", "NECKLACERED", "NECKLACEORANGE", "NECKLACEBLUE", "NECKLACEBLACK"]
         ]
 
         # medcatherbs
@@ -896,6 +902,11 @@ class Sprites:
         for row, newaccs in enumerate(newaccs_data):
             for col, newaccs in enumerate(newaccs):
                 self.make_group('newaccs', (col, row), f'newaccs{newaccs}')
+                
+        #newaccs2
+        for row, newaccs2 in enumerate(newaccs2_data):
+            for col, newaccs2 in enumerate(newaccs2):
+                self.make_group('newaccs2', (col, row), f'newaccs2{newaccs2}')
 
         #bodypaint
         for row, bodypaint in enumerate(bodypaint_data):
