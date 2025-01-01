@@ -59,6 +59,12 @@ class Pelt():
         'Wolf': 'wolf',
         'Cherry': 'cherry',
         'Hypnotist': 'hypnotist',
+        'Ringed': 'ringed',
+        'Skinny': 'skinny',
+        'Sparse': 'sparse',
+        'Impish': 'impish',
+        'Sporty': 'sporty',
+        'Fizzy': 'fizzy',
         'Tortie': None,
         'Calico': None,
     }
@@ -93,7 +99,7 @@ class Pelt():
                 'cyanlizard', 'vulture', 'banana', 'centipede', 'conductor', 'lizard', 'lantern', 'leviathan',
                 'fluffy', 'amoeba', 'yeek', 'rusted', 'envoy', 'drizzle', 'solace', 'leafy', 'scaled', 'dragonfruit', 
                 'necklace', 'dreamer', 'duskdawn', 'seer', 'rotten', 'fire', 'countershaded', 'sunset', 'oldgrowth', 
-                'sparklecat', 'wolf', 'cherry', 'hypnotist']
+                'sparklecat', 'wolf', 'cherry', 'hypnotist', 'ringed', 'skinny', 'sparse', 'impish', 'sporty', 'fizzy']
     
     pelt_length = ["short", "medium", "long"]
     eye_colours = ['YELLOW', 'AMBER', 'HAZEL', 'PALEGREEN', 'GREEN', 'BLUE', 'DARKBLUE', 'GREY', 'CYAN', 'EMERALD', 'PALEBLUE', 
@@ -140,24 +146,33 @@ class Pelt():
                 'MULTISIXER', 'MULTISPLIT', 'MULTISUN', 'MULTISWEET', 'MULTITIDE', 
                 'MULTIVIVID', 'MULTIWAVE', 'MULTIWINKS', 'MULTIZENI', 'MULTIBEAST'
                 ]
+    # rivulet eye colours by @bucketofmackerels on discord
+    riveye_colours = ['RIVYELLOW', 'RIVAMBER', 'RIVHAZEL', 'RIVPALEGREEN', 'RIVGREEN', 'RIVBLUE', 'RIVDARKBLUE', 'RIVGREY', 'RIVCYAN', 'RIVEMERALD', 'RIVPALEBLUE', 
+                'RIVPALEYELLOW', 'RIVGOLD', 'RIVHEATHERBLUE', 'RIVCOPPER', 'RIVSAGE', 'RIVCOBALT', 'RIVSUNLITICE', 'RIVGREENYELLOW', 'RIVBRONZE', 'RIVSILVER'
+                ]
 
+    yellow_riv_eyes = ['RIVYELLOW', 'RIVAMBER', 'RIVPALEYELLOW', 'RIVGOLD', 'RIVCOPPER', 'RIVGREENYELLOW', 'RIVBRONZE', 'RIVSILVER']
+    blue_riv_eyes = ['RIVBLUE', 'RIVDARKBLUE', 'RIVCYAN', 'RIVPALEBLUE', 'RIVHEATHERBLUE', 'RIVCOBALT', 'RIVSUNLITICE']
+    green_riv_eyes = ['RIVPALEGREEN', 'RIVGREEN', 'RIVEMERALD', 'RIVSAGE']
+    
     # bite scars by @wood pank on discord
 
     # scars from other cats, other animals
-    scars1 = ["ONE", "TWO", "THREE", "TAILSCAR", "SNOUT", "CHEEK", "SIDE", "THROAT", "TAILBASE", "BELLY",
+    scars1 = ["ONE", "TWO", "THREE", "FOUR", "TAILSCAR", "SNOUT", "CHEEK", "SIDE", "THROAT", "TAILBASE", "BELLY",
               "LEGBITE", "NECKBITE", "FACE", "MANLEG", "BRIGHTHEART", "MANTAIL", "BRIDGE", "RIGHTBLIND", "LEFTBLIND",
               "BOTHBLIND", "BEAKCHEEK", "BEAKLOWER", "CATBITE", "RATBITE", "QUILLCHUNK", "QUILLSCRATCH", "HINDLEG",
-              "BACK", "QUILLSIDE", "SCRATCHSIDE", "BEAKSIDE", "CATBITETWO", "FOUR", 
-              "LABRATFACE", "LABRATCHEST", "NEUTRINO", "MANGLEDARM", "ENVOYCHEST", "DOUBLEBITE", "DANGEROUS"]
+              "BACK", "QUILLSIDE", "SCRATCHSIDE", "BEAKSIDE", "CATBITETWO", "FOUR", "LABRATFACE", "LABRATCHEST", 
+              "NEUTRINO", "MANGLEDARM", "DOUBLEBITE", "DANGEROUS", "CUTOPEN"]
 
     # missing parts
     scars2 = ["LEFTEAR", "RIGHTEAR", "NOTAIL", "HALFTAIL", "NOPAW", "NOLEFTEAR", "NORIGHTEAR", "NOEAR"]
 
     # "special" scars that could only happen in a special event
     scars3 = ["SNAKE", "TOETRAP", "BURNPAWS", "BURNTAIL", "BURNBELLY", "BURNRUMP", "FROSTFACE", "FROSTTAIL",
-              "FROSTMITT", "FROSTSOCK", "TOE", "SNAKETWO", "ROTMARKED", "ROTRIDDEN", 
-              "TOPSURGERY", "CUTOPEN", "VIVISECTION", "LABRATLIMBS", "HALFFACELEFT", "FULLBODYBURNS", "BESIEGED", 
-              "HALFFACERIGHT", "STARBURN", "ARMBURN"]
+              "FROSTMITT", "FROSTSOCK", "TOE", "SNAKETWO", "ROTMARKED", "ROTRIDDEN", "TOPSURGERY", "CUTOPEN", 
+              "VIVISECTION", "LABRATLIMBS", "HALFFACELEFT", "FULLBODYBURNS", "BESIEGED", "HALFFACERIGHT", 
+              "STARBURN", "ARMBURN", "ENVOYCHEST",  "EXTRACTIONONE", "EXTRACTIONTWO", "LABRATCHEST", "DANGEROUS",
+              "RESTITCHEDUPPER", "RESTITCHEDLOWER", "STITCHEDHEAD", "MESSIAH", "SMOKINGFACE"]
 
     # make sure to add plural and singular forms of new accs to acc_display.json so that they will display nicely
     plant_accessories = ["MAPLE LEAF", "HOLLY", "BLUE BERRIES", "FORGET ME NOTS", "RYE STALK", "LAUREL",
@@ -235,12 +250,39 @@ class Pelt():
         "NECKLACEWHITE", "NECKLACEPINK", "NECKLACEPURPLE", "NECKLACEYELLOW", "NECKLACECYAN",
         "NECKLACEGREEN", "NECKLACERED", "NECKLACEORANGE", "NECKLACEBLUE", "NECKLACEBLACK"
     ]
-
+    drapery = [
+        "DRAPERYWHITE", "DRAPERYORANGE", "DRAPERYTAN", "DRAPERYPALEYELLOW", "DRAPERYYELLOW", "DRAPERYMINT", "DRAPERYGREEN", "DRAPERYLIGHTAQUA",
+        "DRAPERYAQUA", "DRAPERYCYAN", "DRAPERYLIGHTGRAY", "DRAPERYPURPLE", "DRAPERYLIGHTINDIGO", "DRAPERYBLUE", "DRAPERYLAVENDER", "DRAPERYLIGHTPINK", "DRAPERYPINK",
+        "DRAPERYHOTPINK", "DRAPERYGRAY", "DRAPERYDARKGRAY", "DRAPERYLIGHTRED", "DRAPERYRED", "DRAPERYPEACH", "DRAPERYLIGHTORANGE"
+    ]
+    pridedrapery = [
+        "ORIGINALGAYDRAPERY", "TRANSDRAPERY", "GENDERQUEERDRAPERY", "AGENDERDRAPERY", "NONBINARYDRAPERY", "POLYAMDRAPERY", "GENDERFLUIDDRAPERY",
+        "GENDERFLUXDRAPERY", "GAYDRAPERY", "OMNISEXUALDRAPERY", "OBJECTUMDRAPERY", "RAINBOWDRAPERY", "PHILIDRAPERY", "BISEXUALDRAPERY",
+        "PANSEXUALDRAPERY", "POLYSEXUALDRAPERY", "ASEXUALDRAPERY", "INTERSEXDRAPERY"
+    ]
+    eyepatches = [
+        "EYEPATCHWHITE", "EYEPATCHGREEN", "EYEPATCHAQUA", "EYEPATCHTURQUOISE", "EYEPATCHCYAN", "EYEPATCHBLUE", "EYEPATCHINDIGO",
+        "EYEPATCHPURPLE", "EYEPATCHMAGENTA", "EYEPATCHPINK", "EYEPATCHROSE", "EYEPATCHLIGHTGRAY", "EYEPATCHDARKGRAY", "EYEPATCHBLACK",
+        "EYEPATCHRED", "EYEPATCHORANGE", "EYEPATCHAMBER", "EYEPATCHYELLOW", "EYEPATCHLIME"
+    ]
+    #Lars's accessories 
+    larsaccs = [
+        "ALLSEEINGGOLD", "ALLSEEINGSILVER", "BESIEGEDMASKOG", "BESIEGEDMASKBLUE", "BESIEGEDMASKCYAN",
+        "BESIEGEDMASKGRAY", "BESIEGEDMASKGREEN", "BESIEGEDMASKINDIGO", "BESIEGEDMASKORANGE", "BESIEGEDMASKPINK",
+        "BESIEGEDMASKPURPLE", "BESIEGEDMASKRED", "BESIEGEDMASKROSE", "BESIEGEDMASKAQUA", "BESIEGEDMASKYELLOW",
+        "HANDPEARLBLANK", "HANDPEARLBLUE", "HANDPEARLGREEN", "HANDPEARLORANGE", "HANDPEARLPURPLE",
+        "HANDPEARLRED", "HANDPEARLYELLOW", "PEARLDRAPERY", "STRAIGHTGOLD", "STRAIGHTSILVER"
+    ]
+    #Harley's accessories, could be merged with other files
+    harleyaccs = [
+        "FALLENSTARMASK", "TORNCLOAKFALL", "FALLENSTARPAWS", "TORNCLOAKWINTER",
+        "TORNCLOAKNIGHT", "TORNCLOAKSHADOW", "TORNCLOAKSILVER", "FAUXMANE"
+    ]
 
     tabbies = ["Tabby", "Ticked", "Classic", "Sokoke", "Agouti", "Masked", "Vulture", "Envoy", "Drizzle", "Necklace", "Leviathan", "Rotten", "Fire", "Solace"]
-    spotted = ["Speckled", "Rosette", "Gravel", "Banana", "Conductor", "Bengal", "Dreamer", "Oldgrowth", "Cherry"]
-    plain = ["SingleColour", "TwoColour", "Smoke", "Singlestripe", "Collared", "Lizard", "Slimemold", "Fluffy", "Yeek", "Rusted", "Leafy", "Scaled", "Countershaded", "Sunset"]
-    exotic = ["Mackerel", "Marbled", "Cyanlizard", "Centipede", "Lantern", "Amoeba", "Seaslug", "Dragonfruit", "Duskdawn", "Seer", "Wolf", "Sparklecat", "Hypnotist"]
+    spotted = ["Speckled", "Rosette", "Gravel", "Banana", "Conductor", "Bengal", "Dreamer", "Oldgrowth", "Cherry", "Sparse", "Impish"]
+    plain = ["SingleColour", "TwoColour", "Smoke", "Singlestripe", "Collared", "Lizard", "Slimemold", "Fluffy", "Yeek", "Rusted", "Leafy", "Scaled", "Countershaded", "Sunset", "Skinny", "Sporty"]
+    exotic = ["Mackerel", "Marbled", "Cyanlizard", "Centipede", "Lantern", "Amoeba", "Seaslug", "Dragonfruit", "Duskdawn", "Seer", "Wolf", "Sparklecat", "Hypnotist", "Fizzy"]
     torties = ["Tortie", "Calico"]
     pelt_categories = [tabbies, spotted, plain, exotic, torties]
 
@@ -522,7 +564,17 @@ class Pelt():
                 self.eye_colour2 = choice(eye_choice)
             elif self.eye_colour in Pelt.red_pupil_eyes:
                 eye_choice = choice([Pelt.yellow_pupil_eyes, Pelt.green_pupil_eyes, Pelt.blue_pupil_eyes])
-            
+
+            elif self.eye_colour in Pelt.yellow_riv_eyes:
+                eye_choice = choice([Pelt.blue_riv_eyes, Pelt.green_riv_eyes])
+                self.eye_colour2 = choice(eye_choice)
+            elif self.eye_colour in Pelt.blue_riv_eyes:
+                eye_choice = choice([Pelt.yellow_riv_eyes, Pelt.green_riv_eyes])
+                self.eye_colour2 = choice(eye_choice)
+            elif self.eye_colour in Pelt.green_riv_eyes:
+                eye_choice = choice([Pelt.yellow_riv_eyes, Pelt.blue_riv_eyes])
+                self.eye_colour2 = choice(eye_choice)
+        
         elif not random.randint(0, multieyenum):
             self.eye_colour2 = 'MULTI'+self.eye_colour
 
@@ -868,7 +920,12 @@ class Pelt():
                 choice(Pelt.buddies),
                 choice(Pelt.newaccs),
                 choice(Pelt.bodypaint),
-                choice(Pelt.necklaces)
+                choice(Pelt.necklaces),
+                choice(Pelt.drapery),
+                choice(Pelt.pridedrapery),
+                choice(Pelt.eyepatches),
+                choice(Pelt.larsaccs),
+                choice(Pelt.harleyaccs)
             ]))
         else:
             self.accessories = []

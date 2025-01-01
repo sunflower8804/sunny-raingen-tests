@@ -2672,6 +2672,16 @@ def generate_sprite(
                         new_sprite.blit(sprites.sprites['magic' + i + cat_sprite], (0, 0))
                     elif i in cat.pelt.necklaces:
                         new_sprite.blit(sprites.sprites['necklaces' + i + cat_sprite], (0, 0))
+                    elif i in cat.pelt.drapery:
+                        new_sprite.blit(sprites.sprites['drapery' + i + cat_sprite], (0, 0))
+                    elif i in cat.pelt.pridedrapery:
+                        new_sprite.blit(sprites.sprites['pridedrapery' + i + cat_sprite], (0, 0))
+                    elif i in cat.pelt.eyepatches:
+                        new_sprite.blit(sprites.sprites['eyepatches' + i + cat_sprite], (0, 0))
+                    elif i in cat.pelt.larsaccs:
+                        new_sprite.blit(sprites.sprites['larsaccs' + i + cat_sprite], (0, 0))
+                    elif i in cat.pelt.harleyaccs:
+                        new_sprite.blit(sprites.sprites['harleyaccs' + i + cat_sprite], (0, 0))
                
                 except:
                     continue

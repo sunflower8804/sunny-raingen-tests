@@ -1034,11 +1034,27 @@ class PatrolOutcome:
         #necklaces
         elif "NECKLACES" in acc_list:
             acc_list = Pelt.necklaces
+        #drapery
+        elif "DRAPERY" in acc_list:
+            acc_list = Pelt.drapery
+        #pridedrapery
+        elif "PRIDEDRAPERY" in acc_list:
+            acc_list = Pelt.pridedrapery
+        #eyepatches
+        elif "EYEPATCHES" in acc_list:
+            acc_list = Pelt.eyepatches
+        #larsaccs
+        elif "LARSACCS" in acc_list:
+            acc_list = Pelt.larsaccs
+        #harleyaccs
+        elif "HARLEYACCS" in acc_list:
+            acc_list = Pelt.harleyaccs
         #drones used to be here but apparently they are collars
         else:
             acc_list = [x for x in acc_list if x in Pelt.plant_accessories + Pelt.wild_accessories +\
         Pelt.tail_accessories + Pelt.collars + Pelt.lizards + Pelt.insectwings + Pelt.buddies + Pelt.muddypaws +\
-        Pelt.newaccs + Pelt.bodypaint + Pelt.herbs2 + Pelt.implant + Pelt.magic + Pelt.necklaces
+        Pelt.newaccs + Pelt.bodypaint + Pelt.herbs2 + Pelt.implant + Pelt.magic + Pelt.necklaces + Pelt.drapery +\
+        Pelt.pridedrapery + Pelt.eyepatches
                             and x not in cat.pelt.inventory]
 
         if not acc_list:

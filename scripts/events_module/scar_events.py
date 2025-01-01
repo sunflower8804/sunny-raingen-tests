@@ -23,7 +23,7 @@ class Scar_Events():
         "BEAKCHEEK", "BEAKLOWER", "BEAKSIDE"
     ]
     canid_scars = [
-        "LEGBITE", "NECKBITE", "TAILSCAR", "BRIGHTHEART", "DOUBLEBITE"
+        "LEGBITE", "NECKBITE", "TAILSCAR", "BRIGHTHEART", "DOUBLEBITE", "NIBBLEDIDIOT", "NIBBLEDAGAIN"
     ]
     snake_scars = [
         "SNAKE", "SNAKETWO"
@@ -32,10 +32,10 @@ class Scar_Events():
         "ONE", "TWO", "SNOUT", "TAILSCAR", "CHEEK",
         "SIDE", "THROAT", "TAILBASE", "BELLY", "FACE",
         "BRIDGE", "HINDLEG", "BACK", "SCRATCHSIDE",
-        "LABRATFACE", "NEUTRINO", "ENVOYCHEST"
+        "LABRATFACE", "NEUTRINO", "ENVOYCHEST", "CUTOPEN"
     ]
     leg_scars = [
-        "NOPAW", "TOETRAP", "MANLEG", "FOUR"
+        "NOPAW", "TOETRAP", "MANLEG", "FOUR", "MANGLEDARM"
     ]
     tail_scars = [
         "TAILSCAR", "TAILBASE", "NOTAIL", "HALFTAIL", "MANTAIL"
@@ -45,26 +45,32 @@ class Scar_Events():
     ]
     frostbite_scars = [
         "HALFTAIL", "NOTAIL", "NOPAW", 'NOLEFTEAR', 'NORIGHTEAR', 'NOEAR',
-        "FROSTFACE", "FROSTTAIL", "FROSTMITT", "FROSTSOCK",
+        "FROSTFACE", "FROSTTAIL", "FROSTMITT", "FROSTSOCK"
     ]
     eye_scars = [
         "THREE", "RIGHTBLIND", "LEFTBLIND", "BOTHBLIND"
     ]
     burn_scars = [
         "BRIGHTHEART", "BURNPAWS", "BURNTAIL", "BURNBELLY", "BURNRUMP",
-        "HALFFACELEFT", "FULLBODYBURNS", "HALFFACERIGHT", "STARBURN", "ARMBURN"
+        "HALFFACELEFT", "FULLBODYBURNS", "HALFFACERIGHT", "STARBURN", "ARMBURN", "DANGEROUS", "SMOKINGFACE"
     ]
     quill_scars = [
         "QUILLCHUNK", "QUILLSCRATCH", "QUILLSIDE"
     ]
     head_scars = [
-        "SNOUT", "CHEEK", "BRIDGE", "BEAKCHEEK", "LABRATFACE"
+        "SNOUT", "CHEEK", "BRIDGE", "BEAKCHEEK", "LABRATFACE", "BESIEGED"
     ]
     bone_scars = [
-        "MANLEG", "TOETRAP", "FOUR"
+        "MANLEG", "TOETRAP", "FOUR", "DANGEROUS"
     ]
     back_scars = [
-        "TWO", "TAILBASE", "BACK"
+        "TWO", "TAILBASE", "BACK", "NEUTRINO"
+    ]
+    iterator_mangle = [
+        "VIVISECTION", "LABRATCHEST", "LABRATLIMBS", "DANGEROUS", "RESTITCHEDUPPER", "RESTITCHEDLOWER", "STITCHEDHEAD", "FULLBODYBURNS"
+    ]
+    iterator_extraction = [
+         "CUTOPEN", "EXTRACTIONTWO", "EXTRACTIONONE",  "MESSIAH", "ENVOYCHEST"
     ]
     rot_scars = [
         "ROTRIDDEN"
@@ -89,6 +95,8 @@ class Scar_Events():
         "damaged eyes": eye_scars,
         "quilled by porcupine": quill_scars,
         "claw-wound": claw_scars,
+        "mangled pelt": iterator_mangle,
+        "chest wound": iterator_extraction,
         "beak bite": beak_scars,
         "broken jaw": head_scars,
         "broken back": back_scars,
@@ -120,7 +128,7 @@ class Scar_Events():
 
             scar_pool = [i for i in Scar_Events.scar_allowed[injury_name] if i not in cat.pelt.scars]
             if 'NOPAW' in cat.pelt.scars:
-                scar_pool = [i for i in scar_pool if i not in ['TOETRAP', 'RATBITE', "FROSTSOCK", "MANGLEDARM", "FULLBODYBURNS"]]
+                scar_pool = [i for i in scar_pool if i not in ['TOETRAP', 'RATBITE', "FROSTSOCK", "MANGLEDARM", "FULLBODYBURNS", "ARMBURN"]]
             if 'NOTAIL' in cat.pelt.scars:
                 scar_pool = [i for i in scar_pool if
                              i not in ["HALFTAIL", "TAILBASE", "TAILSCAR", "MANTAIL", "BURNTAIL", "FROSTTAIL"]]

@@ -333,6 +333,17 @@ class HandleShortEvents:
             acc_list.extend(Pelt.magic)
         if "NECKLACES" in possible_accs:
             acc_list.extend(Pelt.necklaces)
+        if "DRAPERY" in possible_accs:
+            acc_list.extend(Pelt.drapery)
+        if "PRIDEDRAPERY" in possible_accs:
+            acc_list.extend(Pelt.pridedrapery)
+        if "EYEPATCHES" in possible_accs:
+            acc_list.extend(Pelt.eyepatches)
+        if "LARSACCS" in possible_accs:
+            acc_list.extend(Pelt.larsaccs)
+        if "HARLEYACCS" in possible_accs:
+            acc_list.extend(Pelt.harleyaccs)
+        
 
         for acc in possible_accs:
             if acc not in ["WILD", "PLANT", "COLLAR"]:
@@ -756,7 +767,7 @@ handle_short_events = HandleShortEvents()
 # ---------------------------------------------------------------------------- #
 
 INJURY_GROUPS = {
-    "battle_injury": ["claw-wound", "mangled leg", "mangled tail", "torn pelt", "cat bite"],
+    "battle_injury": ["claw-wound", "mangled leg", "mangled tail", "torn pelt", "cat bite", "mangled pelt", "chest wound"],
     "minor_injury": ["sprain", "sore", "bruises", "scrapes"],
     "blunt_force_injury": ["broken bone", "broken back", "head damage", "broken jaw"],
     "hot_injury": ["heat exhaustion", "heat stroke", "dehydrated"],
