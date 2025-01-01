@@ -164,7 +164,7 @@ class Pelt():
               "LEGBITE", "NECKBITE", "FACE", "MANLEG", "BRIGHTHEART", "MANTAIL", "BRIDGE", "RIGHTBLIND", "LEFTBLIND",
               "BOTHBLIND", "BEAKCHEEK", "BEAKLOWER", "CATBITE", "RATBITE", "QUILLCHUNK", "QUILLSCRATCH", "HINDLEG",
               "BACK", "QUILLSIDE", "SCRATCHSIDE", "BEAKSIDE", "CATBITETWO", "LABRATFACE", "LABRATCHEST", 
-              "NEUTRINO", "MANGLEDARM", "DOUBLEBITE", "DANGEROUS"]
+              "NEUTRINO", "MANGLEDARM", "DOUBLEBITE", "DANGEROUS", "X-FACE"]
 
     # missing parts
     scars2 = ["LEFTEAR", "RIGHTEAR", "NOTAIL", "HALFTAIL", "NOPAW", "NOLEFTEAR", "NORIGHTEAR", "NOEAR"]
@@ -173,7 +173,7 @@ class Pelt():
     scars3 = ["SNAKE", "TOETRAP", "BURNPAWS", "BURNTAIL", "BURNBELLY", "BURNRUMP", "FROSTFACE", "FROSTTAIL",
               "FROSTMITT", "FROSTSOCK", "TOE", "SNAKETWO", "ROTMARKED", "ROTRIDDEN", "TOPSURGERY", "CUTOPEN", 
               "VIVISECTION", "LABRATLIMBS", "HALFFACELEFT", "FULLBODYBURNS", "BESIEGED", "HALFFACERIGHT", 
-              "STARBURN", "ARMBURN", "ENVOYCHEST",  "EXTRACTIONONE", "EXTRACTIONTWO", "RESTITCHEDUPPER", 
+              "STARBURN", "ARMBURN", "ENVOYCHEST", "EXTRACTIONTWO", "RESTITCHEDUPPER", 
               "RESTITCHEDLOWER", "STITCHEDHEAD", "MESSIAH", "SMOKINGFACE", "BURNTLEG", "BURNTARM"]
 
     # make sure to add plural and singular forms of new accs to acc_display.json so that they will display nicely
@@ -895,12 +895,10 @@ class Pelt():
             "VIVISECTION", 
             "LABRATCHEST", 
             "LABRATLIMBS", 
-            "DANGEROUS", 
             "RESTITCHEDUPPER", 
             "RESTITCHEDLOWER", 
             "STITCHEDHEAD",
             "EXTRACTIONTWO", 
-            "EXTRACTIONONE", 
             "MESSIAH", 
             "ENVOYCHEST"
         ]
