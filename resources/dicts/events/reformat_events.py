@@ -375,7 +375,8 @@ def reformat(path):
                             "small cut", "torn pelt", "torn ear", "frostbite", "recovering from birth", "rotsickness",
                             "water in their lungs", "burn", "severe burn", "shock", "lingering shock",
                             "shivering", "dehydrated", "head damage", "damaged eyes", "quilled by a porcupine",
-                            "broken back", "poisoned", "bee sting", "headache", "severe headache", "pregnant"]
+                            "broken back", "poisoned", "bee sting", "headache", "severe headache", "pregnant",
+                            "mangled pelt", "chest wound"]
 
                 pools = ["battle_injury", "minor_injury", "blunt_force_injury", "hot_injury", "cold_injury",
                          "big_bite_injury", "small_bite_injury", "beak_bite", "rat_bite", "rotrecovery"]
