@@ -796,12 +796,10 @@ def create_new_cat(
             "VIVISECTION", 
             "LABRATCHEST", 
             "LABRATLIMBS", 
-            "DANGEROUS", 
             "RESTITCHEDUPPER", 
             "RESTITCHEDLOWER", 
             "STITCHEDHEAD",
             "EXTRACTIONTWO", 
-            "EXTRACTIONONE", 
             "MESSIAH", 
             "ENVOYCHEST"
         ]
