@@ -32,7 +32,7 @@ class Scar_Events():
         "ONE", "TWO", "SNOUT", "TAILSCAR", "CHEEK",
         "SIDE", "THROAT", "TAILBASE", "BELLY", "FACE",
         "BRIDGE", "HINDLEG", "BACK", "SCRATCHSIDE",
-        "LABRATFACE", "NEUTRINO", "ENVOYCHEST"
+        "LABRATFACE", "NEUTRINO", "ENVOYCHEST", "X-FACE"
     ]
     leg_scars = [
         "NOPAW", "TOETRAP", "MANLEG", "FOUR", "MANGLEDARM"
@@ -71,7 +71,7 @@ class Scar_Events():
         "VIVISECTION", "LABRATCHEST", "LABRATLIMBS", "DANGEROUS", "RESTITCHEDUPPER", "RESTITCHEDLOWER", "STITCHEDHEAD", "FULLBODYBURNS"
     ]
     iterator_extraction = [
-        "CUTOPEN", "EXTRACTIONTWO", "EXTRACTIONONE", "MESSIAH", "ENVOYCHEST"
+        "CUTOPEN", "EXTRACTIONTWO", "MESSIAH", "ENVOYCHEST"
     ]
     rot_scars = [
         "ROTRIDDEN"
