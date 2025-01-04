@@ -200,6 +200,15 @@
 			"allow_eye_names allows cats to be named after the color of their eyes - true by default"
 		]
 	},
+	"feature_generation": {
+	"feature_chances": [30, 13, 13, 6, 4, 12, 10, 2, 3, 2, 2, 1, 2],
+	"comment": [
+		"These are the chances of each feature. They add up to 100, so they can be viewed as percenages",
+		"The order is:",
+		"empty, gills, tongues, spearholes, claws, antennae, glowspots, ramhorns, scavhorns, elitehorns, sharphorns, dragonhorns, unihorns",
+		"The default chances are 30, 13, 13, 6, 4, 12, 10, 2, 3, 2, 2, 1, 2"
+	]
+	},
 	"accessory_generation": {
 		"base_acc_chance": 150,
 		"med_modifier": -50,
