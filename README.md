@@ -7,9 +7,9 @@ Fan-made community project aiming to change Clangen to take place in Rain World'
 It's work in progress! You can contribute anytime through our [discord server](https://discord.gg/Zyj6vTq4rS). 
 
 ## Installation
-[Download here!](https://github.com/DevilKitten/Raingen/releases)
+[Download here!](https://github.com/DevilKitten/Raingen/releases/latest)
 
-Choose the latest release and click the version that works with your OS.
+Click on "assets" and choose the version that works with your OS.
 
 (if you don't know what OS you're on - you're probably on windows; click "Raingen_Win64_Windows10+.zip")
 
