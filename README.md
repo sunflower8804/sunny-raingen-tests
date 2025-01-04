@@ -4,11 +4,18 @@
 #### [clangen discord](https://discord.gg/clangen) || [clangen website](https://clangen.io/) || [clangen github](https://github.com/ClanGenOfficial/clangen)
 Fan-made community project aiming to change Clangen to take place in Rain World's setting. 
 
-It's a work in progress! You can contribute to it anytime through our [discord server](https://discord.gg/Zyj6vTq4rS). 
+It's work in progress! You can contribute anytime through our [discord server](https://discord.gg/Zyj6vTq4rS). 
 
 ## Installation
-The latest release is on [this page.](https://github.com/DevilKitten/Raingen/releases)
+[Download here!](https://github.com/DevilKitten/Raingen/releases/latest)
 
-If you're a developer or a modder, you can run RainGen from source code. Works exactly the same as source code version of ClanGen. If you're not familiar with it:
+Click on "assets" and choose the version that works with your OS.
 
-Click the green "Code" button on top of this page, then "Download ZIP". Unzip it and then follow [this tutorial. The process is described for LifeGen, but it works for RainGen too.](https://docs.google.com/document/d/1Iakhi3sWnx9ubc3njK4k07xttQilN5W4WITgknla59Q/edit).
+(if you don't know what OS you're on - you're probably on windows; click "Raingen_Win64_Windows10+.zip")
+
+It's a standalone mod, which means it functions as a separate game from ClanGen - no need to replace any files, just open RainGen.exe and play!
+
+
+If you're a developer or a modder, you can open RainGen from source code. Works exactly the same as opening source code version of ClanGen. If you're not familiar with it:
+
+Click the green "Code" button on top of this page, then click "Download ZIP", then unzip the file. ClanGen has [a tutorial](https://github.com/ClanGenOfficial/clangen?tab=readme-ov-file#running-from-source) for running from source. If you're struggling to follow it, [here](https://docs.google.com/document/d/1Iakhi3sWnx9ubc3njK4k07xttQilN5W4WITgknla59Q/edit) is a more in-depth guide. The described process is for LifeGen, but it works for RainGen too.
