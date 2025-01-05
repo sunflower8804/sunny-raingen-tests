@@ -131,7 +131,7 @@ class Sprites:
 
         for x in [
             'lineart', 'lineartdf', 'lineartdead',
-            'eyes', 'eyes2', 'skin', 'gilltongue', 'beagilltongue', 'horns',
+            'eyes', 'eyes2', 'skin', 'gilltongue', 'beagilltongue', 'horns', 'fancyskin',
             'scars', 'missingscars',
             'medcatherbs',
             'collars', 'bellcollars', 'bowcollars', 'nyloncollars', 'rwlizards', 'drones', 'muddypaws', 
@@ -772,6 +772,20 @@ class Sprites:
             self.make_group('horns', (a, 4), f"skin{i}")
         for a, i in enumerate(['WHITEHORNSLANCER', 'BLACKHORNSLANCER', 'REDHORNSLANCER', 'YELLOWHORNSLANCER', 'GREENHORNSLANCER', 'BLUEHORNSLANCER', 'ORANGEHORNSLANCER', 'BROWNHORNSLANCER']):
             self.make_group('horns', (a, 5), f"skin{i}")
+
+        #fancyskin spritesheet
+        for a, i in enumerate(['WHITEMOTH', 'BLACKMOTH', 'REDMOTH', 'YELLOWMOTH', 'GREENMOTH', 'BLUEMOTH', 'ORANGEMOTH', 'BROWNMOTH']):
+            self.make_group('fancyskin', (a, 0), f"skin{i}")
+        for a, i in enumerate(['WHITEWHISKERS', 'BLACKWHISKERS', 'REDWHISKERS', 'YELLOWWHISKERS', 'GREENWHISKERS', 'BLUEWHISKERS', 'ORANGEWHISKERS', 'BROWNWHISKERS']):
+            self.make_group('fancyskin', (a, 1), f"skin{i}")
+        for a, i in enumerate(['PINKFINS', 'BLUEFINS', 'REDFINS', 'GREENFINS', 'YELLOWFINS', 'WHITEFINS', 'BLACKNEEDLES', 'WHITENEEDLES']):
+            self.make_group('fancyskin', (a, 2), f"skin{i}")
+        for a, i in enumerate(['WHITECYAN', 'ORANGECYAN', 'BROWNCYAN', 'PINKCYAN', 'PINKERCYAN', 'TEALCYAN', 'GREENCYAN', 'BLOODYCYAN']):
+            self.make_group('fancyskin', (a, 3), f"skin{i}")
+        for a, i in enumerate(['LAVENDERCYAN', 'PURPLECYAN', 'CYANCYAN', 'BLUECYAN', 'DARKBLUECYAN', 'DARKPURPLECYAN', 'BLACKCYAN', 'EGGCYAN']):
+            self.make_group('fancyskin', (a, 4), f"skin{i}")
+        for a, i in enumerate(['YELLOWCYAN', 'RAINBOWNEEDLES', 'CYANWINGS']):
+            self.make_group('fancyskin', (a, 5), f"skin{i}")
 
         self.load_scars()
         self.load_symbols()

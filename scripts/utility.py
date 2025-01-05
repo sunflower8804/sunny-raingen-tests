@@ -775,7 +775,7 @@ def create_new_cat(
                 )
 
         if age > 12:
-            if not randint(0, 128):   #0 = trans
+            if not randint(0, 50):   #0 = trans
                 print('TRANS!!!!')
                 if not randint(0, 2):   #0 = nonbinary
                     if _gender == "male":
@@ -808,7 +808,7 @@ def create_new_cat(
             if new_cat.genderalign == "trans male" or new_cat.genderalign == "nonbinary":
                 new_cat.pelt.scars.append("TOPSURGERY")
 
-            if not randint(0, 5): #1 out of 5
+            if not randint(0, 10): #1 out of 5
                 new_cat.pelt.scars.append(choice(mutilation_scars)) 
                 
         # give em a collar if they got one
@@ -840,6 +840,10 @@ def create_new_cat(
         for scar in new_cat.pelt.scars:
             if scar in not_allowed:
                 new_cat.pelt.scars.remove(scar)
+        if age < 6:
+            for scar in new_cat.pelt.scars:
+                if scar in mutilation_scars:
+                    new_cat.pelt.scars.remove(scar)
 
         # chance to give the new cat a permanent condition, higher chance for found kits and litters
         if game.clan.game_mode != "classic":
@@ -2513,6 +2517,15 @@ def generate_sprite(
                 sprites.sprites["white" + cat.pelt.vitiligo + cat_sprite], (0, 0)
             )
 
+        # draw non-boba eyes
+        if cat.pelt.eye_colour not in Pelt.riveye_colours:
+            eyes = sprites.sprites["eyes" + cat.pelt.eye_colour + cat_sprite].copy()
+            if cat.pelt.eye_colour2 != None:
+                eyes.blit(
+                    sprites.sprites["eyes2" + cat.pelt.eye_colour2 + cat_sprite], (0, 0)
+                )
+            new_sprite.blit(eyes, (0, 0))
+
         # draw scars1
         if not scars_hidden:
             for scar in cat.pelt.scars:
@@ -2541,13 +2554,14 @@ def generate_sprite(
         elif dead:
             new_sprite.blit(sprites.sprites["lineartdead" + cat_sprite], (0, 0))
             
-        # draw eyes (riv boba eyes activate)
-        eyes = sprites.sprites["eyes" + cat.pelt.eye_colour + cat_sprite].copy()
-        if cat.pelt.eye_colour2 != None:
-            eyes.blit(
-                sprites.sprites["eyes2" + cat.pelt.eye_colour2 + cat_sprite], (0, 0)
-            )
-        new_sprite.blit(eyes, (0, 0))
+        # draw riv boba eyes
+        if cat.pelt.eye_colour in Pelt.riveye_colours:
+            eyes = sprites.sprites["eyes" + cat.pelt.eye_colour + cat_sprite].copy()
+            if cat.pelt.eye_colour2 != None:
+                eyes.blit(
+                    sprites.sprites["eyes2" + cat.pelt.eye_colour2 + cat_sprite], (0, 0)
+                )
+            new_sprite.blit(eyes, (0, 0))
 
         # draw skin and scars2
         blendmode = pygame.BLEND_RGBA_MIN

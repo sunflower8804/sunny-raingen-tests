@@ -349,7 +349,13 @@ class Pelt():
     sharphorns = ['WHITEHORNSSHARP', 'BLACKHORNSSHARP', 'REDHORNSSHARP', 'YELLOWHORNSSHARP', 'GREENHORNSSHARP', 'BLUEHORNSSHARP', 'ORANGEHORNSSHARP', 'BROWNHORNSSHARP']
     dragonhorns = ['WHITEHORNSDRAGON', 'BLACKHORNSDRAGON', 'REDHORNSDRAGON', 'YELLOWHORNSDRAGON', 'GREENHORNSDRAGON', 'BLUEHORNSDRAGON', 'ORANGEHORNSDRAGON', 'BROWNHORNSDRAGON']
     unihorns = ['WHITEHORNSLANCER', 'BLACKHORNSLANCER', 'REDHORNSLANCER', 'YELLOWHORNSLANCER', 'GREENHORNSLANCER', 'BLUEHORNSLANCER', 'ORANGEHORNSLANCER', 'BROWNHORNSLANCER']
-    skin_categories = [empty, gills, tongues, spearholes, claws, antennae, glowspots, ramhorns, scavhorns, elitehorns, sharphorns, dragonhorns, unihorns]
+    moth = ['WHITEMOTH', 'BLACKMOTH', 'REDMOTH', 'YELLOWMOTH', 'GREENMOTH', 'BLUEMOTH', 'ORANGEMOTH', 'BROWNMOTH']
+    whiskers = ['WHITEWHISKERS', 'BLACKWHISKERS', 'REDWHISKERS', 'YELLOWWHISKERS', 'GREENWHISKERS', 'BLUEWHISKERS', 'ORANGEWHISKERS', 'BROWNWHISKERS']
+    lizardfins = ['PINKFINS', 'BLUEFINS', 'REDFINS', 'GREENFINS', 'YELLOWFINS', 'WHITEFINS']
+    lizardneedles = ['BLACKNEEDLES', 'WHITENEEDLES', 'RAINBOWNEEDLES']
+    cyanwings = ['CYANWINGS']
+    cyanfeatures = ['WHITECYAN', 'ORANGECYAN', 'BROWNCYAN', 'PINKCYAN', 'PINKERCYAN', 'TEALCYAN', 'GREENCYAN', 'BLOODYCYAN', 'LAVENDERCYAN', 'PURPLECYAN', 'CYANCYAN', 'BLUECYAN', 'DARKBLUECYAN', 'DARKPURPLECYAN', 'BLACKCYAN', 'EGGCYAN', 'YELLOWCYAN']
+    skin_categories = [empty, gills, tongues, spearholes, claws, antennae, glowspots, ramhorns, scavhorns, elitehorns, sharphorns, dragonhorns, unihorns, moth, whiskers, lizardfins, lizardneedles, cyanwings, cyanfeatures]
     #skin_weights = [40, 10, 10, 6, 4, 10, 8, 2, 3, 2, 2, 1, 2]
     skin_weights = game.config["feature_generation"]["feature_chances"]
 
@@ -552,6 +558,9 @@ class Pelt():
         multieyenum = game.config["cat_generation"]["base_multieyes"]
         riveyenum = game.config["cat_generation"]["base_riveyes"]
 
+        if not random.randint(0, riveyenum):
+            self.eye_colour = choice(Pelt.riveye_colours)
+
         if not random.randint(0, num):
             if self.eye_colour in Pelt.yellow_eyes:
                 eye_choice = choice([Pelt.blue_eyes, Pelt.green_eyes, Pelt.red_eyes])
@@ -587,11 +596,8 @@ class Pelt():
                 eye_choice = choice([Pelt.yellow_riv_eyes, Pelt.blue_riv_eyes])
                 self.eye_colour2 = choice(eye_choice)
         
-        elif not random.randint(0, multieyenum):
+        elif not random.randint(0, multieyenum) and self.eye_colour not in Pelt.riveye_colours:
             self.eye_colour2 = 'MULTI'+self.eye_colour
-            
-        if not random.randint(0, riveyenum):
-            self.eye_colour = choice(Pelt.riveye_colours)
 
     def pattern_color_inheritance(self, parents: tuple = (), gender="female"):
         # setting parent pelt categories
