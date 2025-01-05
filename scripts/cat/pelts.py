@@ -125,7 +125,12 @@ class Pelt():
     red_eyes = ['RED', 'PURPLE', 'MAUVE', 'VIOLET', 'PINK', 'CRIMSON', 'COOLBROWN', 'PLUM', 'LILAC', 
                 'MINT', 'PEACH', 'ALBINO', 'DAWN']
     
-
+    riveye_colours = ['RIVYELLOW', 'RIVAMBER', 'RIVHAZEL', 'RIVPALEGREEN', 'RIVGREEN', 'RIVBLUE', 'RIVDARKBLUE', 'RIVGREY', 'RIVCYAN', 'RIVEMERALD', 'RIVPALEBLUE', 
+               'RIVPALEYELLOW', 'RIVGOLD', 'RIVHEATHERBLUE', 'RIVCOPPER', 'RIVSAGE', 'RIVCOBALT', 'RIVSUNLITICE', 'RIVGREENYELLOW', 'RIVBRONZE', 'RIVSILVER']
+    yellow_riv_eyes = ['RIVYELLOW', 'RIVAMBER', 'RIVPALEYELLOW', 'RIVGOLD', 'RIVCOPPER', 'RIVGREENYELLOW', 'RIVBRONZE', 'RIVSILVER']
+    blue_riv_eyes = ['RIVBLUE', 'RIVDARKBLUE', 'RIVCYAN', 'RIVPALEBLUE', 'RIVHEATHERBLUE', 'RIVCOBALT', 'RIVSUNLITICE']
+    green_riv_eyes = ['RIVPALEGREEN', 'RIVGREEN', 'RIVEMERALD', 'RIVSAGE']
+    
     yellow_pupil_eyes = ['ALBA', 'BANANA', 'CREAMY', 'KARMA', 'MHUNT', 'PEPPER', 'SPLIT', 'WINKS', 'ZENI', 'BEAST']
     blue_pupil_eyes = ['CARNI', 'CHAIN', 'FOAM', 'MEISTALT', 'MELON', 'MINV', 'MOON', 'MRIV', 'PEBB', 'RUST', 'SIG', 
                  'TIDE', 'VIVID', 'WAVE']
@@ -152,13 +157,6 @@ class Pelt():
                 'MULTIVIVID', 'MULTIWAVE', 'MULTIWINKS', 'MULTIZENI', 'MULTIBEAST'
                 ]
     # rivulet eye colours by @bucketofmackerels on discord
-    #riveye_colours = ['RIVYELLOW', 'RIVAMBER', 'RIVHAZEL', 'RIVPALEGREEN', 'RIVGREEN', 'RIVBLUE', 'RIVDARKBLUE', 'RIVGREY', 'RIVCYAN', 'RIVEMERALD', 'RIVPALEBLUE', 
-    #            'RIVPALEYELLOW', 'RIVGOLD', 'RIVHEATHERBLUE', 'RIVCOPPER', 'RIVSAGE', 'RIVCOBALT', 'RIVSUNLITICE', 'RIVGREENYELLOW', 'RIVBRONZE', 'RIVSILVER'
-    #            ]
-#
-    #yellow_riv_eyes = ['RIVYELLOW', 'RIVAMBER', 'RIVPALEYELLOW', 'RIVGOLD', 'RIVCOPPER', 'RIVGREENYELLOW', 'RIVBRONZE', 'RIVSILVER']
-    #blue_riv_eyes = ['RIVBLUE', 'RIVDARKBLUE', 'RIVCYAN', 'RIVPALEBLUE', 'RIVHEATHERBLUE', 'RIVCOBALT', 'RIVSUNLITICE']
-    #green_riv_eyes = ['RIVPALEGREEN', 'RIVGREEN', 'RIVEMERALD', 'RIVSAGE']
     
     # bite scars by @wood pank on discord
 
@@ -487,6 +485,10 @@ class Pelt():
                 self.eye_colour2 = "GREEN"
             self.eye_colour = "BLUE"
 
+        # Convert the old skin lol
+        if self.skin in convert_dict["old_sharphorns"]:
+            self.skin = convert_dict["old_sharphorns"][self.skin]
+
         if self.length == 'long':
             if self.cat_sprites['adult'] not in [9, 10, 11]:
                 if self.cat_sprites['adult'] == 0:
@@ -548,6 +550,7 @@ class Pelt():
             num = 1
             
         multieyenum = game.config["cat_generation"]["base_multieyes"]
+        riveyenum = game.config["cat_generation"]["base_riveyes"]
 
         if not random.randint(0, num):
             if self.eye_colour in Pelt.yellow_eyes:
@@ -586,6 +589,9 @@ class Pelt():
         
         elif not random.randint(0, multieyenum):
             self.eye_colour2 = 'MULTI'+self.eye_colour
+            
+        if not random.randint(0, riveyenum):
+            self.eye_colour = choice(Pelt.riveye_colours)
 
     def pattern_color_inheritance(self, parents: tuple = (), gender="female"):
         # setting parent pelt categories

@@ -149,7 +149,7 @@ class Sprites:
             'oldgrowthcolours', 'sparklecatcolours', 'wolfcolours', 'sunsetcolours', 'hypnotistcolours',
             'ringedcolours', 'skinnycolours', 'sparsecolours', 'impishcolours', 'sportycolours', 
             'fizzycolours', 'skeletoncolours', 'shredcolours', 'glowingcolours', 'moldcolours',
-            'raineyes', 'raineyes2', 'multieyes', 'multiraineyes', 'larseyes', 'multilarseyes', 'larseyes2',
+            'raineyes', 'raineyes2', 'multieyes', 'multiraineyes', 'larseyes', 'multilarseyes', 'larseyes2', 'rivuleteyes', 'rivuleteyes2',
             'shadersnewwhite', 'lightingnew',
             'whitepatches', 'tortiepatchesmasks',
             'fademask', 'fadestarclan', 'fadedarkforest',
@@ -254,16 +254,16 @@ class Sprites:
             self.make_group('multilarseyes', (a, 4), f'eyes2{i}')
                     
         #rivulet eyes
-        #for a, i in enumerate(
-        #        ['RIVYELLOW', 'RIVAMBER', 'RIVHAZEL', 'RIVPALEGREEN', 'RIVGREEN', 'RIVBLUE', 
-        #        'RIVDARKBLUE', 'RIVGREY', 'RIVCYAN', 'RIVEMERALD', 'RIVHEATHERBLUE', 'RIVSUNLITICE']):
-        #    self.make_group('rivuleteyes', (a, 0), f'rivuleteyes{i}')
-        #    self.make_group('rivuleteyes2', (a, 0), f'rivuleteyes2{i}')
-        #for a, i in enumerate(
-        #        ['RIVCOPPER', 'RIVSAGE', 'RIVCOBALT', 'RIVPALEBLUE', 'RIVBRONZE', 'RIVSILVER',
-        #        'RIVPALEYELLOW', 'RIVGOLD', 'RIVGREENYELLOW']):
-        #    self.make_group('rivuleteyes', (a, 1), f'rivuleteyes{i}')
-        #    self.make_group('rivuleteyes2', (a, 1), f'rivuleteyes2{i}')
+        for a, i in enumerate(
+                ['RIVYELLOW', 'RIVAMBER', 'RIVHAZEL', 'RIVPALEGREEN', 'RIVGREEN', 'RIVBLUE', 
+                'RIVDARKBLUE', 'RIVGREY', 'RIVCYAN', 'RIVEMERALD', 'RIVHEATHERBLUE', 'RIVSUNLITICE']):
+            self.make_group('rivuleteyes', (a, 0), f'eyes{i}')
+            self.make_group('rivuleteyes2', (a, 0), f'eyes2{i}')
+        for a, i in enumerate(
+                ['RIVCOPPER', 'RIVSAGE', 'RIVCOBALT', 'RIVPALEBLUE', 'RIVBRONZE', 'RIVSILVER',
+                'RIVPALEYELLOW', 'RIVGOLD', 'RIVGREENYELLOW']):
+            self.make_group('rivuleteyes', (a, 1), f'eyes{i}')
+            self.make_group('rivuleteyes2', (a, 1), f'eyes2{i}')
 
         # white patches
         for a, i in enumerate(['FULLWHITE', 'ANY', 'TUXEDO', 'LITTLE', 'COLOURPOINT', 'VAN', 'ANYTWO',
